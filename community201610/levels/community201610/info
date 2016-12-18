@@ -1,0 +1,5 @@
+(supertux-level-subset
+  (title (_ "Community Level Contest October 2016"))
+  (description (_ "Community Level Contest October 2016 Proposals"))
+  (levelset #f)
+  (hide-from-contribs #f))

@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "community201610")
+  (version 1)
+  (type "worldmap")
+  (title "Community Level Contest October 2016")
+  (author "Various Contributors")
+  (license "CC-BY-SA 4.0 International"))
