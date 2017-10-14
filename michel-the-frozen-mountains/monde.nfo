@@ -1,0 +1,8 @@
+(supertux-addoninfo
+ (id "michel-the-frozen-mountains")
+ (version 1)
+ (type "world")
+ (title "The Frozen Mountains / Les montagnes glaciales")
+ (author "Michel")
+ (license "GPL 2 / CC-by-sa")
+)
