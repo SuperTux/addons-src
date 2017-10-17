@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-01 00:00+0100\n"
+"PO-Revision-Date: 2015-01-01 00:00+0100\n"
+"Last-Translator: Michel Di Salvo\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: England\n"
+
+﻿#: levels/monde/info
+msgid "The Frozen Mountains / Les montagnes glaciales"
+msgstr "The Frozen Mountains"
+
+#: levels/monde/niveau1.stl
+msgid "In the Sky of the Night"
+msgstr "In the Sky of the Night"
+
+#: levels/monde/niveau2.stl
+msgid "Haunted Cave"
+msgstr "Haunted Cave"
+
+#: levels/monde/niveau3.stl
+msgid "Nocturnal Floe"
+msgstr "Nocturnal Floe"
+
+#: levels/monde/niveau4.stl
+msgid "Deep Cavern"
+msgstr "Deep Cavern"
+
+#: levels/monde/niveau5.stl
+msgid "Freezing Dusk"
+msgstr "Freezing Dusk"
+
+#: levels/monde/niveau6.stl
+msgid "Distant Ices"
+msgstr "Distant Ices"
+
+#: levels/monde/niveau7.stl
+msgid "Always Higher"
+msgstr "Always Higher"
+
+#: levels/monde/niveau8.stl
+msgid "Magic Mountains"
+msgstr "Magic Mountains"
+
+#: levels/monde/niveau9.stl
+msgid "Object Holder"
+msgstr "Object Holder"
+
+#: levels/monde/niveau10.stl
+msgid "Freezing Sky"
+msgstr "Freezing Sky"
+
+#: levels/monde/niveau11.stl
+msgid "High mountain paths"
+msgstr "High mountain paths"
+
+#: levels/monde/niveau12.stl
+msgid "Le sentier du bisse / The path of the irrigation canal"
+msgstr "The path of the irrigation canal"
+
+#: levels/monde/niveau13.stl
+msgid "Le long du Bisse Vertigineux / Along the vertiginous irrigation canal"
+msgstr "Along the vertiginous irrigation canal"
+
+#: levels/monde/niveau14.stl
+msgid "Warning! Fatal fall hazard! / Attention! Danger de chute mortelle!"
+msgstr "Warning! Fatal fall hazard!"
+
+#: levels/monde/niveau15.stl
+msgid "Les collines paisibles / Peaceful hills"
+msgstr "Peaceful hills"
+
+#: levels/monde/niveau16.stl
+msgid "Bienvenu à la montagne / welcome to the mountain"
+msgstr "Welcome to the mountain"
+
+#: levels/monde/niveau17.stl
+msgid "La forêt de Glace / Ice Forest"
+msgstr "Ice Forest"
+
+#: levels/monde/niveau18.stl
+msgid "Le sentier de l'arête / The ridge trail"
+msgstr "The ridge trail"
+
+#: levels/monde/niveau19.stl
+msgid "La cheminée vertigineuse / The vertiginous chimney"
+msgstr "The vertiginous chimney"
+
+#: levels/monde/niveau20.stl
+msgid "Orage Violent / Thunderstorm"
+msgstr "Violent Thunderstorm"
+
+#: levels/monde/niveau21.stl
+msgid "Le dévers du dahu / The Dahu Overturn"
+msgstr "The Dahu Overturn"
+
+#: levels/monde/niveau22.stl
+msgid "The two thousand waterfall valley / La vallée aux deux milles cascades"
+msgstr "The two thousand Waterfalls Valley"
+
+#: levels/monde/niveau2.stl
+msgid "#Caution! It is strictly forbidden to enter the cave. Danger of Death!"
+msgstr "#Caution! It is strictly forbidden to enter the cave. Danger of Death!"
+
+#: levels/monde/niveau2.stl
+msgid "#An old legend says that this cave is haunted by evil spirits that would curse everyone that enter the cave. Never anyone went out of the cave alive!"
+msgstr "#An old legend says that this cave is haunted by evil spirits that would curse everyone that enter the cave. Never anyone went out of the cave alive!"
+
+#: levels/monde/niveau2.stl
+msgid "#According to the legend, the ghost that reigns on this cave would offer his treasure to anyone who manages to cross the cave and come out alive..."
+msgstr "#According to the legend, the ghost that reigns on this cave would offer his treasure to anyone who manages to cross the cave and come out alive..."
+
+#: levels/monde/niveau9.stl
+msgid "#The blocks placed on the left can be moved by pressing on the Action key. Pile the blocks in order to go up on them, and jump over the wall."
+msgstr "#The blocks placed on the left can be moved by pressing on the Action key. Pile the blocks in order to go up on them, and jump over the wall."
+
+#: levels/monde/niveau9.stl
+msgid "#The trampoline placed on the right can be moved by pressing on the Action key. Put the trampoline in front of the wall to jump over the wall."
+msgstr "#The trampoline placed on the right can be moved by pressing on the Action key. Put the trampoline in front of the wall to jump over the wall."
+
+#: levels/monde/niveau9.stl
+msgid "#The lantern placed to the left can be moved by pressing the Action key. The light of the lantern allows you to walk on the magic blocs."
+msgstr "#The lantern placed to the left can be moved by pressing the Action key. The light of the lantern allows you to walk on the magic blocs."
+
+#: levels/monde/niveau9.stl
+msgid "#An ice block that walks can be caught and carried away. For that, jump on the ice block in order to immobilize it, then use the Action key to move it."
+msgstr "#An ice block that walks can be caught and carried away. For that, jump on the ice block in order to immobilize it, then use the Action key to move it."
+
+#: levels/monde/niveau9.stl
+msgid "#The blocks of wood that obstruct the way to the right can be broken by throwing an ice block on it."
+msgstr "#The blocks of wood that obstruct the way to the right can be broken by throwing an ice block on it."
