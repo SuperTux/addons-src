@@ -2,6 +2,6 @@
   (id "serano-islands")
   (version 1)
   (type "worldmap")
-  (title "Serano's islands")
+  (title "Serano's Islands")
   (author "Serano")
   (license "GPL 2+ / CC-by-sa 3.0"))
