@@ -1,5 +1,5 @@
 (supertux-world
- (title (_ "The Frozen Mountains / Les montagnes glaciales"))
+ (title (_ "The Frozen Mountains"))
  (description "SuperTux must cross my Frozen Mountains in order to save Penny")
  (hide-from-contribs #f)
  (levelset #f)

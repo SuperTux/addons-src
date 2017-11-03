@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "The two thousand waterfall valley / La vallée aux deux milles cascades"))
+  (name (_ "The two thousand waterfalls valley"))
   (author "Michel")
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
@@ -1795,30 +1795,6 @@
     (mrbomb
       (x 1893)
       (y 168)
-    )
-    (rock
-      (x 2624)
-      (y 992)
-    )
-    (rock
-      (x 2720)
-      (y 1024)
-    )
-    (rock
-      (x 2752)
-      (y 1024)
-    )
-    (rock
-      (x 2688)
-      (y 992)
-    )
-    (rock
-      (x 2656)
-      (y 960)
-    )
-    (rock
-      (x 2624)
-      (y 1024)
     )
     (rock
       (x 2688)

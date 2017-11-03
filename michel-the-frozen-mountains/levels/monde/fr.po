@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-Country: France\n"
 
 #: levels/monde/info
-msgid "The Frozen Mountains / Les montagnes glaciales"
+msgid "The Frozen Mountains"
 msgstr "Les montagnes glaciales"
 
 #: levels/monde/niveau1.stl
@@ -61,47 +61,47 @@ msgid "High mountain paths"
 msgstr "Les chemins de haute montagne"
 
 #: levels/monde/niveau12.stl
-msgid "Le sentier du bisse / The path of the irrigation canal"
+msgid "The path of the irrigation canal"
 msgstr "Le sentier du bisse"
 
 #: levels/monde/niveau13.stl
-msgid "Le long du Bisse Vertigineux / Along the vertiginous irrigation canal"
+msgid "Along the vertiginous irrigation canal"
 msgstr "Le long du Bisse Vertigineux"
 
 #: levels/monde/niveau14.stl
-msgid "Warning! Fatal fall hazard! / Attention! Danger de chute mortelle!"
+msgid "Warning! Fatal fall hazard!"
 msgstr "Attention! Danger de chute mortelle!"
 
 #: levels/monde/niveau15.stl
-msgid "Les collines paisibles / Peaceful hills"
+msgid "Peaceful hills"
 msgstr "Les collines paisibles"
 
 #: levels/monde/niveau16.stl
-msgid "Bienvenu à la montagne / welcome to the mountain"
+msgid "Welcome to the mountain"
 msgstr "Bienvenu à la montagne"
 
 #: levels/monde/niveau17.stl
-msgid "La forêt de Glace / Ice Forest"
+msgid "Ice Forest"
 msgstr "La forêt de Glace"
 
 #: levels/monde/niveau18.stl
-msgid "Le sentier de l'arête / The ridge trail"
+msgid "The ridge trail"
 msgstr "Le sentier de l'arête"
 
 #: levels/monde/niveau19.stl
-msgid "La cheminée vertigineuse / The vertiginous chimney"
+msgid "The vertiginous chimney"
 msgstr "La cheminée vertigineuse"
 
 #: levels/monde/niveau20.stl
-msgid "Orage Violent / Thunderstorm"
+msgid "Thunderstorm"
 msgstr "Orage Violent"
 
 #: levels/monde/niveau21.stl
-msgid "Le dévers du dahu / The Dahu Overturn"
+msgid "The Dahu Overturn"
 msgstr "Le dévers du dahu"
 
 #: levels/monde/niveau22.stl
-msgid "The two thousand waterfall valley / La vallée aux deux milles cascades"
+msgid "The two thousand waterfalls valley"
 msgstr "La vallée aux deux milles cascades"
 
 #: levels/monde/niveau2.stl

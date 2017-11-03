@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Le sentier du bisse / The path of the irrigation canal"))
+  (name (_ "The path of the irrigation canal"))
   (author "Michel")
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector

@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "La cheminée vertigineuse / The vertiginous chimney"))
+  (name (_ "The vertiginous chimney"))
   (author "michel")
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector

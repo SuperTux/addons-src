@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "La forêt de Glace / Ice Forest"))
+  (name (_ "Ice Forest"))
   (author "michel")
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector

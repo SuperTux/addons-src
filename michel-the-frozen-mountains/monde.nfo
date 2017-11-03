@@ -2,7 +2,7 @@
  (id "michel-the-frozen-mountains")
  (version 1)
  (type "world")
- (title "The Frozen Mountains / Les montagnes glaciales")
+ (title "The Frozen Mountains")
  (author "Michel")
  (license "GPL 2 / CC-by-sa")
 )
