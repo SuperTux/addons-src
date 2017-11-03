@@ -1,0 +1,6 @@
+(supertux-level-subset
+  (title (_ "Crystal Mine"))
+  (description (_ "An upcoming level for v0.6"))
+  (levelset #f)
+  (hide-from-contribs #f)
+)
