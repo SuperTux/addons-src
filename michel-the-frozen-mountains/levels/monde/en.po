@@ -13,8 +13,8 @@ msgstr ""
 "X-Poedit-Country: England\n"
 
 ﻿#: levels/monde/info
-msgid "The Frozen Continent"
-msgstr "The Frozen Continent"
+msgid "The Frozen Mountains"
+msgstr "The Frozen Mountains"
 
 #: levels/monde/niveau1.stl
 msgid "In the Sky of the Night"
@@ -59,6 +59,50 @@ msgstr "Freezing Sky"
 #: levels/monde/niveau11.stl
 msgid "High mountain paths"
 msgstr "High mountain paths"
+
+#: levels/monde/niveau12.stl
+msgid "The path of the irrigation canal"
+msgstr "The path of the irrigation canal"
+
+#: levels/monde/niveau13.stl
+msgid "Along the vertiginous irrigation canal"
+msgstr "Along the vertiginous irrigation canal"
+
+#: levels/monde/niveau14.stl
+msgid "Warning! Fatal fall hazard!"
+msgstr "Warning! Fatal fall hazard!"
+
+#: levels/monde/niveau15.stl
+msgid "Peaceful hills"
+msgstr "Peaceful hills"
+
+#: levels/monde/niveau16.stl
+msgid "Welcome to the mountain"
+msgstr "Welcome to the mountain"
+
+#: levels/monde/niveau17.stl
+msgid "Ice Forest"
+msgstr "Ice Forest"
+
+#: levels/monde/niveau18.stl
+msgid "The ridge trail"
+msgstr "The ridge trail"
+
+#: levels/monde/niveau19.stl
+msgid "The vertiginous chimney"
+msgstr "The vertiginous chimney"
+
+#: levels/monde/niveau20.stl
+msgid "Thunderstorm"
+msgstr "Violent Thunderstorm"
+
+#: levels/monde/niveau21.stl
+msgid "The Dahu Overturn"
+msgstr "The Dahu Overturn"
+
+#: levels/monde/niveau22.stl
+msgid "The two thousand waterfalls valley"
+msgstr "The two thousand Waterfalls Valley"
 
 #: levels/monde/niveau2.stl
 msgid "#Caution! It is strictly forbidden to enter the cave. Danger of Death!"
