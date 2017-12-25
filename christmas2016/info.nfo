@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "christmas2016")
+  (version 1)
+  (type "worldmap")
+  (title "Christmas Special")
+  (author "Carsten Wirtz")
+  (license "GPL 2+ / CC-by-sa 3.0"))
