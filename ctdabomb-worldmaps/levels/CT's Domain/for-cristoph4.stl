@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name "christoph4.stl")
+  (name (_ "christoph4.stl"))
   (author "CT. da'jokester")
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
@@ -410,13 +410,13 @@
       (y 676)
     )
     (wind
-      (name "wind")
       (blowing #f)
       (speed-x 0)
       (speed-y -400)
       (acceleration 500)
       (width 156)
       (height 872)
+      (name "wind")
       (x 0)
       (y 20)
     )

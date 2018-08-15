@@ -849,8 +849,8 @@
       (y 2656)
     )
     (platform
-      (name "botlift")
       (running #f)
+      (name "botlift")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node

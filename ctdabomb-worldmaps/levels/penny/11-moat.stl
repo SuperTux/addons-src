@@ -10,7 +10,7 @@
     (background
       (speed 0.5)
       (image "images/background/fog.png")
-      (layer 200)
+      (z-pos 200)
     )
     (camera
       (mode "normal")

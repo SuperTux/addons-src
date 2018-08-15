@@ -10,7 +10,7 @@
     (background
       (speed 1)
       (image "images/background/fog.png")
-      (layer 200)
+      (z-pos 200)
     )
     (background
       (speed 0.5)

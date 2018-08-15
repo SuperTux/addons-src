@@ -21,8 +21,8 @@
       (y 576)
     )
     (platform
-      (name "chair")
       (running #f)
+      (name "chair")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node

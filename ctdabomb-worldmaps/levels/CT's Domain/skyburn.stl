@@ -3957,12 +3957,12 @@
       (y -64)
     )
     (wind
-      (name "wind")
       (speed-x 0)
       (speed-y -21)
       (acceleration 50)
       (width 584)
       (height 1128)
+      (name "wind")
       (x 2592)
       (y 9984)
     )

@@ -14,7 +14,7 @@
     (background
       (speed 0.5)
       (image "images/background/leaves.png")
-      (layer 220)
+      (z-pos 220)
     )
     (camera
       (mode "normal")
