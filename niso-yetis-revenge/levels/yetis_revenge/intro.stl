@@ -6,7 +6,7 @@
   (sector
     (name "main")
     (music "music/intro.ogg")
-    (init-script "  Tux.add_bonus(\"grow\");
+    (init-script "  Tux.add_bonus(\"grow\");
 ")
     (ambient-light 1 1 1)
     (camera
