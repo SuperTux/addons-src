@@ -86,8 +86,8 @@
       (y 1600)
     )
     (platform
-      (name "Elevator")
       (running #f)
+      (name "Elevator")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -101,8 +101,8 @@
       )
     )
     (platform
-      (name "NoWayBack")
       (running #f)
+      (name "NoWayBack")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -116,8 +116,8 @@
       )
     )
     (platform
-      (name "IspyBlock")
       (running #f)
+      (name "IspyBlock")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -131,8 +131,8 @@
       )
     )
     (platform
-      (name "AngryStoneBlock")
       (running #f)
+      (name "AngryStoneBlock")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -146,8 +146,8 @@
       )
     )
     (platform
-      (name "ToMiddle")
       (running #f)
+      (name "ToMiddle")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -163,8 +163,8 @@
       )
     )
     (platform
-      (name "FromMiddle")
       (running #f)
+      (name "FromMiddle")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -189,8 +189,8 @@
       )
     )
     (platform
-      (name "Elevator2")
       (running #f)
+      (name "Elevator2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -204,8 +204,8 @@
       )
     )
     (platform
-      (name "Elevator3")
       (running #f)
+      (name "Elevator3")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node

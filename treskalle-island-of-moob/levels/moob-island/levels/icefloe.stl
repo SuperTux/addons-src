@@ -190,8 +190,8 @@
       )
     )
     (platform
-      (name "MovingIcefloe1")
       (running #f)
+      (name "MovingIcefloe1")
       (sprite "images/objects/platforms/icefloe.sprite")
       (path
         (node
@@ -282,8 +282,8 @@
       )
     )
     (platform
-      (name "MovingIcefloe2")
       (running #f)
+      (name "MovingIcefloe2")
       (sprite "images/objects/platforms/icefloe.sprite")
       (path
         (node

@@ -49,8 +49,8 @@
       )
     )
     (platform
-      (name "SecretBlock")
       (running #f)
+      (name "SecretBlock")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node

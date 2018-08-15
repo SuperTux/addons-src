@@ -1939,8 +1939,8 @@ sector.Tux.trigger_sequence(\"fireworks\");")
       (y 672)
     )
     (platform
-      (name "OverSpikes")
       (running #f)
+      (name "OverSpikes")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
