@@ -12,7 +12,6 @@
       (image-top "images/background/arctis_top.jpg")
       (image "images/background/arctis.jpg")
       (image-bottom "images/background/arctis_bottom.jpg")
-      (layer -300)
     )
     (bouncingsnowball
       (x 1281)
@@ -78,6 +77,7 @@
       (y 579)
     )
     (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 4252)
       (y 296)
     )

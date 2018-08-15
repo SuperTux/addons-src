@@ -29,8 +29,8 @@
       (y 1216)
     )
     (platform
-      (name "platform")
       (running #f)
+      (name "platform")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (mode "oneshot")

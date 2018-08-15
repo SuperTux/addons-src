@@ -59,7 +59,7 @@
     (gradient
       (top_color 0.4442969 0.5447013 1)
       (bottom_color 0 0.6078432 0.5764706)
-      (layer -1000)
+      (z-pos -1000)
     )
     (mriceblock
       (x 1953)
@@ -506,6 +506,7 @@
       (bottom_color 0 0.6078432 0.5764706)
     )
     (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 299)
       (y 168)
     )

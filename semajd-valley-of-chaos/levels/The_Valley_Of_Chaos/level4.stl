@@ -12,7 +12,7 @@
       (image-top "images/background/arctis.jpg")
       (image "images/background/arctis2.png")
       (image-bottom "images/background/arctis_bottom.jpg")
-      (layer -1000)
+      (z-pos -1000)
     )
     (camera
       (mode "normal")

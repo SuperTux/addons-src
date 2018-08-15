@@ -12,7 +12,7 @@
       (image-top "images/background/nightsky_top.png")
       (image "images/background/nightsky_top.png")
       (image-bottom "images/background/nightsky_top.png")
-      (layer -400)
+      (z-pos -400)
     )
     (camera
       (mode "normal")

@@ -12,7 +12,6 @@
       (image-top "images/background/bluemountain-top.png")
       (image "images/background/bluemountain-middle.png")
       (image-bottom "images/background/bluemountain-bottom.png")
-      (layer -300)
     )
     (camera
       (mode "normal")

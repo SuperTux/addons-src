@@ -67,7 +67,6 @@
     (gradient
       (top_color 0.4173495 0 0.5662165)
       (bottom_color 0 0 0 0)
-      (layer -300)
     )
     (spawnpoint
       (name "main")
