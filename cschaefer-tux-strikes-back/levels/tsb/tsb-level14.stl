@@ -3,7 +3,6 @@
   (name (_ "Level 14: Path of Fire"))
   (author "Christian Schaefers")
   (license "CC BY-SA 4.0+")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/battle_theme.music")

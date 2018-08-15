@@ -3,7 +3,6 @@
   (name (_ "Level 6: Arctic Nights"))
   (author "Christian Schaefers")
   (license "CC BY-SA 4.0+")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/voc-night.ogg")
@@ -12,13 +11,13 @@
       (alignment "top")
       (speed 0.2)
       (image "images/background/bridgecloud-dark.png")
-      (layer -125)
+      (z-pos -125)
     )
     (background
       (alignment "bottom")
       (speed 0.7)
       (image "images/background/bridgeocean-fade.png")
-      (layer -175)
+      (z-pos -175)
     )
     (camera
       (mode "normal")

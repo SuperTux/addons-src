@@ -3,7 +3,6 @@
   (name (_ "Level 5: Creepy Castle"))
   (author "Christian Schaefers")
   (license "CC BY-SA 4.0+")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -93,8 +92,6 @@
     )
     (secretarea
       (fade-tilemap "Secret")
-      (script "")
-      (message "")
       (width 220)
       (height 328)
       (x 3104)

@@ -3,7 +3,6 @@
   (name (_ "Level 16: Deadly Cave"))
   (author "Christian Schaefers")
   (license "CC BY-SA 4.0+")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/wisphunt.music")
@@ -17,32 +16,26 @@
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 6464)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 6624)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 6784)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 6944)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 7104)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 7264)
       (y 480)
     )

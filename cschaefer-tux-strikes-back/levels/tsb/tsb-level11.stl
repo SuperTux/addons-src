@@ -3,7 +3,6 @@
   (name (_ "Level 11: Wrong Place for Penguins"))
   (author "Christian Schaefers")
   (license "CC BY-SA 4.0+")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/fortress.music")
@@ -113,8 +112,6 @@
       (y 512)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 220)
       (height 172)
       (x 4928)

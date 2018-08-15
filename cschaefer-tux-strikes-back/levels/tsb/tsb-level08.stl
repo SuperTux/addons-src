@@ -3,7 +3,6 @@
   (name (_ "Level 8: The Flying Fortress"))
   (author "Christian Schaefers")
   (license "CC BY-SA 4.0+")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/airship_remix.music")

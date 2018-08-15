@@ -3,7 +3,6 @@
   (name (_ "Level 12: The Flood"))
   (author "Christian Schaefers")
   (license "CC BY-SA 4.0+")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -17,72 +16,59 @@
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 6976)
       (y 288)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 6816)
       (y 288)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 6656)
       (y 288)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 6496)
       (y 288)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 7136)
       (y 288)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 6336)
       (y 288)
     )
     (candle
-      (color 1 1 1)
       (x 2816)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 3008)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 3200)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 3392)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 4960)
       (y 544)
     )
     (candle
-      (color 1 1 1)
       (x 5344)
       (y 544)
     )
     (candle
-      (color 1 1 1)
       (x 4640)
       (y 544)
     )
