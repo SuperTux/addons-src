@@ -348,8 +348,8 @@
       )
     )
     (platform
-      (name "platf1")
       (running #f)
+      (name "platf1")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node

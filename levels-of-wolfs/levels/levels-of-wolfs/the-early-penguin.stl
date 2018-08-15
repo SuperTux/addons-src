@@ -23,8 +23,8 @@
       (mode "normal")
     )
     (candle
-      (name "candle1")
       (burning #f)
+      (name "candle1")
       (x 3104)
       (y 1824)
     )
@@ -73,8 +73,8 @@
       (y 1839.734)
     )
     (platform
-      (name "platf1")
       (running #f)
+      (name "platf1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (mode "pingpong")
@@ -107,8 +107,8 @@
       )
     )
     (platform
-      (name "platf2")
       (running #f)
+      (name "platf2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (mode "pingpong")
@@ -144,8 +144,8 @@
       )
     )
     (platform
-      (name "block1")
       (running #f)
+      (name "block1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -164,8 +164,8 @@
       )
     )
     (platform
-      (name "block3")
       (running #f)
+      (name "block3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -180,8 +180,8 @@
       )
     )
     (platform
-      (name "block2")
       (running #f)
+      (name "block2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -196,8 +196,8 @@
       )
     )
     (platform
-      (name "switch1v")
       (running #f)
+      (name "switch1v")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -216,8 +216,8 @@
       )
     )
     (platform
-      (name "switch2v")
       (running #f)
+      (name "switch2v")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -236,8 +236,8 @@
       )
     )
     (platform
-      (name "block4")
       (running #f)
+      (name "block4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -252,8 +252,8 @@
       )
     )
     (platform
-      (name "tblock1")
       (running #f)
+      (name "tblock1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -280,8 +280,8 @@
       )
     )
     (platform
-      (name "tblock3")
       (running #f)
+      (name "tblock3")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -305,8 +305,8 @@
       )
     )
     (platform
-      (name "tblock2")
       (running #f)
+      (name "tblock2")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -338,6 +338,7 @@
       (y 1000)
     )
     (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 1376.394)
       (y 1035.535)
     )

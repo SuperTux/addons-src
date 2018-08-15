@@ -25,8 +25,8 @@
       (mode "normal")
     )
     (candle
-      (name "shaking")
       (burning #f)
+      (name "shaking")
       (x 1152)
       (y 64)
     )

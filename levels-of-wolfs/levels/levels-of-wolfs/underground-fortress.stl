@@ -33,8 +33,8 @@
       (y 946.7979)
     )
     (platform
+      (running #f)
       (name "block1")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -48,8 +48,8 @@
       )
     )
     (platform
+      (running #f)
       (name "block3")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -63,8 +63,8 @@
       )
     )
     (platform
+      (running #f)
       (name "block5")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -78,8 +78,8 @@
       )
     )
     (platform
+      (running #f)
       (name "block7")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -93,8 +93,8 @@
       )
     )
     (platform
+      (running #f)
       (name "block2")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -108,8 +108,8 @@
       )
     )
     (platform
+      (running #f)
       (name "block4")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -123,8 +123,8 @@
       )
     )
     (platform
+      (running #f)
       (name "block6")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -138,8 +138,8 @@
       )
     )
     (platform
+      (running #f)
       (name "door3")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -153,8 +153,8 @@
       )
     )
     (platform
+      (running #f)
       (name "door2")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -168,8 +168,8 @@
       )
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node

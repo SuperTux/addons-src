@@ -26,8 +26,8 @@
       (mode "normal")
     )
     (candle
-      (name "found_key")
       (burning #f)
+      (name "found_key")
       (x 6199.337)
       (y 122.2439)
     )
@@ -72,8 +72,8 @@
       (y 5888)
     )
     (platform
-      (name "platf1")
       (running #f)
+      (name "platf1")
       (sprite "images/objects/platforms/icefloe.sprite")
       (path
         (node
@@ -184,8 +184,8 @@
       )
     )
     (platform
-      (name "platf_secr_1")
       (running #f)
+      (name "platf_secr_1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
