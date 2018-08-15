@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "Hedgehog launch (medium)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -26,8 +27,7 @@
     (scripttrigger
       (script "
              levelflip();
-             hedgehog.start()"
-             )
+             hedgehog.start()")
       (button #f)
       (width 64)
       (height 256)
@@ -40,8 +40,8 @@
       (y 0)
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (width 50)
       (height 111)
       (tiles
@@ -159,8 +159,8 @@
       )
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (width 50)
       (height 111)
       (tiles
@@ -278,9 +278,9 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
       (draw-target "lightmap")
+      (z-pos 100)
       (width 50)
       (height 111)
       (tiles
@@ -398,13 +398,13 @@
       )
     )
     (wind
-      (name "hedgehog")
       (blowing #f)
       (speed-x 0)
       (speed-y -300)
       (acceleration 50)
       (width 1600)
       (height 2908)
+      (name "hedgehog")
       (x 0)
       (y 640)
     )
@@ -416,8 +416,7 @@
               wait(0.5);
               dokudseneotoci.stop()
               azseotoci.start()
-              settings.set_ambient_light(1,1,1)"
-              )
+              settings.set_ambient_light(1,1,1)")
     (ambient-light 0 0 0)
     (background
       (speed 0.5)
@@ -442,8 +441,8 @@
       (y 3744)
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (width 50)
       (height 119)
       (tiles
@@ -569,8 +568,8 @@
       )
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (width 50)
       (height 119)
       (tiles
@@ -696,23 +695,23 @@
       )
     )
     (wind
-      (name "dokudseneotoci")
       (speed-x 0)
       (speed-y 150)
       (acceleration 50)
       (width 1600)
       (height 3782)
+      (name "dokudseneotoci")
       (x 0)
       (y 0)
     )
     (wind
-      (name "azseotoci")
       (blowing #f)
       (speed-x 0)
       (speed-y -300)
       (acceleration 50)
       (width 1600)
       (height 3836)
+      (name "azseotoci")
       (x 0)
       (y 0)
     )
@@ -735,8 +734,8 @@
       )
     )
     (platform
-      (name "platform1")
       (running #f)
+      (name "platform1")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -751,19 +750,19 @@
       )
     )
     (lantern
+      (color 0 0 0)
       (x 540)
       (y 348)
-      (color 0 0 0)
     )
     (lantern
+      (color 0 0 0)
       (x 940)
       (y 248)
-      (color 0 0 0)
     )
     (lantern
+      (color 0 0 0)
       (x 1040)
       (y 148)
-      (color 0 0 0)
     )
     (scripttrigger
       (script "platform1.goto_node(1);")
@@ -779,8 +778,8 @@
       (y 896)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 50)
       (height 35)
@@ -823,8 +822,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 50)
       (height 35)
@@ -867,8 +866,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 50)
       (height 35)
@@ -911,10 +910,10 @@
       )
     )
     (tilemap
-      (z-pos -50)
       (solid #f)
-      (name "Tree")
       (draw-target "lightmap")
+      (z-pos -50)
+      (name "Tree")
       (width 50)
       (height 35)
       (tiles
@@ -952,11 +951,13 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
+    )
     (ghosttree
       (dead-script "sector.Tux.trigger_sequence(\"fireworks\");")
       (x 730)
       (y 550)
     )
-))
+  )
+)

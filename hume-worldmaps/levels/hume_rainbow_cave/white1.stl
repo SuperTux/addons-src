@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "All white crystal are welcome")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "All white crystal are welcome"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -11,8 +12,8 @@
       (mode "normal")
     )
     (platform
-      (name "krypl")
       (running #f)
+      (name "krypl")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -175,13 +176,13 @@
     )
     (switch
       (script "krypl.start_moving()")
+      (sprite "images/objects/switch/switch.sprite")
       (x 2432)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 250)
       (height 35)
@@ -224,8 +225,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "til")
       (width 250)
       (height 35)
@@ -268,8 +269,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "secret2")
       (width 250)
       (height 35)
@@ -312,8 +313,8 @@
       )
     )
     (tilemap
-      (z-pos 101)
       (solid #f)
+      (z-pos 101)
       (name "secret1")
       (width 250)
       (height 35)
@@ -356,24 +357,24 @@
       )
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 3264)
       (y 256)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 3296)
       (y 256)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 3328)
       (y 256)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 3360)
       (y 256)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
   )
 )

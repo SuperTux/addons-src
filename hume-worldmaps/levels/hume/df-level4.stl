@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "Feary spidermites (easy)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/ghostforest2.ogg")
@@ -14,24 +15,24 @@
     )
     (background
       (speed 1.5)
-      (layer 200)
       (image-top "images/background/leaves.png")
       (image "images/background/leaves.png")
       (image-bottom "images/background/leaves.png")
+      (z-pos 200)
     )
     (background
       (speed 2)
-      (layer 201)
       (image-top "images/background/leaves.png")
       (image "images/background/leaves.png")
       (image-bottom "images/background/leaves.png")
+      (z-pos 201)
     )
     (background
       (speed 2.5)
-      (layer 202)
       (image-top "images/background/leaves.png")
       (image "images/background/leaves.png")
       (image-bottom "images/background/leaves.png")
+      (z-pos 202)
     )
     (camera
       (mode "normal")
@@ -228,8 +229,8 @@
       (y 1280)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 200)
       (height 50)
@@ -287,8 +288,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 200)
       (height 50)
@@ -346,8 +347,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 200)
       (height 50)

@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "Trough the tunnel (boss)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -74,8 +75,8 @@
       (y 192)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -118,8 +119,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -162,8 +163,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -242,13 +243,13 @@
       (alignment "top")
       (speed 0.2)
       (image "images/background/bridgecloud-dark.png")
-      (layer -175)
+      (z-pos -175)
     )
     (background
       (alignment "bottom")
       (speed 0.7)
       (image "images/background/bridgeocean-fade.png")
-      (layer -195)
+      (z-pos -195)
     )
     (gradient
       (top_color 0 0 0)
@@ -270,9 +271,9 @@
       (y 800)
     )
     (firefly
+      (sprite "images/objects/resetpoints/vbell.sprite")
       (x 2784)
       (y 800)
-      (sprite "images/objects/resetpoints/vbell.sprite")
     )
     (infoblock
       (message (_ "#Boss is behind that door."))
@@ -315,11 +316,9 @@
       (y 736)
     )
     (tilemap
-      (z-pos -150)
       (solid #f)
+      (z-pos -150)
       (name "paraBackground")
-      (speed 1)
-      (speed-y 1)
       (width 100)
       (height 35)
       (tiles
@@ -361,8 +360,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -405,8 +404,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -449,8 +448,8 @@
       )
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "background")
       (width 100)
       (height 35)
@@ -505,15 +504,16 @@
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
-      (mode "normal"))
+      (mode "normal")
+    )
     (spawnpoint
       (name "main")
       (x 432)
       (y 400)
     )
     (tilemap
-      (z-pos 100)
       (solid #t)
+      (z-pos 100)
       (width 27)
       (height 26)
       (tiles
@@ -546,8 +546,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch1")
       (path
         (node
@@ -582,8 +582,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch2")
       (path
         (node
@@ -618,8 +618,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch3")
       (path
         (node
@@ -654,8 +654,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch4")
       (path
         (node
@@ -690,8 +690,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch5")
       (path
         (node
@@ -726,8 +726,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch6")
       (path
         (node
@@ -762,8 +762,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch7")
       (path
         (node
@@ -798,8 +798,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch8")
       (path
         (node
@@ -834,8 +834,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch9")
       (path
         (node
@@ -870,8 +870,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch10")
       (path
         (node
@@ -906,8 +906,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch11")
       (path
         (node
@@ -942,8 +942,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch12")
       (path
         (node
@@ -978,8 +978,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch13")
       (path
         (node
@@ -1014,8 +1014,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch14")
       (path
         (node
@@ -1050,8 +1050,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch15")
       (path
         (node
@@ -1086,8 +1086,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch16")
       (path
         (node
@@ -1122,8 +1122,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch17")
       (path
         (node
@@ -1158,8 +1158,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch18")
       (path
         (node
@@ -1194,8 +1194,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch19")
       (path
         (node
@@ -1230,8 +1230,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch20")
       (path
         (node
@@ -1266,8 +1266,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch21")
       (path
         (node
@@ -1302,8 +1302,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch22")
       (path
         (node
@@ -1338,8 +1338,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "rampouch23")
       (path
         (node
@@ -1374,8 +1374,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "spikes_lu")
       (path
         (node
@@ -1399,8 +1399,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "spikes_ld")
       (path
         (node
@@ -1424,8 +1424,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "spikes_ru")
       (path
         (node
@@ -1449,8 +1449,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "spikes_rd")
       (path
         (node

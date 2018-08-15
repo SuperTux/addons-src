@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Not hard")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Not hard"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -213,8 +214,8 @@
       (y 768)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 250)
       (height 50)
@@ -272,8 +273,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 250)
       (height 50)
@@ -331,8 +332,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "secret18")
       (width 250)
       (height 50)
@@ -390,8 +391,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "secret17")
       (width 250)
       (height 50)

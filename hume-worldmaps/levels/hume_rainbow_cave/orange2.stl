@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Lava lake")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Lava lake"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -55,8 +56,8 @@
       (y 256)
     )
     (tilemap
-      (z-pos -101)
       (solid #f)
+      (z-pos -101)
       (name "Background")
       (width 250)
       (height 35)
@@ -99,8 +100,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 250)
       (height 35)
@@ -143,8 +144,8 @@
       )
     )
     (tilemap
-      (z-pos -100)
       (solid #t)
+      (z-pos -100)
       (width 250)
       (height 35)
       (tiles
@@ -186,8 +187,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "secret")
       (width 250)
       (height 35)
@@ -230,13 +231,13 @@
       )
     )
     (wind
-      (name "upw")
       (blowing #f)
       (speed-x 0)
       (speed-y -500)
       (acceleration 50)
       (width 124)
       (height 716)
+      (name "upw")
       (x 0)
       (y 372)
     )

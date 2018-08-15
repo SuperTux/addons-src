@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "A longer way down (hard)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/treeboss.ogg")
@@ -35,8 +36,8 @@ spikes.goto_node(1)")
       (y 160)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 50)
       (height 200)
@@ -244,8 +245,8 @@ spikes.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 50)
       (height 200)
@@ -453,8 +454,8 @@ spikes.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 101)
       (solid #t)
+      (z-pos 101)
       (name "Risinglava")
       (path
         (node
@@ -673,8 +674,8 @@ spikes.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 102)
       (solid #t)
+      (z-pos 102)
       (name "bottside")
       (path
         (node
@@ -888,8 +889,8 @@ spikes.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos -101)
       (solid #t)
+      (z-pos -101)
       (name "spikes")
       (path
         (node
@@ -1108,8 +1109,8 @@ spikes.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "frgrd")
       (width 50)
       (height 200)

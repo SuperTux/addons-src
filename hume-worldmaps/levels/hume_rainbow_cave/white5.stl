@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Give me a solid poit please. I want to vomit.")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Give me a solid poit please. I want to vomit."))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -362,8 +363,8 @@
       (y 2848)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 100)
@@ -471,8 +472,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 100)

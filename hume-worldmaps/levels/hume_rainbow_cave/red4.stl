@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Down to the mine")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Down to the mine"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -11,8 +12,8 @@
       (mode "normal")
     )
     (platform
-      (name "debil")
       (running #f)
+      (name "debil")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -178,8 +179,8 @@
       (y 1152)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 50)
       (height 200)
@@ -387,8 +388,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 50)
       (height 200)
@@ -596,8 +597,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "secret")
       (width 50)
       (height 200)

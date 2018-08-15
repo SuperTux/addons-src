@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Fortress maze")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Fortress maze"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -11,8 +12,8 @@
       (mode "normal")
     )
     (platform
+      (running #f)
       (name "p1")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -26,8 +27,8 @@
       )
     )
     (platform
+      (running #f)
       (name "p2")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -41,8 +42,8 @@
       )
     )
     (platform
+      (running #f)
       (name "p3")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -56,8 +57,8 @@
       )
     )
     (platform
+      (running #f)
       (name "p4")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -71,8 +72,8 @@
       )
     )
     (platform
+      (running #f)
       (name "p5")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -86,8 +87,8 @@
       )
     )
     (platform
+      (running #f)
       (name "p6")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -101,8 +102,8 @@
       )
     )
     (platform
+      (running #f)
       (name "p7")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -116,8 +117,8 @@
       )
     )
     (platform
+      (running #f)
       (name "p8")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -131,8 +132,8 @@
       )
     )
     (platform
+      (running #f)
       (name "p9")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -146,8 +147,8 @@
       )
     )
     (platform
+      (running #f)
       (name "pa")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -161,8 +162,8 @@
       )
     )
     (platform
+      (running #f)
       (name "pb")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -176,8 +177,8 @@
       )
     )
     (platform
-      (name "pc")
       (running #f)
+      (name "pc")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -300,8 +301,8 @@ Tux.activate();
       (y 2816)
     )
     (tilemap
-      (z-pos -100)
       (solid #t)
+      (z-pos -100)
       (name "Interactive")
       (width 200)
       (height 200)
@@ -509,8 +510,8 @@ Tux.activate();
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "lava")
       (width 200)
       (height 200)
@@ -718,8 +719,8 @@ Tux.activate();
       )
     )
     (tilemap
-      (z-pos -101)
       (solid #f)
+      (z-pos -101)
       (width 200)
       (height 200)
       (tiles

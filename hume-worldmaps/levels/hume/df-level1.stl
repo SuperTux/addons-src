@@ -1,10 +1,12 @@
 (supertux-level
   (version 2)
   (name (_ "welcome in the dark forest (medium)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/ghostforest2.ogg")
+    (init-script "import(\"levels/hume/defualt.nut\");unlock_archivement(\"s\")")
     (ambient-light 0.5019608 0.5019608 0.5019608)
     (background
       (speed 0.5)
@@ -37,14 +39,14 @@
       (y 672.7071)
     )
     (dispenser
-      (badguy "poisonivy")
       (cycle 5)
+      (badguy "poisonivy")
       (x 3680)
       (y 448)
     )
     (platform
-      (name "secretplat")
       (running #f)
+      (name "secretplat")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -78,7 +80,6 @@
       (x 4544)
       (y 736)
     )
-    (init-script "import(\"levels/hume/defualt.nut\");unlock_archivement(\"s\")")
     (mole
       (x 4544)
       (y 1024)
@@ -180,13 +181,13 @@
     )
     (switch
       (script "secretplat.goto_node(1)")
+      (sprite "images/objects/switch/left.sprite")
       (x 5229.615)
       (y 637.8787)
-      (sprite "images/objects/switch/left.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 200)
       (height 35)
@@ -229,8 +230,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 200)
       (height 35)
@@ -273,8 +274,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 200)
       (height 35)
@@ -317,8 +318,8 @@
       )
     )
     (tilemap
-      (z-pos 101)
       (solid #f)
+      (z-pos 101)
       (name "secret")
       (width 200)
       (height 35)
@@ -422,8 +423,8 @@
       (y 64)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 50)
       (height 25)
@@ -456,8 +457,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 50)
       (height 25)
@@ -490,8 +491,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 50)
       (height 25)

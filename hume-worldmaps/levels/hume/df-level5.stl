@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "Ghosts' garden (medium)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/greatgigantic.ogg")
@@ -40,11 +41,11 @@
       (x 256)
       (y 928)
     )
-   (plant
+    (plant
       (x 456)
       (y 928)
     )
-  (plant
+    (plant
       (x 656)
       (y 928)
     )
@@ -64,11 +65,11 @@
       (x 1728)
       (y 768)
     )
-   (plant
+    (plant
       (x 1928)
       (y 768)
     )
-  (plant
+    (plant
       (x 2128)
       (y 768)
     )
@@ -100,8 +101,8 @@
       (y 800)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 200)
       (height 35)
@@ -144,8 +145,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 200)
       (height 35)
@@ -188,8 +189,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 200)
       (height 35)

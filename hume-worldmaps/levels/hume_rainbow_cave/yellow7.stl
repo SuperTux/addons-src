@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "Falling into a great hole"))
-  (author "Hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -33,8 +34,8 @@
       (y 192)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 48)
       (height 250)
@@ -292,8 +293,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 48)
       (height 250)
@@ -551,8 +552,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 48)
       (height 250)

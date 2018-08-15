@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "In the forest again (easy)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/forest2.ogg")
@@ -23,142 +24,142 @@ bottles <- 0
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 7904)
       (y 608)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 352)
       (y 480)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 1120)
       (y 512)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 2272)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 2624)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 2976)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 3328)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 3680)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 4032)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 4384)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 4736)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 5088)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 5440)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 5792)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 6144)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 6496)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 6848)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 7200)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 7552)
       (y 960)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (powerup
       (script "bottles <- bottles+1
 Level.flip_vertically()")
+      (sprite "images/powerups/potions/red-potion.sprite")
       (x 7904)
       (y 928)
-      (sprite "images/powerups/potions/red-potion.sprite")
     )
     (scripttrigger
       (script "if (bottles==20){
@@ -176,8 +177,8 @@ sector.Tux.trigger_sequence(\"fireworks\")
       (y 192)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 250)
       (height 35)
@@ -220,8 +221,8 @@ sector.Tux.trigger_sequence(\"fireworks\")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 250)
       (height 35)
@@ -264,8 +265,8 @@ sector.Tux.trigger_sequence(\"fireworks\")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 250)
       (height 35)

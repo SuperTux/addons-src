@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Octachoral test")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Octachoral test"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -34,8 +35,8 @@
       (y 480)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 35)
       (height 25)
@@ -68,8 +69,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 35)
       (height 25)
@@ -111,8 +112,8 @@
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -127,8 +128,8 @@
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -143,8 +144,8 @@
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -159,8 +160,8 @@
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -175,8 +176,8 @@
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -191,8 +192,8 @@
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -207,8 +208,8 @@
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -223,8 +224,8 @@
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -385,67 +386,67 @@ Level.spawn(\"side12\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -503,8 +504,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -571,8 +572,8 @@ Level.spawn(\"side12\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -587,8 +588,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -603,8 +604,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -619,8 +620,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -635,8 +636,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -651,8 +652,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -667,8 +668,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -683,8 +684,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -845,67 +846,67 @@ Level.spawn(\"side08\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -963,8 +964,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -1031,8 +1032,8 @@ Level.spawn(\"side08\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -1047,8 +1048,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -1063,8 +1064,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -1079,8 +1080,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -1095,8 +1096,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -1111,8 +1112,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -1127,8 +1128,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -1143,8 +1144,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -1305,67 +1306,67 @@ Level.spawn(\"side08\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -1423,8 +1424,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -1491,8 +1492,8 @@ Level.spawn(\"side08\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -1507,8 +1508,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -1523,8 +1524,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -1539,8 +1540,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -1555,8 +1556,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -1571,8 +1572,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -1587,8 +1588,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -1603,8 +1604,8 @@ Level.spawn(\"side08\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -1765,67 +1766,67 @@ Level.spawn(\"side14\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -1883,8 +1884,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -1951,8 +1952,8 @@ Level.spawn(\"side14\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -1967,8 +1968,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -1983,8 +1984,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -1999,8 +2000,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2015,8 +2016,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -2031,8 +2032,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -2047,8 +2048,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2063,8 +2064,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2225,67 +2226,67 @@ Level.spawn(\"side15\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -2343,8 +2344,8 @@ Level.spawn(\"side15\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -2411,8 +2412,8 @@ Level.spawn(\"side15\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -2427,8 +2428,8 @@ Level.spawn(\"side15\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -2443,8 +2444,8 @@ Level.spawn(\"side15\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2459,8 +2460,8 @@ Level.spawn(\"side15\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2475,8 +2476,8 @@ Level.spawn(\"side15\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -2491,8 +2492,8 @@ Level.spawn(\"side15\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -2507,8 +2508,8 @@ Level.spawn(\"side15\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2523,8 +2524,8 @@ Level.spawn(\"side15\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2685,67 +2686,67 @@ Level.spawn(\"side16\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -2803,8 +2804,8 @@ Level.spawn(\"side16\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -2871,8 +2872,8 @@ Level.spawn(\"side16\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -2887,8 +2888,8 @@ Level.spawn(\"side16\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -2903,8 +2904,8 @@ Level.spawn(\"side16\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2919,8 +2920,8 @@ Level.spawn(\"side16\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2935,8 +2936,8 @@ Level.spawn(\"side16\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -2951,8 +2952,8 @@ Level.spawn(\"side16\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -2967,8 +2968,8 @@ Level.spawn(\"side16\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2983,8 +2984,8 @@ Level.spawn(\"side16\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -3145,67 +3146,67 @@ Level.spawn(\"side20\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -3263,8 +3264,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -3331,8 +3332,8 @@ Level.spawn(\"side20\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -3347,8 +3348,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -3363,8 +3364,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -3379,8 +3380,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -3395,8 +3396,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -3411,8 +3412,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -3427,8 +3428,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -3443,8 +3444,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -3605,67 +3606,67 @@ Level.spawn(\"side21\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -3723,8 +3724,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -3791,8 +3792,8 @@ Level.spawn(\"side21\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -3807,8 +3808,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -3823,8 +3824,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -3839,8 +3840,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -3855,8 +3856,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -3871,8 +3872,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -3887,8 +3888,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -3903,8 +3904,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -4065,67 +4066,67 @@ Level.spawn(\"side19\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -4183,8 +4184,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -4251,8 +4252,8 @@ Level.spawn(\"side19\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -4267,8 +4268,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -4283,8 +4284,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -4299,8 +4300,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -4315,8 +4316,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -4331,8 +4332,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -4347,8 +4348,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -4363,8 +4364,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -4525,67 +4526,67 @@ Level.spawn(\"side23\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -4643,8 +4644,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -4711,8 +4712,8 @@ Level.spawn(\"side23\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -4727,8 +4728,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -4743,8 +4744,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -4759,8 +4760,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -4775,8 +4776,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -4791,8 +4792,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -4807,8 +4808,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -4823,8 +4824,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -4985,67 +4986,67 @@ Level.spawn(\"side19\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -5103,8 +5104,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -5171,8 +5172,8 @@ Level.spawn(\"side19\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -5187,8 +5188,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -5203,8 +5204,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -5219,8 +5220,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -5235,8 +5236,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -5251,8 +5252,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -5267,8 +5268,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -5283,8 +5284,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -5445,67 +5446,67 @@ Level.spawn(\"side21\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -5563,8 +5564,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -5631,8 +5632,8 @@ Level.spawn(\"side21\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -5647,8 +5648,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -5663,8 +5664,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -5679,8 +5680,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -5695,8 +5696,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -5711,8 +5712,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -5727,8 +5728,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -5743,8 +5744,8 @@ Level.spawn(\"side21\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -5905,67 +5906,67 @@ Level.spawn(\"side20\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -6023,8 +6024,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -6091,8 +6092,8 @@ Level.spawn(\"side20\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -6107,8 +6108,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -6123,8 +6124,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -6139,8 +6140,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -6155,8 +6156,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -6171,8 +6172,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -6187,8 +6188,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -6203,8 +6204,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -6365,67 +6366,67 @@ Level.spawn(\"side04\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -6483,8 +6484,8 @@ Level.spawn(\"side04\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -6551,8 +6552,8 @@ Level.spawn(\"side04\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -6567,8 +6568,8 @@ Level.spawn(\"side04\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -6583,8 +6584,8 @@ Level.spawn(\"side04\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -6599,8 +6600,8 @@ Level.spawn(\"side04\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -6615,8 +6616,8 @@ Level.spawn(\"side04\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -6631,8 +6632,8 @@ Level.spawn(\"side04\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -6647,8 +6648,8 @@ Level.spawn(\"side04\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -6663,8 +6664,8 @@ Level.spawn(\"side04\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -6825,67 +6826,67 @@ Level.spawn(\"side23\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -6943,8 +6944,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -7011,8 +7012,8 @@ Level.spawn(\"side23\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -7027,8 +7028,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -7043,8 +7044,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -7059,8 +7060,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -7075,8 +7076,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -7091,8 +7092,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -7107,8 +7108,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -7123,8 +7124,8 @@ Level.spawn(\"side23\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -7285,67 +7286,67 @@ Level.spawn(\"side20\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -7403,8 +7404,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -7471,8 +7472,8 @@ Level.spawn(\"side20\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -7487,8 +7488,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -7503,8 +7504,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -7519,8 +7520,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -7535,8 +7536,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -7551,8 +7552,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -7567,8 +7568,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -7583,8 +7584,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -7745,67 +7746,67 @@ Level.spawn(\"side20\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -7863,8 +7864,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -7931,8 +7932,8 @@ Level.spawn(\"side20\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -7947,8 +7948,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -7963,8 +7964,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -7979,8 +7980,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -7995,8 +7996,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -8011,8 +8012,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -8027,8 +8028,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -8043,8 +8044,8 @@ Level.spawn(\"side20\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -8205,67 +8206,67 @@ Level.spawn(\"side19\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -8323,8 +8324,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -8391,8 +8392,8 @@ Level.spawn(\"side19\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -8407,8 +8408,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -8423,8 +8424,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -8439,8 +8440,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -8455,8 +8456,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -8471,8 +8472,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -8487,8 +8488,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -8503,8 +8504,8 @@ Level.spawn(\"side19\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -8665,67 +8666,67 @@ Level.spawn(\"side11\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -8783,8 +8784,8 @@ Level.spawn(\"side11\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -8851,8 +8852,8 @@ Level.spawn(\"side11\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -8867,8 +8868,8 @@ Level.spawn(\"side11\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -8883,8 +8884,8 @@ Level.spawn(\"side11\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -8899,8 +8900,8 @@ Level.spawn(\"side11\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -8915,8 +8916,8 @@ Level.spawn(\"side11\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -8931,8 +8932,8 @@ Level.spawn(\"side11\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -8947,8 +8948,8 @@ Level.spawn(\"side11\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -8963,8 +8964,8 @@ Level.spawn(\"side11\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -9125,67 +9126,67 @@ Level.spawn(\"side07\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -9243,8 +9244,8 @@ Level.spawn(\"side07\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -9311,8 +9312,8 @@ Level.spawn(\"side07\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -9327,8 +9328,8 @@ Level.spawn(\"side07\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -9343,8 +9344,8 @@ Level.spawn(\"side07\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -9359,8 +9360,8 @@ Level.spawn(\"side07\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -9375,8 +9376,8 @@ Level.spawn(\"side07\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -9391,8 +9392,8 @@ Level.spawn(\"side07\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -9407,8 +9408,8 @@ Level.spawn(\"side07\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -9423,8 +9424,8 @@ Level.spawn(\"side07\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -9585,67 +9586,67 @@ Level.spawn(\"side12\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -9703,8 +9704,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -9771,8 +9772,8 @@ Level.spawn(\"side12\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -9787,8 +9788,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -9803,8 +9804,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -9819,8 +9820,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -9835,8 +9836,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -9851,8 +9852,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -9867,8 +9868,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -9883,8 +9884,8 @@ Level.spawn(\"side12\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -10045,67 +10046,67 @@ Level.spawn(\"side14\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -10163,8 +10164,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -10231,8 +10232,8 @@ Level.spawn(\"side14\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -10247,8 +10248,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -10263,8 +10264,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -10279,8 +10280,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -10295,8 +10296,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -10311,8 +10312,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -10327,8 +10328,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -10343,8 +10344,8 @@ Level.spawn(\"side14\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -10505,67 +10506,67 @@ Level.spawn(\"side10\",\"main\")")
     )
     (switch
       (script "pridej(9)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 1152)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(2)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(3)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 832)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(4)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(5)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(6)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 544)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(7)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 704)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "pridej(8)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 928)
       (y 256)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -10623,8 +10624,8 @@ Level.spawn(\"side10\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -10690,8 +10691,8 @@ Level.spawn(\"side10\",\"main\")")
       (mode "normal")
     )
     (platform
-      (name "door1")
       (running #f)
+      (name "door1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -10706,8 +10707,8 @@ Level.spawn(\"side10\",\"main\")")
       )
     )
     (platform
-      (name "door2")
       (running #f)
+      (name "door2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -10722,8 +10723,8 @@ Level.spawn(\"side10\",\"main\")")
       )
     )
     (platform
-      (name "door3")
       (running #f)
+      (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -10738,8 +10739,8 @@ Level.spawn(\"side10\",\"main\")")
       )
     )
     (platform
-      (name "door4")
       (running #f)
+      (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -10754,8 +10755,8 @@ Level.spawn(\"side10\",\"main\")")
       )
     )
     (platform
-      (name "door5")
       (running #f)
+      (name "door5")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -10770,8 +10771,8 @@ Level.spawn(\"side10\",\"main\")")
       )
     )
     (platform
-      (name "door6")
       (running #f)
+      (name "door6")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -10786,8 +10787,8 @@ Level.spawn(\"side10\",\"main\")")
       )
     )
     (platform
-      (name "door7")
       (running #f)
+      (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -10802,8 +10803,8 @@ Level.spawn(\"side10\",\"main\")")
       )
     )
     (platform
-      (name "door8")
       (running #f)
+      (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -10827,8 +10828,8 @@ Level.spawn(\"side10\",\"main\")")
       (y 832)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 70)
       (height 50)
@@ -10886,8 +10887,8 @@ Level.spawn(\"side10\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 70)
       (height 50)
@@ -10990,8 +10991,8 @@ Level.spawn(\"side10\",\"main\")")
       (y 544)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 35)
       (height 25)
@@ -11024,8 +11025,8 @@ Level.spawn(\"side10\",\"main\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 35)
       (height 25)

@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "A long way up (medium)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/forest3.ogg")
@@ -10,8 +11,8 @@
       (mode "normal")
     )
     (platform
-      (name "p1")
       (running #f)
+      (name "p1")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -25,8 +26,8 @@
       )
     )
     (platform
-      (name "p2")
       (running #f)
+      (name "p2")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -40,8 +41,8 @@
       )
     )
     (platform
-      (name "p3")
       (running #f)
+      (name "p3")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -75,8 +76,8 @@ p3.goto_node(1)")
       (y 9440)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 50)
       (height 300)
@@ -384,8 +385,8 @@ p3.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 50)
       (height 300)
@@ -693,8 +694,8 @@ p3.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos -1)
       (solid #t)
+      (z-pos -1)
       (name "risinglava")
       (path
         (node
@@ -1013,8 +1014,8 @@ p3.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 1)
       (solid #f)
+      (z-pos 1)
       (name "bottilemap")
       (path
         (node

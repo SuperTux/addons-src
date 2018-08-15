@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Difficlut passages")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Difficlut passages"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -209,8 +210,8 @@
       (y 2208)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 100)
@@ -318,8 +319,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 100)
@@ -427,8 +428,8 @@
       )
     )
     (tilemap
-      (z-pos 101)
       (solid #f)
+      (z-pos 101)
       (name "secret1")
       (width 100)
       (height 100)
@@ -536,8 +537,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "secret2")
       (width 100)
       (height 100)

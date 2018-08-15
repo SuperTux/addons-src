@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "Is there a shorter way than this? (medium)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/wisphunt.ogg")
@@ -153,8 +154,8 @@
       (y 3008)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 100)
@@ -262,8 +263,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 100)

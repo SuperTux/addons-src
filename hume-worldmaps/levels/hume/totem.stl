@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "72-bit totem required (hard)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -42,11 +43,12 @@ tWhile you can't jump over the hole, try building higher totems."))
       (x 32)
       (y 160)
     )
-(dispenser
+    (dispenser
+      (cycle 2.5)
+      (badguy "totem")
       (x 128)
       (y 3328)
-      (badguy "totem")
-      (cycle 2.5))
+    )
     (scripttrigger
       (script "import(\"levels/hume/defualt.nut\")
 sector.Tux.trigger_sequence(\"endsequence\")
@@ -69,13 +71,13 @@ unlock_archivement(\"i\")")
     )
     (switch
       (script "platforma.goto_node(1);wait(1);platforma.goto_node(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 0)
       (y 3680)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "platforma")
       (path
         (node
@@ -95,8 +97,8 @@ unlock_archivement(\"i\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (width 25)
       (height 119)
       (tiles

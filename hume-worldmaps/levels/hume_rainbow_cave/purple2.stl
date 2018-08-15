@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "You can find seven secret areas.")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "You can find seven secret areas."))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -291,8 +292,8 @@
       (y 480)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 250)
       (height 35)
@@ -335,8 +336,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 250)
       (height 35)
@@ -379,8 +380,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 250)
       (height 35)
@@ -423,8 +424,8 @@
       )
     )
     (tilemap
-      (z-pos 101)
       (solid #f)
+      (z-pos 101)
       (name "secreta")
       (width 250)
       (height 35)
@@ -467,8 +468,8 @@
       )
     )
     (tilemap
-      (z-pos 101)
       (solid #f)
+      (z-pos 101)
       (name "secretb")
       (width 250)
       (height 35)

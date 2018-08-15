@@ -1,23 +1,24 @@
 (supertux-level
   (version 2)
   (name (_ "The hydroponic garden (easy)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
+    (init-script "import(\"levels/hume/defualt.nut\");unlock_archivement(\"y\")")
     (ambient-light 1 1 1)
     (background
       (alignment "top")
       (speed 0.2)
       (image "images/background/bridgecloud-dark.png")
-      (layer -175)
+      (z-pos -175)
     )
-  (init-script "import(\"levels/hume/defualt.nut\");unlock_archivement(\"y\")")
     (background
       (alignment "bottom")
       (speed 0.7)
       (image "images/background/bridgeocean-fade.png")
-      (layer -195)
+      (z-pos -195)
     )
     (gradient
       (top_color 0 0 0)
@@ -82,8 +83,8 @@
       (y 448)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 250)
       (height 25)
@@ -116,8 +117,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 250)
       (height 25)
@@ -150,8 +151,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 250)
       (height 25)

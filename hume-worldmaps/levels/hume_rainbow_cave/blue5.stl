@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Bonus crystal hount")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Bonus crystal hount"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -59,13 +60,13 @@
       (y 768)
     )
     (firefly
+      (sprite "images/objects/resetpoints/bell.sprite")
       (x 4736)
       (y 800)
-      (sprite "images/objects/resetpoints/bell.sprite")
     )
     (platform
+      (running #f)
       (name "krava0")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -80,8 +81,8 @@
       )
     )
     (platform
+      (running #f)
       (name "krava1")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -96,8 +97,8 @@
       )
     )
     (platform
+      (running #f)
       (name "krava2")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -112,8 +113,8 @@
       )
     )
     (platform
+      (running #f)
       (name "krava3")
-      (running #f)
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -128,8 +129,8 @@
       )
     )
     (platform
-      (name "krava4")
       (running #f)
+      (name "krava4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -241,19 +242,19 @@ krava1.goto_node(1)
 krava2.goto_node(1)
 krava3.goto_node(1)
 ")
+      (sprite "images/objects/switch/switch.sprite")
       (x 640)
       (y 320)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (switch
       (script "krava4.goto_node(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 7520)
       (y 640)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 250)
       (height 35)
@@ -296,8 +297,8 @@ krava3.goto_node(1)
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 250)
       (height 35)
@@ -340,8 +341,8 @@ krava3.goto_node(1)
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 250)
       (height 35)
@@ -384,8 +385,8 @@ krava3.goto_node(1)
       )
     )
     (tilemap
-      (z-pos 101)
       (solid #f)
+      (z-pos 101)
       (name "secret")
       (width 250)
       (height 35)

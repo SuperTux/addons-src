@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Surviving in lava")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Surviving in lava"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/bossattack.ogg")
@@ -16,8 +17,8 @@ finish_level_group(\"orange\",\"o6\")")
       (mode "normal")
     )
     (platform
-      (name "propadak0")
       (running #f)
+      (name "propadak0")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -31,8 +32,8 @@ finish_level_group(\"orange\",\"o6\")")
       )
     )
     (platform
-      (name "propadak1")
       (running #f)
+      (name "propadak1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -51,8 +52,8 @@ finish_level_group(\"orange\",\"o6\")")
       (y 128)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 35)
       (height 25)
@@ -85,8 +86,8 @@ finish_level_group(\"orange\",\"o6\")")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 35)
       (height 25)
@@ -119,8 +120,8 @@ finish_level_group(\"orange\",\"o6\")")
       )
     )
     (tilemap
-      (z-pos -1)
       (solid #t)
+      (z-pos -1)
       (name "Lava")
       (width 35)
       (height 25)

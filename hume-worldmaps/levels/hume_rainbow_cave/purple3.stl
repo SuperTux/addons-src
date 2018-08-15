@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "Entrance into cave fortress")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Entrance into cave fortress"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -275,8 +276,8 @@
       (y 2464)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 100)
@@ -384,8 +385,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 100)
@@ -493,8 +494,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 100)
@@ -602,24 +603,24 @@
       )
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 3008)
       (y 896)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 2912)
       (y 896)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 2944)
       (y 896)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 2976)
       (y 896)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
   )
 )

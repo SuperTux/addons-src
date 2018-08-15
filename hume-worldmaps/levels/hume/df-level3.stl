@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "Inside the hill (very-hard)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/ghostforest2.ogg")
@@ -184,14 +185,14 @@
       (y 384)
     )
     (firefly
+      (sprite "images/objects/resetpoints/bell.sprite")
       (x 2976)
       (y 960)
-      (sprite "images/objects/resetpoints/bell.sprite")
     )
     (firefly
+      (sprite "images/objects/resetpoints/bell.sprite")
       (x 3648)
       (y 2176)
-      (sprite "images/objects/resetpoints/bell.sprite")
     )
     (mole
       (x 768)
@@ -321,8 +322,8 @@
       (y 1888)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 125)
       (height 100)
@@ -430,8 +431,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 125)
       (height 100)
@@ -539,8 +540,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 125)
       (height 100)

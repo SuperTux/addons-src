@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "Bonus Level 1 - wheel of fortune"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (init-script "import(\"levels/hume/defualt.nut\")
@@ -18,32 +19,32 @@ unlock_archivement(\"g\")")
       (mode "normal")
     )
     (dispenser
-      (badguy "snowball")
       (cycle 5)
+      (badguy "snowball")
       (x 544)
       (y 128)
     )
     (dispenser
-      (badguy "mriceblock")
       (cycle 5)
+      (badguy "mriceblock")
       (x 672)
       (y 128)
     )
     (dispenser
-      (badguy "skullyhop")
       (cycle 5)
+      (badguy "skullyhop")
       (x 160)
       (y 128)
     )
     (dispenser
-      (badguy "bouncingsnowball")
       (cycle 5)
+      (badguy "bouncingsnowball")
       (x 288)
       (y 128)
     )
     (dispenser
-      (badguy "poisonivy")
       (cycle 5)
+      (badguy "poisonivy")
       (x 416)
       (y 128)
     )
@@ -54,9 +55,9 @@ unlock_archivement(\"g\")")
       (y 704)
     )
     (firefly
+      (sprite "images/objects/resetpoints/bell.sprite")
       (x 864)
       (y 192)
-      (sprite "images/objects/resetpoints/bell.sprite")
     )
     (platform
       (name "float1")
@@ -335,8 +336,8 @@ unlock_archivement(\"g\")")
       )
     )
     (platform
-      (name "badguy0")
       (running #f)
+      (name "badguy0")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -352,8 +353,8 @@ unlock_archivement(\"g\")")
       )
     )
     (platform
-      (name "badguy1")
       (running #f)
+      (name "badguy1")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -369,8 +370,8 @@ unlock_archivement(\"g\")")
       )
     )
     (platform
-      (name "badguy2")
       (running #f)
+      (name "badguy2")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -386,8 +387,8 @@ unlock_archivement(\"g\")")
       )
     )
     (platform
-      (name "badguy3")
       (running #f)
+      (name "badguy3")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -403,8 +404,8 @@ unlock_archivement(\"g\")")
       )
     )
     (platform
-      (name "badguy4")
       (running #f)
+      (name "badguy4")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -420,8 +421,8 @@ unlock_archivement(\"g\")")
       )
     )
     (platform
-      (name "brana")
       (running #f)
+      (name "brana")
       (sprite "images/objects/platforms/pedestal.sprite")
       (path
         (node
@@ -553,8 +554,8 @@ import(\"levels/hume/bonus1.nut\");vylosuj();}")
       (y 525)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 30)
       (height 30)
@@ -592,8 +593,8 @@ import(\"levels/hume/bonus1.nut\");vylosuj();}")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 30)
       (height 30)
@@ -631,8 +632,8 @@ import(\"levels/hume/bonus1.nut\");vylosuj();}")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 30)
       (height 30)
@@ -699,8 +700,8 @@ Level.finish(true);
       (y 512)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 35)
       (height 35)
@@ -743,8 +744,8 @@ Level.finish(true);
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 35)
       (height 35)
@@ -787,8 +788,8 @@ Level.finish(true);
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 35)
       (height 35)

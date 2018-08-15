@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "A somewhat hill (medium)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/ghostforest2.ogg")
@@ -14,10 +15,10 @@
     )
     (background
       (speed 2)
-      (layer 200)
       (image-top "images/background/leaves.png")
       (image "images/background/leaves.png")
       (image-bottom "images/background/leaves.png")
+      (z-pos 200)
     )
     (camera
       (mode "normal")
@@ -27,8 +28,8 @@
       (y 1408)
     )
     (platform
-      (name "plat")
       (running #f)
+      (name "plat")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -121,13 +122,13 @@
     (switch
       (script "plat.goto_node(0)
 plat.goto_node(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 4768)
       (y 1440)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 200)
       (height 50)
@@ -185,8 +186,8 @@ plat.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 200)
       (height 50)
@@ -244,8 +245,8 @@ plat.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 200)
       (height 50)

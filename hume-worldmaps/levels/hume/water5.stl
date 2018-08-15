@@ -1,21 +1,22 @@
 (supertux-level
   (version 2)
   (name (_ "Whoops! (easy)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
+    (name "main")
+    (music "music/chipdisko.ogg")
+    (ambient-light 1 1 1)
     (background
       (alignment "top")
       (speed 0.2)
       (image "images/background/bridgecloud-dark.png")
-      (layer -175)
+      (z-pos -175)
     )
     (gradient
       (top_color 0 0 0)
       (bottom_color 0.003921569 0.003921569 0.003921569)
     )
-    (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
     (camera
       (mode "normal")
     )
@@ -33,8 +34,8 @@
       (y 96)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 35)
       (height 50)
@@ -92,8 +93,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 35)
       (height 50)
@@ -151,8 +152,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 35)
       (height 50)
@@ -210,8 +211,8 @@
       )
     )
     (tilemap
-      (z-pos 101)
       (solid #f)
+      (z-pos 101)
       (name "water")
       (width 35)
       (height 50)
@@ -269,8 +270,8 @@
       )
     )
     (tilemap
-      (z-pos 1)
       (solid #f)
+      (z-pos 1)
       (name "pier")
       (width 35)
       (height 50)
@@ -372,13 +373,13 @@
       (alignment "top")
       (speed 0.2)
       (image "images/background/bridgecloud-dark.png")
-      (layer -175)
+      (z-pos -175)
     )
     (background
       (alignment "bottom")
       (speed 0.7)
       (image "images/background/bridgeocean-fade.png")
-      (layer -195)
+      (z-pos -195)
     )
     (gradient
       (top_color 0 0 0)
@@ -423,7 +424,7 @@
       (name "p3")
       (sprite "images/objects/castledoor/keyholes.sprite")
       (path
-      (mode "oneshot")
+        (mode "oneshot")
         (node
           (x 576)
           (y 96)
@@ -464,8 +465,8 @@
       (y 32)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 36)
       (height 75)
@@ -548,8 +549,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 36)
       (height 75)
@@ -632,8 +633,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 36)
       (height 75)

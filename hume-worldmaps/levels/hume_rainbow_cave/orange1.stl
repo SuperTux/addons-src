@@ -1,8 +1,8 @@
-
 (supertux-level
   (version 2)
-  (name (_ "Tux has never seen orange crystals")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "Tux has never seen orange crystals"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -143,8 +143,8 @@
       (y 864)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 250)
       (height 35)
@@ -187,8 +187,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 250)
       (height 35)
@@ -231,8 +231,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "secret")
       (width 250)
       (height 35)

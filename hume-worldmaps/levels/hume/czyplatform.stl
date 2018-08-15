@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "Hume's crazy platform (hard)"))
-  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (author "hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/ghostforest.ogg")
@@ -18,18 +19,18 @@
       (y 192)
     )
     (firefly
+      (sprite "images/objects/resetpoints/bell.sprite")
       (x 8434.385)
       (y 878.3223)
-      (sprite "images/objects/resetpoints/bell.sprite")
     )
     (firefly
+      (sprite "images/objects/resetpoints/bell.sprite")
       (x 4096)
       (y 896)
-      (sprite "images/objects/resetpoints/bell.sprite")
     )
     (platform
-      (name "platform")
       (running #f)
+      (name "platform")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -180,8 +181,8 @@
       )
     )
     (platform
-      (name "p2")
       (running #f)
+      (name "p2")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -556,19 +557,19 @@
     )
     (switch
       (script "platform.goto_node(28)")
+      (sprite "images/objects/switch/left.sprite")
       (x 560)
       (y 912.5)
-      (sprite "images/objects/switch/left.sprite")
     )
     (switch
       (script "p2.goto_node(32)")
+      (sprite "images/objects/switch/right.sprite")
       (x 4032)
       (y 928)
-      (sprite "images/objects/switch/right.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 300)
       (height 35)
@@ -611,8 +612,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 300)
       (height 35)
@@ -655,8 +656,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 300)
       (height 35)
@@ -699,11 +700,11 @@
       )
     )
     (tilemap
-      (z-pos -200)
       (solid #f)
-      (name "tilebg")
       (speed 0.5)
       (speed-y 0.5)
+      (z-pos -200)
+      (name "tilebg")
       (width 300)
       (height 35)
       (tiles
@@ -744,39 +745,48 @@
       2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650
       )
     )
-    (crystallo (radius 96)
+    (crystallo
+      (radius 96)
       (x 8000)
       (y 640)
     )
-    (crystallo (radius 96)
+    (crystallo
+      (radius 96)
       (x 8640)
       (y 608)
     )
-    (crystallo (radius 96)
+    (crystallo
+      (radius 96)
       (x 8192)
       (y 640)
     )
-    (crystallo (radius 96)
+    (crystallo
+      (radius 96)
       (x 8992)
       (y 416)
     )
-    (crystallo (radius 96)
+    (crystallo
+      (radius 96)
       (x 9408)
       (y 576)
     )
-    (crystallo (radius 96)
+    (crystallo
+      (radius 96)
       (x 9504)
       (y 384)
     )
-    (crystallo (radius 96)
+    (crystallo
+      (radius 96)
       (x 8608)
       (y 128)
     )
-    (crystallo (radius 96)
+    (crystallo
+      (radius 96)
       (x 7872)
       (y 256)
     )
-    (crystallo (radius 96)
+    (crystallo
+      (radius 96)
       (x 8416)
       (y 128)
     )

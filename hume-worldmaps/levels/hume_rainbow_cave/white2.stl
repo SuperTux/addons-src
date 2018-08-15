@@ -1,7 +1,8 @@
 (supertux-level
   (version 2)
-  (name (_ "A barricaded passage")) (license "GPL 2+ / CC-by-sa 3.0")
+  (name (_ "A barricaded passage"))
   (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -235,13 +236,13 @@
     )
     (switch
       (script "kurva.start()")
+      (sprite "images/objects/switch/switch.sprite")
       (x 2112)
       (y 992)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 150)
       (height 35)
@@ -284,8 +285,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 150)
       (height 35)
@@ -328,8 +329,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "secret")
       (width 150)
       (height 35)
@@ -372,13 +373,13 @@
       )
     )
     (wind
-      (name "kurva")
       (blowing #f)
       (speed-x 0)
       (speed-y -300)
       (acceleration 50)
       (width 60)
       (height 520)
+      (name "kurva")
       (x 3840)
       (y 416)
     )
