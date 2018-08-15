@@ -201,8 +201,8 @@
       (y 270)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 420)
       (height 35)
@@ -245,8 +245,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 420)
       (height 35)
@@ -289,8 +289,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 420)
       (height 35)
@@ -333,8 +333,8 @@
       )
     )
     (tilemap
-      (z-pos -50)
       (solid #f)
+      (z-pos -50)
       (width 420)
       (height 35)
       (tiles
@@ -376,8 +376,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Versteck")
       (width 420)
       (height 35)
