@@ -68,11 +68,11 @@
     )
     (dispenser
       (cycle 3)
-      (x 1344)
-      (y 224)
       (type "cannon")
       (badguy "skullyhop")
       (direction "left")
+      (x 1344)
+      (y 224)
     )
     (igel
       (x 4674.1)

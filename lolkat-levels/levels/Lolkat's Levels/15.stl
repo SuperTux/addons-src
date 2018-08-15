@@ -41,29 +41,27 @@
     )
     (dispenser
       (cycle 6)
-      (x 1891)
-      (y 389)
       (type "cannon")
       (badguy "bouncingsnowball")
+      (x 1891)
+      (y 389)
     )
     (dispenser
       (cycle 3)
-      (x 1475)
-      (y 389)
       (type "cannon")
       (badguy "snowball")
+      (x 1475)
+      (y 389)
     )
     (dispenser
       (cycle 3)
-      (x 1988)
-      (y 236)
       (type "rocketlauncher")
       (badguy "mrbomb")
       (direction "right")
+      (x 1988)
+      (y 236)
     )
     (platform
-      (x 32)
-      (y 256)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -73,8 +71,6 @@
       )
     )
     (platform
-      (x 5984)
-      (y 544)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node

@@ -17,15 +17,15 @@
     )
     (dispenser
       (cycle 2)
+      (badguy "mriceblock")
       (x 2400)
       (y 128)
-      (badguy "mriceblock")
     )
     (dispenser
       (cycle 2)
+      (badguy "mriceblock")
       (x 3136)
       (y 128)
-      (badguy "mriceblock")
     )
     (firefly
       (x 3840)
@@ -43,14 +43,14 @@ Abandoned Ice Cube Factory"))
       (y 736)
     )
     (mriceblock
+      (direction "right")
       (x 865)
       (y 198)
-      (direction "right")
     )
     (mriceblock
+      (direction "right")
       (x 1601)
       (y 198)
-      (direction "right")
     )
     (spawnpoint
       (name "main")

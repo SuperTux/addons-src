@@ -18,10 +18,10 @@
     )
     (dispenser
       (cycle 3)
-      (x 2019)
-      (y 517)
       (type "cannon")
       (badguy "captainsnowball")
+      (x 2019)
+      (y 517)
     )
     (infoblock
       (message (_ "-Warning! Bridge out!"))

@@ -42,15 +42,15 @@
     )
     (dispenser
       (cycle 3)
+      (badguy "toad")
       (x 2176)
       (y 0)
-      (badguy "toad")
     )
     (dispenser
       (cycle 4)
+      (badguy "captainsnowball")
       (x 4928)
       (y 384)
-      (badguy "captainsnowball")
     )
     (igel
       (x 1314.1)
@@ -86,9 +86,9 @@
       (y 234)
     )
     (sspiky
+      (direction "right")
       (x 4102)
       (y 234)
-      (direction "right")
     )
     (snail
       (x 3010)

@@ -106,36 +106,36 @@
     )
     (dispenser
       (cycle 2)
+      (badguy "captainsnowball")
       (x 1024)
       (y 224)
-      (badguy "captainsnowball")
     )
     (dispenser
       (cycle 2)
-      (x 4675)
-      (y 325)
       (type "cannon")
       (badguy "kamikazesnowball")
+      (x 4675)
+      (y 325)
     )
     (dispenser
       (cycle 2)
+      (badguy "captainsnowball")
       (x 5472)
       (y 224)
-      (badguy "captainsnowball")
     )
     (firefly
       (x 2656)
       (y 352)
     )
     (lantern
+      (color 1 0 0)
       (x 272)
       (y 328)
-      (color 1 0 0)
     )
     (lantern
+      (color 1 0 0)
       (x 2736)
       (y 392)
-      (color 1 0 0)
     )
     (sspiky
       (x 1318)

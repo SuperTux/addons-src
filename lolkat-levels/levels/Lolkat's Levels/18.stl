@@ -32,9 +32,9 @@
     )
     (dispenser
       (cycle 2)
+      (badguy "skullyhop")
       (x 2336)
       (y 320)
-      (badguy "skullyhop")
     )
     (flame
       (speed 3)

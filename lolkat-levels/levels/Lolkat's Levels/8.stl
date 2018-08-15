@@ -32,15 +32,15 @@
     )
     (dispenser
       (cycle 2)
+      (badguy "skullyhop")
       (x 4800)
       (y 64)
-      (badguy "skullyhop")
     )
     (dispenser
       (cycle 2)
+      (badguy "skullyhop")
       (x 2336)
       (y 64)
-      (badguy "skullyhop")
     )
     (infoblock
       (message (_ "-Skullyhops: Hehe! You thought we wouldn't empty the bonus boxes before you were coming? Ha! If you manage to pass this castle, try and beat our other seven! Hehe!"))

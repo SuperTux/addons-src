@@ -38,15 +38,15 @@
     )
     (dispenser
       (cycle 2)
+      (badguy "captainsnowball")
       (x 2144)
       (y 256)
-      (badguy "captainsnowball")
     )
     (dispenser
       (cycle 3)
+      (badguy "snowball")
       (x 2752)
       (y 256)
-      (badguy "snowball")
     )
     (jumpy
       (x 4423)
