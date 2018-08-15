@@ -18,16 +18,16 @@
       (z-pos -190)
     )
     (decal
+      (z-pos 90)
+      (sprite "images/tiles/goal/exitfg.png")
       (x 9344)
       (y 512)
-      (layer 90)
-      (sprite "images/tiles/goal/exitfg.png")
     )
     (decal
+      (z-pos -90)
+      (sprite "images/tiles/goal/exitbg.png")
       (x 9248)
       (y 512)
-      (layer -90)
-      (sprite "images/tiles/goal/exitbg.png")
     )
     (flyingsnowball
       (x 2080)
@@ -38,6 +38,7 @@
       (y 640)
     )
     (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 5280)
       (y 288)
     )

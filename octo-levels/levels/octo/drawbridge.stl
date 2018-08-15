@@ -17,11 +17,11 @@
     )
     (dispenser
       (cycle 5)
-      (x 2179)
-      (y 837)
       (type "cannon")
       (badguy "kamikazesnowball")
       (direction "left")
+      (x 2179)
+      (y 837)
     )
     (fish
       (x 706)

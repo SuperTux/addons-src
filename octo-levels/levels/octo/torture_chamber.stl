@@ -148,9 +148,9 @@ RackLeft.goto_node (0);")
 Cage.goto_node (::CagePos);
 ChainFront.goto_node (::CagePos);
 ChainBack.goto_node (::CagePos);")
+      (sprite "images/objects/switch/left.sprite")
       (x 203)
       (y 1026)
-      (sprite "images/objects/switch/left.sprite")
     )
     (tilemap
       (solid #f)
@@ -611,10 +611,10 @@ ChainBack.goto_node (::CagePos);")
     (willowisp
       (sector "main")
       (spawnpoint "IronMaidenSpawnPoint")
-      (name "Willy")
       (flyspeed 56)
       (track-range 512)
       (vanish-range 768)
+      (name "Willy")
       (x 960)
       (y 288)
     )

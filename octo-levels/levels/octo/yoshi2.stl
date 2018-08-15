@@ -40,9 +40,9 @@ EndCoins.set_alpha(0.0);
 wait(15.0);
 EndCoins.set_alpha(1.0);
 EndBlocks.set_alpha(0.0);")
+      (sprite "images/powerups/potions/blue-potion.sprite")
       (x 9024)
       (y 544)
-      (sprite "images/powerups/potions/blue-potion.sprite")
     )
     (scripttrigger
       (script "Ladder.goto_node(1);")

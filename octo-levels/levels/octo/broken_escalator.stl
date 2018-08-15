@@ -70,9 +70,9 @@ wait (1.0);
 InteractiveIce.fade (0.0, 1);
 ForegroundIce.fade (0.0, 1);
 BackgroundIce.fade (0.0, 1);")
+      (sprite "images/objects/switch/switch.sprite")
       (x 2787)
       (y 292)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
       (solid #f)

@@ -15,10 +15,10 @@
       (mode "normal")
     )
     (decal
+      (z-pos -10)
+      (sprite "images/tiles/forest/nolok_statue.png")
       (x 4160)
       (y 896)
-      (layer -10)
-      (sprite "images/tiles/forest/nolok_statue.png")
     )
     (dispenser
       (cycle 5)

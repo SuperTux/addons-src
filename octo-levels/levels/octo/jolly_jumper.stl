@@ -14,13 +14,14 @@
     (gradient
       (top_color 0 0 0.3019608)
       (bottom_color 0 0 0)
-      (layer -210)
+      (z-pos -210)
     )
     (haywire
       (x 1536)
       (y 960)
     )
     (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 2976)
       (y 416)
     )

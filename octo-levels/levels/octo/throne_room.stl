@@ -30,8 +30,8 @@
       (y 256)
     )
     (platform
+      (running #f)
       (name "block0")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -45,8 +45,8 @@
       )
     )
     (platform
+      (running #f)
       (name "block3")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -60,8 +60,8 @@
       )
     )
     (platform
+      (running #f)
       (name "block2")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -75,8 +75,8 @@
       )
     )
     (platform
-      (name "block1")
       (running #f)
+      (name "block1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node

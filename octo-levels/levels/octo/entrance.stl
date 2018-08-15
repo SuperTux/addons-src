@@ -16,18 +16,18 @@
     )
     (dispenser
       (cycle 2)
-      (x 832)
-      (y 352)
       (badguy "snowball")
       (direction "right")
+      (x 832)
+      (y 352)
     )
     (dispenser
       (cycle 2)
-      (x 192)
-      (y 1056)
       (type "rocketlauncher")
       (badguy "spiky")
       (direction "right")
+      (x 192)
+      (y 1056)
     )
     (firefly
       (x 1056)
@@ -258,9 +258,9 @@
       )
     )
     (trampoline
+      (portable #f)
       (x 1856)
       (y 1056)
-      (portable #f)
     )
   )
 )
