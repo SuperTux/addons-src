@@ -10,8 +10,8 @@
     (ambient-light 1 1 1)
     (bonusblock
       (script "")
-      (sprite "images/objects/bonus_block/brick.sprite")
       (contents "1up")
+      (sprite "images/objects/bonus_block/brick.sprite")
       (x 4288)
       (y 480)
     )

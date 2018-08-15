@@ -12,13 +12,13 @@
     (background
       (speed 2)
       (image "images/background/fog.png")
-      (layer 200)
+      (z-pos 200)
     )
     (bonusblock
       (script "")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (count 2)
       (contents "firegrow")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 560)
       (y 192)
     )
@@ -27,7 +27,6 @@
     )
     (candle
       (name "jacks")
-      (color 1 1 1)
       (x 7584)
       (y 576)
     )
@@ -439,16 +438,16 @@
       (y 295)
     )
     (decal
+      (z-pos 100)
+      (sprite "images/tiles/goal/exitfg.png")
       (x 12512)
       (y 224)
-      (layer 100)
-      (sprite "images/tiles/goal/exitfg.png")
     )
     (decal
+      (z-pos -100)
+      (sprite "images/tiles/goal/exitbg.png")
       (x 12416)
       (y 224)
-      (layer -100)
-      (sprite "images/tiles/goal/exitbg.png")
     )
     (firefly
       (x 4736)

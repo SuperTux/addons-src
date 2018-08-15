@@ -4,7 +4,6 @@
   (author "Fiona")
   (contact "lmh.0013@gmail.com")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/forestmap.ogg")
@@ -43,16 +42,12 @@
       (y 1056)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 188)
       (height 92)
       (x 1792)
       (y 960)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 316)
       (height 76)
       (x 2080)

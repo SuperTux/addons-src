@@ -4,7 +4,6 @@
   (author "Fiona")
   (contact "lmh.0013@gmail.com")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/forest.ogg")
@@ -18,112 +17,90 @@
       (mode "normal")
     )
     (candle
-      (color 1 1 1)
       (x 5472)
       (y 864)
     )
     (candle
-      (color 1 1 1)
       (x 5536)
       (y 864)
     )
     (candle
-      (color 1 1 1)
       (x 5600)
       (y 864)
     )
     (candle
-      (color 1 1 1)
       (x 5664)
       (y 864)
     )
     (candle
-      (color 1 1 1)
       (x 5696)
       (y 864)
     )
     (candle
-      (color 1 1 1)
       (x 5760)
       (y 864)
     )
     (candle
-      (color 1 1 1)
       (x 5824)
       (y 864)
     )
     (candle
-      (color 1 1 1)
       (x 5920)
       (y 864)
     )
     (candle
-      (color 1 1 1)
       (x 5888)
       (y 864)
     )
     (candle
-      (color 1 1 1)
       (x 7296)
       (y 832)
     )
     (candle
-      (color 1 1 1)
       (x 7328)
       (y 832)
     )
     (candle
-      (color 1 1 1)
       (x 7616)
       (y 768)
     )
     (candle
-      (color 1 1 1)
       (x 10464)
       (y 800)
     )
     (candle
-      (color 1 1 1)
       (x 8096)
       (y 832)
     )
     (candle
-      (color 1 1 1)
       (x 8000)
       (y 800)
     )
     (candle
-      (color 1 1 1)
       (x 7776)
       (y 832)
     )
     (candle
-      (color 1 1 1)
       (x 7744)
       (y 832)
     )
     (candle
-      (color 1 1 1)
       (x 7936)
       (y 832)
     )
     (candle
-      (color 1 1 1)
       (x 7904)
       (y 832)
     )
     (candle
-      (color 1 1 1)
       (x 7840)
       (y 832)
     )
     (candle
-      (color 1 1 1)
       (x 7648)
       (y 768)
     )
     (candle
-      (color 1 1 1)
       (x 7968)
       (y 800)
     )
@@ -434,16 +411,12 @@
       (y 768)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 188)
       (height 92)
       (x 1856)
       (y 864)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 348)
       (height 156)
       (x 11488)
@@ -451,8 +424,6 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 192)
       (height 64)
       (x 3840)
@@ -753,8 +724,6 @@
       (y 704)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 124)
       (height 156)
       (x 480)

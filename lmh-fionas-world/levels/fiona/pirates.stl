@@ -1024,10 +1024,10 @@
       )
     )
     (decal
+      (z-pos -100)
+      (sprite "images/tiles/background/background.png")
       (x 5728)
       (y 512)
-      (layer -100)
-      (sprite "images/tiles/background/background.png")
     )
     (gradient
       (top_color 0.003921569 0.003921569 0.003921569)

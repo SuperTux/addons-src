@@ -4,7 +4,6 @@
   (author "LMH")
   (contact "lmh.0013@gmail.com")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/voc-night.ogg")
@@ -233,16 +232,12 @@
       (y 640)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 316)
       (height 172)
       (x 192)
       (y 820)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 412)
       (height 109)
       (x 3264)
