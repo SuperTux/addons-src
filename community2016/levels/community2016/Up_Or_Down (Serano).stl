@@ -3,7 +3,6 @@
   (name (_ "Up, or down?"))
   (author "alex")
   (license "CC-BY-SA 4.0 International")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/forest.ogg")
@@ -14,7 +13,7 @@
       (image-top "images/background/bridgecloud-dark.png")
       (image "images/background/bridgecloud-dark.png")
       (image-bottom "images/background/bridgecloud-dark.png")
-      (layer -190)
+      (z-pos -190)
     )
     (camera
       (mode "normal")
@@ -28,8 +27,8 @@
       (y 672)
     )
     (platform
-      (name "plat")
       (running #f)
+      (name "plat")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -458,61 +457,51 @@
       (y 836)
     )
     (weak_block
-      (linked #t)
       (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3328)
       (y 480)
     )
     (weak_block
-      (linked #t)
       (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3328)
       (y 448)
     )
     (weak_block
-      (linked #t)
       (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3360)
       (y 448)
     )
     (weak_block
-      (linked #t)
       (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3360)
       (y 480)
     )
     (weak_block
-      (linked #t)
       (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3392)
       (y 480)
     )
     (weak_block
-      (linked #t)
       (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3392)
       (y 448)
     )
     (weak_block
-      (linked #t)
       (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3456)
       (y 448)
     )
     (weak_block
-      (linked #t)
       (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3456)
       (y 480)
     )
     (weak_block
-      (linked #t)
       (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3488)
       (y 448)
     )
     (weak_block
-      (linked #t)
       (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3488)
       (y 480)
