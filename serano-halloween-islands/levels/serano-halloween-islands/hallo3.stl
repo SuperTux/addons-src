@@ -2,7 +2,6 @@
   (version 2)
   (name (_ "Spooky Castle"))
   (author "alex")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/darkforestkeep.ogg")
@@ -18,7 +17,7 @@
       (speed 2)
       (image "images/background/halloween/fog.png")
       (image-bottom "images/background/halloween/fog.png")
-      (layer 1000)
+      (z-pos 1000)
     )
     (bouncingsnowball
       (sprite "images/creatures/fatbat/fatbat.sprite")
@@ -54,35 +53,33 @@
       (mode "normal")
     )
     (candle
-      (color 1 1 1)
       (x 1664)
       (y 640)
     )
     (candle
-      (color 1 1 1)
       (x 6720)
       (y 768)
     )
     (decal
+      (sprite "images/objects/torch/torch1.png")
       (x 288)
       (y 704)
-      (sprite "images/objects/torch/torch1.png")
     )
     (decal
+      (sprite "images/objects/torch/torch1.png")
       (x 512)
       (y 704)
-      (sprite "images/objects/torch/torch1.png")
     )
     (decal
-      (x 12416)
-      (y 672)
       (sprite "images/decal/halloween/exit.png")
-    )
-    (decal
       (x 12416)
       (y 672)
-      (layer 100)
+    )
+    (decal
+      (z-pos 100)
       (sprite "images/decal/halloween/exitfg.png")
+      (x 12416)
+      (y 672)
     )
     (door
       (sector "balcony")
@@ -172,8 +169,6 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 124)
       (height 156)
       (x 5248)
@@ -517,16 +512,16 @@
       (mode "normal")
     )
     (decal
+      (z-pos -100)
+      (sprite "images/decal/halloween/tree.png")
       (x 672)
       (y 32)
-      (layer -100)
-      (sprite "images/decal/halloween/tree.png")
     )
     (decal
+      (z-pos -100)
+      (sprite "images/decal/halloween/tree.png")
       (x 832)
       (y 480)
-      (layer -100)
-      (sprite "images/decal/halloween/tree.png")
     )
     (door
       (sector "main")
@@ -678,14 +673,14 @@
       (mode "normal")
     )
     (decal
+      (sprite "images/decal/halloween/gravestone1.png")
       (x 352)
       (y 480)
-      (sprite "images/decal/halloween/gravestone1.png")
     )
     (decal
+      (sprite "images/decal/halloween/gravestone2.png")
       (x 480)
       (y 480)
-      (sprite "images/decal/halloween/gravestone2.png")
     )
     (door
       (sector "main")
