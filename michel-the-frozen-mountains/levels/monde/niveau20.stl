@@ -12,18 +12,18 @@
       (image-top "images/background/arctis_top.jpg")
       (image "images/background/arctis.jpg")
       (image-bottom "images/background/arctis_bottom.jpg")
-      (layer -200)
+      (z-pos -200)
     )
     (background
       (speed 0.4)
       (image "images/background/fog.png")
-      (layer -198)
+      (z-pos -198)
     )
     (background
       (alignment "top")
       (speed 0.7)
       (image "images/background/bridgecloud-dark.png")
-      (layer -196)
+      (z-pos -196)
     )
     (camera
       (mode "normal")
@@ -43,11 +43,11 @@
     )
     (dispenser
       (cycle 3)
-      (x 7072)
-      (y 768)
       (type "cannon")
       (badguy "kamikazesnowball")
       (direction "left")
+      (x 7072)
+      (y 768)
     )
     (jumpy
       (x 8935)
@@ -82,7 +82,6 @@
       (y 168)
     )
     (particles-rain
-      (layer 100)
     )
     (sequencetrigger
       (sequence "stoptux")
@@ -146,7 +145,7 @@
     (thunderstorm
       (interval 7)
       (name "orage")
-      (layer 10)
+      (z-pos 10)
     )
     (tilemap
       (solid #f)

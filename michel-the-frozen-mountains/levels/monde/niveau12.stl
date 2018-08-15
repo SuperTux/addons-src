@@ -34,11 +34,11 @@
     )
     (dispenser
       (cycle 2)
-      (x 12963)
-      (y 165)
       (type "cannon")
       (badguy "kamikazesnowball")
       (direction "left")
+      (x 12963)
+      (y 165)
     )
     (jumpy
       (x 4007)

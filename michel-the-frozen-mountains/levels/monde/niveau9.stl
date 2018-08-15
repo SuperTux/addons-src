@@ -17,7 +17,7 @@
       (alignment "bottom")
       (speed 0.7)
       (image "images/background/arctis_para2.png")
-      (layer -180)
+      (z-pos -180)
     )
     (camera
       (mode "normal")
@@ -346,7 +346,7 @@
       (alignment "bottom")
       (speed 0.7)
       (image "images/background/arctis_para2.png")
-      (layer -180)
+      (z-pos -180)
     )
     (camera
       (mode "normal")
@@ -379,34 +379,34 @@
       (y 512)
     )
     (lantern
+      (color 1 0 1)
       (x 816)
       (y 488)
-      (color 1 0 1)
     )
     (magicblock
+      (color 1 0 1)
       (x 1696)
       (y 672)
-      (color 1 0 1)
     )
     (magicblock
+      (color 1 0 1)
       (x 1728)
       (y 672)
-      (color 1 0 1)
     )
     (magicblock
+      (color 1 0 1)
       (x 672)
       (y 512)
-      (color 1 0 1)
     )
     (magicblock
+      (color 1 0 1)
       (x 1664)
       (y 672)
-      (color 1 0 1)
     )
     (magicblock
+      (color 1 0 1)
       (x 640)
       (y 512)
-      (color 1 0 1)
     )
     (mriceblock
       (x 2657)

@@ -12,13 +12,13 @@
       (image-top "images/background/nightsky_top.png")
       (image "images/background/nightsky_middle.png")
       (image-bottom "images/background/nightsky_bottom.png")
-      (layer -200)
+      (z-pos -200)
     )
     (background
       (alignment "bottom")
       (speed 0.7)
       (image "images/background/nightsky_para.png")
-      (layer -180)
+      (z-pos -180)
     )
     (camera
       (mode "normal")
@@ -402,13 +402,13 @@ retour.set_alpha(1.0);")
       (image-top "images/background/arctis_bottom.jpg")
       (image "images/background/arctis_bottom.jpg")
       (image-bottom "images/background/arctis_bottom.jpg")
-      (layer -200)
+      (z-pos -200)
     )
     (background
       (alignment "bottom")
       (speed 0.7)
       (image "images/background/arctis_para2.png")
-      (layer -180)
+      (z-pos -180)
     )
     (camera
       (mode "normal")
@@ -420,10 +420,8 @@ retour.set_alpha(1.0);")
       (y 384)
     )
     (platform
-      (name "porte1")
       (running #f)
-      (x 992)
-      (y 704)
+      (name "porte1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -439,37 +437,36 @@ retour.set_alpha(1.0);")
     (lantern
       (x 336)
       (y 424)
-      (color 1 1 1)
     )
     (magicblock
+      (color 1 0 0)
       (x 1216)
       (y 640)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 1216)
       (y 608)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 736)
       (y 960)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 1216)
       (y 704)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 1152)
       (y 352)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 1216)
       (y 672)
-      (color 1 0 0)
     )
     (mrbomb
       (x 2853)
@@ -544,9 +541,9 @@ retour.set_alpha(1.0);")
 porte1.start_moving();
 wait(0.9);
 porte1.stop_moving();")
+      (sprite "images/objects/switch/switch.sprite")
       (x 1123)
       (y 900)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
       (solid #f)

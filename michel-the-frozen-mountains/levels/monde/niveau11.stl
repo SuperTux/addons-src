@@ -24,16 +24,14 @@
     )
     (dispenser
       (cycle 2)
-      (x 2947)
-      (y 12549)
       (type "cannon")
       (badguy "kamikazesnowball")
       (direction "left")
+      (x 2947)
+      (y 12549)
     )
     (platform
       (name "plateforme1")
-      (x 896)
-      (y 2560)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node

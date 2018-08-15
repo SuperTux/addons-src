@@ -12,13 +12,13 @@
       (image-top "images/background/arctis_top.jpg")
       (image "images/background/arctis.jpg")
       (image-bottom "images/background/arctis_bottom.jpg")
-      (layer -200)
+      (z-pos -200)
     )
     (background
       (alignment "bottom")
       (speed 0.4)
       (image "images/background/arctis_para2.png")
-      (layer -180)
+      (z-pos -180)
     )
     (camera
       (mode "normal")
@@ -29,11 +29,11 @@
     )
     (dispenser
       (cycle 3)
-      (x 643)
-      (y 2085)
       (type "cannon")
       (badguy "kamikazesnowball")
       (direction "right")
+      (x 643)
+      (y 2085)
     )
     (firefly
       (x 8224)

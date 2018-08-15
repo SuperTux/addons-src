@@ -12,13 +12,13 @@
       (image-top "images/background/bluemountain-bottom.png")
       (image "images/background/bluemountain-bottom.png")
       (image-bottom "images/background/bluemountain-bottom.png")
-      (layer -200)
+      (z-pos -200)
     )
     (background
       (alignment "top")
       (speed 0.5)
       (image "images/background/bluemountain-middle.png")
-      (layer -196)
+      (z-pos -196)
     )
     (camera
       (mode "normal")
@@ -29,35 +29,35 @@
     )
     (dispenser
       (cycle 3)
-      (x 2243)
-      (y 4901)
       (type "cannon")
       (badguy "kamikazesnowball")
       (direction "left")
+      (x 2243)
+      (y 4901)
     )
     (dispenser
       (cycle 3)
-      (x 355)
-      (y 1573)
       (type "cannon")
       (badguy "kamikazesnowball")
       (direction "right")
+      (x 355)
+      (y 1573)
     )
     (dispenser
       (cycle 3)
+      (type "cannon")
+      (badguy "kamikazesnowball")
+      (direction "left")
       (x 2499)
       (y 3109)
-      (type "cannon")
-      (badguy "kamikazesnowball")
-      (direction "left")
     )
     (dispenser
       (cycle 3)
-      (x 2563)
-      (y 2277)
       (type "cannon")
       (badguy "kamikazesnowball")
       (direction "left")
+      (x 2563)
+      (y 2277)
     )
     (door
       (sector "grotte")
@@ -1870,13 +1870,13 @@
       (image-top "images/background/arctis_bottom.jpg")
       (image "images/background/arctis_bottom.jpg")
       (image-bottom "images/background/arctis_bottom.jpg")
-      (layer -200)
+      (z-pos -200)
     )
     (background
       (alignment "bottom")
       (speed 0.7)
       (image "images/background/arctis_para2.png")
-      (layer -196)
+      (z-pos -196)
     )
     (camera
       (mode "normal")
@@ -1896,10 +1896,8 @@
       (y 480)
     )
     (platform
-      (name "porte")
       (running #f)
-      (x 1120)
-      (y 96)
+      (name "porte")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -1918,39 +1916,39 @@ Foreground.set_alpha(0);
 play_sound(\"sounds/door.wav\");
 porte.goto_node(1);
 }")
+      (direction "left")
       (x 1140)
       (y 514)
-      (direction "left")
     )
     (lantern
+      (color 1 0 1)
       (x 208)
       (y 264)
-      (color 1 0 1)
     )
     (magicblock
+      (color 1 0 1)
       (x 1056)
       (y 416)
-      (color 1 0 1)
     )
     (magicblock
+      (color 1 0 1)
       (x 1056)
       (y 480)
-      (color 1 0 1)
     )
     (magicblock
+      (color 1 0 1)
       (x 1056)
       (y 512)
-      (color 1 0 1)
     )
     (magicblock
+      (color 1 0 1)
       (x 1056)
       (y 544)
-      (color 1 0 1)
     )
     (magicblock
+      (color 1 0 1)
       (x 1056)
       (y 448)
-      (color 1 0 1)
     )
     (mrbomb
       (x 741)
@@ -2007,9 +2005,9 @@ Foreground.set_alpha(1);
 play_sound(\"sounds/door.wav\");
 porte.goto_node(0);
 }")
+      (sprite "images/objects/switch/switch.sprite")
       (x 963)
       (y 708)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
       (solid #f)

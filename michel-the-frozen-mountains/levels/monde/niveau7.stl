@@ -2683,10 +2683,8 @@
       (y 384)
     )
     (platform
-      (name "porte1")
       (running #f)
-      (x 672)
-      (y 480)
+      (name "porte1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -2705,49 +2703,48 @@ Foreground.set_alpha(0);
 play_sound(\"sounds/door.wav\");
 porte1.goto_node(1);
 }")
+      (direction "left")
       (x 1044)
       (y 392)
-      (direction "left")
     )
     (lantern
       (x 1328)
       (y 552)
-      (color 1 1 1)
     )
     (magicblock
+      (color 1 0 0)
       (x 1024)
       (y 448)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 1056)
       (y 448)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 992)
       (y 448)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 1568)
       (y 480)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 1568)
       (y 448)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 1568)
       (y 512)
-      (color 1 0 0)
     )
     (magicblock
+      (color 1 0 0)
       (x 1568)
       (y 544)
-      (color 1 0 0)
     )
     (rock
       (x 2112)
@@ -2768,9 +2765,9 @@ Foreground.set_alpha(1);
 play_sound(\"sounds/door.wav\");
 porte1.goto_node(0);
 }")
+      (sprite "images/objects/switch/switch.sprite")
       (x 771)
       (y 644)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
       (solid #f)

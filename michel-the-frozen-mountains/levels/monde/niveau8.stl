@@ -23,15 +23,13 @@ plateforme6.start_moving();")
       (alignment "bottom")
       (speed 0.7)
       (image "images/background/nightsky_para.png")
-      (layer -180)
+      (z-pos -180)
     )
     (camera
       (mode "normal")
     )
     (platform
       (name "support11")
-      (x 1760)
-      (y 160)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -48,8 +46,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support12")
-      (x 1792)
-      (y 160)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -66,8 +62,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support13")
-      (x 1824)
-      (y 160)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -84,8 +78,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support14")
-      (x 1856)
-      (y 160)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -102,8 +94,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support21")
-      (x 5888)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -120,8 +110,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support22")
-      (x 6016)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -138,8 +126,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support23")
-      (x 6048)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -156,8 +142,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support24")
-      (x 6080)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -174,8 +158,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support25")
-      (x 5920)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -192,8 +174,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support26")
-      (x 5952)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -210,8 +190,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support27")
-      (x 5984)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -228,8 +206,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support31")
-      (x 5888)
-      (y 928)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -246,8 +222,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support32")
-      (x 5920)
-      (y 928)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -264,8 +238,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support33")
-      (x 5952)
-      (y 928)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -282,8 +254,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support34")
-      (x 5984)
-      (y 928)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -300,8 +270,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support41")
-      (x 7616)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -318,8 +286,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support42")
-      (x 7648)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -336,8 +302,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support43")
-      (x 7680)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -354,8 +318,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support44")
-      (x 7712)
-      (y 224)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -372,8 +334,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support51")
-      (x 9760)
-      (y 992)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -390,8 +350,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support52")
-      (x 9792)
-      (y 992)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -408,8 +366,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support53")
-      (x 9824)
-      (y 992)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -426,8 +382,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support54")
-      (x 9856)
-      (y 992)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -444,8 +398,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support55")
-      (x 9888)
-      (y 992)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -462,8 +414,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support56")
-      (x 9920)
-      (y 992)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
@@ -480,8 +430,6 @@ plateforme6.start_moving();")
     )
     (platform
       (name "support57")
-      (x 9952)
-      (y 992)
       (sprite "images/objects/invisible/invisible.sprite")
       (path
         (node
