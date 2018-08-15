@@ -311,8 +311,8 @@
       )
     )
     (platform
-      (name "hovno")
       (running #f)
+      (name "hovno")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -330,8 +330,8 @@
       )
     )
     (platform
-      (name "hovno2")
       (running #f)
+      (name "hovno2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -349,8 +349,8 @@
       )
     )
     (platform
-      (name "idot")
       (running #f)
+      (name "idot")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -364,8 +364,8 @@
       )
     )
     (platform
-      (name "houbeles")
       (running #f)
+      (name "houbeles")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -430,13 +430,13 @@ hovno2.goto_node(1)")
 hovno.goto_node(2)
 hovno2.goto_node(2)
 houbeles.goto_node(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 6144)
       (y 32)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 210)
       (height 25)
@@ -469,8 +469,8 @@ houbeles.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 210)
       (height 25)
@@ -503,8 +503,8 @@ houbeles.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos -10)
       (solid #f)
+      (z-pos -10)
       (width 210)
       (height 25)
       (tiles
@@ -536,8 +536,8 @@ houbeles.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #f)
+      (z-pos 0)
       (width 210)
       (height 25)
       (tiles
@@ -569,8 +569,8 @@ houbeles.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #f)
+      (z-pos 0)
       (width 210)
       (height 25)
       (tiles
@@ -602,8 +602,8 @@ houbeles.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "mapa")
       (width 210)
       (height 25)
@@ -709,8 +709,8 @@ houbeles.goto_node(1)")
       (y 992)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -753,8 +753,8 @@ houbeles.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -797,8 +797,8 @@ houbeles.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)

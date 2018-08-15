@@ -307,8 +307,8 @@
       (y 7808)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 12)
       (height 250)
@@ -566,8 +566,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 12)
       (height 250)
@@ -825,8 +825,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 12)
       (height 250)
@@ -1097,8 +1097,8 @@
       (mode "normal")
     )
     (platform
-      (name "hovno")
       (running #f)
+      (name "hovno")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -1144,8 +1144,8 @@
       (y 192)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -1188,8 +1188,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -1232,8 +1232,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -1322,8 +1322,8 @@
       (y 128)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -1366,8 +1366,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -1410,8 +1410,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)

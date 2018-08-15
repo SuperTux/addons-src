@@ -109,8 +109,8 @@
       )
     )
     (platform
-      (name "d")
       (running #f)
+      (name "d")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -124,8 +124,8 @@
       )
     )
     (platform
-      (name "e")
       (running #f)
+      (name "e")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -139,8 +139,8 @@
       )
     )
     (platform
-      (name "c")
       (running #f)
+      (name "c")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -154,8 +154,8 @@
       )
     )
     (platform
-      (name "b")
       (running #f)
+      (name "b")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -169,8 +169,8 @@
       )
     )
     (platform
-      (name "a")
       (running #f)
+      (name "a")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -184,8 +184,8 @@
       )
     )
     (platform
-      (name "f")
       (running #f)
+      (name "f")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -226,13 +226,13 @@ c.goto_node(1)
 d.goto_node(1)
 e.goto_node(1)
 f.goto_node(1)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 192)
       (y 2880)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 100)
@@ -340,8 +340,8 @@ f.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 100)
@@ -449,8 +449,8 @@ f.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 100)
@@ -558,8 +558,8 @@ f.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos -99)
       (solid #f)
+      (z-pos -99)
       (name "peniz")
       (width 100)
       (height 100)
@@ -783,8 +783,8 @@ f.goto_node(1)")
       (y 416)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -827,8 +827,8 @@ f.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -871,8 +871,8 @@ f.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -915,9 +915,9 @@ f.goto_node(1)")
       )
     )
     (trampoline
+      (portable #f)
       (x 1568)
       (y 544)
-      (portable #f)
     )
   )
 )

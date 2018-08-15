@@ -39,8 +39,8 @@
       (y 160)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -83,8 +83,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -127,8 +127,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -217,8 +217,8 @@
       (y 556.3674)
     )
     (platform
-      (name "kokot1")
       (running #f)
+      (name "kokot1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -232,8 +232,8 @@
       )
     )
     (platform
-      (name "kokot2")
       (running #f)
+      (name "kokot2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -247,8 +247,8 @@
       )
     )
     (platform
-      (name "kokot3")
       (running #f)
+      (name "kokot3")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -262,8 +262,8 @@
       )
     )
     (platform
-      (name "kokot4")
       (running #f)
+      (name "kokot4")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -277,8 +277,8 @@
       )
     )
     (platform
-      (name "kokot6")
       (running #f)
+      (name "kokot6")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -292,8 +292,8 @@
       )
     )
     (platform
-      (name "kokot5")
       (running #f)
+      (name "kokot5")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -516,8 +516,8 @@ kokot6.goto_node(1)")
       (y 518.7042)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 500)
       (height 35)
@@ -560,8 +560,8 @@ kokot6.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 500)
       (height 35)
@@ -604,8 +604,8 @@ kokot6.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 500)
       (height 35)
@@ -652,19 +652,19 @@ kokot6.goto_node(1)")
       (y 378.5519)
     )
     (trampoline
+      (portable #f)
       (x 8234.787)
       (y 438.5519)
-      (portable #f)
     )
     (trampoline
+      (portable #f)
       (x 13050.35)
       (y 890.3122)
-      (portable #f)
     )
     (trampoline
+      (portable #f)
       (x 13710.84)
       (y 572.4543)
-      (portable #f)
     )
     (zeekling
       (x 10764.14)

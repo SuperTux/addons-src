@@ -17,8 +17,8 @@
       (mode "normal")
     )
     (dispenser
-      (badguy "snail")
       (cycle 5)
+      (badguy "snail")
       (direction "left")
       (x 1696)
       (y 0)
@@ -76,34 +76,34 @@
       (y 384)
     )
     (powerup
+      (sprite "images/powerups/fireflower/fireflower.sprite")
       (x 64)
       (y 384)
-      (sprite "images/powerups/fireflower/fireflower.sprite")
     )
     (powerup
+      (sprite "images/powerups/1up/1up.sprite")
       (x 512)
       (y 384)
-      (sprite "images/powerups/1up/1up.sprite")
     )
     (powerup
+      (sprite "images/powerups/1up/1up.sprite")
       (x 256)
       (y 384)
-      (sprite "images/powerups/1up/1up.sprite")
     )
     (powerup
+      (sprite "images/powerups/1up/1up.sprite")
       (x 160)
       (y 384)
-      (sprite "images/powerups/1up/1up.sprite")
     )
     (powerup
+      (sprite "images/powerups/1up/1up.sprite")
       (x 416)
       (y 384)
-      (sprite "images/powerups/1up/1up.sprite")
     )
     (powerup
+      (sprite "images/powerups/fireflower/fireflower.sprite")
       (x 608)
       (y 384)
-      (sprite "images/powerups/fireflower/fireflower.sprite")
     )
     (secretarea
       (fade-tilemap "Foreground")
@@ -148,8 +148,8 @@
       (y 544)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 300)
       (height 35)
@@ -192,8 +192,8 @@
       )
     )
     (tilemap
-      (z-pos 97)
       (solid #t)
+      (z-pos 97)
       (name "Interactive")
       (width 300)
       (height 35)
@@ -236,8 +236,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 300)
       (height 35)
@@ -280,8 +280,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (width 300)
       (height 35)
       (tiles
@@ -323,9 +323,9 @@
       )
     )
     (trampoline
+      (portable #f)
       (x 640)
       (y 384)
-      (portable #f)
     )
     (walkingleaf
       (x 8224)

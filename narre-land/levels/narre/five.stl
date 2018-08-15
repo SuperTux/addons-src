@@ -23,15 +23,15 @@
       (y 1216)
     )
     (dispenser
-      (badguy "random")
       (cycle 1)
+      (badguy "random")
       (x 11328)
       (y 1216)
     )
     (firefly
+      (sprite "images/objects/resetpoints/torch.sprite")
       (x 9632)
       (y 864)
-      (sprite "images/objects/resetpoints/torch.sprite")
     )
     (flame
       (x 9888)
@@ -186,8 +186,8 @@
       (y 576)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 500)
       (height 35)
@@ -230,8 +230,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 500)
       (height 35)
@@ -274,8 +274,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 500)
       (height 35)
@@ -318,8 +318,8 @@
       )
     )
     (tilemap
-      (z-pos 200)
       (solid #f)
+      (z-pos 200)
       (name "secret")
       (width 500)
       (height 35)

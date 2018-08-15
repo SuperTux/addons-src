@@ -28,8 +28,8 @@
       (y 0)
     )
     (platform
-      (name "hovno")
       (running #f)
+      (name "hovno")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -43,8 +43,8 @@
       )
     )
     (platform
+      (running #f)
       (name "vul1")
-      (running #f)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -58,8 +58,8 @@
       )
     )
     (platform
+      (running #f)
       (name "vul2")
-      (running #f)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -73,8 +73,8 @@
       )
     )
     (platform
+      (running #f)
       (name "vul3")
-      (running #f)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -88,8 +88,8 @@
       )
     )
     (platform
+      (running #f)
       (name "vul4")
-      (running #f)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -103,8 +103,8 @@
       )
     )
     (platform
+      (running #f)
       (name "vul6")
-      (running #f)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -118,8 +118,8 @@
       )
     )
     (platform
+      (running #f)
       (name "vul5")
-      (running #f)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -133,8 +133,8 @@
       )
     )
     (platform
+      (running #f)
       (name "vul7")
-      (running #f)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -148,8 +148,8 @@
       )
     )
     (platform
-      (name "idiot")
       (running #f)
+      (name "idiot")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -413,8 +413,8 @@ vul7.goto_node(1)")
       (y 0)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -457,8 +457,8 @@ vul7.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -501,8 +501,8 @@ vul7.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -651,31 +651,31 @@ vul7.goto_node(1)")
       (y 96)
     )
     (thunderstorm
-      (name "jzfhtg")
       (interval 60)
+      (name "jzfhtg")
     )
     (thunderstorm
-      (name "hfmtfdhjtgcf")
       (interval 42)
+      (name "hfmtfdhjtgcf")
     )
     (thunderstorm
       (name "jgfhtf")
     )
     (thunderstorm
-      (name "hfcgfdxgrd")
       (interval 37)
+      (name "hfcgfdxgrd")
     )
     (thunderstorm
-      (name "gfdhtduzjhfhrsdjhfdhtrdhngtdsthzrdf")
       (interval 6)
+      (name "gfdhtduzjhfhrsdjhfdhtrdhngtdsthzrdf")
     )
     (thunderstorm
-      (name "hgtfdztfdjghdmjfdjhtgdfhntdhjgdjhtfjkzfzhtfhgfhjtfhgdfhjtfjhfhjtdjhg")
       (interval 13)
+      (name "hgtfdztfdjghdmjfdjhtgdfhntdhjgdjhtfjkzfzhtfhgfhjtfhgdfhjtfjhfhjtdjhg")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -718,8 +718,8 @@ vul7.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -762,8 +762,8 @@ vul7.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -833,9 +833,9 @@ vul7.goto_node(1)")
       (y 160)
     )
     (lantern
+      (color 1 0 1)
       (x 3104)
       (y 192)
-      (color 1 0 1)
     )
     (mole
       (x 224)
@@ -916,12 +916,12 @@ vul7.goto_node(1)")
       (y 160)
     )
     (thunderstorm
-      (name "bour")
       (interval 2)
+      (name "bour")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -964,8 +964,8 @@ vul7.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -1008,8 +1008,8 @@ vul7.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -1082,8 +1082,8 @@ vul7.goto_node(1)")
       (y 96)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -1126,8 +1126,8 @@ vul7.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -1170,8 +1170,8 @@ vul7.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -1282,8 +1282,8 @@ vul7.goto_node(1)")
       (y 96)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 100)
@@ -1391,8 +1391,8 @@ vul7.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 100)
@@ -1500,8 +1500,8 @@ vul7.goto_node(1)")
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 100)

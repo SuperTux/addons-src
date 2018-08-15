@@ -166,8 +166,8 @@
       (y 928)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 160)
       (height 35)
@@ -210,8 +210,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 160)
       (height 35)
@@ -254,8 +254,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 160)
       (height 35)
@@ -298,8 +298,8 @@
       )
     )
     (tilemap
-      (z-pos -3)
       (solid #t)
+      (z-pos -3)
       (width 160)
       (height 35)
       (tiles
@@ -408,8 +408,8 @@
       (y 640)
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -452,8 +452,8 @@
       )
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "krystaly")
       (width 100)
       (height 35)
@@ -496,8 +496,8 @@
       )
     )
     (tilemap
-      (z-pos 4000)
       (solid #f)
+      (z-pos 4000)
       (width 100)
       (height 35)
       (tiles
@@ -539,14 +539,14 @@
       )
     )
     (trampoline
+      (portable #f)
       (x 416)
       (y 192)
-      (portable #f)
     )
     (trampoline
+      (portable #f)
       (x 256)
       (y 512)
-      (portable #f)
     )
   )
 )

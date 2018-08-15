@@ -48,8 +48,8 @@
       (y 96)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -92,8 +92,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -136,8 +136,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -180,8 +180,8 @@
       )
     )
     (tilemap
-      (z-pos 200)
       (solid #f)
+      (z-pos 200)
       (width 100)
       (height 35)
       (tiles
@@ -223,8 +223,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "pemda")
       (path
         (node
@@ -366,8 +366,8 @@
       (y 52.25992)
     )
     (platform
-      (name "ocot")
       (running #f)
+      (name "ocot")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -395,8 +395,8 @@
       (y 960)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -439,8 +439,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -483,8 +483,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)

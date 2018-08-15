@@ -16,56 +16,56 @@
       (mode "normal")
     )
     (dispenser
-      (badguy "skullyhop")
       (cycle 5)
+      (badguy "skullyhop")
       (x 2976)
       (y 256)
     )
     (dispenser
-      (badguy "mrbomb")
       (cycle 5)
+      (badguy "mrbomb")
       (x 2720)
       (y 704)
     )
     (dispenser
-      (badguy "mrbomb")
       (cycle 5)
+      (badguy "mrbomb")
       (x 2304)
       (y 704)
     )
     (dispenser
-      (badguy "mrbomb")
       (cycle 5)
+      (badguy "mrbomb")
       (x 1664)
       (y 704)
     )
     (dispenser
-      (badguy "mrbomb")
       (cycle 5)
+      (badguy "mrbomb")
       (x 1184)
       (y 704)
     )
     (dispenser
-      (badguy "mrbomb")
       (cycle 5)
+      (badguy "mrbomb")
       (x 640)
       (y 704)
     )
     (dispenser
-      (badguy "skullyhop")
       (cycle 5)
+      (badguy "skullyhop")
       (x 608)
       (y 256)
     )
     (dispenser
-      (badguy "skullyhop")
       (cycle 5)
+      (badguy "skullyhop")
       (x 1280)
       (y 256)
     )
     (dispenser
-      (badguy "skullyhop")
       (cycle 5)
+      (badguy "skullyhop")
       (x 2176)
       (y 256)
     )
@@ -78,8 +78,8 @@
       (y 736)
     )
     (platform
-      (name "svina")
       (running #f)
+      (name "svina")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -188,13 +188,13 @@
     (switch
       (script "svina.goto_node(1)
 ")
+      (sprite "images/objects/switch/switch.sprite")
       (x 32)
       (y 736)
-      (sprite "images/objects/switch/switch.sprite")
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -237,8 +237,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -281,8 +281,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -329,9 +329,9 @@
       (y 192)
     )
     (trampoline
+      (portable #f)
       (x 3200)
       (y 512)
-      (portable #f)
     )
     (walkingleaf
       (x 608)

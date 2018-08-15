@@ -72,8 +72,8 @@
       (y 96)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 100)
       (height 35)
@@ -116,8 +116,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 100)
       (height 35)
@@ -160,8 +160,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 100)
       (height 35)
@@ -664,8 +664,8 @@
       (y 448)
     )
     (platform
-      (name "kolo")
       (running #f)
+      (name "kolo")
       (sprite "images/objects/explosion/explosion.sprite")
       (path
         (node
@@ -681,8 +681,8 @@
       )
     )
     (platform
-      (name "bib")
       (running #f)
+      (name "bib")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -696,8 +696,8 @@
       )
     )
     (platform
-      (name "momo")
       (running #f)
+      (name "momo")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -789,8 +789,8 @@
       (y 0)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 250)
       (height 35)
@@ -833,8 +833,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 250)
       (height 35)
@@ -877,8 +877,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 250)
       (height 35)
