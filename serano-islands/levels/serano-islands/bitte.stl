@@ -2,7 +2,6 @@
   (version 2)
   (name (_ "Please don't jump into the lava"))
   (author "alex")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/fortress.ogg")
@@ -17,7 +16,6 @@
       (mode "normal")
     )
     (candle
-      (color 1 1 1)
       (x 4544)
       (y 384)
     )

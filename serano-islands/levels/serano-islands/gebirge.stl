@@ -162,8 +162,8 @@
       (y 608)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 300)
       (height 25)
@@ -196,8 +196,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 300)
       (height 25)
@@ -230,8 +230,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 300)
       (height 25)
@@ -272,24 +272,24 @@
       (y 576)
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 9312)
       (y 480)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 9344)
       (y 480)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 9376)
       (y 480)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
     (unstable_tile
+      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
       (x 9408)
       (y 480)
-      (sprite "images/objects/unstable_tile/unstable_tile.sprite")
     )
   )
 )

@@ -2,7 +2,6 @@
   (version 2)
   (name (_ "Risky Forest Adventure"))
   (author "alex")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/wisphunt.ogg")
@@ -69,8 +68,6 @@
       (y 612)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 556)
       (height 316)
       (x 1268)
