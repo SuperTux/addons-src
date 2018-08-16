@@ -18,8 +18,8 @@
       (y 1888)
     )
     (platform
-      (name "left")
       (running #f)
+      (name "left")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node

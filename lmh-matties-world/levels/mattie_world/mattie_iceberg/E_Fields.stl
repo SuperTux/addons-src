@@ -3,7 +3,6 @@
   (name (_ "02 - Squishy Fields"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -16,8 +15,8 @@
       (mode "normal")
     )
     (platform
-      (name "pipe1")
       (running #f)
+      (name "pipe1")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (mode "oneshot")
@@ -32,8 +31,8 @@
       )
     )
     (platform
-      (name "pipe2")
       (running #f)
+      (name "pipe2")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (mode "oneshot")
@@ -81,8 +80,6 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 96)
       (height 96)
       (x 32)

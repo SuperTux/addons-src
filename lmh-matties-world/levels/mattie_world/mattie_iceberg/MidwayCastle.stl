@@ -4,7 +4,6 @@
   (author "LMH")
   (contact "lmh.0013@gmail.com")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/darkforestkeep.ogg")
@@ -330,22 +329,18 @@
       (mode "normal")
     )
     (candle
-      (color 1 1 1)
       (x 64)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 160)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 1856)
       (y 544)
     )
     (candle
-      (color 1 1 1)
       (x 1952)
       (y 544)
     )
@@ -550,22 +545,18 @@
       (mode "normal")
     )
     (candle
-      (color 1 1 1)
       (x 64)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 160)
       (y 480)
     )
     (candle
-      (color 1 1 1)
       (x 1856)
       (y 544)
     )
     (candle
-      (color 1 1 1)
       (x 1952)
       (y 544)
     )
@@ -774,17 +765,14 @@
       (mode "normal")
     )
     (candle
-      (color 1 1 1)
       (x 2377)
       (y 96)
     )
     (candle
-      (color 1 1 1)
       (x 2395)
       (y 104)
     )
     (candle
-      (color 1 1 1)
       (x 2359)
       (y 104)
     )

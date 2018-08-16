@@ -4,7 +4,6 @@
   (author "LMH")
   (contact "lmh.0013@gmail.com")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/forest3.ogg")
@@ -19,8 +18,8 @@
       (mode "normal")
     )
     (platform
-      (name "Gate")
       (running #f)
+      (name "Gate")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -36,8 +35,8 @@
       )
     )
     (platform
-      (name "InnerGate")
       (running #f)
+      (name "InnerGate")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node

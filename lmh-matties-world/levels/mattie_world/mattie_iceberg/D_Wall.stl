@@ -3,7 +3,6 @@
   (name (_ "10 - Over the Great Wall"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -140,8 +139,6 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 192)
       (height 192)
       (x 1394)

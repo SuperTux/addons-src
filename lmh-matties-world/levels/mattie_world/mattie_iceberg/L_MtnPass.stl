@@ -22,7 +22,7 @@
       (alignment "bottom")
       (speed 2)
       (image "images/background/arcticskies35.png")
-      (layer 100)
+      (z-pos 100)
     )
     (background
       (alignment "bottom")
@@ -214,16 +214,16 @@
       )
     )
     (decal
+      (z-pos -100)
+      (sprite "images/tiles/background/background.png")
       (x 16128)
       (y 1056)
-      (layer -100)
-      (sprite "images/tiles/background/background.png")
     )
     (decal
+      (z-pos -50)
+      (sprite "images/decal/explanations/billboard-climbing.png")
       (x 7072)
       (y 224)
-      (layer -50)
-      (sprite "images/decal/explanations/billboard-climbing.png")
     )
     (firefly
       (x 6608)
@@ -625,8 +625,6 @@
       (y 800)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 192)
       (height 192)
       (x 8032)
@@ -634,8 +632,6 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 444)
       (height 92)
       (x 15616)

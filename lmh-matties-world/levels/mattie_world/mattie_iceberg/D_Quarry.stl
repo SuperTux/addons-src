@@ -18,7 +18,6 @@
     (bonusblock
       (script "")
       (contents "custom")
-      (skullyhop)
       (x 1536)
       (y 1924)
     )
@@ -38,8 +37,8 @@
       (y 1888)
     )
     (platform
-      (name "left")
       (running #f)
+      (name "left")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -189,8 +188,6 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 192)
       (height 192)
       (x 2048)

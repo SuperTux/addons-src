@@ -394,16 +394,12 @@
       (y 352)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 192)
       (height 128)
       (x 512)
       (y 512)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 352)
       (height 128)
       (x 2976)

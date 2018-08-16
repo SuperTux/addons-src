@@ -16,12 +16,13 @@
       (image-bottom "images/background/bluemountain-bottom.png")
     )
     (bonusblock
+      (custom-contents
+         (powerup           (script "find_coin(\"coin1\");")
+           (sprite "levels/mattie_world/images/objects/coin/coinblue.sprite")
+)
+      )
       (script "")
       (contents "custom")
-      (powerup
-        (script "find_coin(\"coin1\");")
-        (sprite "levels/mattie_world/images/objects/coin/coinblue.sprite")
-      )
       (x 1216)
       (y 960)
     )
@@ -196,16 +197,12 @@
       (y 352)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 284)
       (height 156)
       (x 1216)
       (y 1376)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 200)
       (height 124)
       (x 3092)

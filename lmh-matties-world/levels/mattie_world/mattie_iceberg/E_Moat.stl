@@ -3,7 +3,6 @@
   (name (_ "12 - Across the Moat"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -1231,8 +1230,6 @@
       (y 64)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 64)
       (height 96)
       (x 32)

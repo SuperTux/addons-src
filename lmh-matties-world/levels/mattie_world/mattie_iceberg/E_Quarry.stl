@@ -3,7 +3,6 @@
   (name (_ "03 - Quarrelsome Quarry"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -52,8 +51,6 @@
       (y 2016)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 252)
       (height 220)
       (x 1632)

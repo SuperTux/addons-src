@@ -3,7 +3,6 @@
   (name (_ "06 - The High Route"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -189,16 +188,12 @@
       (y 352)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 192)
       (height 128)
       (x 640)
       (y 608)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 352)
       (height 128)
       (x 2976)

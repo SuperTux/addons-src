@@ -3,7 +3,6 @@
   (name (_ "08 - Through the Crystal Cavern"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/greatgigantic.ogg")
@@ -90,8 +89,6 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 128)
       (height 128)
       (x 3104)

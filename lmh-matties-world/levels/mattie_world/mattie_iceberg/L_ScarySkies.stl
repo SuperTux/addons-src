@@ -27,13 +27,13 @@
       (alignment "bottom")
       (speed 1.5)
       (image "images/background/arcticskies35.png")
-      (layer 100)
+      (z-pos 100)
     )
     (background
       (alignment "bottom")
       (speed 2)
       (image "images/background/arcticskies4.png")
-      (layer 400)
+      (z-pos 400)
     )
     (bonusblock
       (script "")
@@ -52,8 +52,8 @@
       (y 480)
     )
     (platform
-      (name "first")
       (running #f)
+      (name "first")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -91,8 +91,8 @@
       )
     )
     (platform
-      (name "second")
       (running #f)
+      (name "second")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -269,8 +269,6 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 96)
       (height 96)
       (x 7616)

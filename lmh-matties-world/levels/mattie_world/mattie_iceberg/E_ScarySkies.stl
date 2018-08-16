@@ -3,7 +3,6 @@
   (name (_ "07 - Scary Skies"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -33,8 +32,8 @@
       (y 480)
     )
     (platform
-      (name "first")
       (running #f)
+      (name "first")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -72,8 +71,8 @@
       )
     )
     (platform
-      (name "second")
       (running #f)
+      (name "second")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -165,8 +164,6 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 32)
       (height 8)
       (x 7648)

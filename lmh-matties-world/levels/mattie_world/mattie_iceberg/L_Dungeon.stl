@@ -16,18 +16,19 @@
     (background
       (speed 2)
       (image "images/background/fog.png")
-      (layer 250)
+      (z-pos 250)
     )
     (bonusblock
-      (script "")
-      (contents "custom")
-      (powerup
-        (sprite "images/powerups/potions/red-potion.sprite")
-        (script "SkyBlockA.goto_node(1); SkyBlockB.goto_node(1); SkyBlockC.goto_node(1); SkyBlockD.goto_node(1); SkyBlockE.goto_node(1);
+      (custom-contents
+         (powerup           (sprite "images/powerups/potions/red-potion.sprite")
+           (script "SkyBlockA.goto_node(1); SkyBlockB.goto_node(1); SkyBlockC.goto_node(1); SkyBlockD.goto_node(1); SkyBlockE.goto_node(1);
                 levelflip();    SecretTwoJumpyKiller.goto_node(1);      wait(0.5);      SecretTwoJumpyKiller.goto_node(0);
                 flip <- true;   if(BONUS.get_alpha()==1){bounsblock.fade(1,0)}
                 ")
+)
       )
+      (script "")
+      (contents "custom")
       (x 5008)
       (y 639)
     )
@@ -39,8 +40,8 @@
       (mode "normal")
     )
     (platform
-      (name "gate2")
       (running #f)
+      (name "gate2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -56,8 +57,8 @@
       )
     )
     (platform
-      (name "gate1")
       (running #f)
+      (name "gate1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -431,8 +432,8 @@
       )
     )
     (platform
+      (running #f)
       (name "SkyBlockA")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -448,8 +449,8 @@
       )
     )
     (platform
+      (running #f)
       (name "SkyBlockB")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -465,8 +466,8 @@
       )
     )
     (platform
+      (running #f)
       (name "SkyBlockC")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -482,8 +483,8 @@
       )
     )
     (platform
+      (running #f)
       (name "SkyBlockD")
-      (running #f)
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -499,8 +500,8 @@
       )
     )
     (platform
-      (name "SkyBlockE")
       (running #f)
+      (name "SkyBlockE")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (node
@@ -609,28 +610,28 @@
       (y 256)
     )
     (scriptedobject
-      (name "block1")
       (visible #f)
       (physic-enabled #f)
       (solid #f)
+      (name "block1")
       (sprite "images/objects/bonus_block/invisibleblock.sprite")
       (x 2656)
       (y 448)
     )
     (scriptedobject
-      (name "block2")
       (visible #f)
       (physic-enabled #f)
       (solid #f)
+      (name "block2")
       (sprite "images/objects/bonus_block/invisibleblock.sprite")
       (x 2688)
       (y 320)
     )
     (scriptedobject
-      (name "block3")
       (visible #f)
       (physic-enabled #f)
       (solid #f)
+      (name "block3")
       (sprite "images/objects/bonus_block/invisibleblock.sprite")
       (x 2720)
       (y 320)
@@ -698,8 +699,6 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 128)
       (height 64)
       (x 2304)
@@ -1102,47 +1101,38 @@
       (mode "normal")
     )
     (candle
-      (color 1 1 1)
       (x 0)
       (y 128)
     )
     (candle
-      (color 1 1 1)
       (x 0)
       (y 256)
     )
     (candle
-      (color 1 1 1)
       (x 0)
       (y 384)
     )
     (candle
-      (color 1 1 1)
       (x 192)
       (y 576)
     )
     (candle
-      (color 1 1 1)
       (x 320)
       (y 576)
     )
     (candle
-      (color 1 1 1)
       (x 448)
       (y 576)
     )
     (candle
-      (color 1 1 1)
       (x 576)
       (y 576)
     )
     (candle
-      (color 1 1 1)
       (x 704)
       (y 576)
     )
     (candle
-      (color 1 1 1)
       (x 768)
       (y 384)
     )
@@ -1151,7 +1141,6 @@
       (bottom_color 0 0 0)
     )
     (lantern
-      (color 1 1 1)
       (x 0)
       (y 480)
     )

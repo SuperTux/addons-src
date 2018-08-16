@@ -17,22 +17,22 @@
       (mode "normal")
     )
     (decal
+      (z-pos 100)
+      (sprite "images/tiles/goal/exitfg.png")
       (x 8256)
       (y 832)
-      (layer 100)
-      (sprite "images/tiles/goal/exitfg.png")
     )
     (decal
+      (z-pos -100)
+      (sprite "images/tiles/goal/exitbg.png")
       (x 8160)
       (y 832)
-      (layer -100)
-      (sprite "images/tiles/goal/exitbg.png")
     )
     (decal
+      (z-pos -100)
+      (sprite "images/tiles/doodads/iceshrub.png")
       (x 7936)
       (y 896)
-      (layer -100)
-      (sprite "images/tiles/doodads/iceshrub.png")
     )
     (door
       (sector "main")
@@ -55,8 +55,8 @@
       (y 608)
     )
     (platform
-      (name "tdoor")
       (running #f)
+      (name "tdoor")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -72,8 +72,8 @@
       )
     )
     (platform
-      (name "airlift")
       (running #f)
+      (name "airlift")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -89,8 +89,8 @@
       )
     )
     (platform
-      (name "woodlift")
       (running #f)
+      (name "woodlift")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -108,8 +108,8 @@
       )
     )
     (platform
-      (name "airdrop")
       (running #f)
+      (name "airdrop")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -639,8 +639,6 @@
       (y 832)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 96)
       (height 96)
       (x 0)
@@ -648,16 +646,12 @@
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 64)
       (height 64)
       (x 2240)
       (y 1248)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 96)
       (height 128)
       (x 1024)
@@ -1228,32 +1222,32 @@
       (y 666)
     )
     (wind
-      (name "uppipe")
       (speed-x 0)
       (speed-y -400)
       (acceleration 150)
       (width 64)
       (height 672)
+      (name "uppipe")
       (x 6496)
       (y 192)
     )
     (wind
-      (name "uppipe2")
       (speed-x 0)
       (speed-y -400)
       (acceleration 150)
       (width 64)
       (height 608)
+      (name "uppipe2")
       (x 6944)
       (y 288)
     )
     (wind
-      (name "uppipe3")
       (speed-x 0)
       (speed-y -400)
       (acceleration 150)
       (width 64)
       (height 112)
+      (name "uppipe3")
       (x 6784)
       (y 900)
     )
@@ -1281,8 +1275,6 @@
       (y 432)
     )
     (secretarea
-      (script "")
-      (message "")
       (width 96)
       (height 128)
       (x 0)

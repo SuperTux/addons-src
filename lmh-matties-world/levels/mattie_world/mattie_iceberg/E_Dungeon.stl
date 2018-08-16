@@ -3,7 +3,6 @@
   (name (_ "05 - Dusky Dungeon"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -23,14 +22,14 @@ lift8.start_moving();")
     (background
       (speed 2)
       (image "images/background/fog.png")
-      (layer 250)
+      (z-pos 250)
     )
     (camera
       (mode "normal")
     )
     (platform
-      (name "gate2")
       (running #f)
+      (name "gate2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (node
@@ -46,8 +45,8 @@ lift8.start_moving();")
       )
     )
     (platform
-      (name "gate1")
       (running #f)
+      (name "gate1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -168,8 +167,6 @@ Level.spawn(\"pipe\", \"main\");")
     )
     (secretarea
       (fade-tilemap "secret")
-      (script "")
-      (message "")
       (width 128)
       (height 64)
       (x 2304)
@@ -949,61 +946,51 @@ Level.spawn(\"pipe\", \"main\");")
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 0)
       (y 128)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 0)
       (y 256)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 0)
       (y 384)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 192)
       (y 576)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 320)
       (y 576)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 448)
       (y 576)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 576)
       (y 576)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 704)
       (y 576)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 768)
       (y 384)
     )
     (candle
       (flicker #f)
-      (color 1 1 1)
       (x 0)
       (y 512)
     )
