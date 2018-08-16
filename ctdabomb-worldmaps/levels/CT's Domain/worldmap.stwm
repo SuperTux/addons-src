@@ -446,9 +446,8 @@
       (y 28)
     )
     (level
+      (extro-script "wait_for_screenswitch();display_text_file(\"levels/CT's Domain/extro.txt\"); wait_for_screenswitch(); exit_worldmap();")
       (name "final-boss.stl")
-      (quit-worldmap #t)
-      (extro-script "wait_for_screenswitch();display_text_file(\"levels/CT's Domain/extro.txt\")")
       (x 57)
       (y 28)
     )

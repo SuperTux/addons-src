@@ -417,15 +417,15 @@
       (y 16)
     )
     (level
+      (extro-script "exit_worldmap();")
       (name "levels/up-or-down.stl")
-      (quit-worldmap #t)
       (sprite "images/worldmap/common/leveldot.sprite")
       (x 19)
       (y 12)
     )
     (level
+      (extro-script "exit_worldmap();")
       (name "levels/electric.stl")
-      (quit-worldmap #t)
       (sprite "images/worldmap/common/leveldot.sprite")
       (x 47)
       (y 20)
@@ -449,8 +449,8 @@
       (y 16)
     )
     (level
+      (extro-script "exit_worldmap();")
       (name "levels/airship.stl")
-      (quit-worldmap #t)
       (sprite "images/worldmap/common/leveldot.sprite")
       (x 34)
       (y 16)
@@ -468,8 +468,8 @@
       (y 14)
     )
     (level
+      (extro-script "exit_worldmap();")
       (name "levels/mount-iceshrub.stl")
-      (quit-worldmap #t)
       (sprite "images/worldmap/common/leveldot.sprite")
       (x 38)
       (y 14)
@@ -493,8 +493,8 @@
       (y 26)
     )
     (level
+      (extro-script "exit_worldmap();")
       (name "levels/gg-mountain.stl")
-      (quit-worldmap #t)
       (sprite "images/worldmap/common/leveldot.sprite")
       (x 38)
       (y 16)

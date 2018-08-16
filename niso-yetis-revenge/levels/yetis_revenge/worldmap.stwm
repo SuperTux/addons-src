@@ -429,8 +429,8 @@
       (y 3)
     )
     (level
+      (extro-script "exit_worldmap();")
       (name "Yetis Revenge.stl")
-      (quit-worldmap #t)
       (sprite "images/worldmap/common/yeti.sprite")
       (x 34)
       (y 26)

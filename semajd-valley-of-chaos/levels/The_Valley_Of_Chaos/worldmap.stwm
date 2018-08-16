@@ -239,10 +239,8 @@
       (y 11)
     )
     (level
-      (extro-script "wait_for_screenswitch();
-   display_text_file(\"levels/The Valley Of Chaos/extro2.txt\"); ")
+      (extro-script "wait_for_screenswitch(); display_text_file(\"levels/The Valley Of Chaos/extro2.txt\"); wait_for_screenswitch(); exit_worldmap();")
       (name "level24.stl")
-      (quit-worldmap #t)
       (x 30)
       (y 1)
     )
