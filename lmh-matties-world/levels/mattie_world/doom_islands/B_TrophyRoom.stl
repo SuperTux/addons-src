@@ -3,17 +3,8 @@
   (name (_ "  The Trophy Room  "))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
-  (tileset "images/LMHtiles.strf")
   (sector
     (name "main")
-    (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
-    (gradient
-      (top_color 0.5 0 0.5)
-      (bottom_color 0 0 0)
-    )
     (init-script "  dune1.set_visible(!query(\"duneswag\"));
       dune2.set_visible(!query(\"duneboost\"));
       geo1.set_visible(!query(\"geofast\"));
@@ -59,6 +50,14 @@
       announce(1);
       lift1.goto_node(0);  liftimage1.goto_node(0);  down1 <- true;
       lift2.goto_node(0);  liftimage2.goto_node(0);  down2 <- true;  ")
+    (ambient-light 1 1 1)
+    (camera
+      (mode "normal")
+    )
+    (gradient
+      (top_color 0.5 0 0.5)
+      (bottom_color 0 0 0)
+    )
     (spawnpoint
       (name "main")
       (x 112)
@@ -110,17 +109,43 @@
       (y 224)
     )
     (tilemap
-      (name "interactive")
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
+      (name "interactive")
       (width 38)
       (height 25)
-      (tiles 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1406 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1394 1372 1372 1372 1372 1372 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1374 1376 1376 1376 1376 1394 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1628 1629 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 1630 1631 48 1404 1373 0 0 0 0 1408 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1396 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1381 1388 0 0 0 1408 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1388 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 2819 2820 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1373 0 0 2819 2820 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404 1383 1379 1379 0 0 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1371 1372 1372 1372 0 0 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372)
+      (tiles
+      1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372
+      1406 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1376 1394 1372 1372 1372 1372 1372
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1374 1376 1376 1376 1376 1394
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1628 1629 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 1630 1631 48 1404
+      1373 0 0 0 0 1408 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1396
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1381 1388 0 0 0 1408 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1412 1388 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 2819 2820 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1373 0 0 2819 2820 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1404
+      1383 1379 1379 0 0 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1379 1371
+      1372 1372 1372 0 0 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372
+      1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372
+      )
     )
     (tilemap
-      (name "pipetop2")
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
+      (name "pipetop2")
       (path
         (node
           (x 96)
@@ -129,12 +154,14 @@
       )
       (width 2)
       (height 1)
-      (tiles 2833 2839)
+      (tiles
+      2833 2839
+      )
     )
     (tilemap
-      (name "pipelift")
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
+      (name "pipelift")
       (path
         (node
           (x 96)
@@ -149,40 +176,41 @@
         (node
           (x 96)
           (y 736)
-          (time 1)
         )
       )
       (width 2)
       (height 1)
-      (tiles 2817 2817)
+      (tiles
+      2817 2817
+      )
     )
     (scripttrigger
-      (button #f)
       (script "  Tux.deactivate();
             pipelift.goto_node(1);
             wait(  1  );
             Tux.activate();  ")
+      (button #f)
       (width 64)
       (height 64)
       (x 96)
       (y 752)
     )
     (scripttrigger
-      (button #t)
       (script "  Tux.deactivate();
             pipelift.goto_node(0);
             wait(  0.7  );
             Tux.activate();
             exit_screen();  ")
+      (button #t)
       (width 32)
       (height 64)
       (x 112)
       (y 576)
     )
     (tilemap
-      (name "foreground")
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
+      (name "foreground")
       (path
         (node
           (x 96)
@@ -191,7 +219,12 @@
       )
       (width 2)
       (height 4)
-      (tiles 3085 3086 3087 3088 1379 1379 1372 1372)
+      (tiles
+      3085 3086
+      3087 3088
+      1379 1379
+      1372 1372
+      )
     )
     (infoblock
       (message (_ "-Sky Pirate Swag
@@ -201,13 +234,13 @@
       (y 576)
     )
     (scriptedobject
-      (name "dune1")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "dune1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 224)
       (y 576)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Help from Above
@@ -217,13 +250,13 @@
       (y 576)
     )
     (scriptedobject
-      (name "dune2")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "dune2")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 192)
       (y 576)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Crystal Quick
@@ -233,13 +266,13 @@
       (y 576)
     )
     (scriptedobject
-      (name "geo1")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "geo1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 256)
       (y 576)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Airship Cannon
@@ -249,13 +282,13 @@
       (y 576)
     )
     (scriptedobject
-      (name "air1")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "air1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 416)
       (y 576)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Ode to Useless Stars
@@ -265,13 +298,13 @@
       (y 576)
     )
     (scriptedobject
-      (name "escape1")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "escape1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 512)
       (y 576)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-The Hard Way
@@ -281,13 +314,13 @@
       (y 576)
     )
     (scriptedobject
-      (name "rock1")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "rock1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 608)
       (y 576)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "*Bonus Level: Savaged Lands
@@ -297,13 +330,13 @@
       (y 384)
     )
     (scriptedobject
-      (name "sl1")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "sl1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 864)
       (y 384)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Fire in the Sky
@@ -313,13 +346,13 @@
       (y 384)
     )
     (scriptedobject
-      (name "sl2")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "sl2")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 832)
       (y 384)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "*Bonus Level: On the Open Ocean
@@ -329,13 +362,13 @@
       (y 384)
     )
     (scriptedobject
-      (name "ocean1")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "ocean1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 608)
       (y 384)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "*Bonus Level: Skellington Arena
@@ -345,13 +378,13 @@
       (y 384)
     )
     (scriptedobject
-      (name "arena1")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "arena1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 352)
       (y 384)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Hole in the Wall
@@ -361,13 +394,13 @@
       (y 384)
     )
     (scriptedobject
-      (name "arena2")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "arena2")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 320)
       (y 384)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Toad Tower Treasure
@@ -377,13 +410,13 @@
       (y 352)
     )
     (scriptedobject
-      (name "toad1")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "toad1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 736)
       (y 352)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Toad Castle Dungeon
@@ -393,13 +426,13 @@
       (y 352)
     )
     (scriptedobject
-      (name "toad2")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "toad2")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 704)
       (y 352)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-A Little Help
@@ -409,13 +442,13 @@
       (y 352)
     )
     (scriptedobject
-      (name "airship1")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "airship1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 512)
       (y 352)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Fire in the Sky
@@ -425,13 +458,13 @@
       (y 352)
     )
     (scriptedobject
-      (name "airship2")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "airship2")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 480)
       (y 352)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Do Over
@@ -441,13 +474,13 @@
       (y 352)
     )
     (scriptedobject
-      (name "airship3")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "airship3")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 448)
       (y 352)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Something for Your Trouble
@@ -457,13 +490,13 @@
       (y 352)
     )
     (scriptedobject
-      (name "airship4")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "airship4")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 416)
       (y 352)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Trophy Room
@@ -473,13 +506,13 @@
       (y 128)
     )
     (scriptedobject
-      (name "trophy")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "trophy")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 256)
       (y 128)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Master of Secrets
@@ -489,13 +522,13 @@
       (y 128)
     )
     (scriptedobject
-      (name "secrets")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "secrets")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 448)
       (y 128)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-The Coin Collector
@@ -505,13 +538,13 @@
       (y 128)
     )
     (scriptedobject
-      (name "coins")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "coins")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 544)
       (y 128)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-Roadrunner
@@ -521,13 +554,13 @@
       (y 128)
     )
     (scriptedobject
-      (name "time")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "time")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 640)
       (y 128)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "-DOOMBRINGER
@@ -537,13 +570,13 @@
       (y 128)
     )
     (scriptedobject
-      (name "frags")
       (z-pos 100)
       (physic-enabled #f)
       (solid #f)
+      (name "frags")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 736)
       (y 128)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
     )
     (infoblock
       (message (_ "*---WARNING!---
@@ -553,9 +586,9 @@
       (y 128)
     )
     (tilemap
-      (name "background")
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
+      (name "background")
       (path
         (node
           (x 192)
@@ -564,47 +597,74 @@
       )
       (width 26)
       (height 20)
-      (tiles 1762 1763 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1762 1763 1764 1765 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1764 1765 1766 1767 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1766 1767 1768 1769 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1768 1769 1770 1771 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1770 1771 1772 1773 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1772 1773 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1762 1763 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1762 1763 0 0 1764 1765 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1764 1765 0 0 1766 1767 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1766 1767 0 0 1768 1769 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1768 1769 0 0 1770 1771 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1770 1771 0 0 1772 1773 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1772 1773 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1762 1763 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1762 1763 1764 1765 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1764 1765 1766 1767 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1766 1767 1768 1769 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1768 1769 1770 1771 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1770 1771 1772 1773 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1772 1773)
+      (tiles
+      1762 1763 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1762 1763
+      1764 1765 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1764 1765
+      1766 1767 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1766 1767
+      1768 1769 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1768 1769
+      1770 1771 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1770 1771
+      1772 1773 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1772 1773
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 1762 1763 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1762 1763 0
+      0 1764 1765 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1764 1765 0
+      0 1766 1767 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1766 1767 0
+      0 1768 1769 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1768 1769 0
+      0 1770 1771 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1770 1771 0
+      0 1772 1773 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1772 1773 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      1762 1763 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1762 1763
+      1764 1765 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1764 1765
+      1766 1767 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1766 1767
+      1768 1769 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1768 1769
+      1770 1771 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1770 1771
+      1772 1773 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1772 1773
+      )
     )
     (tilemap
-      (name "lift1")
-      (z-pos -100)
       (solid #t)
+      (z-pos -100)
+      (name "lift1")
       (path
         (node
           (x 1056)
           (y 672)
-          (time 1)
         )
         (node
           (x 1056)
           (y 480)
-          (time 1)
         )
       )
       (width 4)
       (height 1)
-      (tiles 2817 2817 2817 2817)
+      (tiles
+      2817 2817 2817 2817
+      )
     )
     (tilemap
-      (name "liftimage1")
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
+      (name "liftimage1")
       (path
         (node
           (x 1056)
           (y 672)
-          (time 1)
         )
         (node
           (x 1056)
           (y 480)
-          (time 1)
         )
       )
       (width 4)
       (height 7)
-      (tiles 340 338 341 339 1348 0 0 1348 79 0 0 79 79 0 0 79 79 0 0 79 79 0 0 79 79 0 0 79)
+      (tiles
+      340 338 341 339
+      1348 0 0 1348
+      79 0 0 79
+      79 0 0 79
+      79 0 0 79
+      79 0 0 79
+      79 0 0 79
+      )
     )
     (switch
       (script "  if (down1){  lift1.goto_node(1);  liftimage1.goto_node(1);
@@ -616,58 +676,70 @@
           wait(  1.1  );
           down1 <- true;
         }")
+      (sprite "images/objects/switch/left.sprite")
       (x 1168)
       (y 608)
-      (sprite "images/objects/switch/left.sprite")
     )
     (switch
       (script "  lift1.goto_node(0);  liftimage1.goto_node(0);
         wait(  0.1  );
         down1 <- true;
         announce(1);  ")
+      (sprite "images/objects/switch/left.sprite")
       (x 1168)
       (y 416)
-      (sprite "images/objects/switch/left.sprite")
     )
     (tilemap
-      (name "lift2")
-      (z-pos -100)
       (solid #t)
+      (z-pos -100)
+      (name "lift2")
       (path
         (node
           (x 32)
           (y 448)
-          (time 1)
         )
         (node
           (x 32)
           (y 256)
-          (time 1)
         )
       )
       (width 4)
       (height 1)
-      (tiles 2817 1311 1311 1311)
+      (tiles
+      2817 1311 1311 1311
+      )
     )
     (tilemap
-      (name "liftimage2")
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
+      (name "liftimage2")
       (path
         (node
           (x 32)
           (y 64)
-          (time 1)
         )
         (node
           (x 32)
           (y -128)
-          (time 1)
         )
       )
       (width 4)
       (height 13)
-      (tiles 2807 0 0 2807 2809 0 0 2809 2811 0 0 2811 2807 0 0 2807 2809 0 0 2809 2811 0 0 2811 2807 0 0 2807 2809 0 0 2809 2811 0 0 2811 2807 0 0 2807 2809 0 0 2809 2811 0 0 2811 340 341 338 339)
+      (tiles
+      2807 0 0 2807
+      2809 0 0 2809
+      2811 0 0 2811
+      2807 0 0 2807
+      2809 0 0 2809
+      2811 0 0 2811
+      2807 0 0 2807
+      2809 0 0 2809
+      2811 0 0 2811
+      2807 0 0 2807
+      2809 0 0 2809
+      2811 0 0 2811
+      340 341 338 339
+      )
     )
     (switch
       (script "  if (down2){  lift2.goto_node(1);  liftimage2.goto_node(1);
@@ -678,18 +750,19 @@
           wait(  1.1  );
           down2 <- true;
         }")
+      (sprite "images/objects/switch/right.sprite")
       (x 26)
       (y 384)
-      (sprite "images/objects/switch/right.sprite")
     )
     (switch
       (script "  lift2.goto_node(0);  liftimage2.goto_node(0);
         wait(  0.1  );
         down2 <- true;
         announce(2);  ")
+      (sprite "images/objects/switch/right.sprite")
       (x 26)
       (y 192)
-      (sprite "images/objects/switch/right.sprite")
     )
   )
+  (tileset "images/LMHtiles.strf")
 )
