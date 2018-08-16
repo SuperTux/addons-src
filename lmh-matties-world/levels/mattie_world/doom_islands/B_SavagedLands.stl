@@ -8,87 +8,11 @@
     (name "main")
     (music "music/forest2.ogg")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.4)
       (image-top "images/background/bluemountain-top.png")
       (image "images/background/bluemountain-middle.png")
       (image-bottom "images/background/bluemountain-bottom.png")
-    )
-    (scripttrigger
-      (script "  sand1.start_moving();  sanda1.start_moving();  sandb1.start_moving();  sandc1.start_moving();  sandd1.start_moving();
-      wait(  0.51  );
-      sand2.start_moving();  sanda2.start_moving();  sandb2.start_moving();  sandc2.start_moving();  sandd2.start_moving();
-      wait(  0.51  );
-      sand3.start_moving();  sanda3.start_moving();  sandb3.start_moving();  sandc3.start_moving();  sandd3.start_moving();
-      wait(  0.51  );
-      sand4.start_moving();  sanda4.start_moving();  sandb4.start_moving();  sandc4.start_moving();  sandd4.start_moving();
-      wait(  0.51  );
-      sand5.start_moving();  sanda5.start_moving();  sandb5.start_moving();  sandc5.start_moving();  sandd5.start_moving();
-      wait(  0.51  );
-      sand6.start_moving();  sanda6.start_moving();  sandb6.start_moving();  sandc6.start_moving();  sandd6.start_moving();
-      wait(  0.51  );
-      sand7.start_moving();  sanda7.start_moving();  sandb7.start_moving();  sandc7.start_moving();  sandd7.start_moving();
-      wait(  0.51  );
-      sand8.start_moving();  sanda8.start_moving();  sandb8.start_moving();  sandc8.start_moving();  sandd8.start_moving();
-      wait(  0.51  );  ")
-      (button #f)
-      (width 32)
-      (height 448)
-      (x 1632)
-      (y 0)
-    )
-    (spawnpoint
-      (name "main")
-      (x 64)
-      (y 1088)
-    )
-    (secretarea
-      (width 96)
-      (height 160)
-      (x 4016)
-      (y 1376)
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 48)
-      (height 96)
-      (x 7496)
-      (y 832)
-    )
-    (secretarea
-      (fade-tilemap "treetop")
-      (width 64)
-      (height 128)
-      (x 4960)
-      (y 160)
-    )
-    (secretarea
-      (width 352)
-      (height 128)
-      (x 5616)
-      (y 1456)
-    )
-    (wind
-      (blowing #f)
-      (speed-x 0)
-      (speed-y -1000)
-      (acceleration 1000)
-      (width 64)
-      (height 224)
-      (name "up")
-      (x 4640)
-      (y 1216)
-    )
-    (switch
-      (script "  up.start();
-      wait(  1.2  );
-      up.stop();  ")
-      (sprite "images/objects/switch/right.sprite")
-      (x 4700)
-      (y 1440)
     )
     (bonusblock
       (custom-contents
@@ -101,49 +25,14 @@
       (x 32)
       (y 352)
     )
-    (sspiky
-      (x 1264)
-      (y 576)
+    (bonusblock
+      (script "")
+      (contents "rain")
+      (x 6176)
+      (y 64)
     )
-    (jumpy
-      (x 1392)
-      (y 448)
-    )
-    (zeekling
-      (x 2176)
-      (y 448)
-    )
-    (zeekling
-      (x 2176)
-      (y 544)
-    )
-    (zeekling
-      (x 2176)
-      (y 672)
-    )
-    (zeekling
-      (x 2176)
-      (y 800)
-    )
-    (walkingleaf
-      (x 2368)
-      (y 1312)
-    )
-    (poisonivy
-      (x 3072)
-      (y 1152)
-    )
-    (mrtree
-      (x 3136)
-      (y 1120)
-    )
-    (walkingleaf
-      (x 3072)
-      (y 1024)
-    )
-    (snail
-      (x 3552)
-      (y 1056)
+    (camera
+      (mode "normal")
     )
     (fish
       (sprite "images/creatures/fish/vine.sprite")
@@ -155,30 +44,6 @@
       (x 4264)
       (y 1536)
     )
-    (walkingleaf
-      (x 3744)
-      (y 736)
-    )
-    (mrtree
-      (x 3968)
-      (y 608)
-    )
-    (walkingleaf
-      (x 3520)
-      (y 480)
-    )
-    (walkingleaf
-      (x 3744)
-      (y 352)
-    )
-    (walkingleaf
-      (x 4352)
-      (y 416)
-    )
-    (walkingleaf
-      (x 4864)
-      (y 832)
-    )
     (fish
       (sprite "images/creatures/fish/vine.sprite")
       (x 4928)
@@ -189,34 +54,18 @@
       (x 5088)
       (y 1504)
     )
-    (igel
-      (x 5888)
-      (y 1504)
-    )
     (fish
       (sprite "images/creatures/fish/vine.sprite")
       (x 6304)
       (y 1312)
     )
-    (snail
-      (x 6464)
-      (y 1312)
+    (igel
+      (x 5888)
+      (y 1504)
     )
-    (poisonivy
-      (x 6816)
-      (y 1152)
-    )
-    (mrtree
-      (x 7104)
-      (y 1088)
-    )
-    (walkingleaf
-      (x 7136)
-      (y 864)
-    )
-    (zeekling
-      (x 7232)
-      (y 320)
+    (jumpy
+      (x 1392)
+      (y 448)
     )
     (jumpy
       (x 7664)
@@ -245,6 +94,100 @@
     (mole
       (x 8240)
       (y 1056)
+    )
+    (mrtree
+      (x 3136)
+      (y 1120)
+    )
+    (mrtree
+      (x 3968)
+      (y 608)
+    )
+    (mrtree
+      (x 7104)
+      (y 1088)
+    )
+    (poisonivy
+      (x 3072)
+      (y 1152)
+    )
+    (poisonivy
+      (x 6816)
+      (y 1152)
+    )
+    (scripttrigger
+      (script "  sand1.start_moving();  sanda1.start_moving();  sandb1.start_moving();  sandc1.start_moving();  sandd1.start_moving();
+      wait(  0.51  );
+      sand2.start_moving();  sanda2.start_moving();  sandb2.start_moving();  sandc2.start_moving();  sandd2.start_moving();
+      wait(  0.51  );
+      sand3.start_moving();  sanda3.start_moving();  sandb3.start_moving();  sandc3.start_moving();  sandd3.start_moving();
+      wait(  0.51  );
+      sand4.start_moving();  sanda4.start_moving();  sandb4.start_moving();  sandc4.start_moving();  sandd4.start_moving();
+      wait(  0.51  );
+      sand5.start_moving();  sanda5.start_moving();  sandb5.start_moving();  sandc5.start_moving();  sandd5.start_moving();
+      wait(  0.51  );
+      sand6.start_moving();  sanda6.start_moving();  sandb6.start_moving();  sandc6.start_moving();  sandd6.start_moving();
+      wait(  0.51  );
+      sand7.start_moving();  sanda7.start_moving();  sandb7.start_moving();  sandc7.start_moving();  sandd7.start_moving();
+      wait(  0.51  );
+      sand8.start_moving();  sanda8.start_moving();  sandb8.start_moving();  sandc8.start_moving();  sandd8.start_moving();
+      wait(  0.51  );  ")
+      (button #f)
+      (width 32)
+      (height 448)
+      (x 1632)
+      (y 0)
+    )
+    (secretarea
+      (width 96)
+      (height 160)
+      (x 4016)
+      (y 1376)
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 48)
+      (height 96)
+      (x 7496)
+      (y 832)
+    )
+    (secretarea
+      (fade-tilemap "treetop")
+      (width 64)
+      (height 128)
+      (x 4960)
+      (y 160)
+    )
+    (secretarea
+      (width 352)
+      (height 128)
+      (x 5616)
+      (y 1456)
+    )
+    (sspiky
+      (x 1264)
+      (y 576)
+    )
+    (snail
+      (x 3552)
+      (y 1056)
+    )
+    (snail
+      (x 6464)
+      (y 1312)
+    )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 1088)
+    )
+    (switch
+      (script "  up.start();
+      wait(  1.2  );
+      up.stop();  ")
+      (sprite "images/objects/switch/right.sprite")
+      (x 4700)
+      (y 1440)
     )
     (tilemap
       (solid #t)
@@ -732,16 +675,6 @@
       2817 2817 2817 2817 2817 2817 2817 2817 2817 2817 2817 2817
       )
     )
-    (wind
-      (speed-x 0)
-      (speed-y 80)
-      (acceleration 80)
-      (width 368)
-      (height 64)
-      (name "stunt1")
-      (x 3624)
-      (y 1496)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -917,16 +850,6 @@
       (tiles
       2817 2817 2817 2817 2817 2817 2817 2817 2817 2817 2817 2817
       )
-    )
-    (wind
-      (speed-x 0)
-      (speed-y 80)
-      (acceleration 80)
-      (width 368)
-      (height 64)
-      (name "stunt2")
-      (x 4136)
-      (y 1496)
     )
     (tilemap
       (solid #t)
@@ -1104,16 +1027,6 @@
       2817 2817 2817 2817 2817 2817 2817 2817 2817 2817 2817 2817 2817 2817
       )
     )
-    (wind
-      (speed-x 0)
-      (speed-y 80)
-      (acceleration 100)
-      (width 432)
-      (height 96)
-      (name "stunt3")
-      (x 4808)
-      (y 1496)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -1289,16 +1202,6 @@
       (tiles
       2817 2817 2817 2817 2817 2817 2817 2817
       )
-    )
-    (wind
-      (speed-x 0)
-      (speed-y 90)
-      (acceleration 120)
-      (width 240)
-      (height 160)
-      (name "stunt4")
-      (x 5320)
-      (y 1432)
     )
     (tilemap
       (solid #t)
@@ -1476,6 +1379,89 @@
       2817 2817 2817 2817 2817 2817 2817 2817 2817 2817 2817 2817
       )
     )
+    (walkingleaf
+      (x 2368)
+      (y 1312)
+    )
+    (walkingleaf
+      (x 3072)
+      (y 1024)
+    )
+    (walkingleaf
+      (x 3744)
+      (y 736)
+    )
+    (walkingleaf
+      (x 3520)
+      (y 480)
+    )
+    (walkingleaf
+      (x 3744)
+      (y 352)
+    )
+    (walkingleaf
+      (x 4352)
+      (y 416)
+    )
+    (walkingleaf
+      (x 4864)
+      (y 832)
+    )
+    (walkingleaf
+      (x 7136)
+      (y 864)
+    )
+    (wind
+      (blowing #f)
+      (speed-x 0)
+      (speed-y -1000)
+      (acceleration 1000)
+      (width 64)
+      (height 224)
+      (name "up")
+      (x 4640)
+      (y 1216)
+    )
+    (wind
+      (speed-x 0)
+      (speed-y 80)
+      (acceleration 80)
+      (width 368)
+      (height 64)
+      (name "stunt1")
+      (x 3624)
+      (y 1496)
+    )
+    (wind
+      (speed-x 0)
+      (speed-y 80)
+      (acceleration 80)
+      (width 368)
+      (height 64)
+      (name "stunt2")
+      (x 4136)
+      (y 1496)
+    )
+    (wind
+      (speed-x 0)
+      (speed-y 80)
+      (acceleration 100)
+      (width 432)
+      (height 96)
+      (name "stunt3")
+      (x 4808)
+      (y 1496)
+    )
+    (wind
+      (speed-x 0)
+      (speed-y 90)
+      (acceleration 120)
+      (width 240)
+      (height 160)
+      (name "stunt4")
+      (x 5320)
+      (y 1432)
+    )
     (wind
       (speed-x 0)
       (speed-y 90)
@@ -1486,11 +1472,25 @@
       (x 5992)
       (y 1336)
     )
-    (bonusblock
-      (script "")
-      (contents "rain")
-      (x 6176)
-      (y 64)
+    (zeekling
+      (x 2176)
+      (y 448)
+    )
+    (zeekling
+      (x 2176)
+      (y 544)
+    )
+    (zeekling
+      (x 2176)
+      (y 672)
+    )
+    (zeekling
+      (x 2176)
+      (y 800)
+    )
+    (zeekling
+      (x 7232)
+      (y 320)
     )
   )
   (tileset "images/LMHtiles.strf")

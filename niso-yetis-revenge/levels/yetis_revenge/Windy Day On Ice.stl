@@ -12,24 +12,6 @@
       (speed 0.5)
       (image "images/background/arctis2.png")
     )
-    (bouncingsnowball
-      (x 1633)
-      (y 640)
-    )
-    (bouncingsnowball
-      (direction "left")
-      (x 5537)
-      (y 544)
-    )
-    (camera
-      (mode "normal")
-    )
-    (particles-clouds
-    )
-    (firefly
-      (x 4448)
-      (y 608)
-    )
     (bonusblock
       (custom-contents
          (powerup           (script "
@@ -50,6 +32,24 @@ block.set_alpha(0);
       (contents "custom")
       (x 3776)
       (y 192)
+    )
+    (bouncingsnowball
+      (x 1633)
+      (y 640)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (x 5537)
+      (y 544)
+    )
+    (camera
+      (mode "normal")
+    )
+    (particles-clouds
+    )
+    (firefly
+      (x 4448)
+      (y 608)
     )
     (jumpy
       (x 2663)

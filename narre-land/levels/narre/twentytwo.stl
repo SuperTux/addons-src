@@ -16,6 +16,34 @@
     (camera
       (mode "normal")
     )
+    (crystallo
+      (x 5376)
+      (y 992)
+    )
+    (crystallo
+      (x 5920)
+      (y 992)
+    )
+    (crystallo
+      (x 1984)
+      (y 32)
+    )
+    (crystallo
+      (x 2240)
+      (y 32)
+    )
+    (crystallo
+      (x 352)
+      (y 0)
+    )
+    (crystallo
+      (x 736)
+      (y 0)
+    )
+    (crystallo
+      (x 6336)
+      (y 160)
+    )
     (platform
       (running #f)
       (name "kokot1")
@@ -127,34 +155,6 @@
           (y 160)
         )
       )
-    )
-    (crystallo
-      (x 5376)
-      (y 992)
-    )
-    (crystallo
-      (x 5920)
-      (y 992)
-    )
-    (crystallo
-      (x 1984)
-      (y 32)
-    )
-    (crystallo
-      (x 2240)
-      (y 32)
-    )
-    (crystallo
-      (x 352)
-      (y 0)
-    )
-    (crystallo
-      (x 736)
-      (y 0)
-    )
-    (crystallo
-      (x 6336)
-      (y 160)
     )
     (infoblock
       (message (_ ""))
@@ -575,6 +575,26 @@ kokot2.goto_node(1)")
     (camera
       (mode "normal")
     )
+    (crystallo
+      (x 1472)
+      (y 992)
+    )
+    (crystallo
+      (x 384)
+      (y 160)
+    )
+    (crystallo
+      (x 1152)
+      (y 704)
+    )
+    (crystallo
+      (x 960)
+      (y 448)
+    )
+    (crystallo
+      (x 704)
+      (y 160)
+    )
     (door
       (sector "jiji")
       (spawnpoint "down")
@@ -618,26 +638,6 @@ kokot2.goto_node(1)")
           (time 4)
         )
       )
-    )
-    (crystallo
-      (x 1472)
-      (y 992)
-    )
-    (crystallo
-      (x 384)
-      (y 160)
-    )
-    (crystallo
-      (x 1152)
-      (y 704)
-    )
-    (crystallo
-      (x 960)
-      (y 448)
-    )
-    (crystallo
-      (x 704)
-      (y 160)
     )
     (infoblock
       (message (_ "jFloor -5"))

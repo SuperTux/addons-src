@@ -53,6 +53,34 @@
       (x 10785)
       (y 422)
     )
+    (smartball
+      (x 963)
+      (y 102)
+    )
+    (smartball
+      (x 3363)
+      (y 998)
+    )
+    (smartball
+      (x 6627)
+      (y 70)
+    )
+    (smartball
+      (x 6499)
+      (y 70)
+    )
+    (smartball
+      (x 8579)
+      (y 966)
+    )
+    (smartball
+      (x 9827)
+      (y 134)
+    )
+    (smartball
+      (x 11075)
+      (y 902)
+    )
     (scripttrigger
       (script "secret.set_alpha(1.0);
 retour.set_alpha(1.0);")
@@ -81,34 +109,6 @@ retour.set_alpha(1.0);")
       (height 60)
       (x 12608)
       (y 704)
-    )
-    (smartball
-      (x 963)
-      (y 102)
-    )
-    (smartball
-      (x 3363)
-      (y 998)
-    )
-    (smartball
-      (x 6627)
-      (y 70)
-    )
-    (smartball
-      (x 6499)
-      (y 70)
-    )
-    (smartball
-      (x 8579)
-      (y 966)
-    )
-    (smartball
-      (x 9827)
-      (y 134)
-    )
-    (smartball
-      (x 11075)
-      (y 902)
     )
     (snowball
       (x 803)
@@ -472,13 +472,6 @@ retour.set_alpha(1.0);")
       (x 2853)
       (y 232)
     )
-    (secretarea
-      (fade-tilemap "cache")
-      (width 136)
-      (height 32)
-      (x 724)
-      (y 896)
-    )
     (smartball
       (x 1891)
       (y 550)
@@ -486,6 +479,13 @@ retour.set_alpha(1.0);")
     (smartball
       (x 2755)
       (y 838)
+    )
+    (secretarea
+      (fade-tilemap "cache")
+      (width 136)
+      (height 32)
+      (x 724)
+      (y 896)
     )
     (snowball
       (x 867)

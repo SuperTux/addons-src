@@ -659,6 +659,34 @@
       (x 7680)
       (y -32)
     )
+    (crystallo
+      (x 160)
+      (y 704)
+    )
+    (crystallo
+      (x 2528)
+      (y 704)
+    )
+    (crystallo
+      (x 2112)
+      (y 704)
+    )
+    (crystallo
+      (x 1824)
+      (y 704)
+    )
+    (crystallo
+      (x 1440)
+      (y 704)
+    )
+    (crystallo
+      (x 1088)
+      (y 704)
+    )
+    (crystallo
+      (x 608)
+      (y 704)
+    )
     (firefly
       (x 7936)
       (y 448)
@@ -734,34 +762,6 @@
       (height 60)
       (x 7712)
       (y 128)
-    )
-    (crystallo
-      (x 160)
-      (y 704)
-    )
-    (crystallo
-      (x 2528)
-      (y 704)
-    )
-    (crystallo
-      (x 2112)
-      (y 704)
-    )
-    (crystallo
-      (x 1824)
-      (y 704)
-    )
-    (crystallo
-      (x 1440)
-      (y 704)
-    )
-    (crystallo
-      (x 1088)
-      (y 704)
-    )
-    (crystallo
-      (x 608)
-      (y 704)
     )
     (spawnpoint
       (name "main")

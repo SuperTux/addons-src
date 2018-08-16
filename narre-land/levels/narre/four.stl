@@ -15,6 +15,12 @@
     (camera
       (mode "normal")
     )
+    (climbable
+      (width 3196)
+      (height 1132)
+      (x 0)
+      (y 0)
+    )
     (platform
       (name "kfkzf")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
@@ -215,6 +221,25 @@
         )
       )
     )
+    (secretarea
+      (fade-tilemap "Foreground")
+      (width 204)
+      (height 524)
+      (x -12)
+      (y 596)
+    )
+    (sequencetrigger
+      (sequence "fireworks")
+      (width 32)
+      (height 188)
+      (x 2592)
+      (y 0)
+    )
+    (spawnpoint
+      (name "main")
+      (x 288)
+      (y 1024)
+    )
     (spidermite
       (x 512)
       (y 832)
@@ -330,31 +355,6 @@
     (spidermite
       (x 64)
       (y 192)
-    )
-    (secretarea
-      (fade-tilemap "Foreground")
-      (width 204)
-      (height 524)
-      (x -12)
-      (y 596)
-    )
-    (climbable
-      (width 3196)
-      (height 1132)
-      (x 0)
-      (y 0)
-    )
-    (sequencetrigger
-      (sequence "fireworks")
-      (width 32)
-      (height 188)
-      (x 2592)
-      (y 0)
-    )
-    (spawnpoint
-      (name "main")
-      (x 288)
-      (y 1024)
     )
     (tilemap
       (solid #f)

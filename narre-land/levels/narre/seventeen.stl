@@ -680,6 +680,26 @@ f.goto_node(1)")
     (camera
       (mode "normal")
     )
+    (crystallo
+      (x 2208)
+      (y 288)
+    )
+    (crystallo
+      (x 608)
+      (y 768)
+    )
+    (crystallo
+      (x 800)
+      (y 704)
+    )
+    (crystallo
+      (x 1184)
+      (y 640)
+    )
+    (crystallo
+      (x 1472)
+      (y 512)
+    )
     (firefly
       (x 256)
       (y 1024)
@@ -718,26 +738,6 @@ f.goto_node(1)")
           (time 5)
         )
       )
-    )
-    (crystallo
-      (x 2208)
-      (y 288)
-    )
-    (crystallo
-      (x 608)
-      (y 768)
-    )
-    (crystallo
-      (x 800)
-      (y 704)
-    )
-    (crystallo
-      (x 1184)
-      (y 640)
-    )
-    (crystallo
-      (x 1472)
-      (y 512)
     )
     (jumpy
       (x 1984)

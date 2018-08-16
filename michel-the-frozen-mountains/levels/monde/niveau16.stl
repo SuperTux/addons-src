@@ -7,10 +7,6 @@
     (name "main")
     (music "music/chipdisko.ogg")
     (ambient-light 1 1 1)
-    (bouncingsnowball
-      (x 9505)
-      (y 896)
-    )
     (background
       (speed 0.2)
       (image-top "images/background/arctis_top.jpg")
@@ -23,6 +19,10 @@
       (speed 0.8)
       (image "images/background/arcticskies2.png")
       (z-pos -120)
+    )
+    (bouncingsnowball
+      (x 9505)
+      (y 896)
     )
     (bouncingsnowball
       (x 11617)
@@ -108,20 +108,6 @@
       (x 12737)
       (y 678)
     )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 364)
-      (x 12960)
-      (y 320)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 60)
-      (x 13312)
-      (y 608)
-    )
     (smartball
       (x 931)
       (y 710)
@@ -137,6 +123,20 @@
     (smartball
       (x 10659)
       (y 646)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 364)
+      (x 12960)
+      (y 320)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 60)
+      (x 13312)
+      (y 608)
     )
     (snowball
       (x 5059)

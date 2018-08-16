@@ -7,6 +7,159 @@
     (name "main")
     (music "/music/chipdisko.ogg")
     (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image-top "/images/background/bluemountain-top.png")
+      (image "/images/background/bluemountain-middle.png")
+      (image-bottom "/images/background/bluemountain-bottom.png")
+    )
+    (camera
+      (mode "normal")
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2650.67)
+          (y 338.664)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2691.33)
+          (y 341.33)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2732.67)
+          (y 338.664)
+        )
+      )
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 4174)
+      (y 1185.66)
+    )
+    (dispenser
+      (cycle 10)
+      (badguy "mrbomb")
+      (direction "left")
+      (sprite "images/creatures/dispenser/dispenser.sprite")
+      (x 2028)
+      (y 518.0001)
+    )
+    (firefly
+      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
+      (x 2053.997)
+      (y 420.0003)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 58.00004)
+      (y 629.0005)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 210.6667)
+      (y 705.3336)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 4772)
+      (y 1298)
+    )
+    (haywire
+      (direction "left")
+      (sprite "images/creatures/haywire/haywire.sprite")
+      (x 4202)
+      (y 1516.67)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 2944.664)
+      (y 484.6664)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 566.6666)
+      (y 603.3342)
+    )
+    (owl
+      (carry "skydive")
+      (direction "left")
+      (sprite "/images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 4257.33)
+      (y 933.6635)
+    )
+    (scripttrigger
+      (script "Level.spawn(\"chicken\", \"main\");")
+      (button #f)
+      (width 5.333252)
+      (height 87.99994)
+      (x 2575.337)
+      (y 967.3331)
+    )
+    (secretarea
+      (fade-tilemap "geheiM")
+      (width 93.33325)
+      (height 32)
+      (x 3916.667)
+      (y 1374.663)
+    )
+    (skydive
+      (direction "left")
+      (sprite "images/creatures/skydive/skydive.sprite")
+      (x 4260.664)
+      (y 930.3301)
+    )
+    (skydive
+      (direction "left")
+      (sprite "images/creatures/skydive/skydive.sprite")
+      (x 4257.329)
+      (y 933.664)
+    )
+    (skydive
+      (direction "left")
+      (sprite "images/creatures/skydive/skydive.sprite")
+      (x 4257.33)
+      (y 933.664)
+    )
+    (sspiky
+      (direction "right")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 2851.333)
+      (y 1207.667)
+    )
+    (snowball
+      (direction "right")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 400.6664)
+      (y 1080)
+    )
+    (spawnpoint
+      (name "main")
+      (x 41.33333)
+      (y 1053.33)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 2725.337)
+      (y 872.6661)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 4441.33)
+      (y 1472)
+    )
     (tilemap
       (solid #f)
       (z-pos -100)
@@ -181,9 +334,6 @@
       11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 2392 2057 2077 2073 2073 2073 2073 2073 2073 2073 2073 2073 2073 2073 2073 2073 2073 2073 2073 2074 0 0 0 0 2072 2073 2073 2073 2073 2073 2073 2073 2073 2073 2073 2074 0 0 0 2155 2164 2156 2156 2156 2164 2157 0 0 0 2387 2388 2388 2388 2388 2960 11 11 11 11 11 11 11 11
       )
     )
-    (camera
-      (mode "normal")
-    )
     (tilemap
       (solid #f)
       (z-pos -101)
@@ -242,11 +392,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2195 2196 2195 2196 2195 2196 2195 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2180 2181 2180 2181 2180 2181 2180 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (trampoline
-      (sprite "images/objects/trampoline/trampoline.sprite")
-      (x 1446.663)
-      (y 862.6664)
     )
     (tilemap
       (solid #f)
@@ -307,27 +452,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (dispenser
-      (cycle 10)
-      (badguy "mrbomb")
-      (direction "left")
-      (sprite "images/creatures/dispenser/dispenser.sprite")
-      (x 2028)
-      (y 518.0001)
-    )
-    (scripttrigger
-      (script "Level.spawn(\"chicken\", \"main\");")
-      (button #f)
-      (width 5.333252)
-      (height 87.99994)
-      (x 2575.337)
-      (y 967.3331)
-    )
-    (firefly
-      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
-      (x 2053.997)
-      (y 420.0003)
-    )
     (tilemap
       (solid #f)
       (z-pos -1)
@@ -386,46 +510,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2057 2066 2065 2065 2066 2059 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (sspiky
-      (direction "right")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 2851.333)
-      (y 1207.667)
-    )
-    (owl
-      (carry "skydive")
-      (direction "left")
-      (sprite "/images/creatures/flying_snowball/flying_snowball.sprite")
-      (x 4257.33)
-      (y 933.6635)
-    )
-    (skydive
-      (direction "left")
-      (sprite "images/creatures/skydive/skydive.sprite")
-      (x 4260.664)
-      (y 930.3301)
-    )
-    (flyingsnowball
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (x 58.00004)
-      (y 629.0005)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 566.6666)
-      (y 603.3342)
-    )
-    (snowball
-      (direction "right")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 400.6664)
-      (y 1080)
-    )
-    (flyingsnowball
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (x 210.6667)
-      (y 705.3336)
-    )
     (tilemap
       (solid #f)
       (z-pos 101)
@@ -483,27 +567,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2121 2122 2122 2130 0 0 0 0 0 0 0 0
       )
-    )
-    (haywire
-      (direction "left")
-      (sprite "images/creatures/haywire/haywire.sprite")
-      (x 4202)
-      (y 1516.67)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 2944.664)
-      (y 484.6664)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 2725.337)
-      (y 872.6661)
-    )
-    (spawnpoint
-      (name "main")
-      (x 41.33333)
-      (y 1053.33)
     )
     (tilemap
       (solid #f)
@@ -564,79 +627,256 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (flyingsnowball
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (x 4772)
-      (y 1298)
-    )
-    (secretarea
-      (fade-tilemap "geheiM")
-      (width 93.33325)
-      (height 32)
-      (x 3916.667)
-      (y 1374.663)
-    )
-    (skydive
-      (direction "left")
-      (sprite "images/creatures/skydive/skydive.sprite")
-      (x 4257.329)
-      (y 933.664)
-    )
-    (skydive
-      (direction "left")
-      (sprite "images/creatures/skydive/skydive.sprite")
-      (x 4257.33)
-      (y 933.664)
-    )
-    (background
-      (speed 0.5)
-      (image-top "/images/background/bluemountain-top.png")
-      (image "/images/background/bluemountain-middle.png")
-      (image-bottom "/images/background/bluemountain-bottom.png")
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2650.67)
-          (y 338.664)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2691.33)
-          (y 341.33)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2732.67)
-          (y 338.664)
-        )
-      )
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 4174)
-      (y 1185.66)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 4441.33)
-      (y 1472)
+    (trampoline
+      (sprite "images/objects/trampoline/trampoline.sprite")
+      (x 1446.663)
+      (y 862.6664)
     )
   )
   (sector
     (name "chicken")
     (music "/music/voc-night.ogg")
     (ambient-light 1 1 1)
+    (camera
+      (mode "normal")
+    )
+    (climbable
+      (width 140.6667)
+      (height 811.9999)
+      (x 2890)
+      (y 69.9997)
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2889.33)
+          (y 800)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2958.67)
+          (y 747.333)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2986)
+          (y 648.6669)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2882)
+          (y 644)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2929.33)
+          (y 556)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2987.33)
+          (y 498.667)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2900.67)
+          (y 408.667)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2966)
+          (y 328)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2994)
+          (y 244)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2935.33)
+          (y 180.667)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 2950.67)
+          (y 103.333)
+        )
+      )
+    )
+    (dispenser
+      (cycle 4)
+      (type "cannon")
+      (badguy "kamikazesnowball")
+      (direction "left")
+      (sprite "images/creatures/dispenser/dispenser.sprite")
+      (x 2394.671)
+      (y 198.667)
+    )
+    (dispenser
+      (cycle 4)
+      (type "cannon")
+      (badguy "kamikazesnowball")
+      (direction "left")
+      (sprite "images/creatures/dispenser/dispenser.sprite")
+      (x 2398.664)
+      (y 167.9996)
+    )
+    (firefly
+      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
+      (x 206.6667)
+      (y 492.667)
+    )
+    (firefly
+      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
+      (x 2278)
+      (y 458.333)
+    )
+    (fish
+      (sprite "images/creatures/fish/fish.sprite")
+      (x 1141.33)
+      (y 880.6666)
+    )
+    (platform
+      (running #f)
+      (name "ball")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path
+        (mode "oneshot")
+        (node
+          (x 2112)
+          (y 511.3333)
+          (time 5)
+        )
+        (node
+          (x 2112)
+          (y 1054.667)
+          (time 5)
+        )
+      )
+    )
+    (goldbomb
+      (direction "left")
+      (sprite "images/creatures/gold_bomb/gold_bomb.sprite")
+      (x 3681.33)
+      (y 312)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 2495.997)
+      (y 895.3334)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 130)
+      (y 109.333)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 3377.33)
+      (y 164)
+    )
+    (smartball
+      (direction "left")
+      (sprite "/images/creatures/snowball/snowball.sprite")
+      (x 3151.33)
+      (y 952.6669)
+    )
+    (rock
+      (sprite "images/objects/rock/rock.sprite")
+      (x 33.33329)
+      (y 184)
+    )
+    (rock
+      (sprite "images/objects/rock/rock.sprite")
+      (x 1636)
+      (y 926.0002)
+    )
+    (smartblock
+      (direction "left")
+      (sprite "/images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 2611.33)
+      (y 186)
+    )
+    (snowman
+      (direction "left")
+      (sprite "images/creatures/snowman/snowman.sprite")
+      (x 1589.33)
+      (y 889.3333)
+    )
+    (snowman
+      (direction "left")
+      (sprite "images/creatures/snowman/snowman.sprite")
+      (x 1521.337)
+      (y 886.6663)
+    )
+    (snowman
+      (direction "left")
+      (sprite "images/creatures/snowman/snowman.sprite")
+      (x 3172.67)
+      (y 1020)
+    )
+    (spawnpoint
+      (name "main")
+      (x 207.3334)
+      (y 481.3333)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 4737.999)
+      (y 125.3333)
+    )
+    (switch
+      (script "ball.goto_node(1);")
+      (sprite "images/objects/switch/left.sprite")
+      (x 2414)
+      (y 386.0003)
+    )
     (tilemap
       (solid #f)
       (speed 0.8)
@@ -768,14 +1008,6 @@
       2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 1547 1548 2391 2391 2391 2391 2391 2391 1549 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2391 2959 2388 2388 2388 2388 2388 2960 1543 1544 2391 1549 2391 2959 2388 2388 2388 2388 2388 2389 1543 1544 1549 1543 1549 1544 1543 1544 1549 1543 1549 1544 1543 1544 1549 1543 1544 2390 2391 2391 2391 2391 2391 1547 1548 2391 2391 2391 2391 2391 2391 2391 2391 2391 1549 2391 2391 2391 2391 2391 1549 1547 1548 1549 1547 1548 1547 1548 1549 1543 1544 1547 1548 1547 1548 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020
       )
     )
-    (spawnpoint
-      (name "main")
-      (x 207.3334)
-      (y 481.3333)
-    )
-    (camera
-      (mode "normal")
-    )
     (tilemap
       (solid #f)
       (speed 0.8)
@@ -821,61 +1053,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (snowman
-      (direction "left")
-      (sprite "images/creatures/snowman/snowman.sprite")
-      (x 1589.33)
-      (y 889.3333)
-    )
-    (snowman
-      (direction "left")
-      (sprite "images/creatures/snowman/snowman.sprite")
-      (x 1521.337)
-      (y 886.6663)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 130)
-      (y 109.333)
-    )
-    (dispenser
-      (cycle 4)
-      (type "cannon")
-      (badguy "kamikazesnowball")
-      (direction "left")
-      (sprite "images/creatures/dispenser/dispenser.sprite")
-      (x 2394.671)
-      (y 198.667)
-    )
-    (platform
-      (running #f)
-      (name "ball")
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 2112)
-          (y 511.3333)
-          (time 5)
-        )
-        (node
-          (x 2112)
-          (y 1054.667)
-          (time 5)
-        )
-      )
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 2495.997)
-      (y 895.3334)
-    )
-    (switch
-      (script "ball.goto_node(1);")
-      (sprite "images/objects/switch/left.sprite")
-      (x 2414)
-      (y 386.0003)
-    )
     (tilemap
       (solid #f)
       (z-pos -50)
@@ -918,11 +1095,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2162 0 0 0 0 0 0 0 0 0 0 0 0 0 2162 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (fish
-      (sprite "images/creatures/fish/fish.sprite")
-      (x 1141.33)
-      (y 880.6666)
     )
     (tilemap
       (solid #f)
@@ -970,156 +1142,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1547 1548 0 0 0 0
       )
     )
-    (climbable
-      (width 140.6667)
-      (height 811.9999)
-      (x 2890)
-      (y 69.9997)
-    )
-    (rock
-      (sprite "images/objects/rock/rock.sprite")
-      (x 33.33329)
-      (y 184)
-    )
-    (rock
-      (sprite "images/objects/rock/rock.sprite")
-      (x 1636)
-      (y 926.0002)
-    )
-    (firefly
-      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
-      (x 206.6667)
-      (y 492.667)
-    )
-    (dispenser
-      (cycle 4)
-      (type "cannon")
-      (badguy "kamikazesnowball")
-      (direction "left")
-      (sprite "images/creatures/dispenser/dispenser.sprite")
-      (x 2398.664)
-      (y 167.9996)
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2889.33)
-          (y 800)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2958.67)
-          (y 747.333)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2986)
-          (y 648.6669)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2882)
-          (y 644)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2929.33)
-          (y 556)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2987.33)
-          (y 498.667)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2900.67)
-          (y 408.667)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2966)
-          (y 328)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2994)
-          (y 244)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2935.33)
-          (y 180.667)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2950.67)
-          (y 103.333)
-        )
-      )
-    )
-    (trampoline
-      (sprite "images/objects/trampoline/trampoline.sprite")
-      (x 2540)
-      (y 180)
-    )
-    (smartblock
-      (direction "left")
-      (sprite "/images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 2611.33)
-      (y 186)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 3377.33)
-      (y 164)
-    )
-    (trampoline
-      (sprite "images/objects/trampoline/trampoline.sprite")
-      (x 3454.67)
-      (y 230)
-    )
     (tilemap
       (solid #f)
       (z-pos 101)
@@ -1164,37 +1186,15 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 4737.999)
-      (y 125.3333)
+    (trampoline
+      (sprite "images/objects/trampoline/trampoline.sprite")
+      (x 2540)
+      (y 180)
     )
-    (goldbomb
-      (direction "left")
-      (sprite "images/creatures/gold_bomb/gold_bomb.sprite")
-      (x 3681.33)
-      (y 312)
-    )
-    (smartball
-      (direction "left")
-      (sprite "/images/creatures/snowball/snowball.sprite")
-      (x 3151.33)
-      (y 952.6669)
-    )
-    (gradient
-      (top_color 0.3 0.4 0.75)
-      (bottom_color 1 1 1)
-    )
-    (firefly
-      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
-      (x 2278)
-      (y 458.333)
-    )
-    (snowman
-      (direction "left")
-      (sprite "images/creatures/snowman/snowman.sprite")
-      (x 3172.67)
-      (y 1020)
+    (trampoline
+      (sprite "images/objects/trampoline/trampoline.sprite")
+      (x 3454.67)
+      (y 230)
     )
   )
 )

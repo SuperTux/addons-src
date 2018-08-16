@@ -8,123 +8,18 @@
     (music "music/chipdisko.ogg")
     (init-script "  water.start_moving();  ")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/nightsky_top.png")
       (image "images/background/nightsky_middle.png")
       (image-bottom "images/background/nightsky_bottom.png")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 480)
-    )
-    (secretarea
-      (fade-tilemap "secretsky")
-      (width 576)
-      (height 80)
-      (x 3232)
-      (y 32)
-    )
-    (firefly
-      (x 6928)
-      (y 288)
-    )
-    (secretarea
-      (width 224)
-      (height 96)
-      (x 9920)
-      (y 608)
-    )
-    (smartball
-      (x 512)
-      (y 416)
-    )
-    (fish
-      (x 832)
-      (y 576)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 928)
-      (y 576)
-    )
-    (mriceblock
-      (x 1184)
-      (y 576)
-    )
-    (mriceblock
-      (x 1440)
-      (y 608)
-    )
-    (mriceblock
-      (x 1600)
-      (y 640)
-    )
-    (smartball
-      (x 1888)
-      (y 416)
+    (camera
+      (mode "normal")
     )
     (captainsnowball
       (x 2400)
       (y 416)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 3200)
-      (y 512)
-    )
-    (mriceblock
-      (x 3360)
-      (y 608)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 3680)
-      (y 512)
-    )
-    (fish
-      (x 3920)
-      (y 576)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 4064)
-      (y 512)
-    )
-    (smartball
-      (x 4320)
-      (y 416)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 4480)
-      (y 576)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 4800)
-      (y 480)
-    )
-    (flyingsnowball
-      (x 5024)
-      (y 288)
-    )
-    (mriceblock
-      (x 5120)
-      (y 416)
-    )
-    (flyingsnowball
-      (x 5280)
-      (y 288)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 5664)
-      (y 512)
     )
     (captainsnowball
       (x 6528)
@@ -134,27 +29,30 @@
       (x 6848)
       (y 416)
     )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 7200)
-      (y 512)
-    )
-    (mriceblock
-      (x 7360)
-      (y 640)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 7520)
-      (y 512)
-    )
     (captainsnowball
       (x 8128)
       (y 512)
     )
-    (smartball
-      (x 8640)
+    (captainsnowball
+      (dead-script "  lastguy.goto_node(1);  ")
+      (x 11360)
       (y 416)
+    )
+    (captainsnowball
+      (x 11456)
+      (y 96)
+    )
+    (firefly
+      (x 6928)
+      (y 288)
+    )
+    (fish
+      (x 832)
+      (y 576)
+    )
+    (fish
+      (x 3920)
+      (y 576)
     )
     (fish
       (x 8992)
@@ -164,78 +62,9 @@
       (x 9088)
       (y 576)
     )
-    (mriceblock
-      (x 9440)
-      (y 576)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 9440)
-      (y 448)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 9664)
-      (y 384)
-    )
-    (smartball
-      (x 9760)
-      (y 288)
-    )
-    (mriceblock
-      (x 9920)
-      (y 288)
-    )
-    (smartball
-      (x 10112)
-      (y 288)
-    )
     (fish
       (x 10384)
       (y 576)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 10464)
-      (y 512)
-    )
-    (captainsnowball
-      (dead-script "  lastguy.goto_node(1);  ")
-      (x 11360)
-      (y 416)
-    )
-    (snowman
-      (x 11456)
-      (y 384)
-    )
-    (captainsnowball
-      (x 11456)
-      (y 96)
-    )
-    (trampoline
-      (x 9920)
-      (y 704)
-    )
-    (powerup
-      (sprite "images/powerups/egg/egg.sprite")
-      (x 10112)
-      (y 704)
-    )
-    (powerup
-      (script "  block1.set_visible( ! block1.is_visible() );  block1.set_solid( ! block1.is_solid() );  block2.set_visible( ! block2.is_visible() );  block2.set_solid( ! block2.is_solid() );  block3.set_visible( ! block3.is_visible() );  block3.set_solid( ! block3.is_solid() );  block4.set_visible( ! block4.is_visible() );  block4.set_solid( ! block4.is_solid() );
-      levelflip();  ")
-      (disable-physics #t)
-      (sprite "images/powerups/potions/red-potion.sprite")
-      (x 10112)
-      (y 576)
-    )
-    (powerup
-      (script "  block1.set_visible( ! block1.is_visible() );  block1.set_solid( ! block1.is_solid() );  block2.set_visible( ! block2.is_visible() );  block2.set_solid( ! block2.is_solid() );  block3.set_visible( ! block3.is_visible() );  block3.set_solid( ! block3.is_solid() );  block4.set_visible( ! block4.is_visible() );  block4.set_solid( ! block4.is_solid() );
-      levelflip();  ")
-      (disable-physics #t)
-      (sprite "images/powerups/potions/red-potion.sprite")
-      (x 9952)
-      (y 352)
     )
     (platform
       (running #f)
@@ -272,6 +101,151 @@
           (y 64)
         )
       )
+    )
+    (flyingsnowball
+      (x 5024)
+      (y 288)
+    )
+    (flyingsnowball
+      (x 5280)
+      (y 288)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 928)
+      (y 576)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 3200)
+      (y 512)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 3680)
+      (y 512)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 4064)
+      (y 512)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 4480)
+      (y 576)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 4800)
+      (y 480)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 5664)
+      (y 512)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 7200)
+      (y 512)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 7520)
+      (y 512)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 9440)
+      (y 448)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 9664)
+      (y 384)
+    )
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 10464)
+      (y 512)
+    )
+    (mriceblock
+      (x 1184)
+      (y 576)
+    )
+    (mriceblock
+      (x 1440)
+      (y 608)
+    )
+    (mriceblock
+      (x 1600)
+      (y 640)
+    )
+    (mriceblock
+      (x 3360)
+      (y 608)
+    )
+    (mriceblock
+      (x 5120)
+      (y 416)
+    )
+    (mriceblock
+      (x 7360)
+      (y 640)
+    )
+    (mriceblock
+      (x 9440)
+      (y 576)
+    )
+    (mriceblock
+      (x 9920)
+      (y 288)
+    )
+    (smartball
+      (x 512)
+      (y 416)
+    )
+    (smartball
+      (x 1888)
+      (y 416)
+    )
+    (smartball
+      (x 4320)
+      (y 416)
+    )
+    (smartball
+      (x 8640)
+      (y 416)
+    )
+    (smartball
+      (x 9760)
+      (y 288)
+    )
+    (smartball
+      (x 10112)
+      (y 288)
+    )
+    (powerup
+      (sprite "images/powerups/egg/egg.sprite")
+      (x 10112)
+      (y 704)
+    )
+    (powerup
+      (script "  block1.set_visible( ! block1.is_visible() );  block1.set_solid( ! block1.is_solid() );  block2.set_visible( ! block2.is_visible() );  block2.set_solid( ! block2.is_solid() );  block3.set_visible( ! block3.is_visible() );  block3.set_solid( ! block3.is_solid() );  block4.set_visible( ! block4.is_visible() );  block4.set_solid( ! block4.is_solid() );
+      levelflip();  ")
+      (disable-physics #t)
+      (sprite "images/powerups/potions/red-potion.sprite")
+      (x 10112)
+      (y 576)
+    )
+    (powerup
+      (script "  block1.set_visible( ! block1.is_visible() );  block1.set_solid( ! block1.is_solid() );  block2.set_visible( ! block2.is_visible() );  block2.set_solid( ! block2.is_solid() );  block3.set_visible( ! block3.is_visible() );  block3.set_solid( ! block3.is_solid() );  block4.set_visible( ! block4.is_visible() );  block4.set_solid( ! block4.is_solid() );
+      levelflip();  ")
+      (disable-physics #t)
+      (sprite "images/powerups/potions/red-potion.sprite")
+      (x 9952)
+      (y 352)
     )
     (scriptedobject
       (z-pos 0)
@@ -313,6 +287,36 @@
       (x 10144)
       (y 672)
     )
+    (scripttrigger
+      (script "  lastguy.goto_node(1);  ")
+      (button #f)
+      (width 32)
+      (height 672)
+      (x 10976)
+      (y 160)
+    )
+    (secretarea
+      (fade-tilemap "secretsky")
+      (width 576)
+      (height 80)
+      (x 3232)
+      (y 32)
+    )
+    (secretarea
+      (width 224)
+      (height 96)
+      (x 9920)
+      (y 608)
+    )
+    (snowman
+      (x 11456)
+      (y 384)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 480)
+    )
     (switch
       (script "  skytop.goto_node(1);  wait(  3  );
       skymidA.goto_node(1);  skymidAL.goto_node(1);  skymidAR.goto_node(1);  wait(  3  );
@@ -321,14 +325,6 @@
       (sprite "images/objects/switch/right.sprite")
       (x 3808)
       (y 656)
-    )
-    (scripttrigger
-      (script "  lastguy.goto_node(1);  ")
-      (button #f)
-      (width 32)
-      (height 672)
-      (x 10976)
-      (y 160)
     )
     (tilemap
       (solid #t)
@@ -706,6 +702,10 @@
       2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020
       2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020
       )
+    )
+    (trampoline
+      (x 9920)
+      (y 704)
     )
   )
 )

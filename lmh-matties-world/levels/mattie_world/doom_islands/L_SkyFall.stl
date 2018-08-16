@@ -9,45 +9,192 @@
     (music "music/chipdisko.ogg")
     (init-script "  import(\"levels/mattie_world/doom_islands/sky.nut\");  ")
     (ambient-light 1 1 1)
+    (background
+      (speed 0.3)
+      (image "images/background/fog.png")
+    )
+    (bouncingsnowball
+      (x 416)
+      (y 800)
+    )
+    (bouncingsnowball
+      (x 640)
+      (y 832)
+    )
+    (bouncingsnowball
+      (x 960)
+      (y 832)
+    )
+    (bouncingsnowball
+      (x 224)
+      (y 128)
+    )
+    (bouncingsnowball
+      (x 288)
+      (y 128)
+    )
     (camera
       (mode "normal")
+    )
+    (captainsnowball
+      (x 1088)
+      (y 128)
+    )
+    (captainsnowball
+      (x 1152)
+      (y 128)
+    )
+    (platform
+      (running #f)
+      (name "wt_deliver1")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 160)
+          (y 160)
+          (time 4)
+        )
+        (node
+          (x 160)
+          (y 448)
+          (time 4)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "wt_deliver2")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 1056)
+          (y 160)
+          (time 4)
+        )
+        (node
+          (x 1056)
+          (y 512)
+          (time 4)
+        )
+        (node
+          (x 1056)
+          (y 512)
+          (time 4)
+        )
+        (node
+          (x 992)
+          (y 512)
+          (time 4)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "climb1")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 0)
+          (y 256)
+          (time 6)
+        )
+        (node
+          (x 0)
+          (y 576)
+          (time 6)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "climb2")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x -128)
+          (y 320)
+        )
+        (node
+          (x 0)
+          (y 320)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "platform_top")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 480)
+          (y 32)
+          (time 5)
+        )
+        (node
+          (x 480)
+          (y 416)
+          (time 5)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "man1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path
+        (node
+          (x 1504)
+          (y -32)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "man2")
+      (sprite "images/objects/platforms/big.sprite")
+      (path
+        (node
+          (x 1632)
+          (y -32)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "man3")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path
+        (node
+          (x 1856)
+          (y -32)
+        )
+      )
+    )
+    (flyingsnowball
+      (dead-script "  push3.fade(0,0);  ")
+      (x 384)
+      (y 192)
+    )
+    (flyingsnowball
+      (dead-script "  push4.fade(0,0);stand_top.fade(0,0);  ")
+      (x 640)
+      (y 192)
     )
     (gradient
       (top_color 1 1 0.9)
       (bottom_color 0.9 0.5 0.4)
     )
-    (background
-      (speed 0.3)
-      (image "images/background/fog.png")
+    (jumpy
+      (x 640)
+      (y 768)
     )
-    (spawnpoint
-      (name "main")
-      (x 64)
-      (y 1408)
+    (jumpy
+      (x 864)
+      (y -128)
     )
-    (secretarea
-      (width 40)
-      (height 40)
-      (x 124)
-      (y 924)
-    )
-    (secretarea
-      (width 128)
-      (height 64)
+    (jumpy
       (x 992)
-      (y 416)
-    )
-    (snowball
-      (x 448)
-      (y 896)
-    )
-    (snowball
-      (x 672)
-      (y 896)
-    )
-    (snowball
-      (x 928)
-      (y 896)
+      (y -128)
     )
     (mriceblock
       (x 320)
@@ -61,40 +208,6 @@
       (x 800)
       (y 896)
     )
-    (bouncingsnowball
-      (x 416)
-      (y 800)
-    )
-    (bouncingsnowball
-      (x 640)
-      (y 832)
-    )
-    (bouncingsnowball
-      (x 960)
-      (y 832)
-    )
-    (sspiky
-      (direction "right")
-      (x 416)
-      (y 736)
-    )
-    (sspiky
-      (direction "left")
-      (x 960)
-      (y 768)
-    )
-    (jumpy
-      (x 640)
-      (y 768)
-    )
-    (zeekling
-      (x 1120)
-      (y 896)
-    )
-    (zeekling
-      (x 1120)
-      (y 800)
-    )
     (smartball
       (x 512)
       (y 288)
@@ -102,64 +215,280 @@
     (smartball
       (x 224)
       (y 288)
-    )
-    (snowball
-      (x 416)
-      (y 128)
-    )
-    (snowball
-      (x 768)
-      (y 128)
-    )
-    (bouncingsnowball
-      (x 224)
-      (y 128)
-    )
-    (bouncingsnowball
-      (x 288)
-      (y 128)
-    )
-    (captainsnowball
-      (x 1088)
-      (y 128)
-    )
-    (captainsnowball
-      (x 1152)
-      (y 128)
     )
     (smartball
       (x 0)
       (y 224)
     )
-    (flyingsnowball
-      (dead-script "  push3.fade(0,0);  ")
-      (x 384)
-      (y 192)
-    )
     (smartball
       (x 512)
       (y 0)
     )
-    (flyingsnowball
-      (dead-script "  push4.fade(0,0);stand_top.fade(0,0);  ")
-      (x 640)
-      (y 192)
+    (scriptedobject
+      (z-pos 0)
+      (name "block1")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 0)
+      (y 864)
     )
-    (jumpy
+    (scriptedobject
+      (z-pos 0)
+      (name "block2")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 0)
+      (y 800)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block3")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 0)
+      (y 736)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block4")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 256)
+      (y 832)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block5")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 512)
+      (y 800)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block6")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 736)
+      (y 864)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "cagebot")
+      (sprite "levels/mattie_world/images/blocks/wood.sprite")
+      (x 1056)
+      (y 928)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "cagemid")
+      (sprite "levels/mattie_world/images/blocks/wood.sprite")
+      (x 1056)
+      (y 832)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "cagetop")
+      (sprite "levels/mattie_world/images/blocks/wood.sprite")
+      (x 1056)
+      (y 736)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "cagerbot")
+      (sprite "levels/mattie_world/images/blocks/vertical-small.sprite")
+      (x 1152)
+      (y 864)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "cagertop")
+      (sprite "levels/mattie_world/images/blocks/vertical-small.sprite")
+      (x 1152)
+      (y 768)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "cagelbot")
+      (sprite "levels/mattie_world/images/blocks/vertical-small.sprite")
+      (x 1056)
+      (y 864)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "cageltop")
+      (sprite "levels/mattie_world/images/blocks/vertical-small.sprite")
+      (x 1056)
+      (y 768)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "blockCOUNTFAIL")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 128)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block7")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 288)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block8")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 352)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block9")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 416)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block10")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 480)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block11")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 544)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block12")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 608)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block13")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 672)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block14")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 736)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block15")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 800)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block16")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
       (x 864)
-      (y -128)
+      (y 224)
     )
-    (jumpy
+    (scriptedobject
+      (z-pos 0)
+      (name "block17")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 1056)
+      (y 224)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block18")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 320)
+      (y 160)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block19")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 576)
+      (y 160)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block20")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 832)
+      (y 160)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block21")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 704)
+      (y 160)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block22")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 512)
+      (y 160)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block23")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 320)
+      (y 96)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block21")
+      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
+      (x 720)
+      (y -64)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block21")
+      (sprite "levels/mattie_world/images/blocks/block5.sprite")
+      (x 864)
+      (y -96)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block21")
+      (sprite "levels/mattie_world/images/blocks/block5.sprite")
+      (x 864)
+      (y -64)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block21")
+      (sprite "levels/mattie_world/images/blocks/block5.sprite")
+      (x 864)
+      (y -32)
+    )
+    (scriptedobject
+      (z-pos 0)
+      (name "block21")
+      (sprite "levels/mattie_world/images/blocks/block5.sprite")
       (x 992)
-      (y -128)
+      (y -96)
     )
-    (snowman
-      (x 1568)
-      (y -80)
+    (scriptedobject
+      (z-pos 0)
+      (name "block21")
+      (sprite "levels/mattie_world/images/blocks/block5.sprite")
+      (x 992)
+      (y -64)
     )
-    (snowman
-      (x 1792)
-      (y -80)
+    (scriptedobject
+      (z-pos 0)
+      (name "block21")
+      (sprite "levels/mattie_world/images/blocks/block5.sprite")
+      (x 992)
+      (y -32)
     )
     (scripttrigger
       (script "  wave_one();  ")
@@ -208,6 +537,61 @@
       (height 320)
       (x 1248)
       (y 0)
+    )
+    (secretarea
+      (width 40)
+      (height 40)
+      (x 124)
+      (y 924)
+    )
+    (secretarea
+      (width 128)
+      (height 64)
+      (x 992)
+      (y 416)
+    )
+    (sspiky
+      (direction "right")
+      (x 416)
+      (y 736)
+    )
+    (sspiky
+      (direction "left")
+      (x 960)
+      (y 768)
+    )
+    (snowball
+      (x 448)
+      (y 896)
+    )
+    (snowball
+      (x 672)
+      (y 896)
+    )
+    (snowball
+      (x 928)
+      (y 896)
+    )
+    (snowball
+      (x 416)
+      (y 128)
+    )
+    (snowball
+      (x 768)
+      (y 128)
+    )
+    (snowman
+      (x 1568)
+      (y -80)
+    )
+    (snowman
+      (x 1792)
+      (y -80)
+    )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 1408)
     )
     (tilemap
       (solid #t)
@@ -768,97 +1152,6 @@
       1311 0 0 1311
       )
     )
-    (scriptedobject
-      (z-pos 0)
-      (name "block1")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 0)
-      (y 864)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block2")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 0)
-      (y 800)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block3")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 0)
-      (y 736)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block4")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 256)
-      (y 832)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block5")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 512)
-      (y 800)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block6")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 736)
-      (y 864)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "cagebot")
-      (sprite "levels/mattie_world/images/blocks/wood.sprite")
-      (x 1056)
-      (y 928)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "cagemid")
-      (sprite "levels/mattie_world/images/blocks/wood.sprite")
-      (x 1056)
-      (y 832)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "cagetop")
-      (sprite "levels/mattie_world/images/blocks/wood.sprite")
-      (x 1056)
-      (y 736)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "cagerbot")
-      (sprite "levels/mattie_world/images/blocks/vertical-small.sprite")
-      (x 1152)
-      (y 864)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "cagertop")
-      (sprite "levels/mattie_world/images/blocks/vertical-small.sprite")
-      (x 1152)
-      (y 768)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "cagelbot")
-      (sprite "levels/mattie_world/images/blocks/vertical-small.sprite")
-      (x 1056)
-      (y 864)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "cageltop")
-      (sprite "levels/mattie_world/images/blocks/vertical-small.sprite")
-      (x 1056)
-      (y 768)
-    )
     (tilemap
       (solid #t)
       (alpha 0)
@@ -966,90 +1259,6 @@
       (tiles
       1311 1311 1311 0 0 0 0 0 1311 1311 1311 0 0 0 0 0 1311 1311 1311
       )
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "blockCOUNTFAIL")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 128)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block7")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 288)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block8")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 352)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block9")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 416)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block10")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 480)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block11")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 544)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block12")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 608)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block13")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 672)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block14")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 736)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block15")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 800)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block16")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 864)
-      (y 224)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block17")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 1056)
-      (y 224)
     )
     (tilemap
       (solid #t)
@@ -1317,48 +1526,6 @@
       1311 0 0 0 0 0 0 1311
       )
     )
-    (scriptedobject
-      (z-pos 0)
-      (name "block18")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 320)
-      (y 160)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block19")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 576)
-      (y 160)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block20")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 832)
-      (y 160)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block21")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 704)
-      (y 160)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block22")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 512)
-      (y 160)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block23")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 320)
-      (y 96)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -1455,23 +1622,6 @@
       2817 2817
       )
     )
-    (platform
-      (running #f)
-      (name "wt_deliver1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 160)
-          (y 160)
-          (time 4)
-        )
-        (node
-          (x 160)
-          (y 448)
-          (time 4)
-        )
-      )
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -1515,33 +1665,6 @@
       (height 1)
       (tiles
       1311
-      )
-    )
-    (platform
-      (running #f)
-      (name "wt_deliver2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1056)
-          (y 160)
-          (time 4)
-        )
-        (node
-          (x 1056)
-          (y 512)
-          (time 4)
-        )
-        (node
-          (x 1056)
-          (y 512)
-          (time 4)
-        )
-        (node
-          (x 992)
-          (y 512)
-          (time 4)
-        )
       )
     )
     (tilemap
@@ -1617,55 +1740,6 @@
       2162
       )
     )
-    (platform
-      (running #f)
-      (name "climb1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 0)
-          (y 256)
-          (time 6)
-        )
-        (node
-          (x 0)
-          (y 576)
-          (time 6)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "climb2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x -128)
-          (y 320)
-        )
-        (node
-          (x 0)
-          (y 320)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "platform_top")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 480)
-          (y 32)
-          (time 5)
-        )
-        (node
-          (x 480)
-          (y 416)
-          (time 5)
-        )
-      )
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -1710,13 +1784,6 @@
       2818
       )
     )
-    (scriptedobject
-      (z-pos 0)
-      (name "block21")
-      (sprite "levels/mattie_world/images/blocks/bigblock.sprite")
-      (x 720)
-      (y -64)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -1756,48 +1823,6 @@
       2155 2156 2156 2156 2156 2156 2156 2156 2156 2156 2156
       )
     )
-    (scriptedobject
-      (z-pos 0)
-      (name "block21")
-      (sprite "levels/mattie_world/images/blocks/block5.sprite")
-      (x 864)
-      (y -96)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block21")
-      (sprite "levels/mattie_world/images/blocks/block5.sprite")
-      (x 864)
-      (y -64)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block21")
-      (sprite "levels/mattie_world/images/blocks/block5.sprite")
-      (x 864)
-      (y -32)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block21")
-      (sprite "levels/mattie_world/images/blocks/block5.sprite")
-      (x 992)
-      (y -96)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block21")
-      (sprite "levels/mattie_world/images/blocks/block5.sprite")
-      (x 992)
-      (y -64)
-    )
-    (scriptedobject
-      (z-pos 0)
-      (name "block21")
-      (sprite "levels/mattie_world/images/blocks/block5.sprite")
-      (x 992)
-      (y -32)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -1812,39 +1837,6 @@
       (height 1)
       (tiles
       1311 0 0 0 1311
-      )
-    )
-    (platform
-      (running #f)
-      (name "man1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1504)
-          (y -32)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "man2")
-      (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1632)
-          (y -32)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "man3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1856)
-          (y -32)
-        )
       )
     )
     (tilemap
@@ -1985,6 +1977,14 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
+    )
+    (zeekling
+      (x 1120)
+      (y 896)
+    )
+    (zeekling
+      (x 1120)
+      (y 800)
     )
   )
 )

@@ -16,16 +16,6 @@
     (camera
       (mode "normal")
     )
-    (scripttrigger
-      (script "import(\"levels/hume/defualt.nut\")
-sector.Tux.trigger_sequence(\"fireworks\")
-unlock_archivement(\"ai\")")
-      (button #f)
-      (width 124)
-      (height 76)
-      (x 1472)
-      (y 1492)
-    )
     (dispenser
       (cycle 0.5)
       (type "rocketlauncher")
@@ -186,6 +176,16 @@ unlock_archivement(\"ai\")")
       (badguy "kamikazesnowball")
       (x 1600)
       (y 1440)
+    )
+    (scripttrigger
+      (script "import(\"levels/hume/defualt.nut\")
+sector.Tux.trigger_sequence(\"fireworks\")
+unlock_archivement(\"ai\")")
+      (button #f)
+      (width 124)
+      (height 76)
+      (x 1472)
+      (y 1492)
     )
     (spawnpoint
       (name "main")

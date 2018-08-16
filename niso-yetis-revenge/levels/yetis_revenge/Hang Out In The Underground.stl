@@ -14,6 +14,25 @@
       (image "images/background/black_800px.png")
       (image-bottom "images/background/black_800px.png")
     )
+    (bonusblock
+      (custom-contents
+         (powerup           (script "
+play_sound(\"sounds/countdown10s.ogg\");
+block.set_alpha(1);
+wait(11);
+block.set_alpha(0);
+")
+           (disable-physics #t)
+           (sprite "images/powerups/potions/blue-potion.sprite")
+           (x 3359)
+           (y 668)
+)
+      )
+      (script "")
+      (contents "custom")
+      (x 3439)
+      (y 124)
+    )
     (camera
       (mode "normal")
     )
@@ -146,25 +165,6 @@
     (flyingsnowball
       (x 6980)
       (y 707)
-    )
-    (bonusblock
-      (custom-contents
-         (powerup           (script "
-play_sound(\"sounds/countdown10s.ogg\");
-block.set_alpha(1);
-wait(11);
-block.set_alpha(0);
-")
-           (disable-physics #t)
-           (sprite "images/powerups/potions/blue-potion.sprite")
-           (x 3359)
-           (y 668)
-)
-      )
-      (script "")
-      (contents "custom")
-      (x 3439)
-      (y 124)
     )
     (jumpy
       (x 391)

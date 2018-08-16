@@ -34,11 +34,6 @@
       (x 500)
       (y 384)
     )
-    (spawnpoint
-      (name "main")
-      (x 632)
-      (y 400)
-    )
     (scripttrigger
       (script "wait(15)
   sector.Tux.add_bonus(\"grow\")
@@ -56,6 +51,11 @@ unlock_archivement(\"v\")")
       (height 32)
       (x 600)
       (y 500)
+    )
+    (spawnpoint
+      (name "main")
+      (x 632)
+      (y 400)
     )
     (tilemap
       (solid #f)

@@ -78,6 +78,10 @@
       (x 833)
       (y 1510)
     )
+    (smartball
+      (x 163)
+      (y 422)
+    )
     (secretarea
       (width 32)
       (height 64)
@@ -95,10 +99,6 @@
     (sspiky
       (x 230)
       (y 938)
-    )
-    (smartball
-      (x 163)
-      (y 422)
     )
     (spawnpoint
       (name "main")

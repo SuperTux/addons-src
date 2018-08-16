@@ -8,6 +8,113 @@
     (name "main")
     (music "/music/voc-daytime2.music")
     (ambient-light 1 1 1)
+    (camera
+      (mode "normal")
+    )
+    (platform
+      (sprite "/images/objects/platforms/icefloe.sprite")
+      (path
+        (node
+          (x 32)
+          (y 608)
+          (time 0.5299998)
+        )
+        (node
+          (x 32)
+          (y 604)
+          (time 0.3)
+        )
+        (node
+          (x 32)
+          (y 608)
+          (time 0.6)
+        )
+        (node
+          (x 32)
+          (y 612)
+          (time 0.3)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "MineLift")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path
+        (mode "oneshot")
+        (node
+          (x 2912)
+          (y 480)
+          (time 3)
+        )
+        (node
+          (x 2912)
+          (y 768)
+          (time 3)
+        )
+      )
+    )
+    (gradient
+      (top_color 0 0.3137259 1)
+      (bottom_color 1 1 1)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 2208)
+      (y 416)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 1120)
+      (y 512)
+    )
+    (scripttrigger
+      (script "Level.spawn(\"crystal\", \"start\");")
+      (button #f)
+      (width 160)
+      (height 32)
+      (x 2912)
+      (y 736)
+    )
+    (scripttrigger
+      (script "mountain.fade(0, 1);")
+      (button #f)
+      (width 32)
+      (height 160)
+      (x 2686.512)
+      (y 320.6129)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 1280)
+      (y 512)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 1376)
+      (y 512)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 1472)
+      (y 512)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 544)
+    )
+    (switch
+      (script "MineLift.goto_node(1);")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 3008)
+      (y 416)
+    )
     (tilemap
       (solid #f)
       (z-pos -100)
@@ -107,18 +214,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2938 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 2392 0 0 0 0 0 2390 11 11 11
       )
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 544)
-    )
-    (camera
-      (mode "normal")
-    )
-    (gradient
-      (top_color 0 0.3137259 1)
-      (bottom_color 1 1 1)
-    )
     (tilemap
       (solid #f)
       (z-pos 110)
@@ -160,31 +255,6 @@
       2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020
       )
     )
-    (platform
-      (sprite "/images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 32)
-          (y 608)
-          (time 0.5299998)
-        )
-        (node
-          (x 32)
-          (y 604)
-          (time 0.3)
-        )
-        (node
-          (x 32)
-          (y 608)
-          (time 0.6)
-        )
-        (node
-          (x 32)
-          (y 612)
-          (time 0.3)
-        )
-      )
-    )
     (tilemap
       (solid #f)
       (z-pos -110)
@@ -217,44 +287,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2181 2180 2181 2179 2181 2180 2181 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2188 2189 2188 2189 2188 2189 2188 2189 0 0 0
       )
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 1120)
-      (y 512)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 1280)
-      (y 512)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 1376)
-      (y 512)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 1472)
-      (y 512)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 2208)
-      (y 416)
-    )
-    (scripttrigger
-      (script "Level.spawn(\"crystal\", \"start\");")
-      (button #f)
-      (width 160)
-      (height 32)
-      (x 2912)
-      (y 736)
     )
     (tilemap
       (solid #f)
@@ -328,30 +360,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (switch
-      (script "MineLift.goto_node(1);")
-      (sprite "/images/objects/switch/switch.sprite")
-      (x 3008)
-      (y 416)
-    )
-    (platform
-      (running #f)
-      (name "MineLift")
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 2912)
-          (y 480)
-          (time 3)
-        )
-        (node
-          (x 2912)
-          (y 768)
-          (time 3)
-        )
-      )
-    )
     (tilemap
       (solid #f)
       (z-pos 110)
@@ -419,14 +427,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (scripttrigger
-      (script "mountain.fade(0, 1);")
-      (button #f)
-      (width 32)
-      (height 160)
-      (x 2686.512)
-      (y 320.6129)
-    )
   )
   (sector
     (name "crystal")
@@ -436,6 +436,803 @@ Moving2.start_moving();
 Moving3.start_moving();
 Moving4.start_moving();")
     (ambient-light 0.3 0.4 0.5)
+    (bonusblock
+      (script "")
+      (count 5)
+      (sprite "/images/objects/bonus_block/purpleblock.sprite")
+      (x 256)
+      (y 672)
+    )
+    (bonusblock
+      (script "")
+      (count 5)
+      (sprite "/images/objects/bonus_block/purpleblock.sprite")
+      (x 6528)
+      (y 2016)
+    )
+    (camera
+      (mode "normal")
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 2176)
+      (y 672)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 3200)
+      (y 544)
+    )
+    (crystallo
+      (direction "right")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 352)
+      (y 928)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 4192)
+      (y 608)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 4480)
+      (y 960)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 6699.362)
+      (y 959.1429)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 10628.1)
+      (y 871.5239)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 7744)
+      (y 1568)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 6496)
+      (y 1568)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 10080)
+      (y 1760)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 9696)
+      (y 1568)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 14688)
+      (y 544)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 13536)
+      (y 672)
+    )
+    (crystallo
+      (direction "left")
+      (sprite "images/creatures/crystallo/crystallo.sprite")
+      (x 16096)
+      (y 832)
+    )
+    (firefly
+      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
+      (x 8384)
+      (y 928)
+    )
+    (firefly
+      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
+      (x 6768)
+      (y 912)
+    )
+    (firefly
+      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
+      (x 12864)
+      (y 496)
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path
+        (mode "oneshot")
+        (node
+          (x 1440)
+          (y 96)
+          (time 6)
+        )
+        (node
+          (x 1440)
+          (y 608)
+          (time 6)
+        )
+      )
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path
+        (node
+          (x 2336)
+          (y 704)
+          (time 2)
+        )
+        (node
+          (x 2336)
+          (y 512)
+          (time 2)
+        )
+        (node
+          (x 2336)
+          (y 512)
+          (time 2)
+        )
+        (node
+          (x 2336)
+          (y 704)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path
+        (node
+          (x 4640)
+          (y 960)
+          (time 2)
+        )
+        (node
+          (x 4640)
+          (y 736)
+          (time 2)
+        )
+        (node
+          (x 4640)
+          (y 736)
+          (time 1.3)
+        )
+        (node
+          (x 4640)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 4640)
+          (y 576)
+          (time 1.3)
+        )
+        (node
+          (x 4640)
+          (y 736)
+          (time 2)
+        )
+        (node
+          (x 4640)
+          (y 736)
+          (time 2)
+        )
+        (node
+          (x 4640)
+          (y 960)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "door1")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
+      (path
+        (mode "oneshot")
+        (node
+          (x 8288)
+          (y 864)
+        )
+        (node
+          (x 8288)
+          (y 736)
+        )
+      )
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path
+        (node
+          (x 6848)
+          (y 992)
+          (time 5)
+        )
+        (node
+          (x 6848)
+          (y 1568)
+          (time 2)
+        )
+        (node
+          (x 6848)
+          (y 1568)
+          (time 5)
+        )
+        (node
+          (x 6848)
+          (y 992)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "lift2")
+      (sprite "/images/objects/platforms/small.sprite")
+      (path
+        (node
+          (x 10784)
+          (y 896)
+          (time 3)
+        )
+        (node
+          (x 10784)
+          (y 512)
+          (time 2)
+        )
+        (node
+          (x 10784)
+          (y 512)
+          (time 3)
+        )
+        (node
+          (x 10784)
+          (y 896)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "door2")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
+      (path
+        (mode "oneshot")
+        (node
+          (x 8320)
+          (y 864)
+        )
+        (node
+          (x 8320)
+          (y 736)
+        )
+      )
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path
+        (node
+          (x 3744)
+          (y 1984)
+          (time 2)
+        )
+        (node
+          (x 3744)
+          (y 1824)
+          (time 2)
+        )
+        (node
+          (x 3744)
+          (y 1824)
+          (time 2)
+        )
+        (node
+          (x 3744)
+          (y 1984)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "ExitLift")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path
+        (node
+          (x 16160)
+          (y 704)
+          (time 5)
+        )
+        (node
+          (x 16160)
+          (y 32)
+          (time 5)
+        )
+      )
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path
+        (node
+          (x 13856)
+          (y 608)
+          (time 3)
+        )
+        (node
+          (x 13856)
+          (y 992)
+          (time 2)
+        )
+        (node
+          (x 13856)
+          (y 992)
+          (time 3)
+        )
+        (node
+          (x 13856)
+          (y 608)
+          (time 2)
+        )
+      )
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 5840)
+      (y 784)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 4000)
+      (y 1792)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 11072)
+      (y 1440)
+    )
+    (goldbomb
+      (direction "left")
+      (sprite "images/creatures/gold_bomb/gold_bomb.sprite")
+      (x 11744)
+      (y 384)
+    )
+    (gradient
+      (top_color 0 0 0.1)
+      (bottom_color 0.1 0.2 0.3)
+    )
+    (haywire
+      (direction "left")
+      (sprite "images/creatures/haywire/haywire.sprite")
+      (x 8256)
+      (y 1408)
+    )
+    (icecrusher
+      (sprite "/images/creatures/icecrusher/krosh.sprite")
+      (x 7136)
+      (y 576)
+    )
+    (icecrusher
+      (sprite "/images/creatures/icecrusher/krosh.sprite")
+      (x 7584)
+      (y 576)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 5024)
+      (y 1632)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 4224)
+      (y 1472)
+    )
+    (infoblock
+      (message (_ "#You have to activate two switches to open this door."))
+      (x 8160)
+      (y 896)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 3376)
+      (y 416)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 912)
+      (y 512)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 10112)
+      (y 768)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 11472)
+      (y 352)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 11952)
+      (y 352)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 6304)
+      (y 1984)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 10880)
+      (y 1376)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 14352)
+      (y 448)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 2240)
+      (y 480)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 3936)
+      (y 928)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 9056)
+      (y 960)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 11424)
+      (y 864)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 7872)
+      (y 1408)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6016)
+      (y 1952)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 12096)
+      (y 1536)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 13056)
+      (y 448)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 13536)
+      (y 448)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 14784)
+      (y 736)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 1472)
+      (y 800)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 1600)
+      (y 800)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5312)
+      (y 736)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 11136)
+      (y 448)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 14272)
+      (y 992)
+    )
+    (smartball
+      (direction "right")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 224)
+      (y 768)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 9696)
+      (y 832)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 12192)
+      (y 864)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 12768)
+      (y 544)
+    )
+    (pushbutton
+      (script "lift2.start_moving();")
+      (sprite "images/objects/pushbutton/pushbutton.sprite")
+      (x 12288)
+      (y 788)
+    )
+    (scripttrigger
+      (script "Level.spawn(\"exit\", \"exit\");")
+      (button #f)
+      (width 160)
+      (height 32)
+      (x 16159.98)
+      (y -0.0003871917)
+    )
+    (scripttrigger
+      (script "ExitLift.goto_node(1);
+wait(0.5);
+ExitLift.goto_node(0);")
+      (button #f)
+      (width 96)
+      (height 32)
+      (x 16192)
+      (y 672)
+    )
+    (secretarea
+      (fade-tilemap "secret1")
+      (width 544)
+      (height 320)
+      (x 6752)
+      (y 1920)
+    )
+    (secretarea
+      (fade-tilemap "secret2")
+      (width 192)
+      (height 128)
+      (x 13855.98)
+      (y 1055.076)
+    )
+    (sspiky
+      (direction "left")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 11120)
+      (y 736)
+    )
+    (sspiky
+      (direction "right")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 3360)
+      (y 1920)
+    )
+    (smartblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3136)
+      (y 864)
+    )
+    (smartblock
+      (direction "right")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3680)
+      (y 1952)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 3744)
+      (y 928)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 3648)
+      (y 928)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 4992)
+      (y 704)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6016)
+      (y 1088)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6176)
+      (y 1056)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 9888)
+      (y 896)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 12672)
+      (y 544)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 11968)
+      (y 1536)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 11872)
+      (y 1536)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 14912)
+      (y 992)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 14656)
+      (y 992)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 14784)
+      (y 992)
+    )
+    (spawnpoint
+      (name "start")
+      (x 1504)
+      (y 32)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5344)
+      (y 1056)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5184)
+      (y 1056)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 8128)
+      (y 1408)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 11808)
+      (y 512)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 6176)
+      (y 2176)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 6336)
+      (y 2176)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 13408)
+      (y 448)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 13248)
+      (y 448)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 2816)
+      (y 355.5552)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 6688)
+      (y 1440)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 8448)
+      (y 1344)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 12192)
+      (y 704)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 13504)
+      (y 544)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 13152)
+      (y 544)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 15296)
+      (y 608)
+    )
+    (switch
+      (script "door1.goto_node(1);")
+      (sprite "/images/objects/switch/right.sprite")
+      (x 3392)
+      (y 1728)
+    )
+    (switch
+      (script "door2.goto_node(1);")
+      (sprite "images/objects/switch/left.sprite")
+      (x 12844)
+      (y 1344)
+    )
     (tilemap
       (solid #f)
       (z-pos -100)
@@ -686,18 +1483,6 @@ Moving4.start_moving();")
       2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2480 2467 2468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2477 2478 2479 2480 2479 2480 2481 2482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2477 2478 2479 2480 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2480 2481 2482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2463 2464 2465 2466 2479 2479 2465 2466 2467 2468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2463 2464 2465 2466 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2465 2466 2467 2468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2477 2478 2479 2480 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479 2479
       )
     )
-    (spawnpoint
-      (name "start")
-      (x 1504)
-      (y 32)
-    )
-    (camera
-      (mode "normal")
-    )
-    (gradient
-      (top_color 0 0 0.1)
-      (bottom_color 0.1 0.2 0.3)
-    )
     (tilemap
       (solid #f)
       (speed 0.5)
@@ -783,22 +1568,6 @@ Moving4.start_moving();")
       0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2654 2649 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2655 2653 2654 2651 2652 2653 2654 2651 2652 2653 2656 0 0 0 0 2659 2651 2652 2653 2654 2651 2652 2653 2656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2654 2649 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2655 2653 2654 2651 2652 2653 2654 2651 2652 2653 2656 0 0 0 0 2659 2651 2652 2653 2654 2651 2652 2653 2656 0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2654 2649 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2655 2653 2654 2651 2652 2653 2654 2651 2652 2653 2656 0 0 0 0 2659 2651 2652 2653 2654 2651 2652 2653 2656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2654 2649 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 2655 2653 2654 2651 2652 2653 2654 2651 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2648 2649 2660 0 0 0 0 2655 2647 2648 2649 2650 2647 2648 2649 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2655 2653 2654 2651 2652 2653 2654 2651 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2648 2649 2660 0 0 0 0 2655 2647 2648 2649 2650 2647 2648 2649 2660 0 0 0 0 0 0 0 0 0 0 2655 2653 2654 2651 2652 2653 2654 2651 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2648 2649 2660 0 0 0 0 2655 2647 2648 2649 2650 2647 2648 2649 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2655 2653 2654 2651 2652 2653 2654 2651 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2655 2653 2654 2651 2652 2653 2654 2651 2660 0 0 0 0 2655 2647 2648 2651 2652 2653 2654 2651 2652 2653 2656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2655 2653 2654 2651 2652 2653 2654 2651 2660 0 0 0 0 2655 2647 2648 2651 2652 2653 2654 2651 2652 2653 2656 0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2655 2653 2654 2651 2652 2653 2654 2651 2660 0 0 0 0 2655 2647 2648 2651 2652 2653 2654 2651 2652 2653 2656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2659 2649 2650 2647 2648 2649 2650 2647 2656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-      )
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 1440)
-          (y 96)
-          (time 6)
-        )
-        (node
-          (x 1440)
-          (y 608)
-          (time 6)
-        )
       )
     )
     (tilemap
@@ -888,60 +1657,6 @@ Moving4.start_moving();")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (torch
-      (sprite "/images/objects/torch/torch2.sprite")
-      (x 2018.433)
-      (y 709.4759)
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (node
-          (x 2336)
-          (y 704)
-          (time 2)
-        )
-        (node
-          (x 2336)
-          (y 512)
-          (time 2)
-        )
-        (node
-          (x 2336)
-          (y 512)
-          (time 2)
-        )
-        (node
-          (x 2336)
-          (y 704)
-          (time 2)
-        )
-      )
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 2240)
-      (y 480)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 2176)
-      (y 672)
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 1472)
-      (y 800)
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 1600)
-      (y 800)
-    )
     (tilemap
       (solid #t)
       (z-pos 1)
@@ -1024,204 +1739,6 @@ Moving4.start_moving();")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 3376)
-      (y 416)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 3200)
-      (y 544)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 3744)
-      (y 928)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 3648)
-      (y 928)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 3936)
-      (y 928)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 2816)
-      (y 355.5552)
-    )
-    (torch
-      (sprite "images/objects/torch/torch1.sprite")
-      (x 3226.625)
-      (y 917.3234)
-    )
-    (smartblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 3136)
-      (y 864)
-    )
-    (bonusblock
-      (script "")
-      (count 5)
-      (sprite "/images/objects/bonus_block/purpleblock.sprite")
-      (x 256)
-      (y 672)
-    )
-    (crystallo
-      (direction "right")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 352)
-      (y 928)
-    )
-    (smartball
-      (direction "right")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 224)
-      (y 768)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 912)
-      (y 512)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 4192)
-      (y 608)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 4480)
-      (y 960)
-    )
-    (torch
-      (sprite "/images/objects/torch/torch3.sprite")
-      (x 4863.625)
-      (y 582.6342)
-    )
-    (torch
-      (sprite "/images/objects/torch/torch3.sprite")
-      (x 4463.862)
-      (y 995.5866)
-    )
-    (icecrusher
-      (sprite "/images/creatures/icecrusher/krosh.sprite")
-      (x 7136)
-      (y 576)
-    )
-    (icecrusher
-      (sprite "/images/creatures/icecrusher/krosh.sprite")
-      (x 7584)
-      (y 576)
-    )
-    (torch
-      (sprite "images/objects/torch/torch1.sprite")
-      (x 6841.285)
-      (y 999.0001)
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (node
-          (x 4640)
-          (y 960)
-          (time 2)
-        )
-        (node
-          (x 4640)
-          (y 736)
-          (time 2)
-        )
-        (node
-          (x 4640)
-          (y 736)
-          (time 1.3)
-        )
-        (node
-          (x 4640)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 4640)
-          (y 576)
-          (time 1.3)
-        )
-        (node
-          (x 4640)
-          (y 736)
-          (time 2)
-        )
-        (node
-          (x 4640)
-          (y 736)
-          (time 2)
-        )
-        (node
-          (x 4640)
-          (y 960)
-          (time 2)
-        )
-      )
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 5312)
-      (y 736)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 5344)
-      (y 1056)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 5184)
-      (y 1056)
-    )
-    (flyingsnowball
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (x 5840)
-      (y 784)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 4992)
-      (y 704)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 6016)
-      (y 1088)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 6176)
-      (y 1056)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 6699.362)
-      (y 959.1429)
     )
     (tilemap
       (solid #f)
@@ -1310,188 +1827,6 @@ Moving4.start_moving();")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (platform
-      (running #f)
-      (name "door1")
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 8288)
-          (y 864)
-        )
-        (node
-          (x 8288)
-          (y 736)
-        )
-      )
-    )
-    (switch
-      (script "door1.goto_node(1);")
-      (sprite "/images/objects/switch/right.sprite")
-      (x 3392)
-      (y 1728)
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (node
-          (x 6848)
-          (y 992)
-          (time 5)
-        )
-        (node
-          (x 6848)
-          (y 1568)
-          (time 2)
-        )
-        (node
-          (x 6848)
-          (y 1568)
-          (time 5)
-        )
-        (node
-          (x 6848)
-          (y 992)
-          (time 2)
-        )
-      )
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 9056)
-      (y 960)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 10112)
-      (y 768)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 9888)
-      (y 896)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 9696)
-      (y 832)
-    )
-    (torch
-      (sprite "/images/objects/torch/torch2.sprite")
-      (x 8033.666)
-      (y 1047)
-    )
-    (firefly
-      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
-      (x 8384)
-      (y 928)
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 11136)
-      (y 448)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 11424)
-      (y 864)
-    )
-    (sspiky
-      (direction "left")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 11120)
-      (y 736)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 10628.1)
-      (y 871.5239)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 6688)
-      (y 1440)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 8448)
-      (y 1344)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 7744)
-      (y 1568)
-    )
-    (haywire
-      (direction "left")
-      (sprite "images/creatures/haywire/haywire.sprite")
-      (x 8256)
-      (y 1408)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 7872)
-      (y 1408)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 8128)
-      (y 1408)
-    )
-    (platform
-      (running #f)
-      (name "lift2")
-      (sprite "/images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 10784)
-          (y 896)
-          (time 3)
-        )
-        (node
-          (x 10784)
-          (y 512)
-          (time 2)
-        )
-        (node
-          (x 10784)
-          (y 512)
-          (time 3)
-        )
-        (node
-          (x 10784)
-          (y 896)
-          (time 2)
-        )
-      )
-    )
-    (pushbutton
-      (script "lift2.start_moving();")
-      (sprite "images/objects/pushbutton/pushbutton.sprite")
-      (x 12288)
-      (y 788)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 12192)
-      (y 864)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 12192)
-      (y 704)
-    )
     (tilemap
       (solid #f)
       (z-pos 110)
@@ -1576,81 +1911,6 @@ Moving4.start_moving();")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 11472)
-      (y 352)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 11952)
-      (y 352)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 11808)
-      (y 512)
-    )
-    (goldbomb
-      (direction "left")
-      (sprite "images/creatures/gold_bomb/gold_bomb.sprite")
-      (x 11744)
-      (y 384)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 12768)
-      (y 544)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 12672)
-      (y 544)
-    )
-    (infoblock
-      (message (_ "#You have to activate two switches to open this door."))
-      (x 8160)
-      (y 896)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 6496)
-      (y 1568)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 6176)
-      (y 2176)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 6336)
-      (y 2176)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 6016)
-      (y 1952)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 6304)
-      (y 1984)
-    )
-    (bonusblock
-      (script "")
-      (count 5)
-      (sprite "/images/objects/bonus_block/purpleblock.sprite")
-      (x 6528)
-      (y 2016)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -1680,64 +1940,6 @@ Moving4.start_moving();")
       0 0 2491 2492 2493 2494 2495 2496 0 0
       0 0 2505 2506 2507 2508 2509 2510 0 0
       )
-    )
-    (platform
-      (running #f)
-      (name "door2")
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 8320)
-          (y 864)
-        )
-        (node
-          (x 8320)
-          (y 736)
-        )
-      )
-    )
-    (switch
-      (script "door2.goto_node(1);")
-      (sprite "images/objects/switch/left.sprite")
-      (x 12844)
-      (y 1344)
-    )
-    (secretarea
-      (fade-tilemap "secret1")
-      (width 544)
-      (height 320)
-      (x 6752)
-      (y 1920)
-    )
-    (weak_block
-      (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
-      (x 6688)
-      (y 2048)
-    )
-    (weak_block
-      (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
-      (x 6688)
-      (y 2016)
-    )
-    (weak_block
-      (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
-      (x 6688)
-      (y 1984)
-    )
-    (weak_block
-      (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
-      (x 6688)
-      (y 1952)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 5024)
-      (y 1632)
     )
     (tilemap
       (solid #f)
@@ -1853,53 +2055,6 @@ Moving4.start_moving();")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2505 2506 2507 2508 2509 2510
       )
     )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (node
-          (x 3744)
-          (y 1984)
-          (time 2)
-        )
-        (node
-          (x 3744)
-          (y 1824)
-          (time 2)
-        )
-        (node
-          (x 3744)
-          (y 1824)
-          (time 2)
-        )
-        (node
-          (x 3744)
-          (y 1984)
-          (time 2)
-        )
-      )
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 4224)
-      (y 1472)
-    )
-    (smartblock
-      (direction "right")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 3680)
-      (y 1952)
-    )
-    (sspiky
-      (direction "right")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 3360)
-      (y 1920)
-    )
-    (flyingsnowball
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (x 4000)
-      (y 1792)
-    )
     (tilemap
       (solid #t)
       (z-pos -10)
@@ -1942,28 +2097,6 @@ Moving4.start_moving();")
       2505 2506 2507 2508 2507 2508 2507 2508 2507 2508 2509 2510 0 0 0 0 0 0 0 0 0 0 2505 2506 2507 2508 2507 2508 2507 2508 2507 2508 2509 2510 0 0
       )
     )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 10080)
-      (y 1760)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 9696)
-      (y 1568)
-    )
-    (flyingsnowball
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (x 11072)
-      (y 1440)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 10880)
-      (y 1376)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -1991,193 +2124,6 @@ Moving4.start_moving();")
       2491 2492 2493 2494 2493 2494 2493 2494 2495 2496
       2505 2506 2507 2508 2507 2508 2507 2508 2509 2510
       )
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 12096)
-      (y 1536)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 11968)
-      (y 1536)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 11872)
-      (y 1536)
-    )
-    (platform
-      (running #f)
-      (name "ExitLift")
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (node
-          (x 16160)
-          (y 704)
-          (time 5)
-        )
-        (node
-          (x 16160)
-          (y 32)
-          (time 5)
-        )
-      )
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (node
-          (x 13856)
-          (y 608)
-          (time 3)
-        )
-        (node
-          (x 13856)
-          (y 992)
-          (time 2)
-        )
-        (node
-          (x 13856)
-          (y 992)
-          (time 3)
-        )
-        (node
-          (x 13856)
-          (y 608)
-          (time 2)
-        )
-      )
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 14352)
-      (y 448)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 13408)
-      (y 448)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 13248)
-      (y 448)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 13056)
-      (y 448)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 13536)
-      (y 448)
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 14272)
-      (y 992)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 14912)
-      (y 992)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 14656)
-      (y 992)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 14784)
-      (y 992)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 14784)
-      (y 736)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 14688)
-      (y 544)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 13536)
-      (y 672)
-    )
-    (crystallo
-      (direction "left")
-      (sprite "images/creatures/crystallo/crystallo.sprite")
-      (x 16096)
-      (y 832)
-    )
-    (scripttrigger
-      (script "Level.spawn(\"exit\", \"exit\");")
-      (button #f)
-      (width 160)
-      (height 32)
-      (x 16159.98)
-      (y -0.0003871917)
-    )
-    (scripttrigger
-      (script "ExitLift.goto_node(1);
-wait(0.5);
-ExitLift.goto_node(0);")
-      (button #f)
-      (width 96)
-      (height 32)
-      (x 16192)
-      (y 672)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 13504)
-      (y 544)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 13152)
-      (y 544)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 15296)
-      (y 608)
-    )
-    (torch
-      (sprite "images/objects/torch/torch1.sprite")
-      (x 15639.79)
-      (y 776.1907)
-    )
-    (torch
-      (sprite "/images/objects/torch/torch3.sprite")
-      (x 13744.95)
-      (y 604.0004)
-    )
-    (secretarea
-      (fade-tilemap "secret2")
-      (width 192)
-      (height 128)
-      (x 13855.98)
-      (y 1055.076)
     )
     (tilemap
       (solid #f)
@@ -2262,12 +2208,6 @@ ExitLift.goto_node(0);")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (trampoline
-      (portable #f)
-      (sprite "images/objects/trampoline/trampoline_fix.sprite")
-      (x 13920)
-      (y 1152)
     )
     (tilemap
       (solid #t)
@@ -2360,21 +2300,109 @@ ExitLift.goto_node(0);")
       2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020 2020
       )
     )
-    (firefly
-      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
-      (x 6768)
-      (y 912)
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (x 2018.433)
+      (y 709.4759)
     )
-    (firefly
-      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
-      (x 12864)
-      (y 496)
+    (torch
+      (sprite "images/objects/torch/torch1.sprite")
+      (x 3226.625)
+      (y 917.3234)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch3.sprite")
+      (x 4863.625)
+      (y 582.6342)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch3.sprite")
+      (x 4463.862)
+      (y 995.5866)
+    )
+    (torch
+      (sprite "images/objects/torch/torch1.sprite")
+      (x 6841.285)
+      (y 999.0001)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (x 8033.666)
+      (y 1047)
+    )
+    (torch
+      (sprite "images/objects/torch/torch1.sprite")
+      (x 15639.79)
+      (y 776.1907)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch3.sprite")
+      (x 13744.95)
+      (y 604.0004)
+    )
+    (trampoline
+      (portable #f)
+      (sprite "images/objects/trampoline/trampoline_fix.sprite")
+      (x 13920)
+      (y 1152)
+    )
+    (weak_block
+      (linked #f)
+      (sprite "images/objects/weak_block/meltbox.sprite")
+      (x 6688)
+      (y 2048)
+    )
+    (weak_block
+      (linked #f)
+      (sprite "images/objects/weak_block/meltbox.sprite")
+      (x 6688)
+      (y 2016)
+    )
+    (weak_block
+      (linked #f)
+      (sprite "images/objects/weak_block/meltbox.sprite")
+      (x 6688)
+      (y 1984)
+    )
+    (weak_block
+      (linked #f)
+      (sprite "images/objects/weak_block/meltbox.sprite")
+      (x 6688)
+      (y 1952)
     )
   )
   (sector
     (name "exit")
     (music "/music/voc-daytime2.music")
     (ambient-light 1 1 1)
+    (camera
+      (mode "normal")
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path
+        (mode "oneshot")
+        (node
+          (x 128)
+          (y 768)
+          (time 3)
+        )
+        (node
+          (x 128)
+          (y 512)
+          (time 3)
+        )
+      )
+    )
+    (gradient
+      (top_color 0 0.3137259 1)
+      (bottom_color 1 1 1)
+    )
+    (spawnpoint
+      (name "exit")
+      (x 192)
+      (y 704)
+    )
     (tilemap
       (solid #f)
       (z-pos -100)
@@ -2473,18 +2501,6 @@ ExitLift.goto_node(0);")
       11 11 11 2392 0 0 0 0 0 2390 11 11 11 11 11 11 11 11 11 11 11 117 118 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 2940 2936 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       11 11 11 2392 0 0 0 0 0 2390 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 2941 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (spawnpoint
-      (name "exit")
-      (x 192)
-      (y 704)
-    )
-    (camera
-      (mode "normal")
-    )
-    (gradient
-      (top_color 0 0.3137259 1)
-      (bottom_color 1 1 1)
     )
     (tilemap
       (solid #f)
@@ -2654,22 +2670,6 @@ ExitLift.goto_node(0);")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-      )
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 128)
-          (y 768)
-          (time 3)
-        )
-        (node
-          (x 128)
-          (y 512)
-          (time 3)
-        )
       )
     )
     (tilemap

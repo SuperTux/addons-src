@@ -7,19 +7,103 @@
     (name "main")
     (music "music/fortress.ogg")
     (ambient-light 0 0 0)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 1)
       (image-top "images/background/snowcastle.png")
       (image "images/background/snowcastle.png")
       (image-bottom "images/background/snowcastle.png")
     )
-    (trampoline
-      (portable #f)
-      (x 96)
+    (camera
+      (mode "normal")
+    )
+    (candle
+      (x 320)
       (y 416)
+    )
+    (candle
+      (x 640)
+      (y 416)
+    )
+    (candle
+      (x 960)
+      (y 416)
+    )
+    (candle
+      (x 1280)
+      (y 416)
+    )
+    (candle
+      (x 1600)
+      (y 416)
+    )
+    (candle
+      (x 1920)
+      (y 416)
+    )
+    (candle
+      (x 2240)
+      (y 416)
+    )
+    (candle
+      (x 2560)
+      (y 416)
+    )
+    (candle
+      (x 2380)
+      (y 416)
+    )
+    (candle
+      (x 0)
+      (y 416)
+    )
+    (candle
+      (x 0)
+      (y 0)
+    )
+    (crystallo
+      (radius 32)
+      (x 160)
+      (y -64)
+    )
+    (crystallo
+      (radius 32)
+      (x 352)
+      (y -64)
+    )
+    (crystallo
+      (radius 32)
+      (x 576)
+      (y -64)
+    )
+    (crystallo
+      (radius 32)
+      (x 768)
+      (y -64)
+    )
+    (crystallo
+      (radius 32)
+      (x 992)
+      (y -64)
+    )
+    (crystallo
+      (radius 32)
+      (x 1148)
+      (y -64)
+    )
+    (crystallo
+      (radius 32)
+      (x 1440)
+      (y -64)
+    )
+    (crystallo
+      (radius 32)
+      (x 1664)
+      (y -64)
+    )
+    (crystallo
+      (radius 32)
+      (x 1888)
+      (y -64)
     )
     (pushbutton
       (script "chain.goto_node(1);")
@@ -144,6 +228,11 @@
       48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48
       )
     )
+    (trampoline
+      (portable #f)
+      (x 96)
+      (y 416)
+    )
     (yeti
       (dead-script "settings.set_ambient_light(1,settings.get_ambient_green(),settings.get_ambient_blue());
           if ((settings.get_ambient_green()==1)){if ((settings.get_ambient_blue()==1)){
@@ -170,95 +259,6 @@
           unlock_archivement(\"ab\")}}")
       (x 500)
       (y -750)
-    )
-    (crystallo
-      (radius 32)
-      (x 160)
-      (y -64)
-    )
-    (crystallo
-      (radius 32)
-      (x 352)
-      (y -64)
-    )
-    (crystallo
-      (radius 32)
-      (x 576)
-      (y -64)
-    )
-    (crystallo
-      (radius 32)
-      (x 768)
-      (y -64)
-    )
-    (crystallo
-      (radius 32)
-      (x 992)
-      (y -64)
-    )
-    (crystallo
-      (radius 32)
-      (x 1148)
-      (y -64)
-    )
-    (crystallo
-      (radius 32)
-      (x 1440)
-      (y -64)
-    )
-    (crystallo
-      (radius 32)
-      (x 1664)
-      (y -64)
-    )
-    (crystallo
-      (radius 32)
-      (x 1888)
-      (y -64)
-    )
-    (candle
-      (x 320)
-      (y 416)
-    )
-    (candle
-      (x 640)
-      (y 416)
-    )
-    (candle
-      (x 960)
-      (y 416)
-    )
-    (candle
-      (x 1280)
-      (y 416)
-    )
-    (candle
-      (x 1600)
-      (y 416)
-    )
-    (candle
-      (x 1920)
-      (y 416)
-    )
-    (candle
-      (x 2240)
-      (y 416)
-    )
-    (candle
-      (x 2560)
-      (y 416)
-    )
-    (candle
-      (x 2380)
-      (y 416)
-    )
-    (candle
-      (x 0)
-      (y 416)
-    )
-    (candle
-      (x 0)
-      (y 0)
     )
   )
 )

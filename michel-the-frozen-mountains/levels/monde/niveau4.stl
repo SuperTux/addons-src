@@ -595,43 +595,6 @@ porte1.goto_node(1);
       (x 8769)
       (y 1830)
     )
-    (scripttrigger
-      (script "Foreground.set_alpha(1);
-porte1.goto_node(0);")
-      (button #f)
-      (width 32)
-      (height 136)
-      (x 14048)
-      (y 1344)
-    )
-    (secretarea
-      (fade-tilemap "cache1")
-      (width 32)
-      (height 188)
-      (x 9984)
-      (y 672)
-    )
-    (secretarea
-      (fade-tilemap "cache2")
-      (width 32)
-      (height 92)
-      (x 15136)
-      (y 1792)
-    )
-    (secretarea
-      (fade-tilemap "cache3")
-      (width 32)
-      (height 188)
-      (x 15584)
-      (y 1472)
-    )
-    (secretarea
-      (fade-tilemap "cache4")
-      (width 32)
-      (height 92)
-      (x 288)
-      (y 1440)
-    )
     (smartball
       (x 643)
       (y 646)
@@ -700,6 +663,43 @@ porte1.goto_node(0);")
     (smartball
       (x 6723)
       (y 966)
+    )
+    (scripttrigger
+      (script "Foreground.set_alpha(1);
+porte1.goto_node(0);")
+      (button #f)
+      (width 32)
+      (height 136)
+      (x 14048)
+      (y 1344)
+    )
+    (secretarea
+      (fade-tilemap "cache1")
+      (width 32)
+      (height 188)
+      (x 9984)
+      (y 672)
+    )
+    (secretarea
+      (fade-tilemap "cache2")
+      (width 32)
+      (height 92)
+      (x 15136)
+      (y 1792)
+    )
+    (secretarea
+      (fade-tilemap "cache3")
+      (width 32)
+      (height 188)
+      (x 15584)
+      (y 1472)
+    )
+    (secretarea
+      (fade-tilemap "cache4")
+      (width 32)
+      (height 92)
+      (x 288)
+      (y 1440)
     )
     (snowball
       (x 995)
@@ -1492,6 +1492,14 @@ porte1.goto_node(0);
       (x 1381)
       (y 680)
     )
+    (smartball
+      (x 419)
+      (y 966)
+    )
+    (smartball
+      (x 1507)
+      (y 806)
+    )
     (sequencetrigger
       (sequence "endsequence")
       (width 32)
@@ -1505,14 +1513,6 @@ porte1.goto_node(0);
       (height 76)
       (x 1600)
       (y 436)
-    )
-    (smartball
-      (x 419)
-      (y 966)
-    )
-    (smartball
-      (x 1507)
-      (y 806)
     )
     (spawnpoint
       (name "main")

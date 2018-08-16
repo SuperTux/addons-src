@@ -68,6 +68,34 @@
       (x 677)
       (y 3112)
     )
+    (smartball
+      (x 1059)
+      (y 11910)
+    )
+    (smartball
+      (x 2115)
+      (y 11078)
+    )
+    (smartball
+      (x 1955)
+      (y 8870)
+    )
+    (smartball
+      (x 803)
+      (y 7878)
+    )
+    (smartball
+      (x 899)
+      (y 5830)
+    )
+    (smartball
+      (x 515)
+      (y 3334)
+    )
+    (smartball
+      (x 835)
+      (y 518)
+    )
     (scripttrigger
       (script "droite.set_alpha(1);")
       (button #f)
@@ -109,34 +137,6 @@
       (height 44)
       (x 864)
       (y 340)
-    )
-    (smartball
-      (x 1059)
-      (y 11910)
-    )
-    (smartball
-      (x 2115)
-      (y 11078)
-    )
-    (smartball
-      (x 1955)
-      (y 8870)
-    )
-    (smartball
-      (x 803)
-      (y 7878)
-    )
-    (smartball
-      (x 899)
-      (y 5830)
-    )
-    (smartball
-      (x 515)
-      (y 3334)
-    )
-    (smartball
-      (x 835)
-      (y 518)
     )
     (spawnpoint
       (name "main")

@@ -192,6 +192,58 @@
     (camera
       (mode "normal")
     )
+    (crystallo
+      (x 1840.771)
+      (y 411.6504)
+    )
+    (crystallo
+      (x 1482.975)
+      (y 413.0646)
+    )
+    (crystallo
+      (x 3198.1)
+      (y 431.0229)
+    )
+    (crystallo
+      (x 3482.357)
+      (y 425.3661)
+    )
+    (crystallo
+      (x 6244.316)
+      (y 278.2878)
+    )
+    (crystallo
+      (x 5719.643)
+      (y 288.1873)
+    )
+    (crystallo
+      (x 7190.425)
+      (y 242.9325)
+    )
+    (crystallo
+      (x 9666.714)
+      (y 274.0452)
+    )
+    (crystallo
+      (x 9166.083)
+      (y 272.631)
+    )
+    (crystallo
+      (x 9166.083)
+      (y 272.631)
+    )
+    (crystallo
+      (x 9426.298)
+      (y 285.3589)
+    )
+    (crystallo
+      (x 10967.79)
+      (y 537.0889)
+    )
+    (crystallo
+      (x 12345.23)
+      (y 937.3113)
+    )
     (flame
       (x 1272.792)
       (y 488.4852)
@@ -313,58 +365,6 @@
     (flyingsnowball
       (x 12905.26)
       (y 851.0443)
-    )
-    (crystallo
-      (x 1840.771)
-      (y 411.6504)
-    )
-    (crystallo
-      (x 1482.975)
-      (y 413.0646)
-    )
-    (crystallo
-      (x 3198.1)
-      (y 431.0229)
-    )
-    (crystallo
-      (x 3482.357)
-      (y 425.3661)
-    )
-    (crystallo
-      (x 6244.316)
-      (y 278.2878)
-    )
-    (crystallo
-      (x 5719.643)
-      (y 288.1873)
-    )
-    (crystallo
-      (x 7190.425)
-      (y 242.9325)
-    )
-    (crystallo
-      (x 9666.714)
-      (y 274.0452)
-    )
-    (crystallo
-      (x 9166.083)
-      (y 272.631)
-    )
-    (crystallo
-      (x 9166.083)
-      (y 272.631)
-    )
-    (crystallo
-      (x 9426.298)
-      (y 285.3589)
-    )
-    (crystallo
-      (x 10967.79)
-      (y 537.0889)
-    )
-    (crystallo
-      (x 12345.23)
-      (y 937.3113)
     )
     (infoblock
       (message (_ "LOops, I'm in a dark cave and teleport back heaped of wood! I must find a way"))

@@ -9,73 +9,19 @@
     (music "music/darkforestkeep.ogg")
     (init-script "  ")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image "images/background/arctis_dark.jpg")
       (z-pos -250)
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 640)
-    )
-    (spawnpoint
-      (name "stair")
-      (x 3664)
-      (y 352)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "stair")
       (spawnpoint "main")
       (x 3656)
       (y 320)
-    )
-    (spiky
-      (x 1024)
-      (y 608)
-    )
-    (spiky
-      (x 1088)
-      (y 608)
-    )
-    (spiky
-      (x 1152)
-      (y 608)
-    )
-    (mrbomb
-      (x 1344)
-      (y 512)
-    )
-    (mrbomb
-      (x 1728)
-      (y 480)
-    )
-    (haywire
-      (x 1984)
-      (y 352)
-    )
-    (haywire
-      (x 2304)
-      (y 352)
-    )
-    (short_fuse
-      (x 1984)
-      (y 640)
-    )
-    (short_fuse
-      (x 2368)
-      (y 640)
-    )
-    (short_fuse
-      (x 2528)
-      (y 640)
-    )
-    (mrbomb
-      (x 2944)
-      (y 544)
     )
     (fish
       (x 3088)
@@ -89,6 +35,14 @@
       (x 3248)
       (y 576)
     )
+    (haywire
+      (x 1984)
+      (y 352)
+    )
+    (haywire
+      (x 2304)
+      (y 352)
+    )
     (jumpy
       (x 3184)
       (y 192)
@@ -100,6 +54,18 @@
     (jumpy
       (x 3520)
       (y 512)
+    )
+    (mrbomb
+      (x 1344)
+      (y 512)
+    )
+    (mrbomb
+      (x 1728)
+      (y 480)
+    )
+    (mrbomb
+      (x 2944)
+      (y 544)
     )
     (powerup
       (script "  badflower();  ")
@@ -160,6 +126,40 @@
       (sprite "levels/mattie_world/images/powerups/badflower/badflower.sprite")
       (x 2992)
       (y 288)
+    )
+    (short_fuse
+      (x 1984)
+      (y 640)
+    )
+    (short_fuse
+      (x 2368)
+      (y 640)
+    )
+    (short_fuse
+      (x 2528)
+      (y 640)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 640)
+    )
+    (spawnpoint
+      (name "stair")
+      (x 3664)
+      (y 352)
+    )
+    (spiky
+      (x 1024)
+      (y 608)
+    )
+    (spiky
+      (x 1088)
+      (y 608)
+    )
+    (spiky
+      (x 1152)
+      (y 608)
     )
     (tilemap
       (solid #t)
@@ -253,105 +253,6 @@
     (music "music/darkforestkeep.ogg")
     (init-script "    ")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
-    (gradient
-      (top_color 1 0.8 0)
-      (bottom_color 1 1 0)
-    )
-    (spawnpoint
-      (name "main")
-      (x 192)
-      (y 2240)
-    )
-    (door
-      (sector "main")
-      (spawnpoint "stair")
-      (x 184)
-      (y 2208)
-    )
-    (spawnpoint
-      (name "freezer")
-      (x 2688)
-      (y 1568)
-    )
-    (door
-      (sector "freezer")
-      (spawnpoint "main")
-      (x 2680)
-      (y 1536)
-    )
-    (spawnpoint
-      (name "armory")
-      (x 2688)
-      (y 896)
-    )
-    (door
-      (sector "armory")
-      (spawnpoint "main")
-      (x 2680)
-      (y 864)
-    )
-    (spawnpoint
-      (name "ramparts")
-      (x 2688)
-      (y 224)
-    )
-    (door
-      (sector "ramparts")
-      (spawnpoint "main")
-      (x 2680)
-      (y 192)
-    )
-    (firefly
-      (x 256)
-      (y 2240)
-    )
-    (mrbomb
-      (x 1568)
-      (y 2272)
-    )
-    (haywire
-      (x 1824)
-      (y 2144)
-    )
-    (mrbomb
-      (x 2080)
-      (y 2272)
-    )
-    (haywire
-      (x 2496)
-      (y 2272)
-    )
-    (spiky
-      (x 1664)
-      (y 1920)
-    )
-    (spiky
-      (x 1952)
-      (y 1824)
-    )
-    (spiky
-      (x 2240)
-      (y 1728)
-    )
-    (mriceblock
-      (x 2560)
-      (y 1632)
-    )
-    (haywire
-      (x 1664)
-      (y 1600)
-    )
-    (mrbomb
-      (x 1024)
-      (y 1600)
-    )
-    (jumpy
-      (x 576)
-      (y 1600)
-    )
     (bouncingsnowball
       (x 2016)
       (y 1120)
@@ -368,9 +269,68 @@
       (x 2592)
       (y 928)
     )
-    (sspiky
-      (x 2720)
-      (y 928)
+    (camera
+      (mode "normal")
+    )
+    (captainsnowball
+      (x 1952)
+      (y 480)
+    )
+    (captainsnowball
+      (x 2144)
+      (y 416)
+    )
+    (captainsnowball
+      (x 2336)
+      (y 352)
+    )
+    (door
+      (sector "main")
+      (spawnpoint "stair")
+      (x 184)
+      (y 2208)
+    )
+    (door
+      (sector "freezer")
+      (spawnpoint "main")
+      (x 2680)
+      (y 1536)
+    )
+    (door
+      (sector "armory")
+      (spawnpoint "main")
+      (x 2680)
+      (y 864)
+    )
+    (door
+      (sector "ramparts")
+      (spawnpoint "main")
+      (x 2680)
+      (y 192)
+    )
+    (firefly
+      (x 256)
+      (y 2240)
+    )
+    (gradient
+      (top_color 1 0.8 0)
+      (bottom_color 1 1 0)
+    )
+    (haywire
+      (x 1824)
+      (y 2144)
+    )
+    (haywire
+      (x 2496)
+      (y 2272)
+    )
+    (haywire
+      (x 1664)
+      (y 1600)
+    )
+    (jumpy
+      (x 576)
+      (y 1600)
     )
     (jumpy
       (x 1792)
@@ -388,25 +348,105 @@
       (x 576)
       (y 928)
     )
-    (captainsnowball
-      (x 1952)
-      (y 480)
+    (mrbomb
+      (x 1568)
+      (y 2272)
     )
-    (captainsnowball
-      (x 2144)
+    (mrbomb
+      (x 2080)
+      (y 2272)
+    )
+    (mrbomb
+      (x 1024)
+      (y 1600)
+    )
+    (mriceblock
+      (x 2560)
+      (y 1632)
+    )
+    (scripttrigger
+      (script "  bounce.fade(0,0);  ")
+      (button #f)
+      (width 32)
+      (height 160)
+      (x 1216)
+      (y 1472)
+    )
+    (scripttrigger
+      (script "  bounce2.fade(0,0);  ")
+      (button #f)
+      (width 32)
+      (height 160)
+      (x 1728)
+      (y 1088)
+    )
+    (scripttrigger
+      (script "  yeargh.fade(0,0);  ")
+      (button #f)
+      (width 32)
+      (height 160)
+      (x 1088)
+      (y 800)
+    )
+    (scripttrigger
+      (script "  yeargh2.fade(0,0);  ")
+      (button #f)
+      (width 32)
+      (height 160)
+      (x 1728)
       (y 416)
     )
-    (captainsnowball
-      (x 2336)
-      (y 352)
+    (scripttrigger
+      (script "  bounce.fade(0,0);bounce2.fade(0,0);yeargh.fade(0,0);yeargh2.fade(0,0);  ")
+      (button #f)
+      (width 96)
+      (height 96)
+      (x 2656)
+      (y 192)
     )
-    (spiky
-      (x 2432)
-      (y 320)
+    (sspiky
+      (x 2720)
+      (y 928)
     )
     (snowman
       (x 2496)
       (y 256)
+    )
+    (spawnpoint
+      (name "main")
+      (x 192)
+      (y 2240)
+    )
+    (spawnpoint
+      (name "freezer")
+      (x 2688)
+      (y 1568)
+    )
+    (spawnpoint
+      (name "armory")
+      (x 2688)
+      (y 896)
+    )
+    (spawnpoint
+      (name "ramparts")
+      (x 2688)
+      (y 224)
+    )
+    (spiky
+      (x 1664)
+      (y 1920)
+    )
+    (spiky
+      (x 1952)
+      (y 1824)
+    )
+    (spiky
+      (x 2240)
+      (y 1728)
+    )
+    (spiky
+      (x 2432)
+      (y 320)
     )
     (tilemap
       (solid #t)
@@ -517,14 +557,6 @@
       1311 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (scripttrigger
-      (script "  bounce.fade(0,0);  ")
-      (button #f)
-      (width 32)
-      (height 160)
-      (x 1216)
-      (y 1472)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -550,14 +582,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (scripttrigger
-      (script "  bounce2.fade(0,0);  ")
-      (button #f)
-      (width 32)
-      (height 160)
-      (x 1728)
-      (y 1088)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -582,14 +606,6 @@
       1311 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (scripttrigger
-      (script "  yeargh.fade(0,0);  ")
-      (button #f)
-      (width 32)
-      (height 160)
-      (x 1088)
-      (y 800)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -613,22 +629,6 @@
       2818 2818 2818 2818 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (scripttrigger
-      (script "  yeargh2.fade(0,0);  ")
-      (button #f)
-      (width 32)
-      (height 160)
-      (x 1728)
-      (y 416)
-    )
-    (scripttrigger
-      (script "  bounce.fade(0,0);bounce2.fade(0,0);yeargh.fade(0,0);yeargh2.fade(0,0);  ")
-      (button #f)
-      (width 96)
-      (height 96)
-      (x 2656)
-      (y 192)
     )
     (tilemap
       (solid #f)
@@ -805,28 +805,35 @@
     (music "music/darkforestkeep.ogg")
     (init-script "    ")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
-    (gradient
-      (top_color 0 0.9 1)
-      (bottom_color 0 0.8 1)
-    )
     (background
       (speed 2.1)
       (image "images/background/fog.png")
       (z-pos 250)
     )
-    (spawnpoint
-      (name "main")
-      (x 176)
-      (y 480)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "stair")
       (spawnpoint "freezer")
       (x 168)
       (y 448)
+    )
+    (gradient
+      (top_color 0 0.9 1)
+      (bottom_color 0 0.8 1)
+    )
+    (haywire
+      (x 928)
+      (y 352)
+    )
+    (mrbomb
+      (x 1216)
+      (y 288)
+    )
+    (mrbomb
+      (x 1920)
+      (y 512)
     )
     (secretarea
       (width 96)
@@ -838,21 +845,14 @@
       (x 608)
       (y 512)
     )
-    (haywire
-      (x 928)
-      (y 352)
-    )
-    (mrbomb
-      (x 1216)
-      (y 288)
-    )
     (short_fuse
       (x 1216)
       (y 544)
     )
-    (mrbomb
-      (x 1920)
-      (y 512)
+    (spawnpoint
+      (name "main")
+      (x 176)
+      (y 480)
     )
     (tilemap
       (solid #t)
@@ -2056,26 +2056,19 @@
     (camera
       (mode "normal")
     )
-    (gradient
-      (top_color 0 0 0)
-      (bottom_color 0 0 0)
-    )
-    (spawnpoint
-      (name "main")
-      (x 336)
-      (y 576)
-    )
     (door
       (sector "stair")
       (spawnpoint "armory")
       (x 328)
       (y 544)
     )
-    (secretarea
-      (width 160)
-      (height 256)
-      (x 272)
-      (y 64)
+    (flame
+      (x 960)
+      (y 160)
+    )
+    (gradient
+      (top_color 0 0 0)
+      (bottom_color 0 0 0)
     )
     (jumpy
       (x 704)
@@ -2089,9 +2082,114 @@
       (x 800)
       (y 496)
     )
-    (flame
+    (scriptedobject
+      (z-pos 20)
+      (name "block1")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 893)
+      (y 448)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block2")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 926)
+      (y 448)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block3")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 959)
+      (y 448)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block4")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 992)
+      (y 448)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block5")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 893)
+      (y 416)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block6")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 926)
+      (y 416)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block7")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 959)
+      (y 416)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block8")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 992)
+      (y 416)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block9")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 992)
+      (y 352)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block10")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 926)
+      (y 384)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block11")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 959)
+      (y 384)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block12")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 992)
+      (y 384)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block13")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
       (x 960)
-      (y 160)
+      (y 352)
+    )
+    (scriptedobject
+      (z-pos 20)
+      (name "block14")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (x 960)
+      (y 320)
+    )
+    (secretarea
+      (width 160)
+      (height 256)
+      (x 272)
+      (y 64)
+    )
+    (spawnpoint
+      (name "main")
+      (x 336)
+      (y 576)
     )
     (switch
       (script "  push.goto_node(1);
@@ -2291,104 +2389,6 @@
       0 1311 1311 1311
       )
     )
-    (scriptedobject
-      (z-pos 20)
-      (name "block1")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 893)
-      (y 448)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block2")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 926)
-      (y 448)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block3")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 959)
-      (y 448)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block4")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 992)
-      (y 448)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block5")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 893)
-      (y 416)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block6")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 926)
-      (y 416)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block7")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 959)
-      (y 416)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block8")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 992)
-      (y 416)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block9")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 992)
-      (y 352)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block10")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 926)
-      (y 384)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block11")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 959)
-      (y 384)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block12")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 992)
-      (y 384)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block13")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 960)
-      (y 352)
-    )
-    (scriptedobject
-      (z-pos 20)
-      (name "block14")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (x 960)
-      (y 320)
-    )
   )
   (sector
     (name "ramparts")
@@ -2397,78 +2397,19 @@
     (camera
       (mode "normal")
     )
-    (gradient
-      (top_color 0 0.3 0.3)
-      (bottom_color 0.8 0.8 0)
-    )
-    (particles-snow
-    )
-    (particles-snow
-      (z-pos 80)
-    )
-    (particles-snow
-      (z-pos -80)
-    )
-    (particles-snow
-      (z-pos 120)
-    )
-    (spawnpoint
-      (name "main")
-      (x 304)
-      (y 352)
-    )
     (door
       (sector "stair")
       (spawnpoint "ramparts")
       (x 296)
       (y 320)
     )
-    (scriptedobject
-      (z-pos -20)
-      (physic-enabled #f)
-      (solid #f)
-      (name "door")
-      (sprite "images/objects/door/door.sprite")
-      (x 3736)
-      (y 1344)
-    )
-    (scripttrigger
-      (script "  Tux.deactivate();play_sound(\"sounds/door.wav\");door.set_action(\"opening\");wait(0.7);door.set_action(\"open\");  ")
-      (button #f)
-      (width 32)
-      (height 96)
-      (x 3776)
-      (y 1344)
-    )
     (firefly
       (x 384)
       (y 352)
     )
-    (sspiky
-      (x 858)
-      (y 352)
-    )
-    (sspiky
-      (x 894)
-      (y 352)
-    )
-    (sspiky
-      (direction "right")
-      (x 930)
-      (y 352)
-    )
-    (sspiky
-      (direction "right")
-      (x 966)
-      (y 352)
-    )
-    (jumpy
-      (x 1392)
-      (y 192)
-    )
-    (jumpy
-      (x 1520)
-      (y 192)
+    (gradient
+      (top_color 0 0.3 0.3)
+      (bottom_color 0.8 0.8 0)
     )
     (haywire
       (x 2080)
@@ -2477,6 +2418,14 @@
     (haywire
       (x 2592)
       (y 512)
+    )
+    (jumpy
+      (x 1392)
+      (y 192)
+    )
+    (jumpy
+      (x 1520)
+      (y 192)
     )
     (jumpy
       (x 2512)
@@ -2505,6 +2454,73 @@
     (jumpy
       (x 2768)
       (y 288)
+    )
+    (scriptedobject
+      (z-pos -20)
+      (physic-enabled #f)
+      (solid #f)
+      (name "door")
+      (sprite "images/objects/door/door.sprite")
+      (x 3736)
+      (y 1344)
+    )
+    (scripttrigger
+      (script "  Tux.deactivate();play_sound(\"sounds/door.wav\");door.set_action(\"opening\");wait(0.7);door.set_action(\"open\");  ")
+      (button #f)
+      (width 32)
+      (height 96)
+      (x 3776)
+      (y 1344)
+    )
+    (scripttrigger
+      (script "  tower2_top.goto_node(1);wait(0.5);tower2.goto_node(1);wait(1);tower2_top.fade(0,0);tower2.fade(0,0);  ")
+      (button #f)
+      (width 32)
+      (height 256)
+      (x 2640)
+      (y 288)
+    )
+    (scripttrigger
+      (script "  tower1.fade(0,1);  ")
+      (button #f)
+      (width 32)
+      (height 256)
+      (x 1280)
+      (y 160)
+    )
+    (sspiky
+      (x 858)
+      (y 352)
+    )
+    (sspiky
+      (x 894)
+      (y 352)
+    )
+    (sspiky
+      (direction "right")
+      (x 930)
+      (y 352)
+    )
+    (sspiky
+      (direction "right")
+      (x 966)
+      (y 352)
+    )
+    (particles-snow
+    )
+    (particles-snow
+      (z-pos 80)
+    )
+    (particles-snow
+      (z-pos -80)
+    )
+    (particles-snow
+      (z-pos 120)
+    )
+    (spawnpoint
+      (name "main")
+      (x 304)
+      (y 352)
     )
     (tilemap
       (solid #t)
@@ -2613,14 +2629,6 @@
       2817 2817 2817 2817 2817 2817 2817 2817 0 0
       )
     )
-    (scripttrigger
-      (script "  tower2_top.goto_node(1);wait(0.5);tower2.goto_node(1);wait(1);tower2_top.fade(0,0);tower2.fade(0,0);  ")
-      (button #f)
-      (width 32)
-      (height 256)
-      (x 2640)
-      (y 288)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -2636,14 +2644,6 @@
       (tiles
       2817 2817 0 0 2817 2817
       )
-    )
-    (scripttrigger
-      (script "  tower1.fade(0,1);  ")
-      (button #f)
-      (width 32)
-      (height 256)
-      (x 1280)
-      (y 160)
     )
     (tilemap
       (solid #f)

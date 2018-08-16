@@ -34,6 +34,38 @@
       (x 513)
       (y 742)
     )
+    (smartball
+      (x 1091)
+      (y 646)
+    )
+    (smartball
+      (x 1059)
+      (y 646)
+    )
+    (smartball
+      (x 1027)
+      (y 646)
+    )
+    (smartball
+      (x 995)
+      (y 646)
+    )
+    (smartball
+      (x 963)
+      (y 646)
+    )
+    (smartball
+      (x 931)
+      (y 646)
+    )
+    (smartball
+      (x 899)
+      (y 646)
+    )
+    (smartball
+      (x 867)
+      (y 646)
+    )
     (powerup
       (script "EndBlocks.set_alpha(1.0);
 EndCoins.set_alpha(0.0);
@@ -70,38 +102,6 @@ Effect.fade_in(0.5);")
     (sspiky
       (x 9382)
       (y 714)
-    )
-    (smartball
-      (x 1091)
-      (y 646)
-    )
-    (smartball
-      (x 1059)
-      (y 646)
-    )
-    (smartball
-      (x 1027)
-      (y 646)
-    )
-    (smartball
-      (x 995)
-      (y 646)
-    )
-    (smartball
-      (x 963)
-      (y 646)
-    )
-    (smartball
-      (x 931)
-      (y 646)
-    )
-    (smartball
-      (x 899)
-      (y 646)
-    )
-    (smartball
-      (x 867)
-      (y 646)
     )
     (snowball
       (x 2659)

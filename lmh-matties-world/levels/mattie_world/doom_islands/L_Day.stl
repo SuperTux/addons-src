@@ -14,49 +14,78 @@
     Recycle4.start_moving();
     set_random_level(true); ")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
-    (gradient
-      (top_color 1 1 0.9)
-      (bottom_color 0.9 0.5 0.4)
-    )
     (background
       (speed 0.3)
       (image "images/background/fog.png")
     )
-    (spawnpoint
-      (name "main")
-      (x 64)
-      (y 0)
+    (bonusblock
+      (custom-contents
+         (powerup           (sprite "images/worldmap/common/hiddendot.sprite")
+)
+      )
+      (script "")
+      (contents "custom")
+      (x 8976)
+      (y 448)
     )
     (bouncingsnowball
       (x 1184)
       (y 288)
     )
-    (smartball
-      (x 1408)
-      (y 384)
-    )
     (bouncingsnowball
       (x 1696)
       (y 544)
+    )
+    (camera
+      (mode "normal")
     )
     (flyingsnowball
       (x 2336)
       (y 384)
     )
-    (mriceblock
-      (x 3072)
-      (y 352)
+    (gradient
+      (top_color 1 1 0.9)
+      (bottom_color 0.9 0.5 0.4)
     )
-    (smartball
-      (x 3424)
-      (y 256)
+    (heavycoin
+      (x 8752)
+      (y -32)
     )
-    (spiky
-      (x 3616)
-      (y 512)
+    (heavycoin
+      (x 8816)
+      (y -32)
+    )
+    (heavycoin
+      (x 8848)
+      (y -32)
+    )
+    (heavycoin
+      (x 8912)
+      (y -32)
+    )
+    (heavycoin
+      (x 8944)
+      (y -32)
+    )
+    (heavycoin
+      (x 9008)
+      (y -32)
+    )
+    (heavycoin
+      (x 9040)
+      (y -32)
+    )
+    (heavycoin
+      (x 9104)
+      (y -32)
+    )
+    (heavycoin
+      (x 9136)
+      (y -32)
+    )
+    (heavycoin
+      (x 9200)
+      (y -32)
     )
     (jumpy
       (x 3856)
@@ -66,8 +95,92 @@
       (x 4336)
       (y 256)
     )
+    (jumpy
+      (x 7904)
+      (y 480)
+    )
+    (jumpy
+      (x 8160)
+      (y 480)
+    )
+    (mriceblock
+      (x 3072)
+      (y 352)
+    )
     (mriceblock
       (x 5056)
+      (y 160)
+    )
+    (smartball
+      (x 1408)
+      (y 384)
+    )
+    (smartball
+      (x 3424)
+      (y 256)
+    )
+    (smartball
+      (x 8976)
+      (y 384)
+    )
+    (powerup
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 8784)
+      (y -32)
+    )
+    (powerup
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 8880)
+      (y -32)
+    )
+    (powerup
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 8976)
+      (y -32)
+    )
+    (powerup
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 9072)
+      (y -32)
+    )
+    (powerup
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 9168)
+      (y -32)
+    )
+    (scripttrigger
+      (script " LibraCover1.fade(0.8,1);  ")
+      (button #f)
+      (width 16)
+      (height 32)
+      (x 6936)
+      (y 688)
+    )
+    (scripttrigger
+      (script " if(!(LibraCover1.get_alpha()==1) && LibraCover4.get_alpha()==0){LibraCover1.fade(1,1)}  ")
+      (button #f)
+      (width 32)
+      (height 4)
+      (x 6608)
+      (y 368)
+    )
+    (scripttrigger
+      (script " bonus_rain(); ")
+      (button #f)
+      (width 16)
+      (height 2)
+      (x 8984)
+      (y 480)
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 160)
+      (height 160)
+      (x 5760)
+      (y 384)
+    )
+    (sspiky
+      (x 7040)
       (y 160)
     )
     (snowball
@@ -94,21 +207,14 @@
       (x 7392)
       (y 288)
     )
-    (sspiky
-      (x 7040)
-      (y 160)
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 0)
     )
-    (jumpy
-      (x 7904)
-      (y 480)
-    )
-    (jumpy
-      (x 8160)
-      (y 480)
-    )
-    (smartball
-      (x 8976)
-      (y 384)
+    (spiky
+      (x 3616)
+      (y 512)
     )
     (stalactite
       (x 7248)
@@ -129,122 +235,6 @@
     (stalactite
       (x 7376)
       (y 579)
-    )
-    (trampoline
-      (portable #f)
-      (x 5568)
-      (y 544)
-    )
-    (trampoline
-      (portable #f)
-      (x 5840)
-      (y 480)
-    )
-    (bonusblock
-      (custom-contents
-         (powerup           (sprite "images/worldmap/common/hiddendot.sprite")
-)
-      )
-      (script "")
-      (contents "custom")
-      (x 8976)
-      (y 448)
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 160)
-      (height 160)
-      (x 5760)
-      (y 384)
-    )
-    (scripttrigger
-      (script " LibraCover1.fade(0.8,1);  ")
-      (button #f)
-      (width 16)
-      (height 32)
-      (x 6936)
-      (y 688)
-    )
-    (scripttrigger
-      (script " if(!(LibraCover1.get_alpha()==1) && LibraCover4.get_alpha()==0){LibraCover1.fade(1,1)}  ")
-      (button #f)
-      (width 32)
-      (height 4)
-      (x 6608)
-      (y 368)
-    )
-    (scripttrigger
-      (script " bonus_rain(); ")
-      (button #f)
-      (width 16)
-      (height 2)
-      (x 8984)
-      (y 480)
-    )
-    (heavycoin
-      (x 8752)
-      (y -32)
-    )
-    (powerup
-      (sprite "images/powerups/1up/1up.sprite")
-      (x 8784)
-      (y -32)
-    )
-    (heavycoin
-      (x 8816)
-      (y -32)
-    )
-    (heavycoin
-      (x 8848)
-      (y -32)
-    )
-    (powerup
-      (sprite "images/powerups/1up/1up.sprite")
-      (x 8880)
-      (y -32)
-    )
-    (heavycoin
-      (x 8912)
-      (y -32)
-    )
-    (heavycoin
-      (x 8944)
-      (y -32)
-    )
-    (powerup
-      (sprite "images/powerups/1up/1up.sprite")
-      (x 8976)
-      (y -32)
-    )
-    (heavycoin
-      (x 9008)
-      (y -32)
-    )
-    (heavycoin
-      (x 9040)
-      (y -32)
-    )
-    (powerup
-      (sprite "images/powerups/1up/1up.sprite")
-      (x 9072)
-      (y -32)
-    )
-    (heavycoin
-      (x 9104)
-      (y -32)
-    )
-    (heavycoin
-      (x 9136)
-      (y -32)
-    )
-    (powerup
-      (sprite "images/powerups/1up/1up.sprite")
-      (x 9168)
-      (y -32)
-    )
-    (heavycoin
-      (x 9200)
-      (y -32)
     )
     (tilemap
       (solid #t)
@@ -3678,6 +3668,16 @@
       153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 158 150 150 150 150 150 150 159 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
       153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
       )
+    )
+    (trampoline
+      (portable #f)
+      (x 5568)
+      (y 544)
+    )
+    (trampoline
+      (portable #f)
+      (x 5840)
+      (y 480)
     )
   )
 )

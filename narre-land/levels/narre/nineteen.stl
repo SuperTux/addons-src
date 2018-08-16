@@ -655,6 +655,18 @@
       (x 992)
       (y 32)
     )
+    (crystallo
+      (x 2304)
+      (y 800)
+    )
+    (crystallo
+      (x 1632)
+      (y 864)
+    )
+    (crystallo
+      (x 1408)
+      (y 864)
+    )
     (platform
       (name "v1")
       (sprite "images/objects/platforms/big.sprite")
@@ -706,18 +718,6 @@
           (time 5)
         )
       )
-    )
-    (crystallo
-      (x 2304)
-      (y 800)
-    )
-    (crystallo
-      (x 1632)
-      (y 864)
-    )
-    (crystallo
-      (x 1408)
-      (y 864)
     )
     (mriceblock
       (x 736)
@@ -1167,14 +1167,6 @@ Text.set_text(\"Floor -127\")
       (x 3072)
       (y 192)
     )
-    (firefly
-      (x 1984)
-      (y 1440)
-    )
-    (firefly
-      (x 448)
-      (y 3040)
-    )
     (crystallo
       (x 1376)
       (y 256)
@@ -1222,6 +1214,14 @@ Text.set_text(\"Floor -127\")
     (crystallo
       (x 2784)
       (y 128)
+    )
+    (firefly
+      (x 1984)
+      (y 1440)
+    )
+    (firefly
+      (x 448)
+      (y 3040)
     )
     (jumpy
       (x 1248)

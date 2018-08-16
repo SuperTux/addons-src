@@ -46,6 +46,13 @@
     )
     (particles-clouds
     )
+    (door
+      (sector "secret")
+      (spawnpoint "main")
+      (name "a1")
+      (x 1045)
+      (y 949)
+    )
     (firefly
       (sprite "images/objects/resetpoints/default-resetpoint.sprite")
       (x 2400)
@@ -87,6 +94,15 @@
       (x 1281)
       (y 646)
     )
+    (secretarea
+      (fade-tilemap "secret area")
+      (message "Area secreta")
+      (width 275)
+      (height 175)
+      (name "secret 1")
+      (x 918)
+      (y 890)
+    )
     (smartblock
       (direction "left")
       (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
@@ -105,6 +121,11 @@
       (name "main")
       (x 96)
       (y 96)
+    )
+    (spawnpoint
+      (name "saida2")
+      (x 1055)
+      (y 1004)
     )
     (spiky
       (direction "left")
@@ -294,27 +315,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 11 11 11 11 11 11 11 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (secretarea
-      (fade-tilemap "secret area")
-      (message "Area secreta")
-      (width 275)
-      (height 175)
-      (name "secret 1")
-      (x 918)
-      (y 890)
-    )
-    (door
-      (sector "secret")
-      (spawnpoint "main")
-      (name "a1")
-      (x 1045)
-      (y 949)
-    )
-    (spawnpoint
-      (name "saida2")
-      (x 1055)
-      (y 1004)
-    )
   )
   (sector
     (name "secret")
@@ -327,6 +327,28 @@
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
       (image "images/background/BlueRock_Forest/blue-middle.jpg")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
+    )
+    (camera
+      (mode "normal")
+    )
+    (door
+      (sector "main")
+      (spawnpoint "saida1")
+      (name "a2")
+      (x 410)
+      (y 992)
+    )
+    (door
+      (sector "main")
+      (spawnpoint "saida2")
+      (name "a2")
+      (x 969)
+      (y 868)
+    )
+    (spawnpoint
+      (name "main")
+      (x 978)
+      (y 897)
     )
     (tilemap
       (solid #f)
@@ -456,28 +478,6 @@
       77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77
       77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77 77
       )
-    )
-    (spawnpoint
-      (name "main")
-      (x 978)
-      (y 897)
-    )
-    (camera
-      (mode "normal")
-    )
-    (door
-      (sector "main")
-      (spawnpoint "saida1")
-      (name "a2")
-      (x 410)
-      (y 992)
-    )
-    (door
-      (sector "main")
-      (spawnpoint "saida2")
-      (name "a2")
-      (x 969)
-      (y 868)
     )
   )
 )

@@ -16,11 +16,6 @@
       (top_color 0 0 0)
       (bottom_color 1 1 1)
     )
-    (spawnpoint
-      (name "main")
-      (x 64)
-      (y 320)
-    )
     (scripttrigger
       (script "  prepare_iceborer();  ")
       (button #f)
@@ -45,15 +40,10 @@
       (x 160)
       (y 32)
     )
-    (trampoline
-      (portable #f)
-      (x 176)
-      (y 672)
-    )
-    (trampoline
-      (portable #f)
-      (x 208)
-      (y 672)
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 320)
     )
     (tilemap
       (solid #t)
@@ -496,6 +486,16 @@
       84 84 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 84 84
       84 84 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 84 84
       )
+    )
+    (trampoline
+      (portable #f)
+      (x 176)
+      (y 672)
+    )
+    (trampoline
+      (portable #f)
+      (x 208)
+      (y 672)
     )
   )
 )

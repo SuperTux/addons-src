@@ -13,11 +13,6 @@ Text.fade_in(0.2);
 wait(2);
 Text.fade_out(0.2);")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
-    (particles-clouds
-    )
     (background
       (alignment "bottom")
       (speed 0.75)
@@ -29,6 +24,23 @@ Text.fade_out(0.2);")
       (image "images/background/arcticskies35.png")
       (z-pos 100)
     )
+    (bouncingsnowball
+      (x 1664)
+      (y 1792)
+    )
+    (bouncingsnowball
+      (x 6432)
+      (y 1792)
+    )
+    (bouncingsnowball
+      (x 6880)
+      (y 1792)
+    )
+    (camera
+      (mode "normal")
+    )
+    (particles-clouds
+    )
     (door
       (sector "main_hall")
       (spawnpoint "leftpass")
@@ -39,11 +51,6 @@ Text.fade_out(0.2);")
       (sector "main_hall")
       (spawnpoint "towdl")
       (x 1888)
-      (y 1376)
-    )
-    (firefly
-      (sprite "images/objects/resetpoints/bell.sprite")
-      (x 1952)
       (y 1376)
     )
     (door
@@ -118,9 +125,22 @@ Text.fade_out(0.2);")
       (x 4853.407)
       (y 1471.279)
     )
+    (firefly
+      (sprite "images/objects/resetpoints/bell.sprite")
+      (x 1952)
+      (y 1376)
+    )
     (gradient
       (top_color 0.3921569 0.7843137 1)
       (bottom_color 1 1 1)
+    )
+    (haywire
+      (x 5280)
+      (y 1792)
+    )
+    (haywire
+      (x 5440)
+      (y 672)
     )
     (jumpy
       (x 1824)
@@ -150,16 +170,68 @@ Text.fade_out(0.2);")
       (x 4672)
       (y 1792)
     )
-    (haywire
-      (x 5280)
-      (y 1792)
-    )
     (mrbomb
       (x 4768)
       (y 672)
     )
-    (haywire
-      (x 5440)
+    (smartball
+      (x 7296)
+      (y 1440)
+    )
+    (smartball
+      (x 2784)
+      (y 1472)
+    )
+    (smartball
+      (x 5120)
+      (y 352)
+    )
+    (smartball
+      (x 3488)
+      (y 1792)
+    )
+    (smartball
+      (x 8704)
+      (y 1760)
+    )
+    (scripttrigger
+      (script "wind1.stop();
+wind2.stop();
+wind3.stop();")
+      (button #f)
+      (width 124)
+      (height 1704)
+      (x 544)
+      (y -12)
+    )
+    (scripttrigger
+      (script "Level.spawn(\"main\",\"secret\")")
+      (button #f)
+      (width 32)
+      (height 64)
+      (x 8640)
+      (y 3040)
+    )
+    (secretarea
+      (width 508)
+      (height 60)
+      (x 8928)
+      (y 2944)
+    )
+    (snowball
+      (x 3104)
+      (y 1792)
+    )
+    (snowball
+      (x 8256)
+      (y 1760)
+    )
+    (snowball
+      (x 4320)
+      (y 672)
+    )
+    (snowball
+      (x 6368)
       (y 672)
     )
     (snowman
@@ -189,46 +261,6 @@ Text.fade_out(0.2);")
     (snowman
       (x 4448)
       (y 352)
-    )
-    (snowball
-      (x 3104)
-      (y 1792)
-    )
-    (snowball
-      (x 8256)
-      (y 1760)
-    )
-    (snowball
-      (x 4320)
-      (y 672)
-    )
-    (snowball
-      (x 6368)
-      (y 672)
-    )
-    (scripttrigger
-      (script "wind1.stop();
-wind2.stop();
-wind3.stop();")
-      (button #f)
-      (width 124)
-      (height 1704)
-      (x 544)
-      (y -12)
-    )
-    (scripttrigger
-      (script "Level.spawn(\"main\",\"secret\")")
-      (button #f)
-      (width 32)
-      (height 64)
-      (x 8640)
-      (y 3040)
-    )
-    (secretarea
-      (width 508)
-      (height 60)
-      (x 8928)
-      (y 2944)
     )
     (spawnpoint
       (name "main")
@@ -337,18 +369,6 @@ wind3.stop();")
     (spiky
       (x 5152)
       (y 672)
-    )
-    (smartball
-      (x 7296)
-      (y 1440)
-    )
-    (smartball
-      (x 2784)
-      (y 1472)
-    )
-    (smartball
-      (x 5120)
-      (y 352)
     )
     (tilemap
       (solid #f)
@@ -678,26 +698,6 @@ wind3.stop();")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (bouncingsnowball
-      (x 1664)
-      (y 1792)
-    )
-    (bouncingsnowball
-      (x 6432)
-      (y 1792)
-    )
-    (bouncingsnowball
-      (x 6880)
-      (y 1792)
-    )
-    (smartball
-      (x 3488)
-      (y 1792)
-    )
-    (smartball
-      (x 8704)
-      (y 1760)
-    )
     (wind
       (speed-x 0)
       (speed-y -1000)
@@ -739,6 +739,14 @@ Text.fade_in(0.2);
 wait(2);
 Text.fade_out(0.2);")
     (ambient-light 1 1 1)
+    (bouncingsnowball
+      (x 2080)
+      (y 800)
+    )
+    (bouncingsnowball
+      (x 4992)
+      (y 800)
+    )
     (camera
       (mode "normal")
     )
@@ -832,20 +840,12 @@ Text.fade_out(0.2);")
       (x 3680)
       (y 768)
     )
-    (snowman
-      (x 640)
-      (y 736)
-    )
-    (snowman
-      (x 5888)
+    (smartball
+      (x 1728)
       (y 768)
     )
-    (snowball
-      (x 1344)
-      (y 800)
-    )
-    (snowball
-      (x 4384)
+    (smartball
+      (x 4704)
       (y 800)
     )
     (skullyhop
@@ -863,6 +863,22 @@ Text.fade_out(0.2);")
     (skullyhop
       (x 2144)
       (y 288)
+    )
+    (snowball
+      (x 1344)
+      (y 800)
+    )
+    (snowball
+      (x 4384)
+      (y 800)
+    )
+    (snowman
+      (x 640)
+      (y 736)
+    )
+    (snowman
+      (x 5888)
+      (y 768)
     )
     (spawnpoint
       (name "mainent")
@@ -1038,22 +1054,6 @@ Text.fade_out(0.2);")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (bouncingsnowball
-      (x 2080)
-      (y 800)
-    )
-    (bouncingsnowball
-      (x 4992)
-      (y 800)
-    )
-    (smartball
-      (x 1728)
-      (y 768)
-    )
-    (smartball
-      (x 4704)
-      (y 800)
     )
   )
   (sector

@@ -9,30 +9,6 @@
     (music "music/greatgigantic.ogg")
     (init-script "    ")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
-    (gradient
-      (top_color 1 0.1 0)
-      (bottom_color 0.6 0.4 0)
-    )
-    (spawnpoint
-      (name "main")
-      (x 64)
-      (y 64)
-    )
-    (spawnpoint
-      (name "outpipe")
-      (x 3506)
-      (y 704)
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 128)
-      (height 128)
-      (x 3104)
-      (y 544)
-    )
     (bonusblock
       (script "")
       (contents "firegrow")
@@ -51,16 +27,15 @@
       (x 4400)
       (y 0)
     )
+    (camera
+      (mode "normal")
+    )
     (crystallo
       (x 448)
       (y 640)
     )
     (crystallo
       (x 640)
-      (y 640)
-    )
-    (mriceblock
-      (x 1888)
       (y 640)
     )
     (crystallo
@@ -71,9 +46,80 @@
       (x 2304)
       (y 640)
     )
+    (crystallo
+      (x 2720)
+      (y 672)
+    )
+    (crystallo
+      (x 3360)
+      (y 736)
+    )
+    (crystallo
+      (x 3680)
+      (y 544)
+    )
+    (crystallo
+      (x 4864)
+      (y 416)
+    )
+    (gradient
+      (top_color 1 0.1 0)
+      (bottom_color 0.6 0.4 0)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 4160)
+      (y 224)
+    )
+    (mriceblock
+      (x 1888)
+      (y 640)
+    )
     (mriceblock
       (x 2560)
       (y 640)
+    )
+    (scripttrigger
+      (script "  Tux.deactivate();
+          pipedrop.goto_node(1);
+          wait(  1  );
+          pipedrop.goto_node(0);
+          Tux.activate();
+          Level.spawn(\"pipe\", \"main\");  ")
+      (button #t)
+      (width 32)
+      (height 64)
+      (x 3120)
+      (y 608)
+    )
+    (scripttrigger
+      (script "  Tux.deactivate();
+            pipelift.goto_node(1);
+            wait(  1  );
+            pipelift.goto_node(0);
+            Tux.activate();  ")
+      (button #f)
+      (width 64)
+      (height 16)
+      (x 3504)
+      (y 752)
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 128)
+      (height 128)
+      (x 3104)
+      (y 544)
+    )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 64)
+    )
+    (spawnpoint
+      (name "outpipe")
+      (x 3506)
+      (y 704)
     )
     (stalactite
       (x 2610)
@@ -87,10 +133,6 @@
       (x 2738)
       (y 512)
     )
-    (crystallo
-      (x 2720)
-      (y 672)
-    )
     (stalactite
       (x 3424)
       (y 352)
@@ -103,14 +145,6 @@
       (x 3546)
       (y 352)
     )
-    (crystallo
-      (x 3360)
-      (y 736)
-    )
-    (crystallo
-      (x 3680)
-      (y 544)
-    )
     (stalactite
       (x 3954)
       (y 224)
@@ -121,11 +155,6 @@
     )
     (stalactite
       (x 4018)
-      (y 224)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 4160)
       (y 224)
     )
     (stalactite
@@ -148,10 +177,6 @@
       (x 4434)
       (y 288)
     )
-    (crystallo
-      (x 4864)
-      (y 416)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -173,19 +198,6 @@
       (tiles
       1311 1311
       )
-    )
-    (scripttrigger
-      (script "  Tux.deactivate();
-          pipedrop.goto_node(1);
-          wait(  1  );
-          pipedrop.goto_node(0);
-          Tux.activate();
-          Level.spawn(\"pipe\", \"main\");  ")
-      (button #t)
-      (width 32)
-      (height 64)
-      (x 3120)
-      (y 608)
     )
     (tilemap
       (solid #t)
@@ -224,103 +236,6 @@
       (tiles
       2817 2817
       )
-    )
-    (scripttrigger
-      (script "  Tux.deactivate();
-            pipelift.goto_node(1);
-            wait(  1  );
-            pipelift.goto_node(0);
-            Tux.activate();  ")
-      (button #f)
-      (width 64)
-      (height 16)
-      (x 3504)
-      (y 752)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 3808)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 3840)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 3872)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 3904)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 3936)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 3968)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4000)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4032)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4064)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4096)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4288)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4352)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4416)
-      (y 576)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4480)
-      (y 594)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4544)
-      (y 612)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4576)
-      (y 612)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4384)
-      (y 480)
     )
     (tilemap
       (solid #t)
@@ -524,6 +439,91 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2463 2464 2465 2466 2467 2468
       )
     )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 3808)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 3840)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 3872)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 3904)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 3936)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 3968)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4000)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4032)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4064)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4096)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4288)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4352)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4416)
+      (y 576)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4480)
+      (y 594)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4544)
+      (y 612)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4576)
+      (y 612)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4384)
+      (y 480)
+    )
   )
   (sector
     (name "pipe")
@@ -536,11 +536,6 @@
       (top_color 0 0 0)
       (bottom_color 0 0 0)
     )
-    (spawnpoint
-      (name "main")
-      (x 50)
-      (y 32)
-    )
     (scripttrigger
       (script "  Level.spawn(\"main\", \"outpipe\");")
       (button #f)
@@ -548,6 +543,48 @@
       (height 32)
       (x 640)
       (y 0)
+    )
+    (spawnpoint
+      (name "main")
+      (x 50)
+      (y 32)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 23)
+      (height 19)
+      (tiles
+      62 0 0 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 0 0 62
+      62 0 0 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 0 0 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62
+      62 0 0 0 0 0 0 0 0 44 44 0 0 0 0 0 0 62 62 62 62 62 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
+      62 0 0 0 0 0 44 44 0 0 0 0 44 44 0 0 0 0 0 0 62 62 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
+      62 0 0 44 44 0 0 0 0 0 0 0 0 0 0 44 44 0 0 0 62 62 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
+      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
+      62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62
+      62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62
+      )
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 23)
+      (height 2)
+      (tiles
+      0 2087 2088 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2087 2088 0
+      0 2089 2090 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2089 2090 0
+      )
     )
     (trampoline
       (portable #f)
@@ -608,43 +645,6 @@
       (portable #f)
       (x 595)
       (y 512)
-    )
-    (tilemap
-      (solid #t)
-      (z-pos 0)
-      (width 23)
-      (height 19)
-      (tiles
-      62 0 0 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 0 0 62
-      62 0 0 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 0 0 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62
-      62 0 0 0 0 0 0 0 0 44 44 0 0 0 0 0 0 62 62 62 62 62 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
-      62 0 0 0 0 0 44 44 0 0 0 0 44 44 0 0 0 0 0 0 62 62 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
-      62 0 0 44 44 0 0 0 0 0 0 0 0 0 0 44 44 0 0 0 62 62 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
-      62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62
-      62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62
-      62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62 62
-      )
-    )
-    (tilemap
-      (solid #f)
-      (z-pos 100)
-      (width 23)
-      (height 2)
-      (tiles
-      0 2087 2088 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2087 2088 0
-      0 2089 2090 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2089 2090 0
-      )
     )
   )
 )

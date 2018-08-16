@@ -48,6 +48,14 @@
       (x 1317)
       (y 840)
     )
+    (smartball
+      (x 4003)
+      (y 358)
+    )
+    (smartball
+      (x 1635)
+      (y 710)
+    )
     (rock
       (x 1728)
       (y 896)
@@ -97,14 +105,6 @@
       (height 60)
       (x 6240)
       (y 416)
-    )
-    (smartball
-      (x 4003)
-      (y 358)
-    )
-    (smartball
-      (x 1635)
-      (y 710)
     )
     (snowball
       (x 3715)
@@ -416,16 +416,16 @@
       (x 2017)
       (y 614)
     )
+    (smartball
+      (x 1059)
+      (y 550)
+    )
     (secretarea
       (fade-tilemap "secret")
       (width 32)
       (height 104)
       (x 3424)
       (y 576)
-    )
-    (smartball
-      (x 1059)
-      (y 550)
     )
     (snowball
       (x 707)

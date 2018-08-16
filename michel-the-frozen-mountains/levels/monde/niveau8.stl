@@ -464,6 +464,30 @@ plateforme6.start_moving();")
       (x 11269)
       (y 104)
     )
+    (smartball
+      (x 771)
+      (y 902)
+    )
+    (smartball
+      (x 3779)
+      (y 102)
+    )
+    (smartball
+      (x 5315)
+      (y 358)
+    )
+    (smartball
+      (x 8035)
+      (y 678)
+    )
+    (smartball
+      (x 11139)
+      (y 934)
+    )
+    (smartball
+      (x 1667)
+      (y 102)
+    )
     (rock
       (x 8352)
       (y 704)
@@ -529,30 +553,6 @@ plateforme6.start_moving();")
       (height 60)
       (x 12608)
       (y 704)
-    )
-    (smartball
-      (x 771)
-      (y 902)
-    )
-    (smartball
-      (x 3779)
-      (y 102)
-    )
-    (smartball
-      (x 5315)
-      (y 358)
-    )
-    (smartball
-      (x 8035)
-      (y 678)
-    )
-    (smartball
-      (x 11139)
-      (y 934)
-    )
-    (smartball
-      (x 1667)
-      (y 102)
     )
     (spawnpoint
       (name "main")

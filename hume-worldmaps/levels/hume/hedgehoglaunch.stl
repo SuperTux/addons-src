@@ -749,6 +749,11 @@
         )
       )
     )
+    (ghosttree
+      (dead-script "sector.Tux.trigger_sequence(\"fireworks\");")
+      (x 730)
+      (y 550)
+    )
     (lantern
       (color 0 0 0)
       (x 540)
@@ -953,11 +958,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (ghosttree
-      (dead-script "sector.Tux.trigger_sequence(\"fireworks\");")
-      (x 730)
-      (y 550)
     )
   )
 )

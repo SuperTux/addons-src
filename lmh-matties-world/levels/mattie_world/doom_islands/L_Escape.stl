@@ -7,8 +7,17 @@
     (name "main")
     (music "music/forest3.ogg")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
+    (angrystone
+      (x 110)
+      (y -32)
+    )
+    (angrystone
+      (x 928)
+      (y 704)
+    )
+    (angrystone
+      (x 960)
+      (y 1440)
     )
     (background
       (speed 0.4)
@@ -16,30 +25,8 @@
       (image "images/background/bluemountain-middle.png")
       (image-bottom "images/background/bluemountain-bottom.png")
     )
-    (spawnpoint
-      (name "main")
-      (x 32)
-      (y 1184)
-    )
-    (spiky
-      (x 608)
-      (y 1536)
-    )
-    (spiky
-      (x 832)
-      (y 1312)
-    )
-    (jumpy
-      (x 320)
-      (y 576)
-    )
-    (jumpy
-      (x 1312)
-      (y 1504)
-    )
-    (spiky
-      (x 2176)
-      (y 1472)
+    (camera
+      (mode "normal")
     )
     (flame
       (speed 1)
@@ -50,22 +37,6 @@
       (speed -1)
       (x 594)
       (y 736)
-    )
-    (angrystone
-      (x 110)
-      (y -32)
-    )
-    (angrystone
-      (x 928)
-      (y 704)
-    )
-    (stalactite
-      (x 1682)
-      (y 608)
-    )
-    (angrystone
-      (x 960)
-      (y 1440)
     )
     (platform
       (running #f)
@@ -118,6 +89,14 @@
         )
       )
     )
+    (jumpy
+      (x 320)
+      (y 576)
+    )
+    (jumpy
+      (x 1312)
+      (y 1504)
+    )
     (scripttrigger
       (script "  Lava.goto_node(1); snached <- false; hidden <- true;  ")
       (button #f)
@@ -157,6 +136,27 @@
       (height 288)
       (x 1312)
       (y 1312)
+    )
+    (spawnpoint
+      (name "main")
+      (x 32)
+      (y 1184)
+    )
+    (spiky
+      (x 608)
+      (y 1536)
+    )
+    (spiky
+      (x 832)
+      (y 1312)
+    )
+    (spiky
+      (x 2176)
+      (y 1472)
+    )
+    (stalactite
+      (x 1682)
+      (y 608)
     )
     (tilemap
       (solid #t)

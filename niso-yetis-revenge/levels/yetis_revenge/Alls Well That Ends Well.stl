@@ -3212,11 +3212,6 @@ d2.goto_node(1);
       (x 30368)
       (y 308)
     )
-    (spawnpoint
-      (name "TEST")
-      (x 30330)
-      (y 308)
-    )
     (scripttrigger
       (script "bigpress.goto_node(12);
 lava1.start_moving()")
@@ -3462,6 +3457,11 @@ lava1.start_moving()")
     (sspiky
       (x 17862)
       (y 586)
+    )
+    (spawnpoint
+      (name "TEST")
+      (x 30330)
+      (y 308)
     )
     (spawnpoint
       (name "main")

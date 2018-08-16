@@ -11,45 +11,6 @@
                 running <- false;
                         ")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
-    (gradient
-      (top_color 0 0.6 0)
-      (bottom_color 0 0.4 0.8)
-    )
-    (spawnpoint
-      (name "main")
-      (x 64)
-      (y 352)
-    )
-    (firefly
-      (x 4496)
-      (y 832)
-    )
-    (spawnpoint
-      (name "outpipe")
-      (x 688)
-      (y 832)
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 128)
-      (height 128)
-      (x 5952)
-      (y 992)
-    )
-    (secretarea
-      (width 144)
-      (height 192)
-      (x 2000)
-      (y 1280)
-    )
-    (infoblock
-      (message (_ "!levels/mattie_world/images/decal/explanations/helpboard_badflower.png"))
-      (x 448)
-      (y 1248)
-    )
     (bonusblock
       (custom-contents
          (powerup           (sprite "levels/mattie_world/images/powerups/badflower/badflower.sprite")
@@ -72,6 +33,9 @@
       (x 4416)
       (y 2144)
     )
+    (camera
+      (mode "normal")
+    )
     (crystallo
       (x 416)
       (y 448)
@@ -79,10 +43,6 @@
     (crystallo
       (x 576)
       (y 448)
-    )
-    (sspiky
-      (x 1056)
-      (y 384)
     )
     (crystallo
       (x 1760)
@@ -96,73 +56,16 @@
       (x 2304)
       (y 384)
     )
-    (sspiky
-      (x 2656)
-      (y 672)
-    )
-    (stalactite
-      (x 2704)
-      (y 224)
-    )
-    (stalactite
-      (x 2736)
-      (y 224)
-    )
-    (stalactite
-      (x 2768)
-      (y 224)
-    )
     (crystallo
       (x 3328)
       (y 608)
-    )
-    (mriceblock
-      (x 3904)
-      (y 512)
-    )
-    (sspiky
-      (direction "right")
-      (x 4224)
-      (y 576)
     )
     (crystallo
       (x 4384)
       (y 576)
     )
-    (sspiky
-      (x 4544)
-      (y 576)
-    )
-    (stalactite
-      (x 4256)
-      (y 352)
-    )
-    (stalactite
-      (x 4288)
-      (y 352)
-    )
-    (stalactite
-      (x 4512)
-      (y 352)
-    )
-    (stalactite
-      (x 4544)
-      (y 352)
-    )
     (crystallo
       (x 4832)
-      (y 704)
-    )
-    (stalactite
-      (x 5280)
-      (y 416)
-    )
-    (stalactite
-      (x 5376)
-      (y 416)
-    )
-    (jumpy
-      (x 5616)
       (y 704)
     )
     (crystallo
@@ -173,131 +76,13 @@
       (x 6208)
       (y 704)
     )
-    (stalactite
-      (x 5920)
-      (y 544)
-    )
-    (stalactite
-      (x 6016)
-      (y 544)
-    )
-    (stalactite
-      (x 6048)
-      (y 544)
-    )
-    (stalactite
-      (x 6144)
-      (y 544)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 6400)
-      (y 448)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 5888)
-      (y 1120)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 5808)
-      (y 1120)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 5728)
-      (y 1120)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 5648)
-      (y 1120)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 5568)
-      (y 1120)
-    )
-    (stalactite
-      (x 5296)
-      (y 1120)
-    )
-    (stalactite
-      (x 5264)
-      (y 1120)
-    )
-    (stalactite
-      (x 5232)
-      (y 1120)
-    )
-    (stalactite
-      (x 5200)
-      (y 1120)
-    )
-    (stalactite
-      (x 5168)
-      (y 1120)
-    )
-    (stalactite
-      (x 5136)
-      (y 1120)
-    )
-    (stalactite
-      (x 5104)
-      (y 1120)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 4544)
-      (y 992)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 4480)
-      (y 992)
-    )
-    (stalactite
-      (x 4432)
-      (y 800)
-    )
-    (sspiky
-      (direction "right")
-      (x 4128)
-      (y 1184)
-    )
     (crystallo
       (x 3968)
       (y 1088)
     )
-    (stalactite
-      (x 3200)
-      (y 928)
-    )
-    (sspiky
-      (x 3328)
-      (y 1056)
-    )
     (crystallo
       (x 3328)
       (y 1312)
-    )
-    (stalactite
-      (x 3536)
-      (y 1092)
-    )
-    (stalactite
-      (x 3568)
-      (y 1092)
-    )
-    (sspiky
-      (direction "right")
-      (x 2944)
-      (y 1568)
-    )
-    (jumpy
-      (x 2816)
-      (y 1472)
     )
     (crystallo
       (x 2544)
@@ -307,11 +92,6 @@
       (x 2032)
       (y 1056)
     )
-    (smartball
-      (sprite "images/creatures/crystallo/crystallo-smart.sprite")
-      (x 1696)
-      (y 960)
-    )
     (crystallo
       (x 1616)
       (y 1184)
@@ -320,153 +100,51 @@
       (x 1680)
       (y 1440)
     )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 128)
-      (y 1376)
-    )
-    (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
-      (x 64)
-      (y 1088)
-    )
     (crystallo
       (x 1712)
       (y 2016)
-    )
-    (sspiky
-      (direction "left")
-      (x 1712)
-      (y 2272)
     )
     (crystallo
       (x 2576)
       (y 1984)
     )
-    (sspiky
-      (direction "left")
-      (x 3328)
-      (y 2272)
-    )
-    (sspiky
-      (direction "left")
-      (x 3840)
-      (y 2272)
-    )
     (crystallo
       (x 4672)
       (y 2048)
     )
-    (jumpy
-      (x 5376)
-      (y 2208)
+    (decal
+      (sprite "images/decal/nightcave/lightflower1.png")
+      (x 1344)
+      (y 2036)
     )
-    (snowman
-      (x 6080)
-      (y 2208)
+    (decal
+      (sprite "images/decal/nightcave/lightflower2.png")
+      (x 2976)
+      (y 2128)
     )
-    (stalactite
-      (x 4928)
-      (y 1952)
+    (decal
+      (sprite "images/decal/nightcave/lightflower3.png")
+      (x 4128)
+      (y 2100)
     )
-    (stalactite
-      (x 5040)
-      (y 1984)
+    (decal
+      (sprite "images/decal/nightcave/lightflower1.png")
+      (x 4224)
+      (y 2104)
     )
-    (stalactite
-      (x 5072)
-      (y 1984)
+    (decal
+      (sprite "images/decal/nightcave/lightflower2.png")
+      (x 2688)
+      (y 464)
     )
-    (stalactite
-      (x 5104)
-      (y 1984)
+    (decal
+      (sprite "images/decal/nightcave/lightflower3.png")
+      (x 832)
+      (y 1360)
     )
-    (stalactite
-      (x 5216)
-      (y 1952)
-    )
-    (tilemap
-      (solid #t)
-      (z-pos 0)
-      (name "pipetop")
-      (path
-        (node
-          (x 6016)
-          (y 1088)
-        )
-      )
-      (width 2)
-      (height 1)
-      (tiles
-      2833 2839
-      )
-    )
-    (tilemap
-      (solid #t)
-      (z-pos 0)
-      (name "pipelift")
-      (path
-        (node
-          (x 6016)
-          (y 1088)
-          (time 0.8)
-        )
-        (node
-          (x 6016)
-          (y 1184)
-          (time 0.1)
-        )
-      )
-      (width 2)
-      (height 1)
-      (tiles
-      2817 2817
-      )
-    )
-    (scripttrigger
-      (script "      Tux.deactivate();
-                                        pipelift.goto_node(1);
-                                        wait(   1       );
-                                        Effect.fade_out(1);
-                                        pipelift.goto_node(0);
-                                        Level.spawn(\"pipe\",\"main\");
-                                        Effect.fade_in(1);
-                                        Tux.activate(); ")
-      (button #t)
-      (width 32)
-      (height 64)
-      (x 6032)
-      (y 1024)
-    )
-    (scripttrigger
-      (script "       Tux.make_invincible();
-                        Tux.add_bonus(\"grow\");        ")
-      (button #f)
-      (width 64)
-      (height 32)
-      (x 672)
-      (y 960)
-    )
-    (trampoline
-      (portable #f)
-      (x 2192)
-      (y 2336)
-    )
-    (scripttrigger
-      (script "       if(!running){
-                                running <- true;
-                                up.goto_node(3);
-                                wait(   2       );
-                                up.goto_node(6);
-                                wait(   6       );
-                                running <- false;
-                                wait(   0.1     );
-                        }       ")
-      (button #f)
-      (width 16)
-      (height 16)
-      (x 2200)
-      (y 2296)
+    (firefly
+      (x 4496)
+      (y 832)
     )
     (platform
       (running #f)
@@ -531,105 +209,9 @@
         )
       )
     )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 6400)
-      (y 736)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 6432)
-      (y 736)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 6400)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 6432)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 6400)
-      (y 1632)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 6432)
-      (y 1632)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 5088)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 5056)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 5024)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4992)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4960)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4928)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4896)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4864)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4736)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 4704)
-      (y 1408)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (x 3232)
-      (y 2080)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (x 3456)
-      (y 2080)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (x 3680)
-      (y 2016)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (x 3968)
-      (y 1952)
+    (gradient
+      (top_color 0 0.6 0)
+      (bottom_color 0 0.4 0.8)
     )
     (hurting_platform
       (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite")
@@ -669,6 +251,349 @@
           (y 2272)
           (time 2)
         )
+      )
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 6400)
+      (y 448)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 5888)
+      (y 1120)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 5808)
+      (y 1120)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 5728)
+      (y 1120)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 5648)
+      (y 1120)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 5568)
+      (y 1120)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 4544)
+      (y 992)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 4480)
+      (y 992)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 128)
+      (y 1376)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/icecrusher.sprite")
+      (x 64)
+      (y 1088)
+    )
+    (infoblock
+      (message (_ "!levels/mattie_world/images/decal/explanations/helpboard_badflower.png"))
+      (x 448)
+      (y 1248)
+    )
+    (jumpy
+      (x 5616)
+      (y 704)
+    )
+    (jumpy
+      (x 2816)
+      (y 1472)
+    )
+    (jumpy
+      (x 5376)
+      (y 2208)
+    )
+    (mriceblock
+      (x 3904)
+      (y 512)
+    )
+    (smartball
+      (sprite "images/creatures/crystallo/crystallo-smart.sprite")
+      (x 1696)
+      (y 960)
+    )
+    (scripttrigger
+      (script "      Tux.deactivate();
+                                        pipelift.goto_node(1);
+                                        wait(   1       );
+                                        Effect.fade_out(1);
+                                        pipelift.goto_node(0);
+                                        Level.spawn(\"pipe\",\"main\");
+                                        Effect.fade_in(1);
+                                        Tux.activate(); ")
+      (button #t)
+      (width 32)
+      (height 64)
+      (x 6032)
+      (y 1024)
+    )
+    (scripttrigger
+      (script "       Tux.make_invincible();
+                        Tux.add_bonus(\"grow\");        ")
+      (button #f)
+      (width 64)
+      (height 32)
+      (x 672)
+      (y 960)
+    )
+    (scripttrigger
+      (script "       if(!running){
+                                running <- true;
+                                up.goto_node(3);
+                                wait(   2       );
+                                up.goto_node(6);
+                                wait(   6       );
+                                running <- false;
+                                wait(   0.1     );
+                        }       ")
+      (button #f)
+      (width 16)
+      (height 16)
+      (x 2200)
+      (y 2296)
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 128)
+      (height 128)
+      (x 5952)
+      (y 992)
+    )
+    (secretarea
+      (width 144)
+      (height 192)
+      (x 2000)
+      (y 1280)
+    )
+    (sspiky
+      (x 1056)
+      (y 384)
+    )
+    (sspiky
+      (x 2656)
+      (y 672)
+    )
+    (sspiky
+      (direction "right")
+      (x 4224)
+      (y 576)
+    )
+    (sspiky
+      (x 4544)
+      (y 576)
+    )
+    (sspiky
+      (direction "right")
+      (x 4128)
+      (y 1184)
+    )
+    (sspiky
+      (x 3328)
+      (y 1056)
+    )
+    (sspiky
+      (direction "right")
+      (x 2944)
+      (y 1568)
+    )
+    (sspiky
+      (direction "left")
+      (x 1712)
+      (y 2272)
+    )
+    (sspiky
+      (direction "left")
+      (x 3328)
+      (y 2272)
+    )
+    (sspiky
+      (direction "left")
+      (x 3840)
+      (y 2272)
+    )
+    (snowman
+      (x 6080)
+      (y 2208)
+    )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 352)
+    )
+    (spawnpoint
+      (name "outpipe")
+      (x 688)
+      (y 832)
+    )
+    (stalactite
+      (x 2704)
+      (y 224)
+    )
+    (stalactite
+      (x 2736)
+      (y 224)
+    )
+    (stalactite
+      (x 2768)
+      (y 224)
+    )
+    (stalactite
+      (x 4256)
+      (y 352)
+    )
+    (stalactite
+      (x 4288)
+      (y 352)
+    )
+    (stalactite
+      (x 4512)
+      (y 352)
+    )
+    (stalactite
+      (x 4544)
+      (y 352)
+    )
+    (stalactite
+      (x 5280)
+      (y 416)
+    )
+    (stalactite
+      (x 5376)
+      (y 416)
+    )
+    (stalactite
+      (x 5920)
+      (y 544)
+    )
+    (stalactite
+      (x 6016)
+      (y 544)
+    )
+    (stalactite
+      (x 6048)
+      (y 544)
+    )
+    (stalactite
+      (x 6144)
+      (y 544)
+    )
+    (stalactite
+      (x 5296)
+      (y 1120)
+    )
+    (stalactite
+      (x 5264)
+      (y 1120)
+    )
+    (stalactite
+      (x 5232)
+      (y 1120)
+    )
+    (stalactite
+      (x 5200)
+      (y 1120)
+    )
+    (stalactite
+      (x 5168)
+      (y 1120)
+    )
+    (stalactite
+      (x 5136)
+      (y 1120)
+    )
+    (stalactite
+      (x 5104)
+      (y 1120)
+    )
+    (stalactite
+      (x 4432)
+      (y 800)
+    )
+    (stalactite
+      (x 3200)
+      (y 928)
+    )
+    (stalactite
+      (x 3536)
+      (y 1092)
+    )
+    (stalactite
+      (x 3568)
+      (y 1092)
+    )
+    (stalactite
+      (x 4928)
+      (y 1952)
+    )
+    (stalactite
+      (x 5040)
+      (y 1984)
+    )
+    (stalactite
+      (x 5072)
+      (y 1984)
+    )
+    (stalactite
+      (x 5104)
+      (y 1984)
+    )
+    (stalactite
+      (x 5216)
+      (y 1952)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "pipetop")
+      (path
+        (node
+          (x 6016)
+          (y 1088)
+        )
+      )
+      (width 2)
+      (height 1)
+      (tiles
+      2833 2839
+      )
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "pipelift")
+      (path
+        (node
+          (x 6016)
+          (y 1088)
+          (time 0.8)
+        )
+        (node
+          (x 6016)
+          (y 1184)
+          (time 0.1)
+        )
+      )
+      (width 2)
+      (height 1)
+      (tiles
+      2817 2817
       )
     )
     (tilemap
@@ -1304,35 +1229,110 @@
       0 0 0 0 2659 2649 2660 0 0
       )
     )
-    (decal
-      (sprite "images/decal/nightcave/lightflower1.png")
-      (x 1344)
-      (y 2036)
+    (trampoline
+      (portable #f)
+      (x 2192)
+      (y 2336)
     )
-    (decal
-      (sprite "images/decal/nightcave/lightflower2.png")
-      (x 2976)
-      (y 2128)
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 6400)
+      (y 736)
     )
-    (decal
-      (sprite "images/decal/nightcave/lightflower3.png")
-      (x 4128)
-      (y 2100)
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 6432)
+      (y 736)
     )
-    (decal
-      (sprite "images/decal/nightcave/lightflower1.png")
-      (x 4224)
-      (y 2104)
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 6400)
+      (y 1408)
     )
-    (decal
-      (sprite "images/decal/nightcave/lightflower2.png")
-      (x 2688)
-      (y 464)
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 6432)
+      (y 1408)
     )
-    (decal
-      (sprite "images/decal/nightcave/lightflower3.png")
-      (x 832)
-      (y 1360)
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 6400)
+      (y 1632)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 6432)
+      (y 1632)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 5088)
+      (y 1408)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 5056)
+      (y 1408)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 5024)
+      (y 1408)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4992)
+      (y 1408)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4960)
+      (y 1408)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4928)
+      (y 1408)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4896)
+      (y 1408)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4864)
+      (y 1408)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4736)
+      (y 1408)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 4704)
+      (y 1408)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (x 3232)
+      (y 2080)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (x 3456)
+      (y 2080)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (x 3680)
+      (y 2016)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (x 3968)
+      (y 1952)
     )
   )
   (sector
@@ -1346,17 +1346,17 @@
       (top_color 0 0 0)
       (bottom_color 0 0 0)
     )
-    (spawnpoint
-      (name "main")
-      (x 624)
-      (y 32)
-    )
     (scripttrigger
       (script "       Level.spawn(\"main\", \"outpipe\");     ")
       (button #f)
       (width 48)
       (height 64)
       (x 32)
+      (y 32)
+    )
+    (spawnpoint
+      (name "main")
+      (x 624)
       (y 32)
     )
     (tilemap

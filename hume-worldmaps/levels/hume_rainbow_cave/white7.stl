@@ -13,31 +13,6 @@
       (top_color 1 1 1)
       (bottom_color 1 1 1)
     )
-    (secretarea
-      (width 172)
-      (height 236)
-      (x 500)
-      (y -12)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 156)
-      (x 8000)
-      (y 1344)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 156)
-      (x 7776)
-      (y 1344)
-    )
-    (spawnpoint
-      (name "main")
-      (x 32)
-      (y 1152)
-    )
     (icecrusher
       (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 448)
@@ -527,6 +502,31 @@
       (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 5120)
       (y 192)
+    )
+    (secretarea
+      (width 172)
+      (height 236)
+      (x 500)
+      (y -12)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 156)
+      (x 8000)
+      (y 1344)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 156)
+      (x 7776)
+      (y 1344)
+    )
+    (spawnpoint
+      (name "main")
+      (x 32)
+      (y 1152)
     )
     (tilemap
       (solid #f)

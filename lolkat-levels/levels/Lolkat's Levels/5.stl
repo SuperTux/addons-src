@@ -60,10 +60,6 @@
       (x 865)
       (y 518)
     )
-    (sspiky
-      (x 4646)
-      (y 330)
-    )
     (smartball
       (x 5219)
       (y 262)
@@ -71,6 +67,10 @@
     (smartball
       (x 5059)
       (y 262)
+    )
+    (sspiky
+      (x 4646)
+      (y 330)
     )
     (snowball
       (x 707)

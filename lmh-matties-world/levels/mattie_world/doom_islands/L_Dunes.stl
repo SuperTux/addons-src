@@ -7,192 +7,30 @@
     (name "main")
     (music "music/chipdisko.ogg")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image "images/background/arctis2.png")
     )
-    (spawnpoint
-      (name "main")
-      (x 128)
-      (y 576)
-    )
-    (firefly
-      (x 7984)
-      (y 192)
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 288)
-      (height 288)
-      (x 7872)
-      (y 416)
-    )
-    (rock
-      (x 8672)
-      (y -32)
-    )
-    (smartball
-      (x 320)
-      (y 480)
-    )
-    (smartball
-      (x 512)
-      (y 352)
-    )
-    (snowball
-      (x 864)
-      (y 416)
-    )
-    (snowball
-      (x 960)
-      (y 416)
-    )
-    (jumpy
-      (x 1136)
-      (y 288)
-    )
-    (jumpy
-      (x 1328)
-      (y 160)
-    )
-    (snowball
-      (x 1440)
-      (y 416)
-    )
-    (kamikazesnowball
-      (x 1888)
-      (y 544)
-    )
-    (spiky
-      (x 2512)
-      (y 640)
-    )
-    (snowball
-      (x 3168)
-      (y 544)
+    (bonusblock
+      (script "      coin_rain();    ")
+      (contents "script")
+      (x 12800)
+      (y 256)
     )
     (bouncingsnowball
       (x 3264)
       (y 416)
     )
-    (smartball
-      (x 3264)
-      (y 288)
-    )
-    (snowball
-      (x 6720)
-      (y 448)
-    )
-    (snowball
-      (x 6784)
-      (y 416)
-    )
-    (spiky
-      (x 7392)
-      (y 288)
-    )
-    (flyingsnowball
-      (x 7648)
-      (y 352)
-    )
-    (snowman
-      (x 7648)
-      (y 480)
-    )
-    (flyingsnowball
-      (x 8192)
-      (y 288)
+    (camera
+      (mode "normal")
     )
     (captainsnowball
       (x 8960)
       (y 160)
     )
-    (snowball
-      (x 9088)
-      (y 544)
-    )
-    (jumpy
-      (x 9984)
-      (y 384)
-    )
-    (flyingsnowball
-      (x 10464)
-      (y 416)
-    )
-    (jumpy
-      (x 11136)
-      (y 608)
-    )
-    (flyingsnowball
-      (x 11168)
-      (y 480)
-    )
-    (flyingsnowball
-      (x 11904)
-      (y 480)
-    )
-    (spiky
-      (x 12512)
-      (y 512)
-    )
-    (snowball
-      (x 12640)
-      (y 544)
-    )
-    (jumpy
-      (x 12816)
-      (y 512)
-    )
-    (flyingsnowball
-      (x 13120)
-      (y 320)
-    )
-    (flyingsnowball
-      (x 13408)
-      (y 608)
-    )
-    (jumpy
-      (x 13760)
-      (y 704)
-    )
-    (snowball
-      (x 13920)
-      (y 736)
-    )
-    (snowball
-      (x 14080)
-      (y 736)
-    )
-    (smartball
-      (x 14208)
-      (y 352)
-    )
-    (smartball
-      (x 14336)
-      (y 256)
-    )
-    (snowball
-      (x 14784)
-      (y 736)
-    )
-    (snowball
-      (x 14912)
-      (y 736)
-    )
     (captainsnowball
       (x 15264)
       (y 576)
-    )
-    (spiky
-      (x 15296)
-      (y 576)
-    )
-    (snowman
-      (x 15360)
-      (y 544)
     )
     (dispenser
       (cycle 3)
@@ -226,6 +64,10 @@
       (badguy "captainsnowball" "captainsnowball" "spiky" "snowball" "snowball" "snowball" "snowball" "snowball" "snowball")
       (x 11136)
       (y 320)
+    )
+    (firefly
+      (x 7984)
+      (y 192)
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
@@ -286,6 +128,210 @@
           (time 8)
         )
       )
+    )
+    (flyingsnowball
+      (x 7648)
+      (y 352)
+    )
+    (flyingsnowball
+      (x 8192)
+      (y 288)
+    )
+    (flyingsnowball
+      (x 10464)
+      (y 416)
+    )
+    (flyingsnowball
+      (x 11168)
+      (y 480)
+    )
+    (flyingsnowball
+      (x 11904)
+      (y 480)
+    )
+    (flyingsnowball
+      (x 13120)
+      (y 320)
+    )
+    (flyingsnowball
+      (x 13408)
+      (y 608)
+    )
+    (heavycoin
+      (x 12640)
+      (y -32)
+    )
+    (heavycoin
+      (x 12672)
+      (y -32)
+    )
+    (heavycoin
+      (x 12704)
+      (y -32)
+    )
+    (heavycoin
+      (x 12736)
+      (y -32)
+    )
+    (heavycoin
+      (x 12768)
+      (y -32)
+    )
+    (heavycoin
+      (x 12864)
+      (y -32)
+    )
+    (heavycoin
+      (x 12896)
+      (y -32)
+    )
+    (heavycoin
+      (x 12928)
+      (y -32)
+    )
+    (heavycoin
+      (x 12960)
+      (y -32)
+    )
+    (heavycoin
+      (x 12992)
+      (y -32)
+    )
+    (jumpy
+      (x 1136)
+      (y 288)
+    )
+    (jumpy
+      (x 1328)
+      (y 160)
+    )
+    (jumpy
+      (x 9984)
+      (y 384)
+    )
+    (jumpy
+      (x 11136)
+      (y 608)
+    )
+    (jumpy
+      (x 12816)
+      (y 512)
+    )
+    (jumpy
+      (x 13760)
+      (y 704)
+    )
+    (smartball
+      (x 320)
+      (y 480)
+    )
+    (smartball
+      (x 512)
+      (y 352)
+    )
+    (smartball
+      (x 3264)
+      (y 288)
+    )
+    (smartball
+      (x 14208)
+      (y 352)
+    )
+    (smartball
+      (x 14336)
+      (y 256)
+    )
+    (rock
+      (x 8672)
+      (y -32)
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 288)
+      (height 288)
+      (x 7872)
+      (y 416)
+    )
+    (snowball
+      (x 864)
+      (y 416)
+    )
+    (snowball
+      (x 960)
+      (y 416)
+    )
+    (snowball
+      (x 1440)
+      (y 416)
+    )
+    (snowball
+      (x 3168)
+      (y 544)
+    )
+    (snowball
+      (x 6720)
+      (y 448)
+    )
+    (snowball
+      (x 6784)
+      (y 416)
+    )
+    (snowball
+      (x 9088)
+      (y 544)
+    )
+    (snowball
+      (x 12640)
+      (y 544)
+    )
+    (snowball
+      (x 13920)
+      (y 736)
+    )
+    (snowball
+      (x 14080)
+      (y 736)
+    )
+    (snowball
+      (x 14784)
+      (y 736)
+    )
+    (snowball
+      (x 14912)
+      (y 736)
+    )
+    (snowman
+      (x 7648)
+      (y 480)
+    )
+    (snowman
+      (x 15360)
+      (y 544)
+    )
+    (kamikazesnowball
+      (x 1888)
+      (y 544)
+    )
+    (spawnpoint
+      (name "main")
+      (x 128)
+      (y 576)
+    )
+    (spiky
+      (x 2512)
+      (y 640)
+    )
+    (spiky
+      (x 7392)
+      (y 288)
+    )
+    (spiky
+      (x 12512)
+      (y 512)
+    )
+    (spiky
+      (x 15296)
+      (y 576)
     )
     (tilemap
       (solid #t)
@@ -429,52 +475,6 @@
       11 11 11 2129 2122 2130 11 11 11
       2132 2132 2132 2132 2132 2132 2132 2132 2132
       )
-    )
-    (bonusblock
-      (script "      coin_rain();    ")
-      (contents "script")
-      (x 12800)
-      (y 256)
-    )
-    (heavycoin
-      (x 12640)
-      (y -32)
-    )
-    (heavycoin
-      (x 12672)
-      (y -32)
-    )
-    (heavycoin
-      (x 12704)
-      (y -32)
-    )
-    (heavycoin
-      (x 12736)
-      (y -32)
-    )
-    (heavycoin
-      (x 12768)
-      (y -32)
-    )
-    (heavycoin
-      (x 12864)
-      (y -32)
-    )
-    (heavycoin
-      (x 12896)
-      (y -32)
-    )
-    (heavycoin
-      (x 12928)
-      (y -32)
-    )
-    (heavycoin
-      (x 12960)
-      (y -32)
-    )
-    (heavycoin
-      (x 12992)
-      (y -32)
     )
     (tilemap
       (solid #f)

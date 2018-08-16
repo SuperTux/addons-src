@@ -9,38 +9,165 @@
     (music "music/chipdisko.ogg")
     (init-script "  press_up <- false;  ")
     (ambient-light 1 1 1)
+    (bouncingsnowball
+      (x 4608)
+      (y 160)
+    )
     (camera
       (mode "normal")
-    )
-    (gradient
-      (top_color 0.25 0 0.5)
-      (bottom_color 0 0 0)
-    )
-    (particles-snow
-    )
-    (spawnpoint
-      (name "main")
-      (x 0)
-      (y 384)
     )
     (firefly
       (x 5298)
       (y 384)
     )
-    (spawnpoint
-      (name "underout")
-      (x 1584)
-      (y 480)
+    (fish
+      (x 1824)
+      (y 544)
     )
-    (spawnpoint
-      (name "secretout")
-      (x 5248)
+    (fish
+      (x 2290)
+      (y 544)
+    )
+    (fish
+      (x 3456)
+      (y 544)
+    )
+    (fish
+      (x 4690)
+      (y 544)
+    )
+    (fish
+      (x 4994)
+      (y 544)
+    )
+    (fish
+      (x 5504)
+      (y 384)
+    )
+    (fish
+      (x 5600)
+      (y 384)
+    )
+    (fish
+      (x 5792)
+      (y 384)
+    )
+    (fish
+      (x 5856)
+      (y 384)
+    )
+    (fish
+      (x 5920)
+      (y 384)
+    )
+    (fish
+      (x 6208)
       (y 512)
     )
-    (spawnpoint
-      (name "drainout")
-      (x 7440)
+    (fish
+      (x 6784)
       (y 512)
+    )
+    (fish
+      (x 7264)
+      (y 512)
+    )
+    (flyingsnowball
+      (x 2816)
+      (y 160)
+    )
+    (flyingsnowball
+      (x 4768)
+      (y 192)
+    )
+    (gradient
+      (top_color 0.25 0 0.5)
+      (bottom_color 0 0 0)
+    )
+    (haywire
+      (x 2016)
+      (y 416)
+    )
+    (haywire
+      (x 5120)
+      (y 416)
+    )
+    (infoblock
+      (message (_ "-WARNING!
+#
+#Water infested with angry bitefish.
+#
+#Do not swim."))
+      (x 5392)
+      (y 192)
+    )
+    (mrbomb
+      (x 1920)
+      (y 416)
+    )
+    (mrbomb
+      (x 2080)
+      (y 416)
+    )
+    (mrbomb
+      (x 6368)
+      (y 288)
+    )
+    (mriceblock
+      (x 1632)
+      (y 416)
+    )
+    (mriceblock
+      (x 2496)
+      (y 416)
+    )
+    (mriceblock
+      (x 3616)
+      (y 416)
+    )
+    (mriceblock
+      (x 7040)
+      (y 384)
+    )
+    (smartball
+      (x 2624)
+      (y 416)
+    )
+    (smartball
+      (x 2720)
+      (y 416)
+    )
+    (rock
+      (x 2608)
+      (y 128)
+    )
+    (rock
+      (x 2640)
+      (y 128)
+    )
+    (rock
+      (x 2682)
+      (y 128)
+    )
+    (rock
+      (x 2714)
+      (y 128)
+    )
+    (rock
+      (x 2626)
+      (y 96)
+    )
+    (rock
+      (x 2659)
+      (y 96)
+    )
+    (rock
+      (x 2693)
+      (y 96)
+    )
+    (rock
+      (x 2640)
+      (y 64)
     )
     (scripttrigger
       (script "Level.spawn(\"under\", \"alpha\");")
@@ -132,15 +259,6 @@
       (x 5216)
       (y 576)
     )
-    (infoblock
-      (message (_ "-WARNING!
-#
-#Water infested with angry bitefish.
-#
-#Do not swim."))
-      (x 5392)
-      (y 192)
-    )
     (scripttrigger
       (script "  Pascal.goto_node(1);
         PascalsWood.goto_node(1);
@@ -178,6 +296,78 @@
       (height 32)
       (x 7424)
       (y 576)
+    )
+    (scripttrigger
+      (script "  Tux.deactivate();
+            OpenLeft.goto_node(1);
+            OpenRight.goto_node(1);
+            pipedrop.goto_node(1);
+            wait(  1  );
+            pipedrop.goto_node(0);
+            wait(  1  );
+            OpenLeft.goto_node(0);
+            OpenRight.goto_node(0);
+            Tux.activate();
+            Level.spawn(\"transition\",\"down\");  ")
+      (button #t)
+      (width 32)
+      (height 64)
+      (x 2608)
+      (y 96)
+    )
+    (snowball
+      (x 576)
+      (y 320)
+    )
+    (snowball
+      (x 640)
+      (y 320)
+    )
+    (snowball
+      (x 1056)
+      (y 416)
+    )
+    (snowball
+      (x 1248)
+      (y 416)
+    )
+    (snowball
+      (x 1504)
+      (y 416)
+    )
+    (particles-snow
+    )
+    (spawnpoint
+      (name "main")
+      (x 0)
+      (y 384)
+    )
+    (spawnpoint
+      (name "underout")
+      (x 1584)
+      (y 480)
+    )
+    (spawnpoint
+      (name "secretout")
+      (x 5248)
+      (y 512)
+    )
+    (spawnpoint
+      (name "drainout")
+      (x 7440)
+      (y 512)
+    )
+    (spiky
+      (x 4032)
+      (y 416)
+    )
+    (spiky
+      (x 4128)
+      (y 416)
+    )
+    (spiky
+      (x 4224)
+      (y 416)
     )
     (tilemap
       (solid #t)
@@ -262,24 +452,6 @@
       (tiles
       2817 2817
       )
-    )
-    (scripttrigger
-      (script "  Tux.deactivate();
-            OpenLeft.goto_node(1);
-            OpenRight.goto_node(1);
-            pipedrop.goto_node(1);
-            wait(  1  );
-            pipedrop.goto_node(0);
-            wait(  1  );
-            OpenLeft.goto_node(0);
-            OpenRight.goto_node(0);
-            Tux.activate();
-            Level.spawn(\"transition\",\"down\");  ")
-      (button #t)
-      (width 32)
-      (height 64)
-      (x 2608)
-      (y 96)
     )
     (tilemap
       (solid #t)
@@ -519,188 +691,6 @@
       1311 1311
       )
     )
-    (fish
-      (x 1824)
-      (y 544)
-    )
-    (fish
-      (x 2290)
-      (y 544)
-    )
-    (fish
-      (x 3456)
-      (y 544)
-    )
-    (fish
-      (x 4690)
-      (y 544)
-    )
-    (fish
-      (x 4994)
-      (y 544)
-    )
-    (snowball
-      (x 576)
-      (y 320)
-    )
-    (snowball
-      (x 640)
-      (y 320)
-    )
-    (snowball
-      (x 1056)
-      (y 416)
-    )
-    (snowball
-      (x 1248)
-      (y 416)
-    )
-    (snowball
-      (x 1504)
-      (y 416)
-    )
-    (mriceblock
-      (x 1632)
-      (y 416)
-    )
-    (mrbomb
-      (x 1920)
-      (y 416)
-    )
-    (haywire
-      (x 2016)
-      (y 416)
-    )
-    (mrbomb
-      (x 2080)
-      (y 416)
-    )
-    (mriceblock
-      (x 2496)
-      (y 416)
-    )
-    (smartball
-      (x 2624)
-      (y 416)
-    )
-    (smartball
-      (x 2720)
-      (y 416)
-    )
-    (flyingsnowball
-      (x 2816)
-      (y 160)
-    )
-    (rock
-      (x 2608)
-      (y 128)
-    )
-    (rock
-      (x 2640)
-      (y 128)
-    )
-    (rock
-      (x 2682)
-      (y 128)
-    )
-    (rock
-      (x 2714)
-      (y 128)
-    )
-    (rock
-      (x 2626)
-      (y 96)
-    )
-    (rock
-      (x 2659)
-      (y 96)
-    )
-    (rock
-      (x 2693)
-      (y 96)
-    )
-    (rock
-      (x 2640)
-      (y 64)
-    )
-    (mriceblock
-      (x 3616)
-      (y 416)
-    )
-    (spiky
-      (x 4032)
-      (y 416)
-    )
-    (spiky
-      (x 4128)
-      (y 416)
-    )
-    (spiky
-      (x 4224)
-      (y 416)
-    )
-    (bouncingsnowball
-      (x 4608)
-      (y 160)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/castleblock.sprite")
-      (x 4896)
-      (y 460)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/castleblock.sprite")
-      (x 4928)
-      (y 460)
-    )
-    (haywire
-      (x 5120)
-      (y 416)
-    )
-    (flyingsnowball
-      (x 4768)
-      (y 192)
-    )
-    (fish
-      (x 5504)
-      (y 384)
-    )
-    (fish
-      (x 5600)
-      (y 384)
-    )
-    (fish
-      (x 5792)
-      (y 384)
-    )
-    (fish
-      (x 5856)
-      (y 384)
-    )
-    (fish
-      (x 5920)
-      (y 384)
-    )
-    (fish
-      (x 6208)
-      (y 512)
-    )
-    (mrbomb
-      (x 6368)
-      (y 288)
-    )
-    (fish
-      (x 6784)
-      (y 512)
-    )
-    (mriceblock
-      (x 7040)
-      (y 384)
-    )
-    (fish
-      (x 7264)
-      (y 512)
-    )
     (tilemap
       (solid #f)
       (z-pos 100)
@@ -847,6 +837,16 @@
       131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131 131
       )
     )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/castleblock.sprite")
+      (x 4896)
+      (y 460)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/castleblock.sprite")
+      (x 4928)
+      (y 460)
+    )
   )
   (sector
     (name "transition")
@@ -859,11 +859,6 @@
       (top_color 0 0 0)
       (bottom_color 0 0 1)
     )
-    (spawnpoint
-      (name "down")
-      (x 624)
-      (y 32)
-    )
     (scripttrigger
       (script "  Level.spawn(\"pipe\", \"main\");  ")
       (button #f)
@@ -871,6 +866,11 @@
       (height 32)
       (x 608)
       (y 768)
+    )
+    (spawnpoint
+      (name "down")
+      (x 624)
+      (y 32)
     )
     (tilemap
       (solid #t)
@@ -1012,6 +1012,29 @@
     (music "music/chipdisko.ogg")
     (gravity 8)
     (ambient-light 1 1 1)
+    (bonusblock
+      (custom-contents
+         (powerup           (sprite "images/powerups/potions/blue-potion.sprite")
+           (script "  findart(\"moatart\");  ")
+)
+      )
+      (script "")
+      (contents "custom")
+      (x 1600)
+      (y 192)
+    )
+    (bouncingsnowball
+      (x 2688)
+      (y 288)
+    )
+    (bouncingsnowball
+      (x 5120)
+      (y 384)
+    )
+    (bouncingsnowball
+      (x 5120)
+      (y 704)
+    )
     (camera
       (mode "normal")
     )
@@ -1019,55 +1042,65 @@
       (top_color 0 0 0)
       (bottom_color 0 0 1)
     )
-    (spawnpoint
-      (name "alpha")
-      (x 544)
-      (y 32)
+    (haywire
+      (sprite "images/creatures/mr_cherry/mr_cherry.sprite")
+      (x 2880)
+      (y 224)
     )
-    (spawnpoint
-      (name "beta")
-      (x 992)
-      (y 32)
+    (haywire
+      (sprite "images/creatures/mr_cherry/mr_cherry.sprite")
+      (x 3680)
+      (y 256)
     )
-    (spawnpoint
-      (name "gamma")
-      (x 2176)
-      (y 32)
+    (haywire
+      (sprite "images/creatures/mr_cherry/mr_cherry.sprite")
+      (x 4480)
+      (y 224)
     )
-    (spawnpoint
-      (name "delta")
-      (x 3392)
-      (y 32)
+    (haywire
+      (sprite "images/creatures/mr_cherry/mr_cherry.sprite")
+      (x 4608)
+      (y 544)
     )
-    (spawnpoint
-      (name "epsilon")
-      (x 3648)
-      (y 32)
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 1216)
+      (y 416)
     )
-    (spawnpoint
-      (name "theta")
-      (x 4928)
-      (y 32)
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 3232)
+      (y 448)
     )
-    (spawnpoint
-      (name "iota")
-      (x 5472)
-      (y 32)
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 4384)
+      (y 384)
     )
-    (spawnpoint
-      (name "kappa")
-      (x 5984)
-      (y 32)
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 5728)
+      (y 544)
     )
-    (spawnpoint
-      (name "secretout")
-      (x 3968)
-      (y 672)
+    (mriceblock
+      (x 416)
+      (y 288)
     )
-    (spawnpoint
-      (name "drainout")
-      (x 6144)
-      (y 672)
+    (mriceblock
+      (x 1280)
+      (y 576)
+    )
+    (mriceblock
+      (x 1840)
+      (y 224)
+    )
+    (mriceblock
+      (x 3808)
+      (y 384)
+    )
+    (mriceblock
+      (x 4256)
+      (y 512)
     )
     (scripttrigger
       (script "  Level.spawn(\"main\", \"underout\");  ")
@@ -1132,208 +1165,72 @@
       (x 6144)
       (y 736)
     )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/castleblock.sprite")
-      (x 384)
-      (y 320)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/castleblock.sprite")
-      (x 416)
-      (y 320)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/castleblock.sprite")
-      (x 448)
-      (y 320)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/castleblock.sprite")
-      (x 480)
-      (y 320)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/castleblock.sprite")
-      (x 512)
-      (y 320)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/castleblock.sprite")
-      (x 544)
-      (y 320)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/castleblock.sprite")
-      (x 576)
-      (y 320)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/castleblock.sprite")
-      (x 608)
-      (y 320)
-    )
-    (mriceblock
-      (x 416)
-      (y 288)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 1216)
-      (y 416)
-    )
-    (mriceblock
-      (x 1280)
-      (y 576)
-    )
-    (mriceblock
-      (x 1840)
-      (y 224)
-    )
     (sspiky
       (direction "left")
       (x 1440)
       (y 192)
     )
-    (haywire
-      (sprite "images/creatures/mr_cherry/mr_cherry.sprite")
-      (x 2880)
-      (y 224)
+    (spawnpoint
+      (name "alpha")
+      (x 544)
+      (y 32)
     )
-    (bouncingsnowball
-      (x 2688)
-      (y 288)
+    (spawnpoint
+      (name "beta")
+      (x 992)
+      (y 32)
     )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 3232)
-      (y 448)
+    (spawnpoint
+      (name "gamma")
+      (x 2176)
+      (y 32)
     )
-    (haywire
-      (sprite "images/creatures/mr_cherry/mr_cherry.sprite")
-      (x 3680)
-      (y 256)
+    (spawnpoint
+      (name "delta")
+      (x 3392)
+      (y 32)
     )
-    (mriceblock
-      (x 3808)
-      (y 384)
+    (spawnpoint
+      (name "epsilon")
+      (x 3648)
+      (y 32)
     )
-    (mriceblock
-      (x 4256)
-      (y 512)
+    (spawnpoint
+      (name "theta")
+      (x 4928)
+      (y 32)
     )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 4384)
-      (y 384)
+    (spawnpoint
+      (name "iota")
+      (x 5472)
+      (y 32)
     )
-    (haywire
-      (sprite "images/creatures/mr_cherry/mr_cherry.sprite")
-      (x 4480)
-      (y 224)
+    (spawnpoint
+      (name "kappa")
+      (x 5984)
+      (y 32)
     )
-    (haywire
-      (sprite "images/creatures/mr_cherry/mr_cherry.sprite")
-      (x 4608)
-      (y 544)
+    (spawnpoint
+      (name "secretout")
+      (x 3968)
+      (y 672)
+    )
+    (spawnpoint
+      (name "drainout")
+      (x 6144)
+      (y 672)
     )
     (spiky
       (x 4704)
       (y 384)
     )
-    (bouncingsnowball
-      (x 5120)
-      (y 384)
-    )
-    (bouncingsnowball
-      (x 5120)
-      (y 704)
-    )
     (spiky
       (x 5280)
       (y 384)
     )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 5728)
-      (y 544)
-    )
     (spiky
       (x 5952)
       (y 544)
-    )
-    (wind
-      (speed-x 0)
-      (speed-y -400)
-      (acceleration 150)
-      (width 64)
-      (height 320)
-      (x 288)
-      (y 32)
-    )
-    (wind
-      (speed-x 80)
-      (speed-y 300)
-      (acceleration 2)
-      (width 96)
-      (height 416)
-      (x 896)
-      (y 384)
-    )
-    (wind
-      (speed-x -80)
-      (speed-y 300)
-      (acceleration 2)
-      (width 96)
-      (height 416)
-      (x 992)
-      (y 384)
-    )
-    (wind
-      (speed-x 80)
-      (speed-y 240)
-      (acceleration 3)
-      (width 112)
-      (height 352)
-      (x 4288)
-      (y 448)
-    )
-    (wind
-      (speed-x -80)
-      (speed-y 240)
-      (acceleration 3)
-      (width 112)
-      (height 352)
-      (x 4400)
-      (y 448)
-    )
-    (wind
-      (speed-x 80)
-      (speed-y 300)
-      (acceleration 2)
-      (width 96)
-      (height 352)
-      (x 5760)
-      (y 448)
-    )
-    (wind
-      (speed-x -80)
-      (speed-y 300)
-      (acceleration 2)
-      (width 96)
-      (height 352)
-      (x 5856)
-      (y 448)
-    )
-    (bonusblock
-      (custom-contents
-         (powerup           (sprite "images/powerups/potions/blue-potion.sprite")
-           (script "  findart(\"moatart\");  ")
-)
-      )
-      (script "")
-      (contents "custom")
-      (x 1600)
-      (y 192)
     )
     (tilemap
       (solid #t)
@@ -1575,6 +1472,109 @@
       200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200
       )
     )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/castleblock.sprite")
+      (x 384)
+      (y 320)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/castleblock.sprite")
+      (x 416)
+      (y 320)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/castleblock.sprite")
+      (x 448)
+      (y 320)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/castleblock.sprite")
+      (x 480)
+      (y 320)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/castleblock.sprite")
+      (x 512)
+      (y 320)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/castleblock.sprite")
+      (x 544)
+      (y 320)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/castleblock.sprite")
+      (x 576)
+      (y 320)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/castleblock.sprite")
+      (x 608)
+      (y 320)
+    )
+    (wind
+      (speed-x 0)
+      (speed-y -400)
+      (acceleration 150)
+      (width 64)
+      (height 320)
+      (x 288)
+      (y 32)
+    )
+    (wind
+      (speed-x 80)
+      (speed-y 300)
+      (acceleration 2)
+      (width 96)
+      (height 416)
+      (x 896)
+      (y 384)
+    )
+    (wind
+      (speed-x -80)
+      (speed-y 300)
+      (acceleration 2)
+      (width 96)
+      (height 416)
+      (x 992)
+      (y 384)
+    )
+    (wind
+      (speed-x 80)
+      (speed-y 240)
+      (acceleration 3)
+      (width 112)
+      (height 352)
+      (x 4288)
+      (y 448)
+    )
+    (wind
+      (speed-x -80)
+      (speed-y 240)
+      (acceleration 3)
+      (width 112)
+      (height 352)
+      (x 4400)
+      (y 448)
+    )
+    (wind
+      (speed-x 80)
+      (speed-y 300)
+      (acceleration 2)
+      (width 96)
+      (height 352)
+      (x 5760)
+      (y 448)
+    )
+    (wind
+      (speed-x -80)
+      (speed-y 300)
+      (acceleration 2)
+      (width 96)
+      (height 352)
+      (x 5856)
+      (y 448)
+    )
   )
   (sector
     (name "pipe")
@@ -1586,11 +1586,6 @@
     (gradient
       (top_color 0 0 0)
       (bottom_color 0 0 0)
-    )
-    (spawnpoint
-      (name "main")
-      (x 32)
-      (y 32)
     )
     (scripttrigger
       (script "  Level.spawn(\"under\", \"secretout\");")
@@ -1606,14 +1601,10 @@
       (x 32)
       (y 0)
     )
-    (wind
-      (speed-x 0)
-      (speed-y -400)
-      (acceleration 150)
-      (width 64)
-      (height 320)
-      (x 704)
-      (y 128)
+    (spawnpoint
+      (name "main")
+      (x 32)
+      (y 32)
     )
     (tilemap
       (solid #t)
@@ -1671,22 +1662,43 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
+    (wind
+      (speed-x 0)
+      (speed-y -400)
+      (acceleration 150)
+      (width 64)
+      (height 320)
+      (x 704)
+      (y 128)
+    )
   )
   (sector
     (name "drain")
     (music "music/chipdisko.ogg")
     (ambient-light 1 1 1)
+    (bouncingsnowball
+      (x 480)
+      (y 384)
+    )
     (camera
       (mode "normal")
+    )
+    (fish
+      (x 1088)
+      (y 576)
     )
     (gradient
       (top_color 0.5 0 0.5)
       (bottom_color 0 0 0)
     )
-    (spawnpoint
-      (name "main")
-      (x 64)
-      (y 0)
+    (mrbomb
+      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
+      (x 800)
+      (y 672)
+    )
+    (mriceblock
+      (x 640)
+      (y 128)
     )
     (scripttrigger
       (script "  Level.spawn(\"under\", \"secretout\");  ")
@@ -1704,26 +1716,14 @@
       (x 384)
       (y 0)
     )
-    (mriceblock
-      (x 640)
-      (y 128)
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 0)
     )
     (spiky
       (x 864)
       (y 128)
-    )
-    (bouncingsnowball
-      (x 480)
-      (y 384)
-    )
-    (mrbomb
-      (sprite "images/creatures/mr_cherry/mr_juicebox.sprite")
-      (x 800)
-      (y 672)
-    )
-    (fish
-      (x 1088)
-      (y 576)
     )
     (tilemap
       (solid #t)

@@ -37,11 +37,6 @@
       (x 11968)
       (y 320)
     )
-    (spawnpoint
-      (name "TEST")
-      (x 11968)
-      (y 320)
-    )
     (hurting_platform
       (running #f)
       (name "c1")
@@ -489,6 +484,11 @@ play_sound(\"sounds/lifeup.wav\");
       (height 136)
       (x 10644)
       (y 468)
+    )
+    (spawnpoint
+      (name "TEST")
+      (x 11968)
+      (y 320)
     )
     (spawnpoint
       (name "main")

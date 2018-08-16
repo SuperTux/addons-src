@@ -35,6 +35,25 @@
       (speed 0.5)
       (image "images/background/arcticskies2.png")
     )
+    (bonusblock
+      (custom-contents
+         (powerup           (script "
+play_sound(\"sounds/countdown10s.ogg\");
+block.set_alpha(1);
+wait(11.0);
+block.set_alpha(0);
+")
+           (disable-physics #t)
+           (sprite "images/powerups/potions/blue-potion.sprite")
+           (x 11312)
+           (y 928)
+)
+      )
+      (script "")
+      (contents "custom")
+      (x 11392)
+      (y 384)
+    )
     (camera
       (mode "normal")
     )
@@ -1079,25 +1098,6 @@
           (time 0.2)
         )
       )
-    )
-    (bonusblock
-      (custom-contents
-         (powerup           (script "
-play_sound(\"sounds/countdown10s.ogg\");
-block.set_alpha(1);
-wait(11.0);
-block.set_alpha(0);
-")
-           (disable-physics #t)
-           (sprite "images/powerups/potions/blue-potion.sprite")
-           (x 11312)
-           (y 928)
-)
-      )
-      (script "")
-      (contents "custom")
-      (x 11392)
-      (y 384)
     )
     (mrbomb
       (x 9221)

@@ -16,6 +16,18 @@
     (camera
       (mode "normal")
     )
+    (haywire
+      (x 3456)
+      (y 864)
+    )
+    (haywire
+      (x 3872)
+      (y 928)
+    )
+    (haywire
+      (x 4288)
+      (y 864)
+    )
     (jumpy
       (x 1504)
       (y 608)
@@ -51,18 +63,6 @@
     (mrbomb
       (x 3104)
       (y 992)
-    )
-    (haywire
-      (x 3456)
-      (y 864)
-    )
-    (haywire
-      (x 3872)
-      (y 928)
-    )
-    (haywire
-      (x 4288)
-      (y 864)
     )
     (mrbomb
       (x 5600)

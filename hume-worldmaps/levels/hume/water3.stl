@@ -19,27 +19,27 @@
       (image "images/background/bridgeocean-fade.png")
       (z-pos -195)
     )
-    (gradient
-      (top_color 0 0 0)
-      (bottom_color 0.003921569 0.003921569 0.003921569)
-    )
-    (camera
-      (mode "normal")
-    )
     (bicycle-platform
       (sprite "images/objects/platforms/small.sprite")
       (x 736)
       (y 736)
+    )
+    (bicycle-platform
+      (sprite "images/objects/platforms/small.sprite")
+      (x 4288)
+      (y 768)
+    )
+    (camera
+      (mode "normal")
     )
     (firefly
       (sprite "images/objects/resetpoints/bell.sprite")
       (x 3936)
       (y 672)
     )
-    (bicycle-platform
-      (sprite "images/objects/platforms/small.sprite")
-      (x 4288)
-      (y 768)
+    (gradient
+      (top_color 0 0 0)
+      (bottom_color 0.003921569 0.003921569 0.003921569)
     )
     (gradient
       (top_color 0 0 0)

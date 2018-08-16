@@ -7,15 +7,86 @@
     (name "main")
     (music "music/forest.ogg")
     (ambient-light 1 1 1)
+    (bonusblock
+      (custom-contents
+         (powerup           (sprite "images/powerups/potions/blue-potion.sprite")
+           (script "  findart(\"oasisart\");  ")
+)
+      )
+      (script "")
+      (contents "custom")
+      (x 2336)
+      (y 1472)
+    )
     (camera
       (mode "normal")
     )
-    (particles-rain
-    )
-    (spawnpoint
-      (name "main")
-      (x 32)
+    (fish
+      (x 1472)
       (y 864)
+    )
+    (fish
+      (x 1536)
+      (y 864)
+    )
+    (fish
+      (x 2144)
+      (y 1024)
+    )
+    (fish
+      (x 2208)
+      (y 1024)
+    )
+    (igel
+      (x 544)
+      (y 1152)
+    )
+    (igel
+      (x 1088)
+      (y 1152)
+    )
+    (igel
+      (x 1120)
+      (y 1312)
+    )
+    (infoblock
+      (message (_ "!levels/mattie_world/images/LMH/hint-03.png"))
+      (x 512)
+      (y 1026)
+    )
+    (mole
+      (x 416)
+      (y 1408)
+    )
+    (mole
+      (x 1312)
+      (y 1472)
+    )
+    (mrtree
+      (x 2400)
+      (y 896)
+    )
+    (mrtree
+      (x 576)
+      (y 32)
+    )
+    (mrtree
+      (x 1504)
+      (y 160)
+    )
+    (mrtree
+      (x 1712)
+      (y 1328)
+    )
+    (poisonivy
+      (x 1216)
+      (y 736)
+    )
+    (poisonivy
+      (x 1888)
+      (y 800)
+    )
+    (particles-rain
     )
     (secretarea
       (fade-tilemap "secret")
@@ -38,62 +109,6 @@
       (x 2304)
       (y 1120)
     )
-    (bonusblock
-      (custom-contents
-         (powerup           (sprite "images/powerups/potions/blue-potion.sprite")
-           (script "  findart(\"oasisart\");  ")
-)
-      )
-      (script "")
-      (contents "custom")
-      (x 2336)
-      (y 1472)
-    )
-    (infoblock
-      (message (_ "!levels/mattie_world/images/LMH/hint-03.png"))
-      (x 512)
-      (y 1026)
-    )
-    (poisonivy
-      (x 1216)
-      (y 736)
-    )
-    (walkingleaf
-      (x 1312)
-      (y 608)
-    )
-    (poisonivy
-      (x 1888)
-      (y 800)
-    )
-    (mrtree
-      (x 2400)
-      (y 896)
-    )
-    (fish
-      (x 1472)
-      (y 864)
-    )
-    (fish
-      (x 1536)
-      (y 864)
-    )
-    (fish
-      (x 2144)
-      (y 1024)
-    )
-    (fish
-      (x 2208)
-      (y 1024)
-    )
-    (walkingleaf
-      (x 320)
-      (y 288)
-    )
-    (mrtree
-      (x 576)
-      (y 32)
-    )
     (snail
       (x 768)
       (y 32)
@@ -102,57 +117,22 @@
       (x 960)
       (y 160)
     )
-    (walkingleaf
-      (x 1312)
-      (y 192)
-    )
-    (mrtree
-      (x 1504)
-      (y 160)
-    )
-    (walkingleaf
-      (x 1792)
-      (y 192)
-    )
     (snail
       (x 1888)
       (y 1152)
-    )
-    (igel
-      (x 544)
-      (y 1152)
-    )
-    (walkingleaf
-      (x 160)
-      (y 1248)
-    )
-    (mole
-      (x 416)
-      (y 1408)
     )
     (snail
       (x 864)
       (y 1472)
     )
-    (igel
-      (x 1088)
-      (y 1152)
-    )
-    (igel
-      (x 1120)
-      (y 1312)
-    )
-    (mole
-      (x 1312)
-      (y 1472)
-    )
-    (mrtree
-      (x 1712)
-      (y 1328)
-    )
     (snail
       (x 2272)
       (y 1472)
+    )
+    (spawnpoint
+      (name "main")
+      (x 32)
+      (y 864)
     )
     (tilemap
       (solid #t)
@@ -801,6 +781,26 @@
       0 0 164 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 166 0 0 0
       0 0 164 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 166 0 0 0
       )
+    )
+    (walkingleaf
+      (x 1312)
+      (y 608)
+    )
+    (walkingleaf
+      (x 320)
+      (y 288)
+    )
+    (walkingleaf
+      (x 1312)
+      (y 192)
+    )
+    (walkingleaf
+      (x 1792)
+      (y 192)
+    )
+    (walkingleaf
+      (x 160)
+      (y 1248)
     )
   )
 )

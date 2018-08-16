@@ -16,6 +16,18 @@
     (camera
       (mode "normal")
     )
+    (climbable
+      (width 32)
+      (height 3488)
+      (x 32)
+      (y 160)
+    )
+    (dispenser
+      (cycle 2.5)
+      (badguy "totem")
+      (x 128)
+      (y 3328)
+    )
     (door
       (sector "main")
       (spawnpoint "indoor")
@@ -36,18 +48,6 @@ t\\/
 tWhile you can't jump over the hole, try building higher totems."))
       (x 768)
       (y 3680)
-    )
-    (climbable
-      (width 32)
-      (height 3488)
-      (x 32)
-      (y 160)
-    )
-    (dispenser
-      (cycle 2.5)
-      (badguy "totem")
-      (x 128)
-      (y 3328)
     )
     (scripttrigger
       (script "import(\"levels/hume/defualt.nut\")

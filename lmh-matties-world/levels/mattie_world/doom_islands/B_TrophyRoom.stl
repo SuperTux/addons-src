@@ -58,10 +58,166 @@
       (top_color 0.5 0 0.5)
       (bottom_color 0 0 0)
     )
-    (spawnpoint
-      (name "main")
-      (x 112)
-      (y 680)
+    (infoblock
+      (message (_ "-Sky Pirate Swag
+#
+#Steal a little booty from pirates in the Frosted Dunes."))
+      (x 224)
+      (y 576)
+    )
+    (infoblock
+      (message (_ "-Help from Above
+#
+#Find that extra boost to help you through the Frosted Dunes"))
+      (x 192)
+      (y 576)
+    )
+    (infoblock
+      (message (_ "-Crystal Quick
+#
+#Find the two shortcuts through The Giant Geode. [DISABLED]"))
+      (x 256)
+      (y 576)
+    )
+    (infoblock
+      (message (_ "-Airship Cannon
+#
+#Launch yourself from the airship cannon accessable from the level Under The Airship."))
+      (x 416)
+      (y 576)
+    )
+    (infoblock
+      (message (_ "-Ode to Useless Stars
+#
+#Don't you just hate it when your invincibility goes to waste?"))
+      (x 512)
+      (y 576)
+    )
+    (infoblock
+      (message (_ "-The Hard Way
+#
+#In Rock Climbing take the hard path to the top without dying or taking shortcuts."))
+      (x 608)
+      (y 576)
+    )
+    (infoblock
+      (message (_ "*Bonus Level: Savaged Lands
+#
+#Discover and start the bonus level Savaged Lands."))
+      (x 864)
+      (y 384)
+    )
+    (infoblock
+      (message (_ "-Fire in the Sky
+#
+#Seek out the fire-flower hidden above the Savaged Lands."))
+      (x 832)
+      (y 384)
+    )
+    (infoblock
+      (message (_ "*Bonus Level: On the Open Ocean
+#
+#Discover and start the bonus level On the Open Ocean. [DISABLED]"))
+      (x 608)
+      (y 384)
+    )
+    (infoblock
+      (message (_ "*Bonus Level: Skellington Arena
+#
+#Find and start the bonus level Skellington Arena."))
+      (x 352)
+      (y 384)
+    )
+    (infoblock
+      (message (_ "-Hole in the Wall
+#
+#Who doesn't like extra coins?"))
+      (x 320)
+      (y 384)
+    )
+    (infoblock
+      (message (_ "-Toad Tower Treasure
+#
+#Find Toad's hidden stash within his castle."))
+      (x 736)
+      (y 352)
+    )
+    (infoblock
+      (message (_ "-Toad Castle Dungeon
+#
+#Find the alternate route through Toad Castle."))
+      (x 704)
+      (y 352)
+    )
+    (infoblock
+      (message (_ "-A Little Help
+#
+#No sense in Tux attacking the Airship while small."))
+      (x 512)
+      (y 352)
+    )
+    (infoblock
+      (message (_ "-Fire in the Sky
+#
+#Discover the fire-flower on Flathead's Airship."))
+      (x 480)
+      (y 352)
+    )
+    (infoblock
+      (message (_ "-Do Over
+#
+#Find one of the two respawn bells on Flathead's Airship"))
+      (x 448)
+      (y 352)
+    )
+    (infoblock
+      (message (_ "-Something for Your Trouble
+#
+#Find the Tux doll on Flathead's Airship"))
+      (x 416)
+      (y 352)
+    )
+    (infoblock
+      (message (_ "-Trophy Room
+#
+*Find the Trophy Room (hint: you're in it right now)."))
+      (x 256)
+      (y 128)
+    )
+    (infoblock
+      (message (_ "-Master of Secrets
+#
+*Discover every secret area within DOOM Islands. [DISABLED]"))
+      (x 448)
+      (y 128)
+    )
+    (infoblock
+      (message (_ "-The Coin Collector
+#
+*Collect all the coins from each level within DOOM Islands. [DISABLED]"))
+      (x 544)
+      (y 128)
+    )
+    (infoblock
+      (message (_ "-Roadrunner
+#
+*Complete DOOM Islands with best times totalling less than ### seconds. [DISABLED]"))
+      (x 640)
+      (y 128)
+    )
+    (infoblock
+      (message (_ "-DOOMBRINGER
+#
+*Eliminate every unique foe from within DOOM Islands. [DISABLED]"))
+      (x 736)
+      (y 128)
+    )
+    (infoblock
+      (message (_ "*---WARNING!---
+#Pressing this button will reset all your trophies and level statistics.
+-DO NOT PUSH"))
+      (x 1088)
+      (y 128)
     )
     (pushbutton
       (script "  delete_progress();
@@ -107,6 +263,277 @@
           ")
       (x 1152)
       (y 224)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "dune1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 224)
+      (y 576)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "dune2")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 192)
+      (y 576)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "geo1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 256)
+      (y 576)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "air1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 416)
+      (y 576)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "escape1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 512)
+      (y 576)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "rock1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 608)
+      (y 576)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "sl1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 864)
+      (y 384)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "sl2")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 832)
+      (y 384)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "ocean1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 608)
+      (y 384)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "arena1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 352)
+      (y 384)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "arena2")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 320)
+      (y 384)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "toad1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 736)
+      (y 352)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "toad2")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 704)
+      (y 352)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "airship1")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 512)
+      (y 352)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "airship2")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 480)
+      (y 352)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "airship3")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 448)
+      (y 352)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "airship4")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 416)
+      (y 352)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "trophy")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 256)
+      (y 128)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "secrets")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 448)
+      (y 128)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "coins")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 544)
+      (y 128)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "time")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 640)
+      (y 128)
+    )
+    (scriptedobject
+      (z-pos 100)
+      (physic-enabled #f)
+      (solid #f)
+      (name "frags")
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
+      (x 736)
+      (y 128)
+    )
+    (scripttrigger
+      (script "  Tux.deactivate();
+            pipelift.goto_node(1);
+            wait(  1  );
+            Tux.activate();  ")
+      (button #f)
+      (width 64)
+      (height 64)
+      (x 96)
+      (y 752)
+    )
+    (scripttrigger
+      (script "  Tux.deactivate();
+            pipelift.goto_node(0);
+            wait(  0.7  );
+            Tux.activate();
+            exit_screen();  ")
+      (button #t)
+      (width 32)
+      (height 64)
+      (x 112)
+      (y 576)
+    )
+    (spawnpoint
+      (name "main")
+      (x 112)
+      (y 680)
+    )
+    (switch
+      (script "  if (down1){  lift1.goto_node(1);  liftimage1.goto_node(1);
+          lift2.goto_node(0);  liftimage2.goto_node(0);
+          wait(  1.1  );
+          down1 <- false;  down2 <- true;
+          announce(2);
+        }else{  lift1.goto_node(0);  liftimage1.goto_node(0);
+          wait(  1.1  );
+          down1 <- true;
+        }")
+      (sprite "images/objects/switch/left.sprite")
+      (x 1168)
+      (y 608)
+    )
+    (switch
+      (script "  lift1.goto_node(0);  liftimage1.goto_node(0);
+        wait(  0.1  );
+        down1 <- true;
+        announce(1);  ")
+      (sprite "images/objects/switch/left.sprite")
+      (x 1168)
+      (y 416)
+    )
+    (switch
+      (script "  if (down2){  lift2.goto_node(1);  liftimage2.goto_node(1);
+          wait(  1.1  );
+          down2 <- false;
+          announce(3);
+        }else{  lift2.goto_node(0);  liftimage2.goto_node(0);
+          wait(  1.1  );
+          down2 <- true;
+        }")
+      (sprite "images/objects/switch/right.sprite")
+      (x 26)
+      (y 384)
+    )
+    (switch
+      (script "  lift2.goto_node(0);  liftimage2.goto_node(0);
+        wait(  0.1  );
+        down2 <- true;
+        announce(2);  ")
+      (sprite "images/objects/switch/right.sprite")
+      (x 26)
+      (y 192)
     )
     (tilemap
       (solid #t)
@@ -184,29 +611,6 @@
       2817 2817
       )
     )
-    (scripttrigger
-      (script "  Tux.deactivate();
-            pipelift.goto_node(1);
-            wait(  1  );
-            Tux.activate();  ")
-      (button #f)
-      (width 64)
-      (height 64)
-      (x 96)
-      (y 752)
-    )
-    (scripttrigger
-      (script "  Tux.deactivate();
-            pipelift.goto_node(0);
-            wait(  0.7  );
-            Tux.activate();
-            exit_screen();  ")
-      (button #t)
-      (width 32)
-      (height 64)
-      (x 112)
-      (y 576)
-    )
     (tilemap
       (solid #f)
       (z-pos 100)
@@ -225,365 +629,6 @@
       1379 1379
       1372 1372
       )
-    )
-    (infoblock
-      (message (_ "-Sky Pirate Swag
-#
-#Steal a little booty from pirates in the Frosted Dunes."))
-      (x 224)
-      (y 576)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "dune1")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 224)
-      (y 576)
-    )
-    (infoblock
-      (message (_ "-Help from Above
-#
-#Find that extra boost to help you through the Frosted Dunes"))
-      (x 192)
-      (y 576)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "dune2")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 192)
-      (y 576)
-    )
-    (infoblock
-      (message (_ "-Crystal Quick
-#
-#Find the two shortcuts through The Giant Geode. [DISABLED]"))
-      (x 256)
-      (y 576)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "geo1")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 256)
-      (y 576)
-    )
-    (infoblock
-      (message (_ "-Airship Cannon
-#
-#Launch yourself from the airship cannon accessable from the level Under The Airship."))
-      (x 416)
-      (y 576)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "air1")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 416)
-      (y 576)
-    )
-    (infoblock
-      (message (_ "-Ode to Useless Stars
-#
-#Don't you just hate it when your invincibility goes to waste?"))
-      (x 512)
-      (y 576)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "escape1")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 512)
-      (y 576)
-    )
-    (infoblock
-      (message (_ "-The Hard Way
-#
-#In Rock Climbing take the hard path to the top without dying or taking shortcuts."))
-      (x 608)
-      (y 576)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "rock1")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 608)
-      (y 576)
-    )
-    (infoblock
-      (message (_ "*Bonus Level: Savaged Lands
-#
-#Discover and start the bonus level Savaged Lands."))
-      (x 864)
-      (y 384)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "sl1")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 864)
-      (y 384)
-    )
-    (infoblock
-      (message (_ "-Fire in the Sky
-#
-#Seek out the fire-flower hidden above the Savaged Lands."))
-      (x 832)
-      (y 384)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "sl2")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 832)
-      (y 384)
-    )
-    (infoblock
-      (message (_ "*Bonus Level: On the Open Ocean
-#
-#Discover and start the bonus level On the Open Ocean. [DISABLED]"))
-      (x 608)
-      (y 384)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "ocean1")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 608)
-      (y 384)
-    )
-    (infoblock
-      (message (_ "*Bonus Level: Skellington Arena
-#
-#Find and start the bonus level Skellington Arena."))
-      (x 352)
-      (y 384)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "arena1")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 352)
-      (y 384)
-    )
-    (infoblock
-      (message (_ "-Hole in the Wall
-#
-#Who doesn't like extra coins?"))
-      (x 320)
-      (y 384)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "arena2")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 320)
-      (y 384)
-    )
-    (infoblock
-      (message (_ "-Toad Tower Treasure
-#
-#Find Toad's hidden stash within his castle."))
-      (x 736)
-      (y 352)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "toad1")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 736)
-      (y 352)
-    )
-    (infoblock
-      (message (_ "-Toad Castle Dungeon
-#
-#Find the alternate route through Toad Castle."))
-      (x 704)
-      (y 352)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "toad2")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 704)
-      (y 352)
-    )
-    (infoblock
-      (message (_ "-A Little Help
-#
-#No sense in Tux attacking the Airship while small."))
-      (x 512)
-      (y 352)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "airship1")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 512)
-      (y 352)
-    )
-    (infoblock
-      (message (_ "-Fire in the Sky
-#
-#Discover the fire-flower on Flathead's Airship."))
-      (x 480)
-      (y 352)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "airship2")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 480)
-      (y 352)
-    )
-    (infoblock
-      (message (_ "-Do Over
-#
-#Find one of the two respawn bells on Flathead's Airship"))
-      (x 448)
-      (y 352)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "airship3")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 448)
-      (y 352)
-    )
-    (infoblock
-      (message (_ "-Something for Your Trouble
-#
-#Find the Tux doll on Flathead's Airship"))
-      (x 416)
-      (y 352)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "airship4")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 416)
-      (y 352)
-    )
-    (infoblock
-      (message (_ "-Trophy Room
-#
-*Find the Trophy Room (hint: you're in it right now)."))
-      (x 256)
-      (y 128)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "trophy")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 256)
-      (y 128)
-    )
-    (infoblock
-      (message (_ "-Master of Secrets
-#
-*Discover every secret area within DOOM Islands. [DISABLED]"))
-      (x 448)
-      (y 128)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "secrets")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 448)
-      (y 128)
-    )
-    (infoblock
-      (message (_ "-The Coin Collector
-#
-*Collect all the coins from each level within DOOM Islands. [DISABLED]"))
-      (x 544)
-      (y 128)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "coins")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 544)
-      (y 128)
-    )
-    (infoblock
-      (message (_ "-Roadrunner
-#
-*Complete DOOM Islands with best times totalling less than ### seconds. [DISABLED]"))
-      (x 640)
-      (y 128)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "time")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 640)
-      (y 128)
-    )
-    (infoblock
-      (message (_ "-DOOMBRINGER
-#
-*Eliminate every unique foe from within DOOM Islands. [DISABLED]"))
-      (x 736)
-      (y 128)
-    )
-    (scriptedobject
-      (z-pos 100)
-      (physic-enabled #f)
-      (solid #f)
-      (name "frags")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
-      (x 736)
-      (y 128)
-    )
-    (infoblock
-      (message (_ "*---WARNING!---
-#Pressing this button will reset all your trophies and level statistics.
--DO NOT PUSH"))
-      (x 1088)
-      (y 128)
     )
     (tilemap
       (solid #f)
@@ -666,29 +711,6 @@
       79 0 0 79
       )
     )
-    (switch
-      (script "  if (down1){  lift1.goto_node(1);  liftimage1.goto_node(1);
-          lift2.goto_node(0);  liftimage2.goto_node(0);
-          wait(  1.1  );
-          down1 <- false;  down2 <- true;
-          announce(2);
-        }else{  lift1.goto_node(0);  liftimage1.goto_node(0);
-          wait(  1.1  );
-          down1 <- true;
-        }")
-      (sprite "images/objects/switch/left.sprite")
-      (x 1168)
-      (y 608)
-    )
-    (switch
-      (script "  lift1.goto_node(0);  liftimage1.goto_node(0);
-        wait(  0.1  );
-        down1 <- true;
-        announce(1);  ")
-      (sprite "images/objects/switch/left.sprite")
-      (x 1168)
-      (y 416)
-    )
     (tilemap
       (solid #t)
       (z-pos -100)
@@ -740,28 +762,6 @@
       2811 0 0 2811
       340 341 338 339
       )
-    )
-    (switch
-      (script "  if (down2){  lift2.goto_node(1);  liftimage2.goto_node(1);
-          wait(  1.1  );
-          down2 <- false;
-          announce(3);
-        }else{  lift2.goto_node(0);  liftimage2.goto_node(0);
-          wait(  1.1  );
-          down2 <- true;
-        }")
-      (sprite "images/objects/switch/right.sprite")
-      (x 26)
-      (y 384)
-    )
-    (switch
-      (script "  lift2.goto_node(0);  liftimage2.goto_node(0);
-        wait(  0.1  );
-        down2 <- true;
-        announce(2);  ")
-      (sprite "images/objects/switch/right.sprite")
-      (x 26)
-      (y 192)
     )
   )
   (tileset "images/LMHtiles.strf")

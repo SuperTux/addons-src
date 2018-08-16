@@ -375,6 +375,22 @@ play_sound(\"sounds/locked.ogg\")
     (camera
       (mode "normal")
     )
+    (captainsnowball
+      (x 4704)
+      (y 64)
+    )
+    (captainsnowball
+      (x 3840)
+      (y 96)
+    )
+    (captainsnowball
+      (x 2496)
+      (y 224)
+    )
+    (captainsnowball
+      (x 640)
+      (y 160)
+    )
     (flame
       (x 6208)
       (y 352)
@@ -447,26 +463,6 @@ play_sound(\"sounds/locked.ogg\")
       (x 4160)
       (y 384)
     )
-    (smartball
-      (x 800)
-      (y 736)
-    )
-    (smartball
-      (x 3904)
-      (y 480)
-    )
-    (smartball
-      (x 5632)
-      (y 736)
-    )
-    (smartball
-      (x 5600)
-      (y 128)
-    )
-    (smartball
-      (x 3552)
-      (y 32)
-    )
     (jumpy
       (x 5792)
       (y 128)
@@ -495,6 +491,26 @@ play_sound(\"sounds/locked.ogg\")
       (x 5920)
       (y 576)
     )
+    (smartball
+      (x 800)
+      (y 736)
+    )
+    (smartball
+      (x 3904)
+      (y 480)
+    )
+    (smartball
+      (x 5632)
+      (y 736)
+    )
+    (smartball
+      (x 5600)
+      (y 128)
+    )
+    (smartball
+      (x 3552)
+      (y 32)
+    )
     (scripttrigger
       (script "Level.spawn(\"main\",\"end\")")
       (button #f)
@@ -513,22 +529,6 @@ play_sound(\"sounds/locked.ogg\")
     (sspiky
       (x 4256)
       (y 448)
-    )
-    (captainsnowball
-      (x 4704)
-      (y 64)
-    )
-    (captainsnowball
-      (x 3840)
-      (y 96)
-    )
-    (captainsnowball
-      (x 2496)
-      (y 224)
-    )
-    (captainsnowball
-      (x 640)
-      (y 160)
     )
     (snowball
       (x 352)

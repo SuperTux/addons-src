@@ -87,18 +87,6 @@
       (x 1409)
       (y 422)
     )
-    (sspiky
-      (x 838)
-      (y 350)
-    )
-    (sspiky
-      (x 1190)
-      (y 280)
-    )
-    (sspiky
-      (x 4262)
-      (y 255)
-    )
     (smartball
       (x 579)
       (y 262)
@@ -122,6 +110,18 @@
     (smartball
       (x 4579)
       (y 454)
+    )
+    (sspiky
+      (x 838)
+      (y 350)
+    )
+    (sspiky
+      (x 1190)
+      (y 280)
+    )
+    (sspiky
+      (x 4262)
+      (y 255)
     )
     (spawnpoint
       (name "main")

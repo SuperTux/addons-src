@@ -14,6 +14,25 @@
       (image "images/background/arctis2.png")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
+    (bonusblock
+      (custom-contents
+         (powerup           (script "
+play_sound(\"sounds/countdown10s.ogg\");
+bonus1.set_alpha(1);
+wait(11.0);
+bonus1.set_alpha(0);
+")
+           (disable-physics #t)
+           (sprite "images/powerups/potions/blue-potion.sprite")
+           (x 8784)
+           (y 1344)
+)
+      )
+      (script "")
+      (contents "custom")
+      (x 8864)
+      (y 800)
+    )
     (camera
       (mode "normal")
     )
@@ -141,25 +160,6 @@
     (haywire
       (x 9189)
       (y 680)
-    )
-    (bonusblock
-      (custom-contents
-         (powerup           (script "
-play_sound(\"sounds/countdown10s.ogg\");
-bonus1.set_alpha(1);
-wait(11.0);
-bonus1.set_alpha(0);
-")
-           (disable-physics #t)
-           (sprite "images/powerups/potions/blue-potion.sprite")
-           (x 8784)
-           (y 1344)
-)
-      )
-      (script "")
-      (contents "custom")
-      (x 8864)
-      (y 800)
     )
     (jumpy
       (x 3111)

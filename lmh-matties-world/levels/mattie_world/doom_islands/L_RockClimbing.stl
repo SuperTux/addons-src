@@ -9,21 +9,6 @@
     (camera
       (mode "normal")
     )
-    (spawnpoint
-      (name "main")
-      (x 384)
-      (y 448)
-    )
-    (spawnpoint
-      (name "easy")
-      (x 288)
-      (y 448)
-    )
-    (spawnpoint
-      (name "hard")
-      (x 448)
-      (y 448)
-    )
     (door
       (sector "main")
       (spawnpoint "main")
@@ -44,6 +29,21 @@
 #To your right lies the door for the difficult route, which offers a more rewarding experience."))
       (x 384)
       (y 384)
+    )
+    (spawnpoint
+      (name "main")
+      (x 384)
+      (y 448)
+    )
+    (spawnpoint
+      (name "easy")
+      (x 288)
+      (y 448)
+    )
+    (spawnpoint
+      (name "hard")
+      (x 448)
+      (y 448)
     )
     (tilemap
       (solid #t)
@@ -176,21 +176,56 @@
     (music "music/chipdisko.ogg")
     (init-script "open_gate <- false;")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
-    (spawnpoint
-      (name "main")
-      (x 736)
-      (y 9568)
-    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
       (image "images/background/bluemountain-middle.png")
       (image-bottom "images/background/bluemountain-bottom.png")
     )
+    (camera
+      (mode "normal")
+    )
     (particles-clouds
+    )
+    (darttrap
+      (initial-delay 0)
+      (fire-delay 5)
+      (ammo -1)
+      (direction "right")
+      (x 192)
+      (y 4640)
+    )
+    (dispenser
+      (cycle 6)
+      (type "rocketlauncher")
+      (badguy "kamikazesnowball")
+      (direction "left")
+      (x 736)
+      (y 2880)
+    )
+    (dispenser
+      (cycle 4)
+      (type "rocketlauncher")
+      (badguy "kamikazesnowball")
+      (direction "right")
+      (x 128)
+      (y 2720)
+    )
+    (dispenser
+      (cycle 4)
+      (type "rocketlauncher")
+      (badguy "kamikazesnowball")
+      (direction "left")
+      (x 768)
+      (y 1152)
+    )
+    (dispenser
+      (cycle 4)
+      (type "rocketlauncher")
+      (badguy "kamikazesnowball")
+      (direction "right")
+      (x 320)
+      (y 1536)
     )
     (door
       (sector "bottom")
@@ -210,6 +245,230 @@
       (x 240)
       (y 3936)
     )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 576)
+          (y 7264)
+          (time 2)
+        )
+        (node
+          (x 352)
+          (y 7264)
+          (time 3)
+        )
+        (node
+          (x 352)
+          (y 6944)
+          (time 3)
+        )
+        (node
+          (x 352)
+          (y 7264)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 672)
+          (y 6880)
+          (time 3)
+        )
+        (node
+          (x 672)
+          (y 6208)
+          (time 3)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 416)
+          (y 6262)
+          (time 4)
+        )
+        (node
+          (x 256)
+          (y 6048)
+          (time 4)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 384)
+          (y 5984)
+          (time 3)
+        )
+        (node
+          (x 608)
+          (y 5984)
+          (time 3)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 608)
+          (y 5376)
+          (time 4)
+        )
+        (node
+          (x 224)
+          (y 5376)
+          (time 4)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 544)
+          (y 4960)
+          (time 3)
+        )
+        (node
+          (x 256)
+          (y 4960)
+          (time 3)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 544)
+          (y 4704)
+          (time 3)
+        )
+        (node
+          (x 288)
+          (y 4704)
+          (time 3)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 672)
+          (y 4384)
+          (time 2)
+        )
+        (node
+          (x 672)
+          (y 4672)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "gate1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path
+        (node
+          (x 288)
+          (y 4256)
+        )
+        (node
+          (x 544)
+          (y 4288)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "gate2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path
+        (node
+          (x 288)
+          (y 4160)
+        )
+        (node
+          (x 448)
+          (y 4192)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "gate3")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path
+        (node
+          (x 288)
+          (y 4064)
+          (time 2)
+        )
+        (node
+          (x 352)
+          (y 4096)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 672)
+          (y 3328)
+          (time 4)
+        )
+        (node
+          (x 672)
+          (y 4000)
+          (time 4)
+        )
+      )
+    )
+    (flyingsnowball
+      (x 416)
+      (y 8128)
+    )
+    (flyingsnowball
+      (x 352)
+      (y 7776)
+    )
+    (flyingsnowball
+      (x 544)
+      (y 7712)
+    )
+    (flyingsnowball
+      (x 256)
+      (y 5696)
+    )
+    (flyingsnowball
+      (x 224)
+      (y 5696)
+    )
+    (flyingsnowball
+      (x 304)
+      (y 2176)
+    )
+    (mrbomb
+      (x 512)
+      (y 3296)
+    )
+    (mriceblock
+      (x 320)
+      (y 3296)
+    )
     (scripttrigger
       (script "if (!open_gate) {
         open_gate <- true;
@@ -225,6 +484,32 @@
       (height 128)
       (x 624)
       (y 4256)
+    )
+    (sspiky
+      (direction "right")
+      (x 464)
+      (y 480)
+    )
+    (snowball
+      (x 544)
+      (y 8160)
+    )
+    (snowball
+      (x 192)
+      (y 3296)
+    )
+    (snowball
+      (x 128)
+      (y 3296)
+    )
+    (snowball
+      (x 64)
+      (y 3296)
+    )
+    (spawnpoint
+      (name "main")
+      (x 736)
+      (y 9568)
     )
     (tilemap
       (solid #t)
@@ -1182,315 +1467,6 @@
       131 131 131 131 131 131 131
       )
     )
-    (trampoline
-      (x 608)
-      (y 9600)
-    )
-    (trampoline
-      (x 576)
-      (y 9024)
-    )
-    (snowball
-      (x 544)
-      (y 8160)
-    )
-    (flyingsnowball
-      (x 416)
-      (y 8128)
-    )
-    (flyingsnowball
-      (x 352)
-      (y 7776)
-    )
-    (flyingsnowball
-      (x 544)
-      (y 7712)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 576)
-          (y 7264)
-          (time 2)
-        )
-        (node
-          (x 352)
-          (y 7264)
-          (time 3)
-        )
-        (node
-          (x 352)
-          (y 6944)
-          (time 3)
-        )
-        (node
-          (x 352)
-          (y 7264)
-          (time 2)
-        )
-      )
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 672)
-          (y 6880)
-          (time 3)
-        )
-        (node
-          (x 672)
-          (y 6208)
-          (time 3)
-        )
-      )
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 416)
-          (y 6262)
-          (time 4)
-        )
-        (node
-          (x 256)
-          (y 6048)
-          (time 4)
-        )
-      )
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 384)
-          (y 5984)
-          (time 3)
-        )
-        (node
-          (x 608)
-          (y 5984)
-          (time 3)
-        )
-      )
-    )
-    (flyingsnowball
-      (x 256)
-      (y 5696)
-    )
-    (flyingsnowball
-      (x 224)
-      (y 5696)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 608)
-          (y 5376)
-          (time 4)
-        )
-        (node
-          (x 224)
-          (y 5376)
-          (time 4)
-        )
-      )
-    )
-    (trampoline
-      (x 768)
-      (y 5344)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 544)
-          (y 4960)
-          (time 3)
-        )
-        (node
-          (x 256)
-          (y 4960)
-          (time 3)
-        )
-      )
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 544)
-          (y 4704)
-          (time 3)
-        )
-        (node
-          (x 288)
-          (y 4704)
-          (time 3)
-        )
-      )
-    )
-    (darttrap
-      (initial-delay 0)
-      (fire-delay 5)
-      (ammo -1)
-      (direction "right")
-      (x 192)
-      (y 4640)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 672)
-          (y 4384)
-          (time 2)
-        )
-        (node
-          (x 672)
-          (y 4672)
-          (time 2)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "gate1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 288)
-          (y 4256)
-        )
-        (node
-          (x 544)
-          (y 4288)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "gate2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 288)
-          (y 4160)
-        )
-        (node
-          (x 448)
-          (y 4192)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "gate3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 288)
-          (y 4064)
-          (time 2)
-        )
-        (node
-          (x 352)
-          (y 4096)
-          (time 2)
-        )
-      )
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 672)
-          (y 3328)
-          (time 4)
-        )
-        (node
-          (x 672)
-          (y 4000)
-          (time 4)
-        )
-      )
-    )
-    (mrbomb
-      (x 512)
-      (y 3296)
-    )
-    (mriceblock
-      (x 320)
-      (y 3296)
-    )
-    (snowball
-      (x 192)
-      (y 3296)
-    )
-    (snowball
-      (x 128)
-      (y 3296)
-    )
-    (snowball
-      (x 64)
-      (y 3296)
-    )
-    (trampoline
-      (x 96)
-      (y 2560)
-    )
-    (dispenser
-      (cycle 6)
-      (type "rocketlauncher")
-      (badguy "kamikazesnowball")
-      (direction "left")
-      (x 736)
-      (y 2880)
-    )
-    (dispenser
-      (cycle 4)
-      (type "rocketlauncher")
-      (badguy "kamikazesnowball")
-      (direction "right")
-      (x 128)
-      (y 2720)
-    )
-    (flyingsnowball
-      (x 304)
-      (y 2176)
-    )
-    (dispenser
-      (cycle 4)
-      (type "rocketlauncher")
-      (badguy "kamikazesnowball")
-      (direction "left")
-      (x 768)
-      (y 1152)
-    )
-    (trampoline
-      (x 480)
-      (y 1248)
-    )
-    (dispenser
-      (cycle 4)
-      (type "rocketlauncher")
-      (badguy "kamikazesnowball")
-      (direction "right")
-      (x 320)
-      (y 1536)
-    )
-    (trampoline
-      (x 624)
-      (y 1024)
-    )
-    (sspiky
-      (direction "right")
-      (x 464)
-      (y 480)
-    )
     (tilemap
       (solid #f)
       (z-pos 100)
@@ -1991,27 +1967,106 @@
       0 0 0 0 152 153 153 153 153 153 153 153 153 153 153 153 153 153 153 154 0 0 0 0 0
       )
     )
+    (trampoline
+      (x 608)
+      (y 9600)
+    )
+    (trampoline
+      (x 576)
+      (y 9024)
+    )
+    (trampoline
+      (x 768)
+      (y 5344)
+    )
+    (trampoline
+      (x 96)
+      (y 2560)
+    )
+    (trampoline
+      (x 480)
+      (y 1248)
+    )
+    (trampoline
+      (x 624)
+      (y 1024)
+    )
   )
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
     (init-script "open_gate <- false;")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
       (image "images/background/bluemountain-middle.png")
       (image-bottom "images/background/bluemountain-bottom.png")
     )
+    (camera
+      (mode "normal")
+    )
     (particles-clouds
     )
-    (spawnpoint
-      (name "main")
+    (darttrap
+      (initial-delay 0)
+      (fire-delay 3)
+      (ammo -1)
+      (direction "left")
+      (x 598)
+      (y 4640)
+    )
+    (decal
+      (z-pos -100)
+      (sprite "images/tiles/goal/exitbg.png")
+      (x 480)
+      (y 320)
+    )
+    (decal
+      (z-pos 100)
+      (sprite "images/tiles/goal/exitfg.png")
+      (x 576)
+      (y 320)
+    )
+    (dispenser
+      (cycle 4)
+      (type "rocketlauncher")
+      (badguy "kamikazesnowball")
+      (direction "right")
       (x 32)
-      (y 9568)
+      (y 2880)
+    )
+    (dispenser
+      (cycle 2)
+      (type "rocketlauncher")
+      (badguy "kamikazesnowball")
+      (direction "left")
+      (x 576)
+      (y 2720)
+    )
+    (dispenser
+      (cycle 3.5)
+      (type "rocketlauncher")
+      (badguy "kamikazesnowball")
+      (direction "right")
+      (x 0)
+      (y 1152)
+    )
+    (dispenser
+      (cycle 2)
+      (type "rocketlauncher")
+      (badguy "kamikazesnowball")
+      (direction "right")
+      (x 288)
+      (y 1248)
+    )
+    (dispenser
+      (cycle 2)
+      (type "rocketlauncher")
+      (badguy "kamikazesnowball")
+      (direction "left")
+      (x 448)
+      (y 1536)
     )
     (door
       (sector "bottom")
@@ -2023,12 +2078,298 @@
       (x 32)
       (y 7648)
     )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 192)
-      (height 96)
-      (x 512)
-      (y 6560)
+    (firefly
+      (x 16)
+      (y 5792)
+    )
+    (firefly
+      (x 528)
+      (y 3936)
+    )
+    (platform
+      (running #f)
+      (name "uppipe")
+      (sprite "images/objects/platforms/small.sprite")
+      (path
+        (node
+          (x 672)
+          (y 6720)
+          (time 3)
+        )
+        (node
+          (x 672)
+          (y 3680)
+          (time 3)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "topgate")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path
+        (node
+          (x 608)
+          (y 3616)
+        )
+        (node
+          (x 496)
+          (y 3680)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "botgate")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path
+        (node
+          (x 608)
+          (y 3648)
+        )
+        (node
+          (x 544)
+          (y 3680)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 320)
+          (y 7264)
+          (time 3)
+        )
+        (node
+          (x 320)
+          (y 6944)
+          (time 3)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 0)
+          (y 6880)
+          (time 4)
+        )
+        (node
+          (x 0)
+          (y 6240)
+          (time 4)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 256)
+          (y 6240)
+          (time 2)
+        )
+        (node
+          (x 416)
+          (y 6080)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 288)
+          (y 5984)
+          (time 4)
+        )
+        (node
+          (x 64)
+          (y 5984)
+          (time 4)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 64)
+          (y 5376)
+          (time 4)
+        )
+        (node
+          (x 448)
+          (y 5376)
+          (time 4)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 128)
+          (y 4960)
+          (time 3)
+        )
+        (node
+          (x 416)
+          (y 4960)
+          (time 3)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 128)
+          (y 4704)
+          (time 3)
+        )
+        (node
+          (x 384)
+          (y 4704)
+          (time 3)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 0)
+          (y 4384)
+        )
+        (node
+          (x 0)
+          (y 4640)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "gate1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path
+        (node
+          (x 480)
+          (y 4256)
+        )
+        (node
+          (x 480)
+          (y 4288)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "gate2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path
+        (node
+          (x 544)
+          (y 4160)
+        )
+        (node
+          (x 544)
+          (y 4192)
+          (time 0.1)
+        )
+        (node
+          (x 352)
+          (y 4192)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "gate3")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path
+        (node
+          (x 576)
+          (y 4064)
+          (time 2)
+        )
+        (node
+          (x 576)
+          (y 4096)
+          (time 0.1)
+        )
+        (node
+          (x 352)
+          (y 4064)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path
+        (node
+          (x 0)
+          (y 3328)
+          (time 4)
+        )
+        (node
+          (x 0)
+          (y 4000)
+          (time 4)
+        )
+      )
+    )
+    (flyingsnowball
+      (x 224)
+      (y 8160)
+    )
+    (flyingsnowball
+      (x 352)
+      (y 8128)
+    )
+    (flyingsnowball
+      (x 480)
+      (y 8096)
+    )
+    (flyingsnowball
+      (x 416)
+      (y 7776)
+    )
+    (flyingsnowball
+      (x 224)
+      (y 7712)
+    )
+    (jumpy
+      (x 560)
+      (y 2176)
+    )
+    (jumpy
+      (x 496)
+      (y 2176)
+    )
+    (jumpy
+      (x 256)
+      (y 2080)
+    )
+    (mrbomb
+      (x 256)
+      (y 3296)
+    )
+    (mrbomb
+      (x 384)
+      (y 2624)
+    )
+    (mrbomb
+      (x 224)
+      (y 2976)
+    )
+    (mriceblock
+      (x 448)
+      (y 3296)
     )
     (scripttrigger
       (script "uppipe.goto_node(1);")
@@ -2049,14 +2390,6 @@
       (x 672)
       (y 3648)
     )
-    (firefly
-      (x 16)
-      (y 5792)
-    )
-    (firefly
-      (x 528)
-      (y 3936)
-    )
     (scripttrigger
       (script "if (!open_gate) {
         open_gate <- true;
@@ -2074,6 +2407,50 @@
       (height 128)
       (x 144)
       (y 4256)
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 192)
+      (height 96)
+      (x 512)
+      (y 6560)
+    )
+    (sspiky
+      (direction "left")
+      (x 304)
+      (y 480)
+    )
+    (snowball
+      (x 576)
+      (y 3296)
+    )
+    (snowball
+      (x 640)
+      (y 3296)
+    )
+    (snowball
+      (x 704)
+      (y 3296)
+    )
+    (spawnpoint
+      (name "main")
+      (x 32)
+      (y 9568)
+    )
+    (spidermite
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 512)
+      (y 5696)
+    )
+    (spidermite
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 544)
+      (y 5696)
+    )
+    (spidermite
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 320)
+      (y 4862)
     )
     (tilemap
       (solid #t)
@@ -2387,524 +2764,6 @@
       11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11
       11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11
       )
-    )
-    (platform
-      (running #f)
-      (name "uppipe")
-      (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 672)
-          (y 6720)
-          (time 3)
-        )
-        (node
-          (x 672)
-          (y 3680)
-          (time 3)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "topgate")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 608)
-          (y 3616)
-        )
-        (node
-          (x 496)
-          (y 3680)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "botgate")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 608)
-          (y 3648)
-        )
-        (node
-          (x 544)
-          (y 3680)
-        )
-      )
-    )
-    (trampoline
-      (portable #f)
-      (x 160)
-      (y 9600)
-    )
-    (trampoline
-      (portable #f)
-      (x 192)
-      (y 9056)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 352)
-      (y 8832)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 384)
-      (y 8832)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 448)
-      (y 8832)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 144)
-      (y 8544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 196)
-      (y 8544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 248)
-      (y 8544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 300)
-      (y 8544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 356)
-      (y 8544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 404)
-      (y 8544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 456)
-      (y 8544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 508)
-      (y 8544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 560)
-      (y 8544)
-    )
-    (flyingsnowball
-      (x 224)
-      (y 8160)
-    )
-    (flyingsnowball
-      (x 352)
-      (y 8128)
-    )
-    (flyingsnowball
-      (x 480)
-      (y 8096)
-    )
-    (flyingsnowball
-      (x 416)
-      (y 7776)
-    )
-    (flyingsnowball
-      (x 224)
-      (y 7712)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 320)
-          (y 7264)
-          (time 3)
-        )
-        (node
-          (x 320)
-          (y 6944)
-          (time 3)
-        )
-      )
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 144)
-      (y 6912)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 176)
-      (y 6912)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 0)
-          (y 6880)
-          (time 4)
-        )
-        (node
-          (x 0)
-          (y 6240)
-          (time 4)
-        )
-      )
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 256)
-          (y 6240)
-          (time 2)
-        )
-        (node
-          (x 416)
-          (y 6080)
-          (time 2)
-        )
-      )
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 288)
-          (y 5984)
-          (time 4)
-        )
-        (node
-          (x 64)
-          (y 5984)
-          (time 4)
-        )
-      )
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 240)
-      (y 5728)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 304)
-      (y 5728)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 368)
-      (y 5728)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 432)
-      (y 5728)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 496)
-      (y 5728)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 544)
-      (y 5728)
-    )
-    (spidermite
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (x 512)
-      (y 5696)
-    )
-    (spidermite
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (x 544)
-      (y 5696)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 64)
-          (y 5376)
-          (time 4)
-        )
-        (node
-          (x 448)
-          (y 5376)
-          (time 4)
-        )
-      )
-    )
-    (trampoline
-      (portable #f)
-      (x 0)
-      (y 5344)
-    )
-    (spidermite
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (x 320)
-      (y 4862)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 128)
-          (y 4960)
-          (time 3)
-        )
-        (node
-          (x 416)
-          (y 4960)
-          (time 3)
-        )
-      )
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 128)
-          (y 4704)
-          (time 3)
-        )
-        (node
-          (x 384)
-          (y 4704)
-          (time 3)
-        )
-      )
-    )
-    (darttrap
-      (initial-delay 0)
-      (fire-delay 3)
-      (ammo -1)
-      (direction "left")
-      (x 598)
-      (y 4640)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 0)
-          (y 4384)
-        )
-        (node
-          (x 0)
-          (y 4640)
-        )
-      )
-    )
-    (zeekling
-      (x 512)
-      (y 4256)
-    )
-    (zeekling
-      (x 576)
-      (y 4160)
-    )
-    (zeekling
-      (x 608)
-      (y 4064)
-    )
-    (weak_block
-      (x 640)
-      (y 4048)
-    )
-    (platform
-      (running #f)
-      (name "gate1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 480)
-          (y 4256)
-        )
-        (node
-          (x 480)
-          (y 4288)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "gate2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 544)
-          (y 4160)
-        )
-        (node
-          (x 544)
-          (y 4192)
-          (time 0.1)
-        )
-        (node
-          (x 352)
-          (y 4192)
-        )
-      )
-    )
-    (platform
-      (running #f)
-      (name "gate3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 576)
-          (y 4064)
-          (time 2)
-        )
-        (node
-          (x 576)
-          (y 4096)
-          (time 0.1)
-        )
-        (node
-          (x 352)
-          (y 4064)
-          (time 2)
-        )
-      )
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 0)
-          (y 3328)
-          (time 4)
-        )
-        (node
-          (x 0)
-          (y 4000)
-          (time 4)
-        )
-      )
-    )
-    (mrbomb
-      (x 256)
-      (y 3296)
-    )
-    (mriceblock
-      (x 448)
-      (y 3296)
-    )
-    (snowball
-      (x 576)
-      (y 3296)
-    )
-    (snowball
-      (x 640)
-      (y 3296)
-    )
-    (snowball
-      (x 704)
-      (y 3296)
-    )
-    (mrbomb
-      (x 384)
-      (y 2624)
-    )
-    (mrbomb
-      (x 224)
-      (y 2976)
-    )
-    (trampoline
-      (portable #f)
-      (x 672)
-      (y 2560)
-    )
-    (dispenser
-      (cycle 4)
-      (type "rocketlauncher")
-      (badguy "kamikazesnowball")
-      (direction "right")
-      (x 32)
-      (y 2880)
-    )
-    (dispenser
-      (cycle 2)
-      (type "rocketlauncher")
-      (badguy "kamikazesnowball")
-      (direction "left")
-      (x 576)
-      (y 2720)
-    )
-    (jumpy
-      (x 560)
-      (y 2176)
-    )
-    (jumpy
-      (x 496)
-      (y 2176)
-    )
-    (jumpy
-      (x 256)
-      (y 2080)
-    )
-    (dispenser
-      (cycle 3.5)
-      (type "rocketlauncher")
-      (badguy "kamikazesnowball")
-      (direction "right")
-      (x 0)
-      (y 1152)
-    )
-    (dispenser
-      (cycle 2)
-      (type "rocketlauncher")
-      (badguy "kamikazesnowball")
-      (direction "right")
-      (x 288)
-      (y 1248)
-    )
-    (dispenser
-      (cycle 2)
-      (type "rocketlauncher")
-      (badguy "kamikazesnowball")
-      (direction "left")
-      (x 448)
-      (y 1536)
-    )
-    (trampoline
-      (portable #f)
-      (x 144)
-      (y 1024)
-    )
-    (sspiky
-      (direction "left")
-      (x 304)
-      (y 480)
-    )
-    (decal
-      (z-pos -100)
-      (sprite "images/tiles/goal/exitbg.png")
-      (x 480)
-      (y 320)
-    )
-    (decal
-      (z-pos 100)
-      (sprite "images/tiles/goal/exitfg.png")
-      (x 576)
-      (y 320)
     )
     (tilemap
       (solid #f)
@@ -4393,6 +4252,147 @@
       131 131 131 131 131 131 131 131
       131 131 131 131 131 131 131 131
       )
+    )
+    (trampoline
+      (portable #f)
+      (x 160)
+      (y 9600)
+    )
+    (trampoline
+      (portable #f)
+      (x 192)
+      (y 9056)
+    )
+    (trampoline
+      (portable #f)
+      (x 0)
+      (y 5344)
+    )
+    (trampoline
+      (portable #f)
+      (x 672)
+      (y 2560)
+    )
+    (trampoline
+      (portable #f)
+      (x 144)
+      (y 1024)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 352)
+      (y 8832)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 384)
+      (y 8832)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 448)
+      (y 8832)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 144)
+      (y 8544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 196)
+      (y 8544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 248)
+      (y 8544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 300)
+      (y 8544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 356)
+      (y 8544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 404)
+      (y 8544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 456)
+      (y 8544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 508)
+      (y 8544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 560)
+      (y 8544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 144)
+      (y 6912)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 176)
+      (y 6912)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 240)
+      (y 5728)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 304)
+      (y 5728)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 368)
+      (y 5728)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 432)
+      (y 5728)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 496)
+      (y 5728)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 544)
+      (y 5728)
+    )
+    (weak_block
+      (x 640)
+      (y 4048)
+    )
+    (zeekling
+      (x 512)
+      (y 4256)
+    )
+    (zeekling
+      (x 576)
+      (y 4160)
+    )
+    (zeekling
+      (x 608)
+      (y 4064)
     )
   )
 )

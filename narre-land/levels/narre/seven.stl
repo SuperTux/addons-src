@@ -15,6 +15,26 @@
     (camera
       (mode "normal")
     )
+    (crystallo
+      (x 2016)
+      (y 352)
+    )
+    (crystallo
+      (x 2304)
+      (y 576)
+    )
+    (crystallo
+      (x 2048)
+      (y 544)
+    )
+    (crystallo
+      (x 1856)
+      (y 576)
+    )
+    (crystallo
+      (x 416)
+      (y 352)
+    )
     (firefly
       (x 3168)
       (y 704)
@@ -87,26 +107,6 @@
           (y 672)
         )
       )
-    )
-    (crystallo
-      (x 2016)
-      (y 352)
-    )
-    (crystallo
-      (x 2304)
-      (y 576)
-    )
-    (crystallo
-      (x 2048)
-      (y 544)
-    )
-    (crystallo
-      (x 1856)
-      (y 576)
-    )
-    (crystallo
-      (x 416)
-      (y 352)
     )
     (jumpy
       (x 96)

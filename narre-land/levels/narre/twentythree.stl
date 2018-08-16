@@ -16,6 +16,19 @@
     (camera
       (mode "normal")
     )
+    (scripttrigger
+      (script "Level.spawn(\"exit\",\"main\")")
+      (button #f)
+      (width 32)
+      (height 236)
+      (x -32)
+      (y 596)
+    )
+    (spawnpoint
+      (name "main")
+      (x 5024)
+      (y 928)
+    )
     (spidermite
       (x 416)
       (y 832)
@@ -151,19 +164,6 @@
     (spidermite
       (x 544)
       (y 832)
-    )
-    (scripttrigger
-      (script "Level.spawn(\"exit\",\"main\")")
-      (button #f)
-      (width 32)
-      (height 236)
-      (x -32)
-      (y 596)
-    )
-    (spawnpoint
-      (name "main")
-      (x 5024)
-      (y 928)
     )
     (tilemap
       (solid #f)

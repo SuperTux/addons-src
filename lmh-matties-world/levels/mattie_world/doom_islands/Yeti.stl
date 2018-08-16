@@ -12,19 +12,42 @@
     (camera
       (mode "normal")
     )
+    (dispenser
+      (cycle 7)
+      (type "cannon")
+      (badguy "bouncingsnowball")
+      (direction "right")
+      (x 352)
+      (y 96)
+    )
+    (dispenser
+      (cycle 6.5)
+      (type "cannon")
+      (badguy "bouncingsnowball")
+      (direction "left")
+      (x 1216)
+      (y 96)
+    )
     (gradient
       (top_color 0 0 0)
       (bottom_color 0.4 0.4 0.4)
+    )
+    (rock
+      (x 777)
+      (y 32)
+    )
+    (rock
+      (x 902)
+      (y 33)
+    )
+    (rock
+      (x 939)
+      (y 34)
     )
     (spawnpoint
       (name "main")
       (x 624)
       (y 0)
-    )
-    (yeti
-      (dead-script "sector.Tux.trigger_sequence(\"fireworks\");")
-      (x 64)
-      (y 320)
     )
     (yeti_stalactite
       (x 48)
@@ -50,26 +73,6 @@
       (x 208)
       (y 224)
     )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 576)
-      (y 544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 608)
-      (y 544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 640)
-      (y 544)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 672)
-      (y 544)
-    )
     (yeti_stalactite
       (x 1040)
       (y 224)
@@ -93,34 +96,6 @@
     (yeti_stalactite
       (x 1200)
       (y 224)
-    )
-    (dispenser
-      (cycle 7)
-      (type "cannon")
-      (badguy "bouncingsnowball")
-      (direction "right")
-      (x 352)
-      (y 96)
-    )
-    (dispenser
-      (cycle 6.5)
-      (type "cannon")
-      (badguy "bouncingsnowball")
-      (direction "left")
-      (x 1216)
-      (y 96)
-    )
-    (rock
-      (x 777)
-      (y 32)
-    )
-    (rock
-      (x 902)
-      (y 33)
-    )
-    (rock
-      (x 939)
-      (y 34)
     )
     (tilemap
       (solid #t)
@@ -189,6 +164,31 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 576)
+      (y 544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 608)
+      (y 544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 640)
+      (y 544)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 672)
+      (y 544)
+    )
+    (yeti
+      (dead-script "sector.Tux.trigger_sequence(\"fireworks\");")
+      (x 64)
+      (y 320)
     )
   )
 )

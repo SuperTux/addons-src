@@ -16,6 +16,30 @@
     (camera
       (mode "normal")
     )
+    (haywire
+      (x 4160)
+      (y 288)
+    )
+    (haywire
+      (x 2400)
+      (y 480)
+    )
+    (haywire
+      (x 2752)
+      (y 384)
+    )
+    (haywire
+      (x 3200)
+      (y 256)
+    )
+    (haywire
+      (x 3680)
+      (y 1280)
+    )
+    (haywire
+      (x 3200)
+      (y 1376)
+    )
     (jumpy
       (x 1312)
       (y 1184)
@@ -56,25 +80,9 @@
       (x 1888)
       (y 288)
     )
-    (haywire
-      (x 4160)
-      (y 288)
-    )
-    (haywire
-      (x 2400)
-      (y 480)
-    )
-    (haywire
-      (x 2752)
-      (y 384)
-    )
     (mrbomb
       (x 4000)
       (y 288)
-    )
-    (haywire
-      (x 3200)
-      (y 256)
     )
     (mrbomb
       (x 4608)
@@ -88,10 +96,6 @@
       (x 6240)
       (y 1344)
     )
-    (haywire
-      (x 3680)
-      (y 1280)
-    )
     (mrbomb
       (x 2304)
       (y 1312)
@@ -103,10 +107,6 @@
     (mrbomb
       (x 3872)
       (y 1280)
-    )
-    (haywire
-      (x 3200)
-      (y 1376)
     )
     (mrbomb
       (x 2976)

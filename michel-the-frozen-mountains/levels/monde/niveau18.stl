@@ -105,6 +105,22 @@
       (x 11237)
       (y 264)
     )
+    (smartball
+      (x 6403)
+      (y 358)
+    )
+    (smartball
+      (x 4643)
+      (y 486)
+    )
+    (smartball
+      (x 10371)
+      (y 166)
+    )
+    (smartball
+      (x 10819)
+      (y 134)
+    )
     (scripttrigger
       (script "secret.set_alpha(1);")
       (button #f)
@@ -132,22 +148,6 @@
       (height 44)
       (x 12608)
       (y 180)
-    )
-    (smartball
-      (x 6403)
-      (y 358)
-    )
-    (smartball
-      (x 4643)
-      (y 486)
-    )
-    (smartball
-      (x 10371)
-      (y 166)
-    )
-    (smartball
-      (x 10819)
-      (y 134)
     )
     (snowball
       (x 10275)

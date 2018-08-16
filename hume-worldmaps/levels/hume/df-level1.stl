@@ -76,10 +76,6 @@
         )
       )
     )
-    (spidermite
-      (x 4544)
-      (y 736)
-    )
     (mole
       (x 4544)
       (y 1024)
@@ -170,6 +166,10 @@
       (name "secret")
       (x 32)
       (y 448)
+    )
+    (spidermite
+      (x 4544)
+      (y 736)
     )
     (stumpy
       (x 3712)

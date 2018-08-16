@@ -503,6 +503,14 @@
       (x 1701)
       (y 360)
     )
+    (smartball
+      (x 4355)
+      (y 550)
+    )
+    (smartball
+      (x 11459)
+      (y 454)
+    )
     (scripttrigger
       (script "secret.set_alpha(1.0)")
       (button #f)
@@ -537,14 +545,6 @@
       (height 44)
       (x 12608)
       (y 180)
-    )
-    (smartball
-      (x 4355)
-      (y 550)
-    )
-    (smartball
-      (x 11459)
-      (y 454)
     )
     (snowball
       (x 835)

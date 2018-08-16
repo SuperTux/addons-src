@@ -22,10 +22,6 @@ unlock_archivement(\"ag\")")
       (image "images/background/bridgeocean-fade.png")
       (z-pos -195)
     )
-    (gradient
-      (top_color 0 0 0)
-      (bottom_color 0.003921569 0.003921569 0.003921569)
-    )
     (camera
       (mode "normal")
     )
@@ -39,6 +35,10 @@ unlock_archivement(\"ag\")")
       (name "c1")
       (x 352)
       (y 608)
+    )
+    (gradient
+      (top_color 0 0 0)
+      (bottom_color 0.003921569 0.003921569 0.003921569)
     )
     (scripttrigger
       (script "this.notarch <- true

@@ -84,27 +84,6 @@
       (x 2437)
       (y 104)
     )
-    (secretarea
-      (fade-tilemap "cache")
-      (width 32)
-      (height 108)
-      (x 10400)
-      (y 84)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 60)
-      (x 3168)
-      (y 160)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 204)
-      (x 2816)
-      (y 20)
-    )
     (smartball
       (x 11779)
       (y 326)
@@ -144,6 +123,27 @@
     (smartball
       (x 2179)
       (y 102)
+    )
+    (secretarea
+      (fade-tilemap "cache")
+      (width 32)
+      (height 108)
+      (x 10400)
+      (y 84)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 60)
+      (x 3168)
+      (y 160)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 204)
+      (x 2816)
+      (y 20)
     )
     (snowball
       (x 5219)

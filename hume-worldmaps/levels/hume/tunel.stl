@@ -251,10 +251,6 @@
       (image "images/background/bridgeocean-fade.png")
       (z-pos -195)
     )
-    (gradient
-      (top_color 0 0 0)
-      (bottom_color 0.003921569 0.003921569 0.003921569)
-    )
     (camera
       (mode "normal")
     )
@@ -274,6 +270,10 @@
       (sprite "images/objects/resetpoints/vbell.sprite")
       (x 2784)
       (y 800)
+    )
+    (gradient
+      (top_color 0 0 0)
+      (bottom_color 0.003921569 0.003921569 0.003921569)
     )
     (infoblock
       (message (_ "#Boss is behind that door."))

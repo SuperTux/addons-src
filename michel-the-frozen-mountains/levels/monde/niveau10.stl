@@ -276,28 +276,6 @@
       (x 2757)
       (y 712)
     )
-    (rock
-      (x 2016)
-      (y 608)
-    )
-    (rock
-      (x 2048)
-      (y 608)
-    )
-    (secretarea
-      (fade-tilemap "cache1")
-      (width 32)
-      (height 200)
-      (x 5216)
-      (y 544)
-    )
-    (secretarea
-      (fade-tilemap "cache2")
-      (width 32)
-      (height 300)
-      (x 128)
-      (y 192)
-    )
     (smartball
       (x 2883)
       (y 966)
@@ -325,6 +303,28 @@
     (smartball
       (x 1347)
       (y 806)
+    )
+    (rock
+      (x 2016)
+      (y 608)
+    )
+    (rock
+      (x 2048)
+      (y 608)
+    )
+    (secretarea
+      (fade-tilemap "cache1")
+      (width 32)
+      (height 200)
+      (x 5216)
+      (y 544)
+    )
+    (secretarea
+      (fade-tilemap "cache2")
+      (width 32)
+      (height 300)
+      (x 128)
+      (y 192)
     )
     (snowball
       (x 643)
@@ -841,20 +841,6 @@ or2.start_moving();")
       (x 22917)
       (y 488)
     )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 492)
-      (x 24928)
-      (y 564)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 76)
-      (x 25408)
-      (y 980)
-    )
     (smartball
       (x 1571)
       (y 390)
@@ -886,6 +872,20 @@ or2.start_moving();")
     (smartball
       (x 24867)
       (y 998)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 492)
+      (x 24928)
+      (y 564)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 76)
+      (x 25408)
+      (y 980)
     )
     (spawnpoint
       (name "main")

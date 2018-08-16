@@ -12,27 +12,10 @@
       (speed 0.5)
       (image "images/background/cave2.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 1504)
-      (y 3904)
-    )
-    (smartball
-      (x 1312)
-      (y 800)
-    )
-    (smartball
-      (x 1280)
-      (y 992)
-    )
     (bouncingsnowball
       (x 1408)
       (y 1148)
     )
-    (mriceblock
-      (x 1344)
-      (y 1312)
-    )
     (flyingsnowball
       (x 1120)
       (y 2048)
@@ -48,18 +31,6 @@
     (flyingsnowball
       (x 1248)
       (y 2304)
-    )
-    (smartball
-      (x 1248)
-      (y 2528)
-    )
-    (jumpy
-      (x 1240)
-      (y 2848)
-    )
-    (snowball
-      (x 854)
-      (y 2784)
     )
     (flyingsnowball
       (x 624)
@@ -69,108 +40,47 @@
       (x 624)
       (y 3232)
     )
-    (smartball
-      (x 832)
-      (y 3104)
-    )
-    (mrbomb
-      (x 896)
-      (y 3296)
-    )
-    (spiky
+    (invisible_wall
+      (width 32)
+      (height 476)
       (x 960)
-      (y 3296)
+      (y 0)
     )
-    (spiky
-      (x 1088)
-      (y 3296)
-    )
-    (spiky
-      (x 1152)
-      (y 3296)
-    )
-    (mriceblock
-      (x 1216)
-      (y 3296)
-    )
-    (snowball
-      (x 1312)
-      (y 3648)
-    )
-    (spiky
-      (x 1120)
-      (y 4000)
-    )
-    (spiky
-      (x 896)
-      (y 4000)
-    )
-    (spiky
-      (x 960)
-      (y 4000)
-    )
-    (spiky
-      (x 1152)
-      (y 4000)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 832)
-      (y 3744)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 864)
-      (y 3744)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 896)
-      (y 3744)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 928)
-      (y 3744)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 960)
-      (y 3808)
+    (jumpy
+      (x 1240)
+      (y 2848)
     )
     (jumpy
       (x 992)
       (y 3776)
     )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 992)
-      (y 3808)
+    (mrbomb
+      (x 896)
+      (y 3296)
     )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 1024)
-      (y 3808)
+    (mriceblock
+      (x 1344)
+      (y 1312)
     )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 1056)
-      (y 3808)
+    (mriceblock
+      (x 1216)
+      (y 3296)
     )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 1088)
-      (y 3808)
+    (smartball
+      (x 1312)
+      (y 800)
     )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 1120)
-      (y 3808)
+    (smartball
+      (x 1280)
+      (y 992)
     )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 1152)
-      (y 3808)
+    (smartball
+      (x 1248)
+      (y 2528)
+    )
+    (smartball
+      (x 832)
+      (y 3104)
     )
     (powerup
       (script "       find(\"earthcrystal\"); Tux.trigger_sequence(\"endsequence\"); Tux.deactivate();        ")
@@ -179,11 +89,58 @@
       (x 1424)
       (y 384)
     )
-    (invisible_wall
+    (scripttrigger
+      (script "      Tux.deactivate();
+                                        pipedrop.goto_node(1);
+                                        wait(   1       );
+                                        pipedrop.goto_node(0);
+                                        Tux.activate(); ")
+      (button #t)
       (width 32)
-      (height 476)
+      (height 64)
+      (x 1456)
+      (y 1248)
+    )
+    (snowball
+      (x 854)
+      (y 2784)
+    )
+    (snowball
+      (x 1312)
+      (y 3648)
+    )
+    (spawnpoint
+      (name "main")
+      (x 1504)
+      (y 3904)
+    )
+    (spiky
       (x 960)
-      (y 0)
+      (y 3296)
+    )
+    (spiky
+      (x 1088)
+      (y 3296)
+    )
+    (spiky
+      (x 1152)
+      (y 3296)
+    )
+    (spiky
+      (x 1120)
+      (y 4000)
+    )
+    (spiky
+      (x 896)
+      (y 4000)
+    )
+    (spiky
+      (x 960)
+      (y 4000)
+    )
+    (spiky
+      (x 1152)
+      (y 4000)
     )
     (tilemap
       (solid #f)
@@ -776,18 +733,6 @@
       1311 1311
       )
     )
-    (scripttrigger
-      (script "      Tux.deactivate();
-                                        pipedrop.goto_node(1);
-                                        wait(   1       );
-                                        pipedrop.goto_node(0);
-                                        Tux.activate(); ")
-      (button #t)
-      (width 32)
-      (height 64)
-      (x 1456)
-      (y 1248)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -814,6 +759,61 @@
       (tiles
       2817 2817
       )
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 832)
+      (y 3744)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 864)
+      (y 3744)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 896)
+      (y 3744)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 928)
+      (y 3744)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 960)
+      (y 3808)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 992)
+      (y 3808)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 1024)
+      (y 3808)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 1056)
+      (y 3808)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 1088)
+      (y 3808)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 1120)
+      (y 3808)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 1152)
+      (y 3808)
     )
   )
 )

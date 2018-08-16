@@ -8,9 +8,6 @@
     (name "main")
     (music "music/chipdisko.ogg")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (alignment "bottom")
       (speed 0.13)
@@ -38,83 +35,36 @@
       (image "images/background/arcticskies4.png")
       (z-pos 400)
     )
-    (particles-snow
-    )
-    (spawnpoint
-      (name "main")
-      (x 32)
-      (y 352)
-    )
-    (secretarea
-      (width 192)
-      (height 192)
-      (x 1632)
-      (y 704)
-    )
-    (trampoline
-      (portable #f)
-      (x 1952)
-      (y 864)
-    )
-    (snowball
-      (x 608)
-      (y 256)
-    )
-    (jumpy
-      (x 656)
-      (y 192)
-    )
-    (snowball
-      (x 1216)
-      (y 160)
-    )
-    (smartball
-      (x 1824)
-      (y 448)
-    )
-    (flyingsnowball
-      (x 1952)
-      (y 352)
-    )
-    (mriceblock
-      (x 2656)
-      (y 544)
-    )
-    (smartball
-      (x 2752)
-      (y 320)
-    )
-    (smartball
-      (x 2976)
-      (y 480)
-    )
     (bouncingsnowball
       (x 3776)
       (y 832)
-    )
-    (flyingsnowball
-      (x 3872)
-      (y 448)
-    )
-    (smartball
-      (x 4192)
-      (y 384)
-    )
-    (flyingsnowball
-      (x 4672)
-      (y 384)
-    )
-    (mrbomb
-      (x 5216)
-      (y 480)
     )
     (bouncingsnowball
       (x 5568)
       (y 384)
     )
+    (camera
+      (mode "normal")
+    )
+    (flyingsnowball
+      (x 1952)
+      (y 352)
+    )
+    (flyingsnowball
+      (x 3872)
+      (y 448)
+    )
+    (flyingsnowball
+      (x 4672)
+      (y 384)
+    )
     (flyingsnowball
       (x 5664)
       (y 384)
+    )
+    (jumpy
+      (x 656)
+      (y 192)
     )
     (jumpy
       (x 6080)
@@ -124,17 +74,126 @@
       (x 6144)
       (y 528)
     )
-    (mrbomb
-      (x 6912)
-      (y 736)
-    )
     (jumpy
       (x 7328)
       (y 864)
     )
+    (mrbomb
+      (x 5216)
+      (y 480)
+    )
+    (mrbomb
+      (x 6912)
+      (y 736)
+    )
+    (mriceblock
+      (x 2656)
+      (y 544)
+    )
+    (smartball
+      (x 1824)
+      (y 448)
+    )
+    (smartball
+      (x 2752)
+      (y 320)
+    )
+    (smartball
+      (x 2976)
+      (y 480)
+    )
+    (smartball
+      (x 4192)
+      (y 384)
+    )
+    (rock
+      (x 6048)
+      (y 640)
+    )
+    (rock
+      (x 6080)
+      (y 640)
+    )
+    (rock
+      (x 6112)
+      (y 640)
+    )
+    (rock
+      (x 6144)
+      (y 640)
+    )
+    (rock
+      (x 6176)
+      (y 640)
+    )
+    (rock
+      (x 6064)
+      (y 672)
+    )
+    (rock
+      (x 6096)
+      (y 672)
+    )
+    (rock
+      (x 6128)
+      (y 672)
+    )
+    (rock
+      (x 6160)
+      (y 672)
+    )
+    (rock
+      (x 6080)
+      (y 704)
+    )
+    (rock
+      (x 6112)
+      (y 704)
+    )
+    (rock
+      (x 6144)
+      (y 704)
+    )
+    (rock
+      (x 6096)
+      (y 736)
+    )
+    (rock
+      (x 6128)
+      (y 736)
+    )
+    (rock
+      (x 6112)
+      (y 768)
+    )
+    (rock
+      (x 6112)
+      (y 800)
+    )
+    (secretarea
+      (width 192)
+      (height 192)
+      (x 1632)
+      (y 704)
+    )
+    (snowball
+      (x 608)
+      (y 256)
+    )
+    (snowball
+      (x 1216)
+      (y 160)
+    )
     (snowman
       (x 8128)
       (y 1088)
+    )
+    (particles-snow
+    )
+    (spawnpoint
+      (name "main")
+      (x 32)
+      (y 352)
     )
     (tilemap
       (solid #t)
@@ -282,6 +341,11 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
+    )
+    (trampoline
+      (portable #f)
+      (x 1952)
+      (y 864)
     )
     (weak_block
       (linked #f)
@@ -684,70 +748,6 @@
       (sprite "images/objects/weak_block/meltbox.sprite")
       (x 5664)
       (y 512)
-    )
-    (rock
-      (x 6048)
-      (y 640)
-    )
-    (rock
-      (x 6080)
-      (y 640)
-    )
-    (rock
-      (x 6112)
-      (y 640)
-    )
-    (rock
-      (x 6144)
-      (y 640)
-    )
-    (rock
-      (x 6176)
-      (y 640)
-    )
-    (rock
-      (x 6064)
-      (y 672)
-    )
-    (rock
-      (x 6096)
-      (y 672)
-    )
-    (rock
-      (x 6128)
-      (y 672)
-    )
-    (rock
-      (x 6160)
-      (y 672)
-    )
-    (rock
-      (x 6080)
-      (y 704)
-    )
-    (rock
-      (x 6112)
-      (y 704)
-    )
-    (rock
-      (x 6144)
-      (y 704)
-    )
-    (rock
-      (x 6096)
-      (y 736)
-    )
-    (rock
-      (x 6128)
-      (y 736)
-    )
-    (rock
-      (x 6112)
-      (y 768)
-    )
-    (rock
-      (x 6112)
-      (y 800)
     )
     (weak_block
       (linked #f)

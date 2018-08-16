@@ -811,9 +811,6 @@
       (image "images/background/cave2.jpg")
       (image-bottom "images/background/cave2.jpg")
     )
-    (camera
-      (mode "normal")
-    )
     (bonusblock
       (custom-contents
          (powerup           (script "
@@ -832,6 +829,9 @@ Spikes.set_alpha(1);
       (contents "custom")
       (x 192)
       (y 448)
+    )
+    (camera
+      (mode "normal")
     )
     (powerup
       (script "this.c5 <- true

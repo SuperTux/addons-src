@@ -7,6 +7,507 @@
     (name "main")
     (music "/music/voc-daytime2.music")
     (ambient-light 1 0.87 0.8999999)
+    (bonusblock
+      (script "")
+      (count 5)
+      (sprite "/images/objects/bonus_block/purpleblock.sprite")
+      (x 1440)
+      (y 160)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 4960)
+      (y 576)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 4800)
+      (y 576)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 6976)
+      (y 864)
+    )
+    (camera
+      (mode "normal")
+    )
+    (candle
+      (flicker #f)
+      (x 656)
+      (y 384)
+    )
+    (candle
+      (flicker #f)
+      (x 752)
+      (y 288)
+    )
+    (candle
+      (flicker #f)
+      (x 688)
+      (y 256)
+    )
+    (candle
+      (flicker #f)
+      (x 2288)
+      (y 384)
+    )
+    (candle
+      (flicker #f)
+      (x 2384)
+      (y 320)
+    )
+    (candle
+      (flicker #f)
+      (x 2288)
+      (y 224)
+    )
+    (candle
+      (flicker #f)
+      (x 8080)
+      (y 480)
+    )
+    (candle
+      (flicker #f)
+      (x 8144)
+      (y 288)
+    )
+    (candle
+      (flicker #f)
+      (x 8208)
+      (y 416)
+    )
+    (candle
+      (flicker #f)
+      (x 8112)
+      (y 352)
+    )
+    (candle
+      (flicker #f)
+      (x 9168)
+      (y 480)
+    )
+    (candle
+      (flicker #f)
+      (x 9040)
+      (y 448)
+    )
+    (candle
+      (flicker #f)
+      (x 9168)
+      (y 352)
+    )
+    (candle
+      (flicker #f)
+      (x 9104)
+      (y 256)
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 576)
+          (y 960)
+        )
+        (node
+          (x 640)
+          (y 992)
+        )
+        (node
+          (x 608)
+          (y 1056)
+        )
+        (node
+          (x 544)
+          (y 1024)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 608)
+          (y 1056)
+        )
+        (node
+          (x 544)
+          (y 1024)
+        )
+        (node
+          (x 576)
+          (y 960)
+        )
+        (node
+          (x 640)
+          (y 992)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 544)
+          (y 1024)
+        )
+        (node
+          (x 576)
+          (y 960)
+        )
+        (node
+          (x 640)
+          (y 992)
+        )
+        (node
+          (x 608)
+          (y 1056)
+        )
+      )
+    )
+    (coin
+      (sprite "images/objects/coin/coin.sprite")
+      (path
+        (node
+          (x 640)
+          (y 992)
+        )
+        (node
+          (x 608)
+          (y 1056)
+        )
+        (node
+          (x 544)
+          (y 1024)
+        )
+        (node
+          (x 576)
+          (y 960)
+        )
+      )
+    )
+    (firefly
+      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
+      (x 4672)
+      (y 1088)
+    )
+    (platform
+      (running #f)
+      (name "door")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
+      (path
+        (mode "oneshot")
+        (node
+          (x 4320)
+          (y 1024)
+        )
+        (node
+          (x 4320)
+          (y 896)
+        )
+      )
+    )
+    (gradient
+      (top_color 0.4 0 0.4)
+      (bottom_color 0.8999998 0.5 0)
+    )
+    (haywire
+      (direction "left")
+      (sprite "images/creatures/haywire/haywire.sprite")
+      (x 7808)
+      (y 704)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2080)
+      (y 288)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 8640)
+      (y 512)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 8480)
+      (y 512)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 1536)
+      (y 544)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 3648)
+      (y 512)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 3360)
+      (y 1120)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 5632)
+      (y 1056)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 9984)
+      (y 704)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 832)
+      (y 544)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 960)
+      (y 1152)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5088)
+      (y 1216)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5664)
+      (y 1216)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 4928)
+      (y 1216)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5504)
+      (y 1216)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 1952)
+      (y 992)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 1472)
+      (y 992)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 7200)
+      (y 512)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 10144)
+      (y 448)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 7712)
+      (y 960)
+    )
+    (pushbutton
+      (script "door.goto_node(1);")
+      (sprite "images/objects/pushbutton/pushbutton.sprite")
+      (x 4992)
+      (y 628)
+    )
+    (scripttrigger
+      (script "door.goto_node(1);")
+      (button #f)
+      (width 96)
+      (height 288)
+      (x 4640)
+      (y 896)
+    )
+    (secretarea
+      (fade-tilemap "secret1")
+      (width 704)
+      (height 96)
+      (x 1408)
+      (y 1152)
+    )
+    (secretarea
+      (fade-tilemap "secret2")
+      (width 512)
+      (height 128)
+      (x 5920)
+      (y 544)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 64)
+      (height 640)
+      (x 11136)
+      (y 0)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 640)
+      (x 10496)
+      (y 0)
+    )
+    (sspiky
+      (direction "left")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 4000)
+      (y 1120)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 3968)
+      (y 736)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 4096)
+      (y 736)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 4224)
+      (y 736)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 7872)
+      (y 896)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 7968)
+      (y 832)
+    )
+    (snowman
+      (direction "left")
+      (sprite "images/creatures/snowman/snowman.sprite")
+      (x 2528)
+      (y 480)
+    )
+    (snowman
+      (direction "left")
+      (sprite "images/creatures/snowman/snowman.sprite")
+      (x 2400)
+      (y 480)
+    )
+    (snowman
+      (direction "left")
+      (sprite "images/creatures/snowman/snowman.sprite")
+      (x 9504)
+      (y 544)
+    )
+    (snowman
+      (direction "left")
+      (sprite "images/creatures/snowman/snowman.sprite")
+      (x 7104)
+      (y 1056)
+    )
+    (particles-snow
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 448)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1056)
+      (y 544)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1216)
+      (y 448)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 2912)
+      (y 1152)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 1696)
+      (y 352)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 1376)
+      (y 320)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 672)
+      (y 832)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 736)
+      (y 832)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 2752)
+      (y 896)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 2944)
+      (y 896)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 7104)
+      (y 640)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 7168)
+      (y 640)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 7136)
+      (y 640)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 7200)
+      (y 640)
+    )
     (tilemap
       (solid #f)
       (z-pos -100)
@@ -165,20 +666,6 @@
       11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 2940 2936 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2934 2937 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 10 11 11 19 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
       11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 2941 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2938 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
       )
-    )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 448)
-    )
-    (camera
-      (mode "normal")
-    )
-    (gradient
-      (top_color 0.4 0 0.4)
-      (bottom_color 0.8999998 0.5 0)
-    )
-    (particles-snow
     )
     (tilemap
       (solid #f)
@@ -343,52 +830,6 @@
       0 0 0 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 0 0 0 0 0 0 0 0 0 0 2188 2189 2180 2181 2180 2181 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2181 2180 2181 2180 2181 2180 0 0 0 0 0 0 0 0 0 0 0 0 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 0 0 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 0 0 0 0 0 0 0 0 0 0 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2181 2180 2181 2180 2181 2180 2181 2180 2181 2180 2181 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2188 2189 2188 2189 2188 2189 2188 2189 2188 2189 2188 2189 2188 2189 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 1536)
-      (y 544)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 1952)
-      (y 992)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 1472)
-      (y 992)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 1696)
-      (y 352)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 1376)
-      (y 320)
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 832)
-      (y 544)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 1056)
-      (y 544)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 1216)
-      (y 448)
-    )
     (tilemap
       (solid #f)
       (z-pos 110)
@@ -410,49 +851,6 @@
       22 11 11 11 11 11 11 11 11 11 117 118 11 11 11 11 11 11 11 11 11 11 11 21
       23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20
       )
-    )
-    (secretarea
-      (fade-tilemap "secret1")
-      (width 704)
-      (height 96)
-      (x 1408)
-      (y 1152)
-    )
-    (weak_block
-      (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
-      (x 2108)
-      (y 1152)
-    )
-    (weak_block
-      (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
-      (x 2108)
-      (y 1184)
-    )
-    (weak_block
-      (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
-      (x 2108)
-      (y 1216)
-    )
-    (weak_block
-      (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
-      (x 1380)
-      (y 1216)
-    )
-    (weak_block
-      (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
-      (x 1380)
-      (y 1184)
-    )
-    (weak_block
-      (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
-      (x 1380)
-      (y 1152)
     )
     (tilemap
       (solid #f)
@@ -619,143 +1017,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 736)
-      (y 1152)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 704)
-      (y 1152)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 672)
-      (y 1152)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 480)
-      (y 1152)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 448)
-      (y 1152)
-    )
-    (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
-      (x 512)
-      (y 1152)
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 576)
-          (y 960)
-        )
-        (node
-          (x 640)
-          (y 992)
-        )
-        (node
-          (x 608)
-          (y 1056)
-        )
-        (node
-          (x 544)
-          (y 1024)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 608)
-          (y 1056)
-        )
-        (node
-          (x 544)
-          (y 1024)
-        )
-        (node
-          (x 576)
-          (y 960)
-        )
-        (node
-          (x 640)
-          (y 992)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 544)
-          (y 1024)
-        )
-        (node
-          (x 576)
-          (y 960)
-        )
-        (node
-          (x 640)
-          (y 992)
-        )
-        (node
-          (x 608)
-          (y 1056)
-        )
-      )
-    )
-    (coin
-      (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 640)
-          (y 992)
-        )
-        (node
-          (x 608)
-          (y 1056)
-        )
-        (node
-          (x 544)
-          (y 1024)
-        )
-        (node
-          (x 576)
-          (y 960)
-        )
-      )
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 672)
-      (y 832)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 736)
-      (y 832)
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 960)
-      (y 1152)
-    )
-    (bonusblock
-      (script "")
-      (count 5)
-      (sprite "/images/objects/bonus_block/purpleblock.sprite")
-      (x 1440)
-      (y 160)
-    )
     (tilemap
       (solid #f)
       (speed 0.8)
@@ -811,109 +1072,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 2752)
-      (y 896)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 2944)
-      (y 896)
-    )
-    (sspiky
-      (direction "left")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 4000)
-      (y 1120)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 3648)
-      (y 512)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 3360)
-      (y 1120)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 3968)
-      (y 736)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 4096)
-      (y 736)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 2080)
-      (y 288)
-    )
-    (snowman
-      (direction "left")
-      (sprite "images/creatures/snowman/snowman.sprite")
-      (x 2528)
-      (y 480)
-    )
-    (snowman
-      (direction "left")
-      (sprite "images/creatures/snowman/snowman.sprite")
-      (x 2400)
-      (y 480)
-    )
-    (spiky
-      (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (x 2912)
-      (y 1152)
-    )
-    (platform
-      (running #f)
-      (name "door")
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 4320)
-          (y 1024)
-        )
-        (node
-          (x 4320)
-          (y 896)
-        )
-      )
-    )
-    (pushbutton
-      (script "door.goto_node(1);")
-      (sprite "images/objects/pushbutton/pushbutton.sprite")
-      (x 4992)
-      (y 628)
-    )
-    (bouncingsnowball
-      (direction "left")
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (x 4960)
-      (y 576)
-    )
-    (bouncingsnowball
-      (direction "left")
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (x 4800)
-      (y 576)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 4224)
-      (y 736)
-    )
     (tilemap
       (solid #f)
       (z-pos 110)
@@ -938,222 +1096,6 @@
       0 0 0 0 11 11 11 11 11 11 11 11 11 0 11 11 11 11 11 11 11 11 11
       0 0 0 0 0 0 11 11 11 11 11 11 0 0 0 11 11 11 11 11 11 11 11
       )
-    )
-    (secretarea
-      (fade-tilemap "secret2")
-      (width 512)
-      (height 128)
-      (x 5920)
-      (y 544)
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 5088)
-      (y 1216)
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 5664)
-      (y 1216)
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 4928)
-      (y 1216)
-    )
-    (mriceblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 5504)
-      (y 1216)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 5632)
-      (y 1056)
-    )
-    (bouncingsnowball
-      (direction "left")
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (x 6976)
-      (y 864)
-    )
-    (firefly
-      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
-      (x 4672)
-      (y 1088)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 8640)
-      (y 512)
-    )
-    (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (x 8480)
-      (y 512)
-    )
-    (snowman
-      (direction "left")
-      (sprite "images/creatures/snowman/snowman.sprite")
-      (x 9504)
-      (y 544)
-    )
-    (snowman
-      (direction "left")
-      (sprite "images/creatures/snowman/snowman.sprite")
-      (x 7104)
-      (y 1056)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 7200)
-      (y 512)
-    )
-    (haywire
-      (direction "left")
-      (sprite "images/creatures/haywire/haywire.sprite")
-      (x 7808)
-      (y 704)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 7104)
-      (y 640)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 7168)
-      (y 640)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 7136)
-      (y 640)
-    )
-    (stalactite
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (x 7200)
-      (y 640)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 9984)
-      (y 704)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 10144)
-      (y 448)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 7712)
-      (y 960)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 7872)
-      (y 896)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 7968)
-      (y 832)
-    )
-    (candle
-      (flicker #f)
-      (x 656)
-      (y 384)
-    )
-    (candle
-      (flicker #f)
-      (x 752)
-      (y 288)
-    )
-    (candle
-      (flicker #f)
-      (x 688)
-      (y 256)
-    )
-    (candle
-      (flicker #f)
-      (x 2288)
-      (y 384)
-    )
-    (candle
-      (flicker #f)
-      (x 2384)
-      (y 320)
-    )
-    (candle
-      (flicker #f)
-      (x 2288)
-      (y 224)
-    )
-    (candle
-      (flicker #f)
-      (x 8080)
-      (y 480)
-    )
-    (candle
-      (flicker #f)
-      (x 8144)
-      (y 288)
-    )
-    (candle
-      (flicker #f)
-      (x 8208)
-      (y 416)
-    )
-    (candle
-      (flicker #f)
-      (x 8112)
-      (y 352)
-    )
-    (candle
-      (flicker #f)
-      (x 9168)
-      (y 480)
-    )
-    (candle
-      (flicker #f)
-      (x 9040)
-      (y 448)
-    )
-    (candle
-      (flicker #f)
-      (x 9168)
-      (y 352)
-    )
-    (candle
-      (flicker #f)
-      (x 9104)
-      (y 256)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 64)
-      (height 640)
-      (x 11136)
-      (y 0)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 640)
-      (x 10496)
-      (y 0)
     )
     (tilemap
       (solid #t)
@@ -1208,13 +1150,35 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
-    (scripttrigger
-      (script "door.goto_node(1);")
-      (button #f)
-      (width 96)
-      (height 288)
-      (x 4640)
-      (y 896)
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 736)
+      (y 1152)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 704)
+      (y 1152)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 672)
+      (y 1152)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 480)
+      (y 1152)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 448)
+      (y 1152)
+    )
+    (unstable_tile
+      (sprite "images/objects/unstable_tile/snow.sprite")
+      (x 512)
+      (y 1152)
     )
     (unstable_tile
       (sprite "images/objects/unstable_tile/snow.sprite")
@@ -1260,6 +1224,42 @@
       (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2976)
       (y 1184)
+    )
+    (weak_block
+      (linked #f)
+      (sprite "images/objects/weak_block/meltbox.sprite")
+      (x 2108)
+      (y 1152)
+    )
+    (weak_block
+      (linked #f)
+      (sprite "images/objects/weak_block/meltbox.sprite")
+      (x 2108)
+      (y 1184)
+    )
+    (weak_block
+      (linked #f)
+      (sprite "images/objects/weak_block/meltbox.sprite")
+      (x 2108)
+      (y 1216)
+    )
+    (weak_block
+      (linked #f)
+      (sprite "images/objects/weak_block/meltbox.sprite")
+      (x 1380)
+      (y 1216)
+    )
+    (weak_block
+      (linked #f)
+      (sprite "images/objects/weak_block/meltbox.sprite")
+      (x 1380)
+      (y 1184)
+    )
+    (weak_block
+      (linked #f)
+      (sprite "images/objects/weak_block/meltbox.sprite")
+      (x 1380)
+      (y 1152)
     )
   )
 )

@@ -7,17 +7,28 @@
     (name "main")
     (music "music/chipdisko.ogg")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
-    (leveltime
-      (time 300)
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
       (image "images/background/arctis.jpg")
       (image-bottom "images/background/arctis_bottom.jpg")
+    )
+    (camera
+      (mode "normal")
+    )
+    (door
+      (sector "room0")
+      (spawnpoint "main")
+      (x 704)
+      (y 288)
+    )
+    (infoblock
+      (message (_ "#note: Level exit is in room 25"))
+      (x 608)
+      (y 288)
+    )
+    (leveltime
+      (time 300)
     )
     (spawnpoint
       (name "main")
@@ -51,17 +62,6 @@
       1005 1005 1005 1005 1040 1013 1026 1028 1015 0 0 0 0 0 0 0 0 0 0 0 0 68 64 64 64
       )
     )
-    (infoblock
-      (message (_ "#note: Level exit is in room 25"))
-      (x 608)
-      (y 288)
-    )
-    (door
-      (sector "room0")
-      (spawnpoint "main")
-      (x 704)
-      (y 288)
-    )
   )
   (sector
     (name "room0")
@@ -69,19 +69,14 @@
     (init-script "Text.set_text(\"Room #0\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room1")
@@ -119,6 +114,11 @@
       (x 608)
       (y 480)
     )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
+    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -153,19 +153,14 @@
     (init-script "Text.set_text(\"Room #1\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room3")
@@ -196,6 +191,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -231,19 +231,14 @@
     (init-script "Text.set_text(\"Room #2\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room3")
@@ -274,6 +269,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -309,19 +309,14 @@
     (init-script "Text.set_text(\"Room #3\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room7")
@@ -346,6 +341,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -381,19 +381,14 @@
     (init-script "Text.set_text(\"Room #4\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room5")
@@ -424,6 +419,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -459,19 +459,14 @@
     (init-script "Text.set_text(\"Room #5\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room7")
@@ -496,6 +491,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -531,19 +531,14 @@
     (init-script "Text.set_text(\"Room #6\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room7")
@@ -568,6 +563,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -603,19 +603,14 @@
     (init-script "Text.set_text(\"Room #7\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room15")
@@ -634,6 +629,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -669,19 +669,14 @@
     (init-script "Text.set_text(\"Room #8\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room9")
@@ -712,6 +707,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -747,19 +747,14 @@
     (init-script "Text.set_text(\"Room #9\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room11")
@@ -784,6 +779,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -819,19 +819,14 @@
     (init-script "Text.set_text(\"Room #10\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room11")
@@ -856,6 +851,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -891,19 +891,14 @@
     (init-script "Text.set_text(\"Room #11\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room15")
@@ -922,6 +917,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -957,19 +957,14 @@
     (init-script "Text.set_text(\"Room #12\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room13")
@@ -994,6 +989,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1029,19 +1029,14 @@
     (init-script "Text.set_text(\"Room #13\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room15")
@@ -1060,6 +1055,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1095,19 +1095,14 @@
     (init-script "Text.set_text(\"Room #14\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room15")
@@ -1126,6 +1121,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1161,19 +1161,14 @@
     (init-script "Text.set_text(\"Room #15\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room31")
@@ -1186,6 +1181,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1221,19 +1221,14 @@
     (init-script "Text.set_text(\"Room #16\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room17")
@@ -1264,6 +1259,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1299,19 +1299,14 @@
     (init-script "Text.set_text(\"Room #17\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room19")
@@ -1336,6 +1331,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1371,19 +1371,14 @@
     (init-script "Text.set_text(\"Room #18\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room19")
@@ -1408,6 +1403,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1443,19 +1443,14 @@
     (init-script "Text.set_text(\"Room #19\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room23")
@@ -1474,6 +1469,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1509,19 +1509,14 @@
     (init-script "Text.set_text(\"Room #20\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room21")
@@ -1546,6 +1541,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1581,19 +1581,14 @@
     (init-script "Text.set_text(\"Room #21\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room23")
@@ -1612,6 +1607,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1647,19 +1647,14 @@
     (init-script "Text.set_text(\"Room #22\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room23")
@@ -1678,6 +1673,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1713,19 +1713,14 @@
     (init-script "Text.set_text(\"Room #23\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room31")
@@ -1738,6 +1733,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1773,19 +1773,14 @@
     (init-script "Text.set_text(\"Room #24\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room25")
@@ -1810,6 +1805,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1845,19 +1845,14 @@
     (init-script "Text.set_text(\"Room #25\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room27")
@@ -1876,6 +1871,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1911,19 +1911,14 @@
     (init-script "Text.set_text(\"Room #26\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room27")
@@ -1942,6 +1937,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -1977,19 +1977,14 @@
     (init-script "Text.set_text(\"Room #27\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room31")
@@ -2002,6 +1997,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -2037,19 +2037,14 @@
     (init-script "Text.set_text(\"Room #28\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room29")
@@ -2068,6 +2063,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -2103,19 +2103,14 @@
     (init-script "Text.set_text(\"Room #29\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room31")
@@ -2128,6 +2123,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -2163,19 +2163,14 @@
     (init-script "Text.set_text(\"Room #30\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room31")
@@ -2188,6 +2183,11 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)
@@ -2223,25 +2223,25 @@
     (init-script "Text.set_text(\"Room #31\");
      Text.fade_in(0.2)")
     (ambient-light 1 1 1)
-    (camera
-      (mode "normal")
-    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
       (image "images/background/arctis_dark.jpg")
       (image-bottom "images/background/arctis_dark.jpg")
     )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 96)
+    (camera
+      (mode "normal")
     )
     (door
       (sector "room0")
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
     )
     (tilemap
       (solid #t)

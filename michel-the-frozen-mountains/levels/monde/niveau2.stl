@@ -1259,6 +1259,18 @@ Tux.activate();")
       (x 3616)
       (y 448)
     )
+    (smartball
+      (x 1411)
+      (y 582)
+    )
+    (smartball
+      (x 3267)
+      (y 262)
+    )
+    (smartball
+      (x 3395)
+      (y 934)
+    )
     (scripttrigger
       (script "if(orinterdit.get_alpha() == 1.0){
 Tux.deactivate();
@@ -1293,18 +1305,6 @@ Tux.activate();")
       (height 92)
       (x 4576)
       (y 992)
-    )
-    (smartball
-      (x 1411)
-      (y 582)
-    )
-    (smartball
-      (x 3267)
-      (y 262)
-    )
-    (smartball
-      (x 3395)
-      (y 934)
     )
     (snowball
       (x 1059)
@@ -1893,20 +1893,6 @@ Tux.activate();")
       (x 17856)
       (y 620)
     )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 284)
-      (x 20576)
-      (y 0)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 60)
-      (x 20704)
-      (y 160)
-    )
     (smartball
       (x 20035)
       (y 198)
@@ -1950,6 +1936,20 @@ Tux.activate();")
     (smartball
       (x 3395)
       (y 262)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 284)
+      (x 20576)
+      (y 0)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 60)
+      (x 20704)
+      (y 160)
     )
     (snowball
       (direction "right")

@@ -57,16 +57,16 @@
       (x 257)
       (y 326)
     )
+    (smartball
+      (x 1187)
+      (y 550)
+    )
     (secretarea
       (fade-tilemap "SecretWall")
       (width 224)
       (height 192)
       (x 2944)
       (y 896)
-    )
-    (smartball
-      (x 1187)
-      (y 550)
     )
     (spawnpoint
       (name "main")

@@ -13,12 +13,12 @@
       (image "images/background/bridgecloud-dark.png")
       (z-pos -175)
     )
+    (camera
+      (mode "normal")
+    )
     (gradient
       (top_color 0 0 0)
       (bottom_color 0.003921569 0.003921569 0.003921569)
-    )
-    (camera
-      (mode "normal")
     )
     (scripttrigger
       (script "Level.spawn(\"fall\",\"main\")")
@@ -381,10 +381,6 @@
       (image "images/background/bridgeocean-fade.png")
       (z-pos -195)
     )
-    (gradient
-      (top_color 0 0 0)
-      (bottom_color 0.003921569 0.003921569 0.003921569)
-    )
     (camera
       (mode "normal")
     )
@@ -451,6 +447,10 @@
           (y 2400)
         )
       )
+    )
+    (gradient
+      (top_color 0 0 0)
+      (bottom_color 0.003921569 0.003921569 0.003921569)
     )
     (sequencetrigger
       (sequence "fireworks")

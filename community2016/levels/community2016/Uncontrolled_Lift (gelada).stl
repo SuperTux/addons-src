@@ -735,6 +735,12 @@ Wait!"))
       (x 233)
       (y 2402)
     )
+    (skydive
+      (direction "left")
+      (sprite "images/creatures/skydive/skydive.sprite")
+      (x 206)
+      (y 1959)
+    )
     (sspiky
       (direction "right")
       (sprite "images/creatures/spiky/sleepingspiky.sprite")
@@ -1513,12 +1519,6 @@ lamp7.set_burning(true);")
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (skydive
-      (direction "left")
-      (sprite "images/creatures/skydive/skydive.sprite")
-      (x 206)
-      (y 1959)
     )
   )
 )

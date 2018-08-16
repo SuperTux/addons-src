@@ -408,6 +408,34 @@ play_sound(\"sounds/door.wav\");
       (x 7617)
       (y 326)
     )
+    (smartball
+      (x 2435)
+      (y 774)
+    )
+    (smartball
+      (x 2179)
+      (y 934)
+    )
+    (smartball
+      (x 3075)
+      (y 934)
+    )
+    (smartball
+      (x 3971)
+      (y 774)
+    )
+    (smartball
+      (x 5827)
+      (y 1190)
+    )
+    (smartball
+      (x 6755)
+      (y 614)
+    )
+    (smartball
+      (x 8003)
+      (y 454)
+    )
     (rock
       (x 7520)
       (y 960)
@@ -527,34 +555,6 @@ play_sound(\"sounds/door.wav\");
       (height 76)
       (x 9408)
       (y 224)
-    )
-    (smartball
-      (x 2435)
-      (y 774)
-    )
-    (smartball
-      (x 2179)
-      (y 934)
-    )
-    (smartball
-      (x 3075)
-      (y 934)
-    )
-    (smartball
-      (x 3971)
-      (y 774)
-    )
-    (smartball
-      (x 5827)
-      (y 1190)
-    )
-    (smartball
-      (x 6755)
-      (y 614)
-    )
-    (smartball
-      (x 8003)
-      (y 454)
     )
     (snowball
       (x 2499)
