@@ -15,37 +15,37 @@
       (mode "normal")
     )
     (decal
+      (sprite "images/creatures/mr_bomb/center.png")
       (x 1591.861)
       (y 754.2047)
-      (sprite "images/creatures/mr_bomb/center.png")
     )
     (decal
+      (sprite "images/creatures/crystallo/crystallo-left-0.png")
       (x 1641.99)
       (y 766.6992)
-      (sprite "images/creatures/crystallo/crystallo-left-0.png")
     )
     (decal
+      (sprite "images/creatures/mr_iceblock/left-1.png")
       (x 1529.451)
       (y 787.1256)
-      (sprite "images/creatures/mr_iceblock/left-1.png")
     )
     (decal
+      (sprite "images/creatures/snowman/walk4.png")
       (x 1470.156)
       (y 756.9575)
-      (sprite "images/creatures/snowman/walk4.png")
     )
     (decal
+      (sprite "images/creatures/snowball/sport-left-1.png")
       (x 1558.34)
       (y 757.8986)
-      (sprite "images/creatures/snowball/sport-left-1.png")
     )
     (fish
       (x 1410)
       (y 867)
     )
     (platform
-      (name "Krosh")
       (running #f)
+      (name "Krosh")
       (sprite "images/creatures/icecrusher/krosh.sprite")
       (path
         (node
@@ -60,8 +60,8 @@
       )
     )
     (platform
-      (name "flyer")
       (running #f)
+      (name "flyer")
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (node

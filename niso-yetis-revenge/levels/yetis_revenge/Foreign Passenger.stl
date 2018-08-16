@@ -17,7 +17,7 @@
     (background
       (speed 0.5)
       (image "images/background/fog.png")
-      (layer 201)
+      (z-pos 201)
     )
     (camera
       (mode "normal")
@@ -263,8 +263,8 @@
       (y 320)
     )
     (platform
-      (name "f6")
       (running #f)
+      (name "f6")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (mode "oneshot")
@@ -285,8 +285,8 @@
       )
     )
     (platform
-      (name "up1")
       (running #f)
+      (name "up1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (mode "oneshot")
@@ -302,8 +302,8 @@
       )
     )
     (platform
-      (name "up2")
       (running #f)
+      (name "up2")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (mode "oneshot")
@@ -319,8 +319,8 @@
       )
     )
     (platform
-      (name "up3")
       (running #f)
+      (name "up3")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -350,8 +350,8 @@
       )
     )
     (platform
-      (name "f4")
       (running #f)
+      (name "f4")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (mode "oneshot")
@@ -387,8 +387,8 @@
       )
     )
     (platform
-      (name "f7")
       (running #f)
+      (name "f7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (mode "oneshot")
@@ -409,8 +409,8 @@
       )
     )
     (platform
-      (name "f5")
       (running #f)
+      (name "f5")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (mode "oneshot")
@@ -431,8 +431,8 @@
       )
     )
     (platform
-      (name "f14")
       (running #f)
+      (name "f14")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (mode "oneshot")
@@ -448,8 +448,8 @@
       )
     )
     (platform
-      (name "f12")
       (running #f)
+      (name "f12")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (mode "oneshot")
@@ -470,8 +470,8 @@
       )
     )
     (platform
-      (name "f13")
       (running #f)
+      (name "f13")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (mode "oneshot")
@@ -492,8 +492,8 @@
       )
     )
     (platform
-      (name "f9")
       (running #f)
+      (name "f9")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (mode "oneshot")
@@ -514,8 +514,8 @@
       )
     )
     (platform
-      (name "sp1")
       (running #f)
+      (name "sp1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (mode "oneshot")
@@ -531,8 +531,8 @@
       )
     )
     (platform
-      (name "sp4")
       (running #f)
+      (name "sp4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (mode "oneshot")
@@ -548,8 +548,8 @@
       )
     )
     (platform
-      (name "sp3")
       (running #f)
+      (name "sp3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (mode "oneshot")
@@ -565,8 +565,8 @@
       )
     )
     (platform
-      (name "sp2")
       (running #f)
+      (name "sp2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
       (path
         (mode "oneshot")
@@ -582,8 +582,8 @@
       )
     )
     (platform
-      (name "f1")
       (running #f)
+      (name "f1")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -603,8 +603,8 @@
       )
     )
     (platform
-      (name "f2")
       (running #f)
+      (name "f2")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -624,8 +624,8 @@
       )
     )
     (platform
-      (name "f3")
       (running #f)
+      (name "f3")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (node
@@ -645,8 +645,8 @@
       )
     )
     (platform
-      (name "f11")
       (running #f)
+      (name "f11")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (mode "oneshot")
@@ -667,8 +667,8 @@
       )
     )
     (platform
-      (name "f8")
       (running #f)
+      (name "f8")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (mode "oneshot")
@@ -684,8 +684,8 @@
       )
     )
     (platform
-      (name "f10")
       (running #f)
+      (name "f10")
       (sprite "images/objects/platforms/small.sprite")
       (path
         (mode "oneshot")
@@ -834,10 +834,9 @@ play_sound(\"sounds/lifeup.wav\");
       (y 78.84924)
     )
     (scriptedobject
-      (name "FISHBOX_IMAGE")
-      (visible #t)
       (physic-enabled #f)
       (solid #f)
+      (name "FISHBOX_IMAGE")
       (sprite "images/powerups/fish/fishbox.sprite")
       (x 14050.83)
       (y 78.84924)

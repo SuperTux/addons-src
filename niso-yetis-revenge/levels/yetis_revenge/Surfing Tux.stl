@@ -32,8 +32,8 @@
       (y 581)
     )
     (platform
-      (name "surfboard")
       (running #f)
+      (name "surfboard")
       (sprite "images/objects/platforms/icefloe_small.sprite")
       (path
         (node

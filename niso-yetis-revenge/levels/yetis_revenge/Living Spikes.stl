@@ -17,13 +17,13 @@
       (alignment "bottom")
       (speed 1.5)
       (image "images/background/arcticskies35.png")
-      (layer 102)
+      (z-pos 102)
     )
     (background
       (alignment "bottom")
       (speed 2)
       (image "images/background/arcticskies4.png")
-      (layer 400)
+      (z-pos 400)
     )
     (background
       (alignment "bottom")
@@ -157,8 +157,8 @@
       )
     )
     (platform
-      (name "pf1")
       (running #f)
+      (name "pf1")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (mode "oneshot")
@@ -329,8 +329,8 @@
       )
     )
     (platform
-      (name "pf2")
       (running #f)
+      (name "pf2")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (mode "oneshot")
@@ -371,8 +371,8 @@
       )
     )
     (platform
-      (name "pf3")
       (running #f)
+      (name "pf3")
       (sprite "images/objects/platforms/big.sprite")
       (path
         (mode "oneshot")
@@ -1081,21 +1081,23 @@
       )
     )
     (bonusblock
-      (x 11392)
-      (y 384)
-      (contents "custom")
-      (powerup
-        (script "
+      (custom-contents
+         (powerup           (script "
 play_sound(\"sounds/countdown10s.ogg\");
 block.set_alpha(1);
 wait(11.0);
 block.set_alpha(0);
 ")
-        (disable-physics #t)
-        (sprite "images/powerups/potions/blue-potion.sprite")
-        (x 11312)
-        (y 928)
+           (disable-physics #t)
+           (sprite "images/powerups/potions/blue-potion.sprite")
+           (x 11312)
+           (y 928)
+)
       )
+      (script "")
+      (contents "custom")
+      (x 11392)
+      (y 384)
     )
     (mrbomb
       (x 9221)
@@ -1208,10 +1210,9 @@ play_sound(\"sounds/lifeup.wav\");
       (y 206.8839)
     )
     (scriptedobject
-      (name "FISHBOX_IMAGE")
-      (visible #t)
       (physic-enabled #f)
       (solid #f)
+      (name "FISHBOX_IMAGE")
       (sprite "images/powerups/fish/fishbox.sprite")
       (x 9945)
       (y 206.8839)

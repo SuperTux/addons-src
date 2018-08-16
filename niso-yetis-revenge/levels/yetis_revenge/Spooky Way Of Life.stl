@@ -19,7 +19,7 @@
       (image-top "images/background/fog.png")
       (image "images/background/fog.png")
       (image-bottom "images/background/fog.png")
-      (layer 500)
+      (z-pos 500)
     )
     (camera
       (mode "normal")
@@ -184,10 +184,9 @@
       (y 110.7862)
     )
     (scriptedobject
-      (name "FISHBOX_IMAGE")
-      (visible #t)
       (physic-enabled #f)
       (solid #f)
+      (name "FISHBOX_IMAGE")
       (sprite "images/powerups/fish/fishbox.sprite")
       (x 4042.012)
       (y 110.7862)
@@ -598,7 +597,7 @@
       (image-top "images/background/fog.png")
       (image "images/background/fog.png")
       (image-bottom "images/background/fog.png")
-      (layer 500)
+      (z-pos 500)
     )
     (camera
       (mode "normal")
@@ -3416,7 +3415,6 @@ exitblock.set_alpha(0);")
     (willowisp
       (sector "main2")
       (spawnpoint "main")
-      (name "")
       (x 4288)
       (y 192)
     )
@@ -3437,7 +3435,7 @@ exitblock.set_alpha(0);")
       (image-top "images/background/fog.png")
       (image "images/background/fog.png")
       (image-bottom "images/background/fog.png")
-      (layer 500)
+      (z-pos 500)
     )
     (camera
       (mode "normal")
@@ -3754,7 +3752,7 @@ play_sound(\"sounds/lifeup.wav\");
       (image-top "images/background/fog.png")
       (image "images/background/fog.png")
       (image-bottom "images/background/fog.png")
-      (layer 500)
+      (z-pos 500)
     )
     (camera
       (mode "normal")
@@ -3921,7 +3919,6 @@ play_sound(\"sounds/lifeup.wav\");
     (willowisp
       (sector "main2")
       (spawnpoint "high")
-      (name "")
       (x 352)
       (y 640)
     )

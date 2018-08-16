@@ -186,10 +186,9 @@ play_sound(\"sounds/lifeup.wav\");
       (y 366.4794)
     )
     (scriptedobject
-      (name "FISHBOX_IMAGE")
-      (visible #t)
       (physic-enabled #f)
       (solid #f)
+      (name "FISHBOX_IMAGE")
       (sprite "images/powerups/fish/fishbox.sprite")
       (x 6488.571)
       (y 366.4794)

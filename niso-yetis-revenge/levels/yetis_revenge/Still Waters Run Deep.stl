@@ -5,6 +5,8 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
+    (init-script "if(watch1())
+	Level.spawn(\"main\",\"skip\")")
     (ambient-light 1 1 1)
     (background
       (speed 0.5)
@@ -13,16 +15,14 @@
     (background
       (speed 0.5)
       (image "images/background/fog.png")
-      (layer 600)
+      (z-pos 600)
     )
     (camera
       (mode "normal")
     )
-		(init-script "if(watch1())
-	Level.spawn(\"main\",\"skip\")")
     (platform
+      (running #f)
       (name "stand1")
-      (running #f)
       (sprite "images/objects/platforms/icefloe.sprite")
       (path
         (node
@@ -38,8 +38,8 @@
       )
     )
     (platform
+      (running #f)
       (name "stand2")
-      (running #f)
       (sprite "images/objects/platforms/icefloe.sprite")
       (path
         (node
@@ -55,8 +55,8 @@
       )
     )
     (platform
-      (name "plat")
       (running #f)
+      (name "plat")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node
@@ -72,8 +72,8 @@
       )
     )
     (platform
-      (name "penny")
       (running #f)
+      (name "penny")
       (sprite "images/creatures/penny/penny.sprite")
       (path
         (node
@@ -104,8 +104,8 @@
       )
     )
     (platform
-      (name "bomb")
       (running #f)
+      (name "bomb")
       (sprite "images/creatures/mr_bomb/bomb.sprite")
       (path
         (node
@@ -150,8 +150,8 @@
       )
     )
     (platform
-      (name "flyer1")
       (running #f)
+      (name "flyer1")
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (mode "pingpong")
@@ -185,8 +185,8 @@
       )
     )
     (platform
-      (name "flyerbonus3")
       (running #f)
+      (name "flyerbonus3")
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (mode "oneshot")
@@ -216,8 +216,8 @@
       )
     )
     (platform
+      (running #f)
       (name "flyer6")
-      (running #f)
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (node
@@ -250,8 +250,8 @@
       )
     )
     (platform
+      (running #f)
       (name "flyer2")
-      (running #f)
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (node
@@ -284,8 +284,8 @@
       )
     )
     (platform
+      (running #f)
       (name "flyer3")
-      (running #f)
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (node
@@ -318,8 +318,8 @@
       )
     )
     (platform
+      (running #f)
       (name "flyer4")
-      (running #f)
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (node
@@ -352,8 +352,8 @@
       )
     )
     (platform
+      (running #f)
       (name "flyer5")
-      (running #f)
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (node
@@ -386,8 +386,8 @@
       )
     )
     (platform
-      (name "flyerbonus")
       (running #f)
+      (name "flyerbonus")
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (mode "oneshot")
@@ -417,8 +417,8 @@
       )
     )
     (platform
-      (name "Krosh")
       (running #f)
+      (name "Krosh")
       (sprite "images/creatures/icecrusher/krosh.sprite")
       (path
         (node
@@ -447,8 +447,8 @@
       )
     )
     (platform
-      (name "flyerkrosh1")
       (running #f)
+      (name "flyerkrosh1")
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (node
@@ -468,8 +468,8 @@
       )
     )
     (platform
-      (name "flyerkrosh2")
       (running #f)
+      (name "flyerkrosh2")
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (node
@@ -489,8 +489,8 @@
       )
     )
     (platform
-      (name "flyerbonus2")
       (running #f)
+      (name "flyerbonus2")
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path
         (mode "oneshot")
@@ -524,8 +524,8 @@
       (bottom_color 0.04792859 0.1054551 0.3462119)
     )
     (hurting_platform
+      (running #f)
       (name "f8b")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -542,8 +542,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f9h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -560,8 +560,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f11h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -578,8 +578,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f13h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -596,8 +596,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f7h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -614,8 +614,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f14h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -632,8 +632,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f3h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -650,8 +650,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f5h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -668,8 +668,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f15h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -686,8 +686,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f5")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -704,8 +704,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f6")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -722,8 +722,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f7")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -740,8 +740,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f4")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -758,8 +758,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f1")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -776,8 +776,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f2")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -794,8 +794,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f3")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -812,8 +812,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f8")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -830,8 +830,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f7b")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -848,8 +848,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f6b")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -866,8 +866,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f5b")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -884,8 +884,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f4b")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -902,8 +902,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f3b")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -920,8 +920,8 @@
       )
     )
     (hurting_platform
-      (name "f2b")
       (running #f)
+      (name "f2b")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -938,8 +938,8 @@
       )
     )
     (hurting_platform
-      (name "f1b")
       (running #f)
+      (name "f1b")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -956,8 +956,8 @@
       )
     )
     (hurting_platform
-      (name "power1b")
       (running #f)
+      (name "power1b")
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -1013,8 +1013,8 @@
       )
     )
     (hurting_platform
-      (name "power3xe")
       (running #f)
+      (name "power3xe")
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -1070,8 +1070,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xl")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -1127,8 +1127,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1d")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -1184,8 +1184,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2ag")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -1241,8 +1241,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2xh")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -1298,8 +1298,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2c")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -1355,8 +1355,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1e")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -1412,8 +1412,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1g")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -1469,8 +1469,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f1h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1487,8 +1487,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f2h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1505,8 +1505,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f4h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1523,8 +1523,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f6h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1541,8 +1541,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f8h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1559,8 +1559,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f10h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1577,8 +1577,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f12h")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1595,8 +1595,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f9c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1613,8 +1613,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f11c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1631,8 +1631,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f13c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1649,8 +1649,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f7c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1667,8 +1667,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f14c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1685,8 +1685,8 @@
       )
     )
     (hurting_platform
-      (name "f3c")
       (running #f)
+      (name "f3c")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1703,8 +1703,8 @@
       )
     )
     (hurting_platform
-      (name "f5c")
       (running #f)
+      (name "f5c")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1721,8 +1721,8 @@
       )
     )
     (hurting_platform
-      (name "f15c")
       (running #f)
+      (name "f15c")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1739,8 +1739,8 @@
       )
     )
     (hurting_platform
-      (name "f1c")
       (running #f)
+      (name "f1c")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1757,8 +1757,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f2c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1775,8 +1775,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f4c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1793,8 +1793,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f6c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1811,8 +1811,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f10c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1829,8 +1829,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f12c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1847,8 +1847,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f8c")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1865,8 +1865,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f9d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1883,8 +1883,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f11d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1901,8 +1901,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f13d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1919,8 +1919,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f7d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1937,8 +1937,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f14d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1955,8 +1955,8 @@
       )
     )
     (hurting_platform
-      (name "f3d")
       (running #f)
+      (name "f3d")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1973,8 +1973,8 @@
       )
     )
     (hurting_platform
-      (name "f5d")
       (running #f)
+      (name "f5d")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -1991,8 +1991,8 @@
       )
     )
     (hurting_platform
-      (name "f15d")
       (running #f)
+      (name "f15d")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -2009,8 +2009,8 @@
       )
     )
     (hurting_platform
-      (name "f1d")
       (running #f)
+      (name "f1d")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -2027,8 +2027,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f2d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -2045,8 +2045,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f4d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -2063,8 +2063,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f6d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -2081,8 +2081,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f8d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -2099,8 +2099,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f10d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -2117,8 +2117,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f12d")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -2135,8 +2135,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f9g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2152,8 +2152,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f11g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2169,8 +2169,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f13g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2186,8 +2186,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f7g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2203,8 +2203,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f14g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2220,8 +2220,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f3g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2237,8 +2237,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f5g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2254,8 +2254,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f15g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2271,8 +2271,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f1g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -2289,8 +2289,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f2g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (mode "oneshot")
@@ -2307,8 +2307,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f4g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2324,8 +2324,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f6g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2341,8 +2341,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f8g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2358,8 +2358,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f10g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2375,8 +2375,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f12g")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -2392,8 +2392,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2d")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -2449,8 +2449,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1h")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -2506,8 +2506,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1f")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -2563,8 +2563,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1c")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -2620,8 +2620,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1i")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -2677,8 +2677,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1j")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -2734,8 +2734,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2a")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -2791,8 +2791,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2e")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -2848,8 +2848,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power3ab")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -2905,8 +2905,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power3b")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -2962,8 +2962,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power3a")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3019,8 +3019,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power3c")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3076,8 +3076,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1k")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3133,8 +3133,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2f")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3190,8 +3190,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1aa")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3247,8 +3247,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1ab")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3304,8 +3304,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1ac")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3361,8 +3361,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2aa")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3418,8 +3418,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2ab")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3475,8 +3475,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2ac")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3532,8 +3532,8 @@
       )
     )
     (hurting_platform
-      (name "power1ag")
       (running #f)
+      (name "power1ag")
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3589,8 +3589,8 @@
       )
     )
     (hurting_platform
-      (name "power2ad")
       (running #f)
+      (name "power2ad")
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3646,8 +3646,8 @@
       )
     )
     (hurting_platform
-      (name "power3aa")
       (running #f)
+      (name "power3aa")
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3703,8 +3703,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1ad")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3760,8 +3760,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1af")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3817,8 +3817,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2ae")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3874,8 +3874,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2af")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -3931,8 +3931,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f9f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -3948,8 +3948,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f11f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -3965,8 +3965,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f13f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -3982,8 +3982,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f7f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -3999,8 +3999,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f14f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4016,8 +4016,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f3f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4033,8 +4033,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f5f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4050,8 +4050,8 @@
       )
     )
     (hurting_platform
-      (name "f15f")
       (running #f)
+      (name "f15f")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4067,8 +4067,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f1f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4084,8 +4084,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f2f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4101,8 +4101,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f4f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4118,8 +4118,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f6f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4135,8 +4135,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f8f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4152,8 +4152,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f10f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4169,8 +4169,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f12f")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4186,8 +4186,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f9e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4203,8 +4203,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f11e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4220,8 +4220,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f13e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4237,8 +4237,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f7e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4254,8 +4254,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f14e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4271,8 +4271,8 @@
       )
     )
     (hurting_platform
-      (name "f3e")
       (running #f)
+      (name "f3e")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4288,8 +4288,8 @@
       )
     )
     (hurting_platform
-      (name "f5e")
       (running #f)
+      (name "f5e")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4305,8 +4305,8 @@
       )
     )
     (hurting_platform
-      (name "f15e")
       (running #f)
+      (name "f15e")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4322,8 +4322,8 @@
       )
     )
     (hurting_platform
-      (name "f1e")
       (running #f)
+      (name "f1e")
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4339,8 +4339,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f2e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4356,8 +4356,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f4e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4373,8 +4373,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f6e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4390,8 +4390,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f8e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4407,8 +4407,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f10e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4424,8 +4424,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "f12e")
-      (running #f)
       (sprite "images/creatures/fish/fish.sprite")
       (path
         (node
@@ -4441,8 +4441,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "POWER3")
-      (running #f)
       (sprite "images/objects/particles/flameshotbig.sprite")
       (path
         (node
@@ -4512,8 +4512,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1ae")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -4569,8 +4569,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power3ab")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -4626,8 +4626,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1a")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -4683,8 +4683,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2b")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -4740,8 +4740,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "POWER2")
-      (running #f)
       (sprite "images/objects/particles/flameshotbig.sprite")
       (path
         (node
@@ -4811,8 +4811,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "POWER4")
-      (running #f)
       (sprite "images/objects/particles/flameshotbig.sprite")
       (path
         (node
@@ -4882,8 +4882,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "POWER1")
-      (running #f)
       (sprite "images/objects/particles/flameshotbig.sprite")
       (path
         (node
@@ -4953,8 +4953,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power3xa")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5010,8 +5010,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xj")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5067,8 +5067,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2xd")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5124,8 +5124,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power3xb")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5181,8 +5181,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xk")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5238,8 +5238,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2xg")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5295,8 +5295,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xi")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5352,8 +5352,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2xc")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5409,8 +5409,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xg")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5466,8 +5466,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2xa")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5523,8 +5523,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xh")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5580,8 +5580,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2xb")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5637,8 +5637,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xf")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5694,8 +5694,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xd")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5751,8 +5751,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xe")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5808,8 +5808,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xc")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5865,8 +5865,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xa")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5922,8 +5922,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power1xb")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -5979,8 +5979,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2xf")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -6036,8 +6036,8 @@
       )
     )
     (hurting_platform
+      (running #f)
       (name "power2xe")
-      (running #f)
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -6093,8 +6093,8 @@
       )
     )
     (hurting_platform
-      (name "power3xc")
       (running #f)
+      (name "power3xc")
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -6150,8 +6150,8 @@
       )
     )
     (hurting_platform
-      (name "power3xd")
       (running #f)
+      (name "power3xd")
       (sprite "images/objects/particles/flameshot.sprite")
       (path
         (node
@@ -6716,18 +6716,18 @@ Tux.activate ();")
       (x 320)
       (y 544)
     )
-		(spawnpoint
-			(name "skip")
-			(x 1952)
-			(y 160)
-		)
+    (spawnpoint
+      (name "skip")
+      (x 1952)
+      (y 160)
+    )
     (thunderstorm
       (interval 14)
-      (layer 0)
+      (z-pos 0)
     )
     (thunderstorm
       (interval 18)
-      (layer 0)
+      (z-pos 0)
     )
     (tilemap
       (solid #f)

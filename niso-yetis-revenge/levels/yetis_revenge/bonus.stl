@@ -37,10 +37,9 @@
       (y 494.9142)
     )
     (scriptedobject
-      (name "FISHBOX_IMAGE")
-      (visible #t)
       (physic-enabled #f)
       (solid #f)
+      (name "FISHBOX_IMAGE")
       (sprite "images/powerups/fish/fishbox.sprite")
       (x 375.3839)
       (y 494.9142)

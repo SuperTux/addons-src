@@ -18,66 +18,66 @@
       (mode "normal")
     )
     (decal
+      (z-pos 200)
+      (sprite "images/objects/bonus_block/wood-up.png")
       (x 672)
       (y 640)
-      (layer 200)
-      (sprite "images/objects/bonus_block/wood-up.png")
     )
     (decal
+      (z-pos 200)
+      (sprite "images/objects/bonus_block/wood-up.png")
       (x 1600)
       (y 384)
-      (layer 200)
-      (sprite "images/objects/bonus_block/wood-up.png")
     )
     (decal
+      (z-pos 200)
+      (sprite "images/objects/bonus_block/wood-up.png")
       (x 3424)
       (y 512)
-      (layer 200)
-      (sprite "images/objects/bonus_block/wood-up.png")
     )
     (decal
+      (z-pos 200)
+      (sprite "images/objects/bonus_block/wood-up.png")
       (x 3584)
       (y 512)
-      (layer 200)
-      (sprite "images/objects/bonus_block/wood-up.png")
     )
     (decal
+      (z-pos 200)
+      (sprite "images/objects/bonus_block/wood-up.png")
       (x 4736)
       (y 352)
-      (layer 200)
-      (sprite "images/objects/bonus_block/wood-up.png")
     )
     (decal
+      (z-pos 200)
+      (sprite "images/objects/bonus_block/wood-up.png")
       (x 5760)
       (y 544)
-      (layer 200)
-      (sprite "images/objects/bonus_block/wood-up.png")
     )
     (decal
+      (z-pos 200)
+      (sprite "images/objects/bonus_block/wood-up.png")
       (x 5888)
       (y 544)
-      (layer 200)
-      (sprite "images/objects/bonus_block/wood-up.png")
     )
     (decal
+      (z-pos 200)
+      (sprite "images/objects/bonus_block/wood-up.png")
       (x 6016)
       (y 544)
-      (layer 200)
-      (sprite "images/objects/bonus_block/wood-up.png")
     )
     (decal
+      (z-pos 200)
+      (sprite "images/objects/bonus_block/wood-up.png")
       (x 7360)
       (y 448)
-      (layer 200)
-      (sprite "images/objects/bonus_block/wood-up.png")
     )
     (firefly
       (x 3872)
       (y 160)
     )
     (platform
+      (running #f)
       (name "s2i")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -103,8 +103,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s1i")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -135,8 +135,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s3i")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -157,8 +157,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s4i")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -174,8 +174,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s2")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -201,8 +201,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s1")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -233,8 +233,8 @@
       )
     )
     (platform
-      (name "s3")
       (running #f)
+      (name "s3")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -255,8 +255,8 @@
       )
     )
     (platform
-      (name "s4")
       (running #f)
+      (name "s4")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -272,8 +272,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s2b")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -299,8 +299,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s1b")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -331,8 +331,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s3b")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -353,8 +353,8 @@
       )
     )
     (platform
-      (name "s4b")
       (running #f)
+      (name "s4b")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -370,8 +370,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s2c")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -397,8 +397,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s1c")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -429,8 +429,8 @@
       )
     )
     (platform
-      (name "s3c")
       (running #f)
+      (name "s3c")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -451,8 +451,8 @@
       )
     )
     (platform
-      (name "s4c")
       (running #f)
+      (name "s4c")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -468,8 +468,8 @@
       )
     )
     (platform
-      (name "s2d")
       (running #f)
+      (name "s2d")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -495,8 +495,8 @@
       )
     )
     (platform
-      (name "s1d")
       (running #f)
+      (name "s1d")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -527,8 +527,8 @@
       )
     )
     (platform
-      (name "s3d")
       (running #f)
+      (name "s3d")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -549,8 +549,8 @@
       )
     )
     (platform
-      (name "s4d")
       (running #f)
+      (name "s4d")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -566,8 +566,8 @@
       )
     )
     (platform
-      (name "s2e")
       (running #f)
+      (name "s2e")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -593,8 +593,8 @@
       )
     )
     (platform
-      (name "s1e")
       (running #f)
+      (name "s1e")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -625,8 +625,8 @@
       )
     )
     (platform
-      (name "s3e")
       (running #f)
+      (name "s3e")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -647,8 +647,8 @@
       )
     )
     (platform
-      (name "s4e")
       (running #f)
+      (name "s4e")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -664,8 +664,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s2f")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -691,8 +691,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s1f")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -723,8 +723,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s3f")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -745,8 +745,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s4f")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -762,8 +762,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s2g")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -789,8 +789,8 @@
       )
     )
     (platform
+      (running #f)
       (name "s1g")
-      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -821,8 +821,8 @@
       )
     )
     (platform
-      (name "s3g")
       (running #f)
+      (name "s3g")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -843,8 +843,8 @@
       )
     )
     (platform
-      (name "s4g")
       (running #f)
+      (name "s4g")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -860,8 +860,8 @@
       )
     )
     (platform
-      (name "s2h")
       (running #f)
+      (name "s2h")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -887,8 +887,8 @@
       )
     )
     (platform
-      (name "s1h")
       (running #f)
+      (name "s1h")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -919,8 +919,8 @@
       )
     )
     (platform
-      (name "s3h")
       (running #f)
+      (name "s3h")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -941,8 +941,8 @@
       )
     )
     (platform
-      (name "s4h")
       (running #f)
+      (name "s4h")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -1152,10 +1152,9 @@ play_sound(\"sounds/lifeup.wav\");
       (y 256)
     )
     (scriptedobject
-      (name "FISHBOX_IMAGE")
-      (visible #t)
       (physic-enabled #f)
       (solid #f)
+      (name "FISHBOX_IMAGE")
       (sprite "images/powerups/fish/fishbox.sprite")
       (x 6027.5)
       (y 109.5)

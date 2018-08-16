@@ -16,13 +16,13 @@
       (alignment "bottom")
       (speed 0.9)
       (image "images/background/arcticskies35.png")
-      (layer 200)
+      (z-pos 200)
     )
     (background
       (alignment "bottom")
       (speed 0.8)
       (image "images/background/arcticskies3.png")
-      (layer -101)
+      (z-pos -101)
     )
     (camera
       (mode "normal")
@@ -238,10 +238,9 @@ play_sound(\"sounds/lifeup.wav\");
       (y 813.4351)
     )
     (scriptedobject
-      (name "FISHBOX_IMAGE")
-      (visible #t)
       (physic-enabled #f)
       (solid #f)
+      (name "FISHBOX_IMAGE")
       (sprite "images/powerups/fish/fishbox.sprite")
       (x 8528.09)
       (y 813.4351)
@@ -638,20 +637,20 @@ play_sound(\"sounds/lifeup.wav\");
       (alignment "bottom")
       (speed 0.8)
       (image "images/background/arcticskies3.png")
-      (layer -101)
+      (z-pos -101)
     )
     (background
       (alignment "bottom")
       (speed 0.9)
       (image "images/background/arcticskies35.png")
-      (layer 200)
+      (z-pos 200)
     )
     (camera
       (mode "normal")
     )
     (platform
-      (name "platform")
       (running #f)
+      (name "platform")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path
         (node

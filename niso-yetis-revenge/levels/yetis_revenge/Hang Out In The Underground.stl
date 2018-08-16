@@ -148,21 +148,23 @@
       (y 707)
     )
     (bonusblock
-      (x 3439)
-      (y 124)
-      (contents "custom")
-      (powerup
-        (script "
+      (custom-contents
+         (powerup           (script "
 play_sound(\"sounds/countdown10s.ogg\");
 block.set_alpha(1);
 wait(11);
 block.set_alpha(0);
 ")
-        (disable-physics #t)
-        (sprite "images/powerups/potions/blue-potion.sprite")
-        (x 3359)
-        (y 668)
+           (disable-physics #t)
+           (sprite "images/powerups/potions/blue-potion.sprite")
+           (x 3359)
+           (y 668)
+)
       )
+      (script "")
+      (contents "custom")
+      (x 3439)
+      (y 124)
     )
     (jumpy
       (x 391)
@@ -287,10 +289,9 @@ play_sound(\"sounds/lifeup.wav\");
       (y 1005.97)
     )
     (scriptedobject
-      (name "FISHBOX_IMAGE")
-      (visible #t)
       (physic-enabled #f)
       (solid #f)
+      (name "FISHBOX_IMAGE")
       (sprite "images/powerups/fish/fishbox.sprite")
       (x 2664.344)
       (y 1005.97)

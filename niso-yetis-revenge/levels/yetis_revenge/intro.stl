@@ -17,13 +17,13 @@
       (y 1304.543)
     )
     (decal
+      (sprite "images/engine/menu/Yetis_Revenge_Logo.png")
       (x 1600)
       (y 1056)
-      (sprite "images/engine/menu/Yetis_Revenge_Logo.png")
     )
     (platform
-      (name "penny")
       (running #f)
+      (name "penny")
       (sprite "images/creatures/penny/penny.sprite")
       (path
         (node

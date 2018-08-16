@@ -49,8 +49,8 @@
       (y 773)
     )
     (platform
+      (running #f)
       (name "if9")
-      (running #f)
       (sprite "images/objects/platforms/icefloe_small.sprite")
       (path
         (node
@@ -65,8 +65,8 @@
       )
     )
     (platform
+      (running #f)
       (name "if1")
-      (running #f)
       (sprite "images/objects/platforms/icefloe_small.sprite")
       (path
         (node
@@ -81,8 +81,8 @@
       )
     )
     (platform
+      (running #f)
       (name "if2")
-      (running #f)
       (sprite "images/objects/platforms/icefloe_small.sprite")
       (path
         (node
@@ -97,8 +97,8 @@
       )
     )
     (platform
+      (running #f)
       (name "if3")
-      (running #f)
       (sprite "images/objects/platforms/icefloe_small.sprite")
       (path
         (node
@@ -113,8 +113,8 @@
       )
     )
     (platform
+      (running #f)
       (name "if4")
-      (running #f)
       (sprite "images/objects/platforms/icefloe_small.sprite")
       (path
         (node
@@ -129,8 +129,8 @@
       )
     )
     (platform
+      (running #f)
       (name "if5")
-      (running #f)
       (sprite "images/objects/platforms/icefloe_small.sprite")
       (path
         (node
@@ -145,8 +145,8 @@
       )
     )
     (platform
+      (running #f)
       (name "if6")
-      (running #f)
       (sprite "images/objects/platforms/icefloe_small.sprite")
       (path
         (node
@@ -161,8 +161,8 @@
       )
     )
     (platform
+      (running #f)
       (name "if7")
-      (running #f)
       (sprite "images/objects/platforms/icefloe_small.sprite")
       (path
         (node
@@ -177,8 +177,8 @@
       )
     )
     (platform
-      (name "if8")
       (running #f)
+      (name "if8")
       (sprite "images/objects/platforms/icefloe_small.sprite")
       (path
         (node

@@ -657,8 +657,8 @@ wait(7);
       (y 96)
     )
     (platform
+      (running #f)
       (name "l1")
-      (running #f)
       (sprite "images/objects/platforms/rock_big.sprite")
       (path
         (node
@@ -672,8 +672,8 @@ wait(7);
       )
     )
     (platform
+      (running #f)
       (name "b4")
-      (running #f)
       (sprite "images/objects/platforms/rock_tiny.sprite")
       (path
         (node
@@ -691,8 +691,8 @@ wait(7);
       )
     )
     (platform
+      (running #f)
       (name "b1")
-      (running #f)
       (sprite "images/objects/platforms/rock_tiny.sprite")
       (path
         (node
@@ -710,8 +710,8 @@ wait(7);
       )
     )
     (platform
-      (name "b2")
       (running #f)
+      (name "b2")
       (sprite "images/objects/platforms/rock_tiny.sprite")
       (path
         (node
@@ -729,8 +729,8 @@ wait(7);
       )
     )
     (platform
+      (running #f)
       (name "l6")
-      (running #f)
       (sprite "images/objects/platforms/rock_big.sprite")
       (path
         (node
@@ -744,8 +744,8 @@ wait(7);
       )
     )
     (platform
+      (running #f)
       (name "l5")
-      (running #f)
       (sprite "images/objects/platforms/rock_big.sprite")
       (path
         (node
@@ -759,8 +759,8 @@ wait(7);
       )
     )
     (platform
+      (running #f)
       (name "l4")
-      (running #f)
       (sprite "images/objects/platforms/rock_big.sprite")
       (path
         (node
@@ -774,8 +774,8 @@ wait(7);
       )
     )
     (platform
+      (running #f)
       (name "l3")
-      (running #f)
       (sprite "images/objects/platforms/rock_big.sprite")
       (path
         (node
@@ -789,8 +789,8 @@ wait(7);
       )
     )
     (platform
+      (running #f)
       (name "l2")
-      (running #f)
       (sprite "images/objects/platforms/rock_big.sprite")
       (path
         (node
@@ -804,8 +804,8 @@ wait(7);
       )
     )
     (platform
-      (name "b3")
       (running #f)
+      (name "b3")
       (sprite "images/objects/platforms/rock_tiny.sprite")
       (path
         (node
@@ -823,8 +823,8 @@ wait(7);
       )
     )
     (platform
-      (name "f6")
       (running #f)
+      (name "f6")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -838,8 +838,8 @@ wait(7);
       )
     )
     (platform
-      (name "f1")
       (running #f)
+      (name "f1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -853,8 +853,8 @@ wait(7);
       )
     )
     (platform
-      (name "f2")
       (running #f)
+      (name "f2")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -868,8 +868,8 @@ wait(7);
       )
     )
     (platform
-      (name "f3")
       (running #f)
+      (name "f3")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -883,8 +883,8 @@ wait(7);
       )
     )
     (platform
-      (name "f4")
       (running #f)
+      (name "f4")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -898,8 +898,8 @@ wait(7);
       )
     )
     (platform
-      (name "f5")
       (running #f)
+      (name "f5")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path
         (node
@@ -917,8 +917,6 @@ wait(7);
       (bottom_color 0 0 0)
     )
     (scriptedobject
-      (name "")
-      (visible #t)
       (physic-enabled #f)
       (solid #f)
       (sprite "")
