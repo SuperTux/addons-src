@@ -624,7 +624,6 @@ key.set_action(\"default\")
     )
     (level
       (extro-script "wait_for_screenswitch();display_text_file(\"levels/narre/extro.txt\")")
-      (extro-filename "extro.txt")
       (name "thirtytwo.stl")
       (x 115)
       (y 2)
