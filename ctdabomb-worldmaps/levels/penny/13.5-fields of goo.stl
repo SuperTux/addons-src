@@ -239,8 +239,8 @@
       )
     )
     (platform
-      (name "A")
       (running #f)
+      (name "A")
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
       (path
         (node
@@ -254,8 +254,8 @@
       )
     )
     (platform
-      (name "B")
       (running #f)
+      (name "B")
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
       (path
         (node
