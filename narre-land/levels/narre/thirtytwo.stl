@@ -22,8 +22,8 @@
       (y 384)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (name "Background")
       (width 40)
       (height 17)
@@ -48,8 +48,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (name "Interactive")
       (width 40)
       (height 17)
@@ -74,8 +74,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (name "Foreground")
       (width 40)
       (height 17)
@@ -100,8 +100,8 @@
       )
     )
     (yeti
-      (sprite "images/creatures/nolok/nolok.sprite")
       (dead-script "sector.Tux.trigger_sequence(\"fireworks\")")
+      (sprite "images/creatures/nolok/nolok.sprite")
       (x 32)
       (y 128)
     )
