@@ -238,8 +238,8 @@
       (y 352)
     )
     (platform
+      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (run #f)
       (path
         (node
           (x 9920)
@@ -248,8 +248,8 @@
       )
     )
     (platform
+      (running #f)
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (run #f)
       (path
         (node
           (x 10112)
@@ -258,7 +258,7 @@
       )
     )
     (platform
-      (run #f)
+      (running #f)
       (name "lastguy")
       (sprite "images/objects/platforms/wood-tiny.sprite")
       (path

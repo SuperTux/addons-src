@@ -630,7 +630,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 1234)
@@ -641,7 +641,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 1650)
@@ -652,7 +652,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 2002)
@@ -663,7 +663,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 3712)
@@ -674,7 +674,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 3872)
@@ -685,7 +685,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 3616)
@@ -696,7 +696,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 3968)
@@ -707,7 +707,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 2016)
@@ -718,7 +718,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 2208)
@@ -729,7 +729,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 3296)
@@ -740,7 +740,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 3488)
@@ -751,7 +751,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 3872)
@@ -762,7 +762,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 4064)
@@ -773,7 +773,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 6592)
@@ -784,7 +784,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 6880)
@@ -829,7 +829,7 @@
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (run #t)
+      (running #t)
       (path
         (node
           (x 416)
@@ -855,7 +855,7 @@
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (run #t)
+      (running #t)
       (path
         (node
           (x 480)
@@ -881,7 +881,7 @@
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (run #t)
+      (running #t)
       (path
         (node
           (x 544)
@@ -907,7 +907,7 @@
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (run #t)
+      (running #t)
       (path
         (node
           (x 608)
@@ -933,7 +933,7 @@
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (run #t)
+      (running #t)
       (path
         (node
           (x 672)
@@ -959,7 +959,7 @@
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (run #t)
+      (running #t)
       (path
         (node
           (x 896)
@@ -985,7 +985,7 @@
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (run #t)
+      (running #t)
       (path
         (node
           (x 896)
@@ -1011,7 +1011,7 @@
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (run #t)
+      (running #t)
       (path
         (node
           (x 896)
@@ -1037,7 +1037,7 @@
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (run #t)
+      (running #t)
       (path
         (node
           (x 896)
@@ -1153,7 +1153,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 416)
@@ -1164,7 +1164,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (run #f)
+      (running #f)
       (path
         (node
           (x 608)
