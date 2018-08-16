@@ -3,7 +3,6 @@
   (name (_ "Mattie's Iceberg"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/salcon.ogg")
@@ -250,9 +249,9 @@ if(!state.easy){
       (y 21)
     )
     (level
-      (name "mattie_iceberg/E_Escape.stl")
       (extro-script "  wait_for_screenswitch();
         display_text_file(  \"levels/mattie_world/mattie_iceberg/iceberg_end.txt\"  );  ")
+      (name "mattie_iceberg/E_Escape.stl")
       (x 7)
       (y 21)
     )

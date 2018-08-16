@@ -4,17 +4,16 @@
   (author "LMH")
   (contact "lmh.0013@gmail.com")
   (license "GPL 2 / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (music "music/salcon.ogg")
     (init-script "import(\"levels/fiona/underground.nut\"); ")
     (ambient-light 1 1 1)
     (decal
+      (z-pos 100)
+      (sprite "images/worldmap/common/boat/boat_empty.png")
       (x 1024)
       (y 352)
-      (layer 100)
-      (sprite "images/worldmap/common/boat/boat_empty.png")
     )
     (special-tile
       (map-message (_ "Outside"))
@@ -476,17 +475,17 @@
       (y 8)
     )
     (level
-      (name "castle.stl")
       (extro-script " wait_for_screenswitch();
 			  display_text_file( \"levels/fiona/extro.txt\"	);")
+      (name "castle.stl")
       (x 15)
       (y 8)
     )
     (level
-      (name "intro.stl")
       (extro-script " wait_for_screenswitch();
 			  display_text_file( \"levels/fiona/intro.txt\"	);")
       (auto-play #t)
+      (name "intro.stl")
       (sprite "images/objects/invisible/invisible.sprite")
       (x 32)
       (y 6)

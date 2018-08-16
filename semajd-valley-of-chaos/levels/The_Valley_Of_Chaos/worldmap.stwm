@@ -217,11 +217,11 @@
       (y 18)
     )
     (level
+      (extro-script "wait_for_screenswitch();
+   display_text_file(\"levels/The Valley Of Chaos/extro1.txt\"); ")
       (name "level21.stl")
       (x 17)
       (y 17)
-	(extro-script "wait_for_screenswitch();
-   display_text_file(\"levels/The Valley Of Chaos/extro1.txt\"); ")
     )
     (level
       (name "level19.stl")
@@ -239,12 +239,12 @@
       (y 11)
     )
     (level
+      (extro-script "wait_for_screenswitch();
+   display_text_file(\"levels/The Valley Of Chaos/extro2.txt\"); ")
       (name "level24.stl")
       (quit-worldmap #t)
       (x 30)
       (y 1)
-	(extro-script "wait_for_screenswitch();
-   display_text_file(\"levels/The Valley Of Chaos/extro2.txt\"); ")
     )
     (worldmap-spawnpoint
       (name "main")

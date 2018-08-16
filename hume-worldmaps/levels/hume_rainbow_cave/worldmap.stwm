@@ -3,7 +3,6 @@
   (name (_ "Hume's rainbow cave"))
   (author "Hume")
   (license "GPL 2+ / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (init-script "import(\"levels/hume_rainbow_cave/underground.nut\"); ")
@@ -321,8 +320,8 @@
       )
     )
     (level
-      (name "archivements.stl")
       (extro-script "wait_for_screenswitch();display_text_file(\"levels/hume_rainbow_cave/extro2.txt\")")
+      (name "archivements.stl")
       (x 6)
       (y 8)
     )
@@ -589,8 +588,8 @@
       (y 4)
     )
     (worldmap-spawnpoint
-      (name "bonus")
       (auto-dir "east")
+      (name "bonus")
       (x 0)
       (y 14)
     )

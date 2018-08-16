@@ -3,7 +3,6 @@
   (name (_ ""))
   (author "")
   (license "CC BY-SA 4.0+")
-  (target-time 0)
   (sector
     (name "Tux Strikes Back")
     (music "music/salcon.ogg")
@@ -84,8 +83,8 @@
       )
     )
     (level
-      (name "tsb-level00.stl")
       (auto-play #t)
+      (name "tsb-level00.stl")
       (sprite "images/objects/invisible/invisible.sprite")
       (x 15)
       (y 14)
@@ -176,11 +175,11 @@
       (y 14)
     )
     (level
-      (name "tsb-level18.stl")
       (extro-script "
 wait_for_screenswitch(); //because it needs to exit the game screen
 display_text_file(\"levels/tsb/extro-tsb.txt\");
 ")
+      (name "tsb-level18.stl")
       (x 29)
       (y 13)
     )

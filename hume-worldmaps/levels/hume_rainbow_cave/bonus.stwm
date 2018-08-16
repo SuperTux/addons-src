@@ -3,7 +3,6 @@
   (name (_ "Bonus cave"))
   (author "Hume")
   (license "GPL 2+ / CC-by-sa 3.0")
-  (target-time 0)
   (sector
     (name "main")
     (init-script "import(\"levels/hume_rainbow_cave/underground.nut\"); ")
@@ -238,8 +237,8 @@
       (y 8)
     )
     (worldmap-spawnpoint
-      (name "main")
       (auto-dir "west")
+      (name "main")
       (x 34)
       (y 12)
     )

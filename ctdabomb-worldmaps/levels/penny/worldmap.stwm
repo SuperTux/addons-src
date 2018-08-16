@@ -11,9 +11,9 @@
       (mode "normal")
     )
     (decal
+      (sprite "images/worldmap/common/boat/boat_empty.png")
       (x 864)
       (y 512)
-      (sprite "images/worldmap/common/boat/boat_empty.png")
     )
     (tilemap
       (solid #f)
@@ -254,9 +254,9 @@
       (y 17)
     )
     (level
-      (name "extro.stl")
-			(extro-script "	wait_for_screenswitch();																																									
+      (extro-script "	wait_for_screenswitch();																																									
 				display_text_file(	\"levels/penny/extro.txt\"	);	")
+      (name "extro.stl")
       (x 50)
       (y 29)
     )

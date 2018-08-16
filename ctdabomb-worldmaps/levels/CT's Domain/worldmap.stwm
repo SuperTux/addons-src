@@ -10,9 +10,9 @@
       (mode "normal")
     )
     (decal
+      (sprite "images/decal/nightcave/lightflower1.png")
       (x 320)
       (y 1152)
-      (sprite "images/decal/nightcave/lightflower1.png")
     )
     (tilemap
       (solid #t)
