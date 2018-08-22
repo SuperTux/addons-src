@@ -64,11 +64,6 @@
       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
       )
     )
-    (worldmap-spawnpoint
-      (name "main")
-      (x 19)
-      (y 39)
-    )
     (tilemap
       (solid #t)
       (z-pos 0)
@@ -483,6 +478,11 @@
       (sprite "images/worldmap/common/leveldot.sprite")
       (x 19)
       (y 38)
+    )
+    (worldmap-spawnpoint
+      (name "main")
+      (x 19)
+      (y 39)
     )
   )
   (tileset "/images/ice_world.strf")

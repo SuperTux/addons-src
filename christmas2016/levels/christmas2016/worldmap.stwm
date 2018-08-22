@@ -6,6 +6,13 @@
   (sector
     (name "main")
     (ambient-light 1 1 1)
+    (decal
+      (z-pos 200)
+      (sprite "/images/background/halloween/vignette.png")
+      (action "")
+      (x 0)
+      (y 0)
+    )
     (tilemap
       (solid #t)
       (z-pos -100)
@@ -38,11 +45,6 @@
       102 103 107 108 108 109 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 9 9 9 9 0 0 0 0 0 0 0 9 9 9 9 9 9 9 9
       105 106 0 0 0 0 0 0 101 102 102 102 102 103 0 0 0 0 0 0 0 9 9 9 9 0 0 0 0 0 0 0 9 9 9 9 9 9 9 9
       )
-    )
-    (worldmap-spawnpoint
-      (name "main")
-      (x 14)
-      (y 9)
     )
     (tilemap
       (solid #t)
@@ -315,12 +317,10 @@
       (x 14)
       (y 9)
     )
-    (decal
-      (z-pos 200)
-      (sprite "/images/background/halloween/vignette.png")
-      (action "")
-      (x 0)
-      (y 0)
+    (worldmap-spawnpoint
+      (name "main")
+      (x 14)
+      (y 9)
     )
   )
   (tileset "/images/ice_world.strf")
