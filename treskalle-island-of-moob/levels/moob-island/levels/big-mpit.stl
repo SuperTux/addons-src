@@ -230,92 +230,74 @@
       )
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 1600)
       (y 512)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 1632)
       (y 512)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 1728)
       (y 512)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2784)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 1856)
       (y 512)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 1760)
       (y 512)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 1888)
       (y 512)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2496)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2528)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2560)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 3104)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2592)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2752)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2816)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2848)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 3008)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 3040)
       (y 352)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 3072)
       (y 352)
     )

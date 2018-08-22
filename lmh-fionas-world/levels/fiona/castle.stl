@@ -51,27 +51,22 @@ lifts.set_alpha(0);
       (bottom_color 0.003921569 0.003921569 0.003921569)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 384)
       (y 448)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 480)
       (y 448)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 1664)
       (y 320)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 1888)
       (y 320)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 2112)
       (y 320)
     )

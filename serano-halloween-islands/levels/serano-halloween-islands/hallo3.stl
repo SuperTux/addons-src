@@ -163,7 +163,6 @@
       (y 780)
     )
     (pneumatic-platform
-      (sprite "images/objects/platforms/small.sprite")
       (x 5088)
       (y 672)
     )
@@ -454,52 +453,42 @@
       )
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 1584)
       (y 708)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 3920)
       (y 932)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 4112)
       (y 932)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 5552)
       (y 996)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 6352)
       (y 836)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 6576)
       (y 836)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 8208)
       (y 388)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 9808)
       (y 836)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 10000)
       (y 836)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 12144)
       (y 932)
     )
@@ -655,12 +644,10 @@
       )
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 144)
       (y 708)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 336)
       (y 708)
     )
@@ -830,12 +817,10 @@
       )
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 144)
       (y 548)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 272)
       (y 548)
     )

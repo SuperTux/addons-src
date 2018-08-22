@@ -305,7 +305,6 @@
       (bottom_color 0.6 0.4 0)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 4160)
       (y 224)
     )
@@ -973,7 +972,6 @@ secret2.set_burning(true);")
       )
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 4384)
       (y 480)
     )

@@ -423,7 +423,6 @@
       (y 643)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 2750)
       (y 547)
     )
@@ -1519,7 +1518,6 @@ play_sound(\"sounds/lifeup.wav\");
       (y 419)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 3517)
       (y 355)
     )

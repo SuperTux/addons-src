@@ -84,7 +84,6 @@
       (y 1516.67)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 2944.664)
       (y 484.6664)
     )
@@ -807,7 +806,6 @@
       (bottom_color 1 1 1)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 2495.997)
       (y 895.3334)
     )

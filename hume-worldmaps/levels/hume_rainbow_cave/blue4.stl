@@ -787,22 +787,18 @@ pica.goto_node(0);")
       (y 672)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2624)
       (y 2176)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2368)
       (y 2176)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2496)
       (y 2176)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 2240)
       (y 2176)
     )

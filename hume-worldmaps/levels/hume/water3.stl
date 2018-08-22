@@ -20,12 +20,10 @@
       (z-pos -195)
     )
     (bicycle-platform
-      (sprite "images/objects/platforms/small.sprite")
       (x 736)
       (y 736)
     )
     (bicycle-platform
-      (sprite "images/objects/platforms/small.sprite")
       (x 4288)
       (y 768)
     )

@@ -323,12 +323,10 @@ Platform1.start_moving();")
       )
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 8672)
       (y 160)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 8640)
       (y 160)
     )

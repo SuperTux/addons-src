@@ -526,47 +526,38 @@
       )
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 1744)
       (y 932)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 3472)
       (y 676)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 7056)
       (y 996)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 5648)
       (y 1092)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 5456)
       (y 1092)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 7344)
       (y 868)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 8208)
       (y 836)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 9616)
       (y 804)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 9744)
       (y 804)
     )

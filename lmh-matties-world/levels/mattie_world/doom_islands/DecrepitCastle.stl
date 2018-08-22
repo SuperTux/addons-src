@@ -28,7 +28,6 @@
       (bottom_color 0 0 0)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 992)
       (y 1024)
     )
@@ -38,12 +37,10 @@
       (y 608)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 64)
       (y 384)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 416)
       (y 352)
     )

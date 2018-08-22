@@ -118,12 +118,10 @@
       (y 552)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 2208)
       (y 32)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 4480)
       (y 32)
     )
@@ -360,17 +358,14 @@
       )
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 7780)
       (y 494)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 8164)
       (y 494)
     )
     (torch
-      (sprite "images/objects/torch/torch1.sprite")
       (x 7972)
       (y 494)
     )

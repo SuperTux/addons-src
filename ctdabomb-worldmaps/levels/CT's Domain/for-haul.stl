@@ -214,12 +214,10 @@
       (y 64)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 1259)
       (y 232)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 1195)
       (y 232)
     )

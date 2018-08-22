@@ -107,12 +107,10 @@
       (y 1320)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 12587)
       (y 808)
     )
     (icecrusher
-      (sprite "images/creatures/icecrusher/icecrusher.sprite")
       (x 12523)
       (y 808)
     )

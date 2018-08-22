@@ -1008,7 +1008,6 @@ Elevator3.goto_node(0)")
       )
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 6528)
       (y 640)
     )

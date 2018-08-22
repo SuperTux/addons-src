@@ -487,7 +487,6 @@
       (y 704)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 5312)
       (y 288)
     )

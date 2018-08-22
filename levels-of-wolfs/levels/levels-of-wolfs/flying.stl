@@ -685,12 +685,10 @@
       (y 448)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 3904)
       (y 384)
     )
     (unstable_tile
-      (sprite "images/objects/unstable_tile/snow.sprite")
       (x 3776)
       (y 416)
     )
