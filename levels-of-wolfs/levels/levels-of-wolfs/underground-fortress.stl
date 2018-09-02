@@ -190,6 +190,10 @@
       (x 2519.89)
       (y 266.6801)
     )
+    (kamikazesnowball
+      (x 1944.151)
+      (y 622.1826)
+    )
     (mrbomb
       (x 664.2448)
       (y 659.2251)
@@ -331,10 +335,6 @@
     (snowball
       (x 2719.89)
       (y 1044.68)
-    )
-    (kamikazesnowball
-      (x 1944.151)
-      (y 622.1826)
     )
     (spawnpoint
       (name "main")

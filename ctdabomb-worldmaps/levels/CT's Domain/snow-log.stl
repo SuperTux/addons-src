@@ -85,6 +85,10 @@
       (x 5063)
       (y 872)
     )
+    (kamikazesnowball
+      (x 1984)
+      (y 640)
+    )
     (mrbomb
       (x 901)
       (y 808)
@@ -122,10 +126,6 @@
     (snowball
       (x 1411)
       (y 804)
-    )
-    (kamikazesnowball
-      (x 1984)
-      (y 640)
     )
     (spawnpoint
       (name "main")

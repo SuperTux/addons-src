@@ -82,6 +82,10 @@
       (x 5710.854)
       (y 2630.924)
     )
+    (kamikazesnowball
+      (x 3293.373)
+      (y 2157.276)
+    )
     (mrbomb
       (x 2039.723)
       (y 1492.11)
@@ -151,10 +155,6 @@ cave_in.goto_node(2);")
     (snowball
       (x 3853.501)
       (y 2508.379)
-    )
-    (kamikazesnowball
-      (x 3293.373)
-      (y 2157.276)
     )
     (spawnpoint
       (name "main")

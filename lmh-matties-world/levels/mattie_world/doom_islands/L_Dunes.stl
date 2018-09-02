@@ -221,6 +221,10 @@
       (x 13760)
       (y 704)
     )
+    (kamikazesnowball
+      (x 1888)
+      (y 544)
+    )
     (smartball
       (x 320)
       (y 480)
@@ -306,10 +310,6 @@
     )
     (snowman
       (x 15360)
-      (y 544)
-    )
-    (kamikazesnowball
-      (x 1888)
       (y 544)
     )
     (spawnpoint
