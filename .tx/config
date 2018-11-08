@@ -1,58 +1,144 @@
 [main]
 host = https://www.transifex.com
+minimum_perc = 75
 
 [supertux.menu-principale]
-file_filter = langpack/langpack/menu-principale/<lang>.po
+file_filter = langpack/langpack/supertux.menu-principale/<lang>.po
 minimum_perc = 75
 source_file = data/locale/menu-principale/messages.pot
 source_lang = en
 type = PO
 
 [supertux.bonus-1]
-file_filter = langpack/langpack/bonus1/<lang>.po
+file_filter = langpack/langpack/supertux.bonus-1/<lang>.po
 minimum_perc = 75
 source_file = data/locale/bonus1/messages.pot
 source_lang = en
 type = PO
 
 [supertux.bonus-2]
-file_filter = langpack/langpack/bonus2/<lang>.po
+file_filter = langpack/langpack/supertux.bonus-2/<lang>.po
 minimum_perc = 75
 source_file = data/locale/bonus2/messages.pot
 source_lang = en
 type = PO
 
 [supertux.bonus-3]
-file_filter = langpack/langpack/bonus3/<lang>.po
+file_filter = langpack/langpack/supertux.bonus-3/<lang>.po
 minimum_perc = 75
 source_file = data/locale/bonus3/messages.pot
 source_lang = en
 type = PO
 
 [supertux.halloween-2014]
-file_filter = langpack/langpack/halloween2014/<lang>.po
+file_filter = langpack/langpack/supertux.halloween-2014/<lang>.po
 minimum_perc = 75
 source_file = data/locale/halloween2014/messages.pot
 source_lang = en
 type = PO
 
 [supertux.incubator]
-file_filter = langpack/langpack/incubator/<lang>.po
+file_filter = langpack/langpack/supertux.incubator/<lang>.po
 minimum_perc = 75
 source_file = data/locale/incubator/messages.pot
 source_lang = en
 type = PO
 
 [supertux.world-1]
-file_filter = langpack/langpack/world1/<lang>.po
+file_filter = langpack/langpack/supertux.world-1/<lang>.po
 minimum_perc = 75
 source_file = data/locale/world1/messages.pot
 source_lang = en
 type = PO
 
 [supertux.world-2]
-file_filter = langpack/langpack/world2/<lang>.po
+file_filter = langpack/langpack/supertux.world-2/<lang>.po
 minimum_perc = 75
 source_file = data/locale/world2/messages.pot
 source_lang = en
 type = PO
+
+[supertux.credits]
+file_filter = langpack/langpack/supertux.credits/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.CTW]
+file_filter = langpack/langpack/supertux.CTW/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.fiona]
+file_filter = langpack/langpack/supertux.fiona/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.levels-of-wolfs]
+file_filter = langpack/langpack/supertux.levels-of-wolfs/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.lolkats-levels]
+file_filter = langpack/langpack/supertux.lolkats-levels/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.matties-world-lhm]
+file_filter = langpack/langpack/supertux.matties-world-lhm/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.michel-the-frozen-continent]
+file_filter = langpack/langpack/supertux.michel-the-frozen-continent/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.Moob-Island-Treskalle]
+file_filter = langpack/langpack/supertux.Moob-Island-Treskalle/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.octos-level-octo]
+file_filter = langpack/langpack/supertux.octos-level-octo/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.serano-halloween-islands]
+file_filter = langpack/langpack/supertux.serano-halloween-islands/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.seranos-islands]
+file_filter = langpack/langpack/supertux.seranos-islands/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.the-valley-of-chaos]
+file_filter = langpack/langpack/supertux.the-valley-of-chaos/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.tux-strikes-back-christian-schaefers]
+file_filter = langpack/langpack/supertux.tux-strikes-back-christian-schaefers/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
+[supertux.yetis-world-niso]
+file_filter = langpack/langpack/supertux.yetis-world-niso/<lang>.po
+minimum_perc = 75
+source_lang = en
+type = PO
+
