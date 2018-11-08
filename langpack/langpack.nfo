@@ -1,0 +1,8 @@
+(supertux-addoninfo
+	 (id "langpack")
+	 (version 1)
+	 (type "languagepack")
+	 (title "Localization Update Pack")
+	 (author "Various")
+	 (license "GPL 2+ / CC-by-sa 3.0")
+	)

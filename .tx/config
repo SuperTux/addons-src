@@ -1,0 +1,58 @@
+[main]
+host = https://www.transifex.com
+
+[supertux.menu-principale]
+file_filter = langpack/langpack/menu-principale/<lang>.po
+minimum_perc = 75
+source_file = data/locale/menu-principale/messages.pot
+source_lang = en
+type = PO
+
+[supertux.bonus-1]
+file_filter = langpack/langpack/bonus1/<lang>.po
+minimum_perc = 75
+source_file = data/locale/bonus1/messages.pot
+source_lang = en
+type = PO
+
+[supertux.bonus-2]
+file_filter = langpack/langpack/bonus2/<lang>.po
+minimum_perc = 75
+source_file = data/locale/bonus2/messages.pot
+source_lang = en
+type = PO
+
+[supertux.bonus-3]
+file_filter = langpack/langpack/bonus3/<lang>.po
+minimum_perc = 75
+source_file = data/locale/bonus3/messages.pot
+source_lang = en
+type = PO
+
+[supertux.halloween-2014]
+file_filter = langpack/langpack/halloween2014/<lang>.po
+minimum_perc = 75
+source_file = data/locale/halloween2014/messages.pot
+source_lang = en
+type = PO
+
+[supertux.incubator]
+file_filter = langpack/langpack/incubator/<lang>.po
+minimum_perc = 75
+source_file = data/locale/incubator/messages.pot
+source_lang = en
+type = PO
+
+[supertux.world-1]
+file_filter = langpack/langpack/world1/<lang>.po
+minimum_perc = 75
+source_file = data/locale/world1/messages.pot
+source_lang = en
+type = PO
+
+[supertux.world-2]
+file_filter = langpack/langpack/world2/<lang>.po
+minimum_perc = 75
+source_file = data/locale/world2/messages.pot
+source_lang = en
+type = PO
