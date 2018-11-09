@@ -1,5 +1,5 @@
 (supertux-addoninfo
-	 (id "langpack")
+	 (id "language-pack")
 	 (version 1)
 	 (type "languagepack")
 	 (title "Localization Update Pack")
