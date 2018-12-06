@@ -150,14 +150,6 @@
       (x 5537)
       (y 1702)
     )
-    (smartball
-      (x 5987)
-      (y 1606)
-    )
-    (smartball
-      (x 6051)
-      (y 1574)
-    )
     (music
       (file "music/salcon.ogg")
     )
@@ -171,6 +163,14 @@
       (height 232)
       (x 6144)
       (y 1440)
+    )
+    (smartball
+      (x 5987)
+      (y 1606)
+    )
+    (smartball
+      (x 6051)
+      (y 1574)
     )
     (snowball
       (x 6115)

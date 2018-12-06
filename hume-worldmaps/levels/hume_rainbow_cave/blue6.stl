@@ -25,12 +25,6 @@
       (x 384)
       (y 480)
     )
-    (platform
-      (running #f)
-      (name "pica")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "1e3a566b-4a12-472d-957e-a8904b442618")
-    )
     (gradient
       (top_color 0 0 1)
       (bottom_color 0 0 1)
@@ -50,6 +44,12 @@
           (y 960)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "pica")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "1e3a566b-4a12-472d-957e-a8904b442618")
     )
     (spawnpoint
       (name "main")
@@ -293,30 +293,6 @@ while(true){
       (x 2016)
       (y 2560)
     )
-    (platform
-      (running #f)
-      (name "nonepi1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "0a44d11d-58c7-41ba-9b7e-fd90d00712c7")
-    )
-    (platform
-      (running #f)
-      (name "nonepi2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "8a1a0618-98f4-4bf8-8ec9-c4b4ea986977")
-    )
-    (platform
-      (running #f)
-      (name "epi1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "dfff1ed9-247f-4c96-95c8-8c4f4aeeae9d")
-    )
-    (platform
-      (running #f)
-      (name "epi2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "16189639-b2a0-4101-b5e7-a6d4e6484d91")
-    )
     (gradient
       (top_color 1 1 1)
       (bottom_color 1 1 1)
@@ -477,6 +453,30 @@ while(true){
           (y 2528)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "nonepi1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "0a44d11d-58c7-41ba-9b7e-fd90d00712c7")
+    )
+    (platform
+      (running #f)
+      (name "nonepi2")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "8a1a0618-98f4-4bf8-8ec9-c4b4ea986977")
+    )
+    (platform
+      (running #f)
+      (name "epi1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "dfff1ed9-247f-4c96-95c8-8c4f4aeeae9d")
+    )
+    (platform
+      (running #f)
+      (name "epi2")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "16189639-b2a0-4101-b5e7-a6d4e6484d91")
     )
     (scriptedobject
       (physic-enabled #f)

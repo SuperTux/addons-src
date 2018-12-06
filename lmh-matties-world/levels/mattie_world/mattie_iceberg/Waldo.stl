@@ -54,13 +54,13 @@ background.fade(0.8,3);")
     (music
       (file "music/salcon.ogg")
     )
+    (particles-snow
+    )
     (secretarea
       (width 64)
       (height 64)
       (x 0)
       (y 576)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

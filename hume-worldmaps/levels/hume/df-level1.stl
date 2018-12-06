@@ -45,16 +45,6 @@
       (x 3680)
       (y 448)
     )
-    (platform
-      (running #f)
-      (name "secretplat")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "e28c86f6-f8ee-4d58-9cec-5d7238764d11")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "80ac8c2c-efc3-4c79-bae5-ebcd3c51b8ef")
-    )
     (mole
       (x 4544)
       (y 1024)
@@ -107,6 +97,16 @@
           (time 3)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "secretplat")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "e28c86f6-f8ee-4d58-9cec-5d7238764d11")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "80ac8c2c-efc3-4c79-bae5-ebcd3c51b8ef")
     )
     (poisonivy
       (x 3328)
@@ -413,10 +413,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "077f80c9-74b3-4381-a54c-df39865718b6")
-    )
     (music
       (file "music/bonuscave.ogg")
     )
@@ -428,6 +424,10 @@
           (y 672)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "077f80c9-74b3-4381-a54c-df39865718b6")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"secret\")")

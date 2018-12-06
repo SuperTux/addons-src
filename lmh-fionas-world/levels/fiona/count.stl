@@ -191,14 +191,6 @@
       (x 5029)
       (y 712)
     )
-    (smartball
-      (x 515)
-      (y 448)
-    )
-    (smartball
-      (x 2659)
-      (y 70)
-    )
     (music
       (file "music/cave.ogg")
     )
@@ -310,6 +302,14 @@
     (short_fuse
       (x 5097)
       (y 1154)
+    )
+    (smartball
+      (x 515)
+      (y 448)
+    )
+    (smartball
+      (x 2659)
+      (y 70)
     )
     (snowman
       (x 3882)

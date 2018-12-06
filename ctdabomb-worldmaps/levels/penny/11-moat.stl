@@ -40,31 +40,6 @@
       (x 4960)
       (y 672)
     )
-    (platform
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "a5cf3f2b-9003-45b1-8e21-d77434e367f6")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "16dd6726-e990-407f-9cf0-5cc1a4b69c95")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "98f0ed3b-8d2a-4963-a852-83e46b4a0783")
-    )
-    (platform
-      (name "bus")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "6fcf2433-360a-4dfb-9185-2dabf7774303")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "0f665b4b-74a0-4163-8bd6-467ef92bd397")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "b70e3a90-f4f7-4376-9792-e57dbecc30b5")
-    )
     (gradient
       (top_color 0.05490196 0.01176471 0.4117647)
       (bottom_color 0.01568628 0.4509804 0.3764706)
@@ -127,16 +102,10 @@
       (x 4453)
       (y 872)
     )
-    (smartball
-      (x 2403)
-      (y 966)
-    )
-    (smartball
-      (x 3267)
-      (y 934)
-    )
     (music
       (file "music/greatgigantic.ogg")
+    )
+    (particles-rain
     )
     (path
       (name "a5cf3f2b-9003-45b1-8e21-d77434e367f6")
@@ -200,12 +169,35 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "a5cf3f2b-9003-45b1-8e21-d77434e367f6")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "16dd6726-e990-407f-9cf0-5cc1a4b69c95")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "98f0ed3b-8d2a-4963-a852-83e46b4a0783")
+    )
+    (platform
+      (name "bus")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "6fcf2433-360a-4dfb-9185-2dabf7774303")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "0f665b4b-74a0-4163-8bd6-467ef92bd397")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "b70e3a90-f4f7-4376-9792-e57dbecc30b5")
+    )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")
       (x 160)
       (y 224)
-    )
-    (particles-rain
     )
     (scripttrigger
       (script "Tux.deactivate();
@@ -270,6 +262,14 @@ Tux.activate();")
     (short_fuse
       (x 4649)
       (y 930)
+    )
+    (smartball
+      (x 2403)
+      (y 966)
+    )
+    (smartball
+      (x 3267)
+      (y 934)
     )
     (snowman
       (x 586)

@@ -127,12 +127,6 @@
       (x 4672)
       (y 1088)
     )
-    (platform
-      (running #f)
-      (name "door")
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
-      (path-ref "03c5abd8-8704-4989-949f-4872a8ee6aa3")
-    )
     (gradient
       (top_color 0.4 0 0.4)
       (bottom_color 0.8999998 0.5 0)
@@ -224,38 +218,10 @@
       (x 5504)
       (y 1216)
     )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 1952)
-      (y 992)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 1472)
-      (y 992)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 7200)
-      (y 512)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 10144)
-      (y 448)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 7712)
-      (y 960)
-    )
     (music
       (file "/music/voc-daytime2.music")
+    )
+    (particles-snow
     )
     (path
       (name "03c5abd8-8704-4989-949f-4872a8ee6aa3")
@@ -375,6 +341,12 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "door")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
+      (path-ref "03c5abd8-8704-4989-949f-4872a8ee6aa3")
+    )
     (pushbutton
       (script "door.goto_node(1);")
       (sprite "images/objects/pushbutton/pushbutton.sprite")
@@ -417,11 +389,35 @@
       (x 10496)
       (y 0)
     )
-    (sspiky
+    (smartball
       (direction "left")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 4000)
-      (y 1120)
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 1952)
+      (y 992)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 1472)
+      (y 992)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 7200)
+      (y 512)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 10144)
+      (y 448)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 7712)
+      (y 960)
     )
     (snowball
       (direction "left")
@@ -477,8 +473,6 @@
       (x 7104)
       (y 1056)
     )
-    (particles-snow
-    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -501,6 +495,12 @@
       (sprite "images/creatures/spiky/spiky.sprite")
       (x 2912)
       (y 1152)
+    )
+    (sspiky
+      (direction "left")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 4000)
+      (y 1120)
     )
     (stalactite
       (sprite "images/creatures/stalactite/stalactite.sprite")

@@ -78,8 +78,6 @@
       (x 3714)
       (y 197)
     )
-    (particles-clouds
-    )
     (crystallo
       (x 5888)
       (y 103)
@@ -280,6 +278,24 @@
       (x 5953)
       (y 838)
     )
+    (music
+      (file "music/worldmap_tux.ogg")
+    )
+    (particles-clouds
+    )
+    (secretarea
+      (width 220)
+      (height 328)
+      (x 7936)
+      (y 436)
+    )
+    (sequencetrigger
+      (sequence "fireworks")
+      (width 200)
+      (height 200)
+      (x 9428)
+      (y 1236)
+    )
     (smartball
       (x 5412)
       (y 1420)
@@ -347,30 +363,6 @@
     (smartball
       (x 3587)
       (y 198)
-    )
-    (music
-      (file "music/worldmap_tux.ogg")
-    )
-    (secretarea
-      (width 220)
-      (height 328)
-      (x 7936)
-      (y 436)
-    )
-    (sequencetrigger
-      (sequence "fireworks")
-      (width 200)
-      (height 200)
-      (x 9428)
-      (y 1236)
-    )
-    (sspiky
-      (x 6726)
-      (y 106)
-    )
-    (sspiky
-      (x 4742)
-      (y 170)
     )
     (snowball
       (x 2339)
@@ -500,6 +492,14 @@
     (spiky
       (x 4518)
       (y 202)
+    )
+    (sspiky
+      (x 6726)
+      (y 106)
+    )
+    (sspiky
+      (x 4742)
+      (y 170)
     )
     (tilemap
       (solid #t)

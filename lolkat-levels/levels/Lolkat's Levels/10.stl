@@ -85,15 +85,6 @@
     (music
       (file "music/forest.ogg")
     )
-    (sspiky
-      (x 4518)
-      (y 234)
-    )
-    (sspiky
-      (direction "right")
-      (x 4102)
-      (y 234)
-    )
     (snail
       (x 3010)
       (y 131)
@@ -110,6 +101,15 @@
       (name "main")
       (x 64)
       (y 512)
+    )
+    (sspiky
+      (x 4518)
+      (y 234)
+    )
+    (sspiky
+      (direction "right")
+      (x 4102)
+      (y 234)
     )
     (tilemap
       (solid #f)

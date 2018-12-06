@@ -155,6 +155,15 @@
       (x 10593)
       (y 518)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (secretarea
+      (width 450.6074)
+      (height 142.3087)
+      (x 12096)
+      (y 64)
+    )
     (smartball
       (x 4451)
       (y 454)
@@ -198,15 +207,6 @@
     (smartball
       (x 12419)
       (y 166)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (secretarea
-      (width 450.6074)
-      (height 142.3087)
-      (x 12096)
-      (y 64)
     )
     (snowman
       (x 10986)

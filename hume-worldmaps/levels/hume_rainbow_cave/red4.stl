@@ -12,12 +12,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "debil")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "e5f662f5-ce64-4690-bd27-a786f6d4e02b")
-    )
     (gradient
       (top_color 1 0 0)
       (bottom_color 1 0 0)
@@ -117,6 +111,12 @@
           (time 20)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "debil")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "e5f662f5-ce64-4690-bd27-a786f6d4e02b")
     )
     (pushbutton
       (script "debil.goto_node(0)")

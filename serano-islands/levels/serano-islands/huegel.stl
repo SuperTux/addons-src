@@ -24,38 +24,6 @@
       (x 1376)
       (y 2080)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "b0cf81b5-af89-4710-953c-5a25c6f0a392")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "a0019ed4-e2c6-4d14-b7d3-d2d32a0b12c1")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "166b3421-34fb-4aa6-9a05-54541656d671")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "8bb6cfd4-93d0-4220-8a7c-815931e032a7")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "09bcf847-a855-4aab-bc40-86903bf78f45")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "9aa7ac0b-32b7-4d18-a318-3a9c9a5f8f21")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "629f7f14-3b99-4131-b6b6-8d4508bcb9ca")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "bb84b1c9-394c-4c66-90bd-2ff2e8e6a0ca")
-    )
     (music
       (file "music/forest2.ogg")
     )
@@ -130,6 +98,38 @@
           (y 2080)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "b0cf81b5-af89-4710-953c-5a25c6f0a392")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "a0019ed4-e2c6-4d14-b7d3-d2d32a0b12c1")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "166b3421-34fb-4aa6-9a05-54541656d671")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "8bb6cfd4-93d0-4220-8a7c-815931e032a7")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "09bcf847-a855-4aab-bc40-86903bf78f45")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "9aa7ac0b-32b7-4d18-a318-3a9c9a5f8f21")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "629f7f14-3b99-4131-b6b6-8d4508bcb9ca")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "bb84b1c9-394c-4c66-90bd-2ff2e8e6a0ca")
     )
     (poisonivy
       (x 1280)

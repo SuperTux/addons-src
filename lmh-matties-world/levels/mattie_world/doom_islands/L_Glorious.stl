@@ -232,14 +232,6 @@
       (x 11361)
       (y 774)
     )
-    (smartball
-      (x 1347)
-      (y 230)
-    )
-    (smartball
-      (x 3779)
-      (y 326)
-    )
     (music
       (file "music/voc-daytime2.ogg")
     )
@@ -1342,15 +1334,13 @@
       (x 10336)
       (y 1088)
     )
-    (sspiky
-      (direction "left")
-      (x 5478)
-      (y 352)
+    (smartball
+      (x 1347)
+      (y 230)
     )
-    (sspiky
-      (direction "right")
-      (x 5286)
-      (y 352)
+    (smartball
+      (x 3779)
+      (y 326)
     )
     (snowball
       (x 1507)
@@ -1408,6 +1398,16 @@
       (name "main")
       (x 96)
       (y 96)
+    )
+    (sspiky
+      (direction "left")
+      (x 5478)
+      (y 352)
+    )
+    (sspiky
+      (direction "right")
+      (x 5286)
+      (y 352)
     )
     (tilemap
       (solid #f)

@@ -49,18 +49,6 @@
       (x 2528)
       (y 839)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "afd9bea3-dcc5-47f6-a6c3-916dcee012ea")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "1fc8ea15-5f5b-443f-b939-4fe40958296f")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "341bb554-a4c8-407a-b0f0-5c3f7655ad33")
-    )
     (flyingsnowball
       (x 6048)
       (y 736)
@@ -83,50 +71,6 @@
     (jumpy
       (x 4999)
       (y 456)
-    )
-    (smartball
-      (x 835)
-      (y 518)
-    )
-    (smartball
-      (x 1699)
-      (y 678)
-    )
-    (smartball
-      (x 2115)
-      (y 358)
-    )
-    (smartball
-      (x 2915)
-      (y 838)
-    )
-    (smartball
-      (x 3875)
-      (y 358)
-    )
-    (smartball
-      (x 3011)
-      (y 838)
-    )
-    (smartball
-      (x 1123)
-      (y 422)
-    )
-    (smartball
-      (x 3267)
-      (y 358)
-    )
-    (smartball
-      (x 5283)
-      (y 486)
-    )
-    (smartball
-      (x 5443)
-      (y 486)
-    )
-    (smartball
-      (x 1507)
-      (y 166)
     )
     (music
       (file "music/voc-night.ogg")
@@ -258,6 +202,18 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "afd9bea3-dcc5-47f6-a6c3-916dcee012ea")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "1fc8ea15-5f5b-443f-b939-4fe40958296f")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "341bb554-a4c8-407a-b0f0-5c3f7655ad33")
+    )
     (powerup
       (sprite "images/powerups/1up/1up.sprite")
       (x 4896)
@@ -275,6 +231,55 @@
       (x 3264)
       (y 84)
     )
+    (smartball
+      (x 835)
+      (y 518)
+    )
+    (smartball
+      (x 1699)
+      (y 678)
+    )
+    (smartball
+      (x 2115)
+      (y 358)
+    )
+    (smartball
+      (x 2915)
+      (y 838)
+    )
+    (smartball
+      (x 3875)
+      (y 358)
+    )
+    (smartball
+      (x 3011)
+      (y 838)
+    )
+    (smartball
+      (x 1123)
+      (y 422)
+    )
+    (smartball
+      (x 3267)
+      (y 358)
+    )
+    (smartball
+      (x 5283)
+      (y 486)
+    )
+    (smartball
+      (x 5443)
+      (y 486)
+    )
+    (smartball
+      (x 1507)
+      (y 166)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 448)
+    )
     (sspiky
       (direction "left")
       (x 1584)
@@ -284,11 +289,6 @@
       (direction "right")
       (x 1328)
       (y 554)
-    )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 448)
     )
     (tilemap
       (solid #f)

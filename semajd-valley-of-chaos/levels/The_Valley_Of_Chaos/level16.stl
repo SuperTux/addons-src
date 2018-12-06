@@ -27,16 +27,9 @@
       (x 7266)
       (y 581)
     )
-    (particles-clouds
-    )
     (firefly
       (x 5856)
       (y 544)
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "208fe23c-80f2-492c-b74b-415da989758f")
     )
     (flyingsnowball
       (x 9860)
@@ -347,40 +340,12 @@
       (x 2337)
       (y 486)
     )
-    (smartball
-      (x 963)
-      (y 422)
-    )
-    (smartball
-      (x 1059)
-      (y 454)
-    )
-    (smartball
-      (x 1123)
-      (y 486)
-    )
-    (smartball
-      (x 1187)
-      (y 518)
-    )
-    (smartball
-      (x 355)
-      (y 518)
-    )
-    (smartball
-      (x 419)
-      (y 486)
-    )
-    (smartball
-      (x 483)
-      (y 454)
-    )
-    (smartball
-      (x 579)
-      (y 422)
-    )
     (music
       (file "music/voc-night.music")
+    )
+    (particles-clouds
+    )
+    (particles-snow
     )
     (path
       (name "208fe23c-80f2-492c-b74b-415da989758f")
@@ -517,6 +482,11 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "208fe23c-80f2-492c-b74b-415da989758f")
+    )
     (rock
       (x 1824)
       (y 576)
@@ -596,6 +566,38 @@ movingsnow4.start_moving()")
       (x 32)
       (y 96)
     )
+    (smartball
+      (x 963)
+      (y 422)
+    )
+    (smartball
+      (x 1059)
+      (y 454)
+    )
+    (smartball
+      (x 1123)
+      (y 486)
+    )
+    (smartball
+      (x 1187)
+      (y 518)
+    )
+    (smartball
+      (x 355)
+      (y 518)
+    )
+    (smartball
+      (x 419)
+      (y 486)
+    )
+    (smartball
+      (x 483)
+      (y 454)
+    )
+    (smartball
+      (x 579)
+      (y 422)
+    )
     (snowball
       (x 6595)
       (y 548)
@@ -603,8 +605,6 @@ movingsnow4.start_moving()")
     (snowball
       (x 6435)
       (y 484)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

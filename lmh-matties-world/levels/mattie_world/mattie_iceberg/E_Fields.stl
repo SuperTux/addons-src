@@ -15,33 +15,9 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "pipe1")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "e916b073-0902-4d66-8964-1de42d953fdd")
-    )
-    (platform
-      (running #f)
-      (name "pipe2")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "e4f359e4-d392-4fd4-8411-8d30adc2d0fb")
-    )
     (flyingsnowball
       (x 4960)
       (y 480)
-    )
-    (smartball
-      (x 1056)
-      (y 608)
-    )
-    (smartball
-      (x 1888)
-      (y 480)
-    )
-    (smartball
-      (x 4672)
-      (y 416)
     )
     (music
       (file "music/chipdisko.ogg")
@@ -92,6 +68,18 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "pipe1")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "e916b073-0902-4d66-8964-1de42d953fdd")
+    )
+    (platform
+      (running #f)
+      (name "pipe2")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "e4f359e4-d392-4fd4-8411-8d30adc2d0fb")
+    )
     (scripttrigger
       (script "pipe1.goto_node(1);")
       (button #f)
@@ -115,10 +103,17 @@
       (x 32)
       (y 672)
     )
-    (sspiky
-      (direction "right")
-      (x 5328)
+    (smartball
+      (x 1056)
       (y 608)
+    )
+    (smartball
+      (x 1888)
+      (y 480)
+    )
+    (smartball
+      (x 4672)
+      (y 416)
     )
     (snowball
       (x 1408)
@@ -144,6 +139,11 @@
       (name "main")
       (x 64)
       (y 544)
+    )
+    (sspiky
+      (direction "right")
+      (x 5328)
+      (y 608)
     )
     (tilemap
       (solid #t)

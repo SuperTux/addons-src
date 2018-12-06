@@ -657,6 +657,11 @@ secret2.set_burning(true);")
       (x 384)
       (y 128)
     )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 64)
+    )
     (sspiky
       (x 832)
       (y 544)
@@ -665,11 +670,6 @@ secret2.set_burning(true);")
       (direction "right")
       (x 1024)
       (y 448)
-    )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 64)
     )
     (stalactite
       (x 2610)

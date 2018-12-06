@@ -237,15 +237,15 @@ drop.goto_node(5);")
       (x 2441)
       (y 802)
     )
-    (sspiky
-      (direction "right")
-      (x 416)
-      (y 736)
-    )
     (spawnpoint
       (name "main")
       (x 64)
       (y 832)
+    )
+    (sspiky
+      (direction "right")
+      (x 416)
+      (y 736)
     )
     (tilemap
       (solid #f)

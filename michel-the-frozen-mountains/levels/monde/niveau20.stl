@@ -82,6 +82,25 @@
       (x 4261)
       (y 168)
     )
+    (music
+      (file "music/greatgigantic.music")
+    )
+    (particles-rain
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 44)
+      (x 12288)
+      (y 180)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 204)
+      (x 11968)
+      (y 20)
+    )
     (smartball
       (x 12419)
       (y 166)
@@ -113,25 +132,6 @@
     (smartball
       (x 4579)
       (y 198)
-    )
-    (music
-      (file "music/greatgigantic.music")
-    )
-    (particles-rain
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 44)
-      (x 12288)
-      (y 180)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 204)
-      (x 11968)
-      (y 20)
     )
     (snowball
       (x 6179)

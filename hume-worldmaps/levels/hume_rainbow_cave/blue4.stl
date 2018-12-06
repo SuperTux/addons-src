@@ -61,18 +61,6 @@
       (x 6176)
       (y 1280)
     )
-    (platform
-      (running #f)
-      (name "pica")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "c0c2a6e7-3c99-4f24-8cd4-81e18972c30c")
-    )
-    (platform
-      (running #f)
-      (name "pizza")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "29e06da2-649a-492e-b687-ae624fdd56a7")
-    )
     (flyingsnowball
       (x 1600)
       (y 1344)
@@ -335,6 +323,18 @@
           (y -128)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "pica")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "c0c2a6e7-3c99-4f24-8cd4-81e18972c30c")
+    )
+    (platform
+      (running #f)
+      (name "pizza")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "29e06da2-649a-492e-b687-ae624fdd56a7")
     )
     (scripttrigger
       (script "pica.goto_node(1);

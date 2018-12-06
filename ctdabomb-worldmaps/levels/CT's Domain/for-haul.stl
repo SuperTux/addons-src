@@ -33,14 +33,6 @@
       (x 769)
       (y 774)
     )
-    (smartball
-      (x 483)
-      (y 774)
-    )
-    (smartball
-      (x 2083)
-      (y 870)
-    )
     (music
       (file "music/airship_remix.ogg")
     )
@@ -51,6 +43,14 @@
       (height 32)
       (x -12)
       (y 1024)
+    )
+    (smartball
+      (x 483)
+      (y 774)
+    )
+    (smartball
+      (x 2083)
+      (y 870)
     )
     (snowman
       (x 1770)
@@ -258,6 +258,17 @@
       (x 1921)
       (y 326)
     )
+    (music
+      (file "music/cave.music")
+    )
+    (scripttrigger
+      (script "Level.spawn(\"under\", \"under\");")
+      (button #f)
+      (width 220)
+      (height 32)
+      (x 32)
+      (y 1024)
+    )
     (smartball
       (x 963)
       (y 358)
@@ -273,17 +284,6 @@
     (smartball
       (x 643)
       (y 550)
-    )
-    (music
-      (file "music/cave.music")
-    )
-    (scripttrigger
-      (script "Level.spawn(\"under\", \"under\");")
-      (button #f)
-      (width 220)
-      (height 32)
-      (x 32)
-      (y 1024)
     )
     (snowball
       (x 803)
@@ -449,14 +449,6 @@
       (x 3008)
       (y 992)
     )
-    (sspiky
-      (x 2886)
-      (y 106)
-    )
-    (sspiky
-      (x 2118)
-      (y 554)
-    )
     (snail
       (x 578)
       (y 995)
@@ -465,6 +457,14 @@
       (name "under")
       (x 96)
       (y 32)
+    )
+    (sspiky
+      (x 2886)
+      (y 106)
+    )
+    (sspiky
+      (x 2118)
+      (y 554)
     )
     (stumpy
       (x 1620)
@@ -678,11 +678,6 @@
       (x 64)
       (y 1024)
     )
-    (platform
-      (name "plate")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "d784f17a-9f48-4bee-aee1-d5ca1eac4b30")
-    )
     (jumpy
       (x 1383)
       (y 904)
@@ -762,6 +757,11 @@
           (y 864)
         )
       )
+    )
+    (platform
+      (name "plate")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "d784f17a-9f48-4bee-aee1-d5ca1eac4b30")
     )
     (spawnpoint
       (name "dirt")

@@ -55,30 +55,6 @@
       (x 6288)
       (y 608)
     )
-    (platform
-      (running #f)
-      (name "tdoor")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "a0a1385f-8815-4c64-97a4-ad9dc960099c")
-    )
-    (platform
-      (running #f)
-      (name "airlift")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "75c55429-68ae-4e2a-b04a-80eb75c01f3c")
-    )
-    (platform
-      (running #f)
-      (name "woodlift")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "c2c85bdc-8c15-4afa-8d63-36ef924dd9f8")
-    )
-    (platform
-      (running #f)
-      (name "airdrop")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "d94d8b39-5fcf-4a61-bcef-43cb403327f1")
-    )
     (flyingsnowball
       (x 988)
       (y 608)
@@ -473,22 +449,6 @@
       (x 5440)
       (y 544)
     )
-    (smartball
-      (x 288)
-      (y 1248)
-    )
-    (smartball
-      (x 1600)
-      (y 480)
-    )
-    (smartball
-      (x 2712)
-      (y 544)
-    )
-    (smartball
-      (x 4768)
-      (y 1088)
-    )
     (music
       (file "music/chipdisko.ogg")
     )
@@ -706,6 +666,30 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "tdoor")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "a0a1385f-8815-4c64-97a4-ad9dc960099c")
+    )
+    (platform
+      (running #f)
+      (name "airlift")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "75c55429-68ae-4e2a-b04a-80eb75c01f3c")
+    )
+    (platform
+      (running #f)
+      (name "woodlift")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "c2c85bdc-8c15-4afa-8d63-36ef924dd9f8")
+    )
+    (platform
+      (running #f)
+      (name "airdrop")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "d94d8b39-5fcf-4a61-bcef-43cb403327f1")
+    )
     (rock
       (x 2272)
       (y 1248)
@@ -825,14 +809,21 @@
       (x 1024)
       (y 0)
     )
-    (sspiky
-      (x 2624)
+    (smartball
+      (x 288)
+      (y 1248)
+    )
+    (smartball
+      (x 1600)
+      (y 480)
+    )
+    (smartball
+      (x 2712)
       (y 544)
     )
-    (sspiky
-      (direction "right")
-      (x 6688)
-      (y 1216)
+    (smartball
+      (x 4768)
+      (y 1088)
     )
     (snowman
       (x 824)
@@ -885,6 +876,15 @@
     (spiky
       (x 5536)
       (y 544)
+    )
+    (sspiky
+      (x 2624)
+      (y 544)
+    )
+    (sspiky
+      (direction "right")
+      (x 6688)
+      (y 1216)
     )
     (switch
       (script "  if(! (\"door_opened\" in this) ) {
@@ -1313,14 +1313,14 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (gradient
       (top_color 0 1 1)
       (bottom_color 0 0 1)
     )
     (music
       (file "music/salcon.ogg")
+    )
+    (particles-clouds
     )
     (scripttrigger
       (script "Level.spawn(\"main\", \"sky\");")

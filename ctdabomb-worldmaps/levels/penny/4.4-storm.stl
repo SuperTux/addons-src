@@ -149,40 +149,12 @@
       (x 385)
       (y 454)
     )
-    (smartball
-      (x 931)
-      (y 326)
-    )
-    (smartball
-      (x 1027)
-      (y 326)
-    )
-    (smartball
-      (x 2467)
-      (y 390)
-    )
-    (smartball
-      (x 2755)
-      (y 390)
-    )
-    (smartball
-      (x 5731)
-      (y 582)
-    )
-    (smartball
-      (x 4963)
-      (y 678)
-    )
-    (smartball
-      (x 5699)
-      (y 230)
-    )
-    (smartball
-      (x 4931)
-      (y 326)
-    )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (particles-rain
+    )
+    (particles-rain
     )
     (path
       (name "e24e88d0-ef5b-42dd-8c71-997ac24dbfe7")
@@ -229,10 +201,6 @@
           (y 832)
         )
       )
-    )
-    (particles-rain
-    )
-    (particles-rain
     )
     (scripttrigger
       (script "fall2.goto_node(8)")
@@ -304,9 +272,37 @@
       (x 3177)
       (y 450)
     )
-    (sspiky
-      (x 678)
-      (y 394)
+    (smartball
+      (x 931)
+      (y 326)
+    )
+    (smartball
+      (x 1027)
+      (y 326)
+    )
+    (smartball
+      (x 2467)
+      (y 390)
+    )
+    (smartball
+      (x 2755)
+      (y 390)
+    )
+    (smartball
+      (x 5731)
+      (y 582)
+    )
+    (smartball
+      (x 4963)
+      (y 678)
+    )
+    (smartball
+      (x 5699)
+      (y 230)
+    )
+    (smartball
+      (x 4931)
+      (y 326)
     )
     (snowball
       (x 2563)
@@ -332,6 +328,10 @@
     (spiky
       (x 454)
       (y 458)
+    )
+    (sspiky
+      (x 678)
+      (y 394)
     )
     (thunderstorm
       (interval 3)

@@ -98,6 +98,13 @@
       (x 3937)
       (y 870)
     )
+    (secretarea
+      (fade-tilemap "secret1")
+      (width 124)
+      (height 32)
+      (x 0)
+      (y 352)
+    )
     (smartball
       (x 2083)
       (y 646)
@@ -113,22 +120,6 @@
     (smartball
       (x 5635)
       (y 614)
-    )
-    (secretarea
-      (fade-tilemap "secret1")
-      (width 124)
-      (height 32)
-      (x 0)
-      (y 352)
-    )
-    (sspiky
-      (direction "left")
-      (x 2694)
-      (y 746)
-    )
-    (sspiky
-      (x 4230)
-      (y 778)
     )
     (snowball
       (x 2819)
@@ -150,6 +141,15 @@
       (name "main")
       (x 128)
       (y 256)
+    )
+    (sspiky
+      (direction "left")
+      (x 2694)
+      (y 746)
+    )
+    (sspiky
+      (x 4230)
+      (y 778)
     )
     (stalactite
       (x 512)

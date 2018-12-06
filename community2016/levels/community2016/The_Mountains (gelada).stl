@@ -50,11 +50,6 @@
       (x 7263)
       (y 64)
     )
-    (particles-clouds
-      (z-pos 300)
-    )
-    (particles-clouds
-    )
     (firefly
       (sprite "images/objects/resetpoints/default-resetpoint.sprite")
       (x 6366.5)
@@ -229,12 +224,6 @@
       (x 10634.1)
       (y 1096.1)
     )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 4031)
-      (y 656)
-    )
     (music
       (file "/music/voc-daytime2.music")
     )
@@ -251,6 +240,16 @@
       (sprite "images/creatures/owl/owl.sprite")
       (x 712.5)
       (y 115.5)
+    )
+    (particles-clouds
+      (z-pos 300)
+    )
+    (particles-clouds
+    )
+    (particles-snow
+    )
+    (particles-snow
+      (z-pos 500)
     )
     (secretarea
       (message "area secreta")
@@ -379,6 +378,12 @@
       (x 712.5)
       (y 115.5)
     )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 4031)
+      (y 656)
+    )
     (smartblock
       (direction "left")
       (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
@@ -408,11 +413,6 @@
       (sprite "images/creatures/snowman/snowman.sprite")
       (x 4399)
       (y 570)
-    )
-    (particles-snow
-    )
-    (particles-snow
-      (z-pos 500)
     )
     (spawnpoint
       (name "main")

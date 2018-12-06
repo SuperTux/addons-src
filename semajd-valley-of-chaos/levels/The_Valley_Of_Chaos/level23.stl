@@ -318,86 +318,6 @@
       (x 0)
       (y 672)
     )
-    (yeti_stalactite
-      (x 896)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 960)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 1152)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 1216)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 1024)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 1088)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 0)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 64)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 768)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 832)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 640)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 704)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 512)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 576)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 384)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 448)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 256)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 320)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 128)
-      (y 356)
-    )
-    (yeti_stalactite
-      (x 192)
-      (y 356)
-    )
     (tilemap
       (solid #f)
       (speed 0.8)
@@ -678,6 +598,86 @@
       (dead-script "wall2.goto_node(1)")
       (x 81)
       (y 396)
+    )
+    (yeti_stalactite
+      (x 896)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 960)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 1152)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 1216)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 1024)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 1088)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 0)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 64)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 768)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 832)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 640)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 704)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 512)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 576)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 384)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 448)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 256)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 320)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 128)
+      (y 356)
+    )
+    (yeti_stalactite
+      (x 192)
+      (y 356)
     )
   )
 )

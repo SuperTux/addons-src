@@ -871,10 +871,6 @@ Text.fade_out(0.5)")
       (x 384)
       (y 32)
     )
-    (sspiky
-      (x 2208)
-      (y 96)
-    )
     (snail
       (x 2720)
       (y 96)
@@ -948,6 +944,10 @@ Text.fade_out(0.5)")
       (color 1 0 0)
       (x 1984)
       (y 1120)
+    )
+    (sspiky
+      (x 2208)
+      (y 96)
     )
     (stalactite
       (x 2592)

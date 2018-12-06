@@ -82,6 +82,8 @@
     (music
       (file "music/forest.ogg")
     )
+    (particles-rain
+    )
     (path
       (name "bb2af6e5-6fe4-40d1-a141-6b6627f38d44")
       (path
@@ -98,8 +100,6 @@
     (poisonivy
       (x 1888)
       (y 800)
-    )
-    (particles-rain
     )
     (secretarea
       (fade-tilemap "secret")

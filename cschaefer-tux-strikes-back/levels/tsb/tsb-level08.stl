@@ -23,8 +23,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (flame
       (x 2368)
       (y 320)
@@ -40,66 +38,6 @@
     (flame
       (x 2944)
       (y 320)
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "9f50fd44-e9e5-4cb6-aea7-0d3581339f04")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "fdcefcf8-7689-4c2a-aa03-bb5c0524ea81")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "c1e48c98-2fc6-4e80-b2bb-572d1bee726f")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "1595099a-afff-43f4-b9bb-9ad4167b3e86")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "19b5bf0e-458d-4a36-9340-1791959de131")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "c846246a-eb8f-4e35-889e-ae2d71fdcb7c")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "ab00f866-8bdc-4be2-820b-c5c7b79fef83")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "c9cfdd5b-b02b-417b-a8d0-3c12f4c90c13")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "95ed2593-59f1-4f71-a8e4-dac238ea2851")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "80c3f23e-5fb5-4647-a699-ae0eced80ab8")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "fde0bcb1-17f8-44c4-900b-cbceaf8bad32")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "061f5808-09ef-422f-aeac-762a5cd3f5f6")
     )
     (flyingsnowball
       (x 3581)
@@ -171,6 +109,8 @@
     )
     (music
       (file "music/airship_remix.music")
+    )
+    (particles-clouds
     )
     (path
       (name "9f50fd44-e9e5-4cb6-aea7-0d3581339f04")
@@ -279,6 +219,66 @@
           (y 540)
         )
       )
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "9f50fd44-e9e5-4cb6-aea7-0d3581339f04")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "fdcefcf8-7689-4c2a-aa03-bb5c0524ea81")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "c1e48c98-2fc6-4e80-b2bb-572d1bee726f")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "1595099a-afff-43f4-b9bb-9ad4167b3e86")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "19b5bf0e-458d-4a36-9340-1791959de131")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "c846246a-eb8f-4e35-889e-ae2d71fdcb7c")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "ab00f866-8bdc-4be2-820b-c5c7b79fef83")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "c9cfdd5b-b02b-417b-a8d0-3c12f4c90c13")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "95ed2593-59f1-4f71-a8e4-dac238ea2851")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "80c3f23e-5fb5-4647-a699-ae0eced80ab8")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "fde0bcb1-17f8-44c4-900b-cbceaf8bad32")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "061f5808-09ef-422f-aeac-762a5cd3f5f6")
     )
     (snowball
       (x 1535)

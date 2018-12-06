@@ -61,20 +61,10 @@
       (x 4450.1)
       (y 870.1)
     )
-    (smartball
-      (x 163)
-      (y 806)
-    )
-    (smartball
-      (x 451)
-      (y 806)
-    )
-    (smartball
-      (x 707)
-      (y 806)
-    )
     (music
       (file "music/voc-daytime.music")
+    )
+    (particles-snow
     )
     (poisonivy
       (x 2434)
@@ -105,6 +95,18 @@
       (x 320)
       (y 64)
     )
+    (smartball
+      (x 163)
+      (y 806)
+    )
+    (smartball
+      (x 451)
+      (y 806)
+    )
+    (smartball
+      (x 707)
+      (y 806)
+    )
     (snowball
       (x 739)
       (y 932)
@@ -116,8 +118,6 @@
     (snowball
       (x 419)
       (y 932)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

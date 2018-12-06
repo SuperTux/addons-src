@@ -80,10 +80,6 @@
       (x 833)
       (y 1510)
     )
-    (smartball
-      (x 163)
-      (y 422)
-    )
     (path
       (name "6ed43104-9b35-4778-be43-06d9e8c187ee")
       (path
@@ -107,9 +103,9 @@
       (x 160)
       (y 1120)
     )
-    (sspiky
-      (x 230)
-      (y 938)
+    (smartball
+      (x 163)
+      (y 422)
     )
     (spawnpoint
       (name "main")
@@ -123,6 +119,10 @@
     (spiky
       (x 710)
       (y 298)
+    )
+    (sspiky
+      (x 230)
+      (y 938)
     )
     (stalactite
       (x 1024)

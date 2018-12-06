@@ -62,26 +62,6 @@
       (x 3488)
       (y 1440)
     )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "b63589ef-7042-449d-a042-e3506459419e")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "8c2984ff-c9d9-4264-8bcd-7634ef4e37f4")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "e121a9c2-2603-4d1a-a93f-4804f7ab67b9")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "f2e911a8-fd19-4be6-b8cd-297f8b27ca1c")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "771a4972-c038-417c-bb18-fc83fba2be55")
-    )
     (flyingsnowball
       (x 1696)
       (y 1344)
@@ -250,58 +230,6 @@
       (x 3232)
       (y 1344)
     )
-    (smartball
-      (x 1120)
-      (y 960)
-    )
-    (smartball
-      (x 800)
-      (y 960)
-    )
-    (smartball
-      (x 1280)
-      (y 1504)
-    )
-    (smartball
-      (x 2496)
-      (y 320)
-    )
-    (smartball
-      (x 2016)
-      (y 896)
-    )
-    (smartball
-      (x 2496)
-      (y 1408)
-    )
-    (smartball
-      (x 3936)
-      (y 1408)
-    )
-    (smartball
-      (x 4128)
-      (y 1056)
-    )
-    (smartball
-      (x 3776)
-      (y 832)
-    )
-    (smartball
-      (x 4128)
-      (y 544)
-    )
-    (smartball
-      (x 4128)
-      (y 416)
-    )
-    (smartball
-      (x 4224)
-      (y 576)
-    )
-    (smartball
-      (x 5312)
-      (y 320)
-    )
     (music
       (file "music/chipdisko.ogg")
     )
@@ -435,6 +363,26 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "b63589ef-7042-449d-a042-e3506459419e")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "8c2984ff-c9d9-4264-8bcd-7634ef4e37f4")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "e121a9c2-2603-4d1a-a93f-4804f7ab67b9")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "f2e911a8-fd19-4be6-b8cd-297f8b27ca1c")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "771a4972-c038-417c-bb18-fc83fba2be55")
+    )
     (scripttrigger
       (script "  Tux.deactivate();
             pipedrop.goto_node(1);
@@ -458,6 +406,58 @@
       (height 128)
       (x 2976)
       (y 544)
+    )
+    (smartball
+      (x 1120)
+      (y 960)
+    )
+    (smartball
+      (x 800)
+      (y 960)
+    )
+    (smartball
+      (x 1280)
+      (y 1504)
+    )
+    (smartball
+      (x 2496)
+      (y 320)
+    )
+    (smartball
+      (x 2016)
+      (y 896)
+    )
+    (smartball
+      (x 2496)
+      (y 1408)
+    )
+    (smartball
+      (x 3936)
+      (y 1408)
+    )
+    (smartball
+      (x 4128)
+      (y 1056)
+    )
+    (smartball
+      (x 3776)
+      (y 832)
+    )
+    (smartball
+      (x 4128)
+      (y 544)
+    )
+    (smartball
+      (x 4128)
+      (y 416)
+    )
+    (smartball
+      (x 4224)
+      (y 576)
+    )
+    (smartball
+      (x 5312)
+      (y 320)
     )
     (snowball
       (x 2880)

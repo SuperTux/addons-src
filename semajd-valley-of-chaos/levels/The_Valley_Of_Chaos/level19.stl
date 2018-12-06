@@ -17,8 +17,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (firefly
       (x 3776)
       (y 320)
@@ -130,28 +128,14 @@
     (music
       (file "music/voc-dark.music")
     )
+    (particles-clouds
+    )
     (secretarea
       (fade-tilemap "secret")
       (width 220)
       (height 32)
       (x 5536)
       (y 608)
-    )
-    (sspiky
-      (x 806)
-      (y 234)
-    )
-    (sspiky
-      (x 1126)
-      (y 298)
-    )
-    (sspiky
-      (x 1446)
-      (y 362)
-    )
-    (sspiky
-      (x 4998)
-      (y 394)
     )
     (spawnpoint
       (name "main")
@@ -193,6 +177,22 @@
     (spiky
       (x 6438)
       (y 298)
+    )
+    (sspiky
+      (x 806)
+      (y 234)
+    )
+    (sspiky
+      (x 1126)
+      (y 298)
+    )
+    (sspiky
+      (x 1446)
+      (y 362)
+    )
+    (sspiky
+      (x 4998)
+      (y 394)
     )
     (stalactite
       (x 4192)

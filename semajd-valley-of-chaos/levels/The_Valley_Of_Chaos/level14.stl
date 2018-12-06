@@ -21,74 +21,6 @@
       (x 1536)
       (y 2496)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "0fa37b67-d772-4e93-a951-978850708ed5")
-    )
-    (smartball
-      (x 1283)
-      (y 1318)
-    )
-    (smartball
-      (x 931)
-      (y 1222)
-    )
-    (smartball
-      (x 451)
-      (y 1126)
-    )
-    (smartball
-      (x 515)
-      (y 1126)
-    )
-    (smartball
-      (x 867)
-      (y 1222)
-    )
-    (smartball
-      (x 1379)
-      (y 1318)
-    )
-    (smartball
-      (x 931)
-      (y 3078)
-    )
-    (smartball
-      (x 1091)
-      (y 3014)
-    )
-    (smartball
-      (x 1251)
-      (y 2950)
-    )
-    (smartball
-      (x 1379)
-      (y 2886)
-    )
-    (smartball
-      (x 419)
-      (y 2214)
-    )
-    (smartball
-      (x 707)
-      (y 2278)
-    )
-    (smartball
-      (x 1027)
-      (y 2342)
-    )
-    (smartball
-      (x 1283)
-      (y 2438)
-    )
-    (smartball
-      (x 291)
-      (y 1702)
-    )
-    (smartball
-      (x 995)
-      (y 1702)
-    )
     (music
       (file "music/voc-night.music")
     )
@@ -128,6 +60,10 @@
           (y 3424)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "0fa37b67-d772-4e93-a951-978850708ed5")
     )
     (rock
       (x 512)
@@ -208,6 +144,70 @@
     (rock
       (x 1088)
       (y 2368)
+    )
+    (smartball
+      (x 1283)
+      (y 1318)
+    )
+    (smartball
+      (x 931)
+      (y 1222)
+    )
+    (smartball
+      (x 451)
+      (y 1126)
+    )
+    (smartball
+      (x 515)
+      (y 1126)
+    )
+    (smartball
+      (x 867)
+      (y 1222)
+    )
+    (smartball
+      (x 1379)
+      (y 1318)
+    )
+    (smartball
+      (x 931)
+      (y 3078)
+    )
+    (smartball
+      (x 1091)
+      (y 3014)
+    )
+    (smartball
+      (x 1251)
+      (y 2950)
+    )
+    (smartball
+      (x 1379)
+      (y 2886)
+    )
+    (smartball
+      (x 419)
+      (y 2214)
+    )
+    (smartball
+      (x 707)
+      (y 2278)
+    )
+    (smartball
+      (x 1027)
+      (y 2342)
+    )
+    (smartball
+      (x 1283)
+      (y 2438)
+    )
+    (smartball
+      (x 291)
+      (y 1702)
+    )
+    (smartball
+      (x 995)
+      (y 1702)
     )
     (snowman
       (x 458)

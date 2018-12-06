@@ -68,38 +68,6 @@
       (x 736)
       (y 3904)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "4248302d-5da3-4841-9ba9-9244e169fd39")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "8785820f-f079-47b8-b9e6-9339317d2171")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "0f3983d8-917a-42da-b0e0-0183ade1bb69")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "192aec0e-d4d5-485c-a80a-60d12f60100e")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "1c016906-f439-4c35-afbf-2d24f5de28ea")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "d8314253-ff1f-4d14-92ea-f1312aa3a859")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "86ed607a-c028-4803-a89b-f9ef16b7651a")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "af020923-6e07-4790-979f-53da32af4c7d")
-    )
     (flyingsnowball
       (x 612)
       (y 5859)
@@ -119,14 +87,6 @@
     (mriceblock
       (x 1185)
       (y 6086)
-    )
-    (smartball
-      (x 771)
-      (y 3270)
-    )
-    (smartball
-      (x 1251)
-      (y 2534)
     )
     (music
       (file "music/greatgigantic.ogg")
@@ -278,6 +238,38 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "4248302d-5da3-4841-9ba9-9244e169fd39")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "8785820f-f079-47b8-b9e6-9339317d2171")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "0f3983d8-917a-42da-b0e0-0183ade1bb69")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "192aec0e-d4d5-485c-a80a-60d12f60100e")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "1c016906-f439-4c35-afbf-2d24f5de28ea")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "d8314253-ff1f-4d14-92ea-f1312aa3a859")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "86ed607a-c028-4803-a89b-f9ef16b7651a")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "af020923-6e07-4790-979f-53da32af4c7d")
+    )
     (powerup
       (script "this.c1 <- true
 Tux.add_coins(1);
@@ -422,15 +414,13 @@ m2.start_moving()")
       (x 849.0673)
       (y 6232.534)
     )
-    (sspiky
-      (direction "right")
-      (x 742)
-      (y 5002)
+    (smartball
+      (x 771)
+      (y 3270)
     )
-    (sspiky
-      (direction "right")
-      (x 678)
-      (y 1706)
+    (smartball
+      (x 1251)
+      (y 2534)
     )
     (snowball
       (x 675)
@@ -453,6 +443,16 @@ m2.start_moving()")
       (name "main2")
       (x 1504)
       (y 3936)
+    )
+    (sspiky
+      (direction "right")
+      (x 742)
+      (y 5002)
+    )
+    (sspiky
+      (direction "right")
+      (x 678)
+      (y 1706)
     )
     (stalactite
       (x 352)

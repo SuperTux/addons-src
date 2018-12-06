@@ -75,10 +75,6 @@
       (x 4581)
       (y 1280)
     )
-    (smartball
-      (x 3299)
-      (y 1286)
-    )
     (music
       (file "music/voc-daytime2.music")
     )
@@ -178,15 +174,9 @@ boat_image.goto_node(0);")
       (x 1952)
       (y 1248)
     )
-    (sspiky
-      (direction "right")
-      (x 816)
-      (y 352)
-    )
-    (sspiky
-      (direction "right")
-      (x 2350)
-      (y 1120)
+    (smartball
+      (x 3299)
+      (y 1286)
     )
     (snowball
       (x 3201)
@@ -196,6 +186,16 @@ boat_image.goto_node(0);")
       (name "main")
       (x 64)
       (y 384)
+    )
+    (sspiky
+      (direction "right")
+      (x 816)
+      (y 352)
+    )
+    (sspiky
+      (direction "right")
+      (x 2350)
+      (y 1120)
     )
     (tilemap
       (solid #f)

@@ -35,22 +35,14 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (gradient
       (top_color 0.4341955 0.6749828 0.9404593)
       (bottom_color 0.3431602 0.4442969 1)
     )
-    (smartball
-      (x 323)
-      (y 198)
-    )
-    (smartball
-      (x 451)
-      (y 198)
-    )
     (music
       (file "music/voc-night.music")
+    )
+    (particles-clouds
     )
     (scripttrigger
       (script "Level.spawn (\"main2\", \"main2a\");")
@@ -59,6 +51,14 @@
       (height 92)
       (x 1536)
       (y 320)
+    )
+    (smartball
+      (x 323)
+      (y 198)
+    )
+    (smartball
+      (x 451)
+      (y 198)
     )
     (snowball
       (x 1571)
@@ -489,27 +489,6 @@
       (x 144)
       (y 32)
     )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "878a7fec-e432-46fc-82b6-3d9fd8e2d469")
-    )
-    (smartball
-      (x 771)
-      (y 198)
-    )
-    (smartball
-      (x 1251)
-      (y 326)
-    )
-    (smartball
-      (x 2051)
-      (y 390)
-    )
-    (smartball
-      (x 2531)
-      (y 518)
-    )
     (music
       (file "music/voc-night.music")
     )
@@ -599,6 +578,11 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "878a7fec-e432-46fc-82b6-3d9fd8e2d469")
+    )
     (scripttrigger
       (script "Level.spawn (\"main2\", \"main2b\");")
       (button #f)
@@ -614,6 +598,22 @@
       (height 108)
       (x 3136)
       (y 640)
+    )
+    (smartball
+      (x 771)
+      (y 198)
+    )
+    (smartball
+      (x 1251)
+      (y 326)
+    )
+    (smartball
+      (x 2051)
+      (y 390)
+    )
+    (smartball
+      (x 2531)
+      (y 518)
     )
     (spawnpoint
       (name "main3a")
@@ -855,6 +855,17 @@
     (camera
       (mode "normal")
     )
+    (music
+      (file "music/voc-night.music")
+    )
+    (scripttrigger
+      (script "Level.spawn (\"main3\", \"main3b\");")
+      (button #f)
+      (width 32)
+      (height 92)
+      (x 32)
+      (y 32)
+    )
     (smartball
       (x 771)
       (y 422)
@@ -870,17 +881,6 @@
     (smartball
       (x 451)
       (y 326)
-    )
-    (music
-      (file "music/voc-night.music")
-    )
-    (scripttrigger
-      (script "Level.spawn (\"main3\", \"main3b\");")
-      (button #f)
-      (width 32)
-      (height 92)
-      (x 32)
-      (y 32)
     )
     (spawnpoint
       (name "main4a")

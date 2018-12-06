@@ -13,6 +13,51 @@
     (camera
       (mode "normal")
     )
+    (level
+      (name "arctic_paths.stl")
+      (x 17)
+      (y 6)
+    )
+    (level
+      (name "bridge.stl")
+      (x 13)
+      (y 11)
+    )
+    (level
+      (name "cave-in.stl")
+      (x 20)
+      (y 23)
+    )
+    (level
+      (name "dark_and_dangerous.stl")
+      (x 24)
+      (y 16)
+    )
+    (level
+      (name "flying.stl")
+      (x 16)
+      (y 16)
+    )
+    (level
+      (name "outside_again.stl")
+      (x 21)
+      (y 19)
+    )
+    (level
+      (name "st_legacy.stl")
+      (x 21)
+      (y 12)
+    )
+    (level
+      (name "the-early-penguin.stl")
+      (x 24)
+      (y 4)
+    )
+    (level
+      (name "underground-fortress.stl")
+      (x 20)
+      (y 27)
+    )
     (special-tile
       (invisible-tile #t)
       (script "go_underground(true);")
@@ -436,51 +481,6 @@
       163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163
       163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163 163
       )
-    )
-    (level
-      (name "arctic_paths.stl")
-      (x 17)
-      (y 6)
-    )
-    (level
-      (name "bridge.stl")
-      (x 13)
-      (y 11)
-    )
-    (level
-      (name "cave-in.stl")
-      (x 20)
-      (y 23)
-    )
-    (level
-      (name "dark_and_dangerous.stl")
-      (x 24)
-      (y 16)
-    )
-    (level
-      (name "flying.stl")
-      (x 16)
-      (y 16)
-    )
-    (level
-      (name "outside_again.stl")
-      (x 21)
-      (y 19)
-    )
-    (level
-      (name "st_legacy.stl")
-      (x 21)
-      (y 12)
-    )
-    (level
-      (name "the-early-penguin.stl")
-      (x 24)
-      (y 4)
-    )
-    (level
-      (name "underground-fortress.stl")
-      (x 20)
-      (y 27)
     )
     (worldmap-spawnpoint
       (name "main")

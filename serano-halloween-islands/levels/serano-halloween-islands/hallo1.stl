@@ -268,6 +268,19 @@
       (x 6821)
       (y 904)
     )
+    (music
+      (file "music/voc-dark.ogg")
+    )
+    (secretarea
+      (width 220)
+      (height 124)
+      (x 6848)
+      (y 288)
+    )
+    (skullyhop
+      (x 7040)
+      (y 896)
+    )
     (smartball
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 419)
@@ -297,19 +310,6 @@
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 11720)
       (y 524)
-    )
-    (music
-      (file "music/voc-dark.ogg")
-    )
-    (secretarea
-      (width 220)
-      (height 124)
-      (x 6848)
-      (y 288)
-    )
-    (skullyhop
-      (x 7040)
-      (y 896)
     )
     (snowball
       (sprite "images/creatures/kirby/kirby.sprite")

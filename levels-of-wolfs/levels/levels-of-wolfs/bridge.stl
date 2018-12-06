@@ -107,6 +107,13 @@
       (x 4833)
       (y 358)
     )
+    (secretarea
+      (fade-tilemap "secret1")
+      (width 360)
+      (height 156)
+      (x 3316)
+      (y 800)
+    )
     (smartball
       (x 867)
       (y 358)
@@ -134,13 +141,6 @@
     (smartball
       (x 6947)
       (y 262)
-    )
-    (secretarea
-      (fade-tilemap "secret1")
-      (width 360)
-      (height 156)
-      (x 3316)
-      (y 800)
     )
     (snowman
       (x 6890)

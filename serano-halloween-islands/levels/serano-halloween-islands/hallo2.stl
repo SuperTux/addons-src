@@ -40,8 +40,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (decal
       (sprite "images/decal/halloween/gravestone1.png")
       (x 480)
@@ -203,10 +201,6 @@
       (x 2784)
       (y 896)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "feb68f67-d048-438f-9336-2c24004e7bc7")
-    )
     (goldbomb
       (x 10309)
       (y 712)
@@ -223,38 +217,10 @@
       (x 6212.1)
       (y 1028.1)
     )
-    (smartball
-      (sprite "images/creatures/kirby/kirby.sprite")
-      (x 1379)
-      (y 998)
-    )
-    (smartball
-      (sprite "images/creatures/kirby/kirby.sprite")
-      (x 1987)
-      (y 870)
-    )
-    (smartball
-      (sprite "images/creatures/kirby/kirby.sprite")
-      (x 3491)
-      (y 614)
-    )
-    (smartball
-      (sprite "images/creatures/kirby/kirby.sprite")
-      (x 7016)
-      (y 940)
-    )
-    (smartball
-      (sprite "images/creatures/kirby/kirby.sprite")
-      (x 7368)
-      (y 812)
-    )
-    (smartball
-      (sprite "images/creatures/kirby/kirby.sprite")
-      (x 9443)
-      (y 870)
-    )
     (music
       (file "music/ghostforest.ogg")
+    )
+    (particles-clouds
     )
     (path
       (name "feb68f67-d048-438f-9336-2c24004e7bc7")
@@ -270,6 +236,10 @@
           (time 3)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "feb68f67-d048-438f-9336-2c24004e7bc7")
     )
     (secretarea
       (fade-tilemap "Tilemap")
@@ -301,6 +271,36 @@
     (skullyhop
       (x 10016)
       (y 896)
+    )
+    (smartball
+      (sprite "images/creatures/kirby/kirby.sprite")
+      (x 1379)
+      (y 998)
+    )
+    (smartball
+      (sprite "images/creatures/kirby/kirby.sprite")
+      (x 1987)
+      (y 870)
+    )
+    (smartball
+      (sprite "images/creatures/kirby/kirby.sprite")
+      (x 3491)
+      (y 614)
+    )
+    (smartball
+      (sprite "images/creatures/kirby/kirby.sprite")
+      (x 7016)
+      (y 940)
+    )
+    (smartball
+      (sprite "images/creatures/kirby/kirby.sprite")
+      (x 7368)
+      (y 812)
+    )
+    (smartball
+      (sprite "images/creatures/kirby/kirby.sprite")
+      (x 9443)
+      (y 870)
     )
     (snowball
       (sprite "images/creatures/kirby/kirby.sprite")

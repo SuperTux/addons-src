@@ -19,6 +19,9 @@
       (x 3008)
       (y 480)
     )
+    (music
+      (file "music/greatgigantic.ogg")
+    )
     (particles-ghosts
       (z-pos -50)
     )
@@ -27,9 +30,6 @@
     )
     (particles-ghosts
       (z-pos -52)
-    )
-    (music
-      (file "music/greatgigantic.ogg")
     )
     (plant
       (x 326)

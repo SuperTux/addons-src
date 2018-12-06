@@ -61,6 +61,9 @@
       (x 7941)
       (y 904)
     )
+    (music
+      (file "music/airship_remix.ogg")
+    )
     (smartball
       (x 803)
       (y 934)
@@ -84,9 +87,6 @@
     (smartball
       (x 8419)
       (y 998)
-    )
-    (music
-      (file "music/airship_remix.ogg")
     )
     (spawnpoint
       (name "main")

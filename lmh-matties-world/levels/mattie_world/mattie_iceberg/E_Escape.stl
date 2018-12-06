@@ -18,18 +18,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "Gate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "0661a456-9d20-4066-909a-114dd391148c")
-    )
-    (platform
-      (running #f)
-      (name "InnerGate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "0bf17b79-4baa-4a45-9b12-cc107b528bee")
-    )
     (iceflame
       (speed 0.2)
       (x 592)
@@ -135,6 +123,18 @@
           (time 28)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "Gate")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "0661a456-9d20-4066-909a-114dd391148c")
+    )
+    (platform
+      (running #f)
+      (name "InnerGate")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "0bf17b79-4baa-4a45-9b12-cc107b528bee")
     )
     (scripttrigger
       (script "  wait(  6  );

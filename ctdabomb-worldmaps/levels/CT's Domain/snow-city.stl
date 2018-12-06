@@ -89,6 +89,11 @@
       (x 6725)
       (y 936)
     )
+    (music
+      (file "music/worldmap_tux.ogg")
+    )
+    (particles-snow
+    )
     (smartball
       (x 1027)
       (y 934)
@@ -112,9 +117,6 @@
     (smartball
       (x 7427)
       (y 902)
-    )
-    (music
-      (file "music/worldmap_tux.ogg")
     )
     (snowball
       (x 4419)
@@ -175,8 +177,6 @@
     (snowman
       (x 5482)
       (y 867)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

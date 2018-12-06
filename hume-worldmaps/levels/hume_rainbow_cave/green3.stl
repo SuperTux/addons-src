@@ -37,12 +37,6 @@
       (x 2624)
       (y 1088)
     )
-    (platform
-      (running #f)
-      (name "secret_p")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "f7fe2e53-8bff-4b78-80ca-113cde3845da")
-    )
     (gradient
       (top_color 0 1 0)
       (bottom_color 0 1 0)
@@ -63,6 +57,12 @@
           (y 2080)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "secret_p")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "f7fe2e53-8bff-4b78-80ca-113cde3845da")
     )
     (scripttrigger
       (script "Tux.deactivate()

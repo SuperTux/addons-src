@@ -17,18 +17,6 @@ finish_level_group(\"orange\",\"o6\")")
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "propadak0")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "81aa2ec9-a3cb-4c0d-aa4f-6304ae140582")
-    )
-    (platform
-      (running #f)
-      (name "propadak1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "f4a4ea5c-f1bd-43a2-8d74-3ce99113ad41")
-    )
     (music
       (file "music/bossattack.ogg")
     )
@@ -57,6 +45,18 @@ finish_level_group(\"orange\",\"o6\")")
           (y 32)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "propadak0")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "81aa2ec9-a3cb-4c0d-aa4f-6304ae140582")
+    )
+    (platform
+      (running #f)
+      (name "propadak1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "f4a4ea5c-f1bd-43a2-8d74-3ce99113ad41")
     )
     (spawnpoint
       (name "main")

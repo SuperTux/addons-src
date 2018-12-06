@@ -22,8 +22,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (haywire
       (x 965)
       (y 2632)
@@ -68,6 +66,11 @@
       (x 641)
       (y 294)
     )
+    (music
+      (file "music/airship_remix.ogg")
+    )
+    (particles-clouds
+    )
     (smartball
       (x 419)
       (y 2854)
@@ -83,9 +86,6 @@
     (smartball
       (x 163)
       (y 742)
-    )
-    (music
-      (file "music/airship_remix.ogg")
     )
     (spawnpoint
       (name "main")

@@ -33,12 +33,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "a8dfb6b6-d1f7-43b2-a082-3d2714d26d6b")
-    )
     (flyingsnowball
       (x 2528)
       (y 384)
@@ -123,6 +117,8 @@
       (x 3374)
       (y 327)
     )
+    (particles-clouds
+    )
     (path
       (name "a8dfb6b6-d1f7-43b2-a082-3d2714d26d6b")
       (path
@@ -138,6 +134,10 @@
           (time 3)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "a8dfb6b6-d1f7-43b2-a082-3d2714d26d6b")
     )
     (short_fuse
       (direction "right")

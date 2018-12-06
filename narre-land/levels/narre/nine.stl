@@ -25,12 +25,6 @@
       (x 768)
       (y 512)
     )
-    (platform
-      (running #f)
-      (name "kokotak")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "c1ef289e-7789-4c1d-a73d-9c944f529a37")
-    )
     (mrbomb
       (x 3040)
       (y 192)
@@ -210,6 +204,12 @@
           (y 256)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "kokotak")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "c1ef289e-7789-4c1d-a73d-9c944f529a37")
     )
     (scripttrigger
       (script "kokotak.goto_node(1)

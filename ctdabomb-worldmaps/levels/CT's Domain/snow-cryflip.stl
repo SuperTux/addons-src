@@ -70,26 +70,6 @@
       (x 2913)
       (y 582)
     )
-    (smartball
-      (x 2403)
-      (y 486)
-    )
-    (smartball
-      (x 1219)
-      (y 806)
-    )
-    (smartball
-      (x 2243)
-      (y 550)
-    )
-    (smartball
-      (x 707)
-      (y 550)
-    )
-    (smartball
-      (x 3075)
-      (y 486)
-    )
     (music
       (file "music/airship_remix.ogg")
     )
@@ -109,6 +89,26 @@ activate() ")
       (height 92)
       (x 3104)
       (y 416)
+    )
+    (smartball
+      (x 2403)
+      (y 486)
+    )
+    (smartball
+      (x 1219)
+      (y 806)
+    )
+    (smartball
+      (x 2243)
+      (y 550)
+    )
+    (smartball
+      (x 707)
+      (y 550)
+    )
+    (smartball
+      (x 3075)
+      (y 486)
     )
     (snowball
       (x 1955)
@@ -381,10 +381,6 @@ activate() ")
       (x 2695)
       (y 680)
     )
-    (smartball
-      (x 1987)
-      (y 934)
-    )
     (music
       (file "music/intro.ogg")
     )
@@ -394,6 +390,10 @@ activate() ")
       (height 876)
       (x 2880)
       (y 32)
+    )
+    (smartball
+      (x 1987)
+      (y 934)
     )
     (snowball
       (x 1795)

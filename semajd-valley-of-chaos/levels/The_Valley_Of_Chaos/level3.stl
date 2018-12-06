@@ -59,6 +59,9 @@
       (x 256)
       (y 256)
     )
+    (music
+      (file "music/voc-dark.music")
+    )
     (smartball
       (direction "right")
       (x 803)
@@ -80,9 +83,6 @@
     (smartball
       (x 99)
       (y 6086)
-    )
-    (music
-      (file "music/voc-dark.music")
     )
     (snowman
       (direction "right")

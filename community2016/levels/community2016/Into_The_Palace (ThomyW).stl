@@ -148,12 +148,6 @@
       (x 4257.33)
       (y 933.664)
     )
-    (sspiky
-      (direction "right")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 2851.333)
-      (y 1207.667)
-    )
     (snowball
       (direction "right")
       (sprite "images/creatures/snowball/snowball.sprite")
@@ -164,6 +158,12 @@
       (name "main")
       (x 41.33333)
       (y 1053.33)
+    )
+    (sspiky
+      (direction "right")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 2851.333)
+      (y 1207.667)
     )
     (stalactite
       (sprite "images/creatures/stalactite/stalactite.sprite")
@@ -739,12 +739,6 @@
       (x 1141.33)
       (y 880.6666)
     )
-    (platform
-      (running #f)
-      (name "ball")
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "ea89d939-45f0-400d-b4d4-e8678e88f9b2")
-    )
     (goldbomb
       (direction "left")
       (sprite "images/creatures/gold_bomb/gold_bomb.sprite")
@@ -768,12 +762,6 @@
       (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
       (x 3377.33)
       (y 164)
-    )
-    (smartball
-      (direction "left")
-      (sprite "/images/creatures/snowball/snowball.sprite")
-      (x 3151.33)
-      (y 952.6669)
     )
     (music
       (file "/music/voc-night.ogg")
@@ -893,6 +881,12 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "ball")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "ea89d939-45f0-400d-b4d4-e8678e88f9b2")
+    )
     (rock
       (sprite "images/objects/rock/rock.sprite")
       (x 33.33329)
@@ -902,6 +896,12 @@
       (sprite "images/objects/rock/rock.sprite")
       (x 1636)
       (y 926.0002)
+    )
+    (smartball
+      (direction "left")
+      (sprite "/images/creatures/snowball/snowball.sprite")
+      (x 3151.33)
+      (y 952.6669)
     )
     (smartblock
       (direction "left")

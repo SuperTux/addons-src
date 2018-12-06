@@ -101,14 +101,6 @@
       (x 5088)
       (y 896)
     )
-    (platform
-      (running #f)
-      (name "SecretPlatform")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "3a9d78a9-f858-423f-a89f-14401e05d3d0")
-    )
-    (particles-ghosts
-    )
     (jumpy
       (x 871)
       (y 424)
@@ -145,6 +137,51 @@
       (x 6337)
       (y 454)
     )
+    (music
+      (file "music/ghostforest.ogg")
+    )
+    (particles-ghosts
+    )
+    (particles-rain
+    )
+    (path
+      (name "3a9d78a9-f858-423f-a89f-14401e05d3d0")
+      (path
+        (node
+          (x 736)
+          (y 992)
+          (time 6)
+        )
+        (node
+          (x 640)
+          (y 544)
+          (time 6)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "SecretPlatform")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "3a9d78a9-f858-423f-a89f-14401e05d3d0")
+    )
+    (scripttrigger
+      (script "SecretPlatform.goto_node(1)
+wait(10.0)
+SecretPlatform.goto_node(0)
+wait(6.0)")
+      (button #f)
+      (width 124)
+      (height 32)
+      (x 736)
+      (y 960)
+    )
+    (secretarea
+      (width 412)
+      (height 188)
+      (x 64)
+      (y 800)
+    )
     (smartball
       (x 1347)
       (y 486)
@@ -176,43 +213,6 @@
     (smartball
       (x 7299)
       (y 678)
-    )
-    (music
-      (file "music/ghostforest.ogg")
-    )
-    (path
-      (name "3a9d78a9-f858-423f-a89f-14401e05d3d0")
-      (path
-        (node
-          (x 736)
-          (y 992)
-          (time 6)
-        )
-        (node
-          (x 640)
-          (y 544)
-          (time 6)
-        )
-      )
-    )
-    (particles-rain
-    )
-    (scripttrigger
-      (script "SecretPlatform.goto_node(1)
-wait(10.0)
-SecretPlatform.goto_node(0)
-wait(6.0)")
-      (button #f)
-      (width 124)
-      (height 32)
-      (x 736)
-      (y 960)
-    )
-    (secretarea
-      (width 412)
-      (height 188)
-      (x 64)
-      (y 800)
     )
     (spawnpoint
       (name "main")

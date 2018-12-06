@@ -232,30 +232,6 @@
       (x 5407.398)
       (y 641.1)
     )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 952)
-      (y 768)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 604)
-      (y 608)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 14108)
-      (y 384)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 7127.3)
-      (y 769)
-    )
     (music
       (file "/music/voc-daytime.music")
     )
@@ -314,6 +290,47 @@
       (x 4080.8)
       (y 877)
     )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 952)
+      (y 768)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 604)
+      (y 608)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 14108)
+      (y 384)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 7127.3)
+      (y 769)
+    )
+    (smartblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 541.1)
+      (y 480.1)
+    )
+    (smartblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3857.4)
+      (y 736.1)
+    )
+    (spawnpoint
+      (name "main")
+      (x 185)
+      (y 889)
+    )
     (sspiky
       (direction "left")
       (sprite "images/creatures/spiky/sleepingspiky.sprite")
@@ -361,23 +378,6 @@
       (sprite "images/creatures/spiky/sleepingspiky.sprite")
       (x 18802.1)
       (y 448.1)
-    )
-    (smartblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 541.1)
-      (y 480.1)
-    )
-    (smartblock
-      (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (x 3857.4)
-      (y 736.1)
-    )
-    (spawnpoint
-      (name "main")
-      (x 185)
-      (y 889)
     )
     (tilemap
       (solid #f)

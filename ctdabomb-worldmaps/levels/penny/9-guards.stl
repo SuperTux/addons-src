@@ -172,10 +172,6 @@
     (music
       (file "music/fortress.music")
     )
-    (sspiky
-      (x 4070)
-      (y 842)
-    )
     (spawnpoint
       (name "main")
       (x 192)
@@ -208,6 +204,10 @@
     (spiky
       (x 4550)
       (y 938)
+    )
+    (sspiky
+      (x 4070)
+      (y 842)
     )
     (stalactite
       (x 3744)

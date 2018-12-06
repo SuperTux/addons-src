@@ -50,10 +50,6 @@ finish_level_group(\"red\",\"r6\")")
       (x 128)
       (y 224)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "ad09aa4e-d26e-48f3-a9a1-d2d345f3f158")
-    )
     (gradient
       (top_color 1 0 0)
       (bottom_color 1 0 0)
@@ -185,6 +181,10 @@ finish_level_group(\"red\",\"r6\")")
           (time 0.5)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "ad09aa4e-d26e-48f3-a9a1-d2d345f3f158")
     )
     (scripttrigger
       (script "Tux.kill(true)")

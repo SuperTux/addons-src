@@ -12,14 +12,6 @@
     (camera
       (mode "normal")
     )
-    (smartball
-      (x 4867)
-      (y 1382)
-    )
-    (smartball
-      (x 5059)
-      (y 1382)
-    )
     (short_fuse
       (x 4649)
       (y 1378)
@@ -27,6 +19,14 @@
     (short_fuse
       (x 5161)
       (y 1378)
+    )
+    (smartball
+      (x 4867)
+      (y 1382)
+    )
+    (smartball
+      (x 5059)
+      (y 1382)
     )
     (snowball
       (x 4739)

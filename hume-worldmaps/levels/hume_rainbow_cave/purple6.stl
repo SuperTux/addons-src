@@ -362,46 +362,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (name "plat1")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "61b52b6e-8238-4348-af88-dce5753a4de9")
-    )
-    (platform
-      (name "plat2")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "f409f501-a753-4cb2-a61c-c5e8933873ef")
-    )
-    (platform
-      (name "plat10")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "b148a348-96e8-4e4b-98cd-158af6d17a33")
-    )
-    (platform
-      (name "plat20")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "0e200eff-e270-4eaa-8c63-e06fdc9717a9")
-    )
-    (platform
-      (name "11")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "a53032f0-8913-4b85-a43d-c946b8066f43")
-    )
-    (platform
-      (name "21")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "319255bb-16ae-486d-8f00-ff7cd6b677cc")
-    )
-    (platform
-      (name "12")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "dc3068c1-1524-42cf-a46e-3b2e243b185c")
-    )
-    (platform
-      (name "22")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "119d5569-84c4-40fe-9c17-aa408a15795e")
-    )
     (infoblock
       (message (_ "#This door is locked. You can use this door another time."))
       (x 352)
@@ -771,6 +731,46 @@
           (time 2)
         )
       )
+    )
+    (platform
+      (name "plat1")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "61b52b6e-8238-4348-af88-dce5753a4de9")
+    )
+    (platform
+      (name "plat2")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "f409f501-a753-4cb2-a61c-c5e8933873ef")
+    )
+    (platform
+      (name "plat10")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "b148a348-96e8-4e4b-98cd-158af6d17a33")
+    )
+    (platform
+      (name "plat20")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "0e200eff-e270-4eaa-8c63-e06fdc9717a9")
+    )
+    (platform
+      (name "11")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "a53032f0-8913-4b85-a43d-c946b8066f43")
+    )
+    (platform
+      (name "21")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "319255bb-16ae-486d-8f00-ff7cd6b677cc")
+    )
+    (platform
+      (name "12")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "dc3068c1-1524-42cf-a46e-3b2e243b185c")
+    )
+    (platform
+      (name "22")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "119d5569-84c4-40fe-9c17-aa408a15795e")
     )
     (scriptedobject
       (physic-enabled #f)

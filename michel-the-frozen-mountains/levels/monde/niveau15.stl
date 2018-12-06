@@ -69,14 +69,6 @@
       (x 6785)
       (y 390)
     )
-    (smartball
-      (x 3171)
-      (y 870)
-    )
-    (smartball
-      (x 5315)
-      (y 806)
-    )
     (music
       (file "music/chipdisko.ogg")
     )
@@ -93,6 +85,14 @@
       (height 44)
       (x 7808)
       (y 404)
+    )
+    (smartball
+      (x 3171)
+      (y 870)
+    )
+    (smartball
+      (x 5315)
+      (y 806)
     )
     (snowball
       (x 611)

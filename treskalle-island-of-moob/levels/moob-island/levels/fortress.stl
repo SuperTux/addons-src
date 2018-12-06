@@ -43,6 +43,11 @@
       (x 4768)
       (y 384)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (particles-snow
+    )
     (smartball
       (x 4000)
       (y 256)
@@ -67,9 +72,6 @@
       (x 6496)
       (y 448)
     )
-    (music
-      (file "music/chipdisko.ogg")
-    )
     (snowball
       (x 512)
       (y 544)
@@ -85,8 +87,6 @@
     (snowball
       (x 5856)
       (y 448)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")
@@ -320,6 +320,16 @@
       (x 11424)
       (y 480)
     )
+    (music
+      (file "music/fortress.ogg")
+    )
+    (secretarea
+      (fade-tilemap "secret1")
+      (width 572)
+      (height 220)
+      (x 12544)
+      (y 192)
+    )
     (smartball
       (x 3008)
       (y 608)
@@ -355,16 +365,6 @@
     (smartball
       (x 10976)
       (y 480)
-    )
-    (music
-      (file "music/fortress.ogg")
-    )
-    (secretarea
-      (fade-tilemap "secret1")
-      (width 572)
-      (height 220)
-      (x 12544)
-      (y 192)
     )
     (spawnpoint
       (name "main")
@@ -457,6 +457,8 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (particles-snow
+    )
     (snowball
       (x 416)
       (y 544)
@@ -468,8 +470,6 @@
     (snowball
       (x 1376)
       (y 352)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

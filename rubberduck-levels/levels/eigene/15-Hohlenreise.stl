@@ -75,12 +75,6 @@
       (x 9056)
       (y 1760)
     )
-    (platform
-      (running #f)
-      (name "plat")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "9e553f2c-7884-4fd3-8105-8387293dbe02")
-    )
     (haywire
       (x 1765)
       (y 1448)
@@ -163,6 +157,12 @@
           (time 2)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "plat")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "9e553f2c-7884-4fd3-8105-8387293dbe02")
     )
     (poisonivy
       (x 3584)

@@ -26,23 +26,9 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (firefly
       (x 6496)
       (y 480)
-    )
-    (platform
-      (running #f)
-      (name "first")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "e84e8d82-43b5-47ff-8a79-2b3c86368e83")
-    )
-    (platform
-      (running #f)
-      (name "second")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "c767619e-269a-4314-b771-f5cd0d1952c8")
     )
     (flyingsnowball
       (x 1216)
@@ -86,6 +72,8 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (particles-clouds
     )
     (path
       (name "e84e8d82-43b5-47ff-8a79-2b3c86368e83")
@@ -175,6 +163,18 @@
           (y 480)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "first")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "e84e8d82-43b5-47ff-8a79-2b3c86368e83")
+    )
+    (platform
+      (running #f)
+      (name "second")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "c767619e-269a-4314-b771-f5cd0d1952c8")
     )
     (scripttrigger
       (script "  first.goto_node(6);  ")

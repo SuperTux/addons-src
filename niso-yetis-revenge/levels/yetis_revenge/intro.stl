@@ -22,18 +22,14 @@
       (x 1600)
       (y 1056)
     )
-    (platform
-      (running #f)
-      (name "penny")
-      (sprite "images/creatures/penny/penny.sprite")
-      (path-ref "4aff2b50-bfcd-4472-b4e1-e5e90f86e919")
-    )
     (gradient
       (top_color 0.5285572 0.9293813 0.8984207)
       (bottom_color 1 1 1)
     )
     (music
       (file "music/intro.ogg")
+    )
+    (particles-snow
     )
     (path
       (name "4aff2b50-bfcd-4472-b4e1-e5e90f86e919")
@@ -48,6 +44,12 @@
           (y 1280)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "penny")
+      (sprite "images/creatures/penny/penny.sprite")
+      (path-ref "4aff2b50-bfcd-4472-b4e1-e5e90f86e919")
     )
     (scripttrigger
       (script "Tux.deactivate();
@@ -224,8 +226,6 @@ Level.finish(true);")
       (height 520)
       (x 3264)
       (y 832)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

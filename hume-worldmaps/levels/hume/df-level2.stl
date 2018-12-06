@@ -28,12 +28,6 @@
       (x 3008)
       (y 1408)
     )
-    (platform
-      (running #f)
-      (name "plat")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "611b602f-bbce-4a6b-a9b1-74c04b79d3ae")
-    )
     (igel
       (x 544)
       (y 1376)
@@ -77,6 +71,12 @@
           (y 896)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "plat")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "611b602f-bbce-4a6b-a9b1-74c04b79d3ae")
     )
     (poisonivy
       (x 5024)

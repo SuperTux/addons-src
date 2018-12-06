@@ -45,6 +45,29 @@
       (x 5088)
       (y 736)
     )
+    (music
+      (file "music/voc-daytime.music")
+    )
+    (secretarea
+      (fade-tilemap "secret2")
+      (width 52)
+      (height 84)
+      (x 128)
+      (y 1012)
+    )
+    (secretarea
+      (fade-tilemap "secret1")
+      (width 92)
+      (height 92)
+      (x 1056)
+      (y 992)
+    )
+    (secretarea
+      (width 124)
+      (height 124)
+      (x 6272)
+      (y 0)
+    )
     (smartball
       (x 1539)
       (y 646)
@@ -88,29 +111,6 @@
     (smartball
       (x 4899)
       (y 710)
-    )
-    (music
-      (file "music/voc-daytime.music")
-    )
-    (secretarea
-      (fade-tilemap "secret2")
-      (width 52)
-      (height 84)
-      (x 128)
-      (y 1012)
-    )
-    (secretarea
-      (fade-tilemap "secret1")
-      (width 92)
-      (height 92)
-      (x 1056)
-      (y 992)
-    )
-    (secretarea
-      (width 124)
-      (height 124)
-      (x 6272)
-      (y 0)
     )
     (snowball
       (x 1635)

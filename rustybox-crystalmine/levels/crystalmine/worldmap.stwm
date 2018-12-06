@@ -8,6 +8,13 @@
     (ambient-light
       (color 1 1 1)
     )
+    (level
+      (color 1 1 1)
+      (name "crystal_mine.stl")
+      (sprite "images/worldmap/common/leveldot.sprite")
+      (x 19)
+      (y 38)
+    )
     (tilemap
       (solid #f)
       (z-pos -200)
@@ -473,13 +480,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 72 73 73 74 0 0 0 210 211 212 218 0 0 0 69 70 70 70 70 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 72 82 78 77 0 0 0 0 218 204 205 206 69 70 81 73 73 73 73 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (level
-      (color 1 1 1)
-      (name "crystal_mine.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
-      (x 19)
-      (y 38)
     )
     (worldmap-spawnpoint
       (name "main")

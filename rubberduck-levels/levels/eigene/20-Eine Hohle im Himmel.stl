@@ -45,9 +45,6 @@
       (x 17826)
       (y 1317)
     )
-    (particles-clouds
-      (z-pos -150)
-    )
     (firefly
       (x 8640)
       (y 608)
@@ -159,6 +156,12 @@
       (x 13761)
       (y 1414)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (particles-clouds
+      (z-pos -150)
+    )
     (smartball
       (x 931)
       (y 518)
@@ -186,9 +189,6 @@
     (smartball
       (x 8995)
       (y 614)
-    )
-    (music
-      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")

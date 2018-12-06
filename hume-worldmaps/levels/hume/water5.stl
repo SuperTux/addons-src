@@ -389,26 +389,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (name "p1")
-      (sprite "images/objects/castledoor/keyholes.sprite")
-      (path-ref "3c0cd11f-a8ef-4e20-8113-23b3a0fcf458")
-    )
-    (platform
-      (name "p2")
-      (sprite "images/objects/castledoor/keyholes.sprite")
-      (path-ref "65841b84-3dd6-439d-a522-2bc991e69752")
-    )
-    (platform
-      (name "p3")
-      (sprite "images/objects/castledoor/keyholes.sprite")
-      (path-ref "ee2d459a-59f7-4bbb-9182-83d0443c5f66")
-    )
-    (platform
-      (name "p4")
-      (sprite "images/objects/castledoor/keyholes.sprite")
-      (path-ref "e3b6a041-e428-483a-8d7c-9639edc145d2")
-    )
     (gradient
       (top_color 0 0 0)
       (bottom_color 0.003921569 0.003921569 0.003921569)
@@ -475,6 +455,26 @@
           (y 2400)
         )
       )
+    )
+    (platform
+      (name "p1")
+      (sprite "images/objects/castledoor/keyholes.sprite")
+      (path-ref "3c0cd11f-a8ef-4e20-8113-23b3a0fcf458")
+    )
+    (platform
+      (name "p2")
+      (sprite "images/objects/castledoor/keyholes.sprite")
+      (path-ref "65841b84-3dd6-439d-a522-2bc991e69752")
+    )
+    (platform
+      (name "p3")
+      (sprite "images/objects/castledoor/keyholes.sprite")
+      (path-ref "ee2d459a-59f7-4bbb-9182-83d0443c5f66")
+    )
+    (platform
+      (name "p4")
+      (sprite "images/objects/castledoor/keyholes.sprite")
+      (path-ref "e3b6a041-e428-483a-8d7c-9639edc145d2")
     )
     (sequencetrigger
       (sequence "fireworks")

@@ -45,28 +45,6 @@
       (x 6336)
       (y 160)
     )
-    (platform
-      (running #f)
-      (name "kokot1")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "ebb1c660-51d6-41e9-bfb8-f1f36bc23b26")
-    )
-    (platform
-      (running #f)
-      (name "kokot2")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "e4eec168-6b8b-4130-9442-43b9ec211cdb")
-    )
-    (platform
-      (name "KOKOT")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "c15e077c-6842-45e6-87d0-5e93c91e6964")
-    )
-    (platform
-      (name "hdztrd")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "1c1942ad-5ec2-402f-9640-b0440c47a756")
-    )
     (hurting_platform
       (name "hurtspila")
       (sprite "images/objects/sawblade/sawblade.sprite")
@@ -233,6 +211,28 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "kokot1")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "ebb1c660-51d6-41e9-bfb8-f1f36bc23b26")
+    )
+    (platform
+      (running #f)
+      (name "kokot2")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "e4eec168-6b8b-4130-9442-43b9ec211cdb")
+    )
+    (platform
+      (name "KOKOT")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "c15e077c-6842-45e6-87d0-5e93c91e6964")
+    )
+    (platform
+      (name "hdztrd")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "1c1942ad-5ec2-402f-9640-b0440c47a756")
+    )
     (scripttrigger
       (script "Text.fade_out(1)")
       (button #f)
@@ -319,11 +319,6 @@ Text.set_text(\"Floor -6\")
       (x 4864)
       (y 960)
     )
-    (sspiky
-      (direction "right")
-      (x 1312)
-      (y 0)
-    )
     (snowball
       (x 2720)
       (y 32)
@@ -344,6 +339,11 @@ Text.set_text(\"Floor -6\")
     )
     (spiky
       (x 1120)
+      (y 0)
+    )
+    (sspiky
+      (direction "right")
+      (x 1312)
       (y 0)
     )
     (switch
@@ -632,16 +632,6 @@ kokot2.goto_node(1)")
       (x 96)
       (y 864)
     )
-    (platform
-      (name "gfhtft")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "0d231b69-d858-4efb-85f7-3f463e2bdcfb")
-    )
-    (platform
-      (name "htfjtfjztf")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "8e2b76d6-67b1-4496-b6b1-d07847edc080")
-    )
     (infoblock
       (message (_ "jFloor -5"))
       (x 1472)
@@ -734,6 +724,16 @@ kokot2.goto_node(1)")
         )
       )
     )
+    (platform
+      (name "gfhtft")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "0d231b69-d858-4efb-85f7-3f463e2bdcfb")
+    )
+    (platform
+      (name "htfjtfjztf")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "8e2b76d6-67b1-4496-b6b1-d07847edc080")
+    )
     (scripttrigger
       (script "Effect.fade_out(1)
 wait(1)
@@ -747,11 +747,6 @@ Level.spawn(\"main\",\"koikot\")")
     (skullyhop
       (x 2912)
       (y 928)
-    )
-    (sspiky
-      (direction "right")
-      (x 1792)
-      (y 960)
     )
     (spawnpoint
       (name "main")
@@ -771,6 +766,11 @@ Level.spawn(\"main\",\"koikot\")")
     (spiky
       (x 2592)
       (y 928)
+    )
+    (sspiky
+      (direction "right")
+      (x 1792)
+      (y 960)
     )
     (tilemap
       (solid #f)

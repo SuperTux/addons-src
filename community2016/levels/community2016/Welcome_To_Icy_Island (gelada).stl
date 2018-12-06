@@ -96,6 +96,11 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (particles-snow
+      (z-pos 200)
+    )
+    (particles-snow
+    )
     (short_fuse
       (direction "left")
       (sprite "images/creatures/short_fuse/short_fuse.sprite")
@@ -149,11 +154,6 @@
       (sprite "images/creatures/snowman/snowman.sprite")
       (x 1098)
       (y 387)
-    )
-    (particles-snow
-      (z-pos 200)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

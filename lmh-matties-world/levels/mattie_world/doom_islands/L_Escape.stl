@@ -39,24 +39,6 @@
       (x 594)
       (y 736)
     )
-    (platform
-      (running #f)
-      (name "AngryHold")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "7c50766b-8f67-4b14-af3c-1be45496b29a")
-    )
-    (platform
-      (running #f)
-      (name "Gate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "75041c4f-9e9d-45d1-88e8-463eb8ca1472")
-    )
-    (platform
-      (running #f)
-      (name "InnerGate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "b6221fbe-48bd-4452-bbb8-7696cb8c7dfe")
-    )
     (jumpy
       (x 320)
       (y 576)
@@ -173,6 +155,24 @@
           (time 28)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "AngryHold")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "7c50766b-8f67-4b14-af3c-1be45496b29a")
+    )
+    (platform
+      (running #f)
+      (name "Gate")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "75041c4f-9e9d-45d1-88e8-463eb8ca1472")
+    )
+    (platform
+      (running #f)
+      (name "InnerGate")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "b6221fbe-48bd-4452-bbb8-7696cb8c7dfe")
     )
     (scripttrigger
       (script "  Lava.goto_node(1); snached <- false; hidden <- true;  ")

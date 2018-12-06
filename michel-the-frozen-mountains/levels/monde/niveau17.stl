@@ -100,26 +100,6 @@
       (x 1537)
       (y 2214)
     )
-    (smartball
-      (x 1731)
-      (y 2214)
-    )
-    (smartball
-      (x 4003)
-      (y 1510)
-    )
-    (smartball
-      (x 963)
-      (y 934)
-    )
-    (smartball
-      (x 3555)
-      (y 1062)
-    )
-    (smartball
-      (x 8227)
-      (y 678)
-    )
     (music
       (file "music/forest.ogg")
     )
@@ -159,6 +139,26 @@ support.set_alpha(0);")
       (height 44)
       (x 8704)
       (y 596)
+    )
+    (smartball
+      (x 1731)
+      (y 2214)
+    )
+    (smartball
+      (x 4003)
+      (y 1510)
+    )
+    (smartball
+      (x 963)
+      (y 934)
+    )
+    (smartball
+      (x 3555)
+      (y 1062)
+    )
+    (smartball
+      (x 8227)
+      (y 678)
     )
     (snowball
       (x 1443)

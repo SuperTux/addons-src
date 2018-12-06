@@ -11,8 +11,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (firefly
       (x 5137)
       (y 384)
@@ -125,6 +123,8 @@
     (music
       (file "music/voc-dark.music")
     )
+    (particles-clouds
+    )
     (particles-rain
     )
     (secretarea
@@ -132,14 +132,6 @@
       (height 124)
       (x 10112)
       (y 0)
-    )
-    (sspiky
-      (x 454)
-      (y 778)
-    )
-    (sspiky
-      (x 2374)
-      (y 810)
     )
     (spawnpoint
       (name "main")
@@ -157,6 +149,14 @@
     (spiky
       (x 10150)
       (y 778)
+    )
+    (sspiky
+      (x 454)
+      (y 778)
+    )
+    (sspiky
+      (x 2374)
+      (y 810)
     )
     (thunderstorm
     )

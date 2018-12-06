@@ -96,26 +96,6 @@
       (x 1377)
       (y 774)
     )
-    (smartball
-      (x 7715)
-      (y 902)
-    )
-    (smartball
-      (x 3491)
-      (y 806)
-    )
-    (smartball
-      (x 7587)
-      (y 902)
-    )
-    (smartball
-      (x 5411)
-      (y 774)
-    )
-    (smartball
-      (x 5283)
-      (y 774)
-    )
     (music
       (file "music/worldmap_tux.ogg")
     )
@@ -170,6 +150,26 @@
       (height 348)
       (x 7968)
       (y 640)
+    )
+    (smartball
+      (x 7715)
+      (y 902)
+    )
+    (smartball
+      (x 3491)
+      (y 806)
+    )
+    (smartball
+      (x 7587)
+      (y 902)
+    )
+    (smartball
+      (x 5411)
+      (y 774)
+    )
+    (smartball
+      (x 5283)
+      (y 774)
     )
     (snowman
       (x 906)

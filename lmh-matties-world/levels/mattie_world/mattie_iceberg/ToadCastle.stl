@@ -26,24 +26,6 @@
       (x 4996)
       (y 448)
     )
-    (platform
-      (running #f)
-      (name "cagetop")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "4cdbbb29-852e-447c-be31-44cb41a2b634")
-    )
-    (platform
-      (running #f)
-      (name "cageside")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "e420ef45-e7d9-46ae-8098-6d256b1d088f")
-    )
-    (platform
-      (running #f)
-      (name "trap")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "ca72d93f-c15c-4f15-951c-05767e8f19bf")
-    )
     (haywire
       (x 630)
       (y 416)
@@ -248,6 +230,24 @@
           (time 4)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "cagetop")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "4cdbbb29-852e-447c-be31-44cb41a2b634")
+    )
+    (platform
+      (running #f)
+      (name "cageside")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "e420ef45-e7d9-46ae-8098-6d256b1d088f")
+    )
+    (platform
+      (running #f)
+      (name "trap")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "ca72d93f-c15c-4f15-951c-05767e8f19bf")
     )
     (scriptedobject
       (z-pos 0)
@@ -656,270 +656,6 @@
       (speed -3)
       (x 4352)
       (y 416)
-    )
-    (platform
-      (running #f)
-      (name "UnderPipe")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "295f27b0-2aa4-4898-88f5-514d16f48ec9")
-    )
-    (platform
-      (running #f)
-      (name "A")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "e1e08af6-ce8a-45a2-b69a-3e34092b3f41")
-    )
-    (platform
-      (running #f)
-      (name "B")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "f96c31f1-cc6e-4036-becb-ad46fc7bf0e6")
-    )
-    (platform
-      (running #f)
-      (name "C")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "365223e8-a356-47c4-a9f4-0cb105d40622")
-    )
-    (platform
-      (running #f)
-      (name "D")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "92b51470-e728-4f56-b890-c01c169b37a7")
-    )
-    (platform
-      (running #f)
-      (name "E")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "e368794b-2202-402e-8824-aeebe2877fe7")
-    )
-    (platform
-      (running #f)
-      (name "F")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "f2286e82-a9db-4d2e-b72d-e7b208c8968e")
-    )
-    (platform
-      (running #f)
-      (name "G")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "717a628e-0a2a-454f-a4c0-629ad4ee6d47")
-    )
-    (platform
-      (running #f)
-      (name "H")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "5b27fb7f-04c9-4af7-a9ee-2e494d6a9d3a")
-    )
-    (platform
-      (running #f)
-      (name "I")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "fc8f0a37-f44c-4849-9647-7c065edc347c")
-    )
-    (platform
-      (running #f)
-      (name "J")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "170110b9-c532-481a-a754-d25a6df56a3a")
-    )
-    (platform
-      (running #f)
-      (name "K")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "5be0b142-0b4a-4643-b2aa-2c04fd944a38")
-    )
-    (platform
-      (running #f)
-      (name "L")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "02a7d124-3b85-4b82-b2ae-68964999ca5c")
-    )
-    (platform
-      (running #f)
-      (name "M")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "21af0eb9-c4a4-4165-ac79-9e943a320f4e")
-    )
-    (platform
-      (running #f)
-      (name "N")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "0185e6d7-68d4-4afc-8b56-19b25eb9db90")
-    )
-    (platform
-      (running #f)
-      (name "O")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "d6958b1c-cbbd-400d-afa2-a5fc7627130e")
-    )
-    (platform
-      (running #f)
-      (name "P")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "3cc9d681-eb95-4fd3-b418-516b78232300")
-    )
-    (platform
-      (running #f)
-      (name "outtop")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "2905da93-4a1a-40de-a42b-ba110a634bac")
-    )
-    (platform
-      (running #f)
-      (name "outbot")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "8bf40c3f-0094-48af-b6a9-f970916fffac")
-    )
-    (platform
-      (running #f)
-      (name "endtrap")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "0e561b03-daed-4c8a-99f5-e064c9e30f08")
-    )
-    (platform
-      (running #f)
-      (name "endtrapL")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "8c375fd6-5283-45b9-b980-0a78235ce220")
-    )
-    (platform
-      (running #f)
-      (name "endtrapR")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "0e57de47-f225-40a6-a6a7-8cbbca99b0e5")
-    )
-    (platform
-      (name "spinC")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "fe0a5615-0978-4136-a64b-7910b2ff747b")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "2eb3399e-c78a-4a71-abea-6887297a9cc1")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "dac0a808-7391-4025-8186-cdc65e650b34")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "26d26a31-c2d7-4e0f-b044-66a681e105a1")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "1c853506-5528-4855-ab7b-8fe63612a7c5")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "a4eb31aa-47ff-4223-b838-c54e380cdf19")
-    )
-    (platform
-      (name "spinB")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "661980ec-ebf4-4212-b787-3456711ae46a")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "4e7374ad-f81f-411d-aac2-66ce4c09d71c")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "a3a66374-a3fe-4613-abc1-9baee53042df")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "87be4248-4b76-4c4f-bcf2-37af6d0dd0f9")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "7a9455c6-5f4b-498d-8594-a99e6f0acbc6")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "df24bf64-2d20-4a2a-bc46-8a308ba69f0c")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "3d81d7cb-26e2-4904-a8d8-2f4d7aff61ed")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "8299b188-bd91-4c63-a6ce-c8cc292a192a")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "9475cea3-89bb-4ee3-a6e5-f03e7c960961")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "b6eb1f7f-de98-4911-a2c9-bb1cc50e633a")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "eaa03ac1-ec19-478a-992e-051aa7833c0e")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "f7df6198-45a0-41ee-a4eb-31c18acf26e9")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "cc0ec38b-cd24-4b4a-83b4-1e03a0e5716c")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "ce0cd4cc-ca27-46ea-898c-36fbe47e7e2b")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "9fd2057a-b185-42bc-9446-6e4591005314")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "14aceda4-55dc-44de-8127-c2ebcd0eb982")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "400c3b79-d552-419f-898b-98749c7a4e0e")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "94e9e182-1174-43c7-ab00-0a3c599ca1cd")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "8deeb97f-bf49-4086-8e70-184c9c474170")
-    )
-    (platform
-      (name "spinA1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "4cf84e88-716e-40b6-83e2-2a3607785cfd")
-    )
-    (platform
-      (name "spinA2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "4e7eac2b-66b5-461c-b686-3e056e80c3d0")
-    )
-    (platform
-      (name "spinA3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "d3e511fd-e6ae-42be-8295-7144d719ed38")
-    )
-    (platform
-      (name "spinA4")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "83c4e56b-5296-4060-a339-398d0161b8f5")
-    )
-    (platform
-      (name "spinA5")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "89faf6b2-3270-4ea1-a029-2c4f3a86dfe6")
-    )
-    (platform
-      (name "spinA6")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "824b8181-2a17-478d-adb8-18b30e323b63")
     )
     (gradient
       (top_color 0.1 0.1 0.1)
@@ -2005,6 +1741,270 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "UnderPipe")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "295f27b0-2aa4-4898-88f5-514d16f48ec9")
+    )
+    (platform
+      (running #f)
+      (name "A")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "e1e08af6-ce8a-45a2-b69a-3e34092b3f41")
+    )
+    (platform
+      (running #f)
+      (name "B")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "f96c31f1-cc6e-4036-becb-ad46fc7bf0e6")
+    )
+    (platform
+      (running #f)
+      (name "C")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "365223e8-a356-47c4-a9f4-0cb105d40622")
+    )
+    (platform
+      (running #f)
+      (name "D")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "92b51470-e728-4f56-b890-c01c169b37a7")
+    )
+    (platform
+      (running #f)
+      (name "E")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "e368794b-2202-402e-8824-aeebe2877fe7")
+    )
+    (platform
+      (running #f)
+      (name "F")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "f2286e82-a9db-4d2e-b72d-e7b208c8968e")
+    )
+    (platform
+      (running #f)
+      (name "G")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "717a628e-0a2a-454f-a4c0-629ad4ee6d47")
+    )
+    (platform
+      (running #f)
+      (name "H")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "5b27fb7f-04c9-4af7-a9ee-2e494d6a9d3a")
+    )
+    (platform
+      (running #f)
+      (name "I")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "fc8f0a37-f44c-4849-9647-7c065edc347c")
+    )
+    (platform
+      (running #f)
+      (name "J")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "170110b9-c532-481a-a754-d25a6df56a3a")
+    )
+    (platform
+      (running #f)
+      (name "K")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "5be0b142-0b4a-4643-b2aa-2c04fd944a38")
+    )
+    (platform
+      (running #f)
+      (name "L")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "02a7d124-3b85-4b82-b2ae-68964999ca5c")
+    )
+    (platform
+      (running #f)
+      (name "M")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "21af0eb9-c4a4-4165-ac79-9e943a320f4e")
+    )
+    (platform
+      (running #f)
+      (name "N")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "0185e6d7-68d4-4afc-8b56-19b25eb9db90")
+    )
+    (platform
+      (running #f)
+      (name "O")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "d6958b1c-cbbd-400d-afa2-a5fc7627130e")
+    )
+    (platform
+      (running #f)
+      (name "P")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "3cc9d681-eb95-4fd3-b418-516b78232300")
+    )
+    (platform
+      (running #f)
+      (name "outtop")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "2905da93-4a1a-40de-a42b-ba110a634bac")
+    )
+    (platform
+      (running #f)
+      (name "outbot")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "8bf40c3f-0094-48af-b6a9-f970916fffac")
+    )
+    (platform
+      (running #f)
+      (name "endtrap")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "0e561b03-daed-4c8a-99f5-e064c9e30f08")
+    )
+    (platform
+      (running #f)
+      (name "endtrapL")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "8c375fd6-5283-45b9-b980-0a78235ce220")
+    )
+    (platform
+      (running #f)
+      (name "endtrapR")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "0e57de47-f225-40a6-a6a7-8cbbca99b0e5")
+    )
+    (platform
+      (name "spinC")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "fe0a5615-0978-4136-a64b-7910b2ff747b")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "2eb3399e-c78a-4a71-abea-6887297a9cc1")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "dac0a808-7391-4025-8186-cdc65e650b34")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "26d26a31-c2d7-4e0f-b044-66a681e105a1")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "1c853506-5528-4855-ab7b-8fe63612a7c5")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "a4eb31aa-47ff-4223-b838-c54e380cdf19")
+    )
+    (platform
+      (name "spinB")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "661980ec-ebf4-4212-b787-3456711ae46a")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "4e7374ad-f81f-411d-aac2-66ce4c09d71c")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "a3a66374-a3fe-4613-abc1-9baee53042df")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "87be4248-4b76-4c4f-bcf2-37af6d0dd0f9")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "7a9455c6-5f4b-498d-8594-a99e6f0acbc6")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "df24bf64-2d20-4a2a-bc46-8a308ba69f0c")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "3d81d7cb-26e2-4904-a8d8-2f4d7aff61ed")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "8299b188-bd91-4c63-a6ce-c8cc292a192a")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "9475cea3-89bb-4ee3-a6e5-f03e7c960961")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "b6eb1f7f-de98-4911-a2c9-bb1cc50e633a")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "eaa03ac1-ec19-478a-992e-051aa7833c0e")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "f7df6198-45a0-41ee-a4eb-31c18acf26e9")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "cc0ec38b-cd24-4b4a-83b4-1e03a0e5716c")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "ce0cd4cc-ca27-46ea-898c-36fbe47e7e2b")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "9fd2057a-b185-42bc-9446-6e4591005314")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "14aceda4-55dc-44de-8127-c2ebcd0eb982")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "400c3b79-d552-419f-898b-98749c7a4e0e")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "94e9e182-1174-43c7-ab00-0a3c599ca1cd")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "8deeb97f-bf49-4086-8e70-184c9c474170")
+    )
+    (platform
+      (name "spinA1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "4cf84e88-716e-40b6-83e2-2a3607785cfd")
+    )
+    (platform
+      (name "spinA2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "4e7eac2b-66b5-461c-b686-3e056e80c3d0")
+    )
+    (platform
+      (name "spinA3")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "d3e511fd-e6ae-42be-8295-7144d719ed38")
+    )
+    (platform
+      (name "spinA4")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "83c4e56b-5296-4060-a339-398d0161b8f5")
+    )
+    (platform
+      (name "spinA5")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "89faf6b2-3270-4ea1-a029-2c4f3a86dfe6")
+    )
+    (platform
+      (name "spinA6")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "824b8181-2a17-478d-adb8-18b30e323b63")
+    )
     (pushbutton
       (script "  P.goto_node(1);
         wait(  0.1  );
@@ -2412,35 +2412,6 @@
       (x 580)
       (y 2656)
     )
-    (platform
-      (running #f)
-      (name "botlift")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "666067b5-a82d-4d02-93ab-3f7d15c16a0a")
-    )
-    (platform
-      (running #f)
-      (name "toplift")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "59706ccf-4e9f-41a6-a96f-74eecd9e4b14")
-    )
-    (platform
-      (running #f)
-      (name "gateA")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "10f36bb0-7769-484d-b38e-626c291f23cb")
-    )
-    (platform
-      (running #f)
-      (name "gateB")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "75f8b33d-89c0-428e-9d2a-f7db5316983f")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "1f676cc2-fe50-40f7-8885-c25c9d60301a")
-    )
     (music
       (file "music/fortress.ogg")
     )
@@ -2541,6 +2512,35 @@
           (y 2752)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "botlift")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "666067b5-a82d-4d02-93ab-3f7d15c16a0a")
+    )
+    (platform
+      (running #f)
+      (name "toplift")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "59706ccf-4e9f-41a6-a96f-74eecd9e4b14")
+    )
+    (platform
+      (running #f)
+      (name "gateA")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "10f36bb0-7769-484d-b38e-626c291f23cb")
+    )
+    (platform
+      (running #f)
+      (name "gateB")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "75f8b33d-89c0-428e-9d2a-f7db5316983f")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "1f676cc2-fe50-40f7-8885-c25c9d60301a")
     )
     (scripttrigger
       (script "if(dungeon){

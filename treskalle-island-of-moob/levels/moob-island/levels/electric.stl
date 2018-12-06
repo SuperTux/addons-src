@@ -62,6 +62,8 @@
     (music
       (file "music/greatgigantic.ogg")
     )
+    (particles-snow
+    )
     (secretarea
       (width 72)
       (height 188)
@@ -83,8 +85,6 @@
     (snowball
       (x 4736)
       (y 544)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

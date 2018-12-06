@@ -91,6 +91,9 @@
       (x 5441)
       (y 390)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
     (smartball
       (x 3109)
       (y 652)
@@ -102,9 +105,6 @@
     (smartball
       (x 3493)
       (y 524)
-    )
-    (music
-      (file "music/chipdisko.ogg")
     )
     (snowball
       (x 2467)

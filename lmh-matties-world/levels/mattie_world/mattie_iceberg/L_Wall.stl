@@ -42,60 +42,6 @@ airpipe.fade(1,3);")
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "A")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "8f0ad09b-fe04-4403-b01c-379e9cc6a2e6")
-    )
-    (platform
-      (running #f)
-      (name "B1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "8b28a56d-2e5b-4883-b9fa-3bb95fa7d2bc")
-    )
-    (platform
-      (running #f)
-      (name "B2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "a16d7862-bd04-4643-94dc-9bb108435724")
-    )
-    (platform
-      (running #f)
-      (name "C1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "40cf16b4-bbea-4bd8-b661-179be8ffe5bf")
-    )
-    (platform
-      (running #f)
-      (name "C2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "3d5c1c17-edfb-4d58-9f15-cd56ae0c5ff0")
-    )
-    (platform
-      (running #f)
-      (name "D1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "04a2615c-570e-48fe-a34d-a4b80f2fe8d9")
-    )
-    (platform
-      (running #f)
-      (name "D2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "8ae40bbf-bd74-4348-9f24-d474d66a9d8b")
-    )
-    (platform
-      (running #f)
-      (name "E")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "efbca234-7787-4219-b3d6-4333a8130da0")
-    )
-    (platform
-      (running #f)
-      (name "pau")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "9961ff8d-f45e-40ed-a552-4361c4d3c579")
-    )
     (flyingsnowball
       (x 704)
       (y 1888)
@@ -189,86 +135,6 @@ airpipe.fade(1,3);")
     (mriceblock
       (x 1632)
       (y 1696)
-    )
-    (smartball
-      (x 1152)
-      (y 2464)
-    )
-    (smartball
-      (x 768)
-      (y 2272)
-    )
-    (smartball
-      (x 480)
-      (y 1952)
-    )
-    (smartball
-      (x 928)
-      (y 1984)
-    )
-    (smartball
-      (x 1088)
-      (y 1920)
-    )
-    (smartball
-      (x 1312)
-      (y 1632)
-    )
-    (smartball
-      (x 192)
-      (y 1376)
-    )
-    (smartball
-      (x 160)
-      (y 1216)
-    )
-    (smartball
-      (x 1024)
-      (y 832)
-    )
-    (smartball
-      (x 736)
-      (y 704)
-    )
-    (smartball
-      (x 224)
-      (y 640)
-    )
-    (smartball
-      (x 1184)
-      (y 576)
-    )
-    (smartball
-      (x 352)
-      (y 448)
-    )
-    (smartball
-      (x 1952)
-      (y 480)
-    )
-    (smartball
-      (x 1760)
-      (y 576)
-    )
-    (smartball
-      (x 1792)
-      (y 640)
-    )
-    (smartball
-      (x 1952)
-      (y 640)
-    )
-    (smartball
-      (x 2080)
-      (y 736)
-    )
-    (smartball
-      (x 1888)
-      (y 768)
-    )
-    (smartball
-      (x 1760)
-      (y 1216)
     )
     (music
       (file "music/chipdisko.ogg")
@@ -455,6 +321,60 @@ airpipe.fade(1,3);")
         )
       )
     )
+    (platform
+      (running #f)
+      (name "A")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "8f0ad09b-fe04-4403-b01c-379e9cc6a2e6")
+    )
+    (platform
+      (running #f)
+      (name "B1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "8b28a56d-2e5b-4883-b9fa-3bb95fa7d2bc")
+    )
+    (platform
+      (running #f)
+      (name "B2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "a16d7862-bd04-4643-94dc-9bb108435724")
+    )
+    (platform
+      (running #f)
+      (name "C1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "40cf16b4-bbea-4bd8-b661-179be8ffe5bf")
+    )
+    (platform
+      (running #f)
+      (name "C2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "3d5c1c17-edfb-4d58-9f15-cd56ae0c5ff0")
+    )
+    (platform
+      (running #f)
+      (name "D1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "04a2615c-570e-48fe-a34d-a4b80f2fe8d9")
+    )
+    (platform
+      (running #f)
+      (name "D2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "8ae40bbf-bd74-4348-9f24-d474d66a9d8b")
+    )
+    (platform
+      (running #f)
+      (name "E")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "efbca234-7787-4219-b3d6-4333a8130da0")
+    )
+    (platform
+      (running #f)
+      (name "pau")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "9961ff8d-f45e-40ed-a552-4361c4d3c579")
+    )
     (powerup
       (disable-physics #t)
       (sprite "images/powerups/star/star.sprite")
@@ -526,6 +446,86 @@ airpipe.fade(1,3);")
       (height 192)
       (x 1394)
       (y 1024)
+    )
+    (smartball
+      (x 1152)
+      (y 2464)
+    )
+    (smartball
+      (x 768)
+      (y 2272)
+    )
+    (smartball
+      (x 480)
+      (y 1952)
+    )
+    (smartball
+      (x 928)
+      (y 1984)
+    )
+    (smartball
+      (x 1088)
+      (y 1920)
+    )
+    (smartball
+      (x 1312)
+      (y 1632)
+    )
+    (smartball
+      (x 192)
+      (y 1376)
+    )
+    (smartball
+      (x 160)
+      (y 1216)
+    )
+    (smartball
+      (x 1024)
+      (y 832)
+    )
+    (smartball
+      (x 736)
+      (y 704)
+    )
+    (smartball
+      (x 224)
+      (y 640)
+    )
+    (smartball
+      (x 1184)
+      (y 576)
+    )
+    (smartball
+      (x 352)
+      (y 448)
+    )
+    (smartball
+      (x 1952)
+      (y 480)
+    )
+    (smartball
+      (x 1760)
+      (y 576)
+    )
+    (smartball
+      (x 1792)
+      (y 640)
+    )
+    (smartball
+      (x 1952)
+      (y 640)
+    )
+    (smartball
+      (x 2080)
+      (y 736)
+    )
+    (smartball
+      (x 1888)
+      (y 768)
+    )
+    (smartball
+      (x 1760)
+      (y 1216)
     )
     (snowball
       (x 576)

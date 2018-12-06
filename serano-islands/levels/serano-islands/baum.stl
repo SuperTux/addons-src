@@ -20,18 +20,6 @@
       (x 1600)
       (y 1408)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "764a3ef5-6dc7-4435-a013-6c2e5bc8dbd7")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "4324261d-5a88-4fed-a47d-db5cb0b0df38")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "48948c7e-93e9-4576-9e9a-4c08192f2da3")
-    )
     (mrbomb
       (x 2080)
       (y 384)
@@ -73,6 +61,18 @@
           (y 480)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "764a3ef5-6dc7-4435-a013-6c2e5bc8dbd7")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "4324261d-5a88-4fed-a47d-db5cb0b0df38")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "48948c7e-93e9-4576-9e9a-4c08192f2da3")
     )
     (poisonivy
       (x 1920)

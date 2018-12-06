@@ -206,18 +206,6 @@
       (x 1344)
       (y 2784)
     )
-    (platform
-      (running #f)
-      (name "EntracePlatform")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "e179f645-cac2-47ff-8c46-a8b82d49dde9")
-    )
-    (platform
-      (running #f)
-      (name "HeatEntrace")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "62fe8dea-a0f2-405f-85e8-9536cacdca1a")
-    )
     (haywire
       (x 1381)
       (y 7368)
@@ -307,20 +295,10 @@
       (x 1319)
       (y 2088)
     )
-    (smartball
-      (x 483)
-      (y 6406)
-    )
-    (smartball
-      (x 739)
-      (y 5542)
-    )
-    (smartball
-      (x 707)
-      (y 4102)
-    )
     (music
       (file "music/treeboss.ogg")
+    )
+    (particles-rain
     )
     (path
       (name "e179f645-cac2-47ff-8c46-a8b82d49dde9")
@@ -391,14 +369,24 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "EntracePlatform")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "e179f645-cac2-47ff-8c46-a8b82d49dde9")
+    )
+    (platform
+      (running #f)
+      (name "HeatEntrace")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "62fe8dea-a0f2-405f-85e8-9536cacdca1a")
+    )
     (pushbutton
       (script "Wind1.start();
 Wind2.start();
 Wind3.start();")
       (x 119.636)
       (y 3378.414)
-    )
-    (particles-rain
     )
     (scriptedobject
       (z-pos 1)
@@ -470,10 +458,17 @@ while ( (loop=1) );")
       (x 1396)
       (y 2080)
     )
-    (sspiky
-      (direction "right")
-      (x 806)
-      (y 7114)
+    (smartball
+      (x 483)
+      (y 6406)
+    )
+    (smartball
+      (x 739)
+      (y 5542)
+    )
+    (smartball
+      (x 707)
+      (y 4102)
     )
     (spawnpoint
       (name "main")
@@ -483,6 +478,11 @@ while ( (loop=1) );")
     (spiky
       (x 742)
       (y 7690)
+    )
+    (sspiky
+      (direction "right")
+      (x 806)
+      (y 7114)
     )
     (stalactite
       (x 1088)

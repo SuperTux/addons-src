@@ -193,6 +193,16 @@
       (x 20481)
       (y 1478)
     )
+    (music
+      (file "music/cave.ogg")
+    )
+    (secretarea
+      (fade-tilemap "Tilemap")
+      (width 236)
+      (height 76)
+      (x 404)
+      (y 1108)
+    )
     (smartball
       (x 5891)
       (y 454)
@@ -224,16 +234,6 @@
     (smartball
       (x 24099)
       (y 1254)
-    )
-    (music
-      (file "music/cave.ogg")
-    )
-    (secretarea
-      (fade-tilemap "Tilemap")
-      (width 236)
-      (height 76)
-      (x 404)
-      (y 1108)
     )
     (spawnpoint
       (name "main")

@@ -123,54 +123,6 @@
       (x 3456)
       (y 640)
     )
-    (smartball
-      (x 1024)
-      (y 960)
-    )
-    (smartball
-      (x 2496)
-      (y 320)
-    )
-    (smartball
-      (x 2176)
-      (y 896)
-    )
-    (smartball
-      (x 2496)
-      (y 1408)
-    )
-    (smartball
-      (x 3936)
-      (y 1312)
-    )
-    (smartball
-      (x 4128)
-      (y 1056)
-    )
-    (smartball
-      (x 4096)
-      (y 704)
-    )
-    (smartball
-      (x 3520)
-      (y 480)
-    )
-    (smartball
-      (x 4128)
-      (y 416)
-    )
-    (smartball
-      (x 5827)
-      (y 454)
-    )
-    (smartball
-      (x 1379)
-      (y 1478)
-    )
-    (smartball
-      (x 3107)
-      (y 966)
-    )
     (music
       (file "music/chipdisko.ogg")
     )
@@ -232,6 +184,54 @@
       (height 128)
       (x 2976)
       (y 544)
+    )
+    (smartball
+      (x 1024)
+      (y 960)
+    )
+    (smartball
+      (x 2496)
+      (y 320)
+    )
+    (smartball
+      (x 2176)
+      (y 896)
+    )
+    (smartball
+      (x 2496)
+      (y 1408)
+    )
+    (smartball
+      (x 3936)
+      (y 1312)
+    )
+    (smartball
+      (x 4128)
+      (y 1056)
+    )
+    (smartball
+      (x 4096)
+      (y 704)
+    )
+    (smartball
+      (x 3520)
+      (y 480)
+    )
+    (smartball
+      (x 4128)
+      (y 416)
+    )
+    (smartball
+      (x 5827)
+      (y 454)
+    )
+    (smartball
+      (x 1379)
+      (y 1478)
+    )
+    (smartball
+      (x 3107)
+      (y 966)
     )
     (snowball
       (x 2880)

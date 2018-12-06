@@ -776,12 +776,6 @@ tV
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "door")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "4ff01e98-2a33-422c-8550-7b7f24ceb647")
-    )
     (path
       (name "4ff01e98-2a33-422c-8550-7b7f24ceb647")
       (path
@@ -794,6 +788,12 @@ tV
           (y 800)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "door")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "4ff01e98-2a33-422c-8550-7b7f24ceb647")
     )
     (pushbutton
       (script "door.goto_node(1)")

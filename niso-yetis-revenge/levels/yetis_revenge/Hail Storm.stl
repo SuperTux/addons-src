@@ -133,6 +133,8 @@
     (music
       (file "music/greatgigantic.ogg")
     )
+    (particles-rain
+    )
     (powerup
       (script "find_fish(\"hail\");")
       (disable-physics #t)
@@ -234,8 +236,6 @@ play_sound(\"sounds/lifeup.wav\");
       (sprite "images/objects/coin/coinblue.sprite")
       (x 8064)
       (y 736)
-    )
-    (particles-rain
     )
     (scriptedobject
       (physic-enabled #f)

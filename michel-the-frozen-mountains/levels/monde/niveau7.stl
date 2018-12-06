@@ -59,6 +59,55 @@
       (x 453)
       (y 5096)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "30a8c4e1-a677-4e4b-b994-d9771d8b14be")
+      (path
+        (node
+          (x 0)
+          (y 12544)
+        )
+      )
+    )
+    (path
+      (name "276a9f11-09a5-4c45-9572-9db68ec288fd")
+      (path
+        (node
+          (x 0)
+          (y 12544)
+        )
+      )
+    )
+    (secretarea
+      (fade-tilemap "cache")
+      (width 72)
+      (height 32)
+      (x 500)
+      (y 12640)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 204)
+      (x 928)
+      (y 96)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 172)
+      (height 40)
+      (x 736)
+      (y 180)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 60)
+      (x 992)
+      (y 224)
+    )
     (smartball
       (x 1923)
       (y 12358)
@@ -110,55 +159,6 @@
     (smartball
       (x 419)
       (y 5318)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (path
-      (name "30a8c4e1-a677-4e4b-b994-d9771d8b14be")
-      (path
-        (node
-          (x 0)
-          (y 12544)
-        )
-      )
-    )
-    (path
-      (name "276a9f11-09a5-4c45-9572-9db68ec288fd")
-      (path
-        (node
-          (x 0)
-          (y 12544)
-        )
-      )
-    )
-    (secretarea
-      (fade-tilemap "cache")
-      (width 72)
-      (height 32)
-      (x 500)
-      (y 12640)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 204)
-      (x 928)
-      (y 96)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 172)
-      (height 40)
-      (x 736)
-      (y 180)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 60)
-      (x 992)
-      (y 224)
     )
     (snowball
       (x 1571)
@@ -2695,12 +2695,6 @@
       (x 96)
       (y 384)
     )
-    (platform
-      (running #f)
-      (name "porte1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "a47b9998-67a2-45c2-8746-9575a91280fd")
-    )
     (ispy
       (script "if(Foreground.get_alpha() == 1){
 Foreground.set_alpha(0);
@@ -2765,6 +2759,12 @@ porte1.goto_node(1);
           (y 352)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "porte1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "a47b9998-67a2-45c2-8746-9575a91280fd")
     )
     (rock
       (x 2112)

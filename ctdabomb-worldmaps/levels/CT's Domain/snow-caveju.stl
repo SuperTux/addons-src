@@ -203,6 +203,24 @@
       (x 6561)
       (y 358)
     )
+    (music
+      (file "music/cave.ogg")
+    )
+    (scripttrigger
+      (script "Level.spawn (\"bonus\", \"main\");")
+      (button #f)
+      (width 40)
+      (height 60)
+      (x 32)
+      (y 1024)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 252)
+      (height 1148)
+      (x 7776)
+      (y 0)
+    )
     (smartball
       (x 579)
       (y 102)
@@ -250,32 +268,6 @@
     (smartball
       (x 4547)
       (y 230)
-    )
-    (music
-      (file "music/cave.ogg")
-    )
-    (scripttrigger
-      (script "Level.spawn (\"bonus\", \"main\");")
-      (button #f)
-      (width 40)
-      (height 60)
-      (x 32)
-      (y 1024)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 252)
-      (height 1148)
-      (x 7776)
-      (y 0)
-    )
-    (sspiky
-      (x 6374)
-      (y 810)
-    )
-    (sspiky
-      (x 6822)
-      (y 1034)
     )
     (snowball
       (x 131)
@@ -330,6 +322,14 @@
     (spiky
       (x 6150)
       (y 234)
+    )
+    (sspiky
+      (x 6374)
+      (y 810)
+    )
+    (sspiky
+      (x 6822)
+      (y 1034)
     )
     (stalactite
       (x 2528)

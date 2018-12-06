@@ -39,8 +39,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (firefly
       (x 3328)
       (y 768)
@@ -183,36 +181,10 @@
       (x 4769)
       (y 870)
     )
-    (smartball
-      (x 835)
-      (y 902)
-    )
-    (smartball
-      (x 1859)
-      (y 902)
-    )
-    (smartball
-      (x 1283)
-      (y 934)
-    )
-    (smartball
-      (x 6947)
-      (y 934)
-    )
-    (smartball
-      (x 8003)
-      (y 1062)
-    )
-    (smartball
-      (x 8227)
-      (y 902)
-    )
-    (smartball
-      (x 7971)
-      (y 806)
-    )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (particles-clouds
     )
     (powerup
       (script "this.c1 <- true
@@ -329,6 +301,34 @@ play_sound(\"sounds/lifeup.wav\");
       (height 156)
       (x 6176)
       (y 192)
+    )
+    (smartball
+      (x 835)
+      (y 902)
+    )
+    (smartball
+      (x 1859)
+      (y 902)
+    )
+    (smartball
+      (x 1283)
+      (y 934)
+    )
+    (smartball
+      (x 6947)
+      (y 934)
+    )
+    (smartball
+      (x 8003)
+      (y 1062)
+    )
+    (smartball
+      (x 8227)
+      (y 902)
+    )
+    (smartball
+      (x 7971)
+      (y 806)
     )
     (spawnpoint
       (name "main")

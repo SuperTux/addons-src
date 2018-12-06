@@ -55,6 +55,16 @@
       (x 4711)
       (y 584)
     )
+    (music
+      (file "music/airship_remix.music")
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 92)
+      (height 156)
+      (x 4768)
+      (y 704)
+    )
     (smartball
       (x 1539)
       (y 134)
@@ -66,16 +76,6 @@
     (smartball
       (x 3875)
       (y 486)
-    )
-    (music
-      (file "music/airship_remix.music")
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 92)
-      (height 156)
-      (x 4768)
-      (y 704)
     )
     (snowball
       (x 3555)

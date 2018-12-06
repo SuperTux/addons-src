@@ -136,15 +136,6 @@
       (x 6368)
       (y 832)
     )
-    (sspiky
-      (direction "right")
-      (x 1830)
-      (y 874)
-    )
-    (sspiky
-      (x 4742)
-      (y 970)
-    )
     (snowball
       (x 835)
       (y 836)
@@ -157,6 +148,15 @@
       (name "main")
       (x 96)
       (y 96)
+    )
+    (sspiky
+      (direction "right")
+      (x 1830)
+      (y 874)
+    )
+    (sspiky
+      (x 4742)
+      (y 970)
     )
     (stalactite
       (x 832)

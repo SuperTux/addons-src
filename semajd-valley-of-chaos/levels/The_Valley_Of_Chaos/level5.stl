@@ -86,6 +86,9 @@
       (x 4865)
       (y 262)
     )
+    (music
+      (file "music/voc-daytime2.music")
+    )
     (smartball
       (x 1507)
       (y 550)
@@ -109,9 +112,6 @@
     (smartball
       (x 6403)
       (y 710)
-    )
-    (music
-      (file "music/voc-daytime2.music")
     )
     (snowball
       (x 1603)
@@ -531,15 +531,15 @@
     (music
       (file "music/voc-dark.music")
     )
-    (sspiky
-      (direction "right")
-      (x 358)
-      (y 1098)
-    )
     (spawnpoint
       (name "main")
       (x 544)
       (y 704)
+    )
+    (sspiky
+      (direction "right")
+      (x 358)
+      (y 1098)
     )
     (stalactite
       (x 352)

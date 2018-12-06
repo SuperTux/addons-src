@@ -99,14 +99,6 @@
       (x 2420)
       (y 554)
     )
-    (smartball
-      (x 1431)
-      (y 496)
-    )
-    (smartball
-      (x 1783)
-      (y 432)
-    )
     (music
       (file "music/fortress.music")
     )
@@ -120,6 +112,14 @@
       (height 172)
       (x 4928)
       (y -12)
+    )
+    (smartball
+      (x 1431)
+      (y 496)
+    )
+    (smartball
+      (x 1783)
+      (y 432)
     )
     (snowball
       (x 2483)

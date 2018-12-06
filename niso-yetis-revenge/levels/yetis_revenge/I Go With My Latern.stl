@@ -23,10 +23,6 @@
       (x 3040)
       (y 256)
     )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "a76f25bc-1640-41a5-9f50-28c617ef2545")
-    )
     (infoblock
       (message (_ "#Attention: 
 #Don't throw your laterns away! And: Think first before you go forward."))
@@ -625,6 +621,10 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "a76f25bc-1640-41a5-9f50-28c617ef2545")
+    )
     (powerup
       (script "this.c1 <- true
 Tux.add_coins(1);
@@ -742,6 +742,15 @@ play_sound(\"sounds/lifeup.wav\");
       (x 3072)
       (y 576)
     )
+    (snowball
+      (x 3267)
+      (y 356)
+    )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 640)
+    )
     (sspiky
       (x 1254)
       (y 618)
@@ -754,15 +763,6 @@ play_sound(\"sounds/lifeup.wav\");
     (sspiky
       (x 3302)
       (y 362)
-    )
-    (snowball
-      (x 3267)
-      (y 356)
-    )
-    (spawnpoint
-      (name "main")
-      (x 64)
-      (y 640)
     )
     (tilemap
       (solid #f)

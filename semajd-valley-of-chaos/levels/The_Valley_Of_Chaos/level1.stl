@@ -26,10 +26,6 @@
       (x 6114)
       (y 3045)
     )
-    (particles-clouds
-    )
-    (particles-clouds
-    )
     (crystallo
       (x 4640)
       (y 3079)
@@ -90,6 +86,15 @@
       (x 4160)
       (y 2976)
     )
+    (music
+      (file "music/voc-night.music")
+    )
+    (particles-clouds
+    )
+    (particles-clouds
+    )
+    (particles-snow
+    )
     (smartball
       (x 579)
       (y 3046)
@@ -122,9 +127,6 @@
       (x 4355)
       (y 3046)
     )
-    (music
-      (file "music/voc-night.music")
-    )
     (snowball
       (x 2339)
       (y 3044)
@@ -140,8 +142,6 @@
     (snowman
       (x 2218)
       (y 2851)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")
@@ -520,12 +520,14 @@ wall.goto_node(120)")
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
-    (particles-clouds
-    )
     (music
       (file "music/voc-night.music")
+    )
+    (particles-clouds
+    )
+    (particles-clouds
+    )
+    (particles-snow
     )
     (path
       (name "fe15f2ce-bb3f-4104-8fde-4c91597b427b")
@@ -1186,8 +1188,6 @@ Effect.sixteen_to_nine(1);")
       (height 252)
       (x 640)
       (y 32)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

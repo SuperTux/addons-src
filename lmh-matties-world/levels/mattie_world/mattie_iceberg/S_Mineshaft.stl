@@ -67,22 +67,6 @@
       (x 1216)
       (y 3296)
     )
-    (smartball
-      (x 1312)
-      (y 800)
-    )
-    (smartball
-      (x 1280)
-      (y 992)
-    )
-    (smartball
-      (x 1248)
-      (y 2528)
-    )
-    (smartball
-      (x 832)
-      (y 3104)
-    )
     (music
       (file "music/cave.ogg")
     )
@@ -154,6 +138,22 @@
       (height 64)
       (x 1456)
       (y 1248)
+    )
+    (smartball
+      (x 1312)
+      (y 800)
+    )
+    (smartball
+      (x 1280)
+      (y 992)
+    )
+    (smartball
+      (x 1248)
+      (y 2528)
+    )
+    (smartball
+      (x 832)
+      (y 3104)
     )
     (snowball
       (x 854)

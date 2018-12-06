@@ -17,22 +17,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (name "PitPlatform1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "505c6133-6b9d-4e81-9518-7e71d790c90e")
-    )
-    (platform
-      (name "PitPlatform2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "071d0453-674e-4ca2-8e84-b37c4f56d084")
-    )
-    (platform
-      (running #f)
-      (name "SecretBlock")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "204a5550-648f-435b-9670-14b412384f7f")
-    )
     (haywire
       (x 2245)
       (y 392)
@@ -55,6 +39,8 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (particles-snow
     )
     (path
       (name "505c6133-6b9d-4e81-9518-7e71d790c90e")
@@ -101,6 +87,22 @@
         )
       )
     )
+    (platform
+      (name "PitPlatform1")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "505c6133-6b9d-4e81-9518-7e71d790c90e")
+    )
+    (platform
+      (name "PitPlatform2")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "071d0453-674e-4ca2-8e84-b37c4f56d084")
+    )
+    (platform
+      (running #f)
+      (name "SecretBlock")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "204a5550-648f-435b-9670-14b412384f7f")
+    )
     (secretarea
       (fade-tilemap "secret1")
       (width 168)
@@ -117,8 +119,6 @@
     (snowball
       (x 768)
       (y 576)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

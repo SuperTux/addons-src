@@ -64,6 +64,11 @@
       (x 4641)
       (y 678)
     )
+    (music
+      (file "music/voc-night.ogg")
+    )
+    (particles-snow
+    )
     (smartball
       (x 1443)
       (y 678)
@@ -96,9 +101,6 @@
       (x 7395)
       (y 166)
     )
-    (music
-      (file "music/voc-night.ogg")
-    )
     (snowball
       (x 899)
       (y 324)
@@ -122,8 +124,6 @@
     (snowman
       (x 4394)
       (y 643)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

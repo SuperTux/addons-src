@@ -248,10 +248,6 @@ play_sound(\"sounds/lifeup.wav\");
       (x 2902.496)
       (y 475.8355)
     )
-    (sspiky
-      (x 3878)
-      (y 554)
-    )
     (spawnpoint
       (name "main")
       (x 64)
@@ -268,6 +264,10 @@ play_sound(\"sounds/lifeup.wav\");
     (spiky
       (x 2534)
       (y 586)
+    )
+    (sspiky
+      (x 3878)
+      (y 554)
     )
     (tilemap
       (solid #f)

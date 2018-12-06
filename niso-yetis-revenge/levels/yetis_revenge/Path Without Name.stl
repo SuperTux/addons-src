@@ -38,12 +38,6 @@
       (x 4630.848)
       (y 554.7441)
     )
-    (platform
-      (running #f)
-      (name "flyingcoin")
-      (sprite "images/objects/coin/coin.sprite")
-      (path-ref "f3ba2b7f-79d6-410b-bd15-a21a07edf822")
-    )
     (jumpy
       (x 1735)
       (y 552)
@@ -80,24 +74,10 @@
       (x 7813)
       (y 584)
     )
-    (smartball
-      (x 1219)
-      (y 550)
-    )
-    (smartball
-      (x 3971)
-      (y 550)
-    )
-    (smartball
-      (x 6787)
-      (y 550)
-    )
-    (smartball
-      (x 7651)
-      (y 582)
-    )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (particles-snow
     )
     (path
       (name "f3ba2b7f-79d6-410b-bd15-a21a07edf822")
@@ -126,6 +106,12 @@
           (y -320)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "flyingcoin")
+      (sprite "images/objects/coin/coin.sprite")
+      (path-ref "f3ba2b7f-79d6-410b-bd15-a21a07edf822")
     )
     (powerup
       (script "Tux.add_coins(1) ")
@@ -380,6 +366,22 @@ coinsfall.goto_node(1);")
       (x 6007.762)
       (y 798.5568)
     )
+    (smartball
+      (x 1219)
+      (y 550)
+    )
+    (smartball
+      (x 3971)
+      (y 550)
+    )
+    (smartball
+      (x 6787)
+      (y 550)
+    )
+    (smartball
+      (x 7651)
+      (y 582)
+    )
     (snowman
       (x 3466)
       (y 611)
@@ -387,8 +389,6 @@ coinsfall.goto_node(1);")
     (snowman
       (x 5610)
       (y 675)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

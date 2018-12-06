@@ -234,22 +234,6 @@
       (x 3200)
       (y 308)
     )
-    (sspiky
-      (x 2944)
-      (y 544)
-    )
-    (sspiky
-      (x 3008)
-      (y 544)
-    )
-    (sspiky
-      (x 3072)
-      (y 544)
-    )
-    (sspiky
-      (x 3136)
-      (y 544)
-    )
     (snowball
       (x 2304)
       (y 544)
@@ -266,6 +250,22 @@
     )
     (spiky
       (x 960)
+      (y 544)
+    )
+    (sspiky
+      (x 2944)
+      (y 544)
+    )
+    (sspiky
+      (x 3008)
+      (y 544)
+    )
+    (sspiky
+      (x 3072)
+      (y 544)
+    )
+    (sspiky
+      (x 3136)
       (y 544)
     )
     (tilemap
@@ -462,10 +462,6 @@
       (x 0)
       (y 20)
     )
-    (sspiky
-      (x 2496)
-      (y 32)
-    )
     (snowball
       (x 288)
       (y 448)
@@ -483,6 +479,10 @@
     (spiky
       (x 1824)
       (y 224)
+    )
+    (sspiky
+      (x 2496)
+      (y 32)
     )
     (tilemap
       (solid #f)

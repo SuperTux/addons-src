@@ -84,22 +84,6 @@
     (music
       (file "music/chipdisko.ogg")
     )
-    (sspiky
-      (x 998)
-      (y 554)
-    )
-    (sspiky
-      (x 2502)
-      (y 362)
-    )
-    (sspiky
-      (x 2406)
-      (y 426)
-    )
-    (sspiky
-      (x 5638)
-      (y 394)
-    )
     (snowball
       (x 515)
       (y 356)
@@ -131,6 +115,22 @@
     )
     (spiky
       (x 4134)
+      (y 394)
+    )
+    (sspiky
+      (x 998)
+      (y 554)
+    )
+    (sspiky
+      (x 2502)
+      (y 362)
+    )
+    (sspiky
+      (x 2406)
+      (y 426)
+    )
+    (sspiky
+      (x 5638)
       (y 394)
     )
     (tilemap

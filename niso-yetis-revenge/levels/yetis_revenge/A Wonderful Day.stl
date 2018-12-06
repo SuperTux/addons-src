@@ -49,60 +49,6 @@
       (x 17858)
       (y 773)
     )
-    (platform
-      (running #f)
-      (name "if9")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "7936c78b-2865-43d5-9383-7c134b81977a")
-    )
-    (platform
-      (running #f)
-      (name "if1")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "238d8cda-e3da-4f59-aa4a-4c8c04d680d3")
-    )
-    (platform
-      (running #f)
-      (name "if2")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "d579ae9d-1bfe-407d-99a9-466ccf9470a3")
-    )
-    (platform
-      (running #f)
-      (name "if3")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "fefa7261-a880-4a89-9afb-1cfa674df352")
-    )
-    (platform
-      (running #f)
-      (name "if4")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "1fce905e-42a0-4ad9-b0ab-c8cc739bbe91")
-    )
-    (platform
-      (running #f)
-      (name "if5")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "bf2e7114-95e1-46ab-8eab-a6337f7e93cc")
-    )
-    (platform
-      (running #f)
-      (name "if6")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "85be6747-857c-40ee-bb18-2ec203228e2d")
-    )
-    (platform
-      (running #f)
-      (name "if7")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "a908c776-a39e-4676-8293-6ca417093a9c")
-    )
-    (platform
-      (running #f)
-      (name "if8")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "97886f03-d6ad-4a14-b98b-9be762b71208")
-    )
     (gradient
       (top_color 0.8761578 0.9752499 0.9901121)
       (bottom_color 0 0.7294576 1)
@@ -119,44 +65,10 @@
       (x 12353)
       (y 806)
     )
-    (smartball
-      (x 1283)
-      (y 742)
-    )
-    (smartball
-      (x 5923)
-      (y 870)
-    )
-    (smartball
-      (x 5443)
-      (y 806)
-    )
-    (smartball
-      (x 6883)
-      (y 870)
-    )
-    (smartball
-      (x 9443)
-      (y 806)
-    )
-    (smartball
-      (x 13027)
-      (y 774)
-    )
-    (smartball
-      (x 16995)
-      (y 838)
-    )
-    (smartball
-      (x 17251)
-      (y 838)
-    )
-    (smartball
-      (x 17507)
-      (y 838)
-    )
     (music
       (file "music/salcon.ogg")
+    )
+    (particles-snow
     )
     (path
       (name "7936c78b-2865-43d5-9383-7c134b81977a")
@@ -283,6 +195,60 @@
           (y 936)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "if9")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "7936c78b-2865-43d5-9383-7c134b81977a")
+    )
+    (platform
+      (running #f)
+      (name "if1")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "238d8cda-e3da-4f59-aa4a-4c8c04d680d3")
+    )
+    (platform
+      (running #f)
+      (name "if2")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "d579ae9d-1bfe-407d-99a9-466ccf9470a3")
+    )
+    (platform
+      (running #f)
+      (name "if3")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "fefa7261-a880-4a89-9afb-1cfa674df352")
+    )
+    (platform
+      (running #f)
+      (name "if4")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "1fce905e-42a0-4ad9-b0ab-c8cc739bbe91")
+    )
+    (platform
+      (running #f)
+      (name "if5")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "bf2e7114-95e1-46ab-8eab-a6337f7e93cc")
+    )
+    (platform
+      (running #f)
+      (name "if6")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "85be6747-857c-40ee-bb18-2ec203228e2d")
+    )
+    (platform
+      (running #f)
+      (name "if7")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "a908c776-a39e-4676-8293-6ca417093a9c")
+    )
+    (platform
+      (running #f)
+      (name "if8")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "97886f03-d6ad-4a14-b98b-9be762b71208")
     )
     (powerup
       (script "this.c1 <- true
@@ -496,6 +462,42 @@ if8.goto_node(0)")
       (x 10112)
       (y 992)
     )
+    (smartball
+      (x 1283)
+      (y 742)
+    )
+    (smartball
+      (x 5923)
+      (y 870)
+    )
+    (smartball
+      (x 5443)
+      (y 806)
+    )
+    (smartball
+      (x 6883)
+      (y 870)
+    )
+    (smartball
+      (x 9443)
+      (y 806)
+    )
+    (smartball
+      (x 13027)
+      (y 774)
+    )
+    (smartball
+      (x 16995)
+      (y 838)
+    )
+    (smartball
+      (x 17251)
+      (y 838)
+    )
+    (smartball
+      (x 17507)
+      (y 838)
+    )
     (snowball
       (x 1123)
       (y 804)
@@ -571,8 +573,6 @@ if8.goto_node(0)")
     (snowman
       (x 12864)
       (y 766)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

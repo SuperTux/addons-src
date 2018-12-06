@@ -106,22 +106,6 @@
       (x 11237)
       (y 264)
     )
-    (smartball
-      (x 6403)
-      (y 358)
-    )
-    (smartball
-      (x 4643)
-      (y 486)
-    )
-    (smartball
-      (x 10371)
-      (y 166)
-    )
-    (smartball
-      (x 10819)
-      (y 134)
-    )
     (music
       (file "music/chipdisko.ogg")
     )
@@ -152,6 +136,22 @@
       (height 44)
       (x 12608)
       (y 180)
+    )
+    (smartball
+      (x 6403)
+      (y 358)
+    )
+    (smartball
+      (x 4643)
+      (y 486)
+    )
+    (smartball
+      (x 10371)
+      (y 166)
+    )
+    (smartball
+      (x 10819)
+      (y 134)
     )
     (snowball
       (x 10275)
@@ -424,12 +424,6 @@
       (x 288)
       (y 480)
     )
-    (platform
-      (running #f)
-      (name "porte")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "3960d978-8418-47c4-9579-cd756d6cb8d0")
-    )
     (ispy
       (script "if(Foreground.get_alpha() == 1){
 Foreground.set_alpha(0);
@@ -459,6 +453,12 @@ porte.goto_node(1);
           (y 224)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "porte")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "3960d978-8418-47c4-9579-cd756d6cb8d0")
     )
     (rock
       (x 288)

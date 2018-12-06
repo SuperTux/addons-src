@@ -278,6 +278,8 @@
     (music
       (file "music/ghostforest2.ogg")
     )
+    (particles-rain
+    )
     (poisonivy
       (x 2592)
       (y 2976)
@@ -297,8 +299,6 @@
     (poisonivy
       (x 1664)
       (y 352)
-    )
-    (particles-rain
     )
     (secretarea
       (width 220)

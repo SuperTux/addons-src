@@ -12,22 +12,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "f05653f5-749d-4060-99ed-497da602c506")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "cc0fa32f-6ece-4fd3-a949-18bfe1b5feda")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "ca50d954-a38e-4c92-8564-213390c64ab4")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "e1727bc3-3146-48db-a201-3bebf32c5bf9")
-    )
     (gradient
       (top_color 1 0 0)
       (bottom_color 1 0 0)
@@ -203,6 +187,22 @@
           (time 5)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "f05653f5-749d-4060-99ed-497da602c506")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "cc0fa32f-6ece-4fd3-a949-18bfe1b5feda")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "ca50d954-a38e-4c92-8564-213390c64ab4")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "e1727bc3-3146-48db-a201-3bebf32c5bf9")
     )
     (scripttrigger
       (script "found_crystal(\"red\")")

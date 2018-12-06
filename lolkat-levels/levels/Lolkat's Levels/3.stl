@@ -86,6 +86,9 @@
       (x 1409)
       (y 422)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
     (smartball
       (x 579)
       (y 262)
@@ -110,21 +113,6 @@
       (x 4579)
       (y 454)
     )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (sspiky
-      (x 838)
-      (y 350)
-    )
-    (sspiky
-      (x 1190)
-      (y 280)
-    )
-    (sspiky
-      (x 4262)
-      (y 255)
-    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -145,6 +133,18 @@
     (spiky
       (x 4422)
       (y 446)
+    )
+    (sspiky
+      (x 838)
+      (y 350)
+    )
+    (sspiky
+      (x 1190)
+      (y 280)
+    )
+    (sspiky
+      (x 4262)
+      (y 255)
     )
     (stalactite
       (x 1056)

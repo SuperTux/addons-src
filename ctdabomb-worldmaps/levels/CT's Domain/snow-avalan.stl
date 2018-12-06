@@ -47,20 +47,14 @@
       (x 4101)
       (y 1160)
     )
-    (smartball
-      (x 4803)
-      (y 1190)
-    )
-    (smartball
-      (x 3107)
-      (y 1254)
-    )
-    (smartball
-      (x 3939)
-      (y 1190)
-    )
     (music
       (file "music/wisphunt.music")
+    )
+    (particles-snow
+    )
+    (particles-snow
+    )
+    (particles-snow
     )
     (path
       (name "e297b030-ed72-4892-8d1b-0dc71f521722")
@@ -242,15 +236,21 @@ down.goto_node(100)")
       (x 6368)
       (y -32)
     )
+    (smartball
+      (x 4803)
+      (y 1190)
+    )
+    (smartball
+      (x 3107)
+      (y 1254)
+    )
+    (smartball
+      (x 3939)
+      (y 1190)
+    )
     (snowball
       (x 1347)
       (y 1444)
-    )
-    (particles-snow
-    )
-    (particles-snow
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

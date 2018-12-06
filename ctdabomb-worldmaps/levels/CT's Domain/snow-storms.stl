@@ -5,9 +5,6 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (ambient-light
-      (color 0.2177462 0.2177462 0.2177462)
-    )
     (ambient_sound
       (sample "sounds/thunder.wav")
       (distance_factor 0)
@@ -29,6 +26,9 @@
       (name "bj")
       (x 480)
       (y 672)
+    )
+    (ambient-light
+      (color 0.2177462 0.2177462 0.2177462)
     )
     (background
       (speed 0.5)
@@ -90,6 +90,20 @@
       (x 12641)
       (y 518)
     )
+    (music
+      (file "music/wisphunt.ogg")
+    )
+    (particles-rain
+    )
+    (path
+      (name "2085b2cb-637f-4c0f-a183-3e575fd758e6")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (smartball
       (x 579)
       (y 742)
@@ -101,24 +115,6 @@
     (smartball
       (x 8739)
       (y 582)
-    )
-    (music
-      (file "music/wisphunt.ogg")
-    )
-    (path
-      (name "2085b2cb-637f-4c0f-a183-3e575fd758e6")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
-    )
-    (particles-rain
-    )
-    (sspiky
-      (x 4966)
-      (y 618)
     )
     (snowball
       (x 419)
@@ -136,6 +132,10 @@
       (name "main")
       (x 96)
       (y 96)
+    )
+    (sspiky
+      (x 4966)
+      (y 618)
     )
     (thunderstorm
       (interval 5)

@@ -46,6 +46,16 @@
       (x 1127)
       (y 1128)
     )
+    (music
+      (file "music/greatgigantic.ogg")
+    )
+    (secretarea
+      (fade-tilemap "secret1")
+      (width 328)
+      (height 156)
+      (x 1524)
+      (y 544)
+    )
     (smartball
       (x 963)
       (y 2598)
@@ -57,16 +67,6 @@
     (smartball
       (x 1603)
       (y 902)
-    )
-    (music
-      (file "music/greatgigantic.ogg")
-    )
-    (secretarea
-      (fade-tilemap "secret1")
-      (width 328)
-      (height 156)
-      (x 1524)
-      (y 544)
     )
     (spawnpoint
       (name "main")

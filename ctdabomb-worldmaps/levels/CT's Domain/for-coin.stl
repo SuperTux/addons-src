@@ -144,14 +144,6 @@
       (x 32)
       (y 608)
     )
-    (sspiky
-      (x 1478)
-      (y 394)
-    )
-    (sspiky
-      (x 6694)
-      (y 746)
-    )
     (snail
       (x 2530)
       (y 771)
@@ -180,6 +172,14 @@
     (spiky
       (x 1062)
       (y 394)
+    )
+    (sspiky
+      (x 1478)
+      (y 394)
+    )
+    (sspiky
+      (x 6694)
+      (y 746)
     )
     (tilemap
       (solid #f)

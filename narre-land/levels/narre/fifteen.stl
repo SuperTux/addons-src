@@ -310,26 +310,6 @@
       (x 7840)
       (y 1184)
     )
-    (sspiky
-      (x 2432)
-      (y 1088)
-    )
-    (sspiky
-      (x 3488)
-      (y 1664)
-    )
-    (sspiky
-      (x 4544)
-      (y 2144)
-    )
-    (sspiky
-      (x 5632)
-      (y 2880)
-    )
-    (sspiky
-      (x 6752)
-      (y 2176)
-    )
     (snowball
       (x 480)
       (y 256)
@@ -350,6 +330,26 @@
     (spiky
       (x 7680)
       (y 1472)
+    )
+    (sspiky
+      (x 2432)
+      (y 1088)
+    )
+    (sspiky
+      (x 3488)
+      (y 1664)
+    )
+    (sspiky
+      (x 4544)
+      (y 2144)
+    )
+    (sspiky
+      (x 5632)
+      (y 2880)
+    )
+    (sspiky
+      (x 6752)
+      (y 2176)
     )
     (tilemap
       (solid #f)

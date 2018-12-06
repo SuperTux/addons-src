@@ -24,12 +24,6 @@
       (x 4800)
       (y 608)
     )
-    (platform
-      (running #f)
-      (name "s1")
-      (sprite "images/objects/platforms/rock_big.sprite")
-      (path-ref "e7e48e79-a714-48fc-98fa-4474bd77ccd6")
-    )
     (mriceblock
       (x 1313)
       (y 710)
@@ -185,6 +179,12 @@
           (time 11)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "s1")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "e7e48e79-a714-48fc-98fa-4474bd77ccd6")
     )
     (powerup
       (script "play_sound(\"sounds/countdown10s.ogg\");

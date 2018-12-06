@@ -115,15 +115,6 @@
       (x 3552)
       (y 928)
     )
-    (platform
-      (running #f)
-      (name "ascensseur")
-      (sprite "images/objects/invisible/invisible.sprite")
-      (path-ref "ced15d1c-8878-4caf-a634-9f75e9290435")
-    )
-    (particles-ghosts
-      (z-pos 140)
-    )
     (gradient
       (top_color 0 0 1)
       (bottom_color 0.5490196 0 0)
@@ -499,6 +490,9 @@ Tux.activate();")
     (music
       (file "music/ghostforest.ogg")
     )
+    (particles-ghosts
+      (z-pos 140)
+    )
     (path
       (name "ced15d1c-8878-4caf-a634-9f75e9290435")
       (path
@@ -600,6 +594,12 @@ Tux.activate();")
           (y 576)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "ascensseur")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (path-ref "ced15d1c-8878-4caf-a634-9f75e9290435")
     )
     (scripttrigger
       (script "Level.spawn(\"fin\", \"main\");")
@@ -1296,18 +1296,6 @@ Tux.activate();")
       (x 3616)
       (y 448)
     )
-    (smartball
-      (x 1411)
-      (y 582)
-    )
-    (smartball
-      (x 3267)
-      (y 262)
-    )
-    (smartball
-      (x 3395)
-      (y 934)
-    )
     (music
       (file "music/chipdisko.ogg")
     )
@@ -1363,6 +1351,18 @@ Tux.activate();")
       (height 92)
       (x 4576)
       (y 992)
+    )
+    (smartball
+      (x 1411)
+      (y 582)
+    )
+    (smartball
+      (x 3267)
+      (y 262)
+    )
+    (smartball
+      (x 3395)
+      (y 934)
     )
     (snowball
       (x 1059)
@@ -1942,6 +1942,23 @@ Tux.activate();")
       (x 17856)
       (y 620)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 284)
+      (x 20576)
+      (y 0)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 60)
+      (x 20704)
+      (y 160)
+    )
     (smartball
       (x 20035)
       (y 198)
@@ -1985,23 +2002,6 @@ Tux.activate();")
     (smartball
       (x 3395)
       (y 262)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 284)
-      (x 20576)
-      (y 0)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 60)
-      (x 20704)
-      (y 160)
     )
     (snowball
       (direction "right")

@@ -250,6 +250,25 @@
       (x 13440)
       (y 448)
     )
+    (music
+      (file "/music/voc-daytime.music")
+    )
+    (particles-snow
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 896)
+      (x 16032)
+      (y 0)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 64)
+      (height 896)
+      (x 16576)
+      (y 0)
+    )
     (smartball
       (direction "left")
       (sprite "images/creatures/snowball/smart-snowball.sprite")
@@ -279,23 +298,6 @@
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 14688)
       (y 800)
-    )
-    (music
-      (file "/music/voc-daytime.music")
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 896)
-      (x 16032)
-      (y 0)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 64)
-      (height 896)
-      (x 16576)
-      (y 0)
     )
     (smartblock
       (direction "left")
@@ -398,8 +400,6 @@
       (sprite "images/creatures/snowman/snowman.sprite")
       (x 15904)
       (y 864)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

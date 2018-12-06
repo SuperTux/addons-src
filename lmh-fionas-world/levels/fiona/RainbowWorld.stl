@@ -22,10 +22,6 @@
       (top_color 1 0 0.8786908)
       (bottom_color 1 0 0)
     )
-    (smartball
-      (x 1283)
-      (y 838)
-    )
     (music
       (file "music/forestmap.ogg")
     )
@@ -60,6 +56,10 @@
     (short_fuse
       (x 3657)
       (y 738)
+    )
+    (smartball
+      (x 1283)
+      (y 838)
     )
     (snowball
       (x 227)

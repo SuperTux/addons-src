@@ -79,6 +79,9 @@
       (x 4484)
       (y 547)
     )
+    (music
+      (file "music/cave.ogg")
+    )
     (smartball
       (x 1318)
       (y 458)
@@ -98,9 +101,6 @@
     (smartball
       (x 1702)
       (y 330)
-    )
-    (music
-      (file "music/cave.ogg")
     )
     (snowball
       (x 3683)

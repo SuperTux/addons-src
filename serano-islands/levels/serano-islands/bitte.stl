@@ -74,6 +74,13 @@
       (x 2881)
       (y 326)
     )
+    (music
+      (file "music/fortress.ogg")
+    )
+    (skullyhop
+      (x 6752)
+      (y 384)
+    )
     (smartball
       (x 1187)
       (y 422)
@@ -89,13 +96,6 @@
     (smartball
       (x 8387)
       (y 422)
-    )
-    (music
-      (file "music/fortress.ogg")
-    )
-    (skullyhop
-      (x 6752)
-      (y 384)
     )
     (snowball
       (x 995)

@@ -123,18 +123,6 @@
       (x 2816)
       (y 800)
     )
-    (sspiky
-      (x 7718)
-      (y 778)
-    )
-    (sspiky
-      (x 1894)
-      (y 810)
-    )
-    (sspiky
-      (x 8838)
-      (y 842)
-    )
     (spawnpoint
       (name "main")
       (x 0)
@@ -156,6 +144,18 @@
     (spiky
       (x 8422)
       (y 810)
+    )
+    (sspiky
+      (x 7718)
+      (y 778)
+    )
+    (sspiky
+      (x 1894)
+      (y 810)
+    )
+    (sspiky
+      (x 8838)
+      (y 842)
     )
     (tilemap
       (solid #f)

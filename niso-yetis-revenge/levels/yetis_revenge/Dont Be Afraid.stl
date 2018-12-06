@@ -77,14 +77,14 @@
       (x 1952)
       (y 800)
     )
+    (music
+      (file "music/ghostforest.ogg")
+    )
     (particles-ghosts
       (z-pos 0)
     )
     (particles-ghosts
       (z-pos -1)
-    )
-    (music
-      (file "music/ghostforest.ogg")
     )
     (secretarea
       (fade-tilemap "secret2")
@@ -635,10 +635,6 @@ door.set_alpha(1);")
       (x 7552)
       (y 608)
     )
-    (particles-ghosts
-    )
-    (particles-ghosts
-    )
     (hurting_platform
       (sprite "images/creatures/flame/flame.sprite")
       (path-ref "d6bf466d-f60c-46c8-b978-0f693da1b44b")
@@ -990,6 +986,10 @@ door.set_alpha(1);")
     )
     (music
       (file "music/ghostforest.ogg")
+    )
+    (particles-ghosts
+    )
+    (particles-ghosts
     )
     (path
       (name "d6bf466d-f60c-46c8-b978-0f693da1b44b")

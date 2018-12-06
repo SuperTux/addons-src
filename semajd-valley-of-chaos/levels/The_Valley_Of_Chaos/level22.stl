@@ -41,8 +41,6 @@
       (x 7938)
       (y 101)
     )
-    (particles-clouds
-    )
     (fish
       (x 2338)
       (y 483)
@@ -82,6 +80,19 @@
     (mriceblock
       (x 1185)
       (y 454)
+    )
+    (music
+      (file "music/voc-daytime.music")
+    )
+    (particles-clouds
+    )
+    (particles-snow
+    )
+    (secretarea
+      (width 60)
+      (height 60)
+      (x 1632)
+      (y 64)
     )
     (smartball
       (x 2947)
@@ -135,15 +146,6 @@
       (x 6179)
       (y 294)
     )
-    (music
-      (file "music/voc-daytime.music")
-    )
-    (secretarea
-      (width 60)
-      (height 60)
-      (x 1632)
-      (y 64)
-    )
     (snowball
       (x 1987)
       (y 452)
@@ -167,8 +169,6 @@
     (snowman
       (x 7114)
       (y 291)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

@@ -56,6 +56,11 @@
       (x 8709)
       (y 616)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (particles-snow
+    )
     (smartball
       (x 611)
       (y 806)
@@ -108,17 +113,6 @@
       (x 8899)
       (y 614)
     )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (sspiky
-      (x 5286)
-      (y 170)
-    )
-    (sspiky
-      (x 8902)
-      (y 746)
-    )
     (snowball
       (x 3203)
       (y 868)
@@ -131,12 +125,18 @@
       (x 938)
       (y 867)
     )
-    (particles-snow
-    )
     (spawnpoint
       (name "main")
       (x 160)
       (y 800)
+    )
+    (sspiky
+      (x 5286)
+      (y 170)
+    )
+    (sspiky
+      (x 8902)
+      (y 746)
     )
     (tilemap
       (solid #f)

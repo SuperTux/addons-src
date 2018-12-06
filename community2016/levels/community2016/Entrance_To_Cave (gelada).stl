@@ -131,6 +131,24 @@
       (x 5217)
       (y 614)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (particles-snow
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 284)
+      (height 268)
+      (x 7712)
+      (y 288)
+    )
+    (short_fuse
+      (direction "left")
+      (sprite "images/creatures/short_fuse/short_fuse.sprite")
+      (x 2249)
+      (y 610)
+    )
     (smartball
       (direction "left")
       (sprite "images/creatures/snowball/smart-snowball.sprite")
@@ -154,22 +172,6 @@
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 7459)
       (y 614)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 284)
-      (height 268)
-      (x 7712)
-      (y 288)
-    )
-    (short_fuse
-      (direction "left")
-      (sprite "images/creatures/short_fuse/short_fuse.sprite")
-      (x 2249)
-      (y 610)
     )
     (smartblock
       (direction "left")
@@ -206,8 +208,6 @@
       (sprite "images/creatures/snowman/snowman.sprite")
       (x 8618)
       (y 515)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

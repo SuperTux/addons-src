@@ -102,6 +102,9 @@
       (x 2049)
       (y 998)
     )
+    (music
+      (file "music/cave.music")
+    )
     (smartball
       (x 1315)
       (y 902)
@@ -117,13 +120,6 @@
     (smartball
       (x 6659)
       (y 678)
-    )
-    (music
-      (file "music/cave.music")
-    )
-    (sspiky
-      (x 4806)
-      (y 682)
     )
     (snowball
       (x 483)
@@ -149,6 +145,10 @@
     (spiky
       (x 4454)
       (y 650)
+    )
+    (sspiky
+      (x 4806)
+      (y 682)
     )
     (tilemap
       (solid #f)

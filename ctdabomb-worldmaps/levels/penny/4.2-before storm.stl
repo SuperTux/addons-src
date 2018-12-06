@@ -121,14 +121,6 @@
       (x 1633)
       (y 358)
     )
-    (smartball
-      (x 4931)
-      (y 294)
-    )
-    (smartball
-      (x 4291)
-      (y 230)
-    )
     (music
       (file "music/treeboss.music")
     )
@@ -146,18 +138,13 @@
       (x 6368)
       (y -32)
     )
-    (sspiky
-      (direction "right")
-      (x 1958)
-      (y 362)
+    (smartball
+      (x 4931)
+      (y 294)
     )
-    (sspiky
-      (x 5158)
-      (y 234)
-    )
-    (sspiky
-      (x 4518)
-      (y 298)
+    (smartball
+      (x 4291)
+      (y 230)
     )
     (snowball
       (x 995)
@@ -179,6 +166,19 @@
       (name "main")
       (x 96)
       (y 96)
+    )
+    (sspiky
+      (direction "right")
+      (x 1958)
+      (y 362)
+    )
+    (sspiky
+      (x 5158)
+      (y 234)
+    )
+    (sspiky
+      (x 4518)
+      (y 298)
     )
     (thunderstorm
       (interval 3)

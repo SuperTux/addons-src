@@ -15,108 +15,6 @@
       (x 3904)
       (y 800)
     )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "60654ad5-795a-4e31-931d-c16083f129a4")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "6b2198d1-bfd3-4f1c-b95c-00b216b8e617")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "2dd55199-2923-4d69-a5b9-c215f02f7506")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "268a0d6b-acb9-4deb-9664-060ada152c9e")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "c1320fba-316b-4e7e-8341-d6542f8395e3")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "557c9638-f8bd-4683-b493-57be904d1749")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "3e638c73-f046-40fb-973b-9f056754de71")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "6f3e974e-8eec-4a56-9635-e52758ca8305")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "dfc8242a-1593-499f-995f-efc05d6a66ad")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "4d6b10eb-4ca0-456a-9cc6-400b740a35fb")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "98e7a372-c425-4980-86d7-7d98d9097b59")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "85c970fc-fa45-4779-ab0f-ca038bb8cf29")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "27336e90-a93c-4d71-8626-380251f2c7e9")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "7dfad09f-6bdd-42d7-99f5-f058e079581a")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "2f08e318-5eb4-4b1c-a7b6-f1d65aaf8234")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "c4f4c560-6c0a-4d1a-8d47-373ab57b60ab")
-    )
-    (platform
-      (running #f)
-      (name "A")
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "5a050251-2435-4616-9144-e0426a396eff")
-    )
-    (platform
-      (running #f)
-      (name "B")
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "964be337-fa5a-40fd-8a97-2a48356c2b04")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "681d9631-f950-43ec-b7a4-330b892df07d")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path-ref "4284d88b-9a5f-492a-b8b8-6a84ce0854b7")
-    )
     (flyingsnowball
       (x 4196)
       (y 803)
@@ -156,26 +54,6 @@
     (mrbomb
       (x 5477)
       (y 840)
-    )
-    (smartball
-      (x 2243)
-      (y 774)
-    )
-    (smartball
-      (x 2403)
-      (y 806)
-    )
-    (smartball
-      (x 3427)
-      (y 838)
-    )
-    (smartball
-      (x 3779)
-      (y 870)
-    )
-    (smartball
-      (x 5635)
-      (y 838)
     )
     (music
       (file "music/battle_theme.music")
@@ -440,6 +318,108 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "60654ad5-795a-4e31-931d-c16083f129a4")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "6b2198d1-bfd3-4f1c-b95c-00b216b8e617")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "2dd55199-2923-4d69-a5b9-c215f02f7506")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "268a0d6b-acb9-4deb-9664-060ada152c9e")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "c1320fba-316b-4e7e-8341-d6542f8395e3")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "557c9638-f8bd-4683-b493-57be904d1749")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "3e638c73-f046-40fb-973b-9f056754de71")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "6f3e974e-8eec-4a56-9635-e52758ca8305")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "dfc8242a-1593-499f-995f-efc05d6a66ad")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "4d6b10eb-4ca0-456a-9cc6-400b740a35fb")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "98e7a372-c425-4980-86d7-7d98d9097b59")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "85c970fc-fa45-4779-ab0f-ca038bb8cf29")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "27336e90-a93c-4d71-8626-380251f2c7e9")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "7dfad09f-6bdd-42d7-99f5-f058e079581a")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "2f08e318-5eb4-4b1c-a7b6-f1d65aaf8234")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "c4f4c560-6c0a-4d1a-8d47-373ab57b60ab")
+    )
+    (platform
+      (running #f)
+      (name "A")
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "5a050251-2435-4616-9144-e0426a396eff")
+    )
+    (platform
+      (running #f)
+      (name "B")
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "964be337-fa5a-40fd-8a97-2a48356c2b04")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "681d9631-f950-43ec-b7a4-330b892df07d")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/unstable_tile/iceplatform.sprite")
+      (path-ref "4284d88b-9a5f-492a-b8b8-6a84ce0854b7")
+    )
     (scripttrigger
       (script "e.goto_node(2)")
       (button #f)
@@ -630,14 +610,34 @@
       (x 2665)
       (y 866)
     )
-    (sspiky
-      (x 4870)
-      (y 874)
+    (smartball
+      (x 2243)
+      (y 774)
+    )
+    (smartball
+      (x 2403)
+      (y 806)
+    )
+    (smartball
+      (x 3427)
+      (y 838)
+    )
+    (smartball
+      (x 3779)
+      (y 870)
+    )
+    (smartball
+      (x 5635)
+      (y 838)
     )
     (spawnpoint
       (name "main")
       (x 64)
       (y 704)
+    )
+    (sspiky
+      (x 4870)
+      (y 874)
     )
     (tilemap
       (solid #f)

@@ -47,6 +47,9 @@
       (x 5540)
       (y 452)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
     (smartball
       (x 3971)
       (y 516)
@@ -54,13 +57,6 @@
     (smartball
       (x 1955)
       (y 326)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (sspiky
-      (x 2566)
-      (y 586)
     )
     (snowball
       (x 835)
@@ -102,6 +98,10 @@
     (spiky
       (x 4534)
       (y 707)
+    )
+    (sspiky
+      (x 2566)
+      (y 586)
     )
     (tilemap
       (solid #f)

@@ -147,16 +147,6 @@
       (x 4496)
       (y 832)
     )
-    (platform
-      (running #f)
-      (name "up")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (path-ref "42abef04-aff7-4031-8549-9e9eae158d47")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "9f3f4e6f-2054-494f-84bf-3e013563275a")
-    )
     (gradient
       (top_color 0 0.6 0)
       (bottom_color 0 0.4 0.8)
@@ -229,11 +219,6 @@
     (mriceblock
       (x 3904)
       (y 512)
-    )
-    (smartball
-      (sprite "images/creatures/crystallo/crystallo-smart.sprite")
-      (x 1696)
-      (y 960)
     )
     (music
       (file "music/greatgigantic.ogg")
@@ -471,6 +456,16 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "up")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
+      (path-ref "42abef04-aff7-4031-8549-9e9eae158d47")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "9f3f4e6f-2054-494f-84bf-3e013563275a")
+    )
     (scripttrigger
       (script "      Tux.deactivate();
                                         pipelift.goto_node(1);
@@ -524,6 +519,25 @@
       (x 2000)
       (y 1280)
     )
+    (smartball
+      (sprite "images/creatures/crystallo/crystallo-smart.sprite")
+      (x 1696)
+      (y 960)
+    )
+    (snowman
+      (x 6080)
+      (y 2208)
+    )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 352)
+    )
+    (spawnpoint
+      (name "outpipe")
+      (x 688)
+      (y 832)
+    )
     (sspiky
       (x 1056)
       (y 384)
@@ -569,20 +583,6 @@
       (direction "left")
       (x 3840)
       (y 2272)
-    )
-    (snowman
-      (x 6080)
-      (y 2208)
-    )
-    (spawnpoint
-      (name "main")
-      (x 64)
-      (y 352)
-    )
-    (spawnpoint
-      (name "outpipe")
-      (x 688)
-      (y 832)
     )
     (stalactite
       (x 2704)

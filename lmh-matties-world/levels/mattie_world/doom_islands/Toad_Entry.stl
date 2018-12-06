@@ -452,10 +452,6 @@
       (x 2656)
       (y 192)
     )
-    (sspiky
-      (x 2720)
-      (y 928)
-    )
     (snowman
       (x 2496)
       (y 256)
@@ -495,6 +491,10 @@
     (spiky
       (x 2432)
       (y 320)
+    )
+    (sspiky
+      (x 2720)
+      (y 928)
     )
     (tilemap
       (solid #t)
@@ -2507,6 +2507,17 @@
     (music
       (file "music/darkforestkeep.ogg")
     )
+    (particles-snow
+    )
+    (particles-snow
+      (z-pos 80)
+    )
+    (particles-snow
+      (z-pos -80)
+    )
+    (particles-snow
+      (z-pos 120)
+    )
     (path
       (name "1be91ef6-9b6d-46a5-a01a-7f9b3bdb4940")
       (path
@@ -2575,6 +2586,11 @@
       (x 1280)
       (y 160)
     )
+    (spawnpoint
+      (name "main")
+      (x 304)
+      (y 352)
+    )
     (sspiky
       (x 858)
       (y 352)
@@ -2591,22 +2607,6 @@
     (sspiky
       (direction "right")
       (x 966)
-      (y 352)
-    )
-    (particles-snow
-    )
-    (particles-snow
-      (z-pos 80)
-    )
-    (particles-snow
-      (z-pos -80)
-    )
-    (particles-snow
-      (z-pos 120)
-    )
-    (spawnpoint
-      (name "main")
-      (x 304)
       (y 352)
     )
     (tilemap

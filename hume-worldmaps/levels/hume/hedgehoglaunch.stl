@@ -737,12 +737,6 @@
       (mode "normal")
       (path-ref "407ae793-296d-4b05-b449-85bb6c3321e3")
     )
-    (platform
-      (running #f)
-      (name "platform1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "54a70d13-5b11-4a98-af6a-2ec9d294c502")
-    )
     (ghosttree
       (dead-script "sector.Tux.trigger_sequence(\"fireworks\");")
       (x 730)
@@ -788,6 +782,12 @@
           (y 416)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "platform1")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "54a70d13-5b11-4a98-af6a-2ec9d294c502")
     )
     (scripttrigger
       (script "platform1.goto_node(1);")

@@ -208,6 +208,41 @@
       (x 5345)
       (y 486)
     )
+    (music
+      (file "music/fortress.music")
+    )
+    (particles-rain
+    )
+    (powerup
+      (sprite "images/powerups/fireflower/fireflower.sprite")
+      (x 0)
+      (y 992)
+    )
+    (powerup
+      (sprite "images/powerups/fireflower/fireflower.sprite")
+      (x 32)
+      (y 992)
+    )
+    (powerup
+      (sprite "images/powerups/fireflower/fireflower.sprite")
+      (x 64)
+      (y 992)
+    )
+    (powerup
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 96)
+      (y 960)
+    )
+    (powerup
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 128)
+      (y 960)
+    )
+    (powerup
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 160)
+      (y 960)
+    )
     (smartball
       (x 2019)
       (y 742)
@@ -240,49 +275,6 @@
       (x 4803)
       (y 486)
     )
-    (music
-      (file "music/fortress.music")
-    )
-    (powerup
-      (sprite "images/powerups/fireflower/fireflower.sprite")
-      (x 0)
-      (y 992)
-    )
-    (powerup
-      (sprite "images/powerups/fireflower/fireflower.sprite")
-      (x 32)
-      (y 992)
-    )
-    (powerup
-      (sprite "images/powerups/fireflower/fireflower.sprite")
-      (x 64)
-      (y 992)
-    )
-    (powerup
-      (sprite "images/powerups/1up/1up.sprite")
-      (x 96)
-      (y 960)
-    )
-    (powerup
-      (sprite "images/powerups/1up/1up.sprite")
-      (x 128)
-      (y 960)
-    )
-    (powerup
-      (sprite "images/powerups/1up/1up.sprite")
-      (x 160)
-      (y 960)
-    )
-    (particles-rain
-    )
-    (sspiky
-      (x 8038)
-      (y 330)
-    )
-    (sspiky
-      (x 5606)
-      (y 490)
-    )
     (snowball
       (x 7107)
       (y 324)
@@ -303,6 +295,14 @@
       (name "main")
       (x 0)
       (y 416)
+    )
+    (sspiky
+      (x 8038)
+      (y 330)
+    )
+    (sspiky
+      (x 5606)
+      (y 490)
     )
     (tilemap
       (solid #f)

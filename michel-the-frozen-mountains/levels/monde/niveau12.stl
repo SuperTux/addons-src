@@ -81,6 +81,30 @@
       (x 11265)
       (y 838)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (secretarea
+      (fade-tilemap "cache")
+      (width 32)
+      (height 200)
+      (x 4736)
+      (y 1620)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 40)
+      (x 15808)
+      (y 308)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 340)
+      (x 15392)
+      (y 20)
+    )
     (smartball
       (x 867)
       (y 2086)
@@ -112,30 +136,6 @@
     (smartball
       (x 3523)
       (y 1830)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (secretarea
-      (fade-tilemap "cache")
-      (width 32)
-      (height 200)
-      (x 4736)
-      (y 1620)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 40)
-      (x 15808)
-      (y 308)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 340)
-      (x 15392)
-      (y 20)
     )
     (snowball
       (x 3075)

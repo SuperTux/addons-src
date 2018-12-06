@@ -61,6 +61,9 @@
       (x 865)
       (y 518)
     )
+    (music
+      (file "music/forest2.ogg")
+    )
     (smartball
       (x 5219)
       (y 262)
@@ -68,13 +71,6 @@
     (smartball
       (x 5059)
       (y 262)
-    )
-    (music
-      (file "music/forest2.ogg")
-    )
-    (sspiky
-      (x 4646)
-      (y 330)
     )
     (snowball
       (x 707)
@@ -92,6 +88,10 @@
     (spiky
       (x 5158)
       (y 266)
+    )
+    (sspiky
+      (x 4646)
+      (y 330)
     )
     (tilemap
       (solid #f)

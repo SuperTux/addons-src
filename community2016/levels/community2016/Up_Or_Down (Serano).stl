@@ -27,12 +27,6 @@
       (x 6656)
       (y 672)
     )
-    (platform
-      (running #f)
-      (name "plat")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "7ba93817-f6fa-42d6-be06-1706b677b01e")
-    )
     (goldbomb
       (x 9605)
       (y 328)
@@ -99,6 +93,8 @@
     (music
       (file "music/forest.ogg")
     )
+    (particles-rain
+    )
     (path
       (name "7ba93817-f6fa-42d6-be06-1706b677b01e")
       (path
@@ -111,6 +107,12 @@
           (y 544)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "plat")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "7ba93817-f6fa-42d6-be06-1706b677b01e")
     )
     (poisonivy
       (x 2530)
@@ -160,8 +162,6 @@
       (sprite "images/powerups/fireflower/fireflower.sprite")
       (x 4192)
       (y 640)
-    )
-    (particles-rain
     )
     (snail
       (x 7234)

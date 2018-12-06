@@ -11,20 +11,20 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
-    (particles-clouds
-    )
-    (particles-clouds
-    )
-    (particles-clouds
-    )
     (gradient
       (top_color 0 0 0 0)
       (bottom_color 0.3994965 0.01986725 0.01986725)
     )
     (music
       (file "music/theme.ogg")
+    )
+    (particles-clouds
+    )
+    (particles-clouds
+    )
+    (particles-clouds
+    )
+    (particles-clouds
     )
     (particles-snow
     )

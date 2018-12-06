@@ -118,8 +118,6 @@
       (x 12064)
       (y 672)
     )
-    (particles-ghosts
-    )
     (gradient
       (top_color 0 0.1060349 0.6090028)
       (bottom_color 0.9477531 1 0.1680171)
@@ -455,6 +453,8 @@
     )
     (music
       (file "music/ghostforest2.ogg")
+    )
+    (particles-ghosts
     )
     (skullyhop
       (x 10816)

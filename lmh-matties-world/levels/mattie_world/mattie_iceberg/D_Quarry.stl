@@ -37,12 +37,6 @@
       (x 2112)
       (y 1888)
     )
-    (platform
-      (running #f)
-      (name "left")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "052cfa01-6744-4d8f-91d6-5a001c78bf26")
-    )
     (goldbomb
       (x 1408)
       (y 2336)
@@ -160,6 +154,8 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (particles-snow
+    )
     (path
       (name "052cfa01-6744-4d8f-91d6-5a001c78bf26")
       (path
@@ -174,6 +170,12 @@
           (time 3)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "left")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "052cfa01-6744-4d8f-91d6-5a001c78bf26")
     )
     (powerup
       (script "find_coin(\"coin1\");")
@@ -200,6 +202,31 @@
       (height 192)
       (x 2048)
       (y 1664)
+    )
+    (smartblock
+      (x 1408)
+      (y 2464)
+    )
+    (smartblock
+      (x 1536)
+      (y 2464)
+    )
+    (smartblock
+      (x 1888)
+      (y 1024)
+    )
+    (spawnpoint
+      (name "main")
+      (x 32)
+      (y 224)
+    )
+    (spiky
+      (x 1460)
+      (y 2240)
+    )
+    (spiky
+      (x 672)
+      (y 512)
     )
     (sspiky
       (direction "right")
@@ -230,33 +257,6 @@
       (direction "right")
       (x 256)
       (y 1920)
-    )
-    (smartblock
-      (x 1408)
-      (y 2464)
-    )
-    (smartblock
-      (x 1536)
-      (y 2464)
-    )
-    (smartblock
-      (x 1888)
-      (y 1024)
-    )
-    (particles-snow
-    )
-    (spawnpoint
-      (name "main")
-      (x 32)
-      (y 224)
-    )
-    (spiky
-      (x 1460)
-      (y 2240)
-    )
-    (spiky
-      (x 672)
-      (y 512)
     )
     (tilemap
       (solid #t)

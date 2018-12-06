@@ -88,36 +88,6 @@
       (x 95.77615)
       (y 58.63101)
     )
-    (platform
-      (running #f)
-      (name "a")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "bcd0211e-e5a8-4b3f-bbc1-5716f4e7740e")
-    )
-    (platform
-      (running #f)
-      (name "b")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "7a5b1ccc-84e1-4ba4-b842-7175602d00c8")
-    )
-    (platform
-      (running #f)
-      (name "c")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "3ae83359-f20d-45ed-b9bd-1e75c003319b")
-    )
-    (platform
-      (running #f)
-      (name "d")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "1ca01621-9bb6-4a7c-8e29-c7f1200dde81")
-    )
-    (platform
-      (running #f)
-      (name "e")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "ce09e3c3-b5d5-4d06-ae14-b22b925cadb9")
-    )
     (path
       (name "bcd0211e-e5a8-4b3f-bbc1-5716f4e7740e")
       (path
@@ -186,6 +156,36 @@
           (y -256)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "a")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "bcd0211e-e5a8-4b3f-bbc1-5716f4e7740e")
+    )
+    (platform
+      (running #f)
+      (name "b")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "7a5b1ccc-84e1-4ba4-b842-7175602d00c8")
+    )
+    (platform
+      (running #f)
+      (name "c")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "3ae83359-f20d-45ed-b9bd-1e75c003319b")
+    )
+    (platform
+      (running #f)
+      (name "d")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "1ca01621-9bb6-4a7c-8e29-c7f1200dde81")
+    )
+    (platform
+      (running #f)
+      (name "e")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "ce09e3c3-b5d5-4d06-ae14-b22b925cadb9")
     )
     (scripttrigger
       (script "Level.spawn(\"secret\",\"main\")")
@@ -423,12 +423,6 @@
       (x 96)
       (y 96)
     )
-    (platform
-      (running #f)
-      (name "kurva")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "af5a6e34-8d5a-4e3b-a2cb-8eae6a791f27")
-    )
     (infoblock
       (message (_ "WWelcome to the door 1 opening sector!"))
       (x 32)
@@ -448,6 +442,12 @@
           (time 15)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "kurva")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "af5a6e34-8d5a-4e3b-a2cb-8eae6a791f27")
     )
     (spawnpoint
       (name "main")
@@ -1218,18 +1218,6 @@
       (x 96)
       (y 96)
     )
-    (platform
-      (running #f)
-      (name "mamrd")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "61288848-e573-413d-bda7-f05b0e5d42fa")
-    )
-    (platform
-      (running #f)
-      (name "willa")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "cfbe36ce-1816-4c01-acd0-e0d26079ebed")
-    )
     (infoblock
       (message (_ "WWelcome to the door 3 open sector"))
       (x 0)
@@ -1566,6 +1554,18 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "mamrd")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "61288848-e573-413d-bda7-f05b0e5d42fa")
+    )
+    (platform
+      (running #f)
+      (name "willa")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "cfbe36ce-1816-4c01-acd0-e0d26079ebed")
+    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -1580,38 +1580,6 @@
       (name "pizza")
       (x 224)
       (y 736)
-    )
-    (yeti_stalactite
-      (x 800)
-      (y 0)
-    )
-    (yeti_stalactite
-      (x 832)
-      (y 0)
-    )
-    (yeti_stalactite
-      (x 864)
-      (y 0)
-    )
-    (yeti_stalactite
-      (x 1024)
-      (y 0)
-    )
-    (yeti_stalactite
-      (x 928)
-      (y 0)
-    )
-    (yeti_stalactite
-      (x 960)
-      (y 0)
-    )
-    (yeti_stalactite
-      (x 992)
-      (y 0)
-    )
-    (yeti_stalactite
-      (x 896)
-      (y 0)
     )
     (switch
       (script "mamrd.goto_node(1)")
@@ -1781,6 +1749,38 @@ sector.Tux.add_bonus(\"iceflower\")")
       (x 576)
       (y 960)
     )
+    (yeti_stalactite
+      (x 800)
+      (y 0)
+    )
+    (yeti_stalactite
+      (x 832)
+      (y 0)
+    )
+    (yeti_stalactite
+      (x 864)
+      (y 0)
+    )
+    (yeti_stalactite
+      (x 1024)
+      (y 0)
+    )
+    (yeti_stalactite
+      (x 928)
+      (y 0)
+    )
+    (yeti_stalactite
+      (x 960)
+      (y 0)
+    )
+    (yeti_stalactite
+      (x 992)
+      (y 0)
+    )
+    (yeti_stalactite
+      (x 896)
+      (y 0)
+    )
   )
   (sector
     (name "4")
@@ -1836,27 +1836,6 @@ sector.Tux.add_bonus(\"iceflower\")")
       (sprite "images/objects/resetpoints/torch.sprite")
       (x 96)
       (y 128)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "ca22d221-2c9a-430d-b4ba-db3256df158c")
-    )
-    (platform
-      (running #f)
-      (name "jedna")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "0b5adf62-903e-4538-8424-7c00dfa54b63")
-    )
-    (platform
-      (running #f)
-      (name "dva")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "e16d1754-902d-4154-997b-7fb9e9839001")
-    )
-    (platform
-      (name "kaca")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "5fcd5748-09f5-48c7-b1f5-841f9739afc2")
     )
     (infoblock
       (message (_ "WWelcome to the door 4 open sector!"))
@@ -1921,6 +1900,27 @@ sector.Tux.add_bonus(\"iceflower\")")
           (time 10)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "ca22d221-2c9a-430d-b4ba-db3256df158c")
+    )
+    (platform
+      (running #f)
+      (name "jedna")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "0b5adf62-903e-4538-8424-7c00dfa54b63")
+    )
+    (platform
+      (running #f)
+      (name "dva")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "e16d1754-902d-4154-997b-7fb9e9839001")
+    )
+    (platform
+      (name "kaca")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5fcd5748-09f5-48c7-b1f5-841f9739afc2")
     )
     (spawnpoint
       (name "main")
@@ -2454,18 +2454,6 @@ sector.Tux.add_bonus(\"iceflower\")")
       (x 96)
       (y 128)
     )
-    (platform
-      (running #f)
-      (name "ase")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "065236ab-62df-431f-81de-2481ef6a1752")
-    )
-    (platform
-      (running #f)
-      (name "kase")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "a59f2426-a349-45a7-a7d7-0871a4f56122")
-    )
     (infoblock
       (message (_ "WWelcome to th door 2 open sector!"))
       (x 0)
@@ -2498,6 +2486,18 @@ sector.Tux.add_bonus(\"iceflower\")")
           (y 864)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "ase")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "065236ab-62df-431f-81de-2481ef6a1752")
+    )
+    (platform
+      (running #f)
+      (name "kase")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "a59f2426-a349-45a7-a7d7-0871a4f56122")
     )
     (spawnpoint
       (name "main")
@@ -2668,18 +2668,6 @@ sector.Tux.add_bonus(\"iceflower\")")
       (x 2560)
       (y 640)
     )
-    (platform
-      (running #f)
-      (name "hovno")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "86630d86-c3bd-4d3c-a235-4560bc14044a")
-    )
-    (platform
-      (running #f)
-      (name "srac")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "82b6f68e-373f-40f7-b1f1-0750de6f0e12")
-    )
     (music
       (file "bonuscave.ogg")
     )
@@ -2708,6 +2696,18 @@ sector.Tux.add_bonus(\"iceflower\")")
           (y 736)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "hovno")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "86630d86-c3bd-4d3c-a235-4560bc14044a")
+    )
+    (platform
+      (running #f)
+      (name "srac")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "82b6f68e-373f-40f7-b1f1-0750de6f0e12")
     )
     (scripttrigger
       (script "srac.goto_node(1)")

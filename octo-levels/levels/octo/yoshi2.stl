@@ -36,38 +36,6 @@
       (x 513)
       (y 742)
     )
-    (smartball
-      (x 1091)
-      (y 646)
-    )
-    (smartball
-      (x 1059)
-      (y 646)
-    )
-    (smartball
-      (x 1027)
-      (y 646)
-    )
-    (smartball
-      (x 995)
-      (y 646)
-    )
-    (smartball
-      (x 963)
-      (y 646)
-    )
-    (smartball
-      (x 931)
-      (y 646)
-    )
-    (smartball
-      (x 899)
-      (y 646)
-    )
-    (smartball
-      (x 867)
-      (y 646)
-    )
     (path
       (name "578022ab-380f-4c8a-b516-617fff7f48d4")
       (path
@@ -128,13 +96,37 @@ Effect.fade_in(0.5);")
       (x 7760)
       (y 702)
     )
-    (sspiky
-      (x 4582)
-      (y 586)
+    (smartball
+      (x 1091)
+      (y 646)
     )
-    (sspiky
-      (x 9382)
-      (y 714)
+    (smartball
+      (x 1059)
+      (y 646)
+    )
+    (smartball
+      (x 1027)
+      (y 646)
+    )
+    (smartball
+      (x 995)
+      (y 646)
+    )
+    (smartball
+      (x 963)
+      (y 646)
+    )
+    (smartball
+      (x 931)
+      (y 646)
+    )
+    (smartball
+      (x 899)
+      (y 646)
+    )
+    (smartball
+      (x 867)
+      (y 646)
     )
     (snowball
       (x 2659)
@@ -153,6 +145,14 @@ Effect.fade_in(0.5);")
       (name "Pipe")
       (x 8656)
       (y 640)
+    )
+    (sspiky
+      (x 4582)
+      (y 586)
+    )
+    (sspiky
+      (x 9382)
+      (y 714)
     )
     (tilemap
       (solid #f)

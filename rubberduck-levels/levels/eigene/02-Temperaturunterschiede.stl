@@ -49,9 +49,6 @@
       (x 7170)
       (y 933)
     )
-    (particles-clouds
-      (z-pos -125)
-    )
     (crystallo
       (x 4832)
       (y 775)
@@ -150,6 +147,9 @@
     )
     (music
       (file "music/forest.ogg")
+    )
+    (particles-clouds
+      (z-pos -125)
     )
     (poisonivy
       (direction "right")

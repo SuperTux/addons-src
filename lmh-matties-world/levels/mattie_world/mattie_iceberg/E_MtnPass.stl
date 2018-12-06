@@ -83,8 +83,6 @@
       (x 8960)
       (y 64)
     )
-    (particles-clouds
-    )
     (coin
       (path-ref "1cdd95fa-b5ab-48e5-aa69-8844c7e506b3")
     )
@@ -115,22 +113,6 @@
     (firefly
       (x 6608)
       (y 512)
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "373ac432-28e0-493a-930c-8795c3100fbd")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "7e543223-f839-4802-a0b0-acd8fa0f3a09")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "39e18b41-05c6-4e81-8f58-a74a839f7406")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "a604becb-9ab8-43c8-835c-f09402e58577")
     )
     (flyingsnowball
       (x 3712)
@@ -174,32 +156,10 @@
       (x 13312)
       (y 736)
     )
-    (smartball
-      (x 8224)
-      (y 448)
-    )
-    (smartball
-      (x 8611)
-      (y 448)
-    )
-    (smartball
-      (x 9376)
-      (y 480)
-    )
-    (smartball
-      (x 10592)
-      (y 384)
-    )
-    (smartball
-      (x 2179)
-      (y 928)
-    )
-    (smartball
-      (x 7008)
-      (y 256)
-    )
     (music
       (file "music/airship_remix.ogg")
+    )
+    (particles-clouds
     )
     (path
       (name "373ac432-28e0-493a-930c-8795c3100fbd")
@@ -442,6 +402,22 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "373ac432-28e0-493a-930c-8795c3100fbd")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "7e543223-f839-4802-a0b0-acd8fa0f3a09")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "39e18b41-05c6-4e81-8f58-a74a839f7406")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "a604becb-9ab8-43c8-835c-f09402e58577")
+    )
     (secretarea
       (width 192)
       (height 192)
@@ -470,6 +446,30 @@
     (short_fuse
       (x 9961)
       (y 578)
+    )
+    (smartball
+      (x 8224)
+      (y 448)
+    )
+    (smartball
+      (x 8611)
+      (y 448)
+    )
+    (smartball
+      (x 9376)
+      (y 480)
+    )
+    (smartball
+      (x 10592)
+      (y 384)
+    )
+    (smartball
+      (x 2179)
+      (y 928)
+    )
+    (smartball
+      (x 7008)
+      (y 256)
     )
     (snowball
       (x 2114)

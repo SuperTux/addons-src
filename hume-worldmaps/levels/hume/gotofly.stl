@@ -11,24 +11,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "p1")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "a48baf43-d7ee-4974-8923-fabf3cf248f9")
-    )
-    (platform
-      (running #f)
-      (name "p2")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "2d71abe6-1366-4ae2-b4ce-d8a7f24cdb8f")
-    )
-    (platform
-      (running #f)
-      (name "p3")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "f8ffff42-a275-4d30-bbdb-73d2be672b89")
-    )
     (music
       (file "music/forest3.ogg")
     )
@@ -93,6 +75,24 @@
           (y 9600)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "p1")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "a48baf43-d7ee-4974-8923-fabf3cf248f9")
+    )
+    (platform
+      (running #f)
+      (name "p2")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "2d71abe6-1366-4ae2-b4ce-d8a7f24cdb8f")
+    )
+    (platform
+      (running #f)
+      (name "p3")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "f8ffff42-a275-4d30-bbdb-73d2be672b89")
     )
     (pushbutton
       (script "risinglava.goto_node(1)

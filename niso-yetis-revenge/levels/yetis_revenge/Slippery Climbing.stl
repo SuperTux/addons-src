@@ -49,22 +49,6 @@
       (x 1185)
       (y 1350)
     )
-    (smartball
-      (x 963)
-      (y 3686)
-    )
-    (smartball
-      (x 355)
-      (y 2278)
-    )
-    (smartball
-      (x 771)
-      (y 2214)
-    )
-    (smartball
-      (x 1411)
-      (y 678)
-    )
     (music
       (file "music/cave.ogg")
     )
@@ -356,6 +340,22 @@ ib2.start_moving();")
       (height 76)
       (x 672)
       (y 1972)
+    )
+    (smartball
+      (x 963)
+      (y 3686)
+    )
+    (smartball
+      (x 355)
+      (y 2278)
+    )
+    (smartball
+      (x 771)
+      (y 2214)
+    )
+    (smartball
+      (x 1411)
+      (y 678)
     )
     (snowball
       (direction "right")

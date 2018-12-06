@@ -37,42 +37,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "if1")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "2d87e850-f3f9-4bb1-9540-e5e90ffadf96")
-    )
-    (platform
-      (running #f)
-      (name "if2")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "f0a91ef5-f0f7-461e-a285-364cdad82601")
-    )
-    (platform
-      (running #f)
-      (name "if3")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "d4ed7f95-8072-40ac-8d80-a02a51a04f5c")
-    )
-    (platform
-      (running #f)
-      (name "if4")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "f0867023-4420-43a0-93ce-049366ed8899")
-    )
-    (platform
-      (running #f)
-      (name "if5")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "05113fc9-5d56-43cf-b237-281fc2c07016")
-    )
-    (platform
-      (running #f)
-      (name "if6")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "e37c6094-6d16-4b5a-a453-049ff33912a2")
-    )
     (gradient
       (top_color 0 0.5878843 1)
       (bottom_color 1 1 1)
@@ -84,14 +48,6 @@
     (mriceblock
       (x 14017)
       (y 870)
-    )
-    (smartball
-      (x 12835)
-      (y 870)
-    )
-    (smartball
-      (x 11427)
-      (y 838)
     )
     (path
       (name "2d87e850-f3f9-4bb1-9540-e5e90ffadf96")
@@ -285,6 +241,42 @@
           (y 960)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "if1")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "2d87e850-f3f9-4bb1-9540-e5e90ffadf96")
+    )
+    (platform
+      (running #f)
+      (name "if2")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "f0a91ef5-f0f7-461e-a285-364cdad82601")
+    )
+    (platform
+      (running #f)
+      (name "if3")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "d4ed7f95-8072-40ac-8d80-a02a51a04f5c")
+    )
+    (platform
+      (running #f)
+      (name "if4")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "f0867023-4420-43a0-93ce-049366ed8899")
+    )
+    (platform
+      (running #f)
+      (name "if5")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "05113fc9-5d56-43cf-b237-281fc2c07016")
+    )
+    (platform
+      (running #f)
+      (name "if6")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "e37c6094-6d16-4b5a-a453-049ff33912a2")
     )
     (powerup
       (script "this.c1 <- true
@@ -490,9 +482,13 @@ if5.goto_node(0)")
       (x 6868)
       (y 884)
     )
-    (sspiky
-      (x 8742)
-      (y 874)
+    (smartball
+      (x 12835)
+      (y 870)
+    )
+    (smartball
+      (x 11427)
+      (y 838)
     )
     (snowball
       (x 3587)
@@ -527,6 +523,10 @@ if5.goto_node(0)")
     (spiky
       (x 6342)
       (y 810)
+    )
+    (sspiky
+      (x 8742)
+      (y 874)
     )
     (tilemap
       (solid #f)

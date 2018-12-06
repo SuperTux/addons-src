@@ -169,10 +169,6 @@
       (x -32)
       (y 0)
     )
-    (sspiky
-      (x 2880)
-      (y 320)
-    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -185,6 +181,10 @@
     (spiky
       (x 2592)
       (y 928)
+    )
+    (sspiky
+      (x 2880)
+      (y 320)
     )
     (stumpy
       (x 704)

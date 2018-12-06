@@ -228,6 +228,24 @@
       (x 8293)
       (y 872)
     )
+    (music
+      (file "music/cave.ogg")
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 60)
+      (height 76)
+      (x 3872)
+      (y 832)
+    )
+    (skullyhop
+      (x 2016)
+      (y 256)
+    )
+    (skullyhop
+      (x 2912)
+      (y 864)
+    )
     (smartball
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 840)
@@ -282,24 +300,6 @@
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 11144)
       (y 876)
-    )
-    (music
-      (file "music/cave.ogg")
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 60)
-      (height 76)
-      (x 3872)
-      (y 832)
-    )
-    (skullyhop
-      (x 2016)
-      (y 256)
-    )
-    (skullyhop
-      (x 2912)
-      (y 864)
     )
     (snowball
       (sprite "images/creatures/kirby/kirby.sprite")

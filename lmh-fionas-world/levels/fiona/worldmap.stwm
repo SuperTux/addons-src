@@ -16,6 +16,85 @@
       (x 1024)
       (y 352)
     )
+    (level
+      (name "fiona.stl")
+      (x 35)
+      (y 9)
+    )
+    (level
+      (name "pirates.stl")
+      (x 33)
+      (y 11)
+    )
+    (level
+      (name "river.stl")
+      (x 27)
+      (y 13)
+    )
+    (level
+      (name "bridge.stl")
+      (x 29)
+      (y 18)
+    )
+    (level
+      (name "night.stl")
+      (x 24)
+      (y 21)
+    )
+    (level
+      (name "count.stl")
+      (x 14)
+      (y 15)
+    )
+    (level
+      (name "ice.stl")
+      (x 6)
+      (y 18)
+    )
+    (level
+      (name "color.stl")
+      (x 6)
+      (y 9)
+    )
+    (level
+      (name "drawbridge.stl")
+      (x 12)
+      (y 8)
+    )
+    (level
+      (extro-script " wait_for_screenswitch();
+			  display_text_file( \"levels/fiona/extro.txt\"	);")
+      (name "castle.stl")
+      (x 15)
+      (y 8)
+    )
+    (level
+      (extro-script " wait_for_screenswitch();
+			  display_text_file( \"levels/fiona/intro.txt\"	);")
+      (auto-play #t)
+      (name "intro.stl")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 32)
+      (y 6)
+    )
+    (level
+      (name "FlowerWorld.stl")
+      (sprite "images/worldmap/common/bonusdot.sprite")
+      (x 2)
+      (y 7)
+    )
+    (level
+      (name "RainbowWorld.stl")
+      (sprite "images/worldmap/common/bonusdot.sprite")
+      (x 3)
+      (y 5)
+    )
+    (level
+      (name "Best.stl")
+      (sprite "images/worldmap/common/bonusdot.sprite")
+      (x 2)
+      (y 1)
+    )
     (music
       (file "music/salcon.ogg")
     )
@@ -432,85 +511,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (level
-      (name "fiona.stl")
-      (x 35)
-      (y 9)
-    )
-    (level
-      (name "pirates.stl")
-      (x 33)
-      (y 11)
-    )
-    (level
-      (name "river.stl")
-      (x 27)
-      (y 13)
-    )
-    (level
-      (name "bridge.stl")
-      (x 29)
-      (y 18)
-    )
-    (level
-      (name "night.stl")
-      (x 24)
-      (y 21)
-    )
-    (level
-      (name "count.stl")
-      (x 14)
-      (y 15)
-    )
-    (level
-      (name "ice.stl")
-      (x 6)
-      (y 18)
-    )
-    (level
-      (name "color.stl")
-      (x 6)
-      (y 9)
-    )
-    (level
-      (name "drawbridge.stl")
-      (x 12)
-      (y 8)
-    )
-    (level
-      (extro-script " wait_for_screenswitch();
-			  display_text_file( \"levels/fiona/extro.txt\"	);")
-      (name "castle.stl")
-      (x 15)
-      (y 8)
-    )
-    (level
-      (extro-script " wait_for_screenswitch();
-			  display_text_file( \"levels/fiona/intro.txt\"	);")
-      (auto-play #t)
-      (name "intro.stl")
-      (sprite "images/objects/invisible/invisible.sprite")
-      (x 32)
-      (y 6)
-    )
-    (level
-      (name "FlowerWorld.stl")
-      (sprite "images/worldmap/common/bonusdot.sprite")
-      (x 2)
-      (y 7)
-    )
-    (level
-      (name "RainbowWorld.stl")
-      (sprite "images/worldmap/common/bonusdot.sprite")
-      (x 3)
-      (y 5)
-    )
-    (level
-      (name "Best.stl")
-      (sprite "images/worldmap/common/bonusdot.sprite")
-      (x 2)
-      (y 1)
     )
     (worldmap-spawnpoint
       (name "main")

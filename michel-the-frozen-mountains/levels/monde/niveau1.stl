@@ -54,34 +54,6 @@
       (x 10785)
       (y 422)
     )
-    (smartball
-      (x 963)
-      (y 102)
-    )
-    (smartball
-      (x 3363)
-      (y 998)
-    )
-    (smartball
-      (x 6627)
-      (y 70)
-    )
-    (smartball
-      (x 6499)
-      (y 70)
-    )
-    (smartball
-      (x 8579)
-      (y 966)
-    )
-    (smartball
-      (x 9827)
-      (y 134)
-    )
-    (smartball
-      (x 11075)
-      (y 902)
-    )
     (music
       (file "music/chipdisko.ogg")
     )
@@ -131,6 +103,34 @@ retour.set_alpha(1.0);")
       (height 60)
       (x 12608)
       (y 704)
+    )
+    (smartball
+      (x 963)
+      (y 102)
+    )
+    (smartball
+      (x 3363)
+      (y 998)
+    )
+    (smartball
+      (x 6627)
+      (y 70)
+    )
+    (smartball
+      (x 6499)
+      (y 70)
+    )
+    (smartball
+      (x 8579)
+      (y 966)
+    )
+    (smartball
+      (x 9827)
+      (y 134)
+    )
+    (smartball
+      (x 11075)
+      (y 902)
     )
     (snowball
       (x 803)
@@ -432,12 +432,6 @@ retour.set_alpha(1.0);")
       (x 96)
       (y 384)
     )
-    (platform
-      (running #f)
-      (name "porte1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "f21d46c4-f6a3-4a92-9ecf-ce7886e778f0")
-    )
     (lantern
       (x 336)
       (y 424)
@@ -476,14 +470,6 @@ retour.set_alpha(1.0);")
       (x 2853)
       (y 232)
     )
-    (smartball
-      (x 1891)
-      (y 550)
-    )
-    (smartball
-      (x 2755)
-      (y 838)
-    )
     (music
       (file "music/cave.music")
     )
@@ -509,12 +495,26 @@ retour.set_alpha(1.0);")
         )
       )
     )
+    (platform
+      (running #f)
+      (name "porte1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "f21d46c4-f6a3-4a92-9ecf-ce7886e778f0")
+    )
     (secretarea
       (fade-tilemap "cache")
       (width 136)
       (height 32)
       (x 724)
       (y 896)
+    )
+    (smartball
+      (x 1891)
+      (y 550)
+    )
+    (smartball
+      (x 2755)
+      (y 838)
     )
     (snowball
       (x 867)

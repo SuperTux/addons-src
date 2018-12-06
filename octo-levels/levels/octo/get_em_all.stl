@@ -82,6 +82,12 @@
       (x 10848)
       (y 672)
     )
+    (secretarea
+      (width 252)
+      (height 92)
+      (x 6080)
+      (y 896)
+    )
     (smartball
       (x 2592)
       (y 704)
@@ -101,12 +107,6 @@
     (smartball
       (x 6240)
       (y 832)
-    )
-    (secretarea
-      (width 252)
-      (height 92)
-      (x 6080)
-      (y 896)
     )
     (snowman
       (x 12096)

@@ -33,8 +33,6 @@
       (x 5346)
       (y 613)
     )
-    (particles-clouds
-    )
     (dispenser
       (cycle 5)
       (type "cannon")
@@ -52,10 +50,6 @@
     (firefly
       (x 3552)
       (y 800)
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "5a6caa5b-3c10-4ff8-bdb3-2f7e048bae62")
     )
     (flyingsnowball
       (x 2436)
@@ -101,24 +95,12 @@
       (x 1601)
       (y 646)
     )
-    (smartball
-      (x 5123)
-      (y 614)
-    )
-    (smartball
-      (x 5059)
-      (y 614)
-    )
-    (smartball
-      (x 3683)
-      (y 902)
-    )
-    (smartball
-      (x 4035)
-      (y 902)
-    )
     (music
       (file "music/intro.ogg")
+    )
+    (particles-clouds
+    )
+    (particles-snow
     )
     (path
       (name "5a6caa5b-3c10-4ff8-bdb3-2f7e048bae62")
@@ -218,6 +200,10 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5a6caa5b-3c10-4ff8-bdb3-2f7e048bae62")
+    )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")
       (x 5312)
@@ -252,6 +238,22 @@
       (x 6164)
       (y 148)
     )
+    (smartball
+      (x 5123)
+      (y 614)
+    )
+    (smartball
+      (x 5059)
+      (y 614)
+    )
+    (smartball
+      (x 3683)
+      (y 902)
+    )
+    (smartball
+      (x 4035)
+      (y 902)
+    )
     (snowball
       (x 5507)
       (y 580)
@@ -283,8 +285,6 @@
     (snowman
       (x 5994)
       (y 579)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

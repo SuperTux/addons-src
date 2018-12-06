@@ -47,6 +47,60 @@
       (x 608)
       (y 1376)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "a8cdeb68-d69d-47d8-bea4-1a4a0f583adb")
+      (path
+        (node
+          (x 1376)
+          (y 1024)
+        )
+      )
+    )
+    (powerup
+      (disable-physics #t)
+      (sprite "images/powerups/star/star.sprite")
+      (x 128)
+      (y 0)
+    )
+    (powerup
+      (disable-physics #t)
+      (sprite "images/powerups/star/star.sprite")
+      (x 800)
+      (y 32)
+    )
+    (powerup
+      (disable-physics #t)
+      (sprite "images/powerups/star/star.sprite")
+      (x 1280)
+      (y 0)
+    )
+    (powerup
+      (disable-physics #t)
+      (sprite "images/powerups/star/star.sprite")
+      (x 1856)
+      (y 32)
+    )
+    (powerup
+      (disable-physics #t)
+      (sprite "images/powerups/star/star.sprite")
+      (x 2016)
+      (y 96)
+    )
+    (powerup
+      (sprite "images/powerups/egg/egg.sprite")
+      (x 2016)
+      (y 1824)
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 192)
+      (height 192)
+      (x 1394)
+      (y 1024)
+    )
     (smartball
       (x 768)
       (y 2272)
@@ -102,60 +156,6 @@
     (smartball
       (x 1760)
       (y 1216)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (path
-      (name "a8cdeb68-d69d-47d8-bea4-1a4a0f583adb")
-      (path
-        (node
-          (x 1376)
-          (y 1024)
-        )
-      )
-    )
-    (powerup
-      (disable-physics #t)
-      (sprite "images/powerups/star/star.sprite")
-      (x 128)
-      (y 0)
-    )
-    (powerup
-      (disable-physics #t)
-      (sprite "images/powerups/star/star.sprite")
-      (x 800)
-      (y 32)
-    )
-    (powerup
-      (disable-physics #t)
-      (sprite "images/powerups/star/star.sprite")
-      (x 1280)
-      (y 0)
-    )
-    (powerup
-      (disable-physics #t)
-      (sprite "images/powerups/star/star.sprite")
-      (x 1856)
-      (y 32)
-    )
-    (powerup
-      (disable-physics #t)
-      (sprite "images/powerups/star/star.sprite")
-      (x 2016)
-      (y 96)
-    )
-    (powerup
-      (sprite "images/powerups/egg/egg.sprite")
-      (x 2016)
-      (y 1824)
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 192)
-      (height 192)
-      (x 1394)
-      (y 1024)
     )
     (snowball
       (x 512)

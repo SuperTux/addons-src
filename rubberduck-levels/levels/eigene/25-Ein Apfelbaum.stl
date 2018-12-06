@@ -111,14 +111,6 @@
       (x 2112)
       (y 1568)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "b83bc165-f7b3-4031-8324-468d7b8ff1d6")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "e79b3cbb-32e3-49e4-8d7f-4be4bebc548c")
-    )
     (igel
       (x 994.1)
       (y 2662.1)
@@ -199,6 +191,14 @@
           (time 2)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "b83bc165-f7b3-4031-8324-468d7b8ff1d6")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "e79b3cbb-32e3-49e4-8d7f-4be4bebc548c")
     )
     (poisonivy
       (x 1230.716)

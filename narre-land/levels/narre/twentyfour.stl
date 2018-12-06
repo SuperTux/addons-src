@@ -86,14 +86,14 @@
       (x 8576)
       (y 212)
     )
-    (sspiky
-      (x 8529.532)
-      (y 653.1064)
-    )
     (spawnpoint
       (name "main")
       (x 640)
       (y 192)
+    )
+    (sspiky
+      (x 8529.532)
+      (y 653.1064)
     )
     (stumpy
       (x 2912)

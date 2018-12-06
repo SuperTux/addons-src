@@ -206,6 +206,9 @@
       (x 4545)
       (y 422)
     )
+    (music
+      (file "music/wisphunt.music")
+    )
     (smartball
       (x 2627)
       (y 550)
@@ -217,9 +220,6 @@
     (smartball
       (x 4899)
       (y 614)
-    )
-    (music
-      (file "music/wisphunt.music")
     )
     (smartblock
       (x 5313)

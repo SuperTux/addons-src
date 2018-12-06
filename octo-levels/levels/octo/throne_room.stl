@@ -31,30 +31,6 @@
       (x 800)
       (y 256)
     )
-    (platform
-      (running #f)
-      (name "block0")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "68bc8d97-a148-434a-b016-378c03b6a5cc")
-    )
-    (platform
-      (running #f)
-      (name "block3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "9f41043e-3868-4d9a-b165-3cb5afb7d746")
-    )
-    (platform
-      (running #f)
-      (name "block2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "0c1cb0dd-e311-4cef-a11d-0a2fd3fe205a")
-    )
-    (platform
-      (running #f)
-      (name "block1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "0f1ff763-bf04-4d00-843b-a22988b5f9a6")
-    )
     (flyingsnowball
       (x 1188)
       (y 515)
@@ -155,6 +131,30 @@ block0.goto_node(1);")
           (y 384)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "block0")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "68bc8d97-a148-434a-b016-378c03b6a5cc")
+    )
+    (platform
+      (running #f)
+      (name "block3")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "9f41043e-3868-4d9a-b165-3cb5afb7d746")
+    )
+    (platform
+      (running #f)
+      (name "block2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "0c1cb0dd-e311-4cef-a11d-0a2fd3fe205a")
+    )
+    (platform
+      (running #f)
+      (name "block1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "0f1ff763-bf04-4d00-843b-a22988b5f9a6")
     )
     (scripttrigger
       (script "Text.set_text (\"Congratulations for solving this!\");

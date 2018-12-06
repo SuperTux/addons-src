@@ -84,14 +84,6 @@
       (x 4736)
       (y 256)
     )
-    (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "40d0d0f4-6adf-44ae-8f93-90ffd6c235dd")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "02ae6de3-aea7-43eb-87c6-435465db0102")
-    )
     (ghostflame
       (speed 0.5)
       (x 11392)
@@ -671,6 +663,14 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "40d0d0f4-6adf-44ae-8f93-90ffd6c235dd")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "02ae6de3-aea7-43eb-87c6-435465db0102")
+    )
     (powerup
       (sprite "images/powerups/iceflower/iceflower.sprite")
       (x 11968)
@@ -746,14 +746,6 @@ drop2.fade(0,1);
       (x 9609)
       (y 610)
     )
-    (sspiky
-      (x 4544)
-      (y 284)
-    )
-    (sspiky
-      (x 10310)
-      (y 394)
-    )
     (smartblock
       (x 961)
       (y 384)
@@ -791,6 +783,14 @@ drop2.fade(0,1);
       (name "secret")
       (x 7632)
       (y 384)
+    )
+    (sspiky
+      (x 4544)
+      (y 284)
+    )
+    (sspiky
+      (x 10310)
+      (y 394)
     )
     (switch
       (script "Tux.deactivate();

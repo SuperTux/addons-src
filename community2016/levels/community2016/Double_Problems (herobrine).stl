@@ -153,24 +153,6 @@
       (x 4320)
       (y 946)
     )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 5767)
-      (y 336)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 5847)
-      (y 332)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 6395)
-      (y 561)
-    )
     (music
       (file "/music/chipdisko.ogg")
     )
@@ -220,11 +202,23 @@
       (x 2803)
       (y 351)
     )
-    (sspiky
+    (smartball
       (direction "left")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 3094)
-      (y 890)
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 5767)
+      (y 336)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 5847)
+      (y 332)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 6395)
+      (y 561)
     )
     (snowball
       (direction "left")
@@ -260,6 +254,12 @@
       (name "main")
       (x 64)
       (y 480)
+    )
+    (sspiky
+      (direction "left")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 3094)
+      (y 890)
     )
     (stalactite
       (sprite "images/creatures/stalactite/stalactite.sprite")

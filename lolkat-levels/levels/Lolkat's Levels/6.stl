@@ -60,14 +60,14 @@
       (x 3714)
       (y 100)
     )
-    (sspiky
-      (x 3238)
-      (y 394)
-    )
     (spawnpoint
       (name "main")
       (x 96)
       (y 96)
+    )
+    (sspiky
+      (x 3238)
+      (y 394)
     )
     (tilemap
       (solid #f)

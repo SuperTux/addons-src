@@ -16,9 +16,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-      (z-pos -190)
-    )
     (decal
       (z-pos 90)
       (sprite "images/tiles/goal/exitfg.png")
@@ -54,6 +51,9 @@
     (mriceblock
       (x 1280)
       (y 864)
+    )
+    (particles-clouds
+      (z-pos -190)
     )
     (spawnpoint
       (name "main")

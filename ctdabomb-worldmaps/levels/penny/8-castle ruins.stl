@@ -29,18 +29,6 @@
       (x 2112)
       (y 960)
     )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "3948f1b5-902a-41f0-b1d7-d82914604b40")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "67b08091-de3a-4e9e-8f53-98f2fe621e52")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "92bf353c-7ec8-43b2-9c3e-6fa92a2d5309")
-    )
     (jumpy
       (x 1703)
       (y 936)
@@ -115,6 +103,18 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "3948f1b5-902a-41f0-b1d7-d82914604b40")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "67b08091-de3a-4e9e-8f53-98f2fe621e52")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "92bf353c-7ec8-43b2-9c3e-6fa92a2d5309")
+    )
     (poisonivy
       (x 1154)
       (y 868)
@@ -140,14 +140,14 @@
       (x 3168)
       (y 704)
     )
-    (sspiky
-      (x 998)
-      (y 874)
-    )
     (spawnpoint
       (name "main")
       (x 96)
       (y 96)
+    )
+    (sspiky
+      (x 998)
+      (y 874)
     )
     (tilemap
       (solid #f)

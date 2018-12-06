@@ -20,10 +20,6 @@
       (x 9536)
       (y 352)
     )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "60136b1a-df21-455a-86b8-a7583994dee0")
-    )
     (jumpy
       (x 6624)
       (y 352)
@@ -67,6 +63,8 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (particles-snow
+    )
     (path
       (name "60136b1a-df21-455a-86b8-a7583994dee0")
       (path
@@ -76,23 +74,15 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "60136b1a-df21-455a-86b8-a7583994dee0")
+    )
     (secretarea
       (width 156)
       (height 188)
       (x 2560)
       (y 448)
-    )
-    (sspiky
-      (x 4960)
-      (y 384)
-    )
-    (sspiky
-      (x 7648)
-      (y 352)
-    )
-    (sspiky
-      (x 10944)
-      (y 352)
     )
     (snowball
       (x 1536)
@@ -118,8 +108,6 @@
       (x 9856)
       (y 352)
     )
-    (particles-snow
-    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -132,6 +120,18 @@
     (spiky
       (x 6848)
       (y 384)
+    )
+    (sspiky
+      (x 4960)
+      (y 384)
+    )
+    (sspiky
+      (x 7648)
+      (y 352)
+    )
+    (sspiky
+      (x 10944)
+      (y 352)
     )
     (stalactite
       (x 11392)

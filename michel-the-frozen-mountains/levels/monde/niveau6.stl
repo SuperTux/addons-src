@@ -48,22 +48,6 @@
       (x 4069)
       (y 136)
     )
-    (smartball
-      (x 1795)
-      (y 710)
-    )
-    (smartball
-      (x 2691)
-      (y 422)
-    )
-    (smartball
-      (x 3363)
-      (y 134)
-    )
-    (smartball
-      (x 4579)
-      (y 870)
-    )
     (music
       (file "music/cave.music")
     )
@@ -89,6 +73,22 @@
       (height 32)
       (x 52)
       (y 352)
+    )
+    (smartball
+      (x 1795)
+      (y 710)
+    )
+    (smartball
+      (x 2691)
+      (y 422)
+    )
+    (smartball
+      (x 3363)
+      (y 134)
+    )
+    (smartball
+      (x 4579)
+      (y 870)
     )
     (snowball
       (x 643)
@@ -489,6 +489,23 @@
       (x 12865)
       (y 550)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 364)
+      (x 12960)
+      (y 192)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 60)
+      (x 13312)
+      (y 480)
+    )
     (smartball
       (x 2147)
       (y 934)
@@ -516,23 +533,6 @@
     (smartball
       (x 4739)
       (y 486)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 364)
-      (x 12960)
-      (y 192)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 60)
-      (x 13312)
-      (y 480)
     )
     (snowball
       (x 547)

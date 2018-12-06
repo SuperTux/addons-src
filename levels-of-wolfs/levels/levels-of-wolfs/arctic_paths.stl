@@ -73,45 +73,6 @@
       (x 3328)
       (y 5888)
     )
-    (platform
-      (running #f)
-      (name "platf1")
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "1914e415-485a-4f08-9542-f639c387b0e9")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "33300e74-6113-4294-b094-ed78733b55ef")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "aed28138-ba55-4719-994a-0f421eae2ab9")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "2688f6f9-452e-4cbf-9dc2-6cd33ea65093")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "84183828-6132-4b8d-a67f-11b547873d8b")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "dc27c2c1-9f4c-403b-b200-9873091191cf")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "5770f1aa-acc6-47d4-8daa-ea081f0de966")
-    )
-    (platform
-      (running #f)
-      (name "platf_secr_1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "6e675190-5219-4143-876b-62c5811c13b2")
-    )
     (flyingsnowball
       (x 2820)
       (y 6723)
@@ -152,17 +113,7 @@
       (x 3809)
       (y 4806)
     )
-    (smartball
-      (x 1475)
-      (y 6886)
-    )
-    (smartball
-      (x 3683)
-      (y 6022)
-    )
-    (smartball
-      (x 3939)
-      (y 3046)
+    (particles-snow
     )
     (path
       (name "1914e415-485a-4f08-9542-f639c387b0e9")
@@ -285,6 +236,45 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "platf1")
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "1914e415-485a-4f08-9542-f639c387b0e9")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "33300e74-6113-4294-b094-ed78733b55ef")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "aed28138-ba55-4719-994a-0f421eae2ab9")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "2688f6f9-452e-4cbf-9dc2-6cd33ea65093")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "84183828-6132-4b8d-a67f-11b547873d8b")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "dc27c2c1-9f4c-403b-b200-9873091191cf")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5770f1aa-acc6-47d4-8daa-ea081f0de966")
+    )
+    (platform
+      (running #f)
+      (name "platf_secr_1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "6e675190-5219-4143-876b-62c5811c13b2")
+    )
     (pushbutton
       (script "platf1.goto_node(1);")
       (x 97)
@@ -311,10 +301,17 @@
       (x 2761)
       (y 6818)
     )
-    (sspiky
-      (direction "right")
-      (x 3782)
-      (y 4170)
+    (smartball
+      (x 1475)
+      (y 6886)
+    )
+    (smartball
+      (x 3683)
+      (y 6022)
+    )
+    (smartball
+      (x 3939)
+      (y 3046)
     )
     (snowball
       (x 1123)
@@ -324,12 +321,15 @@
       (x 746)
       (y 6691)
     )
-    (particles-snow
-    )
     (spawnpoint
       (name "main")
       (x 384)
       (y 6560)
+    )
+    (sspiky
+      (direction "right")
+      (x 3782)
+      (y 4170)
     )
     (stalactite
       (x 3424)

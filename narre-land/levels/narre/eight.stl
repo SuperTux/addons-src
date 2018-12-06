@@ -373,12 +373,6 @@
       (x 433.3554)
       (y 52.25992)
     )
-    (platform
-      (running #f)
-      (name "ocot")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "cef77992-ef44-425c-8270-1ab9cd3f974d")
-    )
     (path
       (name "cef77992-ef44-425c-8270-1ab9cd3f974d")
       (path
@@ -392,6 +386,12 @@
           (time 5)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "ocot")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "cef77992-ef44-425c-8270-1ab9cd3f974d")
     )
     (scripttrigger
       (script "ocot.goto_node(1)")

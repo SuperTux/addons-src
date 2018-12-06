@@ -143,34 +143,6 @@ Melt7.goto_node(1);")
       (x 10119)
       (y 328)
     )
-    (smartball
-      (x 800)
-      (y 960)
-    )
-    (smartball
-      (x 1632)
-      (y 834)
-    )
-    (smartball
-      (x 4227)
-      (y 582)
-    )
-    (smartball
-      (x 4515)
-      (y 390)
-    )
-    (smartball
-      (x 4995)
-      (y 422)
-    )
-    (smartball
-      (x 5507)
-      (y 422)
-    )
-    (smartball
-      (x 7843)
-      (y 198)
-    )
     (music
       (file "music/credits.ogg")
     )
@@ -374,29 +346,33 @@ Melt6.fade(0.3,20);")
       (x 11230)
       (y 126)
     )
-    (sspiky
-      (direction "right")
-      (x 2800)
-      (y 736)
+    (smartball
+      (x 800)
+      (y 960)
     )
-    (sspiky
-      (direction "left")
-      (x 3280)
-      (y 736)
+    (smartball
+      (x 1632)
+      (y 834)
     )
-    (sspiky
-      (direction "right")
-      (x 6448)
-      (y 448)
+    (smartball
+      (x 4227)
+      (y 582)
     )
-    (sspiky
-      (x 7580)
-      (y 416)
+    (smartball
+      (x 4515)
+      (y 390)
     )
-    (sspiky
-      (direction "right")
-      (x 9760)
-      (y 416)
+    (smartball
+      (x 4995)
+      (y 422)
+    )
+    (smartball
+      (x 5507)
+      (y 422)
+    )
+    (smartball
+      (x 7843)
+      (y 198)
     )
     (snowball
       (x 704)
@@ -422,6 +398,30 @@ Melt6.fade(0.3,20);")
     (spiky
       (x 5350)
       (y 426)
+    )
+    (sspiky
+      (direction "right")
+      (x 2800)
+      (y 736)
+    )
+    (sspiky
+      (direction "left")
+      (x 3280)
+      (y 736)
+    )
+    (sspiky
+      (direction "right")
+      (x 6448)
+      (y 448)
+    )
+    (sspiky
+      (x 7580)
+      (y 416)
+    )
+    (sspiky
+      (direction "right")
+      (x 9760)
+      (y 416)
     )
     (tilemap
       (solid #f)

@@ -61,18 +61,6 @@
       (x 3232)
       (y 832)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "9d2f5777-0c2f-4fb5-8376-2ca7b315ba36")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "d7cf9776-adbd-42aa-9eaf-867589c9661e")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "a8f79dca-4e9a-40ee-a428-db389c3fcffd")
-    )
     (gradient
       (top_color 0.1058824 0.1058824 0.1058824)
       (bottom_color 0.1058824 0.1058824 0.1058824)
@@ -201,22 +189,21 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "9d2f5777-0c2f-4fb5-8376-2ca7b315ba36")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "d7cf9776-adbd-42aa-9eaf-867589c9661e")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "a8f79dca-4e9a-40ee-a428-db389c3fcffd")
+    )
     (skullyhop
       (x 1440)
       (y 736)
-    )
-    (sspiky
-      (x 262)
-      (y 1034)
-    )
-    (sspiky
-      (x 3830)
-      (y 650)
-    )
-    (sspiky
-      (direction "right")
-      (x 4358)
-      (y 618)
     )
     (spawnpoint
       (name "main")
@@ -235,6 +222,19 @@
     (spiky
       (x 1702)
       (y 906)
+    )
+    (sspiky
+      (x 262)
+      (y 1034)
+    )
+    (sspiky
+      (x 3830)
+      (y 650)
+    )
+    (sspiky
+      (direction "right")
+      (x 4358)
+      (y 618)
     )
     (tilemap
       (solid #f)
@@ -582,10 +582,6 @@
       (x 2208)
       (y 160)
     )
-    (sspiky
-      (x 2406)
-      (y 74)
-    )
     (spawnpoint
       (name "2a")
       (x 42)
@@ -595,6 +591,10 @@
       (name "2b")
       (x 3122)
       (y 1056)
+    )
+    (sspiky
+      (x 2406)
+      (y 74)
     )
     (switch
       (script "topdown.start_moving();
@@ -1091,16 +1091,6 @@ lava.start_moving();")
       (x 2272)
       (y 704)
     )
-    (platform
-      (running #f)
-      (name "platform")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "167e989e-db6a-4d58-9ff7-20ed0def2c82")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "085b84b3-3c66-4d3b-b5b3-8fb715f8570c")
-    )
     (haywire
       (x 1605)
       (y 72)
@@ -1171,6 +1161,16 @@ lava.start_moving();")
           (time 2)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "platform")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "167e989e-db6a-4d58-9ff7-20ed0def2c82")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "085b84b3-3c66-4d3b-b5b3-8fb715f8570c")
     )
     (secretarea
       (width 508)

@@ -47,8 +47,6 @@
       (x 3298)
       (y 1125)
     )
-    (particles-clouds
-    )
     (fish
       (x 5570)
       (y 1475)
@@ -101,6 +99,17 @@
       (top_color 0.4600137 0 0)
       (bottom_color 0.2309758 0 0)
     )
+    (music
+      (file "music/voc-night.music")
+    )
+    (particles-clouds
+    )
+    (secretarea
+      (width 92)
+      (height 328)
+      (x 2944)
+      (y 308)
+    )
     (smartball
       (x 4835)
       (y 1382)
@@ -116,15 +125,6 @@
     (smartball
       (x 4003)
       (y 1126)
-    )
-    (music
-      (file "music/voc-night.music")
-    )
-    (secretarea
-      (width 92)
-      (height 328)
-      (x 2944)
-      (y 308)
     )
     (snowball
       (x 771)

@@ -53,20 +53,6 @@
       (x 2336)
       (y 672)
     )
-    (sspiky
-      (direction "left")
-      (x 2950)
-      (y 490)
-    )
-    (sspiky
-      (direction "right")
-      (x 1760)
-      (y 384)
-    )
-    (sspiky
-      (x 1062)
-      (y 416)
-    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -86,6 +72,20 @@
       (name "skulls")
       (x 3026)
       (y 480)
+    )
+    (sspiky
+      (direction "left")
+      (x 2950)
+      (y 490)
+    )
+    (sspiky
+      (direction "right")
+      (x 1760)
+      (y 384)
+    )
+    (sspiky
+      (x 1062)
+      (y 416)
     )
     (tilemap
       (solid #t)

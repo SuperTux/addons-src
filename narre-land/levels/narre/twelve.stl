@@ -271,42 +271,6 @@
       (x 978.6358)
       (y 556.3674)
     )
-    (platform
-      (running #f)
-      (name "kokot1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "a78ef841-26d7-495f-be1c-43d5d65eec24")
-    )
-    (platform
-      (running #f)
-      (name "kokot2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "a7ae7438-64e4-465d-afb2-fc0e44608ea5")
-    )
-    (platform
-      (running #f)
-      (name "kokot3")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "a390acbf-26bb-4061-8a5a-a09b07f2de26")
-    )
-    (platform
-      (running #f)
-      (name "kokot4")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "054527e1-4677-4e6d-ac7a-d0e2891d1068")
-    )
-    (platform
-      (running #f)
-      (name "kokot6")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "2fff78ab-4709-4509-8341-32e8161a4d7a")
-    )
-    (platform
-      (running #f)
-      (name "kokot5")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "df8f0786-8c43-4450-80cb-3e03d88f37f2")
-    )
     (flyingsnowball
       (x 12636.56)
       (y 801.5469)
@@ -485,6 +449,42 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "kokot1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "a78ef841-26d7-495f-be1c-43d5d65eec24")
+    )
+    (platform
+      (running #f)
+      (name "kokot2")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "a7ae7438-64e4-465d-afb2-fc0e44608ea5")
+    )
+    (platform
+      (running #f)
+      (name "kokot3")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "a390acbf-26bb-4061-8a5a-a09b07f2de26")
+    )
+    (platform
+      (running #f)
+      (name "kokot4")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "054527e1-4677-4e6d-ac7a-d0e2891d1068")
+    )
+    (platform
+      (running #f)
+      (name "kokot6")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "2fff78ab-4709-4509-8341-32e8161a4d7a")
+    )
+    (platform
+      (running #f)
+      (name "kokot5")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "df8f0786-8c43-4450-80cb-3e03d88f37f2")
+    )
     (scripttrigger
       (script "Level.spawn(\"main\",\"hovno\")")
       (button #f)
@@ -520,10 +520,6 @@ kokot6.goto_node(1)")
       (x 13455.39)
       (y 66.15578)
     )
-    (sspiky
-      (x 5482.055)
-      (y 295.2584)
-    )
     (snowball
       (x 4195.12)
       (y 348.9985)
@@ -544,6 +540,10 @@ kokot6.goto_node(1)")
     (spiky
       (x 10479.89)
       (y 518.7042)
+    )
+    (sspiky
+      (x 5482.055)
+      (y 295.2584)
     )
     (tilemap
       (solid #f)

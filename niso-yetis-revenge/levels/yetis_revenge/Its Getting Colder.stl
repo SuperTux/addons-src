@@ -98,18 +98,6 @@
       (x 6273)
       (y 422)
     )
-    (smartball
-      (x 643)
-      (y 486)
-    )
-    (smartball
-      (x 3587)
-      (y 870)
-    )
-    (smartball
-      (x 4515)
-      (y 102)
-    )
     (music
       (file "music/chipdisko.ogg")
     )
@@ -237,13 +225,17 @@ play_sound(\"sounds/lifeup.wav\");
       (x 3210.808)
       (y 34.99999)
     )
-    (sspiky
-      (x 1510)
-      (y 394)
+    (smartball
+      (x 643)
+      (y 486)
     )
-    (sspiky
-      (x 4838)
-      (y 682)
+    (smartball
+      (x 3587)
+      (y 870)
+    )
+    (smartball
+      (x 4515)
+      (y 102)
     )
     (snowball
       (x 1411)
@@ -257,6 +249,14 @@ play_sound(\"sounds/lifeup.wav\");
     (spiky
       (x 3878)
       (y 714)
+    )
+    (sspiky
+      (x 1510)
+      (y 394)
+    )
+    (sspiky
+      (x 4838)
+      (y 682)
     )
     (stalactite
       (x 1504)

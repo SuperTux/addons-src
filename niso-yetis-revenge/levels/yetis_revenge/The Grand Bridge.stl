@@ -57,12 +57,6 @@
       (x 6353)
       (y 686)
     )
-    (platform
-      (running #f)
-      (name "flyingcoin")
-      (sprite "images/objects/coin/coin.sprite")
-      (path-ref "3ad4bade-6a77-4a76-b6b6-9eda3f815549")
-    )
     (flyingsnowball
       (x 1284)
       (y 611)
@@ -127,6 +121,12 @@
           (y -320)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "flyingcoin")
+      (sprite "images/objects/coin/coin.sprite")
+      (path-ref "3ad4bade-6a77-4a76-b6b6-9eda3f815549")
     )
     (powerup
       (script "Tux.add_coins(1) ")
@@ -410,6 +410,11 @@ coinsfall.goto_node(1);")
       (x 15817)
       (y 706)
     )
+    (spawnpoint
+      (name "main")
+      (x 14.5025)
+      (y 481.0538)
+    )
     (sspiky
       (x 10598)
       (y 682)
@@ -417,11 +422,6 @@ coinsfall.goto_node(1);")
     (sspiky
       (x 11718)
       (y 682)
-    )
-    (spawnpoint
-      (name "main")
-      (x 14.5025)
-      (y 481.0538)
     )
     (tilemap
       (solid #f)

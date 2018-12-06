@@ -165,12 +165,6 @@
       (x 3072)
       (y 352)
     )
-    (particles-ghosts
-      (z-pos 401)
-    )
-    (particles-ghosts
-      (z-pos 400)
-    )
     (invisible_wall
       (width 156)
       (height 408)
@@ -179,6 +173,12 @@
     )
     (music
       (file "music/ghostforest.ogg")
+    )
+    (particles-ghosts
+      (z-pos 401)
+    )
+    (particles-ghosts
+      (z-pos 400)
     )
     (powerup
       (script "find_fish(\"spooky\");")
@@ -657,316 +657,6 @@
       (x 174.1421)
       (y 376.0416)
     )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "96000435-a0a1-4e05-9f72-af2d7109fefd")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "2fdbf3fa-9391-457b-b321-2fd4d4d59409")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "39007fea-6267-4f36-b21d-75664748d054")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "6209e37e-c73c-4455-8429-be82f6fd4c57")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "7f89ad62-5a4a-46a2-8388-99eb5e760f1c")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "99a9c788-a029-4034-a605-4ace0a0dcd5e")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "95033dda-c10c-429b-969b-6f9b7bba7699")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "7b8175fd-bc7c-47c2-821c-c758db6335de")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "78e66561-9cdf-4ead-9b3e-e96f251e63e1")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "efcb8cbc-70df-4832-865c-03adc00ef36b")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "4047f12b-4203-4687-98dc-b95eca892a7f")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "4204f789-27d5-4602-b05f-31c2747afad5")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "b6dbf684-f5ea-4dd5-87be-7463aa8edcbd")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "81678a0b-9dc1-4c34-ae6c-233f063c3366")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "57d78be3-340e-4453-a726-33bdbed640d5")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "761f73ab-433b-45ee-8901-de57278dc1fc")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "8d36f2a9-9fa9-47b8-8078-c5018dd444ce")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "262e5522-b54d-474f-8975-de080ad0b863")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "d0706626-2721-4b4b-9eae-b2c96001d098")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "9e1fc054-83ae-4f25-8489-8cb7849a8719")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "0f9c5613-f7f0-4f59-9827-9e3da3cfdf9c")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "867b57df-2770-4cdc-a664-0e1ef11c69bb")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "c746c011-e415-438e-bdd3-71e963d89ca6")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "343f7d18-dbe6-411c-a249-9c4af7e37dca")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "ce0ae642-497c-4e43-9c32-8f84ae9fc269")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "a7d30cd0-aa79-4988-8221-f73b47e12bd9")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "ae483dd5-84b7-46b0-bccd-8ef66827f6f9")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "b3da38eb-d3f5-4569-8f71-233784daf72e")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "770584e6-d0c9-48cf-9681-b1838d338303")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "18bc6ab6-ecbd-4662-b0be-27d5c29cc000")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "3f0b9bf6-99d5-4c32-850d-10c6a504d510")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "ddd34de2-bcab-49e8-b638-830b1f47afaa")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "203fed83-5f74-4771-81b5-315c0b671acb")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "69d621f8-5c6b-4743-888f-17d425076e20")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "07e91e4e-003b-4f8e-8ec5-95b31976652d")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "c54f0b8d-e504-4acf-939a-5b299fc9f19c")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "cc565196-4cdc-48a9-9866-6e274fb6d760")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "646f475b-7981-476f-b8ce-51bc078d13fc")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "0ccf6b7a-2e57-4418-8e5a-13785a343557")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "0d181c94-8a66-412f-9faf-b6ce8d05cd89")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "b84c74e8-8829-4126-af6d-ec6ba90e1a9e")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "759f1dc8-0694-4457-acda-51d402c288e0")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "1b7142d7-377a-4348-8af5-141d6fc98499")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "565ece0b-9440-4b1b-8645-8f98a1246e44")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "7dd0f5ca-9dca-4d91-a3ab-236b701b4e54")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "a217d94e-edda-4a4e-a421-dc696e6a00e0")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "5cc91665-215f-440a-b341-6564131d90df")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "70e51f5e-97cb-4e7a-8921-69fd666270c2")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "59d7d354-05b4-4e99-9e6b-f277ce5fa814")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "f6ed42da-83ab-4f3f-9ff7-8e7b23c0a31e")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "f171c228-7bf5-4831-91b7-7e29c1d81699")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "e26c3dbf-6d92-4dd6-9521-2cdc853dd588")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "c9a70400-d064-41de-ab20-06cc114cb8d9")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "6dcc0474-e728-4fee-af13-c167dd4f6150")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "34e49721-c8c8-44c9-b8e0-2fbb4203a3e5")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "6a000810-1e33-4f2d-9512-f682dc948569")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "b8733a1f-7467-492b-aa94-0da15282de93")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "ee2d55d3-e40c-48e0-b3ee-4f0d340a39fb")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "ea569e04-f384-49c8-b2c6-592335097afc")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "e600d6cb-caa3-4180-93d4-9717c0857e05")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "aee7999c-4f19-4f7a-9fff-dba0001d954d")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "95af5eba-03eb-474e-818d-6ee1709ab431")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "c4971736-fb63-42c2-97df-f7eaf1506a03")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "93fdf999-5479-48a5-8ef8-b8dc9cd3ded2")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "a4898019-bf77-47c0-8bf2-7ead9530549d")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "db13897d-3d0c-4095-a806-39034e37858e")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "978156d5-8902-4764-ade8-4914630f9402")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "5c05e646-1879-47ef-865d-9eab1a810d10")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "9f54598f-de52-4f33-a29c-591cb97411f2")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "51515ef1-0ad1-4549-9717-80eaa50725f2")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "2b727e29-2896-4cfe-8cee-ed2d4a23fad0")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "0005b6f4-3abc-427f-8d97-d063d57bae50")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "39fb3557-17da-4547-b9cb-edef9dc20cba")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "eb3c850b-a93c-4d19-b5fb-ec30e1e0d4aa")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "52139d1c-c24f-4e3e-b650-74d7d9ecc402")
-    )
-    (platform
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "a2cf4dfe-f0dd-4587-a127-1c61eff5b94c")
-    )
-    (particles-ghosts
-      (z-pos 400)
-    )
-    (particles-ghosts
-      (z-pos 401)
-    )
     (invisible_wall
       (width 188)
       (height 24)
@@ -975,6 +665,12 @@
     )
     (music
       (file "music/ghostforest.ogg")
+    )
+    (particles-ghosts
+      (z-pos 400)
+    )
+    (particles-ghosts
+      (z-pos 401)
     )
     (path
       (name "96000435-a0a1-4e05-9f72-af2d7109fefd")
@@ -3103,6 +2799,310 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "96000435-a0a1-4e05-9f72-af2d7109fefd")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "2fdbf3fa-9391-457b-b321-2fd4d4d59409")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "39007fea-6267-4f36-b21d-75664748d054")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "6209e37e-c73c-4455-8429-be82f6fd4c57")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "7f89ad62-5a4a-46a2-8388-99eb5e760f1c")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "99a9c788-a029-4034-a605-4ace0a0dcd5e")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "95033dda-c10c-429b-969b-6f9b7bba7699")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "7b8175fd-bc7c-47c2-821c-c758db6335de")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "78e66561-9cdf-4ead-9b3e-e96f251e63e1")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "efcb8cbc-70df-4832-865c-03adc00ef36b")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "4047f12b-4203-4687-98dc-b95eca892a7f")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "4204f789-27d5-4602-b05f-31c2747afad5")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "b6dbf684-f5ea-4dd5-87be-7463aa8edcbd")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "81678a0b-9dc1-4c34-ae6c-233f063c3366")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "57d78be3-340e-4453-a726-33bdbed640d5")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "761f73ab-433b-45ee-8901-de57278dc1fc")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "8d36f2a9-9fa9-47b8-8078-c5018dd444ce")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "262e5522-b54d-474f-8975-de080ad0b863")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "d0706626-2721-4b4b-9eae-b2c96001d098")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "9e1fc054-83ae-4f25-8489-8cb7849a8719")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "0f9c5613-f7f0-4f59-9827-9e3da3cfdf9c")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "867b57df-2770-4cdc-a664-0e1ef11c69bb")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "c746c011-e415-438e-bdd3-71e963d89ca6")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "343f7d18-dbe6-411c-a249-9c4af7e37dca")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "ce0ae642-497c-4e43-9c32-8f84ae9fc269")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "a7d30cd0-aa79-4988-8221-f73b47e12bd9")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "ae483dd5-84b7-46b0-bccd-8ef66827f6f9")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "b3da38eb-d3f5-4569-8f71-233784daf72e")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "770584e6-d0c9-48cf-9681-b1838d338303")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "18bc6ab6-ecbd-4662-b0be-27d5c29cc000")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "3f0b9bf6-99d5-4c32-850d-10c6a504d510")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "ddd34de2-bcab-49e8-b638-830b1f47afaa")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "203fed83-5f74-4771-81b5-315c0b671acb")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "69d621f8-5c6b-4743-888f-17d425076e20")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "07e91e4e-003b-4f8e-8ec5-95b31976652d")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "c54f0b8d-e504-4acf-939a-5b299fc9f19c")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "cc565196-4cdc-48a9-9866-6e274fb6d760")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "646f475b-7981-476f-b8ce-51bc078d13fc")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "0ccf6b7a-2e57-4418-8e5a-13785a343557")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "0d181c94-8a66-412f-9faf-b6ce8d05cd89")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "b84c74e8-8829-4126-af6d-ec6ba90e1a9e")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "759f1dc8-0694-4457-acda-51d402c288e0")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "1b7142d7-377a-4348-8af5-141d6fc98499")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "565ece0b-9440-4b1b-8645-8f98a1246e44")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "7dd0f5ca-9dca-4d91-a3ab-236b701b4e54")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "a217d94e-edda-4a4e-a421-dc696e6a00e0")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "5cc91665-215f-440a-b341-6564131d90df")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "70e51f5e-97cb-4e7a-8921-69fd666270c2")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "59d7d354-05b4-4e99-9e6b-f277ce5fa814")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "f6ed42da-83ab-4f3f-9ff7-8e7b23c0a31e")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "f171c228-7bf5-4831-91b7-7e29c1d81699")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "e26c3dbf-6d92-4dd6-9521-2cdc853dd588")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "c9a70400-d064-41de-ab20-06cc114cb8d9")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "6dcc0474-e728-4fee-af13-c167dd4f6150")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "34e49721-c8c8-44c9-b8e0-2fbb4203a3e5")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "6a000810-1e33-4f2d-9512-f682dc948569")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "b8733a1f-7467-492b-aa94-0da15282de93")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "ee2d55d3-e40c-48e0-b3ee-4f0d340a39fb")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "ea569e04-f384-49c8-b2c6-592335097afc")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "e600d6cb-caa3-4180-93d4-9717c0857e05")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "aee7999c-4f19-4f7a-9fff-dba0001d954d")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "95af5eba-03eb-474e-818d-6ee1709ab431")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "c4971736-fb63-42c2-97df-f7eaf1506a03")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "93fdf999-5479-48a5-8ef8-b8dc9cd3ded2")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "a4898019-bf77-47c0-8bf2-7ead9530549d")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "db13897d-3d0c-4095-a806-39034e37858e")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "978156d5-8902-4764-ade8-4914630f9402")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "5c05e646-1879-47ef-865d-9eab1a810d10")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "9f54598f-de52-4f33-a29c-591cb97411f2")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "51515ef1-0ad1-4549-9717-80eaa50725f2")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "2b727e29-2896-4cfe-8cee-ed2d4a23fad0")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "0005b6f4-3abc-427f-8d97-d063d57bae50")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "39fb3557-17da-4547-b9cb-edef9dc20cba")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "eb3c850b-a93c-4d19-b5fb-ec30e1e0d4aa")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "52139d1c-c24f-4e3e-b650-74d7d9ecc402")
+    )
+    (platform
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "a2cf4dfe-f0dd-4587-a127-1c61eff5b94c")
+    )
     (scripttrigger
       (script "someblocks.set_alpha(1);")
       (button #f)
@@ -3769,14 +3769,14 @@ exitblock.set_alpha(0);")
       (x 520)
       (y 736)
     )
+    (music
+      (file "music/bonuscave.ogg")
+    )
     (particles-ghosts
       (z-pos 400)
     )
     (particles-ghosts
       (z-pos 401)
-    )
-    (music
-      (file "music/bonuscave.ogg")
     )
     (powerup
       (script "this.c1 <- true
@@ -4090,14 +4090,14 @@ play_sound(\"sounds/lifeup.wav\");
       (x 832)
       (y 768)
     )
+    (music
+      (file "music/ghostforest.ogg")
+    )
     (particles-ghosts
       (z-pos 400)
     )
     (particles-ghosts
       (z-pos 401)
-    )
-    (music
-      (file "music/ghostforest.ogg")
     )
     (skullyhop
       (x 768)

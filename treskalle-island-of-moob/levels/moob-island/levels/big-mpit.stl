@@ -21,64 +21,10 @@
       (x 3328)
       (y 256)
     )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "6b5b1521-bd1a-4f42-a13e-d9a563f44cfd")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "fc0b0fd1-ca91-4957-a15e-76a3c593d20c")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "e1d1f863-da3a-4a4d-b5d2-5977b2d1c157")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "0f7b4274-e3bd-46ef-a201-48b9fd9704b5")
-    )
-    (smartball
-      (x 800)
-      (y 384)
-    )
-    (smartball
-      (x 2080)
-      (y 352)
-    )
-    (smartball
-      (x 2048)
-      (y 480)
-    )
-    (smartball
-      (x 1824)
-      (y 192)
-    )
-    (smartball
-      (x 992)
-      (y 256)
-    )
-    (smartball
-      (x 736)
-      (y 256)
-    )
-    (smartball
-      (x 3040)
-      (y 320)
-    )
-    (smartball
-      (x 2528)
-      (y 320)
-    )
-    (smartball
-      (x 2784)
-      (y 320)
-    )
-    (smartball
-      (x 6944)
-      (y 448)
-    )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (particles-snow
     )
     (path
       (name "6b5b1521-bd1a-4f42-a13e-d9a563f44cfd")
@@ -140,7 +86,61 @@
         )
       )
     )
-    (particles-snow
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "6b5b1521-bd1a-4f42-a13e-d9a563f44cfd")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "fc0b0fd1-ca91-4957-a15e-76a3c593d20c")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "e1d1f863-da3a-4a4d-b5d2-5977b2d1c157")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "0f7b4274-e3bd-46ef-a201-48b9fd9704b5")
+    )
+    (smartball
+      (x 800)
+      (y 384)
+    )
+    (smartball
+      (x 2080)
+      (y 352)
+    )
+    (smartball
+      (x 2048)
+      (y 480)
+    )
+    (smartball
+      (x 1824)
+      (y 192)
+    )
+    (smartball
+      (x 992)
+      (y 256)
+    )
+    (smartball
+      (x 736)
+      (y 256)
+    )
+    (smartball
+      (x 3040)
+      (y 320)
+    )
+    (smartball
+      (x 2528)
+      (y 320)
+    )
+    (smartball
+      (x 2784)
+      (y 320)
+    )
+    (smartball
+      (x 6944)
+      (y 448)
     )
     (spawnpoint
       (name "main")

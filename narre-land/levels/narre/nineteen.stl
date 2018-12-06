@@ -680,16 +680,6 @@
       (x 1408)
       (y 864)
     )
-    (platform
-      (name "v1")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "4dcbc2d6-4bd0-4e00-baf7-872ef0fce02f")
-    )
-    (platform
-      (name "v2")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "075708d4-06fb-44d3-9ccc-7310376b1585")
-    )
     (mriceblock
       (x 736)
       (y 32)
@@ -750,6 +740,16 @@
           (time 5)
         )
       )
+    )
+    (platform
+      (name "v1")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "4dcbc2d6-4bd0-4e00-baf7-872ef0fce02f")
+    )
+    (platform
+      (name "v2")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "075708d4-06fb-44d3-9ccc-7310376b1585")
     )
     (scripttrigger
       (script "Text.set_text(\"Floor -126\")   
@@ -1279,10 +1279,6 @@ Text.set_text(\"Floor -127\")
       (x 3200)
       (y -12)
     )
-    (sspiky
-      (x 2560)
-      (y 128)
-    )
     (snowball
       (x 1952)
       (y 2240)
@@ -1299,6 +1295,10 @@ Text.set_text(\"Floor -127\")
     (spiky
       (x 1440)
       (y 1504)
+    )
+    (sspiky
+      (x 2560)
+      (y 128)
     )
     (tilemap
       (solid #f)
@@ -1667,18 +1667,6 @@ Text.set_text(\"Floor -127\")
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "k1")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "ffbd13d6-95d8-47f7-9269-dd9a3ad61f0e")
-    )
-    (platform
-      (running #f)
-      (name "k2")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "32478a91-07f6-423f-ba6d-7ae6a721b6d9")
-    )
     (music
       (file "music/cave.music")
     )
@@ -1711,6 +1699,18 @@ Text.set_text(\"Floor -127\")
           (time 5)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "k1")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "ffbd13d6-95d8-47f7-9269-dd9a3ad61f0e")
+    )
+    (platform
+      (running #f)
+      (name "k2")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "32478a91-07f6-423f-ba6d-7ae6a721b6d9")
     )
     (scripttrigger
       (script "Level.spawn(\"end\",\"main\")")
@@ -2021,16 +2021,6 @@ Text.set_text(\"Floor -89\")
     (camera
       (mode "normal")
     )
-    (platform
-      (name "fjjfkuzfu")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "b56ca8ab-ee1b-4882-868e-151cb5a491b2")
-    )
-    (platform
-      (name "dthzrtjh")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "dcb155ae-3953-4ee2-a070-160cfa3ac3a6")
-    )
     (music
       (file "music/cave.music")
     )
@@ -2051,6 +2041,16 @@ Text.set_text(\"Floor -89\")
           (y 928)
         )
       )
+    )
+    (platform
+      (name "fjjfkuzfu")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "b56ca8ab-ee1b-4882-868e-151cb5a491b2")
+    )
+    (platform
+      (name "dthzrtjh")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "dcb155ae-3953-4ee2-a070-160cfa3ac3a6")
     )
     (scripttrigger
       (script "Text.fade_in(1)

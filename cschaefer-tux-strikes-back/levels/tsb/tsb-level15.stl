@@ -45,10 +45,6 @@
       (x 1007)
       (y 174)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "09bfcc2d-4b34-4d32-b3f5-8335b99fd427")
-    )
     (flyingsnowball
       (x 416)
       (y 416)
@@ -112,6 +108,8 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (particles-snow
+    )
     (path
       (name "09bfcc2d-4b34-4d32-b3f5-8335b99fd427")
       (path
@@ -137,6 +135,10 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "09bfcc2d-4b34-4d32-b3f5-8335b99fd427")
+    )
     (smartblock
       (x 4904)
       (y 284)
@@ -161,8 +163,6 @@
     (snowman
       (x 4266)
       (y 259)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

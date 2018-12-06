@@ -105,6 +105,29 @@
       (x 256)
       (y 544)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (particles-snow
+    )
+    (secretarea
+      (width 636)
+      (height 232)
+      (x 1152)
+      (y -12)
+    )
+    (secretarea
+      (width 188)
+      (height 172)
+      (x 5440)
+      (y -12)
+    )
+    (secretarea
+      (width 572)
+      (height 232)
+      (x 7072)
+      (y -12)
+    )
     (smartball
       (x 1632)
       (y 576)
@@ -256,29 +279,6 @@
     (smartball
       (x 9344)
       (y 384)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (secretarea
-      (width 636)
-      (height 232)
-      (x 1152)
-      (y -12)
-    )
-    (secretarea
-      (width 188)
-      (height 172)
-      (x 5440)
-      (y -12)
-    )
-    (secretarea
-      (width 572)
-      (height 232)
-      (x 7072)
-      (y -12)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

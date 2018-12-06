@@ -62,14 +62,6 @@
       (x 1988)
       (y 236)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "19f2544d-995a-4b09-8ff5-ca35ddeb3e65")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "f7e9311d-3879-4465-bf49-e6bf7234bbb8")
-    )
     (jumpy
       (x 583)
       (y 488)
@@ -123,6 +115,14 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "19f2544d-995a-4b09-8ff5-ca35ddeb3e65")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "f7e9311d-3879-4465-bf49-e6bf7234bbb8")
+    )
     (skullyhop
       (x 4704)
       (y 320)
@@ -134,26 +134,6 @@
     (skullyhop
       (x 5056)
       (y 352)
-    )
-    (sspiky
-      (x 1126)
-      (y 458)
-    )
-    (sspiky
-      (x 3078)
-      (y 426)
-    )
-    (sspiky
-      (x 4006)
-      (y 394)
-    )
-    (sspiky
-      (x 3942)
-      (y 490)
-    )
-    (sspiky
-      (x 4774)
-      (y 522)
     )
     (spawnpoint
       (name "main")
@@ -183,6 +163,26 @@
     (spiky
       (x 2854)
       (y 554)
+    )
+    (sspiky
+      (x 1126)
+      (y 458)
+    )
+    (sspiky
+      (x 3078)
+      (y 426)
+    )
+    (sspiky
+      (x 4006)
+      (y 394)
+    )
+    (sspiky
+      (x 3942)
+      (y 490)
+    )
+    (sspiky
+      (x 4774)
+      (y 522)
     )
     (tilemap
       (solid #f)

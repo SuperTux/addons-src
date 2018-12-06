@@ -39,22 +39,6 @@
       (x 2112)
       (y 352)
     )
-    (smartball
-      (x 547)
-      (y 582)
-    )
-    (smartball
-      (x 2499)
-      (y 582)
-    )
-    (smartball
-      (x 4259)
-      (y 390)
-    )
-    (smartball
-      (x 4163)
-      (y 390)
-    )
     (music
       (file "music/forest2.ogg")
     )
@@ -82,9 +66,21 @@
       (x 4649)
       (y 578)
     )
-    (sspiky
-      (x 3558)
-      (y 330)
+    (smartball
+      (x 547)
+      (y 582)
+    )
+    (smartball
+      (x 2499)
+      (y 582)
+    )
+    (smartball
+      (x 4259)
+      (y 390)
+    )
+    (smartball
+      (x 4163)
+      (y 390)
     )
     (smartblock
       (x 1921)
@@ -114,6 +110,10 @@
     (spiky
       (x 3250)
       (y 320)
+    )
+    (sspiky
+      (x 3558)
+      (y 330)
     )
     (stalactite
       (x 3905)

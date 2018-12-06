@@ -128,10 +128,6 @@
       (x 4101)
       (y 1384)
     )
-    (smartball
-      (x 2787)
-      (y 1222)
-    )
     (music
       (file "music/airship_remix.music")
     )
@@ -170,6 +166,10 @@
     (short_fuse
       (x 3913)
       (y 1346)
+    )
+    (smartball
+      (x 2787)
+      (y 1222)
     )
     (spawnpoint
       (name "main")

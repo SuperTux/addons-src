@@ -68,42 +68,6 @@
       (x 2560)
       (y 1024)
     )
-    (platform
-      (running #f)
-      (name "deliver")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "783084bb-548b-498d-8c98-d3aac94d8cfa")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "6fdfb42d-cf69-422c-935e-df220927d28e")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "866048a0-52b8-4800-985e-cf07474b4c42")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "6327d0ca-9f1c-4efc-b664-8b4b509b3262")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "cf1e3bd3-e646-4216-99d1-a7780da8b9d0")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "b76f2cc8-2709-4e66-920e-50085ed55310")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "6b51d63c-5ade-4275-a17e-392b73beed46")
-    )
     (flyingsnowball
       (x 1984)
       (y 1920)
@@ -143,38 +107,6 @@
     (mriceblock
       (x 3808)
       (y 736)
-    )
-    (smartball
-      (x 1088)
-      (y 1888)
-    )
-    (smartball
-      (x 1472)
-      (y 1824)
-    )
-    (smartball
-      (x 1472)
-      (y 1280)
-    )
-    (smartball
-      (x 1792)
-      (y 1792)
-    )
-    (smartball
-      (x 4640)
-      (y 1984)
-    )
-    (smartball
-      (x 2176)
-      (y 1184)
-    )
-    (smartball
-      (x 2784)
-      (y 992)
-    )
-    (smartball
-      (x 4064)
-      (y 704)
     )
     (music
       (file "music/chipdisko.ogg")
@@ -254,6 +186,42 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "deliver")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "783084bb-548b-498d-8c98-d3aac94d8cfa")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "6fdfb42d-cf69-422c-935e-df220927d28e")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "866048a0-52b8-4800-985e-cf07474b4c42")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "6327d0ca-9f1c-4efc-b664-8b4b509b3262")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "cf1e3bd3-e646-4216-99d1-a7780da8b9d0")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "b76f2cc8-2709-4e66-920e-50085ed55310")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "6b51d63c-5ade-4275-a17e-392b73beed46")
+    )
     (scripttrigger
       (script "  wait(  1.5  );
           deliver.goto_node(1);")
@@ -262,6 +230,38 @@
       (height 32)
       (x 1586)
       (y 928)
+    )
+    (smartball
+      (x 1088)
+      (y 1888)
+    )
+    (smartball
+      (x 1472)
+      (y 1824)
+    )
+    (smartball
+      (x 1472)
+      (y 1280)
+    )
+    (smartball
+      (x 1792)
+      (y 1792)
+    )
+    (smartball
+      (x 4640)
+      (y 1984)
+    )
+    (smartball
+      (x 2176)
+      (y 1184)
+    )
+    (smartball
+      (x 2784)
+      (y 992)
+    )
+    (smartball
+      (x 4064)
+      (y 704)
     )
     (snowman
       (x 784)
@@ -602,36 +602,6 @@
       (x 32)
       (y 128)
     )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "074242df-8128-4670-8cd7-077a4bfb19d6")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "b97c73f1-94d4-4471-94b0-09eaa53e96c6")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "2df8749b-c493-4f90-b75b-8d9aa66502eb")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "540a9f1e-5415-41c8-9ea2-af9240006e23")
-    )
-    (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "2b1a39ca-f280-4cdb-b877-3f1fb3699160")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "5013157d-5730-482a-83ba-baf63677f318")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "367fa9ad-96b4-4c51-9429-cf9b5a33fe85")
-    )
     (gradient
       (top_color 0 0 0)
       (bottom_color 0 0 0)
@@ -924,6 +894,36 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "074242df-8128-4670-8cd7-077a4bfb19d6")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "b97c73f1-94d4-4471-94b0-09eaa53e96c6")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "2df8749b-c493-4f90-b75b-8d9aa66502eb")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "540a9f1e-5415-41c8-9ea2-af9240006e23")
+    )
+    (platform
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "2b1a39ca-f280-4cdb-b877-3f1fb3699160")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5013157d-5730-482a-83ba-baf63677f318")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "367fa9ad-96b4-4c51-9429-cf9b5a33fe85")
+    )
     (secretarea
       (width 192)
       (height 192)
@@ -1017,38 +1017,17 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (door
       (sector "inside")
       (spawnpoint "deck")
       (x 416)
       (y 3904)
     )
-    (platform
-      (running #f)
-      (name "launch")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "ae50a5ac-fd2f-4a78-a700-a9909e1b6d0e")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "4403eb0b-35b5-47b5-a4ca-612c855df879")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "33a2b1f7-ea12-4405-8ebe-3518f4a50725")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "63690d14-cf20-49e0-8ba3-8d6802e6a31d")
-    )
     (mrbomb
       (x 658)
       (y 3721)
+    )
+    (particles-clouds
     )
     (path
       (name "ae50a5ac-fd2f-4a78-a700-a9909e1b6d0e")
@@ -1138,6 +1117,27 @@
           (time 24)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "launch")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "ae50a5ac-fd2f-4a78-a700-a9909e1b6d0e")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "4403eb0b-35b5-47b5-a4ca-612c855df879")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "33a2b1f7-ea12-4405-8ebe-3518f4a50725")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "63690d14-cf20-49e0-8ba3-8d6802e6a31d")
     )
     (pushbutton
       (script "  launch.goto_node(1);
@@ -2409,14 +2409,14 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (gradient
       (top_color 1 1 0)
       (bottom_color 0 1 1)
     )
     (music
       (file "music/salcon.ogg")
+    )
+    (particles-clouds
     )
     (path
       (name "edfb0aa2-235e-42f7-8660-444ee538d6e7")

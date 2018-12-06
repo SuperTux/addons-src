@@ -658,102 +658,6 @@ wait(7);
       (x 480)
       (y 96)
     )
-    (platform
-      (running #f)
-      (name "l1")
-      (sprite "images/objects/platforms/rock_big.sprite")
-      (path-ref "2c829338-6887-4463-b91e-da25a85aecf8")
-    )
-    (platform
-      (running #f)
-      (name "b4")
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "21c6c250-19c6-4031-b9c0-f652284083f4")
-    )
-    (platform
-      (running #f)
-      (name "b1")
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "1dc0ca8b-acb4-462d-9d82-56f4c930456c")
-    )
-    (platform
-      (running #f)
-      (name "b2")
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "d963fad0-75d1-444c-a81e-b1b8000e2b07")
-    )
-    (platform
-      (running #f)
-      (name "l6")
-      (sprite "images/objects/platforms/rock_big.sprite")
-      (path-ref "ea47a073-b099-4273-81eb-62565465bbd7")
-    )
-    (platform
-      (running #f)
-      (name "l5")
-      (sprite "images/objects/platforms/rock_big.sprite")
-      (path-ref "6b379f18-68e0-4240-9108-b6b19c3b0871")
-    )
-    (platform
-      (running #f)
-      (name "l4")
-      (sprite "images/objects/platforms/rock_big.sprite")
-      (path-ref "13d1f798-dbc2-4466-8666-1f20156fb12a")
-    )
-    (platform
-      (running #f)
-      (name "l3")
-      (sprite "images/objects/platforms/rock_big.sprite")
-      (path-ref "0ef5c809-9ffc-4e21-bec8-6d07a0bcafa5")
-    )
-    (platform
-      (running #f)
-      (name "l2")
-      (sprite "images/objects/platforms/rock_big.sprite")
-      (path-ref "bfe3732d-c54c-474b-ab0f-e4831b43923b")
-    )
-    (platform
-      (running #f)
-      (name "b3")
-      (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path-ref "0a864abf-5aba-4799-9eee-6bf48a4f9018")
-    )
-    (platform
-      (running #f)
-      (name "f6")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "26a9e56a-db1a-49a0-b5c4-33808c0698b3")
-    )
-    (platform
-      (running #f)
-      (name "f1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "39bafbd3-1021-445f-8832-d3239e1ab90f")
-    )
-    (platform
-      (running #f)
-      (name "f2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "d837acaa-f320-4fe4-8c79-f3a3789d9c46")
-    )
-    (platform
-      (running #f)
-      (name "f3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "0bffb0ef-df69-4b81-afd5-802eefc42839")
-    )
-    (platform
-      (running #f)
-      (name "f4")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "3c5cbeb7-5e41-494c-bdc5-db8462a82bc6")
-    )
-    (platform
-      (running #f)
-      (name "f5")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "42e96a02-ab65-479c-be4c-282fc331faa2")
-    )
     (gradient
       (top_color 0 0.001495384 0.4433814)
       (bottom_color 0 0 0)
@@ -1086,6 +990,102 @@ wait(7);
         )
       )
     )
+    (platform
+      (running #f)
+      (name "l1")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "2c829338-6887-4463-b91e-da25a85aecf8")
+    )
+    (platform
+      (running #f)
+      (name "b4")
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "21c6c250-19c6-4031-b9c0-f652284083f4")
+    )
+    (platform
+      (running #f)
+      (name "b1")
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "1dc0ca8b-acb4-462d-9d82-56f4c930456c")
+    )
+    (platform
+      (running #f)
+      (name "b2")
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "d963fad0-75d1-444c-a81e-b1b8000e2b07")
+    )
+    (platform
+      (running #f)
+      (name "l6")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "ea47a073-b099-4273-81eb-62565465bbd7")
+    )
+    (platform
+      (running #f)
+      (name "l5")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "6b379f18-68e0-4240-9108-b6b19c3b0871")
+    )
+    (platform
+      (running #f)
+      (name "l4")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "13d1f798-dbc2-4466-8666-1f20156fb12a")
+    )
+    (platform
+      (running #f)
+      (name "l3")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "0ef5c809-9ffc-4e21-bec8-6d07a0bcafa5")
+    )
+    (platform
+      (running #f)
+      (name "l2")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "bfe3732d-c54c-474b-ab0f-e4831b43923b")
+    )
+    (platform
+      (running #f)
+      (name "b3")
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "0a864abf-5aba-4799-9eee-6bf48a4f9018")
+    )
+    (platform
+      (running #f)
+      (name "f6")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "26a9e56a-db1a-49a0-b5c4-33808c0698b3")
+    )
+    (platform
+      (running #f)
+      (name "f1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "39bafbd3-1021-445f-8832-d3239e1ab90f")
+    )
+    (platform
+      (running #f)
+      (name "f2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "d837acaa-f320-4fe4-8c79-f3a3789d9c46")
+    )
+    (platform
+      (running #f)
+      (name "f3")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "0bffb0ef-df69-4b81-afd5-802eefc42839")
+    )
+    (platform
+      (running #f)
+      (name "f4")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "3c5cbeb7-5e41-494c-bdc5-db8462a82bc6")
+    )
+    (platform
+      (running #f)
+      (name "f5")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "42e96a02-ab65-479c-be4c-282fc331faa2")
+    )
     (scriptedobject
       (physic-enabled #f)
       (solid #f)
@@ -1097,102 +1097,6 @@ wait(7);
       (name "main")
       (x 320)
       (y 384)
-    )
-    (yeti_stalactite
-      (x 544)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 512)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 480)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 320)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 256)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 352)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 416)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 384)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 448)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 992)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 800)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 768)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 608)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 576)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 640)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 704)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 672)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 736)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 832)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 864)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 896)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 928)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 960)
-      (y 324)
-    )
-    (yeti_stalactite
-      (x 288)
-      (y 324)
     )
     (tilemap
       (solid #t)
@@ -1644,6 +1548,102 @@ wait(7);
       (dead-script "sector.Tux.trigger_sequence(\"fireworks\");")
       (x 17)
       (y 396)
+    )
+    (yeti_stalactite
+      (x 544)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 512)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 480)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 320)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 256)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 352)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 416)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 384)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 448)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 992)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 800)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 768)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 608)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 576)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 640)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 704)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 672)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 736)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 832)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 864)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 896)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 928)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 960)
+      (y 324)
+    )
+    (yeti_stalactite
+      (x 288)
+      (y 324)
     )
   )
 )

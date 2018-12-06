@@ -653,12 +653,6 @@ play_sound(\"sounds/lifeup.wav\");
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "platform")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "3a5fcb81-dc61-409f-8588-80b0a1a8a376")
-    )
     (gradient
       (top_color 0.04493782 0.2492256 0.5041733)
       (bottom_color 0.08313115 0.4082704 0.5956817)
@@ -679,6 +673,12 @@ play_sound(\"sounds/lifeup.wav\");
           (y 832.7071)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "platform")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "3a5fcb81-dc61-409f-8588-80b0a1a8a376")
     )
     (scripttrigger
       (script "Tux.deactivate()")

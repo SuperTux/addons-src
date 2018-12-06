@@ -40,10 +40,6 @@
     (music
       (file "music/fortress.music")
     )
-    (sspiky
-      (x 1478)
-      (y 970)
-    )
     (snowman
       (x 1642)
       (y 931)
@@ -55,6 +51,10 @@
     )
     (spiky
       (x 1222)
+      (y 970)
+    )
+    (sspiky
+      (x 1478)
       (y 970)
     )
     (tilemap

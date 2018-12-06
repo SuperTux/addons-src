@@ -184,6 +184,8 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (particles-snow
+    )
     (secretarea
       (width 316)
       (height 92)
@@ -203,18 +205,6 @@
       (height 108)
       (x 12800)
       (y 0)
-    )
-    (sspiky
-      (x 8864)
-      (y 352)
-    )
-    (sspiky
-      (x 8672)
-      (y 352)
-    )
-    (sspiky
-      (x 8768)
-      (y 352)
     )
     (snowball
       (x 5920)
@@ -244,8 +234,6 @@
       (x 1354)
       (y 387)
     )
-    (particles-snow
-    )
     (spawnpoint
       (name "mainx")
       (x 9568)
@@ -260,6 +248,18 @@
       (name "main3")
       (x 12096)
       (y 32)
+    )
+    (sspiky
+      (x 8864)
+      (y 352)
+    )
+    (sspiky
+      (x 8672)
+      (y 352)
+    )
+    (sspiky
+      (x 8768)
+      (y 352)
     )
     (tilemap
       (solid #f)

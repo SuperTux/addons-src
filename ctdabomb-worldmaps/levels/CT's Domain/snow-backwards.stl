@@ -94,44 +94,10 @@
       (x 2055)
       (y 808)
     )
-    (smartball
-      (x 451)
-      (y 198)
-    )
-    (smartball
-      (x 3)
-      (y 1062)
-    )
-    (smartball
-      (x 867)
-      (y 1062)
-    )
-    (smartball
-      (x 1219)
-      (y 1062)
-    )
-    (smartball
-      (x 2275)
-      (y 742)
-    )
-    (smartball
-      (x 2307)
-      (y 742)
-    )
-    (smartball
-      (x 2339)
-      (y 742)
-    )
-    (smartball
-      (x 2371)
-      (y 742)
-    )
-    (smartball
-      (x 2403)
-      (y 742)
-    )
     (music
       (file "music/treeboss.ogg")
+    )
+    (particles-snow
     )
     (rock
       (x 704)
@@ -207,25 +173,41 @@
       (x 0)
       (y 256)
     )
-    (sspiky
-      (x 2470)
-      (y 1002)
+    (smartball
+      (x 451)
+      (y 198)
     )
-    (sspiky
-      (x 2534)
-      (y 1002)
+    (smartball
+      (x 3)
+      (y 1062)
     )
-    (sspiky
-      (x 2598)
-      (y 1002)
+    (smartball
+      (x 867)
+      (y 1062)
     )
-    (sspiky
-      (x 2662)
-      (y 1002)
+    (smartball
+      (x 1219)
+      (y 1062)
     )
-    (sspiky
-      (x 2694)
-      (y 1002)
+    (smartball
+      (x 2275)
+      (y 742)
+    )
+    (smartball
+      (x 2307)
+      (y 742)
+    )
+    (smartball
+      (x 2339)
+      (y 742)
+    )
+    (smartball
+      (x 2371)
+      (y 742)
+    )
+    (smartball
+      (x 2403)
+      (y 742)
     )
     (snowball
       (x 419)
@@ -251,8 +233,6 @@
       (x 995)
       (y 1060)
     )
-    (particles-snow
-    )
     (spawnpoint
       (name "main")
       (x 64)
@@ -261,6 +241,26 @@
     (spiky
       (x 230)
       (y 1066)
+    )
+    (sspiky
+      (x 2470)
+      (y 1002)
+    )
+    (sspiky
+      (x 2534)
+      (y 1002)
+    )
+    (sspiky
+      (x 2598)
+      (y 1002)
+    )
+    (sspiky
+      (x 2662)
+      (y 1002)
+    )
+    (sspiky
+      (x 2694)
+      (y 1002)
     )
     (tilemap
       (solid #f)

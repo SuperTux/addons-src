@@ -51,10 +51,6 @@
       (x 8768)
       (y 1408)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "72853fc6-eab6-4145-ab37-5ca55ccb335c")
-    )
     (lantern
       (color 1 0 0)
       (x 3056)
@@ -384,34 +380,6 @@
       (x 14049)
       (y 1158)
     )
-    (smartball
-      (x 1411)
-      (y 422)
-    )
-    (smartball
-      (x 2083)
-      (y 582)
-    )
-    (smartball
-      (x 6979)
-      (y 966)
-    )
-    (smartball
-      (x 10499)
-      (y 1478)
-    )
-    (smartball
-      (x 9443)
-      (y 1542)
-    )
-    (smartball
-      (x 14691)
-      (y 1254)
-    )
-    (smartball
-      (x 7907)
-      (y 1062)
-    )
     (music
       (file "music/chipdisko.ogg")
     )
@@ -438,6 +406,10 @@
           (y 384)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "72853fc6-eab6-4145-ab37-5ca55ccb335c")
     )
     (scripttrigger
       (script "secret.set_alpha(1);")
@@ -466,6 +438,34 @@
       (height 76)
       (x 15808)
       (y 1556)
+    )
+    (smartball
+      (x 1411)
+      (y 422)
+    )
+    (smartball
+      (x 2083)
+      (y 582)
+    )
+    (smartball
+      (x 6979)
+      (y 966)
+    )
+    (smartball
+      (x 10499)
+      (y 1478)
+    )
+    (smartball
+      (x 9443)
+      (y 1542)
+    )
+    (smartball
+      (x 14691)
+      (y 1254)
+    )
+    (smartball
+      (x 7907)
+      (y 1062)
     )
     (snowball
       (x 1027)

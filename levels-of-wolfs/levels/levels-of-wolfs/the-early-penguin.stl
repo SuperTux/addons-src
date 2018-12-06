@@ -74,72 +74,6 @@
       (x 224.3787)
       (y 1839.734)
     )
-    (platform
-      (running #f)
-      (name "platf1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "b45de27d-f3c9-456e-ae43-61fc0712bf73")
-    )
-    (platform
-      (running #f)
-      (name "platf2")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "9bf7841c-20bc-4e5c-8c2a-14e3285e4e42")
-    )
-    (platform
-      (running #f)
-      (name "block1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "e120b11c-96b8-454c-94f2-df6ecd04d0c5")
-    )
-    (platform
-      (running #f)
-      (name "block3")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "741c5d01-3cfd-4913-94c7-4398880e3929")
-    )
-    (platform
-      (running #f)
-      (name "block2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "cb926d65-ae24-446b-8dac-614b98d48822")
-    )
-    (platform
-      (running #f)
-      (name "switch1v")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "bbeedcf7-1b65-4597-8dda-7bc12f844948")
-    )
-    (platform
-      (running #f)
-      (name "switch2v")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "19df9e03-d124-48bd-b96a-c8965111e413")
-    )
-    (platform
-      (running #f)
-      (name "block4")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "7ff2bae4-bb60-471a-b6a3-17a9c92170f4")
-    )
-    (platform
-      (running #f)
-      (name "tblock1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "443a2434-8f20-4d36-9f1f-f652d64cdd7d")
-    )
-    (platform
-      (running #f)
-      (name "tblock3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "e6286ba9-4671-40f1-9ec6-519e10c643ef")
-    )
-    (platform
-      (running #f)
-      (name "tblock2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "0bbde46d-1fe7-4d66-8c7b-5dcf48caa4aa")
-    )
     (haywire
       (x 1413)
       (y 936)
@@ -183,26 +117,6 @@
     (mriceblock
       (x 2081)
       (y 1030)
-    )
-    (smartball
-      (x 707)
-      (y 710)
-    )
-    (smartball
-      (x 579)
-      (y 742)
-    )
-    (smartball
-      (x 458.7574)
-      (y 1427.013)
-    )
-    (smartball
-      (x 1507)
-      (y 1190)
-    )
-    (smartball
-      (x 195)
-      (y 1510)
     )
     (path
       (name "b45de27d-f3c9-456e-ae43-61fc0712bf73")
@@ -439,6 +353,72 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "platf1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "b45de27d-f3c9-456e-ae43-61fc0712bf73")
+    )
+    (platform
+      (running #f)
+      (name "platf2")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "9bf7841c-20bc-4e5c-8c2a-14e3285e4e42")
+    )
+    (platform
+      (running #f)
+      (name "block1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "e120b11c-96b8-454c-94f2-df6ecd04d0c5")
+    )
+    (platform
+      (running #f)
+      (name "block3")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "741c5d01-3cfd-4913-94c7-4398880e3929")
+    )
+    (platform
+      (running #f)
+      (name "block2")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "cb926d65-ae24-446b-8dac-614b98d48822")
+    )
+    (platform
+      (running #f)
+      (name "switch1v")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "bbeedcf7-1b65-4597-8dda-7bc12f844948")
+    )
+    (platform
+      (running #f)
+      (name "switch2v")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "19df9e03-d124-48bd-b96a-c8965111e413")
+    )
+    (platform
+      (running #f)
+      (name "block4")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "7ff2bae4-bb60-471a-b6a3-17a9c92170f4")
+    )
+    (platform
+      (running #f)
+      (name "tblock1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "443a2434-8f20-4d36-9f1f-f652d64cdd7d")
+    )
+    (platform
+      (running #f)
+      (name "tblock3")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "e6286ba9-4671-40f1-9ec6-519e10c643ef")
+    )
+    (platform
+      (running #f)
+      (name "tblock2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "0bbde46d-1fe7-4d66-8c7b-5dcf48caa4aa")
+    )
     (scripttrigger
       (script "platf1.start_moving();
 platf1.goto_node(5);
@@ -575,13 +555,25 @@ block3.goto_node(1);")
       (x 1888)
       (y 864)
     )
-    (sspiky
-      (x 1949)
-      (y 379)
+    (smartball
+      (x 707)
+      (y 710)
     )
-    (sspiky
-      (x 2150)
-      (y 586)
+    (smartball
+      (x 579)
+      (y 742)
+    )
+    (smartball
+      (x 458.7574)
+      (y 1427.013)
+    )
+    (smartball
+      (x 1507)
+      (y 1190)
+    )
+    (smartball
+      (x 195)
+      (y 1510)
     )
     (snowman
       (x 2666)
@@ -591,6 +583,14 @@ block3.goto_node(1);")
       (name "main")
       (x 1504)
       (y 320)
+    )
+    (sspiky
+      (x 1949)
+      (y 379)
+    )
+    (sspiky
+      (x 2150)
+      (y 586)
     )
     (stalactite
       (x 2240)

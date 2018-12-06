@@ -50,10 +50,6 @@
     (music
       (file "music/forest.ogg")
     )
-    (poisonivy
-      (x 320)
-      (y 128)
-    )
     (particles-rain
       (z-pos 100)
     )
@@ -64,6 +60,10 @@
     )
     (particles-rain
       (z-pos 77)
+    )
+    (poisonivy
+      (x 320)
+      (y 128)
     )
     (scriptedobject
       (physic-enabled #f)
@@ -232,10 +232,6 @@
       (x 896)
       (y 160)
     )
-    (sspiky
-      (x 3168)
-      (y 160)
-    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -261,6 +257,10 @@
     (spiky
       (x 1824)
       (y 192)
+    )
+    (sspiky
+      (x 3168)
+      (y 160)
     )
     (tilemap
       (solid #f)
@@ -713,6 +713,17 @@
     (music
       (file "music/forest2.ogg")
     )
+    (particles-rain
+      (z-pos -100)
+    )
+    (particles-rain
+    )
+    (particles-rain
+      (z-pos 77)
+    )
+    (particles-rain
+      (z-pos 100)
+    )
     (path
       (name "d52a4ea5-14c8-4b69-9130-8743ffa02b5b")
       (path
@@ -782,17 +793,6 @@
         )
       )
     )
-    (particles-rain
-      (z-pos -100)
-    )
-    (particles-rain
-    )
-    (particles-rain
-      (z-pos 77)
-    )
-    (particles-rain
-      (z-pos 100)
-    )
     (scripttrigger
       (script "Level.spawn(\"main\",\"endek\")")
       (button #f)
@@ -815,14 +815,14 @@
       (x 2720)
       (y 468)
     )
-    (sspiky
-      (x 2464)
-      (y 800)
-    )
     (spawnpoint
       (name "main")
       (x 0)
       (y 992)
+    )
+    (sspiky
+      (x 2464)
+      (y 800)
     )
     (tilemap
       (solid #f)

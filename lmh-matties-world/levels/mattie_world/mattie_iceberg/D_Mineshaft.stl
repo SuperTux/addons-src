@@ -114,18 +114,6 @@
       (x 1408)
       (y 1312)
     )
-    (smartball
-      (x 1312)
-      (y 800)
-    )
-    (smartball
-      (x 1280)
-      (y 992)
-    )
-    (smartball
-      (x 832)
-      (y 3104)
-    )
     (music
       (file "music/cave.ogg")
     )
@@ -319,10 +307,17 @@ Tux.activate();")
       (x 496)
       (y 3488)
     )
-    (sspiky
-      (direction "right")
-      (x 800)
-      (y 3744)
+    (smartball
+      (x 1312)
+      (y 800)
+    )
+    (smartball
+      (x 1280)
+      (y 992)
+    )
+    (smartball
+      (x 832)
+      (y 3104)
     )
     (spawnpoint
       (name "main")
@@ -365,6 +360,11 @@ Tux.activate();")
     (spiky
       (x 1152)
       (y 4000)
+    )
+    (sspiky
+      (direction "right")
+      (x 800)
+      (y 3744)
     )
     (stalactite
       (x 640)

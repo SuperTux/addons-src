@@ -301,16 +301,6 @@ unlock_archivement(\"m\")")
       (x 1359.187)
       (y 2631.254)
     )
-    (platform
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "e3c18b85-145e-4ff1-9d46-b71369aef3ba")
-    )
-    (platform
-      (running #f)
-      (name "plat1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "c0a7109c-8086-49ce-9e33-5060601f879f")
-    )
     (gradient
       (top_color 0.5019608 1 1)
       (bottom_color 0.5019608 1 1)
@@ -833,6 +823,16 @@ unlock_archivement(\"m\")")
           (y 2976)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "e3c18b85-145e-4ff1-9d46-b71369aef3ba")
+    )
+    (platform
+      (running #f)
+      (name "plat1")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "c0a7109c-8086-49ce-9e33-5060601f879f")
     )
     (scripttrigger
       (script "if(! (\"can5\" in this)){

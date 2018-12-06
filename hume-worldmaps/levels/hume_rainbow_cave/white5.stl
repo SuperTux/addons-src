@@ -12,98 +12,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "b3901719-f1cd-4b7c-a1f4-2e841a747323")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "75cb0964-5972-4e27-8d5f-aab16229a43e")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "e099d1a4-3eda-4f33-995e-37b95f3bf5e8")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "de5a3b2c-20e3-4d49-8379-4975c33621e5")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "f0536a08-f4e7-467a-bd31-957fe7ce3831")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "a2d98dbc-e04e-4c45-b726-0cb0a9d84dad")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "5111d7b8-1585-4769-bb96-94bc08caa49d")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "437da0b3-c08d-445a-81c2-d739c3d7a3fc")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "687d963e-9b2e-4826-88cf-19daedd81b4a")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "7cb56240-747c-4328-b86b-0d957503efb2")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "c74faaec-94ba-424a-9144-7907c66914ad")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "672792d7-c45d-4a65-84eb-af9c90aa92c0")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "df5cedbe-b403-40d0-b0e0-e38895809a79")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "ad3f31f7-80ac-4a64-88c3-ecb37f22fa78")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "7d00c663-0975-44a9-be64-2b90f2d05565")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "90ffdc11-d1eb-4408-99d6-ff8efafb34ba")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "aea91b0b-f7ab-45c9-8c76-fc5ca996ab18")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "a5ee432c-542b-42a0-8f1c-984fab3e0300")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "0e5ac396-d067-4604-8522-121b6da5d1e4")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "c8d14c47-487a-44d0-ba8b-6c311d9d110e")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "b9dfbc53-555b-4b88-a8a4-e02adb8e239d")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "4e14cc5a-fa7e-46a1-8b8a-21b30163a088")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "eac4bc56-a29e-4ee8-90c1-ced9cfccc6f3")
-    )
     (gradient
       (top_color 1 1 1)
       (bottom_color 1 1 1)
@@ -437,6 +345,98 @@
           (y 832)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "b3901719-f1cd-4b7c-a1f4-2e841a747323")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "75cb0964-5972-4e27-8d5f-aab16229a43e")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "e099d1a4-3eda-4f33-995e-37b95f3bf5e8")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "de5a3b2c-20e3-4d49-8379-4975c33621e5")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "f0536a08-f4e7-467a-bd31-957fe7ce3831")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "a2d98dbc-e04e-4c45-b726-0cb0a9d84dad")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5111d7b8-1585-4769-bb96-94bc08caa49d")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "437da0b3-c08d-445a-81c2-d739c3d7a3fc")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "687d963e-9b2e-4826-88cf-19daedd81b4a")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "7cb56240-747c-4328-b86b-0d957503efb2")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "c74faaec-94ba-424a-9144-7907c66914ad")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "672792d7-c45d-4a65-84eb-af9c90aa92c0")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "df5cedbe-b403-40d0-b0e0-e38895809a79")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "ad3f31f7-80ac-4a64-88c3-ecb37f22fa78")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "7d00c663-0975-44a9-be64-2b90f2d05565")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "90ffdc11-d1eb-4408-99d6-ff8efafb34ba")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "aea91b0b-f7ab-45c9-8c76-fc5ca996ab18")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "a5ee432c-542b-42a0-8f1c-984fab3e0300")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "0e5ac396-d067-4604-8522-121b6da5d1e4")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "c8d14c47-487a-44d0-ba8b-6c311d9d110e")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "b9dfbc53-555b-4b88-a8a4-e02adb8e239d")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "4e14cc5a-fa7e-46a1-8b8a-21b30163a088")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "eac4bc56-a29e-4ee8-90c1-ced9cfccc6f3")
     )
     (scripttrigger
       (script "complete_level(\"white\",\"w5\",\"endsequence\")")

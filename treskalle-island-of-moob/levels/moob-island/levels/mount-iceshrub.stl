@@ -18,8 +18,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (flyingsnowball
       (x 2720)
       (y 288)
@@ -72,6 +70,11 @@
       (x 4544)
       (y 256)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (particles-clouds
+    )
     (smartball
       (x 2051)
       (y 262)
@@ -83,9 +86,6 @@
     (smartball
       (x 5699)
       (y 230)
-    )
-    (music
-      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")

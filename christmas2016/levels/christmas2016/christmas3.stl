@@ -235,26 +235,10 @@
       (x 2848)
       (y 768)
     )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 4352)
-      (y 512)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 6656)
-      (y 768)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 15104)
-      (y 736)
-    )
     (music
       (file "/music/voc-night.music")
+    )
+    (particles-snow
     )
     (path
       (name "0e1d9027-06f7-468f-89dd-ef2b211ed661")
@@ -287,11 +271,23 @@
       (x 17536)
       (y 0)
     )
-    (sspiky
+    (smartball
       (direction "left")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 4672)
-      (y 672)
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 4352)
+      (y 512)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 6656)
+      (y 768)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 15104)
+      (y 736)
     )
     (smartblock
       (direction "left")
@@ -353,8 +349,6 @@
       (x 13504)
       (y 640)
     )
-    (particles-snow
-    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -401,6 +395,12 @@
       (sprite "images/creatures/spiky/spiky.sprite")
       (x 15584)
       (y 736)
+    )
+    (sspiky
+      (direction "left")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 4672)
+      (y 672)
     )
     (stalactite
       (sprite "images/creatures/stalactite/stalactite.sprite")

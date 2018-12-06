@@ -69,32 +69,10 @@
       (x 4229)
       (y 200)
     )
-    (smartball
-      (x 643)
-      (y 1222)
-    )
-    (smartball
-      (x 3203)
-      (y 1030)
-    )
-    (smartball
-      (x 1859)
-      (y 678)
-    )
-    (smartball
-      (x 3011)
-      (y 198)
-    )
-    (smartball
-      (x 3203)
-      (y 198)
-    )
-    (smartball
-      (x 3811)
-      (y 230)
-    )
     (music
       (file "music/worldmap_tux.ogg")
+    )
+    (particles-snow
     )
     (path
       (name "f163a175-5d71-4c1d-8cb5-5a0752513f90")
@@ -168,6 +146,30 @@ up.goto_node(120)")
       (x 4352)
       (y 1056)
     )
+    (smartball
+      (x 643)
+      (y 1222)
+    )
+    (smartball
+      (x 3203)
+      (y 1030)
+    )
+    (smartball
+      (x 1859)
+      (y 678)
+    )
+    (smartball
+      (x 3011)
+      (y 198)
+    )
+    (smartball
+      (x 3203)
+      (y 198)
+    )
+    (smartball
+      (x 3811)
+      (y 230)
+    )
     (snowman
       (x 3146)
       (y 163)
@@ -179,8 +181,6 @@ up.goto_node(120)")
     (snowman
       (x 4138)
       (y 131)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

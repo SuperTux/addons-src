@@ -46,10 +46,6 @@
       (x 3776)
       (y 224)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "efa6a768-3a4d-4c45-ab64-e190ceebc995")
-    )
     (flyingsnowball
       (x 5732)
       (y 259)
@@ -81,6 +77,28 @@
       (height 60)
       (x 2800)
       (y -60)
+    )
+    (music
+      (file "music/voc-dark.music")
+    )
+    (path
+      (name "efa6a768-3a4d-4c45-ab64-e190ceebc995")
+      (path
+        (node
+          (x 6336)
+          (y 384)
+        )
+      )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "efa6a768-3a4d-4c45-ab64-e190ceebc995")
+    )
+    (secretarea
+      (width 124)
+      (height 236)
+      (x 4896)
+      (y 852)
     )
     (smartball
       (x 611)
@@ -121,24 +139,6 @@
     (smartball
       (x 5347)
       (y 134)
-    )
-    (music
-      (file "music/voc-dark.music")
-    )
-    (path
-      (name "efa6a768-3a4d-4c45-ab64-e190ceebc995")
-      (path
-        (node
-          (x 6336)
-          (y 384)
-        )
-      )
-    )
-    (secretarea
-      (width 124)
-      (height 236)
-      (x 4896)
-      (y 852)
     )
     (snowball
       (x 963)

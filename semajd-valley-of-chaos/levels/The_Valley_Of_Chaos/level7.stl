@@ -282,6 +282,16 @@
       (x 2753)
       (y 1058)
     )
+    (music
+      (file "music/voc-dark.music")
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 32)
+      (height 92)
+      (x 1088)
+      (y 800)
+    )
     (smartball
       (x 1859)
       (y 1058)
@@ -305,36 +315,6 @@
     (smartball
       (x 2179)
       (y 1058)
-    )
-    (music
-      (file "music/voc-dark.music")
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 32)
-      (height 92)
-      (x 1088)
-      (y 800)
-    )
-    (sspiky
-      (direction "right")
-      (x 2822)
-      (y 202)
-    )
-    (sspiky
-      (direction "right")
-      (x 1766)
-      (y 714)
-    )
-    (sspiky
-      (direction "right")
-      (x 2438)
-      (y 714)
-    )
-    (sspiky
-      (direction "left")
-      (x 2758)
-      (y 1770)
     )
     (snowball
       (x 771)
@@ -436,6 +416,26 @@
     (spiky
       (x 1958)
       (y 1226)
+    )
+    (sspiky
+      (direction "right")
+      (x 2822)
+      (y 202)
+    )
+    (sspiky
+      (direction "right")
+      (x 1766)
+      (y 714)
+    )
+    (sspiky
+      (direction "right")
+      (x 2438)
+      (y 714)
+    )
+    (sspiky
+      (direction "left")
+      (x 2758)
+      (y 1770)
     )
     (stalactite
       (x 988)

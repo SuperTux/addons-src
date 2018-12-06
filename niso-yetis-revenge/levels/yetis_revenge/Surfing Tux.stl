@@ -16,8 +16,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (dispenser
       (cycle 2)
       (type "cannon")
@@ -31,12 +29,6 @@
       (badguy "kamikazesnowball" "snowshot")
       (x 7811)
       (y 581)
-    )
-    (platform
-      (running #f)
-      (name "surfboard")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "0d303116-2017-4ab9-985a-0b6e0487aa59")
     )
     (flyingsnowball
       (x 4612)
@@ -100,6 +92,8 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (particles-clouds
     )
     (path
       (name "0d303116-2017-4ab9-985a-0b6e0487aa59")
@@ -177,6 +171,12 @@
           (y 960)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "surfboard")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "0d303116-2017-4ab9-985a-0b6e0487aa59")
     )
     (powerup
       (script "this.c1 <- true
@@ -286,14 +286,14 @@ surfboard.start_moving()
       (x 448)
       (y 640)
     )
-    (sspiky
-      (x 6694)
-      (y 586)
-    )
     (spawnpoint
       (name "main")
       (x 544)
       (y 608)
+    )
+    (sspiky
+      (x 6694)
+      (y 586)
     )
     (tilemap
       (solid #f)

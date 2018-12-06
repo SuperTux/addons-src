@@ -109,6 +109,9 @@
       (x 6400)
       (y 288)
     )
+    (music
+      (file "music/cave.ogg")
+    )
     (smartball
       (x 2467)
       (y 358)
@@ -120,9 +123,6 @@
     (smartball
       (x 3971)
       (y 390)
-    )
-    (music
-      (file "music/cave.ogg")
     )
     (smartblock
       (x 6305)

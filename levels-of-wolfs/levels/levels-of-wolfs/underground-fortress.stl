@@ -34,66 +34,6 @@
       (x 1889.474)
       (y 946.7979)
     )
-    (platform
-      (running #f)
-      (name "block1")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "920641ba-d436-44d7-9e23-1d67d90416a3")
-    )
-    (platform
-      (running #f)
-      (name "block3")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "fb7803d8-c652-416d-b9f0-7117be375951")
-    )
-    (platform
-      (running #f)
-      (name "block5")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "ebb5a120-a673-45b6-a2af-a6ab0a063c4b")
-    )
-    (platform
-      (running #f)
-      (name "block7")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "1fe80455-ee6f-41fc-b77c-252fd2066a97")
-    )
-    (platform
-      (running #f)
-      (name "block2")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "5ddd92d2-ce31-4721-b6b3-6be4ff820cf0")
-    )
-    (platform
-      (running #f)
-      (name "block4")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "db2bcd69-940f-41ac-8d01-8b77f57c3573")
-    )
-    (platform
-      (running #f)
-      (name "block6")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "b184d373-b488-4515-b8bb-beb53c263212")
-    )
-    (platform
-      (running #f)
-      (name "door3")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "70d7d973-9b26-4a90-87f3-6b2f1c6e571e")
-    )
-    (platform
-      (running #f)
-      (name "door2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "6792c2eb-100d-4312-a08b-2dacaa46d05c")
-    )
-    (platform
-      (running #f)
-      (name "door1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "809ba2e8-cddc-4442-b1cd-1a8e7a12fc73")
-    )
     (haywire
       (x 934.2448)
       (y 411.2251)
@@ -137,18 +77,6 @@
     (mriceblock
       (x 2091.89)
       (y 282.6801)
-    )
-    (smartball
-      (x 485.2448)
-      (y 1195.225)
-    )
-    (smartball
-      (x 968.991)
-      (y 793.4009)
-    )
-    (smartball
-      (x 2167.89)
-      (y 294.6801)
     )
     (path
       (name "920641ba-d436-44d7-9e23-1d67d90416a3")
@@ -280,6 +208,66 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "block1")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "920641ba-d436-44d7-9e23-1d67d90416a3")
+    )
+    (platform
+      (running #f)
+      (name "block3")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "fb7803d8-c652-416d-b9f0-7117be375951")
+    )
+    (platform
+      (running #f)
+      (name "block5")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "ebb5a120-a673-45b6-a2af-a6ab0a063c4b")
+    )
+    (platform
+      (running #f)
+      (name "block7")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "1fe80455-ee6f-41fc-b77c-252fd2066a97")
+    )
+    (platform
+      (running #f)
+      (name "block2")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "5ddd92d2-ce31-4721-b6b3-6be4ff820cf0")
+    )
+    (platform
+      (running #f)
+      (name "block4")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "db2bcd69-940f-41ac-8d01-8b77f57c3573")
+    )
+    (platform
+      (running #f)
+      (name "block6")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "b184d373-b488-4515-b8bb-beb53c263212")
+    )
+    (platform
+      (running #f)
+      (name "door3")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "70d7d973-9b26-4a90-87f3-6b2f1c6e571e")
+    )
+    (platform
+      (running #f)
+      (name "door2")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "6792c2eb-100d-4312-a08b-2dacaa46d05c")
+    )
+    (platform
+      (running #f)
+      (name "door1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "809ba2e8-cddc-4442-b1cd-1a8e7a12fc73")
+    )
     (pushbutton
       (script "door1.goto_node(1);")
       (x 1760.5)
@@ -369,10 +357,17 @@
       (x 1356.9)
       (y 638.08)
     )
-    (sspiky
-      (direction "right")
-      (x 867.2448)
-      (y 156.2251)
+    (smartball
+      (x 485.2448)
+      (y 1195.225)
+    )
+    (smartball
+      (x 968.991)
+      (y 793.4009)
+    )
+    (smartball
+      (x 2167.89)
+      (y 294.6801)
     )
     (snowball
       (x 2719.89)
@@ -386,6 +381,11 @@
     (spiky
       (x 303.2448)
       (y 1399.225)
+    )
+    (sspiky
+      (direction "right")
+      (x 867.2448)
+      (y 156.2251)
     )
     (tilemap
       (solid #f)

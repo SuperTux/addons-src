@@ -187,18 +187,6 @@ Elevator2Flag <- true;")
       (x 4768)
       (y 64)
     )
-    (sspiky
-      (x 4918)
-      (y 458)
-    )
-    (sspiky
-      (x 8038)
-      (y 490)
-    )
-    (sspiky
-      (x 8838)
-      (y 458)
-    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -213,6 +201,18 @@ Elevator2Flag <- true;")
       (name "Secret1")
       (x 2576)
       (y 384)
+    )
+    (sspiky
+      (x 4918)
+      (y 458)
+    )
+    (sspiky
+      (x 8038)
+      (y 490)
+    )
+    (sspiky
+      (x 8838)
+      (y 458)
     )
     (tilemap
       (solid #f)

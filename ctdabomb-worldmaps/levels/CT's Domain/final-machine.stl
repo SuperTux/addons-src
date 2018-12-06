@@ -30,11 +30,6 @@
       (x 4259)
       (y 421)
     )
-    (platform
-      (name "fall2")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "f3b18e96-3c36-424e-9b06-35509228747e")
-    )
     (jumpy
       (x 4455)
       (y 744)
@@ -96,6 +91,11 @@
           (y 1024)
         )
       )
+    )
+    (platform
+      (name "fall2")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "f3b18e96-3c36-424e-9b06-35509228747e")
     )
     (scripttrigger
       (script "lava.goto_node(100)")

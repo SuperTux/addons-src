@@ -168,6 +168,8 @@
     (music
       (file "music/wisphunt.ogg")
     )
+    (particles-rain
+    )
     (path
       (name "9cb35798-ae59-4fd0-ac88-83a6f5de9a92")
       (path
@@ -278,8 +280,6 @@ play_sound(\"sounds/lifeup.wav\");
       (x 12864)
       (y 512)
     )
-    (particles-rain
-    )
     (scripttrigger
       (script "water.start_moving();
 ")
@@ -304,14 +304,6 @@ play_sound(\"sounds/lifeup.wav\");
       (x 11712)
       (y 0)
     )
-    (sspiky
-      (x 14886)
-      (y 394)
-    )
-    (sspiky
-      (x 15078)
-      (y 394)
-    )
     (snowball
       (x 8387)
       (y 516)
@@ -320,6 +312,14 @@ play_sound(\"sounds/lifeup.wav\");
       (name "main")
       (x 64)
       (y 448)
+    )
+    (sspiky
+      (x 14886)
+      (y 394)
+    )
+    (sspiky
+      (x 15078)
+      (y 394)
     )
     (thunderstorm
     )

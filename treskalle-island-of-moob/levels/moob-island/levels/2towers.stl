@@ -86,58 +86,6 @@
       (x 5728)
       (y 1600)
     )
-    (platform
-      (running #f)
-      (name "Elevator")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "fa2cc54c-840e-48d6-9c19-6064026a4127")
-    )
-    (platform
-      (running #f)
-      (name "NoWayBack")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "75c108c5-7da1-4978-a33f-4532607e5aa1")
-    )
-    (platform
-      (running #f)
-      (name "IspyBlock")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "f5244112-53c0-485d-808d-be54dbcd9c62")
-    )
-    (platform
-      (running #f)
-      (name "AngryStoneBlock")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "47665be3-3445-403e-9578-faac32baba74")
-    )
-    (platform
-      (running #f)
-      (name "ToMiddle")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "b6ff6b11-c66e-4c49-aca1-1d0efb4eb362")
-    )
-    (platform
-      (running #f)
-      (name "FromMiddle")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "d209a635-bef9-470f-8d05-bc14dbad8c27")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "0cf8421a-4911-4a7a-b5cd-5f8a23660d86")
-    )
-    (platform
-      (running #f)
-      (name "Elevator2")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "738f665a-b7de-43c7-828e-344238d9c6ea")
-    )
-    (platform
-      (running #f)
-      (name "Elevator3")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "79745313-216e-4ad5-95eb-02334fea7564")
-    )
     (haywire
       (x 2757)
       (y 1672)
@@ -192,50 +140,6 @@ NoWayBack.goto_node(1)")
     (mriceblock
       (x 4705)
       (y 1222)
-    )
-    (smartball
-      (x 2563)
-      (y 1670)
-    )
-    (smartball
-      (x 1667)
-      (y 358)
-    )
-    (smartball
-      (x 2691)
-      (y 358)
-    )
-    (smartball
-      (x 3619)
-      (y 1222)
-    )
-    (smartball
-      (x 4131)
-      (y 1062)
-    )
-    (smartball
-      (x 1955)
-      (y 358)
-    )
-    (smartball
-      (x 5603)
-      (y 358)
-    )
-    (smartball
-      (x 6787)
-      (y 358)
-    )
-    (smartball
-      (x 6627)
-      (y 582)
-    )
-    (smartball
-      (x 5571)
-      (y 1542)
-    )
-    (smartball
-      (x 6947)
-      (y 1606)
     )
     (music
       (file "music/greatgigantic.ogg")
@@ -357,6 +261,58 @@ NoWayBack.goto_node(1)")
         )
       )
     )
+    (platform
+      (running #f)
+      (name "Elevator")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "fa2cc54c-840e-48d6-9c19-6064026a4127")
+    )
+    (platform
+      (running #f)
+      (name "NoWayBack")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "75c108c5-7da1-4978-a33f-4532607e5aa1")
+    )
+    (platform
+      (running #f)
+      (name "IspyBlock")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "f5244112-53c0-485d-808d-be54dbcd9c62")
+    )
+    (platform
+      (running #f)
+      (name "AngryStoneBlock")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "47665be3-3445-403e-9578-faac32baba74")
+    )
+    (platform
+      (running #f)
+      (name "ToMiddle")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "b6ff6b11-c66e-4c49-aca1-1d0efb4eb362")
+    )
+    (platform
+      (running #f)
+      (name "FromMiddle")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "d209a635-bef9-470f-8d05-bc14dbad8c27")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "0cf8421a-4911-4a7a-b5cd-5f8a23660d86")
+    )
+    (platform
+      (running #f)
+      (name "Elevator2")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "738f665a-b7de-43c7-828e-344238d9c6ea")
+    )
+    (platform
+      (running #f)
+      (name "Elevator3")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "79745313-216e-4ad5-95eb-02334fea7564")
+    )
     (scripttrigger
       (script "Elevator.goto_node(1)
 wait(5)
@@ -419,6 +375,50 @@ Elevator3.goto_node(0)")
       (height 92)
       (x 5760)
       (y 736)
+    )
+    (smartball
+      (x 2563)
+      (y 1670)
+    )
+    (smartball
+      (x 1667)
+      (y 358)
+    )
+    (smartball
+      (x 2691)
+      (y 358)
+    )
+    (smartball
+      (x 3619)
+      (y 1222)
+    )
+    (smartball
+      (x 4131)
+      (y 1062)
+    )
+    (smartball
+      (x 1955)
+      (y 358)
+    )
+    (smartball
+      (x 5603)
+      (y 358)
+    )
+    (smartball
+      (x 6787)
+      (y 358)
+    )
+    (smartball
+      (x 6627)
+      (y 582)
+    )
+    (smartball
+      (x 5571)
+      (y 1542)
+    )
+    (smartball
+      (x 6947)
+      (y 1606)
     )
     (snowball
       (x 6979)

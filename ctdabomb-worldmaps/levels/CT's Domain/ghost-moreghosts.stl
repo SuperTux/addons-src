@@ -24,11 +24,6 @@
       (x 9058)
       (y 771)
     )
-    (particles-ghosts
-      (z-pos 200)
-    )
-    (particles-ghosts
-    )
     (igel
       (x 3938.1)
       (y 1030.1)
@@ -87,6 +82,11 @@
     )
     (music
       (file "music/ghostforest2.ogg")
+    )
+    (particles-ghosts
+      (z-pos 200)
+    )
+    (particles-ghosts
     )
     (poisonivy
       (x 7170)

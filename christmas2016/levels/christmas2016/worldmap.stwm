@@ -15,6 +15,46 @@
       (x 0)
       (y 0)
     )
+    (level
+      (color 1 1 1)
+      (extro-script "wait_for_screenswitch();
+    display_text_file( \"levels/christmas2016/outro.txt\" );")
+      (name "outro.stl")
+      (sprite "/images/objects/invisible/invisible.sprite")
+      (x 25)
+      (y 10)
+    )
+    (level
+      (color 1 1 1)
+      (name "christmas1.stl")
+      (sprite "images/worldmap/common/leveldot.sprite")
+      (x 14)
+      (y 11)
+    )
+    (level
+      (color 1 1 1)
+      (name "christmas2.stl")
+      (sprite "images/worldmap/common/leveldot.sprite")
+      (x 18)
+      (y 14)
+    )
+    (level
+      (color 1 1 1)
+      (name "christmas3.stl")
+      (sprite "images/worldmap/common/leveldot.sprite")
+      (x 23)
+      (y 12)
+    )
+    (level
+      (color 1 1 1)
+      (extro-script "wait_for_screenswitch();
+    display_text_file( \"levels/christmas2016/intro.txt\" );")
+      (auto-play #t)
+      (name "intro.stl")
+      (sprite "/images/objects/invisible/invisible.sprite")
+      (x 14)
+      (y 9)
+    )
     (tilemap
       (solid #t)
       (z-pos -100)
@@ -278,46 +318,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (level
-      (color 1 1 1)
-      (extro-script "wait_for_screenswitch();
-    display_text_file( \"levels/christmas2016/outro.txt\" );")
-      (name "outro.stl")
-      (sprite "/images/objects/invisible/invisible.sprite")
-      (x 25)
-      (y 10)
-    )
-    (level
-      (color 1 1 1)
-      (name "christmas1.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
-      (x 14)
-      (y 11)
-    )
-    (level
-      (color 1 1 1)
-      (name "christmas2.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
-      (x 18)
-      (y 14)
-    )
-    (level
-      (color 1 1 1)
-      (name "christmas3.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
-      (x 23)
-      (y 12)
-    )
-    (level
-      (color 1 1 1)
-      (extro-script "wait_for_screenswitch();
-    display_text_file( \"levels/christmas2016/intro.txt\" );")
-      (auto-play #t)
-      (name "intro.stl")
-      (sprite "/images/objects/invisible/invisible.sprite")
-      (x 14)
-      (y 9)
     )
     (worldmap-spawnpoint
       (name "main")

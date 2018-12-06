@@ -67,22 +67,6 @@
       (x 10384)
       (y 576)
     )
-    (platform
-      (running #f)
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "a0390e25-83a9-4643-b332-f56700c95573")
-    )
-    (platform
-      (running #f)
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "ebe56581-4f63-45d6-9bb2-61f51fdf31da")
-    )
-    (platform
-      (running #f)
-      (name "lastguy")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "d10bbb42-a051-4f32-a9fe-f361f6fa7c58")
-    )
     (flyingsnowball
       (x 5024)
       (y 288)
@@ -181,30 +165,6 @@
     )
     (mriceblock
       (x 9920)
-      (y 288)
-    )
-    (smartball
-      (x 512)
-      (y 416)
-    )
-    (smartball
-      (x 1888)
-      (y 416)
-    )
-    (smartball
-      (x 4320)
-      (y 416)
-    )
-    (smartball
-      (x 8640)
-      (y 416)
-    )
-    (smartball
-      (x 9760)
-      (y 288)
-    )
-    (smartball
-      (x 10112)
       (y 288)
     )
     (music
@@ -435,6 +395,22 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "a0390e25-83a9-4643-b332-f56700c95573")
+    )
+    (platform
+      (running #f)
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "ebe56581-4f63-45d6-9bb2-61f51fdf31da")
+    )
+    (platform
+      (running #f)
+      (name "lastguy")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "d10bbb42-a051-4f32-a9fe-f361f6fa7c58")
+    )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")
       (x 10112)
@@ -516,6 +492,30 @@
       (height 96)
       (x 9920)
       (y 608)
+    )
+    (smartball
+      (x 512)
+      (y 416)
+    )
+    (smartball
+      (x 1888)
+      (y 416)
+    )
+    (smartball
+      (x 4320)
+      (y 416)
+    )
+    (smartball
+      (x 8640)
+      (y 416)
+    )
+    (smartball
+      (x 9760)
+      (y 288)
+    )
+    (smartball
+      (x 10112)
+      (y 288)
     )
     (snowman
       (x 11456)

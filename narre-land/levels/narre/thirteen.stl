@@ -695,24 +695,6 @@
       (x 7936)
       (y 448)
     )
-    (platform
-      (running #f)
-      (name "kolo")
-      (sprite "images/objects/explosion/explosion.sprite")
-      (path-ref "1b9b2f97-0588-4295-b261-5dd22fd54a81")
-    )
-    (platform
-      (running #f)
-      (name "bib")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "d1be8492-5921-437e-863b-aae145cca531")
-    )
-    (platform
-      (running #f)
-      (name "momo")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path-ref "b945310a-95fd-4ec3-8c2d-45af90ad2dd7")
-    )
     (path
       (name "1b9b2f97-0588-4295-b261-5dd22fd54a81")
       (path
@@ -754,6 +736,24 @@
           (y 192)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "kolo")
+      (sprite "images/objects/explosion/explosion.sprite")
+      (path-ref "1b9b2f97-0588-4295-b261-5dd22fd54a81")
+    )
+    (platform
+      (running #f)
+      (name "bib")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "d1be8492-5921-437e-863b-aae145cca531")
+    )
+    (platform
+      (running #f)
+      (name "momo")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "b945310a-95fd-4ec3-8c2d-45af90ad2dd7")
     )
     (scripttrigger
       (script "bib.goto_node(1)")

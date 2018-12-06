@@ -82,14 +82,6 @@
       (x 771)
       (y 774)
     )
-    (sspiky
-      (x 1318)
-      (y 330)
-    )
-    (sspiky
-      (x 2918)
-      (y 458)
-    )
     (snowball
       (x 3523)
       (y 324)
@@ -126,6 +118,14 @@
     (spiky
       (x 4550)
       (y 234)
+    )
+    (sspiky
+      (x 1318)
+      (y 330)
+    )
+    (sspiky
+      (x 2918)
+      (y 458)
     )
     (stalactite
       (x 800)

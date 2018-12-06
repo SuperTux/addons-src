@@ -96,18 +96,6 @@
       (x 1281)
       (y 1894)
     )
-    (smartball
-      (x 1955)
-      (y 1606)
-    )
-    (smartball
-      (x 1699)
-      (y 1286)
-    )
-    (smartball
-      (x 1539)
-      (y 902)
-    )
     (music
       (file "music/battle_theme.ogg")
     )
@@ -159,6 +147,18 @@
       (height 124)
       (x 1108)
       (y 32)
+    )
+    (smartball
+      (x 1955)
+      (y 1606)
+    )
+    (smartball
+      (x 1699)
+      (y 1286)
+    )
+    (smartball
+      (x 1539)
+      (y 902)
     )
     (snowball
       (x 1443)

@@ -45,8 +45,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (door
       (sector "secret")
       (spawnpoint "main")
@@ -98,6 +96,10 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (particles-clouds
+    )
+    (particles-snow
+    )
     (secretarea
       (fade-tilemap "secret area")
       (message "Area secreta")
@@ -118,8 +120,6 @@
       (sprite "images/creatures/snowman/snowman.sprite")
       (x 1610)
       (y 963)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

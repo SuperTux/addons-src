@@ -74,6 +74,20 @@
       (x 8167)
       (y 264)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (particles-rain
+    )
+    (particles-snow
+    )
+    (secretarea
+      (fade-tilemap "secret1")
+      (width 392)
+      (height 212)
+      (x 4512)
+      (y 564)
+    )
     (smartball
       (x 835)
       (y 262)
@@ -94,17 +108,23 @@
       (x 3715)
       (y 294)
     )
-    (music
-      (file "music/chipdisko.ogg")
+    (snowman
+      (x 7978)
+      (y 483)
     )
-    (particles-rain
+    (spawnpoint
+      (name "main")
+      (x 224)
+      (y 416)
     )
-    (secretarea
-      (fade-tilemap "secret1")
-      (width 392)
-      (height 212)
-      (x 4512)
-      (y 564)
+    (spawnpoint
+      (name "AfterChamber")
+      (x 4704)
+      (y 288)
+    )
+    (spiky
+      (x 1574)
+      (y 682)
     )
     (sspiky
       (x 550)
@@ -121,26 +141,6 @@
     (sspiky
       (x 8710)
       (y 394)
-    )
-    (snowman
-      (x 7978)
-      (y 483)
-    )
-    (particles-snow
-    )
-    (spawnpoint
-      (name "main")
-      (x 224)
-      (y 416)
-    )
-    (spawnpoint
-      (name "AfterChamber")
-      (x 4704)
-      (y 288)
-    )
-    (spiky
-      (x 1574)
-      (y 682)
     )
     (thunderstorm
     )

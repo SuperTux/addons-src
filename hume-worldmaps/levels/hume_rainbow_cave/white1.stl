@@ -12,12 +12,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "krypl")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "5d5a9184-6ef2-44b7-bc99-be88273e18dc")
-    )
     (flyingsnowball
       (x 7040)
       (y 928)
@@ -99,6 +93,12 @@
           (time 8)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "krypl")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5d5a9184-6ef2-44b7-bc99-be88273e18dc")
     )
     (scripttrigger
       (script "secret_area(\"sa5\")")

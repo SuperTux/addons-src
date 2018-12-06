@@ -79,6 +79,9 @@
       (x 852)
       (y 394)
     )
+    (music
+      (file "music/fortress.music")
+    )
     (smartball
       (x 3191)
       (y 368)
@@ -94,13 +97,6 @@
     (smartball
       (x 5431)
       (y 368)
-    )
-    (music
-      (file "music/fortress.music")
-    )
-    (sspiky
-      (x 4678)
-      (y 554)
     )
     (smartblock
       (x 5077)
@@ -146,6 +142,10 @@
     (spiky
       (x 5014)
       (y 362)
+    )
+    (sspiky
+      (x 4678)
+      (y 554)
     )
     (tilemap
       (solid #f)

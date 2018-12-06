@@ -82,6 +82,25 @@
       (x 5953)
       (y 646)
     )
+    (secretarea
+      (width 64)
+      (height 128)
+      (x 7040)
+      (y 64)
+    )
+    (secretarea
+      (width 128)
+      (height 32)
+      (x 5088)
+      (y 96)
+    )
+    (secretarea
+      (fade-tilemap "Secret1")
+      (width 32)
+      (height 636)
+      (x 416)
+      (y 448)
+    )
     (smartball
       (x 1187)
       (y 518)
@@ -122,29 +141,6 @@
       (x 8195)
       (y 966)
     )
-    (secretarea
-      (width 64)
-      (height 128)
-      (x 7040)
-      (y 64)
-    )
-    (secretarea
-      (width 128)
-      (height 32)
-      (x 5088)
-      (y 96)
-    )
-    (secretarea
-      (fade-tilemap "Secret1")
-      (width 32)
-      (height 636)
-      (x 416)
-      (y 448)
-    )
-    (sspiky
-      (x 2150)
-      (y 618)
-    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -153,6 +149,10 @@
     (spiky
       (x 4646)
       (y 938)
+    )
+    (sspiky
+      (x 2150)
+      (y 618)
     )
     (tilemap
       (solid #f)

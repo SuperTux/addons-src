@@ -130,6 +130,16 @@
       (x 6366.1)
       (y 808.1)
     )
+    (music
+      (file "/music/chipdisko.ogg")
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 3200)
+      (x 7799)
+      (y 82)
+    )
     (smartball
       (direction "left")
       (sprite "images/creatures/snowball/smart-snowball.sprite")
@@ -159,16 +169,6 @@
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 610)
       (y 620)
-    )
-    (music
-      (file "/music/chipdisko.ogg")
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 3200)
-      (x 7799)
-      (y 82)
     )
     (smartblock
       (direction "left")

@@ -44,12 +44,6 @@
       (x 1961.5)
       (y 918)
     )
-    (platform
-      (running #f)
-      (name "p1")
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
-      (path-ref "f6950aa5-4d2b-45e4-9bd3-c592bd33ad2e")
-    )
     (goldbomb
       (direction "left")
       (sprite "images/creatures/gold_bomb/gold_bomb.sprite")
@@ -217,6 +211,12 @@
           (y 139)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "p1")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
+      (path-ref "f6950aa5-4d2b-45e4-9bd3-c592bd33ad2e")
     )
     (poisonivy
       (direction "left")
@@ -513,6 +513,21 @@
       (x 8251.5)
       (y 350)
     )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 480)
+    )
+    (spawnpoint
+      (name "door2")
+      (x 9450)
+      (y 929)
+    )
+    (spawnpoint
+      (name "door1")
+      (x 1862)
+      (y 926)
+    )
     (sspiky
       (direction "left")
       (sprite "images/creatures/spiky/sleepingspiky.sprite")
@@ -530,21 +545,6 @@
       (sprite "images/creatures/spiky/sleepingspiky.sprite")
       (x 5381.1)
       (y 921.1)
-    )
-    (spawnpoint
-      (name "main")
-      (x 64)
-      (y 480)
-    )
-    (spawnpoint
-      (name "door2")
-      (x 9450)
-      (y 929)
-    )
-    (spawnpoint
-      (name "door1")
-      (x 1862)
-      (y 926)
     )
     (switch
       (script "p1.start_moving();")

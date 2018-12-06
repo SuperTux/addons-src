@@ -21,12 +21,6 @@
       (x 256)
       (y 576)
     )
-    (platform
-      (running #f)
-      (name "chair")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "f7f52196-9944-4d2b-9805-d4ff8fbde07d")
-    )
     (music
       (file "music/battle_theme.music")
     )
@@ -46,6 +40,12 @@
           (y 832)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "chair")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "f7f52196-9944-4d2b-9805-d4ff8fbde07d")
     )
     (scripttrigger
       (script "Tux.deactivate();
@@ -554,10 +554,6 @@ Level.finish(true);")
       (x 361)
       (y 898)
     )
-    (sspiky
-      (x 1510)
-      (y 874)
-    )
     (spawnpoint
       (name "main")
       (x 128)
@@ -574,6 +570,10 @@ Level.finish(true);")
     )
     (spiky
       (x 1830)
+      (y 874)
+    )
+    (sspiky
+      (x 1510)
       (y 874)
     )
     (tilemap

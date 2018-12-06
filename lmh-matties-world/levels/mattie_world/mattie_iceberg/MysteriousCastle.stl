@@ -16,12 +16,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "trap")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "8ede518e-20a3-4e38-be4f-23b494843a3f")
-    )
     (mrbomb
       (x 448)
       (y 416)
@@ -163,6 +157,12 @@
           (time 4)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "trap")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "8ede518e-20a3-4e38-be4f-23b494843a3f")
     )
     (scriptedobject
       (z-pos 0)
@@ -428,102 +428,6 @@ gallery.fade(0,3);")
     (firefly
       (x 128)
       (y 96)
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "0bc83292-b5bb-4d1e-be59-1cd373a54a64")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "3db58690-1a66-4170-8ed4-9cc2bccf40e3")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "96cbb341-75fc-4e39-a2d0-a95b2cc0b695")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "934b57a6-bab8-4a36-b2bf-09df12dac055")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "79f24fb0-2296-42d5-b488-8f54cb3ec7ec")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "9461ae21-0acf-47bd-bcce-866195fbe23e")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "b4acefe8-1e96-4d03-a80f-9dbd2990d4d9")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "827ff0cb-c075-4678-89cc-8fd9736d10ce")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "701f30b3-493e-46f5-978a-c3d4837cb21c")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "b7d27159-3afc-4669-bd09-516d43c8c92c")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "059ac3c4-1834-46c1-ae75-cb1d970a5b79")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "aead7224-dfa5-4c2b-a712-815f393547c2")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "0fd6da0b-b2c3-41a0-8b4c-a201bc4f2f3a")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "222f88e6-9229-41a0-b992-05479a7adaa6")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "eac15698-de29-4e30-b4f8-8f8b642f98c2")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "d9c34750-d71d-4768-a2aa-dbd048a26e76")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "daaf6bab-2e69-4189-9ef3-fb225bf311e5")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "5cad8352-b7b9-4f98-8a68-770cdc498890")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "d4841883-9139-4b0c-8d28-1dca631893da")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "30ed0d1c-a401-468a-9703-af8f084f9560")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "8fa6c665-484a-45ef-ae3d-f24e4141733e")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "f56313da-b9ec-4a93-be59-5eab9a03606a")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "06b2a0c5-83b9-4d21-8fbb-489536898e73")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "bdfa04c5-7a13-4c22-b2aa-88ea16a094bf")
     )
     (gradient
       (top_color 0 0 0)
@@ -2967,6 +2871,102 @@ gallery.fade(0,3);")
           (y 544)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "0bc83292-b5bb-4d1e-be59-1cd373a54a64")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "3db58690-1a66-4170-8ed4-9cc2bccf40e3")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "96cbb341-75fc-4e39-a2d0-a95b2cc0b695")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "934b57a6-bab8-4a36-b2bf-09df12dac055")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "79f24fb0-2296-42d5-b488-8f54cb3ec7ec")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "9461ae21-0acf-47bd-bcce-866195fbe23e")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "b4acefe8-1e96-4d03-a80f-9dbd2990d4d9")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "827ff0cb-c075-4678-89cc-8fd9736d10ce")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "701f30b3-493e-46f5-978a-c3d4837cb21c")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "b7d27159-3afc-4669-bd09-516d43c8c92c")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "059ac3c4-1834-46c1-ae75-cb1d970a5b79")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "aead7224-dfa5-4c2b-a712-815f393547c2")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "0fd6da0b-b2c3-41a0-8b4c-a201bc4f2f3a")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "222f88e6-9229-41a0-b992-05479a7adaa6")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "eac15698-de29-4e30-b4f8-8f8b642f98c2")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "d9c34750-d71d-4768-a2aa-dbd048a26e76")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "daaf6bab-2e69-4189-9ef3-fb225bf311e5")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "5cad8352-b7b9-4f98-8a68-770cdc498890")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "d4841883-9139-4b0c-8d28-1dca631893da")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "30ed0d1c-a401-468a-9703-af8f084f9560")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "8fa6c665-484a-45ef-ae3d-f24e4141733e")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "f56313da-b9ec-4a93-be59-5eab9a03606a")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "06b2a0c5-83b9-4d21-8fbb-489536898e73")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "bdfa04c5-7a13-4c22-b2aa-88ea16a094bf")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"elevator\");")

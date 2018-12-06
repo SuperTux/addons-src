@@ -17,17 +17,6 @@
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
-    (particles-clouds
-      (z-pos 200)
-    )
-    (particles-clouds
-      (z-pos 0)
-    )
-    (particles-ghosts
-      (z-pos 0)
-    )
     (igel
       (x 2496)
       (y 256)
@@ -59,16 +48,27 @@
     (music
       (file "music/ghostforest2.ogg")
     )
-    (powerup
-      (sprite "images/powerups/fireflower/fireflower.sprite")
-      (x 1312)
-      (y 320)
+    (particles-clouds
+    )
+    (particles-clouds
+      (z-pos 200)
+    )
+    (particles-clouds
+      (z-pos 0)
+    )
+    (particles-ghosts
+      (z-pos 0)
     )
     (particles-rain
       (z-pos 900)
     )
     (particles-rain
       (z-pos -101)
+    )
+    (powerup
+      (sprite "images/powerups/fireflower/fireflower.sprite")
+      (x 1312)
+      (y 320)
     )
     (scripttrigger
       (script "kokot.fade(0,1)
@@ -544,16 +544,6 @@ koukot.fade(0,1)")
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
-    (particles-clouds
-      (z-pos 50)
-    )
-    (particles-clouds
-      (z-pos 120)
-    )
-    (particles-ghosts
-    )
     (igel
       (x 2240)
       (y 832)
@@ -576,6 +566,16 @@ koukot.fade(0,1)")
     )
     (music
       (file "music/ghostforest2.ogg")
+    )
+    (particles-clouds
+    )
+    (particles-clouds
+      (z-pos 50)
+    )
+    (particles-clouds
+      (z-pos 120)
+    )
+    (particles-ghosts
     )
     (particles-rain
       (z-pos 200)

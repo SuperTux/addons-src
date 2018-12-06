@@ -46,30 +46,6 @@ tooslow2.goto_node(3);
       (x 4271)
       (y 464)
     )
-    (platform
-      (running #f)
-      (name "s1")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "7561fbe0-40cc-47e8-b525-d488e85993ad")
-    )
-    (platform
-      (running #f)
-      (name "s2")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "a2b94eff-8fd0-4fef-9d17-8abd81defec1")
-    )
-    (platform
-      (running #f)
-      (name "tooslow1")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "113ef8ae-4fe4-47d3-9ed5-1ca58dbf6283")
-    )
-    (platform
-      (running #f)
-      (name "tooslow2")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "2c8f47ed-7fdf-4a9d-8eb4-b47df174609c")
-    )
     (flyingsnowball
       (x 4580)
       (y 771)
@@ -182,6 +158,30 @@ tooslow2.goto_node(3);
           (time 5)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "s1")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "7561fbe0-40cc-47e8-b525-d488e85993ad")
+    )
+    (platform
+      (running #f)
+      (name "s2")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "a2b94eff-8fd0-4fef-9d17-8abd81defec1")
+    )
+    (platform
+      (running #f)
+      (name "tooslow1")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "113ef8ae-4fe4-47d3-9ed5-1ca58dbf6283")
+    )
+    (platform
+      (running #f)
+      (name "tooslow2")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "2c8f47ed-7fdf-4a9d-8eb4-b47df174609c")
     )
     (powerup
       (script "find_fish(\"carry\");")
@@ -314,10 +314,6 @@ play_sound(\"sounds/lifeup.wav\");
       (x 6048)
       (y 596)
     )
-    (sspiky
-      (x 2182)
-      (y 650)
-    )
     (snowball
       (x 899)
       (y 644)
@@ -338,6 +334,10 @@ play_sound(\"sounds/lifeup.wav\");
       (name "main")
       (x 64)
       (y 448)
+    )
+    (sspiky
+      (x 2182)
+      (y 650)
     )
     (tilemap
       (solid #f)

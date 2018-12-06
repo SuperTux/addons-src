@@ -9,6 +9,48 @@
     (ambient-light
       (color 1 1 1)
     )
+    (level
+      (name "white7.stl")
+      (sprite "images/worldmap/common/shroom.sprite")
+      (x 13)
+      (y 12)
+    )
+    (level
+      (name "red7.stl")
+      (sprite "images/worldmap/common/shroom.sprite")
+      (x 18)
+      (y 12)
+    )
+    (level
+      (name "orange7.stl")
+      (sprite "images/worldmap/common/shroom.sprite")
+      (x 17)
+      (y 16)
+    )
+    (level
+      (name "yellow7.stl")
+      (sprite "images/worldmap/common/shroom.sprite")
+      (x 9)
+      (y 16)
+    )
+    (level
+      (name "green7.stl")
+      (sprite "images/worldmap/common/shroom.sprite")
+      (x 8)
+      (y 12)
+    )
+    (level
+      (name "blue7.stl")
+      (sprite "images/worldmap/common/shroom.sprite")
+      (x 9)
+      (y 8)
+    )
+    (level
+      (name "purple7.stl")
+      (sprite "images/worldmap/common/shroom.sprite")
+      (x 17)
+      (y 8)
+    )
     (special-tile
       (invisible-tile #t)
       (script "podzemak(true)")
@@ -195,48 +237,6 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
-    )
-    (level
-      (name "white7.stl")
-      (sprite "images/worldmap/common/shroom.sprite")
-      (x 13)
-      (y 12)
-    )
-    (level
-      (name "red7.stl")
-      (sprite "images/worldmap/common/shroom.sprite")
-      (x 18)
-      (y 12)
-    )
-    (level
-      (name "orange7.stl")
-      (sprite "images/worldmap/common/shroom.sprite")
-      (x 17)
-      (y 16)
-    )
-    (level
-      (name "yellow7.stl")
-      (sprite "images/worldmap/common/shroom.sprite")
-      (x 9)
-      (y 16)
-    )
-    (level
-      (name "green7.stl")
-      (sprite "images/worldmap/common/shroom.sprite")
-      (x 8)
-      (y 12)
-    )
-    (level
-      (name "blue7.stl")
-      (sprite "images/worldmap/common/shroom.sprite")
-      (x 9)
-      (y 8)
-    )
-    (level
-      (name "purple7.stl")
-      (sprite "images/worldmap/common/shroom.sprite")
-      (x 17)
-      (y 8)
     )
     (worldmap-spawnpoint
       (auto-dir "west")

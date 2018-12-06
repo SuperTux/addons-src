@@ -75,106 +75,6 @@
       (x 9545.084)
       (y 414.745)
     )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "f802c09f-fc3e-443d-8af2-352bedf7712b")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "41263634-f18a-429b-afb9-77d30c961c17")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "3eddc8c3-7334-45ed-9271-c6d6d3dcc4c4")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "3a8add96-369e-4ef7-8fd5-c9d22aabeba0")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "94ec8cb7-f55e-4056-bcb8-cab48858729c")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "1caf701b-d910-4222-b1f5-03c7c010dc0a")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "047d3772-7001-4b1d-957c-ebb241d031aa")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "4b3b1f59-6c78-468a-9d46-29b350cd4cf1")
-    )
-    (platform
-      (running #f)
-      (name "MovingIcefloe1")
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "494c70ba-3590-408f-b85f-12c3de67607a")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "1b5f37c8-650b-47ec-a75f-8083e7ef1ceb")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "b7091032-3b32-41f4-82f8-6cd2241e1ca1")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "5b42c403-7b0b-4a72-a81c-c2ef675e0c27")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "867166fe-31aa-4068-bab5-4fe16fa73620")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "e95fec69-f102-4959-8db6-5cf9e76a03b1")
-    )
-    (platform
-      (running #f)
-      (name "MovingIcefloe2")
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "e78d469f-bedf-422f-a5b4-bb7770051285")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "9c765eba-fbeb-4a1a-9c86-eb30608f80ba")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "4a3a7777-7afb-4f6f-852c-33057ad2127a")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "3974cdd5-9275-4fc5-9111-eceecf471c67")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "cb32d2ea-485a-4c7b-bc86-5e0fb832940f")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "a65244ec-fa19-40c7-832e-0860e02745f3")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "6c5b2a94-a9ee-4328-80ea-a934be9306d5")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "0818bee3-c8a9-41a2-bf5e-a1dbd70a5163")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "1bf3b171-0e78-4a07-84c7-5be5a43e1e10")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path-ref "86b608a3-212c-4547-9a51-2a06f1f9000c")
-    )
     (gradient
       (top_color 1 1 1)
       (bottom_color 0 1 1)
@@ -211,40 +111,10 @@
       (x 8506.804)
       (y 442.9533)
     )
-    (smartball
-      (x 678.0718)
-      (y 440.4607)
-    )
-    (smartball
-      (x 1413.072)
-      (y 440.4607)
-    )
-    (smartball
-      (x 2697.898)
-      (y 444.4294)
-    )
-    (smartball
-      (x 4392.917)
-      (y 434.9421)
-    )
-    (smartball
-      (x 5305.955)
-      (y 433.6519)
-    )
-    (smartball
-      (x 6255.976)
-      (y 436.7451)
-    )
-    (smartball
-      (x 8834.233)
-      (y 439.0537)
-    )
-    (smartball
-      (x 9738.033)
-      (y 434.8821)
-    )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (particles-snow
     )
     (path
       (name "f802c09f-fc3e-443d-8af2-352bedf7712b")
@@ -581,6 +451,106 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "f802c09f-fc3e-443d-8af2-352bedf7712b")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "41263634-f18a-429b-afb9-77d30c961c17")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "3eddc8c3-7334-45ed-9271-c6d6d3dcc4c4")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "3a8add96-369e-4ef7-8fd5-c9d22aabeba0")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "94ec8cb7-f55e-4056-bcb8-cab48858729c")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "1caf701b-d910-4222-b1f5-03c7c010dc0a")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "047d3772-7001-4b1d-957c-ebb241d031aa")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "4b3b1f59-6c78-468a-9d46-29b350cd4cf1")
+    )
+    (platform
+      (running #f)
+      (name "MovingIcefloe1")
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "494c70ba-3590-408f-b85f-12c3de67607a")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "1b5f37c8-650b-47ec-a75f-8083e7ef1ceb")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "b7091032-3b32-41f4-82f8-6cd2241e1ca1")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "5b42c403-7b0b-4a72-a81c-c2ef675e0c27")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "867166fe-31aa-4068-bab5-4fe16fa73620")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "e95fec69-f102-4959-8db6-5cf9e76a03b1")
+    )
+    (platform
+      (running #f)
+      (name "MovingIcefloe2")
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "e78d469f-bedf-422f-a5b4-bb7770051285")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "9c765eba-fbeb-4a1a-9c86-eb30608f80ba")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "4a3a7777-7afb-4f6f-852c-33057ad2127a")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "3974cdd5-9275-4fc5-9111-eceecf471c67")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "cb32d2ea-485a-4c7b-bc86-5e0fb832940f")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "a65244ec-fa19-40c7-832e-0860e02745f3")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "6c5b2a94-a9ee-4328-80ea-a934be9306d5")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "0818bee3-c8a9-41a2-bf5e-a1dbd70a5163")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "1bf3b171-0e78-4a07-84c7-5be5a43e1e10")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe_small.sprite")
+      (path-ref "86b608a3-212c-4547-9a51-2a06f1f9000c")
+    )
     (scripttrigger
       (script "MovingIcefloe1.goto_node(1)")
       (button #f)
@@ -597,7 +567,37 @@
       (x 6580)
       (y 448)
     )
-    (particles-snow
+    (smartball
+      (x 678.0718)
+      (y 440.4607)
+    )
+    (smartball
+      (x 1413.072)
+      (y 440.4607)
+    )
+    (smartball
+      (x 2697.898)
+      (y 444.4294)
+    )
+    (smartball
+      (x 4392.917)
+      (y 434.9421)
+    )
+    (smartball
+      (x 5305.955)
+      (y 433.6519)
+    )
+    (smartball
+      (x 6255.976)
+      (y 436.7451)
+    )
+    (smartball
+      (x 8834.233)
+      (y 439.0537)
+    )
+    (smartball
+      (x 9738.033)
+      (y 434.8821)
     )
     (spawnpoint
       (name "main")

@@ -15,8 +15,6 @@
     (camera
       (mode "normal")
     )
-    (particles-ghosts
-    )
     (jumpy
       (x 1959)
       (y 744)
@@ -95,6 +93,8 @@
     )
     (music
       (file "music/greatgigantic.music")
+    )
+    (particles-ghosts
     )
     (rock
       (x 288)

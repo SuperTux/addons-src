@@ -1271,6 +1271,16 @@
       (x 4000)
       (y 96)
     )
+    (spawnpoint
+      (name "main")
+      (x 128)
+      (y 320)
+    )
+    (spawnpoint
+      (name "ghost")
+      (x 4944)
+      (y 192)
+    )
     (sspiky
       (direction "right")
       (x 480)
@@ -1300,16 +1310,6 @@
       (direction "right")
       (x 3744)
       (y 288)
-    )
-    (spawnpoint
-      (name "main")
-      (x 128)
-      (y 320)
-    )
-    (spawnpoint
-      (name "ghost")
-      (x 4944)
-      (y 192)
     )
     (tilemap
       (solid #t)
@@ -1484,18 +1484,18 @@
       (x 416)
       (y 832)
     )
-    (particles-ghosts
-      (z-pos -10)
-    )
-    (particles-ghosts
-      (z-pos 10)
-    )
     (gradient
       (top_color 0 0.1 0.05)
       (bottom_color 0 0.1 0.05)
     )
     (music
       (file "music/ghostforest.ogg")
+    )
+    (particles-ghosts
+      (z-pos -10)
+    )
+    (particles-ghosts
+      (z-pos 10)
     )
     (path
       (name "d68c134c-0937-409e-8a08-2ee9e9f0ef63")

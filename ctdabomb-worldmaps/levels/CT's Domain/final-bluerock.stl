@@ -17,34 +17,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "1bd3d614-046b-4a92-9f53-334e632c0ff3")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "05296e75-126f-49c2-8f2f-7f6b21051503")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "20c08f99-8cee-4f08-a359-13d90f7a5043")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "575d7740-5b00-45bb-a569-e4c5c9f29055")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "7c653191-364d-4753-af7b-bd0e3072638f")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "5d9653fa-cffe-4f11-8a4b-775de6c2b7b4")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "1d8ce145-4369-4234-957b-c20e4fe72dbe")
-    )
     (haywire
       (x 4453)
       (y 616)
@@ -84,34 +56,6 @@
     (mrbomb
       (x 1925)
       (y 584)
-    )
-    (smartball
-      (x 3107)
-      (y 614)
-    )
-    (smartball
-      (x 3683)
-      (y 614)
-    )
-    (smartball
-      (x 547)
-      (y 614)
-    )
-    (smartball
-      (x 1187)
-      (y 678)
-    )
-    (smartball
-      (x 1827)
-      (y 582)
-    )
-    (smartball
-      (x 2435)
-      (y 678)
-    )
-    (smartball
-      (x 4387)
-      (y 614)
     )
     (music
       (file "music/salcon.ogg")
@@ -242,6 +186,62 @@
           (y 960)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "1bd3d614-046b-4a92-9f53-334e632c0ff3")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "05296e75-126f-49c2-8f2f-7f6b21051503")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "20c08f99-8cee-4f08-a359-13d90f7a5043")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "575d7740-5b00-45bb-a569-e4c5c9f29055")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "7c653191-364d-4753-af7b-bd0e3072638f")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5d9653fa-cffe-4f11-8a4b-775de6c2b7b4")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "1d8ce145-4369-4234-957b-c20e4fe72dbe")
+    )
+    (smartball
+      (x 3107)
+      (y 614)
+    )
+    (smartball
+      (x 3683)
+      (y 614)
+    )
+    (smartball
+      (x 547)
+      (y 614)
+    )
+    (smartball
+      (x 1187)
+      (y 678)
+    )
+    (smartball
+      (x 1827)
+      (y 582)
+    )
+    (smartball
+      (x 2435)
+      (y 678)
+    )
+    (smartball
+      (x 4387)
+      (y 614)
     )
     (spawnpoint
       (name "main")

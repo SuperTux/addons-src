@@ -112,10 +112,6 @@
       (x 3916.554)
       (y 2510.379)
     )
-    (smartball
-      (x 3741.85)
-      (y 2460.261)
-    )
     (path
       (name "27345b7f-e88a-4191-a82d-18e024a3a30a")
       (path
@@ -182,9 +178,9 @@ cave_in.goto_node(2);")
       (x 4768)
       (y 2752)
     )
-    (sspiky
-      (x 4211.468)
-      (y 2606.303)
+    (smartball
+      (x 3741.85)
+      (y 2460.261)
     )
     (snowball
       (x 3566.488)
@@ -202,6 +198,10 @@ cave_in.goto_node(2);")
       (name "main")
       (x 192)
       (y 1216)
+    )
+    (sspiky
+      (x 4211.468)
+      (y 2606.303)
     )
     (stalactite
       (x 804.9462)

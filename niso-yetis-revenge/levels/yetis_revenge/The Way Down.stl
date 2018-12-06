@@ -121,44 +121,6 @@
       (x 6986.666)
       (y 1699)
     )
-    (platform
-      (running #f)
-      (name "plat1")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "54c9a64b-801f-4a35-8c20-6e5361d1e3bf")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "1ab0f3b6-61e6-4bfd-a9de-431179cd8cc1")
-    )
-    (platform
-      (running #f)
-      (name "p1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "76b6927a-1a62-46c8-b5e6-89451ecc09e3")
-    )
-    (platform
-      (running #f)
-      (name "plat2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "a9bbe2c8-3318-46f6-862b-d84390e0881c")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "7386723e-b7e5-46d5-bd32-eaa42fd23fa0")
-    )
-    (platform
-      (running #f)
-      (name "plat3")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "70bc1810-69d2-4dea-b9ed-022256d996d2")
-    )
-    (platform
-      (running #f)
-      (name "plat4")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "14694183-0981-4c2f-b4a9-33dd0fca01b5")
-    )
     (flyingsnowball
       (x 8212.531)
       (y 1804.831)
@@ -209,6 +171,9 @@
     )
     (music
       (file "music/cave.ogg")
+    )
+    (particles-snow
+      (z-pos -202)
     )
     (path
       (name "54c9a64b-801f-4a35-8c20-6e5361d1e3bf")
@@ -424,6 +389,44 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "plat1")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "54c9a64b-801f-4a35-8c20-6e5361d1e3bf")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "1ab0f3b6-61e6-4bfd-a9de-431179cd8cc1")
+    )
+    (platform
+      (running #f)
+      (name "p1")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "76b6927a-1a62-46c8-b5e6-89451ecc09e3")
+    )
+    (platform
+      (running #f)
+      (name "plat2")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "a9bbe2c8-3318-46f6-862b-d84390e0881c")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "7386723e-b7e5-46d5-bd32-eaa42fd23fa0")
+    )
+    (platform
+      (running #f)
+      (name "plat3")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "70bc1810-69d2-4dea-b9ed-022256d996d2")
+    )
+    (platform
+      (running #f)
+      (name "plat4")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "14694183-0981-4c2f-b4a9-33dd0fca01b5")
+    )
     (powerup
       (script "find_fish(\"down\")")
       (disable-physics #t)
@@ -611,6 +614,24 @@ Effect.fade_in(1);")
       (x 10900)
       (y 4084)
     )
+    (snowman
+      (x 2122)
+      (y 451)
+    )
+    (spawnpoint
+      (name "main")
+      (x 160)
+      (y 192)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 10134.1)
+      (y 4400.444)
+    )
+    (spiky
+      (x 1062)
+      (y 362)
+    )
     (sspiky
       (direction "right")
       (x 8098.433)
@@ -628,27 +649,6 @@ Effect.fade_in(1);")
     (sspiky
       (x 8684.491)
       (y 5691.489)
-    )
-    (snowman
-      (x 2122)
-      (y 451)
-    )
-    (particles-snow
-      (z-pos -202)
-    )
-    (spawnpoint
-      (name "main")
-      (x 160)
-      (y 192)
-    )
-    (spawnpoint
-      (name "main2")
-      (x 10134.1)
-      (y 4400.444)
-    )
-    (spiky
-      (x 1062)
-      (y 362)
     )
     (stalactite
       (x 7296.267)

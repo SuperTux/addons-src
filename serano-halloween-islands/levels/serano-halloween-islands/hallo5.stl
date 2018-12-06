@@ -56,8 +56,6 @@
       (x 8896)
       (y 404)
     )
-    (particles-clouds
-    )
     (decal
       (sprite "images/decal/halloween/gravestone1.png")
       (x 64)
@@ -239,12 +237,6 @@
       (x 7520)
       (y 864)
     )
-    (platform
-      (running #f)
-      (name "bridge1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "3308a2a5-7ad2-4a81-9e42-e595580ae0df")
-    )
     (goldbomb
       (x 10501)
       (y 776)
@@ -292,6 +284,48 @@
     (mrbomb
       (x 11109)
       (y 264)
+    )
+    (music
+      (file "music/ghostforest2.ogg")
+    )
+    (particles-clouds
+    )
+    (path
+      (name "3308a2a5-7ad2-4a81-9e42-e595580ae0df")
+      (path
+        (node
+          (x 8544)
+          (y 800)
+        )
+        (node
+          (x 8544)
+          (y 1088)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (name "bridge1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "3308a2a5-7ad2-4a81-9e42-e595580ae0df")
+    )
+    (secretarea
+      (width 156)
+      (height 56)
+      (x 4128)
+      (y 448)
+    )
+    (short_fuse
+      (x 8265)
+      (y 514)
+    )
+    (short_fuse
+      (x 8393)
+      (y 514)
+    )
+    (short_fuse
+      (x 13513)
+      (y 738)
     )
     (smartball
       (sprite "images/creatures/kirby/kirby.sprite")
@@ -347,40 +381,6 @@
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 13288)
       (y 684)
-    )
-    (music
-      (file "music/ghostforest2.ogg")
-    )
-    (path
-      (name "3308a2a5-7ad2-4a81-9e42-e595580ae0df")
-      (path
-        (node
-          (x 8544)
-          (y 800)
-        )
-        (node
-          (x 8544)
-          (y 1088)
-        )
-      )
-    )
-    (secretarea
-      (width 156)
-      (height 56)
-      (x 4128)
-      (y 448)
-    )
-    (short_fuse
-      (x 8265)
-      (y 514)
-    )
-    (short_fuse
-      (x 8393)
-      (y 514)
-    )
-    (short_fuse
-      (x 13513)
-      (y 738)
     )
     (snowball
       (sprite "images/creatures/kirby/kirby.sprite")

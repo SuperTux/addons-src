@@ -24,18 +24,6 @@
       (x 5824)
       (y 1312)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "9d6bbbc8-c8e3-40c8-b47e-8a4d52b18c6c")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "3a5dccdd-2da6-402e-ac8d-0ca05730c52d")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "348e9376-1aa4-498d-b19c-908c11ba325a")
-    )
     (jumpy
       (x 14599)
       (y 1160)
@@ -98,6 +86,18 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "9d6bbbc8-c8e3-40c8-b47e-8a4d52b18c6c")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "3a5dccdd-2da6-402e-ac8d-0ca05730c52d")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "348e9376-1aa4-498d-b19c-908c11ba325a")
+    )
     (poisonivy
       (x 578)
       (y 964)
@@ -126,10 +126,6 @@
       (x 10178)
       (y 1028)
     )
-    (sspiky
-      (x 15206)
-      (y 1354)
-    )
     (snail
       (x 2946)
       (y 1379)
@@ -138,6 +134,10 @@
       (name "main")
       (x 160)
       (y 864)
+    )
+    (sspiky
+      (x 15206)
+      (y 1354)
     )
     (tilemap
       (solid #f)

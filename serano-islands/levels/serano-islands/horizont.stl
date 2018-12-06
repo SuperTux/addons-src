@@ -16,14 +16,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "841efd6f-20f4-4be8-98d0-cda6c21b6d62")
-    )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
-      (path-ref "29696f02-2223-498c-98c2-14fd1fdf34c0")
-    )
     (jumpy
       (x 2464)
       (y 512)
@@ -63,6 +55,8 @@
     (music
       (file "music/voc-daytime2.ogg")
     )
+    (particles-snow
+    )
     (path
       (name "841efd6f-20f4-4be8-98d0-cda6c21b6d62")
       (path
@@ -81,17 +75,13 @@
         )
       )
     )
-    (sspiky
-      (x 1376)
-      (y 320)
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "841efd6f-20f4-4be8-98d0-cda6c21b6d62")
     )
-    (sspiky
-      (x 5216)
-      (y 224)
-    )
-    (sspiky
-      (x 6336)
-      (y 352)
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "29696f02-2223-498c-98c2-14fd1fdf34c0")
     )
     (snowball
       (x 1728)
@@ -109,8 +99,6 @@
       (x 8192)
       (y 416)
     )
-    (particles-snow
-    )
     (spawnpoint
       (name "main")
       (x 160)
@@ -119,6 +107,18 @@
     (spiky
       (x 6048)
       (y 320)
+    )
+    (sspiky
+      (x 1376)
+      (y 320)
+    )
+    (sspiky
+      (x 5216)
+      (y 224)
+    )
+    (sspiky
+      (x 6336)
+      (y 352)
     )
     (tilemap
       (solid #f)

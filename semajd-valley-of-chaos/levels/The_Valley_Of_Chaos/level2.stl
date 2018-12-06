@@ -53,11 +53,6 @@
       (x 5027)
       (y -59)
     )
-    (platform
-      (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "f56bddf2-2290-4489-aa6f-5acb9df0fcb5")
-    )
     (flyingsnowball
       (x 7492)
       (y 163)
@@ -91,48 +86,10 @@
       (x 3585)
       (y 742)
     )
-    (smartball
-      (x 931)
-      (y 646)
-    )
-    (smartball
-      (x 1059)
-      (y 486)
-    )
-    (smartball
-      (x 1283)
-      (y 390)
-    )
-    (smartball
-      (x 1539)
-      (y 294)
-    )
-    (smartball
-      (x 1923)
-      (y 294)
-    )
-    (smartball
-      (x 4003)
-      (y 646)
-    )
-    (smartball
-      (x 4099)
-      (y 614)
-    )
-    (smartball
-      (x 3779)
-      (y 710)
-    )
-    (smartball
-      (x 3907)
-      (y 678)
-    )
-    (smartball
-      (x 4195)
-      (y 582)
-    )
     (music
       (file "music/voc-daytime.music")
+    )
+    (particles-snow
     )
     (path
       (name "f56bddf2-2290-4489-aa6f-5acb9df0fcb5")
@@ -221,12 +178,57 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "f56bddf2-2290-4489-aa6f-5acb9df0fcb5")
+    )
     (secretarea
       (fade-tilemap "secret")
       (width 60)
       (height 220)
       (x 2304)
       (y 832)
+    )
+    (smartball
+      (x 931)
+      (y 646)
+    )
+    (smartball
+      (x 1059)
+      (y 486)
+    )
+    (smartball
+      (x 1283)
+      (y 390)
+    )
+    (smartball
+      (x 1539)
+      (y 294)
+    )
+    (smartball
+      (x 1923)
+      (y 294)
+    )
+    (smartball
+      (x 4003)
+      (y 646)
+    )
+    (smartball
+      (x 4099)
+      (y 614)
+    )
+    (smartball
+      (x 3779)
+      (y 710)
+    )
+    (smartball
+      (x 3907)
+      (y 678)
+    )
+    (smartball
+      (x 4195)
+      (y 582)
     )
     (snowman
       (x 842)
@@ -243,8 +245,6 @@
     (snowman
       (x 2986)
       (y 707)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

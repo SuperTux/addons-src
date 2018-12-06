@@ -41,8 +41,6 @@ bonus1.set_alpha(0);
       (x 1698)
       (y 709)
     )
-    (particles-clouds
-    )
     (firefly
       (x 4128)
       (y 512)
@@ -103,18 +101,6 @@ bonus1.set_alpha(0);
       (x 9154)
       (y 899)
     )
-    (platform
-      (running #f)
-      (name "trans1")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "f713be3e-cc72-4512-b550-9dba8d877864")
-    )
-    (platform
-      (running #f)
-      (name "trans2")
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "37af9044-0f16-4c2e-83e1-5d604f8c4779")
-    )
     (flyingsnowball
       (x 1796)
       (y 579)
@@ -159,20 +145,10 @@ bonus1.set_alpha(0);
       (x 9093)
       (y 840)
     )
-    (smartball
-      (x 4355)
-      (y 870)
-    )
-    (smartball
-      (x 4739)
-      (y 550)
-    )
-    (smartball
-      (x 8579)
-      (y 678)
-    )
     (music
       (file "music/salcon.ogg")
+    )
+    (particles-clouds
     )
     (path
       (name "f713be3e-cc72-4512-b550-9dba8d877864")
@@ -243,6 +219,18 @@ bonus1.set_alpha(0);
           (y 768)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "trans1")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "f713be3e-cc72-4512-b550-9dba8d877864")
+    )
+    (platform
+      (running #f)
+      (name "trans2")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "37af9044-0f16-4c2e-83e1-5d604f8c4779")
     )
     (powerup
       (script "this.c1 <- true
@@ -424,6 +412,18 @@ chain2.goto_node(2);")
       (height 88.56854)
       (x 0.4608002)
       (y 807.1644)
+    )
+    (smartball
+      (x 4355)
+      (y 870)
+    )
+    (smartball
+      (x 4739)
+      (y 550)
+    )
+    (smartball
+      (x 8579)
+      (y 678)
     )
     (spawnpoint
       (name "main")

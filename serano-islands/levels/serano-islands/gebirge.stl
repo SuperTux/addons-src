@@ -20,34 +20,6 @@
       (x 2432)
       (y 704)
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "f7f5cc06-5eec-4ac0-b99d-84d59f602c30")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "d1b229ef-87fc-4dec-b644-da4800a40348")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "6509260c-416e-43f6-9e6e-6f20156ecd0c")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "8d6db5ae-72b3-4197-98cd-2680d7b8faea")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "3d73b18c-2c8d-4a44-bdcd-0dae89868a66")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "9486cf8c-01e5-4ee2-bac4-5c886acd12b0")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "bae9a5ce-b036-4745-b6eb-4cd462cd1e56")
-    )
     (jumpy
       (x 1472)
       (y 704)
@@ -158,19 +130,39 @@
         )
       )
     )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "f7f5cc06-5eec-4ac0-b99d-84d59f602c30")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "d1b229ef-87fc-4dec-b644-da4800a40348")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "6509260c-416e-43f6-9e6e-6f20156ecd0c")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "8d6db5ae-72b3-4197-98cd-2680d7b8faea")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "3d73b18c-2c8d-4a44-bdcd-0dae89868a66")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "9486cf8c-01e5-4ee2-bac4-5c886acd12b0")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "bae9a5ce-b036-4745-b6eb-4cd462cd1e56")
+    )
     (secretarea
       (width 168)
       (height 168)
       (x 20)
       (y 20)
-    )
-    (sspiky
-      (x 4608)
-      (y 544)
-    )
-    (sspiky
-      (x 7552)
-      (y 608)
     )
     (snowball
       (x 2880)
@@ -191,6 +183,14 @@
     (spawnpoint
       (name "main")
       (x 128)
+      (y 608)
+    )
+    (sspiky
+      (x 4608)
+      (y 544)
+    )
+    (sspiky
+      (x 7552)
       (y 608)
     )
     (tilemap

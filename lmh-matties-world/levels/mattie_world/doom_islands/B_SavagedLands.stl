@@ -804,10 +804,6 @@
       (x 5616)
       (y 1456)
     )
-    (sspiky
-      (x 1264)
-      (y 576)
-    )
     (snail
       (x 3552)
       (y 1056)
@@ -820,6 +816,10 @@
       (name "main")
       (x 64)
       (y 1088)
+    )
+    (sspiky
+      (x 1264)
+      (y 576)
     )
     (switch
       (script "  up.start();

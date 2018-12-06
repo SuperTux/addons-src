@@ -192,10 +192,6 @@
     (music
       (file "music/chipdisko.ogg")
     )
-    (sspiky
-      (x 8192)
-      (y 480)
-    )
     (snowball
       (x 1376)
       (y 288)
@@ -288,6 +284,10 @@
     (spiky
       (x 17856)
       (y 352)
+    )
+    (sspiky
+      (x 8192)
+      (y 480)
     )
     (stalactite
       (x 7728.971)

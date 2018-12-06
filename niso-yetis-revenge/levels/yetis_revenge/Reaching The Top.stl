@@ -88,134 +88,6 @@ wait(0.6);
       (x 1248)
       (y 1376)
     )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "e10498df-a4c0-4383-a7db-bebdec6fe187")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "400854c4-9d01-4dfc-9678-808ff323cafb")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "b7a0f733-f0bd-4f82-8b19-74e48c9701d8")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "b66277e2-41a8-482f-9291-3015ef53be76")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "7eabaa7f-c139-45f5-bea1-9e8dfee5ee52")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "d4447c3a-a200-4efd-9a2d-b33303186090")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "f60e2ece-be2e-445b-807f-0eedc5dd6cac")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "fe737d33-7c55-4463-af5d-655b958a3d02")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "b3b47cd6-8fc9-4592-b306-7d1d16f3c66e")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "0245ef67-8c60-4e16-b76a-8a3f3b3d11b2")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "4ea46c8c-eed6-4ff5-9cf4-34489690508c")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "43562df3-12da-4b12-ba41-544f347456b9")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "5ce68f04-dca6-4ed7-9e26-a5df95f396d8")
-    )
-    (platform
-      (running #f)
-      (name "ud4")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "7e6b1451-82d9-43eb-9d6f-079d444d2d0f")
-    )
-    (platform
-      (running #f)
-      (name "ud1")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "82e39391-661b-4ba8-bc42-927ed212aac3")
-    )
-    (platform
-      (running #f)
-      (name "lr1")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "a65429be-172e-4928-83aa-c621323230b7")
-    )
-    (platform
-      (running #f)
-      (name "lr2")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "dbaeef7a-49b4-4da2-b9af-8d8e858ecc58")
-    )
-    (platform
-      (running #f)
-      (name "ud2")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "78221ae8-77a1-4bd7-9895-894773b5468d")
-    )
-    (platform
-      (running #f)
-      (name "ud3")
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "8c657e92-020b-4c73-8396-46f9362b3690")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "760e822a-6524-4156-96f2-ff33eac37352")
-    )
-    (platform
-      (sprite "images/objects/platforms/big.sprite")
-      (path-ref "a77f3ee9-d7e1-4b3c-91ab-2366ddecd65a")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "6ce7592e-7c1c-4c93-8d6a-b01966dcd5f2")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "1e3deba5-1526-4733-82e1-07a7587daa32")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "7bcc4b63-a3ec-47db-8098-0bcf89dd2495")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "c3fe53c6-5410-416c-85ed-e6ade5208c90")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "52f36fd2-f506-4c56-9945-4cdfa8b90387")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "c210e457-8d23-4157-ba2c-964e7bb5e06b")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "feac19a1-f7f0-4084-a270-a760c8f793fd")
-    )
-    (platform
-      (sprite "images/objects/platforms/small.sprite")
-      (path-ref "3cf108de-75fe-4fdc-bc10-aebe724a5411")
-    )
     (flyingsnowball
       (x 1860)
       (y 3715)
@@ -258,6 +130,9 @@ wait(0.6);
     )
     (music
       (file "music/cave.ogg")
+    )
+    (particles-snow
+      (z-pos -202)
     )
     (path
       (name "e10498df-a4c0-4383-a7db-bebdec6fe187")
@@ -980,6 +855,134 @@ wait(0.6);
         )
       )
     )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "e10498df-a4c0-4383-a7db-bebdec6fe187")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "400854c4-9d01-4dfc-9678-808ff323cafb")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "b7a0f733-f0bd-4f82-8b19-74e48c9701d8")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "b66277e2-41a8-482f-9291-3015ef53be76")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "7eabaa7f-c139-45f5-bea1-9e8dfee5ee52")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "d4447c3a-a200-4efd-9a2d-b33303186090")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "f60e2ece-be2e-445b-807f-0eedc5dd6cac")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "fe737d33-7c55-4463-af5d-655b958a3d02")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "b3b47cd6-8fc9-4592-b306-7d1d16f3c66e")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "0245ef67-8c60-4e16-b76a-8a3f3b3d11b2")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "4ea46c8c-eed6-4ff5-9cf4-34489690508c")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "43562df3-12da-4b12-ba41-544f347456b9")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "5ce68f04-dca6-4ed7-9e26-a5df95f396d8")
+    )
+    (platform
+      (running #f)
+      (name "ud4")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "7e6b1451-82d9-43eb-9d6f-079d444d2d0f")
+    )
+    (platform
+      (running #f)
+      (name "ud1")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "82e39391-661b-4ba8-bc42-927ed212aac3")
+    )
+    (platform
+      (running #f)
+      (name "lr1")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "a65429be-172e-4928-83aa-c621323230b7")
+    )
+    (platform
+      (running #f)
+      (name "lr2")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "dbaeef7a-49b4-4da2-b9af-8d8e858ecc58")
+    )
+    (platform
+      (running #f)
+      (name "ud2")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "78221ae8-77a1-4bd7-9895-894773b5468d")
+    )
+    (platform
+      (running #f)
+      (name "ud3")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "8c657e92-020b-4c73-8396-46f9362b3690")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "760e822a-6524-4156-96f2-ff33eac37352")
+    )
+    (platform
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "a77f3ee9-d7e1-4b3c-91ab-2366ddecd65a")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "6ce7592e-7c1c-4c93-8d6a-b01966dcd5f2")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "1e3deba5-1526-4733-82e1-07a7587daa32")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "7bcc4b63-a3ec-47db-8098-0bcf89dd2495")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "c3fe53c6-5410-416c-85ed-e6ade5208c90")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "52f36fd2-f506-4c56-9945-4cdfa8b90387")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "c210e457-8d23-4157-ba2c-964e7bb5e06b")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "feac19a1-f7f0-4084-a270-a760c8f793fd")
+    )
+    (platform
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "3cf108de-75fe-4fdc-bc10-aebe724a5411")
+    )
     (powerup
       (script "find_fish(\"reaching\")")
       (disable-physics #t)
@@ -1125,6 +1128,21 @@ lr2.start_moving();")
       (x 2697)
       (y 4482)
     )
+    (spawnpoint
+      (name "main")
+      (x 1694.274)
+      (y 4521.737)
+    )
+    (spiky
+      (direction "right")
+      (x 230)
+      (y 1930)
+    )
+    (spiky
+      (direction "right")
+      (x 390)
+      (y 1930)
+    )
     (sspiky
       (direction "right")
       (x 1254)
@@ -1149,24 +1167,6 @@ lr2.start_moving();")
     (sspiky
       (x 2310)
       (y 138)
-    )
-    (particles-snow
-      (z-pos -202)
-    )
-    (spawnpoint
-      (name "main")
-      (x 1694.274)
-      (y 4521.737)
-    )
-    (spiky
-      (direction "right")
-      (x 230)
-      (y 1930)
-    )
-    (spiky
-      (direction "right")
-      (x 390)
-      (y 1930)
     )
     (tilemap
       (solid #f)

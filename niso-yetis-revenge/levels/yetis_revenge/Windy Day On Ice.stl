@@ -46,8 +46,6 @@ block.set_alpha(0);
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (firefly
       (x 4448)
       (y 608)
@@ -86,6 +84,8 @@ block.set_alpha(0);
     )
     (music
       (file "music/salcon.ogg")
+    )
+    (particles-clouds
     )
     (powerup
       (script "this.c2 <- true
@@ -220,6 +220,16 @@ block.set_alpha(0);")
       (x 9120)
       (y 212)
     )
+    (spawnpoint
+      (name "main")
+      (x 32)
+      (y 608)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 3456)
+      (y 448)
+    )
     (sspiky
       (x 6790)
       (y 906)
@@ -231,16 +241,6 @@ block.set_alpha(0);")
     (sspiky
       (x 7494)
       (y 458)
-    )
-    (spawnpoint
-      (name "main")
-      (x 32)
-      (y 608)
-    )
-    (spawnpoint
-      (name "main2")
-      (x 3456)
-      (y 448)
     )
     (tilemap
       (solid #f)

@@ -195,6 +195,9 @@
       (x 1697)
       (y 998)
     )
+    (music
+      (file "music/cave.music")
+    )
     (smartball
       (x 1219)
       (y 838)
@@ -218,9 +221,6 @@
     (smartball
       (x 1507)
       (y 742)
-    )
-    (music
-      (file "music/cave.music")
     )
     (snowball
       (x 963)
@@ -508,14 +508,6 @@
       (x 1701)
       (y 360)
     )
-    (smartball
-      (x 4355)
-      (y 550)
-    )
-    (smartball
-      (x 11459)
-      (y 454)
-    )
     (music
       (file "music/chipdisko.ogg")
     )
@@ -562,6 +554,14 @@
       (height 44)
       (x 12608)
       (y 180)
+    )
+    (smartball
+      (x 4355)
+      (y 550)
+    )
+    (smartball
+      (x 11459)
+      (y 454)
     )
     (snowball
       (x 835)

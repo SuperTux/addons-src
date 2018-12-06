@@ -141,14 +141,14 @@
     (music
       (file "music/cave.ogg")
     )
-    (sspiky
-      (x 1318)
-      (y 362)
-    )
     (spawnpoint
       (name "main")
       (x 96)
       (y 96)
+    )
+    (sspiky
+      (x 1318)
+      (y 362)
     )
     (tilemap
       (solid #f)

@@ -31,11 +31,6 @@
       (x 2947)
       (y 12549)
     )
-    (platform
-      (name "plateforme1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "58cf657f-894a-46a0-b5d1-655d4afcac9d")
-    )
     (mrbomb
       (x 421)
       (y 12424)
@@ -172,6 +167,71 @@
       (x 3041)
       (y 774)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "58cf657f-894a-46a0-b5d1-655d4afcac9d")
+      (path
+        (node
+          (x 896)
+          (y 2560)
+          (time 4)
+        )
+        (node
+          (x 896)
+          (y 1824)
+          (time 4)
+        )
+      )
+    )
+    (platform
+      (name "plateforme1")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "58cf657f-894a-46a0-b5d1-655d4afcac9d")
+    )
+    (rock
+      (x 352)
+      (y 2560)
+    )
+    (rock
+      (x 384)
+      (y 2560)
+    )
+    (rock
+      (x 352)
+      (y 2528)
+    )
+    (rock
+      (x 384)
+      (y 2528)
+    )
+    (secretarea
+      (width 32)
+      (height 3692)
+      (x 1280)
+      (y 20)
+    )
+    (secretarea
+      (width 1256)
+      (height 32)
+      (x 756)
+      (y 11360)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 156)
+      (x 3040)
+      (y 128)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 60)
+      (x 3296)
+      (y 256)
+    )
     (smartball
       (x 291)
       (y 12358)
@@ -287,66 +347,6 @@
     (smartball
       (x 2595)
       (y 2054)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (path
-      (name "58cf657f-894a-46a0-b5d1-655d4afcac9d")
-      (path
-        (node
-          (x 896)
-          (y 2560)
-          (time 4)
-        )
-        (node
-          (x 896)
-          (y 1824)
-          (time 4)
-        )
-      )
-    )
-    (rock
-      (x 352)
-      (y 2560)
-    )
-    (rock
-      (x 384)
-      (y 2560)
-    )
-    (rock
-      (x 352)
-      (y 2528)
-    )
-    (rock
-      (x 384)
-      (y 2528)
-    )
-    (secretarea
-      (width 32)
-      (height 3692)
-      (x 1280)
-      (y 20)
-    )
-    (secretarea
-      (width 1256)
-      (height 32)
-      (x 756)
-      (y 11360)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 156)
-      (x 3040)
-      (y 128)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 60)
-      (x 3296)
-      (y 256)
     )
     (snowball
       (x 771)

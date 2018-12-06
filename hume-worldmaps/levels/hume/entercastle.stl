@@ -40,8 +40,6 @@ Text.fade_out(0.2);")
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (door
       (sector "main_hall")
       (spawnpoint "leftpass")
@@ -175,28 +173,10 @@ Text.fade_out(0.2);")
       (x 4768)
       (y 672)
     )
-    (smartball
-      (x 7296)
-      (y 1440)
-    )
-    (smartball
-      (x 2784)
-      (y 1472)
-    )
-    (smartball
-      (x 5120)
-      (y 352)
-    )
-    (smartball
-      (x 3488)
-      (y 1792)
-    )
-    (smartball
-      (x 8704)
-      (y 1760)
-    )
     (music
       (file "music/wisphunt.ogg")
+    )
+    (particles-clouds
     )
     (scripttrigger
       (script "wind1.stop();
@@ -221,6 +201,26 @@ wind3.stop();")
       (height 60)
       (x 8928)
       (y 2944)
+    )
+    (smartball
+      (x 7296)
+      (y 1440)
+    )
+    (smartball
+      (x 2784)
+      (y 1472)
+    )
+    (smartball
+      (x 5120)
+      (y 352)
+    )
+    (smartball
+      (x 3488)
+      (y 1792)
+    )
+    (smartball
+      (x 8704)
+      (y 1760)
     )
     (snowball
       (x 3104)
@@ -755,8 +755,6 @@ Text.fade_out(0.2);")
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (door
       (sector "main")
       (spawnpoint "towdl")
@@ -845,16 +843,10 @@ Text.fade_out(0.2);")
       (x 3680)
       (y 768)
     )
-    (smartball
-      (x 1728)
-      (y 768)
-    )
-    (smartball
-      (x 4704)
-      (y 800)
-    )
     (music
       (file "music/fortress.music")
+    )
+    (particles-clouds
     )
     (skullyhop
       (x 3936)
@@ -871,6 +863,14 @@ Text.fade_out(0.2);")
     (skullyhop
       (x 2144)
       (y 288)
+    )
+    (smartball
+      (x 1728)
+      (y 768)
+    )
+    (smartball
+      (x 4704)
+      (y 800)
     )
     (snowball
       (x 1344)
@@ -1078,8 +1078,6 @@ Text.fade_out(0.2);")
     (camera
       (mode "normal")
     )
-    (particles-clouds
-    )
     (door
       (sector "main")
       (spawnpoint "towur")
@@ -1104,6 +1102,8 @@ Text.fade_out(0.2);")
     )
     (music
       (file "music/bonuscave.ogg")
+    )
+    (particles-clouds
     )
     (spawnpoint
       (name "towul")

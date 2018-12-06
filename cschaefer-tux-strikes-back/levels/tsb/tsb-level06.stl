@@ -115,6 +115,9 @@
       (x 2816)
       (y 677)
     )
+    (music
+      (file "music/voc-night.ogg")
+    )
     (smartball
       (x 2979)
       (y 396)
@@ -122,9 +125,6 @@
     (smartball
       (x 3011)
       (y 524)
-    )
-    (music
-      (file "music/voc-night.ogg")
     )
     (smartblock
       (x 4737)

@@ -101,6 +101,16 @@
       (x 2817)
       (y 838)
     )
+    (music
+      (file "music/theme.music")
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 232)
+      (height 12)
+      (x 10452)
+      (y 884)
+    )
     (smartball
       (x 2979)
       (y 838)
@@ -112,16 +122,6 @@
     (smartball
       (x 6339)
       (y 806)
-    )
-    (music
-      (file "music/theme.music")
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 232)
-      (height 12)
-      (x 10452)
-      (y 884)
     )
     (snowball
       (x 291)

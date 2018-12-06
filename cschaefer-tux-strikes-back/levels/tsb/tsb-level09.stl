@@ -121,6 +121,11 @@
       (x 3041)
       (y 550)
     )
+    (music
+      (file "music/voc-daytime.ogg")
+    )
+    (particles-snow
+    )
     (smartball
       (x 5443)
       (y 518)
@@ -165,9 +170,6 @@
       (x 2627)
       (y 646)
     )
-    (music
-      (file "music/voc-daytime.ogg")
-    )
     (smartblock
       (x 4993)
       (y 518)
@@ -187,8 +189,6 @@
     (snowman
       (x 3242)
       (y 451)
-    )
-    (particles-snow
     )
     (spawnpoint
       (name "main")

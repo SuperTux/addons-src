@@ -74,11 +74,6 @@
       (x 2336)
       (y 672)
     )
-    (sspiky
-      (direction "left")
-      (x 2834)
-      (y 480)
-    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -106,6 +101,11 @@
     (spiky
       (x 1824)
       (y 384)
+    )
+    (sspiky
+      (direction "left")
+      (x 2834)
+      (y 480)
     )
     (tilemap
       (solid #t)

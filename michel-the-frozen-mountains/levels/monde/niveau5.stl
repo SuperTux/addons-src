@@ -29,18 +29,6 @@
       (x 96)
       (y 1344)
     )
-    (platform
-      (running #f)
-      (name "porte1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "00166e04-05c3-4a89-b2bb-03a67afff309")
-    )
-    (platform
-      (running #f)
-      (name "porte")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "11fa764e-50c1-4d7b-b3c2-dcb601fa04eb")
-    )
     (ispy
       (script "if(support1.get_alpha() == 0){
 support1.set_alpha(1);
@@ -389,36 +377,11 @@ play_sound(\"sounds/door.wav\");
       (x 7617)
       (y 326)
     )
-    (smartball
-      (x 2435)
-      (y 774)
-    )
-    (smartball
-      (x 2179)
-      (y 934)
-    )
-    (smartball
-      (x 3075)
-      (y 934)
-    )
-    (smartball
-      (x 3971)
-      (y 774)
-    )
-    (smartball
-      (x 5827)
-      (y 1190)
-    )
-    (smartball
-      (x 6755)
-      (y 614)
-    )
-    (smartball
-      (x 8003)
-      (y 454)
-    )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (particles-snow
+      (z-pos 180)
     )
     (path
       (name "00166e04-05c3-4a89-b2bb-03a67afff309")
@@ -519,6 +482,18 @@ play_sound(\"sounds/door.wav\");
           (y 864)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "porte1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "00166e04-05c3-4a89-b2bb-03a67afff309")
+    )
+    (platform
+      (running #f)
+      (name "porte")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "11fa764e-50c1-4d7b-b3c2-dcb601fa04eb")
     )
     (rock
       (x 7520)
@@ -640,6 +615,34 @@ play_sound(\"sounds/door.wav\");
       (x 9408)
       (y 224)
     )
+    (smartball
+      (x 2435)
+      (y 774)
+    )
+    (smartball
+      (x 2179)
+      (y 934)
+    )
+    (smartball
+      (x 3075)
+      (y 934)
+    )
+    (smartball
+      (x 3971)
+      (y 774)
+    )
+    (smartball
+      (x 5827)
+      (y 1190)
+    )
+    (smartball
+      (x 6755)
+      (y 614)
+    )
+    (smartball
+      (x 8003)
+      (y 454)
+    )
     (snowball
       (x 2499)
       (y 1508)
@@ -656,9 +659,6 @@ play_sound(\"sounds/door.wav\");
       (direction "left")
       (x 9315)
       (y 228)
-    )
-    (particles-snow
-      (z-pos 180)
     )
     (spawnpoint
       (name "main")
@@ -1331,6 +1331,9 @@ porte.stop_moving();")
       (x 1248)
       (y 480)
     )
+    (music
+      (file "music/cave.music")
+    )
     (smartball
       (x 483)
       (y 582)
@@ -1338,9 +1341,6 @@ porte.stop_moving();")
     (smartball
       (x 2051)
       (y 806)
-    )
-    (music
-      (file "music/cave.music")
     )
     (snowball
       (x 2467)

@@ -134,6 +134,9 @@
       (x 2885)
       (y 392)
     )
+    (music
+      (file "music/theme.ogg")
+    )
     (smartball
       (x 611)
       (y 422)
@@ -154,8 +157,10 @@
       (x 4387)
       (y 166)
     )
-    (music
-      (file "music/theme.ogg")
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 448)
     )
     (sspiky
       (x 1158)
@@ -172,11 +177,6 @@
     (sspiky
       (x 4934)
       (y 170)
-    )
-    (spawnpoint
-      (name "main")
-      (x 96)
-      (y 448)
     )
     (tilemap
       (solid #f)

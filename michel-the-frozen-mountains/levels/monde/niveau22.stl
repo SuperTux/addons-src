@@ -121,6 +121,45 @@
       (x 6113)
       (y 3942)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "1163d129-7cf5-44d4-8407-31b5c4209141")
+      (path
+        (node
+          (x 8928)
+          (y 3008)
+        )
+      )
+    )
+    (secretarea
+      (fade-tilemap "cache")
+      (width 32)
+      (height 124)
+      (x 9088)
+      (y 3616)
+    )
+    (secretarea
+      (width 716)
+      (height 32)
+      (x 13844)
+      (y 384)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 40)
+      (x 16096)
+      (y 308)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 340)
+      (x 15712)
+      (y 32)
+    )
     (smartball
       (x 707)
       (y 4742)
@@ -176,45 +215,6 @@
     (smartball
       (x 13987)
       (y 1894)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (path
-      (name "1163d129-7cf5-44d4-8407-31b5c4209141")
-      (path
-        (node
-          (x 8928)
-          (y 3008)
-        )
-      )
-    )
-    (secretarea
-      (fade-tilemap "cache")
-      (width 32)
-      (height 124)
-      (x 9088)
-      (y 3616)
-    )
-    (secretarea
-      (width 716)
-      (height 32)
-      (x 13844)
-      (y 384)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 40)
-      (x 16096)
-      (y 308)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 340)
-      (x 15712)
-      (y 32)
     )
     (snowball
       (x 3747)
@@ -1809,26 +1809,6 @@
       (x 1893)
       (y 168)
     )
-    (smartball
-      (x 3011)
-      (y 934)
-    )
-    (smartball
-      (x 2083)
-      (y 582)
-    )
-    (smartball
-      (x 1379)
-      (y 646)
-    )
-    (smartball
-      (x 3107)
-      (y 102)
-    )
-    (smartball
-      (x 4803)
-      (y 390)
-    )
     (music
       (file "music/cave.music")
     )
@@ -1895,6 +1875,26 @@
     (rock
       (x 5088)
       (y 704)
+    )
+    (smartball
+      (x 3011)
+      (y 934)
+    )
+    (smartball
+      (x 2083)
+      (y 582)
+    )
+    (smartball
+      (x 1379)
+      (y 646)
+    )
+    (smartball
+      (x 3107)
+      (y 102)
+    )
+    (smartball
+      (x 4803)
+      (y 390)
     )
     (snowball
       (x 643)

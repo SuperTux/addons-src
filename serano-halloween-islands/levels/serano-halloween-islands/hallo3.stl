@@ -128,6 +128,20 @@
       (x 8805)
       (y 392)
     )
+    (music
+      (file "music/darkforestkeep.ogg")
+    )
+    (pneumatic-platform
+      (x 5088)
+      (y 672)
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 124)
+      (height 156)
+      (x 5248)
+      (y 832)
+    )
     (smartball
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 2024)
@@ -162,20 +176,6 @@
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 9864)
       (y 780)
-    )
-    (music
-      (file "music/darkforestkeep.ogg")
-    )
-    (pneumatic-platform
-      (x 5088)
-      (y 672)
-    )
-    (secretarea
-      (fade-tilemap "secret")
-      (width 124)
-      (height 156)
-      (x 5248)
-      (y 832)
     )
     (snowball
       (sprite "images/creatures/kirby/kirby.sprite")
@@ -529,15 +529,15 @@
       (x 1120)
       (y 608)
     )
-    (particles-ghosts
-      (z-pos -150)
-    )
     (gradient
       (top_color 0 0.1882353 1)
       (bottom_color 0 0 0 0)
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (particles-ghosts
+      (z-pos -150)
     )
     (spawnpoint
       (name "balcony")

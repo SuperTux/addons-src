@@ -360,14 +360,6 @@ car3.goto_node(3)")
       (x 4370.492)
       (y 687.4502)
     )
-    (sspiky
-      (x 4518)
-      (y 458)
-    )
-    (sspiky
-      (x 4230)
-      (y 1002)
-    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -375,6 +367,14 @@ car3.goto_node(3)")
     )
     (spiky
       (x 4358)
+      (y 1002)
+    )
+    (sspiky
+      (x 4518)
+      (y 458)
+    )
+    (sspiky
+      (x 4230)
       (y 1002)
     )
     (stalactite

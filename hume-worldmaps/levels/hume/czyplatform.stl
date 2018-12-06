@@ -74,18 +74,6 @@
       (x 4096)
       (y 896)
     )
-    (platform
-      (running #f)
-      (name "platform")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "da72d90c-2a30-49fe-916c-9753736e1ea4")
-    )
-    (platform
-      (running #f)
-      (name "p2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "5399c27d-fd04-4117-91f6-be2683350f94")
-    )
     (flyingsnowball
       (x 3552)
       (y 640)
@@ -525,6 +513,18 @@
         )
       )
     )
+    (platform
+      (running #f)
+      (name "platform")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "da72d90c-2a30-49fe-916c-9753736e1ea4")
+    )
+    (platform
+      (running #f)
+      (name "p2")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5399c27d-fd04-4117-91f6-be2683350f94")
+    )
     (sequencetrigger
       (sequence "endsequence")
       (width 32)
@@ -542,10 +542,6 @@
     (skullyhop
       (x 5536)
       (y 320)
-    )
-    (sspiky
-      (x 2432)
-      (y 256)
     )
     (snowball
       (x 8864)
@@ -611,6 +607,10 @@
     (spiky
       (x 8192)
       (y 480)
+    )
+    (sspiky
+      (x 2432)
+      (y 256)
     )
     (switch
       (script "platform.goto_node(28)")

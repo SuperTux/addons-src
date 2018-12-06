@@ -29,64 +29,6 @@
       (x 992)
       (y 0)
     )
-    (platform
-      (running #f)
-      (name "hovno")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "da6de141-f851-4d83-b7df-e7ddc736ef30")
-    )
-    (platform
-      (running #f)
-      (name "vul1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "3cc49237-19c8-44a6-8124-ce10b43ea39b")
-    )
-    (platform
-      (running #f)
-      (name "vul2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "6b5f9c15-c853-4a1d-9c3c-59c606d1e20c")
-    )
-    (platform
-      (running #f)
-      (name "vul3")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "8c3afe9f-5e30-44ab-8088-2b21a5e235bd")
-    )
-    (platform
-      (running #f)
-      (name "vul4")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "e932613c-352c-4eec-bc0a-cadf276c4c74")
-    )
-    (platform
-      (running #f)
-      (name "vul6")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "3cd20bb7-aff4-4834-9edc-751de6a55f5b")
-    )
-    (platform
-      (running #f)
-      (name "vul5")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "9c9409c3-733c-4738-91c9-09a15f5983eb")
-    )
-    (platform
-      (running #f)
-      (name "vul7")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "3c883151-1474-4cd6-93ae-e112f09716c6")
-    )
-    (platform
-      (running #f)
-      (name "idiot")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "fbe552a3-f7f3-46bc-9340-9bd33de20713")
-    )
-    (platform
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "b35ed561-68ae-4eaa-a6b7-c36df34e79f9")
-    )
     (infoblock
       (message (_ ""))
       (x 1056)
@@ -262,6 +204,64 @@
           (y 128)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "hovno")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "da6de141-f851-4d83-b7df-e7ddc736ef30")
+    )
+    (platform
+      (running #f)
+      (name "vul1")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "3cc49237-19c8-44a6-8124-ce10b43ea39b")
+    )
+    (platform
+      (running #f)
+      (name "vul2")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "6b5f9c15-c853-4a1d-9c3c-59c606d1e20c")
+    )
+    (platform
+      (running #f)
+      (name "vul3")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "8c3afe9f-5e30-44ab-8088-2b21a5e235bd")
+    )
+    (platform
+      (running #f)
+      (name "vul4")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "e932613c-352c-4eec-bc0a-cadf276c4c74")
+    )
+    (platform
+      (running #f)
+      (name "vul6")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "3cd20bb7-aff4-4834-9edc-751de6a55f5b")
+    )
+    (platform
+      (running #f)
+      (name "vul5")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "9c9409c3-733c-4738-91c9-09a15f5983eb")
+    )
+    (platform
+      (running #f)
+      (name "vul7")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "3c883151-1474-4cd6-93ae-e112f09716c6")
+    )
+    (platform
+      (running #f)
+      (name "idiot")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "fbe552a3-f7f3-46bc-9340-9bd33de20713")
+    )
+    (platform
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "b35ed561-68ae-4eaa-a6b7-c36df34e79f9")
     )
     (scripttrigger
       (script "hovno.goto_node(1)")
@@ -1276,18 +1276,6 @@ vul7.goto_node(1)")
     (camera
       (mode "normal")
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "cca08bd6-a5e8-4e98-8e1e-faf580057983")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "87173783-2bd4-4955-8667-797dc99c7291")
-    )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path-ref "94e4d9a4-5a1f-4e6e-a04c-e3702a35b86a")
-    )
     (path
       (name "cca08bd6-a5e8-4e98-8e1e-faf580057983")
       (path
@@ -1329,6 +1317,18 @@ vul7.goto_node(1)")
           (y 3200)
         )
       )
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "cca08bd6-a5e8-4e98-8e1e-faf580057983")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "87173783-2bd4-4955-8667-797dc99c7291")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "94e4d9a4-5a1f-4e6e-a04c-e3702a35b86a")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"lll\")")

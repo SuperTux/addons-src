@@ -12,16 +12,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (sprite "/images/objects/platforms/icefloe.sprite")
-      (path-ref "5b4573ac-5527-4c7e-8bd8-7c5cb2d0a0af")
-    )
-    (platform
-      (running #f)
-      (name "MineLift")
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "aa3c26a3-0c24-4b92-8bf9-456f18dc7164")
-    )
     (gradient
       (top_color 0 0.3137259 1)
       (bottom_color 1 1 1)
@@ -91,6 +81,16 @@
           (y 0)
         )
       )
+    )
+    (platform
+      (sprite "/images/objects/platforms/icefloe.sprite")
+      (path-ref "5b4573ac-5527-4c7e-8bd8-7c5cb2d0a0af")
+    )
+    (platform
+      (running #f)
+      (name "MineLift")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "aa3c26a3-0c24-4b92-8bf9-456f18dc7164")
     )
     (scripttrigger
       (script "Level.spawn(\"crystal\", \"start\");")
@@ -569,54 +569,6 @@ Moving4.start_moving();")
       (x 12864)
       (y 496)
     )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "b84b5078-de30-478c-99d5-6e8998c648c7")
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "0768a707-1e99-4e99-b55f-5279fcdcd1e3")
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "d6980296-411b-46e7-add1-78ee92ece74c")
-    )
-    (platform
-      (running #f)
-      (name "door1")
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
-      (path-ref "9ccc7e50-a1d2-4389-88b5-f22fe27e3204")
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "be8fe597-851e-4a61-b52c-68a76b018db6")
-    )
-    (platform
-      (running #f)
-      (name "lift2")
-      (sprite "/images/objects/platforms/small.sprite")
-      (path-ref "bc543dfb-73f5-4991-af17-b90d2fdaca73")
-    )
-    (platform
-      (running #f)
-      (name "door2")
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
-      (path-ref "2c75fec4-8ede-4c65-aa97-d7c73b89f333")
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "3e4686eb-f48a-44cf-b4da-b8a50e887a55")
-    )
-    (platform
-      (running #f)
-      (name "ExitLift")
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "0e7d0d87-67db-4932-a6ec-e08ea038b0e6")
-    )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "2681b6dc-f164-4b1a-a465-9407125604a7")
-    )
     (flyingsnowball
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (x 5840)
@@ -800,30 +752,6 @@ Moving4.start_moving();")
       (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
       (x 14272)
       (y 992)
-    )
-    (smartball
-      (direction "right")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 224)
-      (y 768)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 9696)
-      (y 832)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 12192)
-      (y 864)
-    )
-    (smartball
-      (direction "left")
-      (sprite "images/creatures/snowball/smart-snowball.sprite")
-      (x 12768)
-      (y 544)
     )
     (music
       (file "/music/jewels.music")
@@ -1127,6 +1055,54 @@ Moving4.start_moving();")
         )
       )
     )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "b84b5078-de30-478c-99d5-6e8998c648c7")
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "0768a707-1e99-4e99-b55f-5279fcdcd1e3")
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "d6980296-411b-46e7-add1-78ee92ece74c")
+    )
+    (platform
+      (running #f)
+      (name "door1")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
+      (path-ref "9ccc7e50-a1d2-4389-88b5-f22fe27e3204")
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "be8fe597-851e-4a61-b52c-68a76b018db6")
+    )
+    (platform
+      (running #f)
+      (name "lift2")
+      (sprite "/images/objects/platforms/small.sprite")
+      (path-ref "bc543dfb-73f5-4991-af17-b90d2fdaca73")
+    )
+    (platform
+      (running #f)
+      (name "door2")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
+      (path-ref "2c75fec4-8ede-4c65-aa97-d7c73b89f333")
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "3e4686eb-f48a-44cf-b4da-b8a50e887a55")
+    )
+    (platform
+      (running #f)
+      (name "ExitLift")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "0e7d0d87-67db-4932-a6ec-e08ea038b0e6")
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "2681b6dc-f164-4b1a-a465-9407125604a7")
+    )
     (pushbutton
       (script "lift2.start_moving();")
       (sprite "images/objects/pushbutton/pushbutton.sprite")
@@ -1165,17 +1141,29 @@ ExitLift.goto_node(0);")
       (x 13855.98)
       (y 1055.076)
     )
-    (sspiky
-      (direction "left")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 11120)
-      (y 736)
-    )
-    (sspiky
+    (smartball
       (direction "right")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 3360)
-      (y 1920)
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 224)
+      (y 768)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 9696)
+      (y 832)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 12192)
+      (y 864)
+    )
+    (smartball
+      (direction "left")
+      (sprite "images/creatures/snowball/smart-snowball.sprite")
+      (x 12768)
+      (y 544)
     )
     (smartblock
       (direction "left")
@@ -1313,6 +1301,18 @@ ExitLift.goto_node(0);")
       (sprite "images/creatures/spiky/spiky.sprite")
       (x 13248)
       (y 448)
+    )
+    (sspiky
+      (direction "left")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 11120)
+      (y 736)
+    )
+    (sspiky
+      (direction "right")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 3360)
+      (y 1920)
     )
     (stalactite
       (sprite "images/creatures/stalactite/stalactite.sprite")
@@ -2454,10 +2454,6 @@ ExitLift.goto_node(0);")
     (camera
       (mode "normal")
     )
-    (platform
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path-ref "7da586e0-6574-429e-a844-dd917f3478fa")
-    )
     (gradient
       (top_color 0 0.3137259 1)
       (bottom_color 1 1 1)
@@ -2480,6 +2476,10 @@ ExitLift.goto_node(0);")
           (time 3)
         )
       )
+    )
+    (platform
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+      (path-ref "7da586e0-6574-429e-a844-dd917f3478fa")
     )
     (spawnpoint
       (name "exit")

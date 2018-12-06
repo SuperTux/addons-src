@@ -114,10 +114,6 @@
       (x 2401)
       (y 614)
     )
-    (smartball
-      (x 1571)
-      (y 870)
-    )
     (music
       (file "music/worldmap_tux.ogg")
     )
@@ -126,6 +122,10 @@
       (height 32)
       (x 4020)
       (y 128)
+    )
+    (smartball
+      (x 1571)
+      (y 870)
     )
     (snowball
       (x 1411)

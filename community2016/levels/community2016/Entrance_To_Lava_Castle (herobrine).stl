@@ -166,6 +166,23 @@
       (x 621.1)
       (y 780.1)
     )
+    (music
+      (file "/music/airship_remix.ogg")
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 3200)
+      (x 9346)
+      (y 496)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 3200)
+      (x 9584)
+      (y 432)
+    )
     (smartball
       (direction "left")
       (sprite "images/creatures/snowball/smart-snowball.sprite")
@@ -201,35 +218,6 @@
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 5943)
       (y 582)
-    )
-    (music
-      (file "/music/airship_remix.ogg")
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 3200)
-      (x 9346)
-      (y 496)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 3200)
-      (x 9584)
-      (y 432)
-    )
-    (sspiky
-      (direction "right")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 2761.1)
-      (y 384.1)
-    )
-    (sspiky
-      (direction "right")
-      (sprite "images/creatures/spiky/sleepingspiky.sprite")
-      (x 2531.1)
-      (y 499.1)
     )
     (snowball
       (direction "left")
@@ -271,6 +259,18 @@
       (sprite "images/creatures/spiky/spiky.sprite")
       (x 6846.1)
       (y 798.1)
+    )
+    (sspiky
+      (direction "right")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 2761.1)
+      (y 384.1)
+    )
+    (sspiky
+      (direction "right")
+      (sprite "images/creatures/spiky/sleepingspiky.sprite")
+      (x 2531.1)
+      (y 499.1)
     )
     (stalactite
       (sprite "images/creatures/stalactite/stalactite.sprite")

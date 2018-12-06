@@ -114,6 +114,30 @@
       (x 1541)
       (y 1096)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (secretarea
+      (fade-tilemap "cache")
+      (width 124)
+      (height 24)
+      (x 160)
+      (y 10336)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 244)
+      (x 2656)
+      (y -12)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 44)
+      (x 3008)
+      (y 192)
+    )
     (smartball
       (x 1699)
       (y 5254)
@@ -165,30 +189,6 @@
     (smartball
       (x 1283)
       (y 1190)
-    )
-    (music
-      (file "music/chipdisko.ogg")
-    )
-    (secretarea
-      (fade-tilemap "cache")
-      (width 124)
-      (height 24)
-      (x 160)
-      (y 10336)
-    )
-    (sequencetrigger
-      (sequence "endsequence")
-      (width 32)
-      (height 244)
-      (x 2656)
-      (y -12)
-    )
-    (sequencetrigger
-      (sequence "stoptux")
-      (width 32)
-      (height 44)
-      (x 3008)
-      (y 192)
     )
     (snowball
       (x 2051)
@@ -1900,12 +1900,6 @@
       (x 288)
       (y 480)
     )
-    (platform
-      (running #f)
-      (name "porte")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "cf9a9f85-6f88-4eb0-90e8-953f6e776891")
-    )
     (ispy
       (script "if(Foreground.get_alpha() == 1){
 Foreground.set_alpha(0);
@@ -1965,6 +1959,12 @@ porte.goto_node(1);
           (y 224)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "porte")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "cf9a9f85-6f88-4eb0-90e8-953f6e776891")
     )
     (snowball
       (x 483)

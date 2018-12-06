@@ -18,12 +18,6 @@
     (camera
       (mode "normal")
     )
-    (platform
-      (running #f)
-      (name "dvere")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path-ref "083137e0-bf12-45cd-a0e7-c5b0fa14f822")
-    )
     (infoblock
       (message (_ "-Castle Door
 II must use the key from CrystalCave..."))
@@ -61,6 +55,12 @@ II must use the key from CrystalCave..."))
           (y 192)
         )
       )
+    )
+    (platform
+      (running #f)
+      (name "dvere")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "083137e0-bf12-45cd-a0e7-c5b0fa14f822")
     )
     (scriptedobject
       (physic-enabled #f)
@@ -500,6 +500,24 @@ play_sound(\"sounds/locked.ogg\")
       (x 5920)
       (y 576)
     )
+    (music
+      (file "music/fortress.ogg")
+    )
+    (scripttrigger
+      (script "Level.spawn(\"main\",\"end\")")
+      (button #f)
+      (width 32)
+      (height 396)
+      (x -32)
+      (y 692)
+    )
+    (sequencetrigger
+      (sequence "fireworks")
+      (width 32)
+      (height 556)
+      (x 160)
+      (y -332)
+    )
     (smartball
       (x 800)
       (y 736)
@@ -519,28 +537,6 @@ play_sound(\"sounds/locked.ogg\")
     (smartball
       (x 3552)
       (y 32)
-    )
-    (music
-      (file "music/fortress.ogg")
-    )
-    (scripttrigger
-      (script "Level.spawn(\"main\",\"end\")")
-      (button #f)
-      (width 32)
-      (height 396)
-      (x -32)
-      (y 692)
-    )
-    (sequencetrigger
-      (sequence "fireworks")
-      (width 32)
-      (height 556)
-      (x 160)
-      (y -332)
-    )
-    (sspiky
-      (x 4256)
-      (y 448)
     )
     (snowball
       (x 352)
@@ -590,6 +586,10 @@ play_sound(\"sounds/locked.ogg\")
     (spiky
       (x 3168)
       (y 64)
+    )
+    (sspiky
+      (x 4256)
+      (y 448)
     )
     (tilemap
       (solid #f)

@@ -225,6 +225,9 @@
     (music
       (file "music/wisphunt.ogg")
     )
+    (particles-snow
+      (z-pos -130)
+    )
     (path
       (name "129fd162-46e3-403c-8a60-c5567ed86d40")
       (path
@@ -1242,9 +1245,6 @@
       (sprite "images/powerups/star/star.sprite")
       (x 3552)
       (y 128)
-    )
-    (particles-snow
-      (z-pos -130)
     )
     (spawnpoint
       (name "main")
