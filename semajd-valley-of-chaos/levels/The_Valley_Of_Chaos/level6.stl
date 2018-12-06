@@ -48,12 +48,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 6336)
-          (y 384)
-        )
-      )
+      (path-ref "efa6a768-3a4d-4c45-ab64-e190ceebc995")
     )
     (flyingsnowball
       (x 5732)
@@ -129,6 +124,15 @@
     )
     (music
       (file "music/voc-dark.music")
+    )
+    (path
+      (name "efa6a768-3a4d-4c45-ab64-e190ceebc995")
+      (path
+        (node
+          (x 6336)
+          (y 384)
+        )
+      )
     )
     (secretarea
       (width 124)

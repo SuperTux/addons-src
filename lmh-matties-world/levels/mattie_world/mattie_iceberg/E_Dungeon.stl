@@ -32,33 +32,13 @@ lift8.start_moving();")
       (running #f)
       (name "gate2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2432)
-          (y 416)
-          (time 3)
-        )
-        (node
-          (x 2432)
-          (y 288)
-          (time 3)
-        )
-      )
+      (path-ref "af919bf8-765e-4061-a86a-a5cfed03ca54")
     )
     (platform
       (running #f)
       (name "gate1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 2272)
-          (y 512)
-        )
-        (node
-          (x 2272)
-          (y 552)
-        )
-      )
+      (path-ref "f60cef1c-d4f2-4d31-bb40-f550dd9fd365")
     )
     (icecrusher
       (x 3104)
@@ -118,6 +98,451 @@ lift8.start_moving();")
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "af919bf8-765e-4061-a86a-a5cfed03ca54")
+      (path
+        (node
+          (x 2432)
+          (y 416)
+          (time 3)
+        )
+        (node
+          (x 2432)
+          (y 288)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "f60cef1c-d4f2-4d31-bb40-f550dd9fd365")
+      (path
+        (node
+          (x 2272)
+          (y 512)
+        )
+        (node
+          (x 2272)
+          (y 552)
+        )
+      )
+    )
+    (path
+      (name "114d3104-e7c6-4cce-b86f-acb14da4a42a")
+      (path
+        (node
+          (x 6144)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 640)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "4b7a333c-6369-4bb9-a833-e0535133a566")
+      (path
+        (node
+          (x 6144)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 384)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "cefa2e67-67d2-4241-b99a-2f809cf94128")
+      (path
+        (node
+          (x 6144)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 128)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "eeb42f81-6af5-429f-8790-52990392e71a")
+      (path
+        (node
+          (x 6144)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 128)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "d4dce1dc-1adc-486c-aa0e-2cbe3db1444d")
+      (path
+        (node
+          (x 5696)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 384)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "12cde450-aefd-480d-8563-3a9b781e4e29")
+      (path
+        (node
+          (x 5696)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 640)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "43fdcfd6-dc3b-438f-935a-d4b17e1cc4c5")
+      (path
+        (node
+          (x 5696)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 896)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "5a6dea50-2bb7-4b2f-9288-8872a4a9b2e3")
+      (path
+        (node
+          (x 5696)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 5696)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 128)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 384)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 640)
+          (time 8)
+        )
+        (node
+          (x 6144)
+          (y 896)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "8c1f1d60-2296-4432-bebe-7944aa8f5ba0")
+      (path
+        (node
+          (x 2528)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "a2571a43-4f8c-4790-9748-8b10fd670054")
+      (path
+        (node
+          (x 2528)
+          (y 512)
+          (time 0.8)
+        )
+        (node
+          (x 2528)
+          (y 576)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "69bf9895-5e28-4a8f-bcff-745f7b2700c5")
+      (path
+        (node
+          (x 4768)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "67de6316-f5fa-4c0c-bb58-23853282b5a1")
+      (path
+        (node
+          (x 4768)
+          (y 768)
+          (time 0.8)
+        )
+        (node
+          (x 4768)
+          (y 640)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "7e3e1195-5128-475a-bb97-6c341717e052")
+      (path
+        (node
+          (x 2272)
+          (y 320)
+        )
+      )
     )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")
@@ -221,48 +646,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "lift1")
-      (path
-        (node
-          (x 6144)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 640)
-          (time 8)
-        )
-      )
+      (path-ref "114d3104-e7c6-4cce-b86f-acb14da4a42a")
       (width 4)
       (height 1)
       (tiles
@@ -273,48 +657,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "lift2")
-      (path
-        (node
-          (x 6144)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 384)
-          (time 8)
-        )
-      )
+      (path-ref "4b7a333c-6369-4bb9-a833-e0535133a566")
       (width 4)
       (height 1)
       (tiles
@@ -325,48 +668,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "lift3")
-      (path
-        (node
-          (x 6144)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 128)
-          (time 8)
-        )
-      )
+      (path-ref "cefa2e67-67d2-4241-b99a-2f809cf94128")
       (width 4)
       (height 1)
       (tiles
@@ -377,48 +679,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "lift4")
-      (path
-        (node
-          (x 6144)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 128)
-          (time 8)
-        )
-      )
+      (path-ref "eeb42f81-6af5-429f-8790-52990392e71a")
       (width 4)
       (height 1)
       (tiles
@@ -429,48 +690,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "lift5")
-      (path
-        (node
-          (x 5696)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 384)
-          (time 8)
-        )
-      )
+      (path-ref "d4dce1dc-1adc-486c-aa0e-2cbe3db1444d")
       (width 4)
       (height 1)
       (tiles
@@ -481,48 +701,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "lift6")
-      (path
-        (node
-          (x 5696)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 640)
-          (time 8)
-        )
-      )
+      (path-ref "12cde450-aefd-480d-8563-3a9b781e4e29")
       (width 4)
       (height 1)
       (tiles
@@ -533,48 +712,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "lift7")
-      (path
-        (node
-          (x 5696)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 896)
-          (time 8)
-        )
-      )
+      (path-ref "43fdcfd6-dc3b-438f-935a-d4b17e1cc4c5")
       (width 4)
       (height 1)
       (tiles
@@ -585,48 +723,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "lift8")
-      (path
-        (node
-          (x 5696)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 5696)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 128)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 384)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 640)
-          (time 8)
-        )
-        (node
-          (x 6144)
-          (y 896)
-          (time 8)
-        )
-      )
+      (path-ref "5a6dea50-2bb7-4b2f-9288-8872a4a9b2e3")
       (width 4)
       (height 1)
       (tiles
@@ -637,12 +734,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "pipetop")
-      (path
-        (node
-          (x 2528)
-          (y 512)
-        )
-      )
+      (path-ref "8c1f1d60-2296-4432-bebe-7944aa8f5ba0")
       (width 2)
       (height 1)
       (tiles
@@ -653,18 +745,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "pipedrop")
-      (path
-        (node
-          (x 2528)
-          (y 512)
-          (time 0.8)
-        )
-        (node
-          (x 2528)
-          (y 576)
-          (time 0.1)
-        )
-      )
+      (path-ref "a2571a43-4f8c-4790-9748-8b10fd670054")
       (width 2)
       (height 1)
       (tiles
@@ -675,12 +756,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "pipetop2")
-      (path
-        (node
-          (x 4768)
-          (y 640)
-        )
-      )
+      (path-ref "69bf9895-5e28-4a8f-bcff-745f7b2700c5")
       (width 2)
       (height 1)
       (tiles
@@ -691,18 +767,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #t)
       (z-pos 0)
       (name "pipelift")
-      (path
-        (node
-          (x 4768)
-          (y 768)
-          (time 0.8)
-        )
-        (node
-          (x 4768)
-          (y 640)
-          (time 0.1)
-        )
-      )
+      (path-ref "67de6316-f5fa-4c0c-bb58-23853282b5a1")
       (width 2)
       (height 1)
       (tiles
@@ -746,12 +811,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #f)
       (z-pos 200)
       (name "secret")
-      (path
-        (node
-          (x 2272)
-          (y 320)
-        )
-      )
+      (path-ref "7e3e1195-5128-475a-bb97-6c341717e052")
       (width 11)
       (height 9)
       (tiles
@@ -991,6 +1051,15 @@ Level.spawn(\"pipe\", \"main\");")
     (music
       (file "music/bonuscave.ogg")
     )
+    (path
+      (name "1f30c6ce-5670-42e3-b393-3ddcdba93976")
+      (path
+        (node
+          (x 704)
+          (y 0)
+        )
+      )
+    )
     (scripttrigger
       (script "wait  (  0  );
         Level.spawn(\"main\", \"outpipe\");")
@@ -1060,12 +1129,7 @@ Level.spawn(\"pipe\", \"main\");")
       (solid #f)
       (z-pos 200)
       (name "pipe")
-      (path
-        (node
-          (x 704)
-          (y 0)
-        )
-      )
+      (path-ref "1f30c6ce-5670-42e3-b393-3ddcdba93976")
       (width 2)
       (height 15)
       (tiles

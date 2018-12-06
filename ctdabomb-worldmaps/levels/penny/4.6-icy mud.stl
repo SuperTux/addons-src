@@ -119,6 +119,36 @@
     (music
       (file "music/worldmap_tux.ogg")
     )
+    (path
+      (name "cf2fcd6d-ffd2-439d-9b96-04a5284a79ce")
+      (path
+        (mode "pingpong")
+        (node
+          (x 0)
+          (y 960)
+        )
+        (node
+          (x 0)
+          (y 992)
+        )
+        (node
+          (x 0)
+          (y 1024)
+        )
+        (node
+          (x 0)
+          (y 1056)
+        )
+        (node
+          (x 0)
+          (y 1088)
+        )
+        (node
+          (x 0)
+          (y 1120)
+        )
+      )
+    )
     (scripttrigger
       (script "mudplat.goto_node(400)")
       (button #f)
@@ -383,33 +413,7 @@
       (solid #t)
       (z-pos -50)
       (name "mudplat")
-      (path
-        (mode "pingpong")
-        (node
-          (x 0)
-          (y 960)
-        )
-        (node
-          (x 0)
-          (y 992)
-        )
-        (node
-          (x 0)
-          (y 1024)
-        )
-        (node
-          (x 0)
-          (y 1056)
-        )
-        (node
-          (x 0)
-          (y 1088)
-        )
-        (node
-          (x 0)
-          (y 1120)
-        )
-      )
+      (path-ref "cf2fcd6d-ffd2-439d-9b96-04a5284a79ce")
       (width 250)
       (height 2)
       (tiles

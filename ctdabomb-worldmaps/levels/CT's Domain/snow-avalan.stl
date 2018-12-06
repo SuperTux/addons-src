@@ -62,6 +62,147 @@
     (music
       (file "music/wisphunt.music")
     )
+    (path
+      (name "e297b030-ed72-4892-8d1b-0dc71f521722")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 713.2467)
+          (y 0)
+        )
+        (node
+          (x 1056)
+          (y 0)
+        )
+        (node
+          (x 1248)
+          (y 0)
+        )
+        (node
+          (x 1677.812)
+          (y 0)
+        )
+        (node
+          (x 1929.812)
+          (y 0)
+        )
+        (node
+          (x 2176)
+          (y 0)
+        )
+        (node
+          (x 2473.812)
+          (y 0)
+        )
+        (node
+          (x 2688)
+          (y 0)
+        )
+        (node
+          (x 2889.812)
+          (y 0)
+        )
+        (node
+          (x 3157.812)
+          (y 0)
+        )
+        (node
+          (x 3480)
+          (y 0)
+        )
+        (node
+          (x 3648)
+          (y 0)
+        )
+        (node
+          (x 3808)
+          (y 0)
+        )
+        (node
+          (x 4160)
+          (y 0)
+        )
+        (node
+          (x 4376)
+          (y 0)
+        )
+        (node
+          (x 4688)
+          (y 0)
+        )
+        (node
+          (x 4904)
+          (y 0)
+        )
+        (node
+          (x 5152)
+          (y 0)
+        )
+        (node
+          (x 5408)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "43184c6c-819b-4271-ba77-5cc8fd5ad1bd")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y 224)
+        )
+        (node
+          (x 0)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "a81696f5-751a-4b0e-8f44-70bbe96a281c")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y -64)
+        )
+        (node
+          (x 0)
+          (y -128)
+        )
+      )
+    )
+    (path
+      (name "60fcb731-8179-4133-b9cf-02a9cff72bb8")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y 64)
+        )
+        (node
+          (x 0)
+          (y 160)
+        )
+        (node
+          (x 0)
+          (y 224)
+        )
+      )
+    )
     (scripttrigger
       (script "avalan.goto_node(100)")
       (button #f)
@@ -312,89 +453,7 @@ down.goto_node(100)")
       (solid #t)
       (z-pos -10)
       (name "avalan")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 713.2467)
-          (y 0)
-        )
-        (node
-          (x 1056)
-          (y 0)
-        )
-        (node
-          (x 1248)
-          (y 0)
-        )
-        (node
-          (x 1677.812)
-          (y 0)
-        )
-        (node
-          (x 1929.812)
-          (y 0)
-        )
-        (node
-          (x 2176)
-          (y 0)
-        )
-        (node
-          (x 2473.812)
-          (y 0)
-        )
-        (node
-          (x 2688)
-          (y 0)
-        )
-        (node
-          (x 2889.812)
-          (y 0)
-        )
-        (node
-          (x 3157.812)
-          (y 0)
-        )
-        (node
-          (x 3480)
-          (y 0)
-        )
-        (node
-          (x 3648)
-          (y 0)
-        )
-        (node
-          (x 3808)
-          (y 0)
-        )
-        (node
-          (x 4160)
-          (y 0)
-        )
-        (node
-          (x 4376)
-          (y 0)
-        )
-        (node
-          (x 4688)
-          (y 0)
-        )
-        (node
-          (x 4904)
-          (y 0)
-        )
-        (node
-          (x 5152)
-          (y 0)
-        )
-        (node
-          (x 5408)
-          (y 0)
-        )
-      )
+      (path-ref "e297b030-ed72-4892-8d1b-0dc71f521722")
       (width 30)
       (height 55)
       (tiles
@@ -459,20 +518,7 @@ down.goto_node(100)")
       (solid #t)
       (z-pos -20)
       (name "snowfall")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 0)
-          (y 224)
-        )
-        (node
-          (x 0)
-          (y 480)
-        )
-      )
+      (path-ref "43184c6c-819b-4271-ba77-5cc8fd5ad1bd")
       (width 200)
       (height 55)
       (tiles
@@ -537,20 +583,7 @@ down.goto_node(100)")
       (solid #t)
       (z-pos 0)
       (name "up")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 0)
-          (y -64)
-        )
-        (node
-          (x 0)
-          (y -128)
-        )
-      )
+      (path-ref "a81696f5-751a-4b0e-8f44-70bbe96a281c")
       (width 200)
       (height 55)
       (tiles
@@ -615,24 +648,7 @@ down.goto_node(100)")
       (solid #t)
       (z-pos 0)
       (name "down")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 0)
-          (y 64)
-        )
-        (node
-          (x 0)
-          (y 160)
-        )
-        (node
-          (x 0)
-          (y 224)
-        )
-      )
+      (path-ref "60fcb731-8179-4133-b9cf-02a9cff72bb8")
       (width 200)
       (height 55)
       (tiles

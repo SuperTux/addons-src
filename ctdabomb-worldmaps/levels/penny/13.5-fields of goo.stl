@@ -18,284 +18,104 @@
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 5440)
-          (y 864)
-        )
-        (node
-          (x 5440)
-          (y 1088)
-        )
-      )
+      (path-ref "60654ad5-795a-4e31-931d-c16083f129a4")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 6016)
-          (y 896)
-        )
-        (node
-          (x 6016)
-          (y 1088)
-        )
-      )
+      (path-ref "6b2198d1-bfd3-4f1c-b95c-00b216b8e617")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 4800)
-          (y 896)
-        )
-        (node
-          (x 4800)
-          (y 1088)
-        )
-      )
+      (path-ref "2dd55199-2923-4d69-a5b9-c215f02f7506")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 4960)
-          (y 896)
-        )
-        (node
-          (x 4960)
-          (y 1088)
-        )
-      )
+      (path-ref "268a0d6b-acb9-4deb-9664-060ada152c9e")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 4064)
-          (y 864)
-        )
-        (node
-          (x 4064)
-          (y 1088)
-        )
-      )
+      (path-ref "c1320fba-316b-4e7e-8341-d6542f8395e3")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 4256)
-          (y 864)
-        )
-        (node
-          (x 4256)
-          (y 1088)
-        )
-      )
+      (path-ref "557c9638-f8bd-4683-b493-57be904d1749")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 3392)
-          (y 864)
-        )
-        (node
-          (x 3392)
-          (y 1088)
-        )
-      )
+      (path-ref "3e638c73-f046-40fb-973b-9f056754de71")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 3552)
-          (y 864)
-        )
-        (node
-          (x 3552)
-          (y 1088)
-        )
-      )
+      (path-ref "6f3e974e-8eec-4a56-9635-e52758ca8305")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 6144)
-          (y 896)
-        )
-        (node
-          (x 6144)
-          (y 1088)
-        )
-      )
+      (path-ref "dfc8242a-1593-499f-995f-efc05d6a66ad")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 5600)
-          (y 864)
-        )
-        (node
-          (x 5600)
-          (y 1088)
-        )
-      )
+      (path-ref "4d6b10eb-4ca0-456a-9cc6-400b740a35fb")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 2208)
-          (y 832)
-        )
-        (node
-          (x 2208)
-          (y 1088)
-        )
-      )
+      (path-ref "98e7a372-c425-4980-86d7-7d98d9097b59")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 2784)
-          (y 864)
-        )
-        (node
-          (x 2784)
-          (y 1088)
-        )
-      )
+      (path-ref "85c970fc-fa45-4779-ab0f-ca038bb8cf29")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 1568)
-          (y 864)
-        )
-        (node
-          (x 1568)
-          (y 1088)
-        )
-      )
+      (path-ref "27336e90-a93c-4d71-8626-380251f2c7e9")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 1728)
-          (y 864)
-        )
-        (node
-          (x 1728)
-          (y 1088)
-        )
-      )
+      (path-ref "7dfad09f-6bdd-42d7-99f5-f058e079581a")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 832)
-          (y 832)
-        )
-        (node
-          (x 832)
-          (y 1088)
-        )
-      )
+      (path-ref "2f08e318-5eb4-4b1c-a7b6-f1d65aaf8234")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 1024)
-          (y 832)
-        )
-        (node
-          (x 1024)
-          (y 1056)
-        )
-      )
+      (path-ref "c4f4c560-6c0a-4d1a-8d47-373ab57b60ab")
     )
     (platform
       (running #f)
       (name "A")
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 160)
-          (y 832)
-        )
-        (node
-          (x 160)
-          (y 1088)
-        )
-      )
+      (path-ref "5a050251-2435-4616-9144-e0426a396eff")
     )
     (platform
       (running #f)
       (name "B")
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 352)
-          (y 832)
-        )
-        (node
-          (x 352)
-          (y 1088)
-        )
-      )
+      (path-ref "964be337-fa5a-40fd-8a97-2a48356c2b04")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 2944)
-          (y 864)
-        )
-        (node
-          (x 2944)
-          (y 1088)
-        )
-      )
+      (path-ref "681d9631-f950-43ec-b7a4-330b892df07d")
     )
     (platform
       (running #f)
       (sprite "images/objects/unstable_tile/iceplatform.sprite")
-      (path
-        (node
-          (x 2400)
-          (y 832)
-        )
-        (node
-          (x 2400)
-          (y 1088)
-        )
-      )
+      (path-ref "4284d88b-9a5f-492a-b8b8-6a84ce0854b7")
     )
     (flyingsnowball
       (x 4196)
@@ -359,6 +179,266 @@
     )
     (music
       (file "music/battle_theme.music")
+    )
+    (path
+      (name "60654ad5-795a-4e31-931d-c16083f129a4")
+      (path
+        (node
+          (x 5440)
+          (y 864)
+        )
+        (node
+          (x 5440)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "6b2198d1-bfd3-4f1c-b95c-00b216b8e617")
+      (path
+        (node
+          (x 6016)
+          (y 896)
+        )
+        (node
+          (x 6016)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "2dd55199-2923-4d69-a5b9-c215f02f7506")
+      (path
+        (node
+          (x 4800)
+          (y 896)
+        )
+        (node
+          (x 4800)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "268a0d6b-acb9-4deb-9664-060ada152c9e")
+      (path
+        (node
+          (x 4960)
+          (y 896)
+        )
+        (node
+          (x 4960)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "c1320fba-316b-4e7e-8341-d6542f8395e3")
+      (path
+        (node
+          (x 4064)
+          (y 864)
+        )
+        (node
+          (x 4064)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "557c9638-f8bd-4683-b493-57be904d1749")
+      (path
+        (node
+          (x 4256)
+          (y 864)
+        )
+        (node
+          (x 4256)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "3e638c73-f046-40fb-973b-9f056754de71")
+      (path
+        (node
+          (x 3392)
+          (y 864)
+        )
+        (node
+          (x 3392)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "6f3e974e-8eec-4a56-9635-e52758ca8305")
+      (path
+        (node
+          (x 3552)
+          (y 864)
+        )
+        (node
+          (x 3552)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "dfc8242a-1593-499f-995f-efc05d6a66ad")
+      (path
+        (node
+          (x 6144)
+          (y 896)
+        )
+        (node
+          (x 6144)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "4d6b10eb-4ca0-456a-9cc6-400b740a35fb")
+      (path
+        (node
+          (x 5600)
+          (y 864)
+        )
+        (node
+          (x 5600)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "98e7a372-c425-4980-86d7-7d98d9097b59")
+      (path
+        (node
+          (x 2208)
+          (y 832)
+        )
+        (node
+          (x 2208)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "85c970fc-fa45-4779-ab0f-ca038bb8cf29")
+      (path
+        (node
+          (x 2784)
+          (y 864)
+        )
+        (node
+          (x 2784)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "27336e90-a93c-4d71-8626-380251f2c7e9")
+      (path
+        (node
+          (x 1568)
+          (y 864)
+        )
+        (node
+          (x 1568)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "7dfad09f-6bdd-42d7-99f5-f058e079581a")
+      (path
+        (node
+          (x 1728)
+          (y 864)
+        )
+        (node
+          (x 1728)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "2f08e318-5eb4-4b1c-a7b6-f1d65aaf8234")
+      (path
+        (node
+          (x 832)
+          (y 832)
+        )
+        (node
+          (x 832)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "c4f4c560-6c0a-4d1a-8d47-373ab57b60ab")
+      (path
+        (node
+          (x 1024)
+          (y 832)
+        )
+        (node
+          (x 1024)
+          (y 1056)
+        )
+      )
+    )
+    (path
+      (name "5a050251-2435-4616-9144-e0426a396eff")
+      (path
+        (node
+          (x 160)
+          (y 832)
+        )
+        (node
+          (x 160)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "964be337-fa5a-40fd-8a97-2a48356c2b04")
+      (path
+        (node
+          (x 352)
+          (y 832)
+        )
+        (node
+          (x 352)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "681d9631-f950-43ec-b7a4-330b892df07d")
+      (path
+        (node
+          (x 2944)
+          (y 864)
+        )
+        (node
+          (x 2944)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "4284d88b-9a5f-492a-b8b8-6a84ce0854b7")
+      (path
+        (node
+          (x 2400)
+          (y 832)
+        )
+        (node
+          (x 2400)
+          (y 1088)
+        )
+      )
     )
     (scripttrigger
       (script "e.goto_node(2)")

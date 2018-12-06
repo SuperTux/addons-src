@@ -85,6 +85,24 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "ed5c137d-8678-4e97-8c82-fa92a20f6fd9")
+      (path
+        (node
+          (x 6720)
+          (y 160)
+        )
+      )
+    )
+    (path
+      (name "e4bf675e-5feb-4275-a867-060b3db1e54f")
+      (path
+        (node
+          (x 7584)
+          (y 640)
+        )
+      )
+    )
     (scripttrigger
       (script "secret.set_alpha(1.0);
 retour.set_alpha(1.0);")
@@ -322,12 +340,7 @@ retour.set_alpha(1.0);")
       (alpha 0)
       (z-pos -30)
       (name "secret")
-      (path
-        (node
-          (x 6720)
-          (y 160)
-        )
-      )
+      (path-ref "ed5c137d-8678-4e97-8c82-fa92a20f6fd9")
       (width 24)
       (height 31)
       (tiles
@@ -369,12 +382,7 @@ retour.set_alpha(1.0);")
       (alpha 0)
       (z-pos 10)
       (name "retour")
-      (path
-        (node
-          (x 7584)
-          (y 640)
-        )
-      )
+      (path-ref "e4bf675e-5feb-4275-a867-060b3db1e54f")
       (width 40)
       (height 16)
       (tiles
@@ -428,16 +436,7 @@ retour.set_alpha(1.0);")
       (running #f)
       (name "porte1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 992)
-          (y 704)
-        )
-        (node
-          (x 992)
-          (y 832)
-        )
-      )
+      (path-ref "f21d46c4-f6a3-4a92-9ecf-ce7886e778f0")
     )
     (lantern
       (x 336)
@@ -487,6 +486,28 @@ retour.set_alpha(1.0);")
     )
     (music
       (file "music/cave.music")
+    )
+    (path
+      (name "f21d46c4-f6a3-4a92-9ecf-ce7886e778f0")
+      (path
+        (node
+          (x 992)
+          (y 704)
+        )
+        (node
+          (x 992)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "ca680905-15e2-4362-ba12-326464f0899d")
+      (path
+        (node
+          (x 0)
+          (y 512)
+        )
+      )
     )
     (secretarea
       (fade-tilemap "cache")
@@ -694,12 +715,7 @@ porte1.stop_moving();")
       (solid #t)
       (z-pos 200)
       (name "cache")
-      (path
-        (node
-          (x 0)
-          (y 512)
-        )
-      )
+      (path-ref "ca680905-15e2-4362-ba12-326464f0899d")
       (width 27)
       (height 19)
       (tiles

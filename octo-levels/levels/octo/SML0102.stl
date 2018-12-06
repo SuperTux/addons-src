@@ -50,6 +50,118 @@ Platform1.start_moving();")
       (x 6693)
       (y 328)
     )
+    (path
+      (name "467cc413-b436-4d55-a517-30c019d63a51")
+      (path
+        (mode "pingpong")
+        (node
+          (x 3360)
+          (y 192)
+          (time 1.9)
+        )
+        (node
+          (x 3360)
+          (y 416)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "5a6c52e8-c8de-427d-84a6-eaf96a80962b")
+      (path
+        (mode "pingpong")
+        (node
+          (x 3552)
+          (y 320)
+          (time 2)
+        )
+        (node
+          (x 3552)
+          (y 544)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "ca624c6f-9998-4e45-89da-82d7cb960073")
+      (path
+        (mode "pingpong")
+        (node
+          (x 5984)
+          (y 512)
+          (time 2)
+        )
+        (node
+          (x 5984)
+          (y 288)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "c3036f40-ea81-47ea-9c79-20d325f4e0c3")
+      (path
+        (mode "pingpong")
+        (node
+          (x 6144)
+          (y 96)
+          (time 2)
+        )
+        (node
+          (x 6144)
+          (y 352)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "48d8dbe4-f2bf-4b0f-98b2-421e312958b8")
+      (path
+        (mode "pingpong")
+        (node
+          (x 6304)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 6304)
+          (y 544)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "faa0eecd-1bb9-4eaf-87dd-ce7baf8f7533")
+      (path
+        (mode "pingpong")
+        (node
+          (x 7200)
+          (y 320)
+          (time 1.7)
+        )
+        (node
+          (x 7424)
+          (y 320)
+          (time 1.75)
+        )
+      )
+    )
+    (path
+      (name "ee9fe64a-d664-4d85-acf4-b1ddeeb19344")
+      (path
+        (mode "pingpong")
+        (node
+          (x 8448)
+          (y 448)
+          (time 1.75)
+        )
+        (node
+          (x 8448)
+          (y 224)
+          (time 1.75)
+        )
+      )
+    )
     (scripttrigger
       (script "Tux.add_coins(100);")
       (button #f)
@@ -167,19 +279,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos 1)
       (name "Platform0")
-      (path
-        (mode "pingpong")
-        (node
-          (x 3360)
-          (y 192)
-          (time 1.9)
-        )
-        (node
-          (x 3360)
-          (y 416)
-          (time 2)
-        )
-      )
+      (path-ref "467cc413-b436-4d55-a517-30c019d63a51")
       (width 3)
       (height 1)
       (tiles
@@ -190,19 +290,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos 2)
       (name "Platform1")
-      (path
-        (mode "pingpong")
-        (node
-          (x 3552)
-          (y 320)
-          (time 2)
-        )
-        (node
-          (x 3552)
-          (y 544)
-          (time 2)
-        )
-      )
+      (path-ref "5a6c52e8-c8de-427d-84a6-eaf96a80962b")
       (width 3)
       (height 1)
       (tiles
@@ -213,19 +301,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos 3)
       (name "Platform2")
-      (path
-        (mode "pingpong")
-        (node
-          (x 5984)
-          (y 512)
-          (time 2)
-        )
-        (node
-          (x 5984)
-          (y 288)
-          (time 2)
-        )
-      )
+      (path-ref "ca624c6f-9998-4e45-89da-82d7cb960073")
       (width 3)
       (height 1)
       (tiles
@@ -236,19 +312,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos 4)
       (name "Platform3")
-      (path
-        (mode "pingpong")
-        (node
-          (x 6144)
-          (y 96)
-          (time 2)
-        )
-        (node
-          (x 6144)
-          (y 352)
-          (time 2)
-        )
-      )
+      (path-ref "c3036f40-ea81-47ea-9c79-20d325f4e0c3")
       (width 3)
       (height 1)
       (tiles
@@ -259,19 +323,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos 5)
       (name "Platform4")
-      (path
-        (mode "pingpong")
-        (node
-          (x 6304)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 6304)
-          (y 544)
-          (time 2)
-        )
-      )
+      (path-ref "48d8dbe4-f2bf-4b0f-98b2-421e312958b8")
       (width 3)
       (height 1)
       (tiles
@@ -282,19 +334,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos 6)
       (name "Platform5")
-      (path
-        (mode "pingpong")
-        (node
-          (x 7200)
-          (y 320)
-          (time 1.7)
-        )
-        (node
-          (x 7424)
-          (y 320)
-          (time 1.75)
-        )
-      )
+      (path-ref "faa0eecd-1bb9-4eaf-87dd-ce7baf8f7533")
       (width 3)
       (height 1)
       (tiles
@@ -305,19 +345,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos 7)
       (name "Platform6")
-      (path
-        (mode "pingpong")
-        (node
-          (x 8448)
-          (y 448)
-          (time 1.75)
-        )
-        (node
-          (x 8448)
-          (y 224)
-          (time 1.75)
-        )
-      )
+      (path-ref "ee9fe64a-d664-4d85-acf4-b1ddeeb19344")
       (width 3)
       (height 1)
       (tiles

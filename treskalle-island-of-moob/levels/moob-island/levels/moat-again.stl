@@ -63,63 +63,19 @@
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 497)
-          (y 407)
-          (time 6)
-        )
-        (node
-          (x 497.1714)
-          (y 445.0693)
-          (time 6)
-        )
-      )
+      (path-ref "c27ac80d-dd77-4cf4-b4e2-6987ed29e09e")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 1278.939)
-          (y 412.4645)
-          (time 6)
-        )
-        (node
-          (x 1279.64)
-          (y 441.8163)
-          (time 6)
-        )
-      )
+      (path-ref "4b7b7664-9b9b-4992-9295-b64f6de2491e")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 3366.184)
-          (y 404.6863)
-          (time 6)
-        )
-        (node
-          (x 3366.527)
-          (y 447.5988)
-          (time 6)
-        )
-      )
+      (path-ref "fe49d40d-849e-40f0-b9cf-8050eebb4fb1")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 5284.336)
-          (y 399.4486)
-          (time 7)
-        )
-        (node
-          (x 5284.336)
-          (y 435.4486)
-          (time 7)
-        )
-      )
+      (path-ref "f73f3508-2b54-45df-9285-44c566e43f7b")
     )
     (gradient
       (top_color 0 0 0)
@@ -175,6 +131,66 @@
     )
     (music
       (file "music/wisphunt.ogg")
+    )
+    (path
+      (name "c27ac80d-dd77-4cf4-b4e2-6987ed29e09e")
+      (path
+        (node
+          (x 497)
+          (y 407)
+          (time 6)
+        )
+        (node
+          (x 497.1714)
+          (y 445.0693)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "4b7b7664-9b9b-4992-9295-b64f6de2491e")
+      (path
+        (node
+          (x 1278.939)
+          (y 412.4645)
+          (time 6)
+        )
+        (node
+          (x 1279.64)
+          (y 441.8163)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "fe49d40d-849e-40f0-b9cf-8050eebb4fb1")
+      (path
+        (node
+          (x 3366.184)
+          (y 404.6863)
+          (time 6)
+        )
+        (node
+          (x 3366.527)
+          (y 447.5988)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "f73f3508-2b54-45df-9285-44c566e43f7b")
+      (path
+        (node
+          (x 5284.336)
+          (y 399.4486)
+          (time 7)
+        )
+        (node
+          (x 5284.336)
+          (y 435.4486)
+          (time 7)
+        )
+      )
     )
     (particles-rain
     )

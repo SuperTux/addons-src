@@ -519,6 +519,15 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "8acb793e-c616-4794-af73-2ace9b0d0c1c")
+      (path
+        (node
+          (x 192)
+          (y 0)
+        )
+      )
+    )
     (scripttrigger
       (script "secret.set_alpha(1.0)")
       (button #f)
@@ -797,12 +806,7 @@
       (solid #f)
       (z-pos 90)
       (name "cache")
-      (path
-        (node
-          (x 192)
-          (y 0)
-        )
-      )
+      (path-ref "8acb793e-c616-4794-af73-2ace9b0d0c1c")
       (width 40)
       (height 20)
       (tiles

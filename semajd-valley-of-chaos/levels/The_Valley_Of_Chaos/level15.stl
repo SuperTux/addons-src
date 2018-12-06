@@ -492,6 +492,29 @@
     (platform
       (running #f)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "878a7fec-e432-46fc-82b6-3d9fd8e2d469")
+    )
+    (smartball
+      (x 771)
+      (y 198)
+    )
+    (smartball
+      (x 1251)
+      (y 326)
+    )
+    (smartball
+      (x 2051)
+      (y 390)
+    )
+    (smartball
+      (x 2531)
+      (y 518)
+    )
+    (music
+      (file "music/voc-night.music")
+    )
+    (path
+      (name "878a7fec-e432-46fc-82b6-3d9fd8e2d469")
       (path
         (mode "oneshot")
         (node
@@ -575,25 +598,6 @@
           (y 736)
         )
       )
-    )
-    (smartball
-      (x 771)
-      (y 198)
-    )
-    (smartball
-      (x 1251)
-      (y 326)
-    )
-    (smartball
-      (x 2051)
-      (y 390)
-    )
-    (smartball
-      (x 2531)
-      (y 518)
-    )
-    (music
-      (file "music/voc-night.music")
     )
     (scripttrigger
       (script "Level.spawn (\"main2\", \"main2b\");")

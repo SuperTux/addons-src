@@ -111,6 +111,642 @@
     (music
       (file "music/forest2.ogg")
     )
+    (path
+      (name "7c1c4b2e-e6cb-4dcf-b764-0506d92503cc")
+      (path
+        (node
+          (x 0)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "aa48dacb-217c-4628-a270-8e9d1d87b39d")
+      (path
+        (node
+          (x 0)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "19023d3e-d8f1-457d-b31c-bd7560f42fb8")
+      (path
+        (node
+          (x 7520)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "d6d02c64-c7d1-4a8e-9ea4-f02ba76a2890")
+      (path
+        (node
+          (x 4864)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "bef4c024-49d4-4513-9df8-a121efd10c09")
+      (path
+        (node
+          (x 3616)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 3616)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "ebcb9d59-a2a1-429f-ab2f-47017b69c62e")
+      (path
+        (node
+          (x 3616)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 3616)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "6460972d-0e73-45ba-a6ac-1b86c31ed5c0")
+      (path
+        (node
+          (x 3616)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 3616)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "c4d71463-3955-440e-8bbc-aa9745dc54a9")
+      (path
+        (node
+          (x 3616)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 3616)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "e55501e5-69a0-41a4-b80a-32a8dd4cb0c8")
+      (path
+        (node
+          (x 3616)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 3616)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "70ebeb7f-b081-48a4-a4c3-4c6c717fadbb")
+      (path
+        (node
+          (x 3616)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 3616)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "cb3c2b52-ab0a-49ed-88ba-985fe6f7396f")
+      (path
+        (node
+          (x 3616)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 3616)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "a2697b7d-efe5-4697-a2b5-0bb4524ad91c")
+      (path
+        (node
+          (x 3616)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 3616)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "eaee7297-0e34-4606-838b-324e3120cab6")
+      (path
+        (node
+          (x 4128)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4128)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "dd245092-3958-4257-8bb6-701bb1402fbf")
+      (path
+        (node
+          (x 4128)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4128)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "7d776b99-5455-4bc3-b595-399e37d229a0")
+      (path
+        (node
+          (x 4128)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4128)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "3cbaf8ee-5e71-4195-b72e-cadf1938a2b3")
+      (path
+        (node
+          (x 4128)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4128)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "5da98bfe-1ee4-4c60-955d-fedda5b910bd")
+      (path
+        (node
+          (x 4128)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4128)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "534b2d02-a717-4382-8534-ffc079f1666f")
+      (path
+        (node
+          (x 4128)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4128)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "6031d252-5315-4434-ad38-e1d9f1b33873")
+      (path
+        (node
+          (x 4128)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4128)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "4265a0af-d293-4f6d-b20f-d7a472d4ec83")
+      (path
+        (node
+          (x 4128)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4128)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "df6a2143-583a-4437-8f1a-c16143af9c7d")
+      (path
+        (node
+          (x 4800)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4800)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "9dbab634-6997-41ca-8b12-6029fac04c79")
+      (path
+        (node
+          (x 4800)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4800)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "a6585238-8632-4d1d-97b8-9da32583ca0e")
+      (path
+        (node
+          (x 4800)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4800)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "d59e5535-9fe5-4c64-a363-b015bea20df7")
+      (path
+        (node
+          (x 4800)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4800)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "0289fc67-8752-4534-ab6c-0f3fe5f4232a")
+      (path
+        (node
+          (x 4800)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4800)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "b9e23cf0-c62f-4323-a86c-2f324e55c359")
+      (path
+        (node
+          (x 4800)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4800)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "2610a14d-1dfe-4371-a9aa-9ab3cf5f8e22")
+      (path
+        (node
+          (x 4800)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4800)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "050a08dc-93a2-4e50-ac5c-c0b61b70a944")
+      (path
+        (node
+          (x 4800)
+          (y 1504)
+          (time 4.1)
+        )
+        (node
+          (x 4800)
+          (y 1568)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "d2ddb527-5855-4c7d-89c6-d223254f6090")
+      (path
+        (node
+          (x 5312)
+          (y 1440)
+          (time 4.1)
+        )
+        (node
+          (x 5312)
+          (y 1504)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "a9e77a48-527f-45b6-aa74-1632d1def38b")
+      (path
+        (node
+          (x 5312)
+          (y 1440)
+          (time 4.1)
+        )
+        (node
+          (x 5312)
+          (y 1504)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "2efa7654-5fd4-4ad3-9531-45568b206641")
+      (path
+        (node
+          (x 5312)
+          (y 1440)
+          (time 4.1)
+        )
+        (node
+          (x 5312)
+          (y 1504)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "87778774-a41f-42fb-bde7-6cbe52158b9d")
+      (path
+        (node
+          (x 5312)
+          (y 1440)
+          (time 4.1)
+        )
+        (node
+          (x 5312)
+          (y 1504)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "9026b91d-17ac-4640-b417-411b6007f366")
+      (path
+        (node
+          (x 5312)
+          (y 1440)
+          (time 4.1)
+        )
+        (node
+          (x 5312)
+          (y 1504)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "d2370505-c548-4c9f-b833-811c51122de9")
+      (path
+        (node
+          (x 5312)
+          (y 1440)
+          (time 4.1)
+        )
+        (node
+          (x 5312)
+          (y 1504)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "84e0f87a-6a9e-4dc9-9a96-5c43e2589ad7")
+      (path
+        (node
+          (x 5312)
+          (y 1440)
+          (time 4.1)
+        )
+        (node
+          (x 5312)
+          (y 1504)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "86b90849-894d-44af-84e6-77107d5713b7")
+      (path
+        (node
+          (x 5312)
+          (y 1440)
+          (time 4.1)
+        )
+        (node
+          (x 5312)
+          (y 1504)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "346e016d-bad9-4265-a7aa-462d86b1ba23")
+      (path
+        (node
+          (x 5984)
+          (y 1344)
+          (time 4.1)
+        )
+        (node
+          (x 5984)
+          (y 1408)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "fc58e11e-1849-45cf-a631-0f9a14ec6175")
+      (path
+        (node
+          (x 5984)
+          (y 1344)
+          (time 4.1)
+        )
+        (node
+          (x 5984)
+          (y 1408)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "b344ab74-6748-4fca-92af-8d09e8ec70d1")
+      (path
+        (node
+          (x 5984)
+          (y 1344)
+          (time 4.1)
+        )
+        (node
+          (x 5984)
+          (y 1408)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "919c3948-8f93-4839-9af0-45c07045b3f8")
+      (path
+        (node
+          (x 5984)
+          (y 1344)
+          (time 4.1)
+        )
+        (node
+          (x 5984)
+          (y 1408)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "d02c02cd-b613-4302-addb-745d6df97b83")
+      (path
+        (node
+          (x 5984)
+          (y 1344)
+          (time 4.1)
+        )
+        (node
+          (x 5984)
+          (y 1408)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "672e138f-edd3-4e7b-8a09-695e995e705d")
+      (path
+        (node
+          (x 5984)
+          (y 1344)
+          (time 4.1)
+        )
+        (node
+          (x 5984)
+          (y 1408)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "c8aea547-ba9d-4f78-a493-23fae17db642")
+      (path
+        (node
+          (x 5984)
+          (y 1344)
+          (time 4.1)
+        )
+        (node
+          (x 5984)
+          (y 1408)
+          (time 0.001)
+        )
+      )
+    )
+    (path
+      (name "ef664044-7b1f-4816-922d-782c20975174")
+      (path
+        (node
+          (x 5984)
+          (y 1344)
+          (time 4.1)
+        )
+        (node
+          (x 5984)
+          (y 1408)
+          (time 0.001)
+        )
+      )
+    )
     (poisonivy
       (x 3072)
       (y 1152)
@@ -375,12 +1011,7 @@
       (alpha 0.6)
       (z-pos 150)
       (name "sand")
-      (path
-        (node
-          (x 0)
-          (y 800)
-        )
-      )
+      (path-ref "7c1c4b2e-e6cb-4dcf-b764-0506d92503cc")
       (width 300)
       (height 25)
       (tiles
@@ -416,12 +1047,7 @@
       (alpha 0.8)
       (z-pos 50)
       (name "ice")
-      (path
-        (node
-          (x 0)
-          (y 800)
-        )
-      )
+      (path-ref "aa48dacb-217c-4628-a270-8e9d1d87b39d")
       (width 300)
       (height 24)
       (tiles
@@ -455,12 +1081,7 @@
       (solid #f)
       (z-pos 90)
       (name "secret")
-      (path
-        (node
-          (x 7520)
-          (y 704)
-        )
-      )
+      (path-ref "19023d3e-d8f1-457d-b31c-bd7560f42fb8")
       (width 26)
       (height 14)
       (tiles
@@ -484,12 +1105,7 @@
       (solid #t)
       (z-pos 100)
       (name "treetop")
-      (path
-        (node
-          (x 4864)
-          (y 224)
-        )
-      )
+      (path-ref "d6d02c64-c7d1-4a8e-9ea4-f02ba76a2890")
       (width 8)
       (height 8)
       (tiles
@@ -507,18 +1123,7 @@
       (solid #t)
       (z-pos 0)
       (name "sand1")
-      (path
-        (node
-          (x 3616)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 3616)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "bef4c024-49d4-4513-9df8-a121efd10c09")
       (width 12)
       (height 1)
       (tiles
@@ -529,18 +1134,7 @@
       (solid #t)
       (z-pos 0)
       (name "sand2")
-      (path
-        (node
-          (x 3616)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 3616)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "ebcb9d59-a2a1-429f-ab2f-47017b69c62e")
       (width 12)
       (height 1)
       (tiles
@@ -551,18 +1145,7 @@
       (solid #t)
       (z-pos 0)
       (name "sand3")
-      (path
-        (node
-          (x 3616)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 3616)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "6460972d-0e73-45ba-a6ac-1b86c31ed5c0")
       (width 12)
       (height 1)
       (tiles
@@ -573,18 +1156,7 @@
       (solid #t)
       (z-pos 0)
       (name "sand4")
-      (path
-        (node
-          (x 3616)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 3616)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "c4d71463-3955-440e-8bbc-aa9745dc54a9")
       (width 12)
       (height 1)
       (tiles
@@ -595,18 +1167,7 @@
       (solid #t)
       (z-pos 0)
       (name "sand5")
-      (path
-        (node
-          (x 3616)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 3616)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "e55501e5-69a0-41a4-b80a-32a8dd4cb0c8")
       (width 12)
       (height 1)
       (tiles
@@ -617,18 +1178,7 @@
       (solid #t)
       (z-pos 0)
       (name "sand6")
-      (path
-        (node
-          (x 3616)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 3616)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "70ebeb7f-b081-48a4-a4c3-4c6c717fadbb")
       (width 12)
       (height 1)
       (tiles
@@ -639,18 +1189,7 @@
       (solid #t)
       (z-pos 0)
       (name "sand7")
-      (path
-        (node
-          (x 3616)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 3616)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "cb3c2b52-ab0a-49ed-88ba-985fe6f7396f")
       (width 12)
       (height 1)
       (tiles
@@ -661,18 +1200,7 @@
       (solid #t)
       (z-pos 0)
       (name "sand8")
-      (path
-        (node
-          (x 3616)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 3616)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "a2697b7d-efe5-4697-a2b5-0bb4524ad91c")
       (width 12)
       (height 1)
       (tiles
@@ -683,18 +1211,7 @@
       (solid #t)
       (z-pos 0)
       (name "sanda1")
-      (path
-        (node
-          (x 4128)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4128)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "eaee7297-0e34-4606-838b-324e3120cab6")
       (width 12)
       (height 1)
       (tiles
@@ -705,18 +1222,7 @@
       (solid #t)
       (z-pos 0)
       (name "sanda2")
-      (path
-        (node
-          (x 4128)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4128)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "dd245092-3958-4257-8bb6-701bb1402fbf")
       (width 12)
       (height 1)
       (tiles
@@ -727,18 +1233,7 @@
       (solid #t)
       (z-pos 0)
       (name "sanda3")
-      (path
-        (node
-          (x 4128)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4128)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "7d776b99-5455-4bc3-b595-399e37d229a0")
       (width 12)
       (height 1)
       (tiles
@@ -749,18 +1244,7 @@
       (solid #t)
       (z-pos 0)
       (name "sanda4")
-      (path
-        (node
-          (x 4128)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4128)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "3cbaf8ee-5e71-4195-b72e-cadf1938a2b3")
       (width 12)
       (height 1)
       (tiles
@@ -771,18 +1255,7 @@
       (solid #t)
       (z-pos 0)
       (name "sanda5")
-      (path
-        (node
-          (x 4128)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4128)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "5da98bfe-1ee4-4c60-955d-fedda5b910bd")
       (width 12)
       (height 1)
       (tiles
@@ -793,18 +1266,7 @@
       (solid #t)
       (z-pos 0)
       (name "sanda6")
-      (path
-        (node
-          (x 4128)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4128)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "534b2d02-a717-4382-8534-ffc079f1666f")
       (width 12)
       (height 1)
       (tiles
@@ -815,18 +1277,7 @@
       (solid #t)
       (z-pos 0)
       (name "sanda7")
-      (path
-        (node
-          (x 4128)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4128)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "6031d252-5315-4434-ad38-e1d9f1b33873")
       (width 12)
       (height 1)
       (tiles
@@ -837,18 +1288,7 @@
       (solid #t)
       (z-pos 0)
       (name "sanda8")
-      (path
-        (node
-          (x 4128)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4128)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "4265a0af-d293-4f6d-b20f-d7a472d4ec83")
       (width 12)
       (height 1)
       (tiles
@@ -859,18 +1299,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandb1")
-      (path
-        (node
-          (x 4800)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4800)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "df6a2143-583a-4437-8f1a-c16143af9c7d")
       (width 14)
       (height 1)
       (tiles
@@ -881,18 +1310,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandb2")
-      (path
-        (node
-          (x 4800)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4800)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "9dbab634-6997-41ca-8b12-6029fac04c79")
       (width 14)
       (height 1)
       (tiles
@@ -903,18 +1321,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandb3")
-      (path
-        (node
-          (x 4800)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4800)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "a6585238-8632-4d1d-97b8-9da32583ca0e")
       (width 14)
       (height 1)
       (tiles
@@ -925,18 +1332,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandb4")
-      (path
-        (node
-          (x 4800)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4800)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "d59e5535-9fe5-4c64-a363-b015bea20df7")
       (width 14)
       (height 1)
       (tiles
@@ -947,18 +1343,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandb5")
-      (path
-        (node
-          (x 4800)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4800)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "0289fc67-8752-4534-ab6c-0f3fe5f4232a")
       (width 14)
       (height 1)
       (tiles
@@ -969,18 +1354,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandb6")
-      (path
-        (node
-          (x 4800)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4800)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "b9e23cf0-c62f-4323-a86c-2f324e55c359")
       (width 14)
       (height 1)
       (tiles
@@ -991,18 +1365,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandb7")
-      (path
-        (node
-          (x 4800)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4800)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "2610a14d-1dfe-4371-a9aa-9ab3cf5f8e22")
       (width 14)
       (height 1)
       (tiles
@@ -1013,18 +1376,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandb8")
-      (path
-        (node
-          (x 4800)
-          (y 1504)
-          (time 4.1)
-        )
-        (node
-          (x 4800)
-          (y 1568)
-          (time 0.001)
-        )
-      )
+      (path-ref "050a08dc-93a2-4e50-ac5c-c0b61b70a944")
       (width 14)
       (height 1)
       (tiles
@@ -1035,18 +1387,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandc1")
-      (path
-        (node
-          (x 5312)
-          (y 1440)
-          (time 4.1)
-        )
-        (node
-          (x 5312)
-          (y 1504)
-          (time 0.001)
-        )
-      )
+      (path-ref "d2ddb527-5855-4c7d-89c6-d223254f6090")
       (width 8)
       (height 1)
       (tiles
@@ -1057,18 +1398,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandc2")
-      (path
-        (node
-          (x 5312)
-          (y 1440)
-          (time 4.1)
-        )
-        (node
-          (x 5312)
-          (y 1504)
-          (time 0.001)
-        )
-      )
+      (path-ref "a9e77a48-527f-45b6-aa74-1632d1def38b")
       (width 8)
       (height 1)
       (tiles
@@ -1079,18 +1409,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandc3")
-      (path
-        (node
-          (x 5312)
-          (y 1440)
-          (time 4.1)
-        )
-        (node
-          (x 5312)
-          (y 1504)
-          (time 0.001)
-        )
-      )
+      (path-ref "2efa7654-5fd4-4ad3-9531-45568b206641")
       (width 8)
       (height 1)
       (tiles
@@ -1101,18 +1420,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandc4")
-      (path
-        (node
-          (x 5312)
-          (y 1440)
-          (time 4.1)
-        )
-        (node
-          (x 5312)
-          (y 1504)
-          (time 0.001)
-        )
-      )
+      (path-ref "87778774-a41f-42fb-bde7-6cbe52158b9d")
       (width 8)
       (height 1)
       (tiles
@@ -1123,18 +1431,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandc5")
-      (path
-        (node
-          (x 5312)
-          (y 1440)
-          (time 4.1)
-        )
-        (node
-          (x 5312)
-          (y 1504)
-          (time 0.001)
-        )
-      )
+      (path-ref "9026b91d-17ac-4640-b417-411b6007f366")
       (width 8)
       (height 1)
       (tiles
@@ -1145,18 +1442,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandc6")
-      (path
-        (node
-          (x 5312)
-          (y 1440)
-          (time 4.1)
-        )
-        (node
-          (x 5312)
-          (y 1504)
-          (time 0.001)
-        )
-      )
+      (path-ref "d2370505-c548-4c9f-b833-811c51122de9")
       (width 8)
       (height 1)
       (tiles
@@ -1167,18 +1453,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandc7")
-      (path
-        (node
-          (x 5312)
-          (y 1440)
-          (time 4.1)
-        )
-        (node
-          (x 5312)
-          (y 1504)
-          (time 0.001)
-        )
-      )
+      (path-ref "84e0f87a-6a9e-4dc9-9a96-5c43e2589ad7")
       (width 8)
       (height 1)
       (tiles
@@ -1189,18 +1464,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandc8")
-      (path
-        (node
-          (x 5312)
-          (y 1440)
-          (time 4.1)
-        )
-        (node
-          (x 5312)
-          (y 1504)
-          (time 0.001)
-        )
-      )
+      (path-ref "86b90849-894d-44af-84e6-77107d5713b7")
       (width 8)
       (height 1)
       (tiles
@@ -1211,18 +1475,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandd1")
-      (path
-        (node
-          (x 5984)
-          (y 1344)
-          (time 4.1)
-        )
-        (node
-          (x 5984)
-          (y 1408)
-          (time 0.001)
-        )
-      )
+      (path-ref "346e016d-bad9-4265-a7aa-462d86b1ba23")
       (width 12)
       (height 1)
       (tiles
@@ -1233,18 +1486,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandd2")
-      (path
-        (node
-          (x 5984)
-          (y 1344)
-          (time 4.1)
-        )
-        (node
-          (x 5984)
-          (y 1408)
-          (time 0.001)
-        )
-      )
+      (path-ref "fc58e11e-1849-45cf-a631-0f9a14ec6175")
       (width 12)
       (height 1)
       (tiles
@@ -1255,18 +1497,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandd3")
-      (path
-        (node
-          (x 5984)
-          (y 1344)
-          (time 4.1)
-        )
-        (node
-          (x 5984)
-          (y 1408)
-          (time 0.001)
-        )
-      )
+      (path-ref "b344ab74-6748-4fca-92af-8d09e8ec70d1")
       (width 12)
       (height 1)
       (tiles
@@ -1277,18 +1508,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandd4")
-      (path
-        (node
-          (x 5984)
-          (y 1344)
-          (time 4.1)
-        )
-        (node
-          (x 5984)
-          (y 1408)
-          (time 0.001)
-        )
-      )
+      (path-ref "919c3948-8f93-4839-9af0-45c07045b3f8")
       (width 12)
       (height 1)
       (tiles
@@ -1299,18 +1519,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandd5")
-      (path
-        (node
-          (x 5984)
-          (y 1344)
-          (time 4.1)
-        )
-        (node
-          (x 5984)
-          (y 1408)
-          (time 0.001)
-        )
-      )
+      (path-ref "d02c02cd-b613-4302-addb-745d6df97b83")
       (width 12)
       (height 1)
       (tiles
@@ -1321,18 +1530,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandd6")
-      (path
-        (node
-          (x 5984)
-          (y 1344)
-          (time 4.1)
-        )
-        (node
-          (x 5984)
-          (y 1408)
-          (time 0.001)
-        )
-      )
+      (path-ref "672e138f-edd3-4e7b-8a09-695e995e705d")
       (width 12)
       (height 1)
       (tiles
@@ -1343,18 +1541,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandd7")
-      (path
-        (node
-          (x 5984)
-          (y 1344)
-          (time 4.1)
-        )
-        (node
-          (x 5984)
-          (y 1408)
-          (time 0.001)
-        )
-      )
+      (path-ref "c8aea547-ba9d-4f78-a493-23fae17db642")
       (width 12)
       (height 1)
       (tiles
@@ -1365,18 +1552,7 @@
       (solid #t)
       (z-pos 0)
       (name "sandd8")
-      (path
-        (node
-          (x 5984)
-          (y 1344)
-          (time 4.1)
-        )
-        (node
-          (x 5984)
-          (y 1408)
-          (time 0.001)
-        )
-      )
+      (path-ref "ef664044-7b1f-4816-922d-782c20975174")
       (width 12)
       (height 1)
       (tiles

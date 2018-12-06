@@ -22,6 +22,37 @@ unlock_archivement(\"t\")")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "413a82d2-8cba-4293-bdc7-d1f20b175bf2")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "8f1fbf98-f61c-4aa5-a232-a0af7a9ab078")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "9a97ebcc-a261-4909-a438-f0a42efe5f99")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "931b60d1-78b2-4f4b-b899-4b648c526c97")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "6dbb027e-78d5-445e-9319-a001e305e2d0")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "6ead8750-a64d-4b01-bfc5-8fb7df1fde63")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "44628cb6-02bf-4b4d-95d5-247b537fa822")
+    )
+    (music
+      (file "music/invincible.ogg")
+    )
+    (path
+      (name "413a82d2-8cba-4293-bdc7-d1f20b175bf2")
       (path
         (node
           (x 320)
@@ -47,8 +78,8 @@ unlock_archivement(\"t\")")
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "8f1fbf98-f61c-4aa5-a232-a0af7a9ab078")
       (path
         (node
           (x 608)
@@ -74,8 +105,8 @@ unlock_archivement(\"t\")")
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "9a97ebcc-a261-4909-a438-f0a42efe5f99")
       (path
         (node
           (x 928)
@@ -100,8 +131,8 @@ unlock_archivement(\"t\")")
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "931b60d1-78b2-4f4b-b899-4b648c526c97")
       (path
         (node
           (x 1248)
@@ -122,8 +153,8 @@ unlock_archivement(\"t\")")
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "6dbb027e-78d5-445e-9319-a001e305e2d0")
       (path
         (node
           (x 0)
@@ -148,8 +179,8 @@ unlock_archivement(\"t\")")
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "6ead8750-a64d-4b01-bfc5-8fb7df1fde63")
       (path
         (node
           (x -320)
@@ -170,8 +201,8 @@ unlock_archivement(\"t\")")
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "44628cb6-02bf-4b4d-95d5-247b537fa822")
       (path
         (node
           (x 544)
@@ -197,9 +228,6 @@ unlock_archivement(\"t\")")
           (time 0.5)
         )
       )
-    )
-    (music
-      (file "music/invincible.ogg")
     )
     (scripttrigger
       (script "while (true){

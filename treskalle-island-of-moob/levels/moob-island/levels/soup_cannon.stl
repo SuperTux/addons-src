@@ -210,35 +210,13 @@
       (running #f)
       (name "EntracePlatform")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 352)
-          (y 6880)
-          (time 4)
-        )
-        (node
-          (x 352)
-          (y 6560)
-          (time 4)
-        )
-      )
+      (path-ref "e179f645-cac2-47ff-8c46-a8b82d49dde9")
     )
     (platform
       (running #f)
       (name "HeatEntrace")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 928)
-          (y 5056)
-          (time 4)
-        )
-        (node
-          (x 928)
-          (y 4640)
-          (time 4)
-        )
-      )
+      (path-ref "62fe8dea-a0f2-405f-85e8-9536cacdca1a")
     )
     (haywire
       (x 1381)
@@ -343,6 +321,75 @@
     )
     (music
       (file "music/treeboss.ogg")
+    )
+    (path
+      (name "e179f645-cac2-47ff-8c46-a8b82d49dde9")
+      (path
+        (node
+          (x 352)
+          (y 6880)
+          (time 4)
+        )
+        (node
+          (x 352)
+          (y 6560)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "62fe8dea-a0f2-405f-85e8-9536cacdca1a")
+      (path
+        (node
+          (x 928)
+          (y 5056)
+          (time 4)
+        )
+        (node
+          (x 928)
+          (y 4640)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "a6c01099-437c-42fa-906d-6c2c7955accc")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 2)
+        )
+        (node
+          (x -128)
+          (y 0)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "679ed6b7-7fd0-41a1-8eb5-cd93aa04f66e")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 2)
+        )
+        (node
+          (x 128)
+          (y 0)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "f628f78a-91b2-4055-90f8-c4b9b704f58f")
+      (path
+        (node
+          (x 979.2548)
+          (y 1009.544)
+        )
+      )
     )
     (pushbutton
       (script "Wind1.start();
@@ -1348,18 +1395,7 @@ sector.Tux.trigger_sequence(\"fireworks\");")
       (solid #t)
       (z-pos 1)
       (name "EntraceLeft")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 2)
-        )
-        (node
-          (x -128)
-          (y 0)
-          (time 0.5)
-        )
-      )
+      (path-ref "a6c01099-437c-42fa-906d-6c2c7955accc")
       (width 60)
       (height 250)
       (tiles
@@ -1619,18 +1655,7 @@ sector.Tux.trigger_sequence(\"fireworks\");")
       (solid #t)
       (z-pos 1)
       (name "EntraceRight")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 2)
-        )
-        (node
-          (x 128)
-          (y 0)
-          (time 0.5)
-        )
-      )
+      (path-ref "679ed6b7-7fd0-41a1-8eb5-cd93aa04f66e")
       (width 60)
       (height 250)
       (tiles
@@ -2667,12 +2692,7 @@ sector.Tux.trigger_sequence(\"fireworks\");")
       (solid #f)
       (z-pos 0)
       (name "GuardStand")
-      (path
-        (node
-          (x 979.2548)
-          (y 1009.544)
-        )
-      )
+      (path-ref "f628f78a-91b2-4055-90f8-c4b9b704f58f")
       (width 3)
       (height 3)
       (tiles

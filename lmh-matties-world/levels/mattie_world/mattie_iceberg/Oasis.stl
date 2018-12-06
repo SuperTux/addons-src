@@ -82,6 +82,15 @@
     (music
       (file "music/forest.ogg")
     )
+    (path
+      (name "bb2af6e5-6fe4-40d1-a141-6b6627f38d44")
+      (path
+        (node
+          (x 1408)
+          (y 864)
+        )
+      )
+    )
     (poisonivy
       (x 1216)
       (y 736)
@@ -201,12 +210,7 @@
       (solid #t)
       (z-pos 100)
       (name "water")
-      (path
-        (node
-          (x 1408)
-          (y 864)
-        )
-      )
+      (path-ref "bb2af6e5-6fe4-40d1-a141-6b6627f38d44")
       (width 32)
       (height 13)
       (tiles

@@ -64,21 +64,11 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 32)
-          (y 256)
-        )
-      )
+      (path-ref "19f2544d-995a-4b09-8ff5-ca35ddeb3e65")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 5984)
-          (y 544)
-        )
-      )
+      (path-ref "f7e9311d-3879-4465-bf49-e6bf7234bbb8")
     )
     (jumpy
       (x 583)
@@ -114,6 +104,24 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "19f2544d-995a-4b09-8ff5-ca35ddeb3e65")
+      (path
+        (node
+          (x 32)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "f7e9311d-3879-4465-bf49-e6bf7234bbb8")
+      (path
+        (node
+          (x 5984)
+          (y 544)
+        )
+      )
     )
     (skullyhop
       (x 4704)

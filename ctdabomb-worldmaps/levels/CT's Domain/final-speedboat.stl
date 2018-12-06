@@ -46,6 +46,116 @@
     (music
       (file "music/salcon.ogg")
     )
+    (path
+      (name "76bd8b8b-d834-4da8-bec4-b5fc4b6ff215")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "19373394-cbb2-43dc-9479-83ece57db0ac")
+      (path
+        (mode "oneshot")
+        (node
+          (x 2048)
+          (y 800)
+        )
+        (node
+          (x 3296)
+          (y 768)
+        )
+        (node
+          (x 3936)
+          (y 864)
+        )
+        (node
+          (x 4416)
+          (y 800)
+        )
+        (node
+          (x 4864)
+          (y 800)
+        )
+        (node
+          (x 5280)
+          (y 832)
+        )
+        (node
+          (x 5728)
+          (y 768)
+        )
+        (node
+          (x 6112)
+          (y 864)
+        )
+        (node
+          (x 6528)
+          (y 864)
+        )
+        (node
+          (x 7264)
+          (y 800)
+        )
+        (node
+          (x 7648)
+          (y 800)
+        )
+        (node
+          (x 8000)
+          (y 864)
+        )
+        (node
+          (x 8256)
+          (y 864)
+        )
+        (node
+          (x 8544)
+          (y 800)
+        )
+        (node
+          (x 8768)
+          (y 736)
+        )
+        (node
+          (x 9120)
+          (y 864)
+        )
+        (node
+          (x 10432)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "f87e8282-23cc-4419-93fb-7fb9a5191cef")
+      (path
+        (mode "pingpong")
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y -128)
+        )
+      )
+    )
+    (path
+      (name "464f2a47-0355-4202-af95-da550d1248f9")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y 128)
+        )
+      )
+    )
     (scripttrigger
       (script "boat.goto_node(120)")
       (button #f)
@@ -135,12 +245,7 @@ up.goto_node(12)")
       (solid #t)
       (z-pos 0)
       (name "Interactive")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "76bd8b8b-d834-4da8-bec4-b5fc4b6ff215")
       (width 400)
       (height 40)
       (tiles
@@ -288,77 +393,7 @@ up.goto_node(12)")
       (solid #t)
       (z-pos -10)
       (name "boat")
-      (path
-        (mode "oneshot")
-        (node
-          (x 2048)
-          (y 800)
-        )
-        (node
-          (x 3296)
-          (y 768)
-        )
-        (node
-          (x 3936)
-          (y 864)
-        )
-        (node
-          (x 4416)
-          (y 800)
-        )
-        (node
-          (x 4864)
-          (y 800)
-        )
-        (node
-          (x 5280)
-          (y 832)
-        )
-        (node
-          (x 5728)
-          (y 768)
-        )
-        (node
-          (x 6112)
-          (y 864)
-        )
-        (node
-          (x 6528)
-          (y 864)
-        )
-        (node
-          (x 7264)
-          (y 800)
-        )
-        (node
-          (x 7648)
-          (y 800)
-        )
-        (node
-          (x 8000)
-          (y 864)
-        )
-        (node
-          (x 8256)
-          (y 864)
-        )
-        (node
-          (x 8544)
-          (y 800)
-        )
-        (node
-          (x 8768)
-          (y 736)
-        )
-        (node
-          (x 9120)
-          (y 864)
-        )
-        (node
-          (x 10432)
-          (y 864)
-        )
-      )
+      (path-ref "19373394-cbb2-43dc-9479-83ece57db0ac")
       (width 20)
       (height 8)
       (tiles
@@ -376,17 +411,7 @@ up.goto_node(12)")
       (solid #t)
       (z-pos 0)
       (name "up")
-      (path
-        (mode "pingpong")
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 0)
-          (y -128)
-        )
-      )
+      (path-ref "f87e8282-23cc-4419-93fb-7fb9a5191cef")
       (width 400)
       (height 45)
       (tiles
@@ -441,16 +466,7 @@ up.goto_node(12)")
       (solid #t)
       (z-pos 0)
       (name "down")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 0)
-          (y 128)
-        )
-      )
+      (path-ref "464f2a47-0355-4202-af95-da550d1248f9")
       (width 400)
       (height 40)
       (tiles

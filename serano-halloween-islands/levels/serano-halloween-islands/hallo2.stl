@@ -205,18 +205,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 4896)
-          (y 768)
-          (time 3)
-        )
-        (node
-          (x 4896)
-          (y 448)
-          (time 3)
-        )
-      )
+      (path-ref "feb68f67-d048-438f-9336-2c24004e7bc7")
     )
     (goldbomb
       (x 10309)
@@ -266,6 +255,21 @@
     )
     (music
       (file "music/ghostforest.ogg")
+    )
+    (path
+      (name "feb68f67-d048-438f-9336-2c24004e7bc7")
+      (path
+        (node
+          (x 4896)
+          (y 768)
+          (time 3)
+        )
+        (node
+          (x 4896)
+          (y 448)
+          (time 3)
+        )
+      )
     )
     (secretarea
       (fade-tilemap "Tilemap")

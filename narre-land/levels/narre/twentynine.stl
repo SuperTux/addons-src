@@ -16,6 +16,34 @@
     )
     (camera
       (mode "autoscroll")
+      (path-ref "102da08d-63f9-461a-a513-32665962c0cf")
+    )
+    (igel
+      (x 1568)
+      (y 576)
+    )
+    (jumpy
+      (x 5152)
+      (y 896)
+    )
+    (mole
+      (x 4512)
+      (y 864)
+    )
+    (mrbomb
+      (x 320)
+      (y 832)
+    )
+    (mrbomb
+      (x 4160)
+      (y 672)
+    )
+    (mrtree
+      (x 3264)
+      (y 736)
+    )
+    (path
+      (name "102da08d-63f9-461a-a513-32665962c0cf")
       (path
         (node
           (x 0)
@@ -62,30 +90,6 @@
           (time 9999999)
         )
       )
-    )
-    (igel
-      (x 1568)
-      (y 576)
-    )
-    (jumpy
-      (x 5152)
-      (y 896)
-    )
-    (mole
-      (x 4512)
-      (y 864)
-    )
-    (mrbomb
-      (x 320)
-      (y 832)
-    )
-    (mrbomb
-      (x 4160)
-      (y 672)
-    )
-    (mrtree
-      (x 3264)
-      (y 736)
     )
     (sequencetrigger
       (sequence "stoptux")

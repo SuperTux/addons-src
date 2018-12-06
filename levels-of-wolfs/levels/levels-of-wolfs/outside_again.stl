@@ -61,18 +61,7 @@
       (running #f)
       (name "platf1")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 4448)
-          (y 928)
-          (time 3)
-        )
-        (node
-          (x 4576)
-          (y 320)
-          (time 3)
-        )
-      )
+      (path-ref "63df0615-98fe-4865-af9f-2706e49563c3")
     )
     (haywire
       (x 3941)
@@ -153,6 +142,21 @@
     (smartball
       (x 5955)
       (y 646)
+    )
+    (path
+      (name "63df0615-98fe-4865-af9f-2706e49563c3")
+      (path
+        (node
+          (x 4448)
+          (y 928)
+          (time 3)
+        )
+        (node
+          (x 4576)
+          (y 320)
+          (time 3)
+        )
+      )
     )
     (scripttrigger
       (script "platf1.start_moving();")

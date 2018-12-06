@@ -16,6 +16,17 @@
       (running #f)
       (name "imbecil")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "a78f410d-18f1-4e37-9e90-727091b6823a")
+    )
+    (gradient
+      (top_color 1 0.6666667 0)
+      (bottom_color 1 0.6666667 0)
+    )
+    (music
+      (file "music/cave.ogg")
+    )
+    (path
+      (name "a78f410d-18f1-4e37-9e90-727091b6823a")
       (path
         (node
           (x 512)
@@ -27,13 +38,6 @@
           (y 512)
         )
       )
-    )
-    (gradient
-      (top_color 1 0.6666667 0)
-      (bottom_color 1 0.6666667 0)
-    )
-    (music
-      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "secret_area(\"sa13\")")

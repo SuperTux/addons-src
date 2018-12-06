@@ -31,46 +31,15 @@
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1632)
-          (y 992)
-        )
-        (node
-          (x 1632)
-          (y 864)
-        )
-        (node
-          (x 1632)
-          (y 704)
-        )
-      )
+      (path-ref "3948f1b5-902a-41f0-b1d7-d82914604b40")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 2048)
-          (y 992)
-        )
-        (node
-          (x 2048)
-          (y 736)
-        )
-      )
+      (path-ref "67b08091-de3a-4e9e-8f53-98f2fe621e52")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1856)
-          (y 992)
-        )
-        (node
-          (x 1856)
-          (y 800)
-        )
-      )
+      (path-ref "92bf353c-7ec8-43b2-9c3e-6fa92a2d5309")
     )
     (jumpy
       (x 1703)
@@ -102,6 +71,49 @@
     )
     (music
       (file "music/greatgigantic.music")
+    )
+    (path
+      (name "3948f1b5-902a-41f0-b1d7-d82914604b40")
+      (path
+        (node
+          (x 1632)
+          (y 992)
+        )
+        (node
+          (x 1632)
+          (y 864)
+        )
+        (node
+          (x 1632)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "67b08091-de3a-4e9e-8f53-98f2fe621e52")
+      (path
+        (node
+          (x 2048)
+          (y 992)
+        )
+        (node
+          (x 2048)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "92bf353c-7ec8-43b2-9c3e-6fa92a2d5309")
+      (path
+        (node
+          (x 1856)
+          (y 992)
+        )
+        (node
+          (x 1856)
+          (y 800)
+        )
+      )
     )
     (poisonivy
       (x 1154)

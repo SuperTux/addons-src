@@ -22,66 +22,31 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 2144)
-          (y 704)
-        )
-      )
+      (path-ref "f7f5cc06-5eec-4ac0-b99d-84d59f602c30")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 2368)
-          (y 704)
-        )
-      )
+      (path-ref "d1b229ef-87fc-4dec-b644-da4800a40348")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 2624)
-          (y 704)
-        )
-      )
+      (path-ref "6509260c-416e-43f6-9e6e-6f20156ecd0c")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1152)
-          (y 128)
-        )
-      )
+      (path-ref "8d6db5ae-72b3-4197-98cd-2680d7b8faea")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 704)
-          (y 224)
-        )
-      )
+      (path-ref "3d73b18c-2c8d-4a44-bdcd-0dae89868a66")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 6848)
-          (y 384)
-        )
-      )
+      (path-ref "9486cf8c-01e5-4ee2-bac4-5c886acd12b0")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 6976)
-          (y 576)
-        )
-      )
+      (path-ref "bae9a5ce-b036-4745-b6eb-4cd462cd1e56")
     )
     (jumpy
       (x 1472)
@@ -129,6 +94,69 @@
     )
     (music
       (file "music/voc-dark.ogg")
+    )
+    (path
+      (name "f7f5cc06-5eec-4ac0-b99d-84d59f602c30")
+      (path
+        (node
+          (x 2144)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "d1b229ef-87fc-4dec-b644-da4800a40348")
+      (path
+        (node
+          (x 2368)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "6509260c-416e-43f6-9e6e-6f20156ecd0c")
+      (path
+        (node
+          (x 2624)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "8d6db5ae-72b3-4197-98cd-2680d7b8faea")
+      (path
+        (node
+          (x 1152)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "3d73b18c-2c8d-4a44-bdcd-0dae89868a66")
+      (path
+        (node
+          (x 704)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "9486cf8c-01e5-4ee2-bac4-5c886acd12b0")
+      (path
+        (node
+          (x 6848)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "bae9a5ce-b036-4745-b6eb-4cd462cd1e56")
+      (path
+        (node
+          (x 6976)
+          (y 576)
+        )
+      )
     )
     (secretarea
       (width 168)

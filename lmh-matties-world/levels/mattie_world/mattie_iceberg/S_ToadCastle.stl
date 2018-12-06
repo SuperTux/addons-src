@@ -27,120 +27,43 @@
       (running #f)
       (name "dungeongateA")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 3648)
-          (y 544)
-          (time 3)
-        )
-        (node
-          (x 3584)
-          (y 544)
-          (time 3)
-        )
-      )
+      (path-ref "6d702b6b-0622-45b8-9990-455efbffb2b0")
     )
     (platform
       (running #f)
       (name "dungeongateB")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 3712)
-          (y 544)
-          (time 6)
-        )
-        (node
-          (x 3584)
-          (y 544)
-          (time 6)
-        )
-      )
+      (path-ref "8ce619db-c054-442d-b9c6-1fe33ef57581")
     )
     (platform
       (running #f)
       (name "dungeongateC")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 3776)
-          (y 544)
-          (time 6)
-        )
-        (node
-          (x 3904)
-          (y 544)
-          (time 6)
-        )
-      )
+      (path-ref "0fed292e-a3ff-4e2e-8bc1-b33fad431eed")
     )
     (platform
       (running #f)
       (name "dungeongateD")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 3840)
-          (y 544)
-          (time 3)
-        )
-        (node
-          (x 3904)
-          (y 544)
-          (time 3)
-        )
-      )
+      (path-ref "b147d41a-fb76-41e8-9454-36160362f424")
     )
     (platform
       (running #f)
       (name "cagetop")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 4928)
-          (y 384)
-          (time 2)
-        )
-        (node
-          (x 5120)
-          (y 384)
-          (time 2)
-        )
-      )
+      (path-ref "83ac616c-1294-4836-a908-a9786007213a")
     )
     (platform
       (running #f)
       (name "cageside")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4896)
-          (y 416)
-          (time 2)
-        )
-        (node
-          (x 4896)
-          (y 608)
-          (time 2)
-        )
-      )
+      (path-ref "a14efb96-9348-4d74-8b48-ce5be87eb5f4")
     )
     (platform
       (running #f)
       (name "trap")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4416)
-          (y 96)
-          (time 0.5)
-        )
-        (node
-          (x 4416)
-          (y 224)
-          (time 0.5)
-        )
-      )
+      (path-ref "f900b2be-6e0e-4050-af8c-4f56ff0a408b")
     )
     (haywire
       (x 630)
@@ -204,6 +127,141 @@
     )
     (music
       (file "music/fortress.ogg")
+    )
+    (path
+      (name "6d702b6b-0622-45b8-9990-455efbffb2b0")
+      (path
+        (node
+          (x 3648)
+          (y 544)
+          (time 3)
+        )
+        (node
+          (x 3584)
+          (y 544)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "8ce619db-c054-442d-b9c6-1fe33ef57581")
+      (path
+        (node
+          (x 3712)
+          (y 544)
+          (time 6)
+        )
+        (node
+          (x 3584)
+          (y 544)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "0fed292e-a3ff-4e2e-8bc1-b33fad431eed")
+      (path
+        (node
+          (x 3776)
+          (y 544)
+          (time 6)
+        )
+        (node
+          (x 3904)
+          (y 544)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "b147d41a-fb76-41e8-9454-36160362f424")
+      (path
+        (node
+          (x 3840)
+          (y 544)
+          (time 3)
+        )
+        (node
+          (x 3904)
+          (y 544)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "83ac616c-1294-4836-a908-a9786007213a")
+      (path
+        (node
+          (x 4928)
+          (y 384)
+          (time 2)
+        )
+        (node
+          (x 5120)
+          (y 384)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "a14efb96-9348-4d74-8b48-ce5be87eb5f4")
+      (path
+        (node
+          (x 4896)
+          (y 416)
+          (time 2)
+        )
+        (node
+          (x 4896)
+          (y 608)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "f900b2be-6e0e-4050-af8c-4f56ff0a408b")
+      (path
+        (node
+          (x 4416)
+          (y 96)
+          (time 0.5)
+        )
+        (node
+          (x 4416)
+          (y 224)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "53f02a99-9aec-4b58-97aa-3c6e529f0e18")
+      (path
+        (node
+          (x 0)
+          (y 608)
+          (time 24)
+        )
+      )
+    )
+    (path
+      (name "52f5c3f7-bd1e-4ef0-90be-cbe0a1fe0e9e")
+      (path
+        (node
+          (x 0)
+          (y -192)
+          (time 24)
+        )
+      )
+    )
+    (path
+      (name "a3daa126-b076-457c-9b5e-36af7ad0fdeb")
+      (path
+        (node
+          (x 4896)
+          (y 384)
+          (time 24)
+        )
+      )
     )
     (scripttrigger
       (script "if(skulltrap){
@@ -312,13 +370,7 @@
       (solid #f)
       (z-pos 200)
       (name "BottomMask")
-      (path
-        (node
-          (x 0)
-          (y 608)
-          (time 24)
-        )
-      )
+      (path-ref "53f02a99-9aec-4b58-97aa-3c6e529f0e18")
       (width 160)
       (height 6)
       (tiles
@@ -334,13 +386,7 @@
       (solid #f)
       (z-pos 200)
       (name "TopMask")
-      (path
-        (node
-          (x 0)
-          (y -192)
-          (time 24)
-        )
-      )
+      (path-ref "52f5c3f7-bd1e-4ef0-90be-cbe0a1fe0e9e")
       (width 160)
       (height 6)
       (tiles
@@ -356,13 +402,7 @@
       (solid #f)
       (z-pos -100)
       (name "Background")
-      (path
-        (node
-          (x 4896)
-          (y 384)
-          (time 24)
-        )
-      )
+      (path-ref "a3daa126-b076-457c-9b5e-36af7ad0fdeb")
       (width 6)
       (height 6)
       (tiles
@@ -564,961 +604,271 @@
       (running #f)
       (name "Outpipe")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 2864)
-          (y 1184)
-        )
-        (node
-          (x 2864)
-          (y 1024)
-        )
-      )
+      (path-ref "57df0fc2-5cf4-4754-88bd-599a8a0d8174")
     )
     (platform
       (running #f)
       (name "UnderPipe")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 3984)
-          (y 1088)
-          (time 2)
-        )
-        (node
-          (x 3984)
-          (y 1216)
-          (time 4)
-        )
-        (node
-          (x 5008)
-          (y 1216)
-          (time 2)
-        )
-        (node
-          (x 5008)
-          (y 1120)
-          (time 4)
-        )
-      )
+      (path-ref "8a8dbb28-1ede-4a03-b66e-46ebec43a808")
     )
     (platform
       (running #f)
       (name "A")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4704)
-          (y 928)
-        )
-        (node
-          (x 4704)
-          (y 1300)
-        )
-      )
+      (path-ref "440f79fc-dab8-4b9e-8622-cd975a9e5102")
     )
     (platform
       (running #f)
       (name "B")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4672)
-          (y 928)
-        )
-        (node
-          (x 4672)
-          (y 1300)
-        )
-      )
+      (path-ref "e67b9698-c462-466a-9ca0-6e8b13eddee3")
     )
     (platform
       (running #f)
       (name "C")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4640)
-          (y 928)
-        )
-        (node
-          (x 4640)
-          (y 1300)
-        )
-      )
+      (path-ref "8657eaf1-f723-422e-a2cf-20165ed209b3")
     )
     (platform
       (running #f)
       (name "D")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4608)
-          (y 928)
-        )
-        (node
-          (x 4608)
-          (y 1300)
-        )
-      )
+      (path-ref "5a5c76f9-c7b1-4334-8ec7-a8f5b700af2b")
     )
     (platform
       (running #f)
       (name "E")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4576)
-          (y 928)
-        )
-        (node
-          (x 4576)
-          (y 1300)
-        )
-      )
+      (path-ref "7e5524e1-e90b-41d6-ade2-659dc9318a55")
     )
     (platform
       (running #f)
       (name "F")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4544)
-          (y 928)
-        )
-        (node
-          (x 4544)
-          (y 1300)
-        )
-      )
+      (path-ref "0e3b42a4-577e-436c-92d9-2017973063b5")
     )
     (platform
       (running #f)
       (name "G")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4512)
-          (y 928)
-        )
-        (node
-          (x 4512)
-          (y 1300)
-        )
-      )
+      (path-ref "f5f7d430-929e-477c-98c8-03f51d401ac8")
     )
     (platform
       (running #f)
       (name "H")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4480)
-          (y 928)
-        )
-        (node
-          (x 4480)
-          (y 1300)
-        )
-      )
+      (path-ref "089528c6-126d-4ca6-b9a4-55e81e470f9a")
     )
     (platform
       (running #f)
       (name "I")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4448)
-          (y 928)
-        )
-        (node
-          (x 4448)
-          (y 1300)
-        )
-      )
+      (path-ref "d6cc504a-ab65-4d1f-bf09-df6131f27690")
     )
     (platform
       (running #f)
       (name "J")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4416)
-          (y 928)
-        )
-        (node
-          (x 4416)
-          (y 1300)
-        )
-      )
+      (path-ref "14a3e5cc-1de6-498f-98df-ad33704a607e")
     )
     (platform
       (running #f)
       (name "K")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4384)
-          (y 928)
-        )
-        (node
-          (x 4384)
-          (y 1300)
-        )
-      )
+      (path-ref "a0a606f0-3d94-4a13-a5d7-bbd9e5f6fa28")
     )
     (platform
       (running #f)
       (name "L")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4352)
-          (y 928)
-        )
-        (node
-          (x 4352)
-          (y 1300)
-        )
-      )
+      (path-ref "b2aa0871-485c-444f-a895-fe072c6138db")
     )
     (platform
       (running #f)
       (name "M")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4320)
-          (y 928)
-        )
-        (node
-          (x 4320)
-          (y 1300)
-        )
-      )
+      (path-ref "ca23663c-4d72-4d83-862b-8656151d873c")
     )
     (platform
       (running #f)
       (name "N")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4288)
-          (y 928)
-        )
-        (node
-          (x 4288)
-          (y 1300)
-        )
-      )
+      (path-ref "4f233619-88ba-4fac-888e-2e7f810571d1")
     )
     (platform
       (running #f)
       (name "O")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4256)
-          (y 928)
-        )
-        (node
-          (x 4256)
-          (y 1300)
-        )
-      )
+      (path-ref "43c4b159-d2d2-469b-896b-9ec20d00d257")
     )
     (platform
       (running #f)
       (name "P")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 4224)
-          (y 928)
-        )
-        (node
-          (x 4224)
-          (y 1300)
-        )
-      )
+      (path-ref "65d5739a-a90d-4daf-9e69-71b4daa821d5")
     )
     (platform
       (running #f)
       (name "outtop")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 4896)
-          (y 1120)
-        )
-        (node
-          (x 4896)
-          (y 1056)
-        )
-      )
+      (path-ref "37b03630-1cdc-4940-886b-2d7ae1293519")
     )
     (platform
       (running #f)
       (name "outbot")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 4896)
-          (y 1120)
-        )
-        (node
-          (x 4896)
-          (y 1088)
-        )
-      )
+      (path-ref "a2e19883-7c3d-4ec4-9053-91a66fc32a89")
     )
     (platform
       (running #f)
       (name "endtrap")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4096)
-          (y 704)
-          (time 3)
-        )
-        (node
-          (x 4096)
-          (y 800)
-          (time 3)
-        )
-      )
+      (path-ref "c638180b-813d-4503-a25c-10a4dd99cb45")
     )
     (platform
       (running #f)
       (name "endtrapL")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4064)
-          (y 704)
-          (time 4)
-        )
-        (node
-          (x 4064)
-          (y 800)
-          (time 4)
-        )
-      )
+      (path-ref "770be900-23e3-4da4-b414-73d9921ac05a")
     )
     (platform
       (running #f)
       (name "endtrapR")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4128)
-          (y 704)
-          (time 2)
-        )
-        (node
-          (x 4128)
-          (y 800)
-          (time 2)
-        )
-      )
+      (path-ref "fa1d4536-733a-4603-ba82-e7b0c555491f")
     )
     (platform
       (name "spinC")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 3104)
-          (y 896)
-        )
-        (node
-          (x 3008)
-          (y 992)
-        )
-        (node
-          (x 3104)
-          (y 1088)
-        )
-        (node
-          (x 3200)
-          (y 992)
-        )
-      )
+      (path-ref "458c3cc6-7baf-4c21-b7b9-0efc9af2cf32")
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 3104)
-          (y 928)
-        )
-        (node
-          (x 3040)
-          (y 992)
-        )
-        (node
-          (x 3104)
-          (y 1056)
-        )
-        (node
-          (x 3168)
-          (y 992)
-        )
-      )
+      (path-ref "a28045be-8a49-4ed0-a63a-9d5ed0707047")
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 3104)
-          (y 960)
-        )
-        (node
-          (x 3072)
-          (y 992)
-        )
-        (node
-          (x 3104)
-          (y 1024)
-        )
-        (node
-          (x 3136)
-          (y 992)
-        )
-      )
+      (path-ref "cd1dda62-efe2-415b-8256-18be4e8fcf4b")
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 3104)
-          (y 1088)
-        )
-        (node
-          (x 3200)
-          (y 992)
-        )
-        (node
-          (x 3104)
-          (y 896)
-        )
-        (node
-          (x 3008)
-          (y 992)
-        )
-      )
+      (path-ref "00c8ae53-910f-4fdb-afc9-082cd692dac8")
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 3104)
-          (y 1056)
-        )
-        (node
-          (x 3168)
-          (y 992)
-        )
-        (node
-          (x 3104)
-          (y 928)
-        )
-        (node
-          (x 3040)
-          (y 992)
-        )
-      )
+      (path-ref "5a6ca0b3-faed-480f-87f2-98304d2108f9")
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 3104)
-          (y 1024)
-        )
-        (node
-          (x 3136)
-          (y 992)
-        )
-        (node
-          (x 3104)
-          (y 960)
-        )
-        (node
-          (x 3072)
-          (y 992)
-        )
-      )
+      (path-ref "43e84ec8-1cab-482a-9084-60d1fa159912")
     )
     (platform
       (name "spinB")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 2976)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 3104)
-          (y 448)
-          (time 2)
-        )
-        (node
-          (x 3232)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 3104)
-          (y 448)
-          (time 2)
-        )
-      )
+      (path-ref "c763eb30-6845-4c38-80e0-9a4b55a22107")
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 3008)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 3104)
-          (y 480)
-          (time 2)
-        )
-        (node
-          (x 3200)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 3104)
-          (y 480)
-          (time 2)
-        )
-      )
+      (path-ref "6fbcae7f-200e-4048-a087-e8eda2a9d9e8")
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 3040)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 3104)
-          (y 512)
-          (time 2)
-        )
-        (node
-          (x 3168)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 3104)
-          (y 512)
-          (time 2)
-        )
-      )
+      (path-ref "51348dd8-2d05-44aa-8b5a-44263a972fe8")
     )
     (platform
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 3072)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 3104)
-          (y 544)
-          (time 2)
-        )
-        (node
-          (x 3136)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 3104)
-          (y 544)
-          (time 2)
-        )
-      )
+      (path-ref "3c6694dc-5646-4c94-94aa-b3dc4142ff84")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 3008)
-          (y -32)
-        )
-        (node
-          (x 3008)
-          (y 96)
-          (time 2)
-        )
-      )
+      (path-ref "80d89d31-4106-440e-90fe-6a00353b309b")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 3200)
-          (y -32)
-          (time 0.9)
-        )
-        (node
-          (x 3200)
-          (y 96)
-          (time 1.8)
-        )
-      )
+      (path-ref "a961d0a6-bf5b-481d-969a-490ae8a9d240")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 3392)
-          (y -32)
-          (time 0.8)
-        )
-        (node
-          (x 3392)
-          (y 96)
-          (time 1.6)
-        )
-      )
+      (path-ref "c558c2f8-b5a5-4f32-9b78-d2d92764bde5")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 3584)
-          (y -32)
-          (time 0.7)
-        )
-        (node
-          (x 3584)
-          (y 96)
-          (time 1.4)
-        )
-      )
+      (path-ref "0798a7bb-3f45-4e77-b170-2632ad185ea5")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 3776)
-          (y -32)
-          (time 0.6)
-        )
-        (node
-          (x 3776)
-          (y 96)
-          (time 1.2)
-        )
-      )
+      (path-ref "b168b493-6e6b-43bd-b93d-c4591ee3603f")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 3968)
-          (y -32)
-          (time 0.5)
-        )
-        (node
-          (x 3968)
-          (y 96)
-        )
-      )
+      (path-ref "4d96ecd1-23b6-4e8d-8c07-51be5c9918e8")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4000)
-          (y -32)
-          (time 0.8)
-        )
-        (node
-          (x 4000)
-          (y 96)
-          (time 1.6)
-        )
-      )
+      (path-ref "e6d11b42-fed9-45b5-b585-92f4e203e72c")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4032)
-          (y -32)
-          (time 0.6)
-        )
-        (node
-          (x 4032)
-          (y 96)
-          (time 1.2)
-        )
-      )
+      (path-ref "e6e4c29a-8cbc-45cf-a911-3b03241a0bad")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4224)
-          (y -32)
-          (time 0.5)
-        )
-        (node
-          (x 4224)
-          (y 96)
-        )
-      )
+      (path-ref "5c4332f5-55fd-491f-a233-9fc3efff25e6")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4288)
-          (y -32)
-          (time 0.4)
-        )
-        (node
-          (x 4288)
-          (y 96)
-          (time 0.8)
-        )
-      )
+      (path-ref "80958f4b-87cb-410d-b4f2-0e7b3d578af4")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4352)
-          (y -32)
-          (time 0.5)
-        )
-        (node
-          (x 4352)
-          (y 96)
-        )
-      )
+      (path-ref "ca67faa3-319a-4a69-8343-d483ec505363")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4416)
-          (y -32)
-          (time 0.3)
-        )
-        (node
-          (x 4416)
-          (y 96)
-          (time 0.6)
-        )
-      )
+      (path-ref "100d5186-f4b2-4c03-9509-e83b69b00ab5")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4608)
-          (y -32)
-          (time 0.3)
-        )
-        (node
-          (x 4608)
-          (y 96)
-          (time 0.6)
-        )
-      )
+      (path-ref "4f6573e8-7291-4705-b8bb-ab026f9b9e39")
     )
     (platform
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 2576)
-          (y 736)
-          (time 2)
-        )
-        (node
-          (x 2688)
-          (y 864)
-          (time 2)
-        )
-        (node
-          (x 2576)
-          (y 992)
-          (time 2)
-        )
-        (node
-          (x 2464)
-          (y 864)
-          (time 2)
-        )
-      )
+      (path-ref "25facf08-162a-465a-873f-e3075d493001")
     )
     (platform
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 2576)
-          (y 672)
-        )
-        (node
-          (x 2464)
-          (y 544)
-        )
-        (node
-          (x 2576)
-          (y 416)
-        )
-        (node
-          (x 2688)
-          (y 544)
-        )
-      )
+      (path-ref "12945e61-bd68-40a2-8228-99f3f8162a0b")
     )
     (platform
       (name "spinA1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 512)
-          (y 576)
-        )
-        (node
-          (x 416)
-          (y 672)
-        )
-        (node
-          (x 512)
-          (y 768)
-        )
-        (node
-          (x 608)
-          (y 672)
-        )
-      )
+      (path-ref "57c6194f-0b85-446b-ba54-f84a17630022")
     )
     (platform
       (name "spinA2")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 512)
-          (y 608)
-        )
-        (node
-          (x 448)
-          (y 672)
-        )
-        (node
-          (x 512)
-          (y 736)
-        )
-        (node
-          (x 576)
-          (y 672)
-        )
-      )
+      (path-ref "de0671a4-28bb-48c5-a9e5-16de26605f41")
     )
     (platform
       (name "spinA3")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 512)
-          (y 640)
-        )
-        (node
-          (x 480)
-          (y 672)
-        )
-        (node
-          (x 512)
-          (y 704)
-        )
-        (node
-          (x 544)
-          (y 672)
-        )
-      )
+      (path-ref "2e380343-6fc1-42ff-8ee7-a3087630ea0b")
     )
     (platform
       (name "spinA4")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 512)
-          (y 768)
-        )
-        (node
-          (x 608)
-          (y 672)
-        )
-        (node
-          (x 512)
-          (y 576)
-        )
-        (node
-          (x 416)
-          (y 672)
-        )
-      )
+      (path-ref "b9900f47-60c2-4e0b-a5c4-1248ff639e1f")
     )
     (platform
       (name "spinA5")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 512)
-          (y 736)
-        )
-        (node
-          (x 576)
-          (y 672)
-        )
-        (node
-          (x 512)
-          (y 608)
-        )
-        (node
-          (x 448)
-          (y 672)
-        )
-      )
+      (path-ref "5bb98d5d-e2c8-4eeb-b7df-ce76dbca1b93")
     )
     (platform
       (name "spinA6")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 512)
-          (y 704)
-        )
-        (node
-          (x 544)
-          (y 672)
-        )
-        (node
-          (x 512)
-          (y 640)
-        )
-        (node
-          (x 480)
-          (y 672)
-        )
-      )
+      (path-ref "e2a5326e-1792-4c05-bcbc-e66b53c39b81")
     )
     (gradient
       (top_color 0.1 0.1 0.1)
@@ -1558,6 +908,1020 @@
     )
     (music
       (file "music/fortress.ogg")
+    )
+    (path
+      (name "57df0fc2-5cf4-4754-88bd-599a8a0d8174")
+      (path
+        (node
+          (x 2864)
+          (y 1184)
+        )
+        (node
+          (x 2864)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "8a8dbb28-1ede-4a03-b66e-46ebec43a808")
+      (path
+        (node
+          (x 3984)
+          (y 1088)
+          (time 2)
+        )
+        (node
+          (x 3984)
+          (y 1216)
+          (time 4)
+        )
+        (node
+          (x 5008)
+          (y 1216)
+          (time 2)
+        )
+        (node
+          (x 5008)
+          (y 1120)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "440f79fc-dab8-4b9e-8622-cd975a9e5102")
+      (path
+        (node
+          (x 4704)
+          (y 928)
+        )
+        (node
+          (x 4704)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "e67b9698-c462-466a-9ca0-6e8b13eddee3")
+      (path
+        (node
+          (x 4672)
+          (y 928)
+        )
+        (node
+          (x 4672)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "8657eaf1-f723-422e-a2cf-20165ed209b3")
+      (path
+        (node
+          (x 4640)
+          (y 928)
+        )
+        (node
+          (x 4640)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "5a5c76f9-c7b1-4334-8ec7-a8f5b700af2b")
+      (path
+        (node
+          (x 4608)
+          (y 928)
+        )
+        (node
+          (x 4608)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "7e5524e1-e90b-41d6-ade2-659dc9318a55")
+      (path
+        (node
+          (x 4576)
+          (y 928)
+        )
+        (node
+          (x 4576)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "0e3b42a4-577e-436c-92d9-2017973063b5")
+      (path
+        (node
+          (x 4544)
+          (y 928)
+        )
+        (node
+          (x 4544)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "f5f7d430-929e-477c-98c8-03f51d401ac8")
+      (path
+        (node
+          (x 4512)
+          (y 928)
+        )
+        (node
+          (x 4512)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "089528c6-126d-4ca6-b9a4-55e81e470f9a")
+      (path
+        (node
+          (x 4480)
+          (y 928)
+        )
+        (node
+          (x 4480)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "d6cc504a-ab65-4d1f-bf09-df6131f27690")
+      (path
+        (node
+          (x 4448)
+          (y 928)
+        )
+        (node
+          (x 4448)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "14a3e5cc-1de6-498f-98df-ad33704a607e")
+      (path
+        (node
+          (x 4416)
+          (y 928)
+        )
+        (node
+          (x 4416)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "a0a606f0-3d94-4a13-a5d7-bbd9e5f6fa28")
+      (path
+        (node
+          (x 4384)
+          (y 928)
+        )
+        (node
+          (x 4384)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "b2aa0871-485c-444f-a895-fe072c6138db")
+      (path
+        (node
+          (x 4352)
+          (y 928)
+        )
+        (node
+          (x 4352)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "ca23663c-4d72-4d83-862b-8656151d873c")
+      (path
+        (node
+          (x 4320)
+          (y 928)
+        )
+        (node
+          (x 4320)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "4f233619-88ba-4fac-888e-2e7f810571d1")
+      (path
+        (node
+          (x 4288)
+          (y 928)
+        )
+        (node
+          (x 4288)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "43c4b159-d2d2-469b-896b-9ec20d00d257")
+      (path
+        (node
+          (x 4256)
+          (y 928)
+        )
+        (node
+          (x 4256)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "65d5739a-a90d-4daf-9e69-71b4daa821d5")
+      (path
+        (node
+          (x 4224)
+          (y 928)
+        )
+        (node
+          (x 4224)
+          (y 1300)
+        )
+      )
+    )
+    (path
+      (name "37b03630-1cdc-4940-886b-2d7ae1293519")
+      (path
+        (node
+          (x 4896)
+          (y 1120)
+        )
+        (node
+          (x 4896)
+          (y 1056)
+        )
+      )
+    )
+    (path
+      (name "a2e19883-7c3d-4ec4-9053-91a66fc32a89")
+      (path
+        (node
+          (x 4896)
+          (y 1120)
+        )
+        (node
+          (x 4896)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "c638180b-813d-4503-a25c-10a4dd99cb45")
+      (path
+        (node
+          (x 4096)
+          (y 704)
+          (time 3)
+        )
+        (node
+          (x 4096)
+          (y 800)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "770be900-23e3-4da4-b414-73d9921ac05a")
+      (path
+        (node
+          (x 4064)
+          (y 704)
+          (time 4)
+        )
+        (node
+          (x 4064)
+          (y 800)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "fa1d4536-733a-4603-ba82-e7b0c555491f")
+      (path
+        (node
+          (x 4128)
+          (y 704)
+          (time 2)
+        )
+        (node
+          (x 4128)
+          (y 800)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "458c3cc6-7baf-4c21-b7b9-0efc9af2cf32")
+      (path
+        (node
+          (x 3104)
+          (y 896)
+        )
+        (node
+          (x 3008)
+          (y 992)
+        )
+        (node
+          (x 3104)
+          (y 1088)
+        )
+        (node
+          (x 3200)
+          (y 992)
+        )
+      )
+    )
+    (path
+      (name "a28045be-8a49-4ed0-a63a-9d5ed0707047")
+      (path
+        (node
+          (x 3104)
+          (y 928)
+        )
+        (node
+          (x 3040)
+          (y 992)
+        )
+        (node
+          (x 3104)
+          (y 1056)
+        )
+        (node
+          (x 3168)
+          (y 992)
+        )
+      )
+    )
+    (path
+      (name "cd1dda62-efe2-415b-8256-18be4e8fcf4b")
+      (path
+        (node
+          (x 3104)
+          (y 960)
+        )
+        (node
+          (x 3072)
+          (y 992)
+        )
+        (node
+          (x 3104)
+          (y 1024)
+        )
+        (node
+          (x 3136)
+          (y 992)
+        )
+      )
+    )
+    (path
+      (name "00c8ae53-910f-4fdb-afc9-082cd692dac8")
+      (path
+        (node
+          (x 3104)
+          (y 1088)
+        )
+        (node
+          (x 3200)
+          (y 992)
+        )
+        (node
+          (x 3104)
+          (y 896)
+        )
+        (node
+          (x 3008)
+          (y 992)
+        )
+      )
+    )
+    (path
+      (name "5a6ca0b3-faed-480f-87f2-98304d2108f9")
+      (path
+        (node
+          (x 3104)
+          (y 1056)
+        )
+        (node
+          (x 3168)
+          (y 992)
+        )
+        (node
+          (x 3104)
+          (y 928)
+        )
+        (node
+          (x 3040)
+          (y 992)
+        )
+      )
+    )
+    (path
+      (name "43e84ec8-1cab-482a-9084-60d1fa159912")
+      (path
+        (node
+          (x 3104)
+          (y 1024)
+        )
+        (node
+          (x 3136)
+          (y 992)
+        )
+        (node
+          (x 3104)
+          (y 960)
+        )
+        (node
+          (x 3072)
+          (y 992)
+        )
+      )
+    )
+    (path
+      (name "c763eb30-6845-4c38-80e0-9a4b55a22107")
+      (path
+        (node
+          (x 2976)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 3104)
+          (y 448)
+          (time 2)
+        )
+        (node
+          (x 3232)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 3104)
+          (y 448)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "6fbcae7f-200e-4048-a087-e8eda2a9d9e8")
+      (path
+        (node
+          (x 3008)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 3104)
+          (y 480)
+          (time 2)
+        )
+        (node
+          (x 3200)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 3104)
+          (y 480)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "51348dd8-2d05-44aa-8b5a-44263a972fe8")
+      (path
+        (node
+          (x 3040)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 3104)
+          (y 512)
+          (time 2)
+        )
+        (node
+          (x 3168)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 3104)
+          (y 512)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "3c6694dc-5646-4c94-94aa-b3dc4142ff84")
+      (path
+        (node
+          (x 3072)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 3104)
+          (y 544)
+          (time 2)
+        )
+        (node
+          (x 3136)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 3104)
+          (y 544)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "80d89d31-4106-440e-90fe-6a00353b309b")
+      (path
+        (node
+          (x 3008)
+          (y -32)
+        )
+        (node
+          (x 3008)
+          (y 96)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "a961d0a6-bf5b-481d-969a-490ae8a9d240")
+      (path
+        (node
+          (x 3200)
+          (y -32)
+          (time 0.9)
+        )
+        (node
+          (x 3200)
+          (y 96)
+          (time 1.8)
+        )
+      )
+    )
+    (path
+      (name "c558c2f8-b5a5-4f32-9b78-d2d92764bde5")
+      (path
+        (node
+          (x 3392)
+          (y -32)
+          (time 0.8)
+        )
+        (node
+          (x 3392)
+          (y 96)
+          (time 1.6)
+        )
+      )
+    )
+    (path
+      (name "0798a7bb-3f45-4e77-b170-2632ad185ea5")
+      (path
+        (node
+          (x 3584)
+          (y -32)
+          (time 0.7)
+        )
+        (node
+          (x 3584)
+          (y 96)
+          (time 1.4)
+        )
+      )
+    )
+    (path
+      (name "b168b493-6e6b-43bd-b93d-c4591ee3603f")
+      (path
+        (node
+          (x 3776)
+          (y -32)
+          (time 0.6)
+        )
+        (node
+          (x 3776)
+          (y 96)
+          (time 1.2)
+        )
+      )
+    )
+    (path
+      (name "4d96ecd1-23b6-4e8d-8c07-51be5c9918e8")
+      (path
+        (node
+          (x 3968)
+          (y -32)
+          (time 0.5)
+        )
+        (node
+          (x 3968)
+          (y 96)
+        )
+      )
+    )
+    (path
+      (name "e6d11b42-fed9-45b5-b585-92f4e203e72c")
+      (path
+        (node
+          (x 4000)
+          (y -32)
+          (time 0.8)
+        )
+        (node
+          (x 4000)
+          (y 96)
+          (time 1.6)
+        )
+      )
+    )
+    (path
+      (name "e6e4c29a-8cbc-45cf-a911-3b03241a0bad")
+      (path
+        (node
+          (x 4032)
+          (y -32)
+          (time 0.6)
+        )
+        (node
+          (x 4032)
+          (y 96)
+          (time 1.2)
+        )
+      )
+    )
+    (path
+      (name "5c4332f5-55fd-491f-a233-9fc3efff25e6")
+      (path
+        (node
+          (x 4224)
+          (y -32)
+          (time 0.5)
+        )
+        (node
+          (x 4224)
+          (y 96)
+        )
+      )
+    )
+    (path
+      (name "80958f4b-87cb-410d-b4f2-0e7b3d578af4")
+      (path
+        (node
+          (x 4288)
+          (y -32)
+          (time 0.4)
+        )
+        (node
+          (x 4288)
+          (y 96)
+          (time 0.8)
+        )
+      )
+    )
+    (path
+      (name "ca67faa3-319a-4a69-8343-d483ec505363")
+      (path
+        (node
+          (x 4352)
+          (y -32)
+          (time 0.5)
+        )
+        (node
+          (x 4352)
+          (y 96)
+        )
+      )
+    )
+    (path
+      (name "100d5186-f4b2-4c03-9509-e83b69b00ab5")
+      (path
+        (node
+          (x 4416)
+          (y -32)
+          (time 0.3)
+        )
+        (node
+          (x 4416)
+          (y 96)
+          (time 0.6)
+        )
+      )
+    )
+    (path
+      (name "4f6573e8-7291-4705-b8bb-ab026f9b9e39")
+      (path
+        (node
+          (x 4608)
+          (y -32)
+          (time 0.3)
+        )
+        (node
+          (x 4608)
+          (y 96)
+          (time 0.6)
+        )
+      )
+    )
+    (path
+      (name "25facf08-162a-465a-873f-e3075d493001")
+      (path
+        (node
+          (x 2576)
+          (y 736)
+          (time 2)
+        )
+        (node
+          (x 2688)
+          (y 864)
+          (time 2)
+        )
+        (node
+          (x 2576)
+          (y 992)
+          (time 2)
+        )
+        (node
+          (x 2464)
+          (y 864)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "12945e61-bd68-40a2-8228-99f3f8162a0b")
+      (path
+        (node
+          (x 2576)
+          (y 672)
+        )
+        (node
+          (x 2464)
+          (y 544)
+        )
+        (node
+          (x 2576)
+          (y 416)
+        )
+        (node
+          (x 2688)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "57c6194f-0b85-446b-ba54-f84a17630022")
+      (path
+        (node
+          (x 512)
+          (y 576)
+        )
+        (node
+          (x 416)
+          (y 672)
+        )
+        (node
+          (x 512)
+          (y 768)
+        )
+        (node
+          (x 608)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "de0671a4-28bb-48c5-a9e5-16de26605f41")
+      (path
+        (node
+          (x 512)
+          (y 608)
+        )
+        (node
+          (x 448)
+          (y 672)
+        )
+        (node
+          (x 512)
+          (y 736)
+        )
+        (node
+          (x 576)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "2e380343-6fc1-42ff-8ee7-a3087630ea0b")
+      (path
+        (node
+          (x 512)
+          (y 640)
+        )
+        (node
+          (x 480)
+          (y 672)
+        )
+        (node
+          (x 512)
+          (y 704)
+        )
+        (node
+          (x 544)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "b9900f47-60c2-4e0b-a5c4-1248ff639e1f")
+      (path
+        (node
+          (x 512)
+          (y 768)
+        )
+        (node
+          (x 608)
+          (y 672)
+        )
+        (node
+          (x 512)
+          (y 576)
+        )
+        (node
+          (x 416)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "5bb98d5d-e2c8-4eeb-b7df-ce76dbca1b93")
+      (path
+        (node
+          (x 512)
+          (y 736)
+        )
+        (node
+          (x 576)
+          (y 672)
+        )
+        (node
+          (x 512)
+          (y 608)
+        )
+        (node
+          (x 448)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "e2a5326e-1792-4c05-bcbc-e66b53c39b81")
+      (path
+        (node
+          (x 512)
+          (y 704)
+        )
+        (node
+          (x 544)
+          (y 672)
+        )
+        (node
+          (x 512)
+          (y 640)
+        )
+        (node
+          (x 480)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "0272d808-2136-4c92-8e76-401a587dcb1e")
+      (path
+        (node
+          (x 2816)
+          (y 928)
+        )
+      )
+    )
+    (path
+      (name "7717c2d9-2237-43a9-956a-02b8597ca159")
+      (path
+        (node
+          (x 2816)
+          (y 928)
+        )
+      )
+    )
+    (path
+      (name "68377a6a-6da2-448f-9a52-9e60506a9432")
+      (path
+        (node
+          (x 4640)
+          (y 800)
+          (time 0.1)
+        )
+        (node
+          (x 4640)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "3ccf28cf-d0ff-49a5-8507-fcd57f3291cf")
+      (path
+        (node
+          (x 4736)
+          (y 800)
+          (time 0.1)
+        )
+        (node
+          (x 4736)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "dc7a62f7-3d0b-4282-8e75-e341426a9f20")
+      (path
+        (node
+          (x 1856)
+          (y 1088)
+          (time 12)
+        )
+        (node
+          (x 2368)
+          (y 1088)
+          (time 12)
+        )
+      )
+    )
+    (path
+      (name "23948549-c9a0-4d83-a27f-104915755341")
+      (path
+        (node
+          (x 1984)
+          (y 1088)
+          (time 9)
+        )
+        (node
+          (x 2368)
+          (y 1088)
+          (time 9)
+        )
+      )
+    )
+    (path
+      (name "79a3b41e-0f04-4573-a231-59a00f74b0fb")
+      (path
+        (node
+          (x 2112)
+          (y 1088)
+          (time 6)
+        )
+        (node
+          (x 2368)
+          (y 1088)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "53d32b3c-e62c-4fa2-8b13-a76c60da783f")
+      (path
+        (node
+          (x 2240)
+          (y 1088)
+          (time 3)
+        )
+        (node
+          (x 2368)
+          (y 1088)
+          (time 3)
+        )
+      )
     )
     (pushbutton
       (script "  P.goto_node(1);
@@ -1818,12 +2182,7 @@
       (solid #f)
       (z-pos 100)
       (name "Cleanup")
-      (path
-        (node
-          (x 2816)
-          (y 928)
-        )
-      )
+      (path-ref "0272d808-2136-4c92-8e76-401a587dcb1e")
       (width 72)
       (height 9)
       (tiles
@@ -1889,12 +2248,7 @@
       (solid #f)
       (z-pos 200)
       (name "secret")
-      (path
-        (node
-          (x 2816)
-          (y 928)
-        )
-      )
+      (path-ref "7717c2d9-2237-43a9-956a-02b8597ca159")
       (width 72)
       (height 9)
       (tiles
@@ -1913,18 +2267,7 @@
       (solid #t)
       (z-pos -100)
       (name "toadholdL")
-      (path
-        (node
-          (x 4640)
-          (y 800)
-          (time 0.1)
-        )
-        (node
-          (x 4640)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "68377a6a-6da2-448f-9a52-9e60506a9432")
       (width 1)
       (height 4)
       (tiles
@@ -1938,18 +2281,7 @@
       (solid #t)
       (z-pos -100)
       (name "toadholdR")
-      (path
-        (node
-          (x 4736)
-          (y 800)
-          (time 0.1)
-        )
-        (node
-          (x 4736)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "3ccf28cf-d0ff-49a5-8507-fcd57f3291cf")
       (width 1)
       (height 4)
       (tiles
@@ -1963,18 +2295,7 @@
       (solid #t)
       (z-pos -100)
       (name "bridgeA")
-      (path
-        (node
-          (x 1856)
-          (y 1088)
-          (time 12)
-        )
-        (node
-          (x 2368)
-          (y 1088)
-          (time 12)
-        )
-      )
+      (path-ref "dc7a62f7-3d0b-4282-8e75-e341426a9f20")
       (width 4)
       (height 1)
       (tiles
@@ -1985,18 +2306,7 @@
       (solid #t)
       (z-pos -100)
       (name "bridgeB")
-      (path
-        (node
-          (x 1984)
-          (y 1088)
-          (time 9)
-        )
-        (node
-          (x 2368)
-          (y 1088)
-          (time 9)
-        )
-      )
+      (path-ref "23948549-c9a0-4d83-a27f-104915755341")
       (width 4)
       (height 1)
       (tiles
@@ -2007,18 +2317,7 @@
       (solid #t)
       (z-pos -100)
       (name "bridgeC")
-      (path
-        (node
-          (x 2112)
-          (y 1088)
-          (time 6)
-        )
-        (node
-          (x 2368)
-          (y 1088)
-          (time 6)
-        )
-      )
+      (path-ref "79a3b41e-0f04-4573-a231-59a00f74b0fb")
       (width 4)
       (height 1)
       (tiles
@@ -2029,18 +2328,7 @@
       (solid #t)
       (z-pos -100)
       (name "bridgeD")
-      (path
-        (node
-          (x 2240)
-          (y 1088)
-          (time 3)
-        )
-        (node
-          (x 2368)
-          (y 1088)
-          (time 3)
-        )
-      )
+      (path-ref "53d32b3c-e62c-4fa2-8b13-a76c60da783f")
       (width 4)
       (height 1)
       (tiles
@@ -2085,6 +2373,37 @@
       (running #f)
       (name "FallAway")
       (sprite "images/objects/platforms/small.sprite")
+      (path-ref "f56612d7-9d1d-4ef6-a427-3e9cabebfc4b")
+    )
+    (platform
+      (running #f)
+      (name "botlift")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "1f8199de-d69f-4c05-8892-49d207c716a9")
+    )
+    (platform
+      (running #f)
+      (name "toplift")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "48bff1f6-1620-4a1b-bcd5-92b5031b00c4")
+    )
+    (platform
+      (running #f)
+      (name "gateA")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "7ac250ad-8168-4502-92c9-187368c52e62")
+    )
+    (platform
+      (running #f)
+      (name "gateB")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "cc9e39fa-dbad-4dc4-b0db-01995f5b6aec")
+    )
+    (music
+      (file "music/fortress.ogg")
+    )
+    (path
+      (name "f56612d7-9d1d-4ef6-a427-3e9cabebfc4b")
       (path
         (node
           (x 256)
@@ -2098,10 +2417,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "botlift")
-      (sprite "images/objects/platforms/small.sprite")
+    (path
+      (name "1f8199de-d69f-4c05-8892-49d207c716a9")
       (path
         (node
           (x 384)
@@ -2115,10 +2432,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "toplift")
-      (sprite "images/objects/platforms/small.sprite")
+    (path
+      (name "48bff1f6-1620-4a1b-bcd5-92b5031b00c4")
       (path
         (node
           (x 384)
@@ -2132,10 +2447,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "gateA")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "7ac250ad-8168-4502-92c9-187368c52e62")
       (path
         (node
           (x 256)
@@ -2149,10 +2462,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "gateB")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "cc9e39fa-dbad-4dc4-b0db-01995f5b6aec")
       (path
         (node
           (x 288)
@@ -2166,8 +2477,35 @@
         )
       )
     )
-    (music
-      (file "music/fortress.ogg")
+    (path
+      (name "68604e75-256a-4c87-aa31-f544a6f8e51a")
+      (path
+        (node
+          (x 800)
+          (y 0)
+          (time 24)
+        )
+      )
+    )
+    (path
+      (name "241aec7b-329f-4c93-9925-da6bbb9b1024")
+      (path
+        (node
+          (x -256)
+          (y 0)
+          (time 24)
+        )
+      )
+    )
+    (path
+      (name "98f2350c-8992-4e8e-9a20-0cd59f96c0c5")
+      (path
+        (node
+          (x 192)
+          (y 2752)
+          (time 24)
+        )
+      )
     )
     (scripttrigger
       (script "if(dungeon){
@@ -2431,13 +2769,7 @@
       (solid #f)
       (z-pos 200)
       (name "RightMask")
-      (path
-        (node
-          (x 800)
-          (y 0)
-          (time 24)
-        )
-      )
+      (path-ref "68604e75-256a-4c87-aa31-f544a6f8e51a")
       (width 8)
       (height 152)
       (tiles
@@ -2599,13 +2931,7 @@
       (solid #f)
       (z-pos 200)
       (name "LeftMask")
-      (path
-        (node
-          (x -256)
-          (y 0)
-          (time 24)
-        )
-      )
+      (path-ref "241aec7b-329f-4c93-9925-da6bbb9b1024")
       (width 8)
       (height 152)
       (tiles
@@ -2928,13 +3254,7 @@
       (solid #f)
       (z-pos 200)
       (name "secret")
-      (path
-        (node
-          (x 192)
-          (y 2752)
-          (time 24)
-        )
-      )
+      (path-ref "98f2350c-8992-4e8e-9a20-0cd59f96c0c5")
       (width 5)
       (height 13)
       (tiles
@@ -2993,2427 +3313,99 @@
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-      )
+      (path-ref "a371b4cf-43e3-4bfe-a6d8-9eab5bb1b8be")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-      )
+      (path-ref "5b7f0000-9946-48b9-94f3-ca4fa091ffb2")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-      )
+      (path-ref "8586c787-5b5b-4b3f-844c-e64c4a5751d2")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-      )
+      (path-ref "3b74c153-3a84-4806-a3e5-43e756d4bae6")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-      )
+      (path-ref "62486dfd-c1b1-43e1-a502-aa7b5e11c64a")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-      )
+      (path-ref "b18bbcc1-c338-41c5-b6cb-9a4445918081")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-      )
+      (path-ref "b45e4238-a982-4309-868b-e209d2181766")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-      )
+      (path-ref "3cb3965b-6427-4442-919c-2c8fcbecb9ae")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-      )
+      (path-ref "1081c275-ef0d-4065-9b02-27cfeeea2e33")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-      )
+      (path-ref "091547fb-0c6c-402d-9ae7-051b977d5bf4")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-      )
+      (path-ref "990e6537-d4bd-43f0-8ed1-de2ac3201a73")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-      )
+      (path-ref "c0caab22-a278-430d-86c1-cfa0124c907a")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-      )
+      (path-ref "ec528931-9d8f-47ef-855e-6b9c51569e3a")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-      )
+      (path-ref "3d3af5ee-b011-4dbb-b95c-15fa3066b822")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-      )
+      (path-ref "2f5e656c-92f3-4690-b341-93c4b79f8c72")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-      )
+      (path-ref "658d81df-103c-4a5d-8680-6d31d605a24b")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-      )
+      (path-ref "295696e7-481a-4925-9aa2-dac5aa473383")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-      )
+      (path-ref "dc39426a-a765-4de9-ab15-1a40e25ca54e")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-      )
+      (path-ref "c04de9d0-c387-42aa-8fa9-140f8a819c40")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-      )
+      (path-ref "a2ce5751-cadd-4197-ba26-f545d40d67b0")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-      )
+      (path-ref "a40d8cd9-d29f-4e70-9e0e-39dde83eb0a2")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-      )
+      (path-ref "889fe6e0-89e3-400f-bb55-3d2ebda50856")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-      )
+      (path-ref "bfcfa154-b913-4786-b9db-4cea76815f8a")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 2432)
-          (y 544)
-        )
-        (node
-          (x 2432)
-          (y 512)
-        )
-        (node
-          (x 2304)
-          (y 512)
-        )
-        (node
-          (x 2176)
-          (y 512)
-        )
-        (node
-          (x 2048)
-          (y 512)
-        )
-        (node
-          (x 1920)
-          (y 512)
-        )
-        (node
-          (x 1792)
-          (y 512)
-        )
-        (node
-          (x 1664)
-          (y 512)
-        )
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 896)
-          (y 512)
-        )
-        (node
-          (x 768)
-          (y 512)
-        )
-        (node
-          (x 640)
-          (y 512)
-        )
-        (node
-          (x 512)
-          (y 512)
-        )
-        (node
-          (x 384)
-          (y 512)
-        )
-        (node
-          (x 256)
-          (y 512)
-        )
-        (node
-          (x 128)
-          (y 512)
-        )
-        (node
-          (x 0)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 512)
-        )
-        (node
-          (x -128)
-          (y 544)
-        )
-        (node
-          (x 1280)
-          (y 544)
-        )
-      )
+      (path-ref "7351c0ae-5196-45c4-b15b-69bd2a6d39a8")
     )
     (gradient
       (top_color 0 0 0)
@@ -5437,6 +3429,2475 @@
     )
     (music
       (file "music/fortress.ogg")
+    )
+    (path
+      (name "a371b4cf-43e3-4bfe-a6d8-9eab5bb1b8be")
+      (path
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "5b7f0000-9946-48b9-94f3-ca4fa091ffb2")
+      (path
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "8586c787-5b5b-4b3f-844c-e64c4a5751d2")
+      (path
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "3b74c153-3a84-4806-a3e5-43e756d4bae6")
+      (path
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "62486dfd-c1b1-43e1-a502-aa7b5e11c64a")
+      (path
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "b18bbcc1-c338-41c5-b6cb-9a4445918081")
+      (path
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "b45e4238-a982-4309-868b-e209d2181766")
+      (path
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "3cb3965b-6427-4442-919c-2c8fcbecb9ae")
+      (path
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "1081c275-ef0d-4065-9b02-27cfeeea2e33")
+      (path
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "091547fb-0c6c-402d-9ae7-051b977d5bf4")
+      (path
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "990e6537-d4bd-43f0-8ed1-de2ac3201a73")
+      (path
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "c0caab22-a278-430d-86c1-cfa0124c907a")
+      (path
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "ec528931-9d8f-47ef-855e-6b9c51569e3a")
+      (path
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "3d3af5ee-b011-4dbb-b95c-15fa3066b822")
+      (path
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "2f5e656c-92f3-4690-b341-93c4b79f8c72")
+      (path
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "658d81df-103c-4a5d-8680-6d31d605a24b")
+      (path
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "295696e7-481a-4925-9aa2-dac5aa473383")
+      (path
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "dc39426a-a765-4de9-ab15-1a40e25ca54e")
+      (path
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "c04de9d0-c387-42aa-8fa9-140f8a819c40")
+      (path
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "a2ce5751-cadd-4197-ba26-f545d40d67b0")
+      (path
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "a40d8cd9-d29f-4e70-9e0e-39dde83eb0a2")
+      (path
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "889fe6e0-89e3-400f-bb55-3d2ebda50856")
+      (path
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "bfcfa154-b913-4786-b9db-4cea76815f8a")
+      (path
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "7351c0ae-5196-45c4-b15b-69bd2a6d39a8")
+      (path
+        (node
+          (x 2432)
+          (y 544)
+        )
+        (node
+          (x 2432)
+          (y 512)
+        )
+        (node
+          (x 2304)
+          (y 512)
+        )
+        (node
+          (x 2176)
+          (y 512)
+        )
+        (node
+          (x 2048)
+          (y 512)
+        )
+        (node
+          (x 1920)
+          (y 512)
+        )
+        (node
+          (x 1792)
+          (y 512)
+        )
+        (node
+          (x 1664)
+          (y 512)
+        )
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 896)
+          (y 512)
+        )
+        (node
+          (x 768)
+          (y 512)
+        )
+        (node
+          (x 640)
+          (y 512)
+        )
+        (node
+          (x 512)
+          (y 512)
+        )
+        (node
+          (x 384)
+          (y 512)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+        (node
+          (x 128)
+          (y 512)
+        )
+        (node
+          (x 0)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 512)
+        )
+        (node
+          (x -128)
+          (y 544)
+        )
+        (node
+          (x 1280)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "ade84bc8-5a3f-46e9-8f60-9eefa1fdfff3")
+      (path
+        (node
+          (x 96)
+          (y 0)
+          (time 24)
+        )
+        (node
+          (x 2368)
+          (y 0)
+          (time 24)
+        )
+      )
+    )
+    (path
+      (name "7cc72b80-a3b7-456e-9087-03a538338759")
+      (path
+        (node
+          (x 3400)
+          (y 456)
+          (time 0.5)
+        )
+        (node
+          (x 3504)
+          (y 456)
+          (time 2.5)
+        )
+      )
+    )
+    (path
+      (name "143a8d86-e92b-448a-b33e-9720b071562f")
+      (path
+        (node
+          (x 3736)
+          (y 456)
+          (time 0.5)
+        )
+        (node
+          (x 3632)
+          (y 456)
+          (time 2.5)
+        )
+      )
     )
     (scripttrigger
       (script "Level.spawn(\"lava\", \"dungeon\");  ")
@@ -5548,18 +6009,7 @@
       (solid #t)
       (z-pos 200)
       (name "KillMachine")
-      (path
-        (node
-          (x 96)
-          (y 0)
-          (time 24)
-        )
-        (node
-          (x 2368)
-          (y 0)
-          (time 24)
-        )
-      )
+      (path-ref "ade84bc8-5a3f-46e9-8f60-9eefa1fdfff3")
       (width 2)
       (height 20)
       (tiles
@@ -5589,18 +6039,7 @@
       (solid #t)
       (z-pos -100)
       (name "SquishL")
-      (path
-        (node
-          (x 3400)
-          (y 456)
-          (time 0.5)
-        )
-        (node
-          (x 3504)
-          (y 456)
-          (time 2.5)
-        )
-      )
+      (path-ref "7cc72b80-a3b7-456e-9087-03a538338759")
       (width 4)
       (height 4)
       (tiles
@@ -5614,18 +6053,7 @@
       (solid #t)
       (z-pos -100)
       (name "SquishR")
-      (path
-        (node
-          (x 3736)
-          (y 456)
-          (time 0.5)
-        )
-        (node
-          (x 3632)
-          (y 456)
-          (time 2.5)
-        )
-      )
+      (path-ref "143a8d86-e92b-448a-b33e-9720b071562f")
       (width 4)
       (height 4)
       (tiles
@@ -5689,6 +6117,39 @@
       (running #f)
       (name "AngryStash")
       (sprite "images/objects/platforms/small.sprite")
+      (path-ref "0d7fa20b-69c1-42c5-9595-d015739f7716")
+    )
+    (platform
+      (running #f)
+      (name "AngryHold")
+      (sprite "images/objects/platforms/small.sprite")
+      (path-ref "3fc237db-088b-4dbe-819e-0531a760099a")
+    )
+    (platform
+      (running #f)
+      (name "Gate")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "a6f0ff95-0be8-417a-ac3c-64fbbc027284")
+    )
+    (platform
+      (running #f)
+      (name "InnerGate")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "f229fa88-a3f9-4824-8310-eae209b83977")
+    )
+    (jumpy
+      (x 320)
+      (y 576)
+    )
+    (jumpy
+      (x 1312)
+      (y 1504)
+    )
+    (music
+      (file "music/forest3.ogg")
+    )
+    (path
+      (name "0d7fa20b-69c1-42c5-9595-d015739f7716")
       (path
         (node
           (x 114)
@@ -5730,10 +6191,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "AngryHold")
-      (sprite "images/objects/platforms/small.sprite")
+    (path
+      (name "3fc237db-088b-4dbe-819e-0531a760099a")
       (path
         (node
           (x 114)
@@ -5747,10 +6206,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "Gate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "a6f0ff95-0be8-417a-ac3c-64fbbc027284")
       (path
         (node
           (x 1874)
@@ -5764,10 +6221,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "InnerGate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "f229fa88-a3f9-4824-8310-eae209b83977")
       (path
         (node
           (x 1490)
@@ -5781,16 +6236,66 @@
         )
       )
     )
-    (jumpy
-      (x 320)
-      (y 576)
+    (path
+      (name "cd4491ba-dfff-4ad3-8b2e-cb6869408f2e")
+      (path
+        (node
+          (x 1472)
+          (y 1312)
+        )
+        (node
+          (x 1504)
+          (y 1312)
+          (time 8)
+        )
+        (node
+          (x 1504)
+          (y 1440)
+        )
+      )
     )
-    (jumpy
-      (x 1312)
-      (y 1504)
+    (path
+      (name "213b975b-7c69-4291-a1b5-68acc807690f")
+      (path
+        (node
+          (x 1728)
+          (y 1312)
+        )
+        (node
+          (x 1696)
+          (y 1312)
+          (time 8)
+        )
+        (node
+          (x 1696)
+          (y 1440)
+        )
+      )
     )
-    (music
-      (file "music/forest3.ogg")
+    (path
+      (name "c224ee8c-cd92-43df-b12b-48761d74d4b5")
+      (path
+        (node
+          (x 0)
+          (y 1600)
+          (time 24)
+        )
+      )
+    )
+    (path
+      (name "992facd9-c586-4713-ac65-39d61dd86090")
+      (path
+        (node
+          (x 0)
+          (y 1570)
+          (time 28)
+        )
+        (node
+          (x 0)
+          (y 160)
+          (time 28)
+        )
+      )
     )
     (powerup
       (script "  find(\"firecrystal\");Tux.trigger_sequence(\"endsequence\");Tux.deactivate();  ")
@@ -5936,21 +6441,7 @@
       (solid #t)
       (z-pos -100)
       (name "Squish1")
-      (path
-        (node
-          (x 1472)
-          (y 1312)
-        )
-        (node
-          (x 1504)
-          (y 1312)
-          (time 8)
-        )
-        (node
-          (x 1504)
-          (y 1440)
-        )
-      )
+      (path-ref "cd4491ba-dfff-4ad3-8b2e-cb6869408f2e")
       (width 6)
       (height 2)
       (tiles
@@ -5962,21 +6453,7 @@
       (solid #t)
       (z-pos -100)
       (name "Squish2")
-      (path
-        (node
-          (x 1728)
-          (y 1312)
-        )
-        (node
-          (x 1696)
-          (y 1312)
-          (time 8)
-        )
-        (node
-          (x 1696)
-          (y 1440)
-        )
-      )
+      (path-ref "213b975b-7c69-4291-a1b5-68acc807690f")
       (width 6)
       (height 2)
       (tiles
@@ -6165,13 +6642,7 @@
       (solid #f)
       (z-pos 200)
       (name "EdgeCover")
-      (path
-        (node
-          (x 0)
-          (y 1600)
-          (time 24)
-        )
-      )
+      (path-ref "c224ee8c-cd92-43df-b12b-48761d74d4b5")
       (width 70)
       (height 44)
       (tiles
@@ -6225,18 +6696,7 @@
       (solid #t)
       (z-pos -100)
       (name "Lava")
-      (path
-        (node
-          (x 0)
-          (y 1570)
-          (time 28)
-        )
-        (node
-          (x 0)
-          (y 160)
-          (time 28)
-        )
-      )
+      (path-ref "992facd9-c586-4713-ac65-39d61dd86090")
       (width 28)
       (height 45)
       (tiles

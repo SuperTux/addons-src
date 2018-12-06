@@ -641,58 +641,409 @@ door.set_alpha(1);")
     )
     (hurting_platform
       (sprite "images/creatures/flame/flame.sprite")
-      (path
-        (node
-          (x 1280)
-          (y 800)
-        )
-        (node
-          (x 1280)
-          (y 800)
-        )
-        (node
-          (x 1280)
-          (y 480)
-        )
-      )
+      (path-ref "d6bf466d-f60c-46c8-b978-0f693da1b44b")
     )
     (hurting_platform
       (sprite "images/creatures/flame/flame.sprite")
-      (path
-        (node
-          (x 1056)
-          (y 480)
-        )
-        (node
-          (x 1056)
-          (y 800)
-        )
-        (node
-          (x 1056)
-          (y 800)
-        )
-      )
+      (path-ref "2b1fe4e2-a7de-4694-b2a7-71ac9935bafe")
     )
     (hurting_platform
       (sprite "images/creatures/flame/flame.sprite")
-      (path
-        (node
-          (x 416)
-          (y 800)
-        )
-        (node
-          (x 416)
-          (y 800)
-        )
-        (node
-          (x 416)
-          (y 480)
-        )
-      )
+      (path-ref "fb7c94fd-276c-4df7-8f6d-5311caa80b0d")
     )
     (hurting_platform
       (running #f)
       (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "ca64c81f-289d-4cee-accc-ac938d98d5fd")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "414ae2a6-cb03-40b6-b678-2372420a764c")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "073c19b4-a1c9-4625-b955-dcea8694e404")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "d4498e99-ee10-42a9-a84f-a000be24caaa")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "e60d2d50-fb49-448a-b90a-b90720a0b4bf")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "691d897f-b71c-42d5-8446-629c0cb9a5f2")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "ebff7410-37a2-4dde-a7b4-298f35307123")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "5703d2f2-98c9-4bff-bba8-6d65b8e7e1fd")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "bd745c44-9fd0-46c0-9097-af59a929b186")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "18dd4148-7bed-4e91-9f14-31241589d792")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "1438947e-3287-4ff1-bdac-28ffc076f1eb")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "53b256d4-998f-4d57-91ee-3089941ae56b")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "07ab6797-bff1-41b1-8711-83b56671a99b")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "a4cfca45-8cb9-4532-91bc-68f94eb09e1c")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "935e356f-1fde-43cb-a02f-968a2c3aa1df")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "401b3793-bee4-4dfe-8327-f6ad29029b88")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "dce2b803-5c9b-4269-833e-68ecfa1d9c69")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "e782cddc-9be8-42fd-9f1e-1a03c5d34640")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "397c5e0d-7453-40a4-b138-831da9f81c94")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "a639d10a-895c-4518-a8b6-af6a33d456eb")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "2fb6a30d-085b-4865-9def-73e3929d2c8b")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "906ddaf4-37ec-4557-9c60-29951002bf6b")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "217596d3-ebfb-4d48-bca2-3949bc7639b5")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "9116a408-f9c5-46a4-97dd-d8679d153295")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "4f048039-872e-47c2-b88c-fcb1424a0c64")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "d0d2d450-ed2a-48cc-949e-238cef3c4a9d")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "5938442b-b2ff-4954-8e48-ce2872178f86")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "4d3a56a0-8cd0-4a08-a2cd-66855515a718")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "61825c40-7a6c-4021-a0cd-1169385d6f83")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "003039f5-5413-4027-a755-fe0d91c9c30c")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "9095a645-d2a0-4576-8146-afdaae2c4100")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "779cb793-5536-4429-85d7-43189eb36b9f")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "a96a2db0-2bf9-4652-b278-ca6f631757db")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "96220e3e-f34a-4acf-a60e-3e0441324f72")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "fdd14bf9-5b85-44d9-a47a-c7a6cf043747")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "b2b8b9b9-2f61-444f-b68a-e0093a945577")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "68f34836-7aac-424f-a51e-a3bdda99dd5a")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "0a25a729-2d8a-494c-970c-1d85784c2df2")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "bd805b24-772b-4c05-bf03-a859cd85f5bc")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "19650a3f-a653-47f5-b456-9e6b4a6ff470")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "0765353c-5143-49b8-877b-a602bc0b96cd")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "b4cc7481-a347-4fba-851c-5dde11b8316e")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "9ae2b505-c89b-420e-bfc7-5c5eff4c42df")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "0e1989bf-cd68-4e4e-bd62-8edd1a8cc1fa")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "a0e1ebe9-b9ac-4a70-afbc-092d048a8f63")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "c8149351-0bf9-4d40-98ac-f79d4f2f70b9")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "9f957d20-3614-4e53-bfb9-88e1673c0e02")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "09939fa7-0ff7-4460-87d5-62a1db1c16d8")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "69f4902e-e9b3-4e0b-aa22-63dcee9b6a1b")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "6415d3f7-b7ff-431a-b6d6-29189029374f")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "368bacc5-1b69-481e-85cf-fe1760f0d2ac")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "b9cd0d52-34f7-479f-8c2a-98acc80424ea")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "097d2fd4-b4cd-4254-af7d-3f51193f409d")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "df02874a-74bb-412c-af73-c5ba1b16fb25")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "c405b304-2f73-4818-9df6-781e2d8ac015")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "be369570-69f3-470f-8b77-be8b3ef4684a")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "aeea3a2a-9a29-4db4-b59d-26868f3a5896")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "e01bb09a-31bd-4363-a5e6-4061fa44a84c")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "a51781e4-aced-4d2b-842b-a6b0fef1fbe4")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "d3b52e45-1cf7-4306-a8c1-7a4fbc8094f8")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "73c44cd5-7e94-4c75-b790-7ad07b26f744")
+    )
+    (hurting_platform
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "8120b7bd-4ab3-479d-80e9-5b3f6fafffbd")
+    )
+    (hurting_platform
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "77118b7f-1c54-44c9-b280-c7b3dd5d14ca")
+    )
+    (hurting_platform
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "e99bcaaf-0648-4cda-89c2-7879a337f125")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "7b71993f-12a9-4e11-8184-582a05005721")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "243f23d5-fe37-464a-a34f-dcaf5ead0ade")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "3a6e4194-800d-4cfd-a942-6495b4109305")
+    )
+    (hurting_platform
+      (running #f)
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "62cc3896-74f8-4b53-8eab-035fe01f5460")
+    )
+    (music
+      (file "music/ghostforest.ogg")
+    )
+    (path
+      (name "d6bf466d-f60c-46c8-b978-0f693da1b44b")
+      (path
+        (node
+          (x 1280)
+          (y 800)
+        )
+        (node
+          (x 1280)
+          (y 800)
+        )
+        (node
+          (x 1280)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "2b1fe4e2-a7de-4694-b2a7-71ac9935bafe")
+      (path
+        (node
+          (x 1056)
+          (y 480)
+        )
+        (node
+          (x 1056)
+          (y 800)
+        )
+        (node
+          (x 1056)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "fb7c94fd-276c-4df7-8f6d-5311caa80b0d")
+      (path
+        (node
+          (x 416)
+          (y 800)
+        )
+        (node
+          (x 416)
+          (y 800)
+        )
+        (node
+          (x 416)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "ca64c81f-289d-4cee-accc-ac938d98d5fd")
       (path
         (node
           (x 3264)
@@ -700,9 +1051,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "414ae2a6-cb03-40b6-b678-2372420a764c")
       (path
         (node
           (x 3136)
@@ -710,9 +1060,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "073c19b4-a1c9-4625-b955-dcea8694e404")
       (path
         (node
           (x 3168)
@@ -720,9 +1069,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "d4498e99-ee10-42a9-a84f-a000be24caaa")
       (path
         (node
           (x 2816)
@@ -730,9 +1078,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "e60d2d50-fb49-448a-b90a-b90720a0b4bf")
       (path
         (node
           (x 3200)
@@ -740,9 +1087,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "691d897f-b71c-42d5-8446-629c0cb9a5f2")
       (path
         (node
           (x 3136)
@@ -750,9 +1096,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "ebff7410-37a2-4dde-a7b4-298f35307123")
       (path
         (node
           (x 3200)
@@ -760,9 +1105,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "5703d2f2-98c9-4bff-bba8-6d65b8e7e1fd")
       (path
         (node
           (x 3168)
@@ -770,9 +1114,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "bd745c44-9fd0-46c0-9097-af59a929b186")
       (path
         (node
           (x 3360)
@@ -780,9 +1123,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "18dd4148-7bed-4e91-9f14-31241589d792")
       (path
         (node
           (x 3296)
@@ -790,9 +1132,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "1438947e-3287-4ff1-bdac-28ffc076f1eb")
       (path
         (node
           (x 3392)
@@ -800,9 +1141,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "53b256d4-998f-4d57-91ee-3089941ae56b")
       (path
         (node
           (x 3360)
@@ -810,9 +1150,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "07ab6797-bff1-41b1-8711-83b56671a99b")
       (path
         (node
           (x 2784)
@@ -820,9 +1159,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "a4cfca45-8cb9-4532-91bc-68f94eb09e1c")
       (path
         (node
           (x 3200)
@@ -830,9 +1168,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "935e356f-1fde-43cb-a02f-968a2c3aa1df")
       (path
         (node
           (x 3328)
@@ -840,9 +1177,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "401b3793-bee4-4dfe-8327-f6ad29029b88")
       (path
         (node
           (x 3168)
@@ -850,9 +1186,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "dce2b803-5c9b-4269-833e-68ecfa1d9c69")
       (path
         (node
           (x 3232)
@@ -860,9 +1195,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "e782cddc-9be8-42fd-9f1e-1a03c5d34640")
       (path
         (node
           (x 3200)
@@ -870,9 +1204,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "397c5e0d-7453-40a4-b138-831da9f81c94")
       (path
         (node
           (x 3104)
@@ -880,9 +1213,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "a639d10a-895c-4518-a8b6-af6a33d456eb")
       (path
         (node
           (x 2784)
@@ -890,9 +1222,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "2fb6a30d-085b-4865-9def-73e3929d2c8b")
       (path
         (node
           (x 3424)
@@ -900,9 +1231,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "906ddaf4-37ec-4557-9c60-29951002bf6b")
       (path
         (node
           (x 3232)
@@ -910,9 +1240,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "217596d3-ebfb-4d48-bca2-3949bc7639b5")
       (path
         (node
           (x 3232)
@@ -920,9 +1249,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "9116a408-f9c5-46a4-97dd-d8679d153295")
       (path
         (node
           (x 3264)
@@ -930,9 +1258,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "4f048039-872e-47c2-b88c-fcb1424a0c64")
       (path
         (node
           (x 3296)
@@ -940,9 +1267,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "d0d2d450-ed2a-48cc-949e-238cef3c4a9d")
       (path
         (node
           (x 3360)
@@ -950,9 +1276,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "5938442b-b2ff-4954-8e48-ce2872178f86")
       (path
         (node
           (x 3392)
@@ -960,9 +1285,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "4d3a56a0-8cd0-4a08-a2cd-66855515a718")
       (path
         (node
           (x 3328)
@@ -970,9 +1294,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "61825c40-7a6c-4021-a0cd-1169385d6f83")
       (path
         (node
           (x 2752)
@@ -980,9 +1303,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "003039f5-5413-4027-a755-fe0d91c9c30c")
       (path
         (node
           (x 2720)
@@ -990,9 +1312,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "9095a645-d2a0-4576-8146-afdaae2c4100")
       (path
         (node
           (x 2720)
@@ -1000,9 +1321,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "779cb793-5536-4429-85d7-43189eb36b9f")
       (path
         (node
           (x 2720)
@@ -1010,9 +1330,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "a96a2db0-2bf9-4652-b278-ca6f631757db")
       (path
         (node
           (x 2752)
@@ -1020,9 +1339,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "96220e3e-f34a-4acf-a60e-3e0441324f72")
       (path
         (node
           (x 2752)
@@ -1030,9 +1348,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "fdd14bf9-5b85-44d9-a47a-c7a6cf043747")
       (path
         (node
           (x 2720)
@@ -1040,9 +1357,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "b2b8b9b9-2f61-444f-b68a-e0093a945577")
       (path
         (node
           (x 2688)
@@ -1050,9 +1366,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "68f34836-7aac-424f-a51e-a3bdda99dd5a")
       (path
         (node
           (x 2976)
@@ -1060,9 +1375,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "0a25a729-2d8a-494c-970c-1d85784c2df2")
       (path
         (node
           (x 2848)
@@ -1070,9 +1384,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "bd805b24-772b-4c05-bf03-a859cd85f5bc")
       (path
         (node
           (x 2880)
@@ -1080,9 +1393,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "19650a3f-a653-47f5-b456-9e6b4a6ff470")
       (path
         (node
           (x 2912)
@@ -1090,9 +1402,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "0765353c-5143-49b8-877b-a602bc0b96cd")
       (path
         (node
           (x 2848)
@@ -1100,9 +1411,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "b4cc7481-a347-4fba-851c-5dde11b8316e")
       (path
         (node
           (x 2912)
@@ -1110,9 +1420,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "9ae2b505-c89b-420e-bfc7-5c5eff4c42df")
       (path
         (node
           (x 2880)
@@ -1120,9 +1429,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "0e1989bf-cd68-4e4e-bd62-8edd1a8cc1fa")
       (path
         (node
           (x 2912)
@@ -1130,9 +1438,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "a0e1ebe9-b9ac-4a70-afbc-092d048a8f63")
       (path
         (node
           (x 2880)
@@ -1140,9 +1447,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "c8149351-0bf9-4d40-98ac-f79d4f2f70b9")
       (path
         (node
           (x 2944)
@@ -1150,9 +1456,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "9f957d20-3614-4e53-bfb9-88e1673c0e02")
       (path
         (node
           (x 2912)
@@ -1160,9 +1465,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "09939fa7-0ff7-4460-87d5-62a1db1c16d8")
       (path
         (node
           (x 2816)
@@ -1170,9 +1474,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "69f4902e-e9b3-4e0b-aa22-63dcee9b6a1b")
       (path
         (node
           (x 2944)
@@ -1180,9 +1483,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "6415d3f7-b7ff-431a-b6d6-29189029374f")
       (path
         (node
           (x 2944)
@@ -1190,9 +1492,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "368bacc5-1b69-481e-85cf-fe1760f0d2ac")
       (path
         (node
           (x 2976)
@@ -1200,9 +1501,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "b9cd0d52-34f7-479f-8c2a-98acc80424ea")
       (path
         (node
           (x 3008)
@@ -1210,9 +1510,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "097d2fd4-b4cd-4254-af7d-3f51193f409d")
       (path
         (node
           (x 3040)
@@ -1220,9 +1519,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "df02874a-74bb-412c-af73-c5ba1b16fb25")
       (path
         (node
           (x 2976)
@@ -1230,9 +1528,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "c405b304-2f73-4818-9df6-781e2d8ac015")
       (path
         (node
           (x 3072)
@@ -1240,9 +1537,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "be369570-69f3-470f-8b77-be8b3ef4684a")
       (path
         (node
           (x 3040)
@@ -1250,9 +1546,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "aeea3a2a-9a29-4db4-b59d-26868f3a5896")
       (path
         (node
           (x 3008)
@@ -1260,9 +1555,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "e01bb09a-31bd-4363-a5e6-4061fa44a84c")
       (path
         (node
           (x 3104)
@@ -1270,9 +1564,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "a51781e4-aced-4d2b-842b-a6b0fef1fbe4")
       (path
         (node
           (x 3040)
@@ -1280,9 +1573,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "d3b52e45-1cf7-4306-a8c1-7a4fbc8094f8")
       (path
         (node
           (x 3072)
@@ -1290,9 +1582,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "73c44cd5-7e94-4c75-b790-7ad07b26f744")
       (path
         (node
           (x 3008)
@@ -1300,8 +1591,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "8120b7bd-4ab3-479d-80e9-5b3f6fafffbd")
       (path
         (node
           (x 3968)
@@ -1317,8 +1608,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "77118b7f-1c54-44c9-b280-c7b3dd5d14ca")
       (path
         (node
           (x 5248)
@@ -1334,8 +1625,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "e99bcaaf-0648-4cda-89c2-7879a337f125")
       (path
         (node
           (x 5376)
@@ -1351,9 +1642,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "7b71993f-12a9-4e11-8184-582a05005721")
       (path
         (node
           (x 6080)
@@ -1361,9 +1651,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "243f23d5-fe37-464a-a34f-dcaf5ead0ade")
       (path
         (node
           (x 6080)
@@ -1371,9 +1660,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "3a6e4194-800d-4cfd-a942-6495b4109305")
       (path
         (node
           (x 5632)
@@ -1381,9 +1669,8 @@ door.set_alpha(1);")
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "62cc3896-74f8-4b53-8eab-035fe01f5460")
       (path
         (node
           (x 5632)
@@ -1391,8 +1678,19 @@ door.set_alpha(1);")
         )
       )
     )
-    (music
-      (file "music/ghostforest.ogg")
+    (path
+      (name "409c7796-aa6e-417a-a391-97749bfdb94b")
+      (path
+        (mode "oneshot")
+        (node
+          (x 4256)
+          (y -384)
+        )
+        (node
+          (x 4256)
+          (y 0)
+        )
+      )
     )
     (powerup
       (script "this.c1 <- true
@@ -1854,17 +2152,7 @@ block1.set_alpha(0);")
       (solid #f)
       (z-pos 0)
       (name "ladder")
-      (path
-        (mode "oneshot")
-        (node
-          (x 4256)
-          (y -384)
-        )
-        (node
-          (x 4256)
-          (y 0)
-        )
-      )
+      (path-ref "409c7796-aa6e-417a-a391-97749bfdb94b")
       (width 1)
       (height 12)
       (tiles

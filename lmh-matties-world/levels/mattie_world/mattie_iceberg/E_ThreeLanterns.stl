@@ -58,18 +58,7 @@
       (running #f)
       (name "airlift")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 6432)
-          (y 1184)
-          (time 3)
-        )
-        (node
-          (x 6112)
-          (y 288)
-          (time 3)
-        )
-      )
+      (path-ref "c93b2040-ffa2-4739-ad54-3376dd603cc6")
     )
     (flyingsnowball
       (x 992)
@@ -199,6 +188,69 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "c93b2040-ffa2-4739-ad54-3376dd603cc6")
+      (path
+        (node
+          (x 6432)
+          (y 1184)
+          (time 3)
+        )
+        (node
+          (x 6112)
+          (y 288)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "fff239fa-5049-45a4-8a6b-802da5d24afc")
+      (path
+        (node
+          (x 1824)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "b79399c4-1f2a-4081-a1fa-09de8e0ef9a3")
+      (path
+        (node
+          (x 0)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "8bcaed18-7eae-40b4-9738-6d2fc84947fa")
+      (path
+        (node
+          (x 6944)
+          (y 288)
+          (time 0.8)
+        )
+        (node
+          (x 6944)
+          (y 384)
+          (time 0.1)
+        )
+        (node
+          (x 6944)
+          (y 1056)
+          (time 0.1)
+        )
+        (node
+          (x 7040)
+          (y 1056)
+          (time 0.1)
+        )
+        (node
+          (x 7040)
+          (y 288)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "Level.spawn(\"clouds\", \"main\");")
@@ -485,12 +537,7 @@ uppipe2.start();")
       (solid #f)
       (z-pos 300)
       (name "secret")
-      (path
-        (node
-          (x 1824)
-          (y 640)
-        )
-      )
+      (path-ref "fff239fa-5049-45a4-8a6b-802da5d24afc")
       (width 15)
       (height 22)
       (tiles
@@ -523,12 +570,7 @@ uppipe2.start();")
       (draw-target "lightmap")
       (z-pos -250)
       (name "Lightmap")
-      (path
-        (node
-          (x 0)
-          (y 864)
-        )
-      )
+      (path-ref "b79399c4-1f2a-4081-a1fa-09de8e0ef9a3")
       (width 57)
       (height 15)
       (tiles
@@ -553,33 +595,7 @@ uppipe2.start();")
       (solid #t)
       (z-pos 0)
       (name "pipedrop2")
-      (path
-        (node
-          (x 6944)
-          (y 288)
-          (time 0.8)
-        )
-        (node
-          (x 6944)
-          (y 384)
-          (time 0.1)
-        )
-        (node
-          (x 6944)
-          (y 1056)
-          (time 0.1)
-        )
-        (node
-          (x 7040)
-          (y 1056)
-          (time 0.1)
-        )
-        (node
-          (x 7040)
-          (y 288)
-          (time 0.1)
-        )
-      )
+      (path-ref "8bcaed18-7eae-40b4-9738-6d2fc84947fa")
       (width 2)
       (height 1)
       (tiles

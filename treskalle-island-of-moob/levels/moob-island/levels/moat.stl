@@ -33,273 +33,75 @@
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 484.7696)
-          (y 467.2721)
-          (time 5)
-        )
-        (node
-          (x 483.903)
-          (y 502.254)
-          (time 5)
-        )
-      )
+      (path-ref "67573306-6f38-4d76-b91d-36e53addc6c8")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 1017.104)
-          (y 470.7184)
-          (time 6)
-        )
-        (node
-          (x 1014.619)
-          (y 507.819)
-          (time 6)
-        )
-      )
+      (path-ref "2a09164f-56a7-4f06-841e-be0dd940be1a")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 1536.619)
-          (y 551.819)
-          (time 7)
-        )
-        (node
-          (x 1536.619)
-          (y 582.819)
-          (time 7)
-        )
-      )
+      (path-ref "9a835a27-13f0-4092-86d5-127f70bf66a6")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 2387.899)
-          (y 469.7824)
-          (time 5)
-        )
-        (node
-          (x 2385.899)
-          (y 501.7824)
-          (time 5)
-        )
-      )
+      (path-ref "797382bd-ad06-4975-8052-dfcee73fd170")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 2993)
-          (y 471)
-          (time 6)
-        )
-        (node
-          (x 2990.951)
-          (y 504.8005)
-          (time 6)
-        )
-      )
+      (path-ref "2b3cf870-4c45-4355-9544-b6e66a0cc493")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 3505.788)
-          (y 605.7954)
-          (time 7)
-        )
-        (node
-          (x 3504.374)
-          (y 638.3223)
-          (time 7)
-        )
-      )
+      (path-ref "72ac1249-1808-4392-8cd6-59d8bee52531")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 4296.334)
-          (y 474.2736)
-          (time 5)
-        )
-        (node
-          (x 4293.505)
-          (y 501.1436)
-          (time 5)
-        )
-      )
+      (path-ref "ee45a2bf-41fa-4ad6-8146-52ec57d6c3e9")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 4778.261)
-          (y 473.5154)
-          (time 6)
-        )
-        (node
-          (x 4776.847)
-          (y 504.6281)
-          (time 6)
-        )
-      )
+      (path-ref "33a6dd71-2026-47ba-8641-aa83448b670c")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 5229.782)
-          (y 465.8578)
-          (time 5)
-        )
-        (node
-          (x 5226.953)
-          (y 498.4608)
-          (time 5)
-        )
-      )
+      (path-ref "60a61193-de2b-4dd6-90aa-7008fc7b80da")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 5656.409)
-          (y 461.6914)
-          (time 6)
-        )
-        (node
-          (x 5656.824)
-          (y 489.123)
-          (time 6)
-        )
-      )
+      (path-ref "a6131b62-8649-497e-992c-c1423e874338")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 6095.23)
-          (y 470.7383)
-          (time 5)
-        )
-        (node
-          (x 6093.816)
-          (y 501.851)
-          (time 5)
-        )
-      )
+      (path-ref "d2d20fb6-9422-4127-9046-0f1bd454127e")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 6455.515)
-          (y 461.6152)
-          (time 6)
-        )
-        (node
-          (x 6455.515)
-          (y 489.8994)
-          (time 6)
-        )
-      )
+      (path-ref "97c51940-aa2b-4a57-8fe8-0a64b5e055f4")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 6870.333)
-          (y 531.4513)
-          (time 7)
-        )
-        (node
-          (x 6868.918)
-          (y 563.9781)
-          (time 7)
-        )
-      )
+      (path-ref "cd696707-4ae3-45e1-8650-a18e453808cb")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 7263.484)
-          (y 593.6767)
-          (time 8)
-        )
-        (node
-          (x 7263.484)
-          (y 631.8605)
-          (time 8)
-        )
-      )
+      (path-ref "93738b89-26c4-4690-9323-5bae2da86f73")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 8622)
-          (y 468)
-          (time 5)
-        )
-        (node
-          (x 8622)
-          (y 503.3553)
-          (time 5)
-        )
-      )
+      (path-ref "7428a857-a2f2-455f-a0bc-6717d7dddeef")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 10082.44)
-          (y 472.1004)
-          (time 5)
-        )
-        (node
-          (x 10083.85)
-          (y 498.9705)
-          (time 5)
-        )
-      )
+      (path-ref "fc31046d-04ce-41b7-bf16-ad2376ac4b71")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 10452.24)
-          (y 472.8527)
-          (time 6)
-        )
-        (node
-          (x 10450.83)
-          (y 496.8943)
-          (time 6)
-        )
-      )
+      (path-ref "6a4f750a-b76e-4720-b96f-c9ee121057ad")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 11148.01)
-          (y 410.3431)
-          (time 6)
-        )
-        (node
-          (x 11149.54)
-          (y 447.3137)
-          (time 6)
-        )
-      )
+      (path-ref "f75655b8-03b8-498d-b82c-115d3329be40")
     )
     (gradient
       (top_color 0 0 0)
@@ -565,6 +367,276 @@
     )
     (music
       (file "music/wisphunt.ogg")
+    )
+    (path
+      (name "67573306-6f38-4d76-b91d-36e53addc6c8")
+      (path
+        (node
+          (x 484.7696)
+          (y 467.2721)
+          (time 5)
+        )
+        (node
+          (x 483.903)
+          (y 502.254)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "2a09164f-56a7-4f06-841e-be0dd940be1a")
+      (path
+        (node
+          (x 1017.104)
+          (y 470.7184)
+          (time 6)
+        )
+        (node
+          (x 1014.619)
+          (y 507.819)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "9a835a27-13f0-4092-86d5-127f70bf66a6")
+      (path
+        (node
+          (x 1536.619)
+          (y 551.819)
+          (time 7)
+        )
+        (node
+          (x 1536.619)
+          (y 582.819)
+          (time 7)
+        )
+      )
+    )
+    (path
+      (name "797382bd-ad06-4975-8052-dfcee73fd170")
+      (path
+        (node
+          (x 2387.899)
+          (y 469.7824)
+          (time 5)
+        )
+        (node
+          (x 2385.899)
+          (y 501.7824)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "2b3cf870-4c45-4355-9544-b6e66a0cc493")
+      (path
+        (node
+          (x 2993)
+          (y 471)
+          (time 6)
+        )
+        (node
+          (x 2990.951)
+          (y 504.8005)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "72ac1249-1808-4392-8cd6-59d8bee52531")
+      (path
+        (node
+          (x 3505.788)
+          (y 605.7954)
+          (time 7)
+        )
+        (node
+          (x 3504.374)
+          (y 638.3223)
+          (time 7)
+        )
+      )
+    )
+    (path
+      (name "ee45a2bf-41fa-4ad6-8146-52ec57d6c3e9")
+      (path
+        (node
+          (x 4296.334)
+          (y 474.2736)
+          (time 5)
+        )
+        (node
+          (x 4293.505)
+          (y 501.1436)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "33a6dd71-2026-47ba-8641-aa83448b670c")
+      (path
+        (node
+          (x 4778.261)
+          (y 473.5154)
+          (time 6)
+        )
+        (node
+          (x 4776.847)
+          (y 504.6281)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "60a61193-de2b-4dd6-90aa-7008fc7b80da")
+      (path
+        (node
+          (x 5229.782)
+          (y 465.8578)
+          (time 5)
+        )
+        (node
+          (x 5226.953)
+          (y 498.4608)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "a6131b62-8649-497e-992c-c1423e874338")
+      (path
+        (node
+          (x 5656.409)
+          (y 461.6914)
+          (time 6)
+        )
+        (node
+          (x 5656.824)
+          (y 489.123)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "d2d20fb6-9422-4127-9046-0f1bd454127e")
+      (path
+        (node
+          (x 6095.23)
+          (y 470.7383)
+          (time 5)
+        )
+        (node
+          (x 6093.816)
+          (y 501.851)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "97c51940-aa2b-4a57-8fe8-0a64b5e055f4")
+      (path
+        (node
+          (x 6455.515)
+          (y 461.6152)
+          (time 6)
+        )
+        (node
+          (x 6455.515)
+          (y 489.8994)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "cd696707-4ae3-45e1-8650-a18e453808cb")
+      (path
+        (node
+          (x 6870.333)
+          (y 531.4513)
+          (time 7)
+        )
+        (node
+          (x 6868.918)
+          (y 563.9781)
+          (time 7)
+        )
+      )
+    )
+    (path
+      (name "93738b89-26c4-4690-9323-5bae2da86f73")
+      (path
+        (node
+          (x 7263.484)
+          (y 593.6767)
+          (time 8)
+        )
+        (node
+          (x 7263.484)
+          (y 631.8605)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "7428a857-a2f2-455f-a0bc-6717d7dddeef")
+      (path
+        (node
+          (x 8622)
+          (y 468)
+          (time 5)
+        )
+        (node
+          (x 8622)
+          (y 503.3553)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "fc31046d-04ce-41b7-bf16-ad2376ac4b71")
+      (path
+        (node
+          (x 10082.44)
+          (y 472.1004)
+          (time 5)
+        )
+        (node
+          (x 10083.85)
+          (y 498.9705)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "6a4f750a-b76e-4720-b96f-c9ee121057ad")
+      (path
+        (node
+          (x 10452.24)
+          (y 472.8527)
+          (time 6)
+        )
+        (node
+          (x 10450.83)
+          (y 496.8943)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "f75655b8-03b8-498d-b82c-115d3329be40")
+      (path
+        (node
+          (x 11148.01)
+          (y 410.3431)
+          (time 6)
+        )
+        (node
+          (x 11149.54)
+          (y 447.3137)
+          (time 6)
+        )
+      )
     )
     (rock
       (x 1632)

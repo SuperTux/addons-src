@@ -105,18 +105,7 @@
       (running #f)
       (name "SecretPlatform")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 736)
-          (y 992)
-          (time 6)
-        )
-        (node
-          (x 640)
-          (y 544)
-          (time 6)
-        )
-      )
+      (path-ref "3a9d78a9-f858-423f-a89f-14401e05d3d0")
     )
     (particles-ghosts
     )
@@ -190,6 +179,21 @@
     )
     (music
       (file "music/ghostforest.ogg")
+    )
+    (path
+      (name "3a9d78a9-f858-423f-a89f-14401e05d3d0")
+      (path
+        (node
+          (x 736)
+          (y 992)
+          (time 6)
+        )
+        (node
+          (x 640)
+          (y 544)
+          (time 6)
+        )
+      )
     )
     (particles-rain
     )

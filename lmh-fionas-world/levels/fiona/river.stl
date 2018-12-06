@@ -82,6 +82,53 @@
     (music
       (file "music/voc-daytime2.music")
     )
+    (path
+      (name "51fd40df-dfb6-4aef-adf1-41cdea383ee3")
+      (path
+        (node
+          (x 3376)
+          (y 1136)
+        )
+        (node
+          (x 3376)
+          (y 1136)
+          (time 4)
+        )
+        (node
+          (x 4080)
+          (y 1136)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "66b83c69-4195-455a-8477-65cbc36dfce4")
+      (path
+        (node
+          (x 3376)
+          (y 1136)
+        )
+        (node
+          (x 3376)
+          (y 1136)
+          (time 4)
+        )
+        (node
+          (x 4080)
+          (y 1136)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "d615c0b9-ce3f-4ca9-aafc-e4bc34ad9839")
+      (path
+        (node
+          (x 4960)
+          (y 1184)
+        )
+      )
+    )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")
       (x 1968)
@@ -474,22 +521,7 @@ boat_image.goto_node(0);")
       (solid #t)
       (z-pos 0)
       (name "boat")
-      (path
-        (node
-          (x 3376)
-          (y 1136)
-        )
-        (node
-          (x 3376)
-          (y 1136)
-          (time 4)
-        )
-        (node
-          (x 4080)
-          (y 1136)
-          (time 4)
-        )
-      )
+      (path-ref "51fd40df-dfb6-4aef-adf1-41cdea383ee3")
       (width 8)
       (height 8)
       (tiles
@@ -507,22 +539,7 @@ boat_image.goto_node(0);")
       (solid #f)
       (z-pos -50)
       (name "boat_image")
-      (path
-        (node
-          (x 3376)
-          (y 1136)
-        )
-        (node
-          (x 3376)
-          (y 1136)
-          (time 4)
-        )
-        (node
-          (x 4080)
-          (y 1136)
-          (time 4)
-        )
-      )
+      (path-ref "66b83c69-4195-455a-8477-65cbc36dfce4")
       (width 8)
       (height 8)
       (tiles
@@ -626,12 +643,7 @@ boat_image.goto_node(0);")
       (alpha 0)
       (z-pos 0)
       (name "out")
-      (path
-        (node
-          (x 4960)
-          (y 1184)
-        )
-      )
+      (path-ref "d615c0b9-ce3f-4ca9-aafc-e4bc34ad9839")
       (width 2)
       (height 1)
       (tiles

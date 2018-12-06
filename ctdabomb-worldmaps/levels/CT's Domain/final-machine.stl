@@ -33,16 +33,7 @@
     (platform
       (name "fall2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 4960)
-          (y 704)
-        )
-        (node
-          (x 4960)
-          (y 800)
-        )
-      )
+      (path-ref "f3b18e96-3c36-424e-9b06-35509228747e")
     )
     (jumpy
       (x 4455)
@@ -58,6 +49,53 @@
     )
     (music
       (file "music/forest3.ogg")
+    )
+    (path
+      (name "f3b18e96-3c36-424e-9b06-35509228747e")
+      (path
+        (node
+          (x 4960)
+          (y 704)
+        )
+        (node
+          (x 4960)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "aaf8b09c-1bc2-4b21-a5b1-49615a687a88")
+      (path
+        (node
+          (x 1088)
+          (y -352)
+        )
+        (node
+          (x 1088)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "2f6a2240-5de3-4068-906d-0da00c801688")
+      (path
+        (node
+          (x 32)
+          (y 832)
+        )
+        (node
+          (x 32)
+          (y 896)
+        )
+        (node
+          (x 32)
+          (y 960)
+        )
+        (node
+          (x 32)
+          (y 1024)
+        )
+      )
     )
     (scripttrigger
       (script "lava.goto_node(100)")
@@ -365,16 +403,7 @@
       (solid #t)
       (z-pos 0)
       (name "spike")
-      (path
-        (node
-          (x 1088)
-          (y -352)
-        )
-        (node
-          (x 1088)
-          (y 128)
-        )
-      )
+      (path-ref "aaf8b09c-1bc2-4b21-a5b1-49615a687a88")
       (width 30)
       (height 20)
       (tiles
@@ -404,24 +433,7 @@
       (solid #t)
       (z-pos -10)
       (name "lava")
-      (path
-        (node
-          (x 32)
-          (y 832)
-        )
-        (node
-          (x 32)
-          (y 896)
-        )
-        (node
-          (x 32)
-          (y 960)
-        )
-        (node
-          (x 32)
-          (y 1024)
-        )
-      )
+      (path-ref "2f6a2240-5de3-4068-906d-0da00c801688")
       (width 200)
       (height 45)
       (tiles

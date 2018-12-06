@@ -119,18 +119,7 @@
       (running #f)
       (name "ascensseur")
       (sprite "images/objects/invisible/invisible.sprite")
-      (path
-        (node
-          (x 15968)
-          (y 672)
-          (time 2)
-        )
-        (node
-          (x 15968)
-          (y 448)
-          (time 2)
-        )
-      )
+      (path-ref "ced15d1c-8878-4caf-a634-9f75e9290435")
     )
     (particles-ghosts
       (z-pos 140)
@@ -509,6 +498,108 @@ Tux.activate();")
     )
     (music
       (file "music/ghostforest.ogg")
+    )
+    (path
+      (name "ced15d1c-8878-4caf-a634-9f75e9290435")
+      (path
+        (node
+          (x 15968)
+          (y 672)
+          (time 2)
+        )
+        (node
+          (x 15968)
+          (y 448)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "df597cf6-d788-4174-84f1-865c98df536c")
+      (path
+        (node
+          (x 5696)
+          (y 0)
+          (time 0.8)
+        )
+        (node
+          (x 5696)
+          (y 224)
+          (time 0.8)
+        )
+      )
+    )
+    (path
+      (name "733137a1-01e7-4e84-b4c2-a40278f9cf35")
+      (path
+        (node
+          (x 11456)
+          (y 576)
+          (time 1.2)
+        )
+        (node
+          (x 11456)
+          (y 768)
+          (time 1.2)
+        )
+      )
+    )
+    (path
+      (name "22428b0c-d2f4-44f4-a455-613f44209675")
+      (path
+        (node
+          (x 11360)
+          (y 544)
+          (time 2.4)
+        )
+        (node
+          (x 11360)
+          (y 640)
+          (time 2.4)
+        )
+      )
+    )
+    (path
+      (name "4e10163e-01d1-4211-8837-30e99aa5014e")
+      (path
+        (node
+          (x 11456)
+          (y 768)
+          (time 0.6)
+        )
+        (node
+          (x 11456)
+          (y 960)
+          (time 0.6)
+        )
+      )
+    )
+    (path
+      (name "d4a0b619-4767-44f7-9516-ad390b528042")
+      (path
+        (node
+          (x 16608)
+          (y 32)
+        )
+      )
+    )
+    (path
+      (name "fd312d92-d6bd-49da-9a68-c8de7feba78b")
+      (path
+        (node
+          (x 11424)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "4b2ac9f9-c24e-4a4b-bdee-ba73372c8978")
+      (path
+        (node
+          (x 8352)
+          (y 576)
+        )
+      )
     )
     (scripttrigger
       (script "Level.spawn(\"fin\", \"main\");")
@@ -994,18 +1085,7 @@ Tux.activate();")
       (alpha 0)
       (z-pos 10)
       (name "chute")
-      (path
-        (node
-          (x 5696)
-          (y 0)
-          (time 0.8)
-        )
-        (node
-          (x 5696)
-          (y 224)
-          (time 0.8)
-        )
-      )
+      (path-ref "df597cf6-d788-4174-84f1-865c98df536c")
       (width 5)
       (height 22)
       (tiles
@@ -1037,18 +1117,7 @@ Tux.activate();")
       (solid #t)
       (z-pos 20)
       (name "chutedelave1")
-      (path
-        (node
-          (x 11456)
-          (y 576)
-          (time 1.2)
-        )
-        (node
-          (x 11456)
-          (y 768)
-          (time 1.2)
-        )
-      )
+      (path-ref "733137a1-01e7-4e84-b4c2-a40278f9cf35")
       (width 3)
       (height 6)
       (tiles
@@ -1064,18 +1133,7 @@ Tux.activate();")
       (solid #f)
       (z-pos -10)
       (name "niveaudelave")
-      (path
-        (node
-          (x 11360)
-          (y 544)
-          (time 2.4)
-        )
-        (node
-          (x 11360)
-          (y 640)
-          (time 2.4)
-        )
-      )
+      (path-ref "22428b0c-d2f4-44f4-a455-613f44209675")
       (width 9)
       (height 4)
       (tiles
@@ -1090,18 +1148,7 @@ Tux.activate();")
       (alpha 0)
       (z-pos 30)
       (name "chutedelave2")
-      (path
-        (node
-          (x 11456)
-          (y 768)
-          (time 0.6)
-        )
-        (node
-          (x 11456)
-          (y 960)
-          (time 0.6)
-        )
-      )
+      (path-ref "4e10163e-01d1-4211-8837-30e99aa5014e")
       (width 3)
       (height 6)
       (tiles
@@ -1161,12 +1208,7 @@ Tux.activate();")
       (solid #t)
       (z-pos 100)
       (name "cache")
-      (path
-        (node
-          (x 16608)
-          (y 32)
-        )
-      )
+      (path-ref "d4a0b619-4767-44f7-9516-ad390b528042")
       (width 26)
       (height 15)
       (tiles
@@ -1192,12 +1234,7 @@ Tux.activate();")
       (alpha 0)
       (z-pos -20)
       (name "mur")
-      (path
-        (node
-          (x 11424)
-          (y 800)
-        )
-      )
+      (path-ref "fd312d92-d6bd-49da-9a68-c8de7feba78b")
       (width 1)
       (height 6)
       (tiles
@@ -1213,12 +1250,7 @@ Tux.activate();")
       (solid #t)
       (z-pos -30)
       (name "support")
-      (path
-        (node
-          (x 8352)
-          (y 576)
-        )
-      )
+      (path-ref "4b2ac9f9-c24e-4a4b-bdee-ba73372c8978")
       (width 31)
       (height 6)
       (tiles
@@ -1278,6 +1310,24 @@ Tux.activate();")
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "a6109352-1c6e-49ce-989d-46102b04e092")
+      (path
+        (node
+          (x 3168)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "c23b0131-dc30-4225-af00-4239b0b69cd8")
+      (path
+        (node
+          (x 3552)
+          (y 192)
+        )
+      )
     )
     (scripttrigger
       (script "if(orinterdit.get_alpha() == 1.0){
@@ -1514,12 +1564,7 @@ Tux.activate();")
       (alpha 0)
       (z-pos -102)
       (name "mur")
-      (path
-        (node
-          (x 3168)
-          (y 0)
-        )
-      )
+      (path-ref "a6109352-1c6e-49ce-989d-46102b04e092")
       (width 77)
       (height 35)
       (tiles
@@ -1565,12 +1610,7 @@ Tux.activate();")
       (alpha 0)
       (z-pos -70)
       (name "interdiction")
-      (path
-        (node
-          (x 3552)
-          (y 192)
-        )
-      )
+      (path-ref "c23b0131-dc30-4225-af00-4239b0b69cd8")
       (width 1)
       (height 14)
       (tiles

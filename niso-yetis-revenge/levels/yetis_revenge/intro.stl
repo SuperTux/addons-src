@@ -26,6 +26,17 @@
       (running #f)
       (name "penny")
       (sprite "images/creatures/penny/penny.sprite")
+      (path-ref "4aff2b50-bfcd-4472-b4e1-e5e90f86e919")
+    )
+    (gradient
+      (top_color 0.5285572 0.9293813 0.8984207)
+      (bottom_color 1 1 1)
+    )
+    (music
+      (file "music/intro.ogg")
+    )
+    (path
+      (name "4aff2b50-bfcd-4472-b4e1-e5e90f86e919")
       (path
         (node
           (x 3648)
@@ -37,13 +48,6 @@
           (y 1280)
         )
       )
-    )
-    (gradient
-      (top_color 0.5285572 0.9293813 0.8984207)
-      (bottom_color 1 1 1)
-    )
-    (music
-      (file "music/intro.ogg")
     )
     (scripttrigger
       (script "Tux.deactivate();

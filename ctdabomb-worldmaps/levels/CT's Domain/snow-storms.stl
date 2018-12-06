@@ -105,6 +105,15 @@
     (music
       (file "music/wisphunt.ogg")
     )
+    (path
+      (name "2085b2cb-637f-4c0f-a183-3e575fd758e6")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (particles-rain
     )
     (sspiky
@@ -136,12 +145,7 @@
       (solid #f)
       (z-pos -100)
       (name "Background")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "2085b2cb-637f-4c0f-a183-3e575fd758e6")
       (width 459)
       (height 35)
       (tiles

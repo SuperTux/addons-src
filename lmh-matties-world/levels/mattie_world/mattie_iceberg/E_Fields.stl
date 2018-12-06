@@ -19,33 +19,13 @@
       (running #f)
       (name "pipe1")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 4064)
-          (y 640)
-        )
-        (node
-          (x 4064)
-          (y 512)
-        )
-      )
+      (path-ref "e916b073-0902-4d66-8964-1de42d953fdd")
     )
     (platform
       (running #f)
       (name "pipe2")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 5312)
-          (y 640)
-        )
-        (node
-          (x 5312)
-          (y 576)
-        )
-      )
+      (path-ref "e4f359e4-d392-4fd4-8411-8d30adc2d0fb")
     )
     (flyingsnowball
       (x 4960)
@@ -65,6 +45,52 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "e916b073-0902-4d66-8964-1de42d953fdd")
+      (path
+        (mode "oneshot")
+        (node
+          (x 4064)
+          (y 640)
+        )
+        (node
+          (x 4064)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "e4f359e4-d392-4fd4-8411-8d30adc2d0fb")
+      (path
+        (mode "oneshot")
+        (node
+          (x 5312)
+          (y 640)
+        )
+        (node
+          (x 5312)
+          (y 576)
+        )
+      )
+    )
+    (path
+      (name "14f10fcc-ae7a-498e-9022-a7f94e821d3f")
+      (path
+        (node
+          (x 4064)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "d2ee62a7-af01-403a-976f-87cd8aca74fa")
+      (path
+        (node
+          (x 4032)
+          (y 512)
+        )
+      )
     )
     (scripttrigger
       (script "pipe1.goto_node(1);")
@@ -123,12 +149,7 @@
       (solid #t)
       (z-pos -200)
       (name "PipeBlockA")
-      (path
-        (node
-          (x 4064)
-          (y 512)
-        )
-      )
+      (path-ref "14f10fcc-ae7a-498e-9022-a7f94e821d3f")
       (width 2)
       (height 1)
       (tiles
@@ -205,12 +226,7 @@
       (solid #f)
       (z-pos 100)
       (name "CleanUp")
-      (path
-        (node
-          (x 4032)
-          (y 512)
-        )
-      )
+      (path-ref "d2ee62a7-af01-403a-976f-87cd8aca74fa")
       (width 43)
       (height 6)
       (tiles

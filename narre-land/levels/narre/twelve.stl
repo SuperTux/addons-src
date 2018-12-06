@@ -275,91 +275,37 @@
       (running #f)
       (name "kokot1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 384)
-          (y -128)
-        )
-        (node
-          (x 384)
-          (y 128)
-        )
-      )
+      (path-ref "a78ef841-26d7-495f-be1c-43d5d65eec24")
     )
     (platform
       (running #f)
       (name "kokot2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 384)
-          (y -256)
-        )
-        (node
-          (x 384)
-          (y 0)
-        )
-      )
+      (path-ref "a7ae7438-64e4-465d-afb2-fc0e44608ea5")
     )
     (platform
       (running #f)
       (name "kokot3")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 416)
-          (y -32)
-        )
-        (node
-          (x 416)
-          (y 192)
-        )
-      )
+      (path-ref "a390acbf-26bb-4061-8a5a-a09b07f2de26")
     )
     (platform
       (running #f)
       (name "kokot4")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 352)
-          (y -32)
-        )
-        (node
-          (x 320)
-          (y 192)
-        )
-      )
+      (path-ref "054527e1-4677-4e6d-ac7a-d0e2891d1068")
     )
     (platform
       (running #f)
       (name "kokot6")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 416)
-          (y -128)
-        )
-        (node
-          (x 448)
-          (y 160)
-        )
-      )
+      (path-ref "2fff78ab-4709-4509-8341-32e8161a4d7a")
     )
     (platform
       (running #f)
       (name "kokot5")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 320)
-          (y -96)
-        )
-        (node
-          (x 320)
-          (y 160)
-        )
-      )
+      (path-ref "df8f0786-8c43-4450-80cb-3e03d88f37f2")
     )
     (flyingsnowball
       (x 12636.56)
@@ -460,6 +406,84 @@
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "a78ef841-26d7-495f-be1c-43d5d65eec24")
+      (path
+        (node
+          (x 384)
+          (y -128)
+        )
+        (node
+          (x 384)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "a7ae7438-64e4-465d-afb2-fc0e44608ea5")
+      (path
+        (node
+          (x 384)
+          (y -256)
+        )
+        (node
+          (x 384)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "a390acbf-26bb-4061-8a5a-a09b07f2de26")
+      (path
+        (node
+          (x 416)
+          (y -32)
+        )
+        (node
+          (x 416)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "054527e1-4677-4e6d-ac7a-d0e2891d1068")
+      (path
+        (node
+          (x 352)
+          (y -32)
+        )
+        (node
+          (x 320)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "2fff78ab-4709-4509-8341-32e8161a4d7a")
+      (path
+        (node
+          (x 416)
+          (y -128)
+        )
+        (node
+          (x 448)
+          (y 160)
+        )
+      )
+    )
+    (path
+      (name "df8f0786-8c43-4450-80cb-3e03d88f37f2")
+      (path
+        (node
+          (x 320)
+          (y -96)
+        )
+        (node
+          (x 320)
+          (y 160)
+        )
+      )
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"hovno\")")

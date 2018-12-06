@@ -49,127 +49,49 @@
       (running #f)
       (name "wt_deliver1")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 160)
-          (y 160)
-          (time 4)
-        )
-        (node
-          (x 160)
-          (y 448)
-          (time 4)
-        )
-      )
+      (path-ref "62d8659c-fa12-42cb-8cd3-94406ef14bee")
     )
     (platform
       (running #f)
       (name "wt_deliver2")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1056)
-          (y 160)
-          (time 4)
-        )
-        (node
-          (x 1056)
-          (y 512)
-          (time 4)
-        )
-        (node
-          (x 1056)
-          (y 512)
-          (time 4)
-        )
-        (node
-          (x 992)
-          (y 512)
-          (time 4)
-        )
-      )
+      (path-ref "0d3606e4-49be-4d80-9716-1721c3135616")
     )
     (platform
       (running #f)
       (name "climb1")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 0)
-          (y 256)
-          (time 6)
-        )
-        (node
-          (x 0)
-          (y 576)
-          (time 6)
-        )
-      )
+      (path-ref "2bbbfe66-9878-41fb-95de-c2474db1cabe")
     )
     (platform
       (running #f)
       (name "climb2")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x -128)
-          (y 320)
-        )
-        (node
-          (x 0)
-          (y 320)
-        )
-      )
+      (path-ref "ebce4e96-4165-41f6-a7b8-994ae654d09b")
     )
     (platform
       (running #f)
       (name "platform_top")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 480)
-          (y 32)
-          (time 5)
-        )
-        (node
-          (x 480)
-          (y 416)
-          (time 5)
-        )
-      )
+      (path-ref "d71703a9-73bb-4aeb-9e77-be0a116c3f63")
     )
     (platform
       (running #f)
       (name "man1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1504)
-          (y -32)
-        )
-      )
+      (path-ref "d9f0471d-c6eb-452b-aac8-707b53b6d114")
     )
     (platform
       (running #f)
       (name "man2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1632)
-          (y -32)
-        )
-      )
+      (path-ref "bbb6e3c6-e4ef-415b-96a2-8b205a9d5a01")
     )
     (platform
       (running #f)
       (name "man3")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1856)
-          (y -32)
-        )
-      )
+      (path-ref "e014e4eb-308e-4ca0-8fa6-418d71598dca")
     )
     (flyingsnowball
       (dead-script "  push3.fade(0,0);  ")
@@ -227,6 +149,898 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "62d8659c-fa12-42cb-8cd3-94406ef14bee")
+      (path
+        (node
+          (x 160)
+          (y 160)
+          (time 4)
+        )
+        (node
+          (x 160)
+          (y 448)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "0d3606e4-49be-4d80-9716-1721c3135616")
+      (path
+        (node
+          (x 1056)
+          (y 160)
+          (time 4)
+        )
+        (node
+          (x 1056)
+          (y 512)
+          (time 4)
+        )
+        (node
+          (x 1056)
+          (y 512)
+          (time 4)
+        )
+        (node
+          (x 992)
+          (y 512)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "2bbbfe66-9878-41fb-95de-c2474db1cabe")
+      (path
+        (node
+          (x 0)
+          (y 256)
+          (time 6)
+        )
+        (node
+          (x 0)
+          (y 576)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "ebce4e96-4165-41f6-a7b8-994ae654d09b")
+      (path
+        (node
+          (x -128)
+          (y 320)
+        )
+        (node
+          (x 0)
+          (y 320)
+        )
+      )
+    )
+    (path
+      (name "d71703a9-73bb-4aeb-9e77-be0a116c3f63")
+      (path
+        (node
+          (x 480)
+          (y 32)
+          (time 5)
+        )
+        (node
+          (x 480)
+          (y 416)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "d9f0471d-c6eb-452b-aac8-707b53b6d114")
+      (path
+        (node
+          (x 1504)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "bbb6e3c6-e4ef-415b-96a2-8b205a9d5a01")
+      (path
+        (node
+          (x 1632)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "e014e4eb-308e-4ca0-8fa6-418d71598dca")
+      (path
+        (node
+          (x 1856)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "744d5962-3308-48d2-85e5-a94cc2687a21")
+      (path
+        (node
+          (x 0)
+          (y 640)
+          (time 6)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 3)
+        )
+        (node
+          (x 0)
+          (y -320)
+          (time 9)
+        )
+      )
+    )
+    (path
+      (name "744e8ed8-134b-4c5d-8340-8d243029e2cc")
+      (path
+        (node
+          (x 0)
+          (y 1472)
+          (time 0.4)
+        )
+        (node
+          (x 0)
+          (y 1404)
+          (time 0.1)
+        )
+        (node
+          (x 0)
+          (y 1408)
+          (time 0.5)
+        )
+        (node
+          (x 512)
+          (y 1472)
+          (time 0.4)
+        )
+        (node
+          (x 512)
+          (y 1404)
+          (time 0.1)
+        )
+        (node
+          (x 512)
+          (y 1408)
+          (time 0.5)
+        )
+        (node
+          (x 832)
+          (y 832)
+          (time 0.4)
+        )
+        (node
+          (x 832)
+          (y 768)
+          (time 0.1)
+        )
+        (node
+          (x 832)
+          (y 772)
+          (time 0.5)
+        )
+        (node
+          (x 512)
+          (y 832)
+          (time 0.4)
+        )
+        (node
+          (x 512)
+          (y 768)
+          (time 0.1)
+        )
+        (node
+          (x 512)
+          (y 772)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "c44daa89-aadc-4aef-b605-ce7f99e53eab")
+      (path
+        (node
+          (x 736)
+          (y 1472)
+          (time 0.4)
+        )
+        (node
+          (x 736)
+          (y 1404)
+          (time 0.1)
+        )
+        (node
+          (x 736)
+          (y 1408)
+          (time 0.5)
+        )
+        (node
+          (x 1056)
+          (y 1472)
+          (time 0.4)
+        )
+        (node
+          (x 1056)
+          (y 1404)
+          (time 0.1)
+        )
+        (node
+          (x 1056)
+          (y 1408)
+          (time 0.5)
+        )
+        (node
+          (x 320)
+          (y 832)
+          (time 0.4)
+        )
+        (node
+          (x 320)
+          (y 768)
+          (time 0.1)
+        )
+        (node
+          (x 320)
+          (y 772)
+          (time 0.5)
+        )
+        (node
+          (x 320)
+          (y 768)
+          (time 0.4)
+        )
+        (node
+          (x 320)
+          (y 704)
+          (time 0.1)
+        )
+        (node
+          (x 320)
+          (y 708)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "38f021dc-f9cf-4fa2-90e4-00999b969283")
+      (path
+        (node
+          (x 256)
+          (y 1472)
+          (time 0.4)
+        )
+        (node
+          (x 256)
+          (y 1404)
+          (time 0.1)
+        )
+        (node
+          (x 256)
+          (y 1408)
+          (time 0.5)
+        )
+        (node
+          (x 1120)
+          (y 1472)
+          (time 0.4)
+        )
+        (node
+          (x 1120)
+          (y 1404)
+          (time 0.1)
+        )
+        (node
+          (x 1120)
+          (y 1408)
+          (time 0.5)
+        )
+        (node
+          (x 576)
+          (y 832)
+          (time 0.4)
+        )
+        (node
+          (x 576)
+          (y 768)
+          (time 0.1)
+        )
+        (node
+          (x 576)
+          (y 772)
+          (time 0.5)
+        )
+        (node
+          (x 704)
+          (y 832)
+          (time 0.4)
+        )
+        (node
+          (x 704)
+          (y 768)
+          (time 0.1)
+        )
+        (node
+          (x 704)
+          (y 772)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "96e89f59-aaab-4c34-8d42-71a3e4c77d7a")
+      (path
+        (node
+          (x 0)
+          (y 928)
+        )
+      )
+    )
+    (path
+      (name "d811ef0f-f3a3-4284-a996-3860ed513c98")
+      (path
+        (node
+          (x 288)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "ae153ca9-83d1-40b4-a9fa-2612a055a370")
+      (path
+        (node
+          (x 416)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "6b4a21a4-9418-49ee-b359-2f282c1ce750")
+      (path
+        (node
+          (x 640)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "d1726aa1-cbbb-4703-846d-7df8ef701ddd")
+      (path
+        (node
+          (x 960)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "3e8fa1a0-1119-4647-9541-0ffbe11a9b9e")
+      (path
+        (node
+          (x 1088)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "20a131db-b326-43d9-9356-f00737c45c15")
+      (path
+        (node
+          (x 416)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "969f98bf-3b8e-43da-a03a-ff51b4e917c2")
+      (path
+        (node
+          (x 640)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "d0e7c363-9bff-440f-a4ce-22d1255bdee1")
+      (path
+        (node
+          (x 896)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "205d5301-6699-4170-8463-a21a546a8675")
+      (path
+        (node
+          (x 864)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "13f52abe-5f2b-4386-ac33-56d0032fa56e")
+      (path
+        (node
+          (x 608)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "ca5c287f-edd8-42ac-a468-65939f6b4208")
+      (path
+        (node
+          (x 384)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "7b86fdac-1554-4bd0-b51f-1078840e444d")
+      (path
+        (node
+          (x 384)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "9afaffad-7caf-447d-a3d2-14a8b9d51e0e")
+      (path
+        (node
+          (x 608)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "cc016eb4-f998-4dbf-acab-8596236c4235")
+      (path
+        (node
+          (x 928)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "ac592b3d-f563-430f-bc70-cb70a4fa6bf6")
+      (path
+        (node
+          (x 1088)
+          (y 1408)
+        )
+        (node
+          (x 1056)
+          (y 1408)
+        )
+        (node
+          (x 1088)
+          (y 1392)
+        )
+      )
+    )
+    (path
+      (name "9b083ca3-4d29-4325-ad3c-94c7c506ee28")
+      (path
+        (node
+          (x 1088)
+          (y 1312)
+        )
+        (node
+          (x 1056)
+          (y 1312)
+        )
+        (node
+          (x 1056)
+          (y 1392)
+        )
+      )
+    )
+    (path
+      (name "b820600d-8aa5-4d24-b1ea-8e07da54404b")
+      (path
+        (node
+          (x 1184)
+          (y 1120)
+        )
+        (node
+          (x 1024)
+          (y 1120)
+        )
+      )
+    )
+    (path
+      (name "1eadec43-1efb-40bc-9636-9056968a1595")
+      (path
+        (node
+          (x 1184)
+          (y 896)
+          (time 8)
+        )
+        (node
+          (x 32)
+          (y 896)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "1769a5e5-fa44-410d-8b0e-c5eef0ba0c4d")
+      (path
+        (node
+          (x 224)
+          (y 320)
+        )
+      )
+    )
+    (path
+      (name "55fe49d2-8831-483a-bbbc-1fc941e59f70")
+      (path
+        (node
+          (x 128)
+          (y 288)
+        )
+      )
+    )
+    (path
+      (name "9a9d44a0-e359-45f5-a928-9ecc77799db8")
+      (path
+        (node
+          (x 128)
+          (y 288)
+        )
+      )
+    )
+    (path
+      (name "05d47966-e919-4fa8-ac1d-2b5f644405bd")
+      (path
+        (node
+          (x 128)
+          (y 288)
+        )
+      )
+    )
+    (path
+      (name "434188cd-4b97-47be-967b-ad757c1b356a")
+      (path
+        (node
+          (x 128)
+          (y 288)
+        )
+      )
+    )
+    (path
+      (name "16608d42-f7fb-4503-bf9f-41e70c4bddf1")
+      (path
+        (node
+          (x 128)
+          (y 288)
+        )
+      )
+    )
+    (path
+      (name "13a6e793-24eb-43d7-b20b-d0c6f479fdde")
+      (path
+        (node
+          (x 128)
+          (y 288)
+        )
+      )
+    )
+    (path
+      (name "fc57a8e9-9d75-4a0c-ac41-aba06f7a4dc8")
+      (path
+        (node
+          (x 128)
+          (y 832)
+        )
+        (node
+          (x 96)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "86b7525a-4713-42c6-9fe1-932fe1f26889")
+      (path
+        (node
+          (x 160)
+          (y 832)
+        )
+        (node
+          (x 192)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "8b452ef7-fda7-4cb3-b8ab-60b6b37feed7")
+      (path
+        (node
+          (x 128)
+          (y 832)
+        )
+        (node
+          (x 128)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "2dd1ec82-7611-4f8a-8446-35174195b603")
+      (path
+        (node
+          (x 128)
+          (y 832)
+          (time 5)
+        )
+        (node
+          (x 32)
+          (y 832)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "b488cb19-36d6-4c1b-9003-a13a51f55566")
+      (path
+        (node
+          (x 128)
+          (y 832)
+          (time 5)
+        )
+        (node
+          (x 224)
+          (y 832)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "9c532add-fd60-477d-a380-4f264aea74e0")
+      (path
+        (node
+          (x 128)
+          (y 832)
+          (time 5)
+        )
+        (node
+          (x 128)
+          (y 736)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "bf8be55d-bc4e-4938-bcfb-0dd518448d30")
+      (path
+        (node
+          (x 384)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "14cc1ac6-4690-4ec8-b3c1-f7ef5328cc75")
+      (path
+        (node
+          (x 480)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "642f3226-850b-47b1-a28b-cffca403c0cd")
+      (path
+        (node
+          (x 320)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "34fcc231-bf47-4b5b-a63b-ea8b17347eae")
+      (path
+        (node
+          (x 576)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "f6f69a38-8097-4059-ae7b-99de44ea8914")
+      (path
+        (node
+          (x 832)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "a0877bda-cd6f-47ee-b905-66af0dc1971b")
+      (path
+        (node
+          (x 704)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "7c4d8400-b785-4e7c-9c37-2e20034b9697")
+      (path
+        (node
+          (x 512)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "47d3a959-d535-45fb-92d8-e9b0fa9d3115")
+      (path
+        (node
+          (x 320)
+          (y 160)
+        )
+      )
+    )
+    (path
+      (name "92160788-83d3-45f1-993f-c036c1ff1dcd")
+      (path
+        (node
+          (x 128)
+          (y 96)
+          (time 4)
+        )
+        (node
+          (x 128)
+          (y 384)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "fc5f1658-0bba-4605-b003-f13e5b3d5cac")
+      (path
+        (node
+          (x 288)
+          (y 128)
+          (time 4)
+        )
+        (node
+          (x 288)
+          (y 416)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "2ec75818-8541-4e4f-bf93-44680b058f75")
+      (path
+        (node
+          (x 1184)
+          (y 32)
+          (time 4)
+        )
+        (node
+          (x 1184)
+          (y 384)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "9188e38b-c4ff-4d08-a40b-64f1d007388e")
+      (path
+        (node
+          (x 1024)
+          (y 32)
+          (time 4)
+        )
+        (node
+          (x 1024)
+          (y 384)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "7bcface0-06da-46f5-add2-3d382ed4c62b")
+      (path
+        (node
+          (x 144)
+          (y 800)
+        )
+        (node
+          (x 144)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "7c7bc456-f031-4bc0-ac7d-22a4ad65a85f")
+      (path
+        (node
+          (x 384)
+          (y 0)
+          (time 7)
+        )
+        (node
+          (x 384)
+          (y 672)
+          (time 7)
+        )
+      )
+    )
+    (path
+      (name "d91491bf-9475-4f0b-a76a-d244ea9d4028")
+      (path
+        (node
+          (x 640)
+          (y 0)
+          (time 7)
+        )
+        (node
+          (x 640)
+          (y 608)
+          (time 7)
+        )
+      )
+    )
+    (path
+      (name "41580d11-6dd8-46ed-8e44-e13a77968416")
+      (path
+        (node
+          (x 736)
+          (y 0)
+          (time 7)
+        )
+      )
+    )
+    (path
+      (name "59d5e27f-ee13-42ef-bbb6-495fa383da97")
+      (path
+        (node
+          (x 1216)
+          (y 416)
+          (time 7)
+        )
+        (node
+          (x 864)
+          (y 416)
+          (time 7)
+        )
+      )
+    )
+    (path
+      (name "0d2a12e6-6a96-42a4-a5ac-087f5e6cf3c6")
+      (path
+        (node
+          (x 864)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "dce6a57b-f629-4f60-b941-cba6961951de")
+      (path
+        (node
+          (x 1536)
+          (y 0)
+        )
+        (node
+          (x 1856)
+          (y 0)
+          (time 6)
+        )
+      )
     )
     (scriptedobject
       (z-pos 0)
@@ -660,23 +1474,7 @@
       (solid #f)
       (z-pos 200)
       (name "mask")
-      (path
-        (node
-          (x 0)
-          (y 640)
-          (time 6)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 3)
-        )
-        (node
-          (x 0)
-          (y -320)
-          (time 9)
-        )
-      )
+      (path-ref "744d5962-3308-48d2-85e5-a94cc2687a21")
       (width 80)
       (height 10)
       (tiles
@@ -696,68 +1494,7 @@
       (solid #f)
       (z-pos -50)
       (name "sign1")
-      (path
-        (node
-          (x 0)
-          (y 1472)
-          (time 0.4)
-        )
-        (node
-          (x 0)
-          (y 1404)
-          (time 0.1)
-        )
-        (node
-          (x 0)
-          (y 1408)
-          (time 0.5)
-        )
-        (node
-          (x 512)
-          (y 1472)
-          (time 0.4)
-        )
-        (node
-          (x 512)
-          (y 1404)
-          (time 0.1)
-        )
-        (node
-          (x 512)
-          (y 1408)
-          (time 0.5)
-        )
-        (node
-          (x 832)
-          (y 832)
-          (time 0.4)
-        )
-        (node
-          (x 832)
-          (y 768)
-          (time 0.1)
-        )
-        (node
-          (x 832)
-          (y 772)
-          (time 0.5)
-        )
-        (node
-          (x 512)
-          (y 832)
-          (time 0.4)
-        )
-        (node
-          (x 512)
-          (y 768)
-          (time 0.1)
-        )
-        (node
-          (x 512)
-          (y 772)
-          (time 0.5)
-        )
-      )
+      (path-ref "744e8ed8-134b-4c5d-8340-8d243029e2cc")
       (width 2)
       (height 2)
       (tiles
@@ -769,68 +1506,7 @@
       (solid #f)
       (z-pos -50)
       (name "sign2")
-      (path
-        (node
-          (x 736)
-          (y 1472)
-          (time 0.4)
-        )
-        (node
-          (x 736)
-          (y 1404)
-          (time 0.1)
-        )
-        (node
-          (x 736)
-          (y 1408)
-          (time 0.5)
-        )
-        (node
-          (x 1056)
-          (y 1472)
-          (time 0.4)
-        )
-        (node
-          (x 1056)
-          (y 1404)
-          (time 0.1)
-        )
-        (node
-          (x 1056)
-          (y 1408)
-          (time 0.5)
-        )
-        (node
-          (x 320)
-          (y 832)
-          (time 0.4)
-        )
-        (node
-          (x 320)
-          (y 768)
-          (time 0.1)
-        )
-        (node
-          (x 320)
-          (y 772)
-          (time 0.5)
-        )
-        (node
-          (x 320)
-          (y 768)
-          (time 0.4)
-        )
-        (node
-          (x 320)
-          (y 704)
-          (time 0.1)
-        )
-        (node
-          (x 320)
-          (y 708)
-          (time 0.5)
-        )
-      )
+      (path-ref "c44daa89-aadc-4aef-b605-ce7f99e53eab")
       (width 2)
       (height 2)
       (tiles
@@ -842,68 +1518,7 @@
       (solid #f)
       (z-pos -50)
       (name "sign3")
-      (path
-        (node
-          (x 256)
-          (y 1472)
-          (time 0.4)
-        )
-        (node
-          (x 256)
-          (y 1404)
-          (time 0.1)
-        )
-        (node
-          (x 256)
-          (y 1408)
-          (time 0.5)
-        )
-        (node
-          (x 1120)
-          (y 1472)
-          (time 0.4)
-        )
-        (node
-          (x 1120)
-          (y 1404)
-          (time 0.1)
-        )
-        (node
-          (x 1120)
-          (y 1408)
-          (time 0.5)
-        )
-        (node
-          (x 576)
-          (y 832)
-          (time 0.4)
-        )
-        (node
-          (x 576)
-          (y 768)
-          (time 0.1)
-        )
-        (node
-          (x 576)
-          (y 772)
-          (time 0.5)
-        )
-        (node
-          (x 704)
-          (y 832)
-          (time 0.4)
-        )
-        (node
-          (x 704)
-          (y 768)
-          (time 0.1)
-        )
-        (node
-          (x 704)
-          (y 772)
-          (time 0.5)
-        )
-      )
+      (path-ref "38f021dc-f9cf-4fa2-90e4-00999b969283")
       (width 2)
       (height 2)
       (tiles
@@ -915,12 +1530,7 @@
       (solid #t)
       (z-pos 0)
       (name "stand1")
-      (path
-        (node
-          (x 0)
-          (y 928)
-        )
-      )
+      (path-ref "96e89f59-aaab-4c34-8d42-71a3e4c77d7a")
       (width 2)
       (height 1)
       (tiles
@@ -931,12 +1541,7 @@
       (solid #t)
       (z-pos 0)
       (name "stand2")
-      (path
-        (node
-          (x 288)
-          (y 864)
-        )
-      )
+      (path-ref "d811ef0f-f3a3-4284-a996-3860ed513c98")
       (width 23)
       (height 3)
       (tiles
@@ -949,12 +1554,7 @@
       (solid #t)
       (z-pos 0)
       (name "stand3a")
-      (path
-        (node
-          (x 416)
-          (y 832)
-        )
-      )
+      (path-ref "ae153ca9-83d1-40b4-a9fa-2612a055a370")
       (width 2)
       (height 1)
       (tiles
@@ -965,12 +1565,7 @@
       (solid #t)
       (z-pos 0)
       (name "stand3b")
-      (path
-        (node
-          (x 640)
-          (y 864)
-        )
-      )
+      (path-ref "6b4a21a4-9418-49ee-b359-2f282c1ce750")
       (width 2)
       (height 1)
       (tiles
@@ -981,12 +1576,7 @@
       (solid #t)
       (z-pos 0)
       (name "stand3c")
-      (path
-        (node
-          (x 960)
-          (y 864)
-        )
-      )
+      (path-ref "d1726aa1-cbbb-4703-846d-7df8ef701ddd")
       (width 2)
       (height 1)
       (tiles
@@ -997,12 +1587,7 @@
       (solid #t)
       (z-pos 0)
       (name "stand4")
-      (path
-        (node
-          (x 1088)
-          (y 960)
-        )
-      )
+      (path-ref "3e8fa1a0-1119-4647-9541-0ffbe11a9b9e")
       (width 2)
       (height 1)
       (tiles
@@ -1013,12 +1598,7 @@
       (solid #t)
       (z-pos 0)
       (name "drop1")
-      (path
-        (node
-          (x 416)
-          (y 896)
-        )
-      )
+      (path-ref "20a131db-b326-43d9-9356-f00737c45c15")
       (width 1)
       (height 1)
       (tiles
@@ -1029,12 +1609,7 @@
       (solid #t)
       (z-pos 0)
       (name "drop2")
-      (path
-        (node
-          (x 640)
-          (y 896)
-        )
-      )
+      (path-ref "969f98bf-3b8e-43da-a03a-ff51b4e917c2")
       (width 1)
       (height 1)
       (tiles
@@ -1045,12 +1620,7 @@
       (solid #t)
       (z-pos 0)
       (name "drop3")
-      (path
-        (node
-          (x 896)
-          (y 896)
-        )
-      )
+      (path-ref "d0e7c363-9bff-440f-a4ce-22d1255bdee1")
       (width 1)
       (height 1)
       (tiles
@@ -1061,12 +1631,7 @@
       (solid #t)
       (z-pos 0)
       (name "drop4")
-      (path
-        (node
-          (x 864)
-          (y 896)
-        )
-      )
+      (path-ref "205d5301-6699-4170-8463-a21a546a8675")
       (width 1)
       (height 1)
       (tiles
@@ -1077,12 +1642,7 @@
       (solid #t)
       (z-pos 0)
       (name "drop5")
-      (path
-        (node
-          (x 608)
-          (y 896)
-        )
-      )
+      (path-ref "13f52abe-5f2b-4386-ac33-56d0032fa56e")
       (width 1)
       (height 1)
       (tiles
@@ -1093,12 +1653,7 @@
       (solid #t)
       (z-pos 0)
       (name "drop6")
-      (path
-        (node
-          (x 384)
-          (y 896)
-        )
-      )
+      (path-ref "ca5c287f-edd8-42ac-a468-65939f6b4208")
       (width 1)
       (height 1)
       (tiles
@@ -1109,12 +1664,7 @@
       (solid #t)
       (z-pos 0)
       (name "drop7")
-      (path
-        (node
-          (x 384)
-          (y 768)
-        )
-      )
+      (path-ref "7b86fdac-1554-4bd0-b51f-1078840e444d")
       (width 4)
       (height 2)
       (tiles
@@ -1126,12 +1676,7 @@
       (solid #t)
       (z-pos 0)
       (name "drop8")
-      (path
-        (node
-          (x 608)
-          (y 800)
-        )
-      )
+      (path-ref "9afaffad-7caf-447d-a3d2-14a8b9d51e0e")
       (width 4)
       (height 2)
       (tiles
@@ -1143,12 +1688,7 @@
       (solid #t)
       (z-pos 0)
       (name "drop9")
-      (path
-        (node
-          (x 928)
-          (y 800)
-        )
-      )
+      (path-ref "cc016eb4-f998-4dbf-acab-8596236c4235")
       (width 4)
       (height 2)
       (tiles
@@ -1161,20 +1701,7 @@
       (alpha 0)
       (z-pos 0)
       (name "push1")
-      (path
-        (node
-          (x 1088)
-          (y 1408)
-        )
-        (node
-          (x 1056)
-          (y 1408)
-        )
-        (node
-          (x 1088)
-          (y 1392)
-        )
-      )
+      (path-ref "ac592b3d-f563-430f-bc70-cb70a4fa6bf6")
       (width 2)
       (height 1)
       (tiles
@@ -1186,20 +1713,7 @@
       (alpha 0)
       (z-pos 0)
       (name "push2")
-      (path
-        (node
-          (x 1088)
-          (y 1312)
-        )
-        (node
-          (x 1056)
-          (y 1312)
-        )
-        (node
-          (x 1056)
-          (y 1392)
-        )
-      )
+      (path-ref "9b083ca3-4d29-4325-ad3c-94c7c506ee28")
       (width 1)
       (height 1)
       (tiles
@@ -1210,16 +1724,7 @@
       (solid #t)
       (z-pos -10)
       (name "platform1")
-      (path
-        (node
-          (x 1184)
-          (y 1120)
-        )
-        (node
-          (x 1024)
-          (y 1120)
-        )
-      )
+      (path-ref "b820600d-8aa5-4d24-b1ea-8e07da54404b")
       (width 5)
       (height 1)
       (tiles
@@ -1230,18 +1735,7 @@
       (solid #t)
       (z-pos -10)
       (name "platform2")
-      (path
-        (node
-          (x 1184)
-          (y 896)
-          (time 8)
-        )
-        (node
-          (x 32)
-          (y 896)
-          (time 8)
-        )
-      )
+      (path-ref "1eadec43-1efb-40bc-9636-9056968a1595")
       (width 37)
       (height 1)
       (tiles
@@ -1252,12 +1746,7 @@
       (solid #t)
       (z-pos 0)
       (name "stand5")
-      (path
-        (node
-          (x 224)
-          (y 320)
-        )
-      )
+      (path-ref "1769a5e5-fa44-410d-8b0e-c5eef0ba0c4d")
       (width 19)
       (height 1)
       (tiles
@@ -1268,12 +1757,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop0")
-      (path
-        (node
-          (x 128)
-          (y 288)
-        )
-      )
+      (path-ref "55fe49d2-8831-483a-bbbc-1fc941e59f70")
       (width 31)
       (height 1)
       (tiles
@@ -1284,12 +1768,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop1")
-      (path
-        (node
-          (x 128)
-          (y 288)
-        )
-      )
+      (path-ref "9a9d44a0-e359-45f5-a928-9ecc77799db8")
       (width 31)
       (height 1)
       (tiles
@@ -1300,12 +1779,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop2")
-      (path
-        (node
-          (x 128)
-          (y 288)
-        )
-      )
+      (path-ref "05d47966-e919-4fa8-ac1d-2b5f644405bd")
       (width 31)
       (height 1)
       (tiles
@@ -1316,12 +1790,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop3")
-      (path
-        (node
-          (x 128)
-          (y 288)
-        )
-      )
+      (path-ref "434188cd-4b97-47be-967b-ad757c1b356a")
       (width 31)
       (height 1)
       (tiles
@@ -1332,12 +1801,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop4")
-      (path
-        (node
-          (x 128)
-          (y 288)
-        )
-      )
+      (path-ref "16608d42-f7fb-4503-bf9f-41e70c4bddf1")
       (width 31)
       (height 1)
       (tiles
@@ -1348,12 +1812,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop5")
-      (path
-        (node
-          (x 128)
-          (y 288)
-        )
-      )
+      (path-ref "13a6e793-24eb-43d7-b20b-d0c6f479fdde")
       (width 31)
       (height 1)
       (tiles
@@ -1365,16 +1824,7 @@
       (alpha 0)
       (z-pos -10)
       (name "pipeL")
-      (path
-        (node
-          (x 128)
-          (y 832)
-        )
-        (node
-          (x 96)
-          (y 832)
-        )
-      )
+      (path-ref "fc57a8e9-9d75-4a0c-ac41-aba06f7a4dc8")
       (width 30)
       (height 2)
       (tiles
@@ -1387,16 +1837,7 @@
       (alpha 0)
       (z-pos -10)
       (name "pipeR")
-      (path
-        (node
-          (x 160)
-          (y 832)
-        )
-        (node
-          (x 192)
-          (y 832)
-        )
-      )
+      (path-ref "86b7525a-4713-42c6-9fe1-932fe1f26889")
       (width 30)
       (height 2)
       (tiles
@@ -1409,16 +1850,7 @@
       (alpha 0)
       (z-pos -10)
       (name "pipeT")
-      (path
-        (node
-          (x 128)
-          (y 832)
-        )
-        (node
-          (x 128)
-          (y 800)
-        )
-      )
+      (path-ref "8b452ef7-fda7-4cb3-b8ab-60b6b37feed7")
       (width 31)
       (height 1)
       (tiles
@@ -1430,18 +1862,7 @@
       (alpha 0)
       (z-pos -20)
       (name "weedL")
-      (path
-        (node
-          (x 128)
-          (y 832)
-          (time 5)
-        )
-        (node
-          (x 32)
-          (y 832)
-          (time 5)
-        )
-      )
+      (path-ref "2dd1ec82-7611-4f8a-8446-35174195b603")
       (width 31)
       (height 2)
       (tiles
@@ -1454,18 +1875,7 @@
       (alpha 0)
       (z-pos -20)
       (name "weedR")
-      (path
-        (node
-          (x 128)
-          (y 832)
-          (time 5)
-        )
-        (node
-          (x 224)
-          (y 832)
-          (time 5)
-        )
-      )
+      (path-ref "b488cb19-36d6-4c1b-9003-a13a51f55566")
       (width 31)
       (height 2)
       (tiles
@@ -1478,18 +1888,7 @@
       (alpha 0)
       (z-pos -20)
       (name "weedT")
-      (path
-        (node
-          (x 128)
-          (y 832)
-          (time 5)
-        )
-        (node
-          (x 128)
-          (y 736)
-          (time 5)
-        )
-      )
+      (path-ref "9c532add-fd60-477d-a380-4f264aea74e0")
       (width 31)
       (height 2)
       (tiles
@@ -1501,12 +1900,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_stand0")
-      (path
-        (node
-          (x 384)
-          (y 128)
-        )
-      )
+      (path-ref "bf8be55d-bc4e-4938-bcfb-0dd518448d30")
       (width 14)
       (height 2)
       (tiles
@@ -1518,12 +1912,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop6")
-      (path
-        (node
-          (x 480)
-          (y 128)
-        )
-      )
+      (path-ref "14cc1ac6-4690-4ec8-b3c1-f7ef5328cc75")
       (width 8)
       (height 1)
       (tiles
@@ -1534,12 +1923,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop7")
-      (path
-        (node
-          (x 320)
-          (y 224)
-        )
-      )
+      (path-ref "642f3226-850b-47b1-a28b-cffca403c0cd")
       (width 2)
       (height 1)
       (tiles
@@ -1550,12 +1934,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop8")
-      (path
-        (node
-          (x 576)
-          (y 224)
-        )
-      )
+      (path-ref "34fcc231-bf47-4b5b-a63b-ea8b17347eae")
       (width 2)
       (height 1)
       (tiles
@@ -1566,12 +1945,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop9")
-      (path
-        (node
-          (x 832)
-          (y 224)
-        )
-      )
+      (path-ref "f6f69a38-8097-4059-ae7b-99de44ea8914")
       (width 2)
       (height 1)
       (tiles
@@ -1582,12 +1956,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop10")
-      (path
-        (node
-          (x 704)
-          (y 224)
-        )
-      )
+      (path-ref "a0877bda-cd6f-47ee-b905-66af0dc1971b")
       (width 2)
       (height 1)
       (tiles
@@ -1598,12 +1967,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop11")
-      (path
-        (node
-          (x 512)
-          (y 224)
-        )
-      )
+      (path-ref "7c4d8400-b785-4e7c-9c37-2e20034b9697")
       (width 2)
       (height 1)
       (tiles
@@ -1614,12 +1978,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_drop12")
-      (path
-        (node
-          (x 320)
-          (y 160)
-        )
-      )
+      (path-ref "47d3a959-d535-45fb-92d8-e9b0fa9d3115")
       (width 2)
       (height 1)
       (tiles
@@ -1630,18 +1989,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_hold1")
-      (path
-        (node
-          (x 128)
-          (y 96)
-          (time 4)
-        )
-        (node
-          (x 128)
-          (y 384)
-          (time 4)
-        )
-      )
+      (path-ref "92160788-83d3-45f1-993f-c036c1ff1dcd")
       (width 5)
       (height 2)
       (tiles
@@ -1653,18 +2001,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_block1")
-      (path
-        (node
-          (x 288)
-          (y 128)
-          (time 4)
-        )
-        (node
-          (x 288)
-          (y 416)
-          (time 4)
-        )
-      )
+      (path-ref "fc5f1658-0bba-4605-b003-f13e5b3d5cac")
       (width 1)
       (height 1)
       (tiles
@@ -1675,18 +2012,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_hold2")
-      (path
-        (node
-          (x 1184)
-          (y 32)
-          (time 4)
-        )
-        (node
-          (x 1184)
-          (y 384)
-          (time 4)
-        )
-      )
+      (path-ref "2ec75818-8541-4e4f-bf93-44680b058f75")
       (width 1)
       (height 4)
       (tiles
@@ -1700,18 +2026,7 @@
       (solid #t)
       (z-pos 0)
       (name "wt_block2")
-      (path
-        (node
-          (x 1024)
-          (y 32)
-          (time 4)
-        )
-        (node
-          (x 1024)
-          (y 384)
-          (time 4)
-        )
-      )
+      (path-ref "9188e38b-c4ff-4d08-a40b-64f1d007388e")
       (width 1)
       (height 4)
       (tiles
@@ -1726,16 +2041,7 @@
       (alpha 0)
       (z-pos -20)
       (name "climb")
-      (path
-        (node
-          (x 144)
-          (y 800)
-        )
-        (node
-          (x 144)
-          (y 704)
-        )
-      )
+      (path-ref "7bcface0-06da-46f5-add2-3d382ed4c62b")
       (width 1)
       (height 3)
       (tiles
@@ -1748,18 +2054,7 @@
       (solid #t)
       (z-pos 0)
       (name "push3")
-      (path
-        (node
-          (x 384)
-          (y 0)
-          (time 7)
-        )
-        (node
-          (x 384)
-          (y 672)
-          (time 7)
-        )
-      )
+      (path-ref "7c7bc456-f031-4bc0-ac7d-22a4ad65a85f")
       (width 1)
       (height 1)
       (tiles
@@ -1770,18 +2065,7 @@
       (solid #t)
       (z-pos 0)
       (name "push4")
-      (path
-        (node
-          (x 640)
-          (y 0)
-          (time 7)
-        )
-        (node
-          (x 640)
-          (y 608)
-          (time 7)
-        )
-      )
+      (path-ref "d91491bf-9475-4f0b-a76a-d244ea9d4028")
       (width 1)
       (height 1)
       (tiles
@@ -1792,13 +2076,7 @@
       (solid #t)
       (z-pos 0)
       (name "stand_top")
-      (path
-        (node
-          (x 736)
-          (y 0)
-          (time 7)
-        )
-      )
+      (path-ref "41580d11-6dd8-46ed-8e44-e13a77968416")
       (width 1)
       (height 1)
       (tiles
@@ -1809,18 +2087,7 @@
       (solid #t)
       (z-pos -10)
       (name "last_stand")
-      (path
-        (node
-          (x 1216)
-          (y 416)
-          (time 7)
-        )
-        (node
-          (x 864)
-          (y 416)
-          (time 7)
-        )
-      )
+      (path-ref "59d5e27f-ee13-42ef-bbb6-495fa383da97")
       (width 11)
       (height 1)
       (tiles
@@ -1831,12 +2098,7 @@
       (solid #t)
       (z-pos 0)
       (name "jumpdrop")
-      (path
-        (node
-          (x 864)
-          (y 0)
-        )
-      )
+      (path-ref "0d2a12e6-6a96-42a4-a5ac-087f5e6cf3c6")
       (width 5)
       (height 1)
       (tiles
@@ -1847,17 +2109,7 @@
       (solid #t)
       (z-pos 0)
       (name "mandrop")
-      (path
-        (node
-          (x 1536)
-          (y 0)
-        )
-        (node
-          (x 1856)
-          (y 0)
-          (time 6)
-        )
-      )
+      (path-ref "dce6a57b-f629-4f60-b941-cba6961951de")
       (width 10)
       (height 1)
       (tiles

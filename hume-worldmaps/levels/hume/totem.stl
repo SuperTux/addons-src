@@ -53,6 +53,20 @@ tWhile you can't jump over the hole, try building higher totems."))
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "76f6a714-4f07-4651-8c8f-454c1e3621ee")
+      (path
+        (node
+          (x 96)
+          (y 3648)
+          (time 0.5)
+        )
+        (node
+          (x 96)
+          (y 3776)
+        )
+      )
+    )
     (scripttrigger
       (script "import(\"levels/hume/defualt.nut\")
 sector.Tux.trigger_sequence(\"endsequence\")
@@ -83,17 +97,7 @@ unlock_archivement(\"i\")")
       (solid #t)
       (z-pos 0)
       (name "platforma")
-      (path
-        (node
-          (x 96)
-          (y 3648)
-          (time 0.5)
-        )
-        (node
-          (x 96)
-          (y 3776)
-        )
-      )
+      (path-ref "76f6a714-4f07-4651-8c8f-454c1e3621ee")
       (width 3)
       (height 1)
       (tiles

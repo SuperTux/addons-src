@@ -184,6 +184,52 @@
     (music
       (file "music/darkforestkeep.ogg")
     )
+    (path
+      (name "e24e88d0-ef5b-42dd-8c71-997ac24dbfe7")
+      (path
+        (node
+          (x 1408)
+          (y 384)
+        )
+        (node
+          (x 1408)
+          (y 480)
+        )
+        (node
+          (x 1408)
+          (y 576)
+        )
+        (node
+          (x 1408)
+          (y 672)
+        )
+        (node
+          (x 1408)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "39ee40bd-15dd-400c-b3f4-e5b9e72e14c0")
+      (path
+        (node
+          (x 3712)
+          (y 544)
+        )
+        (node
+          (x 3712)
+          (y 640)
+        )
+        (node
+          (x 3712)
+          (y 736)
+        )
+        (node
+          (x 3712)
+          (y 832)
+        )
+      )
+    )
     (particles-rain
     )
     (particles-rain
@@ -416,28 +462,7 @@
       (solid #t)
       (z-pos 0)
       (name "fall")
-      (path
-        (node
-          (x 1408)
-          (y 384)
-        )
-        (node
-          (x 1408)
-          (y 480)
-        )
-        (node
-          (x 1408)
-          (y 576)
-        )
-        (node
-          (x 1408)
-          (y 672)
-        )
-        (node
-          (x 1408)
-          (y 800)
-        )
-      )
+      (path-ref "e24e88d0-ef5b-42dd-8c71-997ac24dbfe7")
       (width 15)
       (height 5)
       (tiles
@@ -452,24 +477,7 @@
       (solid #t)
       (z-pos 0)
       (name "fall2")
-      (path
-        (node
-          (x 3712)
-          (y 544)
-        )
-        (node
-          (x 3712)
-          (y 640)
-        )
-        (node
-          (x 3712)
-          (y 736)
-        )
-        (node
-          (x 3712)
-          (y 832)
-        )
-      )
+      (path-ref "39ee40bd-15dd-400c-b3f4-e5b9e72e14c0")
       (width 20)
       (height 5)
       (tiles

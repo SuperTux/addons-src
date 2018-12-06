@@ -279,6 +279,32 @@
     (music
       (file "music/voc-boss.music")
     )
+    (path
+      (name "b87199e8-b924-4040-80fa-89a46c92dae0")
+      (path
+        (node
+          (x 0)
+          (y -128)
+        )
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "46d5885b-fd18-4b56-ba20-e22dc95c3e70")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y -128)
+        )
+      )
+    )
     (scripttrigger
       (script "wall.goto_node(1)")
       (button #f)
@@ -480,16 +506,7 @@
       (solid #t)
       (z-pos -1)
       (name "wall")
-      (path
-        (node
-          (x 0)
-          (y -128)
-        )
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "b87199e8-b924-4040-80fa-89a46c92dae0")
       (width 40)
       (height 25)
       (tiles
@@ -524,16 +541,7 @@
       (solid #t)
       (z-pos -1)
       (name "wall2")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 0)
-          (y -128)
-        )
-      )
+      (path-ref "46d5885b-fd18-4b56-ba20-e22dc95c3e70")
       (width 40)
       (height 25)
       (tiles

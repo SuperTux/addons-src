@@ -61,6 +61,156 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "2fc379ef-05fa-4c8d-a0ba-de3eb213731e")
+      (path
+        (node
+          (x 1056)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "3f47b8ce-a9d5-4db0-8975-11f807a95721")
+      (path
+        (node
+          (x 2592)
+          (y 160)
+          (time 0.8)
+        )
+        (node
+          (x 2592)
+          (y 256)
+          (time 0.1)
+        )
+        (node
+          (x 2592)
+          (y 640)
+          (time 0.1)
+        )
+        (node
+          (x 2240)
+          (y 640)
+          (time 0.1)
+        )
+        (node
+          (x 2240)
+          (y 160)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "d9362673-a2bd-434b-b647-da3f467d858a")
+      (path
+        (node
+          (x 2560)
+          (y 448)
+          (time 0.5)
+        )
+        (node
+          (x 2512)
+          (y 448)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "54720cc6-a5a6-4e14-8078-641c95d18e78")
+      (path
+        (node
+          (x 2624)
+          (y 448)
+          (time 0.5)
+        )
+        (node
+          (x 2672)
+          (y 448)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "dd35eeb4-d3d8-49af-9671-57160e4124ed")
+      (path
+        (node
+          (x 1568)
+          (y 384)
+          (time 0.1)
+        )
+        (node
+          (x 1568)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "9ea2ec06-c209-4822-97fa-0b70d2661943")
+      (path
+        (node
+          (x 5216)
+          (y 416)
+          (time 0.1)
+        )
+        (node
+          (x 5312)
+          (y 608)
+          (time 0.1)
+        )
+        (node
+          (x 5216)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "b448e890-a35d-4d7d-969e-a529b832563c")
+      (path
+        (node
+          (x 7424)
+          (y 384)
+          (time 0.1)
+        )
+        (node
+          (x 7552)
+          (y 608)
+          (time 0.1)
+        )
+        (node
+          (x 7424)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "ea594f4c-c62a-45c6-9860-dd66924b3ed7")
+      (path
+        (node
+          (x 7840)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "94e03f06-0dd0-46e2-94cb-8ecfec745a89")
+      (path
+        (node
+          (x 0)
+          (y -96)
+          (time 24)
+        )
+      )
+    )
+    (path
+      (name "984b0139-6bcd-4e01-9b97-2e1e1e349c6d")
+      (path
+        (node
+          (x 0)
+          (y 640)
+          (time 24)
+        )
+      )
+    )
     (scripttrigger
       (script "Level.spawn(\"under\", \"alpha\");")
       (button #f)
@@ -257,12 +407,7 @@
       (solid #t)
       (z-pos 200)
       (name "Water")
-      (path
-        (node
-          (x 1056)
-          (y 544)
-        )
-      )
+      (path-ref "2fc379ef-05fa-4c8d-a0ba-de3eb213731e")
       (width 202)
       (height 3)
       (tiles
@@ -275,33 +420,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipedrop")
-      (path
-        (node
-          (x 2592)
-          (y 160)
-          (time 0.8)
-        )
-        (node
-          (x 2592)
-          (y 256)
-          (time 0.1)
-        )
-        (node
-          (x 2592)
-          (y 640)
-          (time 0.1)
-        )
-        (node
-          (x 2240)
-          (y 640)
-          (time 0.1)
-        )
-        (node
-          (x 2240)
-          (y 160)
-          (time 0.1)
-        )
-      )
+      (path-ref "3f47b8ce-a9d5-4db0-8975-11f807a95721")
       (width 2)
       (height 1)
       (tiles
@@ -312,18 +431,7 @@
       (solid #t)
       (z-pos -100)
       (name "OpenLeft")
-      (path
-        (node
-          (x 2560)
-          (y 448)
-          (time 0.5)
-        )
-        (node
-          (x 2512)
-          (y 448)
-          (time 0.1)
-        )
-      )
+      (path-ref "d9362673-a2bd-434b-b647-da3f467d858a")
       (width 2)
       (height 1)
       (tiles
@@ -334,18 +442,7 @@
       (solid #t)
       (z-pos -100)
       (name "OpenRight")
-      (path
-        (node
-          (x 2624)
-          (y 448)
-          (time 0.5)
-        )
-        (node
-          (x 2672)
-          (y 448)
-          (time 0.1)
-        )
-      )
+      (path-ref "54720cc6-a5a6-4e14-8078-641c95d18e78")
       (width 2)
       (height 1)
       (tiles
@@ -356,17 +453,7 @@
       (solid #t)
       (z-pos -100)
       (name "OutUnder")
-      (path
-        (node
-          (x 1568)
-          (y 384)
-          (time 0.1)
-        )
-        (node
-          (x 1568)
-          (y 608)
-        )
-      )
+      (path-ref "dd35eeb4-d3d8-49af-9671-57160e4124ed")
       (width 2)
       (height 1)
       (tiles
@@ -377,22 +464,7 @@
       (solid #t)
       (z-pos -100)
       (name "OutPipe")
-      (path
-        (node
-          (x 5216)
-          (y 416)
-          (time 0.1)
-        )
-        (node
-          (x 5312)
-          (y 608)
-          (time 0.1)
-        )
-        (node
-          (x 5216)
-          (y 608)
-        )
-      )
+      (path-ref "9ea2ec06-c209-4822-97fa-0b70d2661943")
       (width 2)
       (height 1)
       (tiles
@@ -403,22 +475,7 @@
       (solid #t)
       (z-pos -100)
       (name "OutDrain")
-      (path
-        (node
-          (x 7424)
-          (y 384)
-          (time 0.1)
-        )
-        (node
-          (x 7552)
-          (y 608)
-          (time 0.1)
-        )
-        (node
-          (x 7424)
-          (y 608)
-        )
-      )
+      (path-ref "b448e890-a35d-4d7d-969e-a529b832563c")
       (width 2)
       (height 1)
       (tiles
@@ -487,12 +544,7 @@
       (solid #f)
       (z-pos -200)
       (name "BackgroundCastle")
-      (path
-        (node
-          (x 7840)
-          (y 0)
-        )
-      )
+      (path-ref "ea594f4c-c62a-45c6-9860-dd66924b3ed7")
       (width 5)
       (height 14)
       (tiles
@@ -516,13 +568,7 @@
       (solid #f)
       (z-pos 200)
       (name "TopMask")
-      (path
-        (node
-          (x 0)
-          (y -96)
-          (time 24)
-        )
-      )
+      (path-ref "94e03f06-0dd0-46e2-94cb-8ecfec745a89")
       (width 250)
       (height 3)
       (tiles
@@ -535,13 +581,7 @@
       (solid #f)
       (z-pos 200)
       (name "BottomMask")
-      (path
-        (node
-          (x 0)
-          (y 640)
-          (time 24)
-        )
-      )
+      (path-ref "984b0139-6bcd-4e01-9b97-2e1e1e349c6d")
       (width 250)
       (height 5)
       (tiles
@@ -814,6 +854,54 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "b359deb9-38e9-4984-8891-ce6144cdc0e3")
+      (path
+        (node
+          (x 3936)
+          (y 768)
+          (time 2)
+        )
+        (node
+          (x 3936)
+          (y 0)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "df4c3bf9-c94c-416b-82e4-e78078a7a30e")
+      (path
+        (node
+          (x 6144)
+          (y 776)
+          (time 2)
+        )
+        (node
+          (x 6144)
+          (y 0)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "252ae794-0549-4613-b76e-ac278cd29a36")
+      (path
+        (node
+          (x 1328)
+          (y 320)
+        )
+      )
+    )
+    (path
+      (name "6ed42ae2-250c-4b40-a604-d6af7c24d54c")
+      (path
+        (node
+          (x 3936)
+          (y 64)
+        )
+      )
+    )
     (scripttrigger
       (script "  Level.spawn(\"main\", \"underout\");  ")
       (button #f)
@@ -970,18 +1058,7 @@
       (solid #t)
       (z-pos -100)
       (name "PipeUp")
-      (path
-        (node
-          (x 3936)
-          (y 768)
-          (time 2)
-        )
-        (node
-          (x 3936)
-          (y 0)
-          (time 0.2)
-        )
-      )
+      (path-ref "b359deb9-38e9-4984-8891-ce6144cdc0e3")
       (width 2)
       (height 1)
       (tiles
@@ -992,18 +1069,7 @@
       (solid #t)
       (z-pos -100)
       (name "DrainUp")
-      (path
-        (node
-          (x 6144)
-          (y 776)
-          (time 2)
-        )
-        (node
-          (x 6144)
-          (y 0)
-          (time 0.2)
-        )
-      )
+      (path-ref "df4c3bf9-c94c-416b-82e4-e78078a7a30e")
       (width 2)
       (height 1)
       (tiles
@@ -1082,12 +1148,7 @@
       (solid #f)
       (z-pos 80)
       (name "Mask")
-      (path
-        (node
-          (x 1328)
-          (y 320)
-        )
-      )
+      (path-ref "252ae794-0549-4613-b76e-ac278cd29a36")
       (width 1)
       (height 10)
       (tiles
@@ -1107,12 +1168,7 @@
       (solid #f)
       (z-pos 10)
       (name "Mask2")
-      (path
-        (node
-          (x 3936)
-          (y 64)
-        )
-      )
+      (path-ref "6ed42ae2-250c-4b40-a604-d6af7c24d54c")
       (width 2)
       (height 19)
       (tiles

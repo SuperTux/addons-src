@@ -188,36 +188,71 @@
     (platform
       (name "rshdh")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 0)
-          (y 7968)
-          (time 90)
-        )
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "c3943a74-3bd0-46ff-a43f-83b8b594d803")
     )
     (platform
       (name "dyhdyh")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 128)
-          (y 7968)
-          (time 90)
-        )
-        (node
-          (x 128)
-          (y 0)
-        )
-      )
+      (path-ref "4667b0fe-a2bd-4f74-8477-738a99718ede")
     )
     (platform
       (name "dfhdyfhydfh")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "c0b3f556-3201-4c99-8993-066efc60373b")
+    )
+    (hurting_platform
+      (name "htdfh")
+      (sprite "images/objects/sawblade/sawblade.sprite")
+      (path-ref "a0d65ad4-9606-429e-be89-4cf960715fc5")
+    )
+    (hurting_platform
+      (name "hfutftz")
+      (sprite "images/objects/explosion/explosion.sprite")
+      (path-ref "f3d07d06-6dc7-4fb0-a974-820904aa9d45")
+    )
+    (hurting_platform
+      (name "fmnhfjnfhzjn")
+      (sprite "images/objects/skull_tile/skull_tile.sprite")
+      (path-ref "f687a156-cb0f-42fc-8d80-b9e8d3ad97b1")
+    )
+    (hurting_platform
+      (name "gfjgjfg")
+      (sprite "images/creatures/flame/flame.sprite")
+      (path-ref "129620dc-6a69-4f81-b2b5-2d83b66a8fef")
+    )
+    (leveltime
+      (time 91)
+    )
+    (path
+      (name "c3943a74-3bd0-46ff-a43f-83b8b594d803")
+      (path
+        (node
+          (x 0)
+          (y 7968)
+          (time 90)
+        )
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "4667b0fe-a2bd-4f74-8477-738a99718ede")
+      (path
+        (node
+          (x 128)
+          (y 7968)
+          (time 90)
+        )
+        (node
+          (x 128)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "c0b3f556-3201-4c99-8993-066efc60373b")
       (path
         (node
           (x 256)
@@ -230,9 +265,8 @@
         )
       )
     )
-    (hurting_platform
-      (name "htdfh")
-      (sprite "images/objects/sawblade/sawblade.sprite")
+    (path
+      (name "a0d65ad4-9606-429e-be89-4cf960715fc5")
       (path
         (node
           (x 32)
@@ -246,9 +280,8 @@
         )
       )
     )
-    (hurting_platform
-      (name "hfutftz")
-      (sprite "images/objects/explosion/explosion.sprite")
+    (path
+      (name "f3d07d06-6dc7-4fb0-a974-820904aa9d45")
       (path
         (node
           (x 32)
@@ -260,9 +293,8 @@
         )
       )
     )
-    (hurting_platform
-      (name "fmnhfjnfhzjn")
-      (sprite "images/objects/skull_tile/skull_tile.sprite")
+    (path
+      (name "f687a156-cb0f-42fc-8d80-b9e8d3ad97b1")
       (path
         (node
           (x 32)
@@ -278,9 +310,8 @@
         )
       )
     )
-    (hurting_platform
-      (name "gfjgjfg")
-      (sprite "images/creatures/flame/flame.sprite")
+    (path
+      (name "129620dc-6a69-4f81-b2b5-2d83b66a8fef")
       (path
         (node
           (x 32)
@@ -291,9 +322,6 @@
           (y 6848)
         )
       )
-    )
-    (leveltime
-      (time 91)
     )
     (scripttrigger
       (script "Level.spawn(\"mainovec\",\"main\")")
@@ -1104,6 +1132,15 @@
       (running #f)
       (name "hovno")
       (sprite "images/objects/platforms/small.sprite")
+      (path-ref "c77102b5-ffb6-46cc-bf17-74b951680363")
+    )
+    (infoblock
+      (message (_ "BThe only way leads to the teleport."))
+      (x 435.5858)
+      (y 118)
+    )
+    (path
+      (name "c77102b5-ffb6-46cc-bf17-74b951680363")
       (path
         (node
           (x 96)
@@ -1115,11 +1152,6 @@
           (time 6)
         )
       )
-    )
-    (infoblock
-      (message (_ "BThe only way leads to the teleport."))
-      (x 435.5858)
-      (y 118)
     )
     (scripttrigger
       (script "hovno.goto_node(1)")

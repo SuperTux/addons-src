@@ -710,6 +710,51 @@ Text.fade_out(0.5)")
     (hurting_platform
       (name "saw1")
       (sprite "images/objects/sawblade/sawblade.sprite")
+      (path-ref "470949c7-66cb-488b-91ef-ee4e15720a72")
+    )
+    (hurting_platform
+      (name "saw2")
+      (sprite "images/objects/sawblade/sawblade.sprite")
+      (path-ref "83c32591-d5de-4a2f-8088-d2bbdce3b4d9")
+    )
+    (infoblock
+      (message (_ "#Use the hole in crystal cover as a door"))
+      (x 2144)
+      (y 1120)
+    )
+    (jumpy
+      (x 928)
+      (y 960)
+    )
+    (jumpy
+      (x 800)
+      (y 1280)
+    )
+    (mole
+      (x 2048)
+      (y 1536)
+    )
+    (mrbomb
+      (x 2784)
+      (y 1408)
+    )
+    (mrbomb
+      (x 1728)
+      (y 96)
+    )
+    (mriceblock
+      (x 2592)
+      (y 1536)
+    )
+    (mriceblock
+      (x 1984)
+      (y 96)
+    )
+    (music
+      (file "music/fortress.music")
+    )
+    (path
+      (name "470949c7-66cb-488b-91ef-ee4e15720a72")
       (path
         (node
           (x 1760)
@@ -753,9 +798,8 @@ Text.fade_out(0.5)")
         )
       )
     )
-    (hurting_platform
-      (name "saw2")
-      (sprite "images/objects/sawblade/sawblade.sprite")
+    (path
+      (name "83c32591-d5de-4a2f-8088-d2bbdce3b4d9")
       (path
         (node
           (x 1760)
@@ -807,42 +851,6 @@ Text.fade_out(0.5)")
           (time 2)
         )
       )
-    )
-    (infoblock
-      (message (_ "#Use the hole in crystal cover as a door"))
-      (x 2144)
-      (y 1120)
-    )
-    (jumpy
-      (x 928)
-      (y 960)
-    )
-    (jumpy
-      (x 800)
-      (y 1280)
-    )
-    (mole
-      (x 2048)
-      (y 1536)
-    )
-    (mrbomb
-      (x 2784)
-      (y 1408)
-    )
-    (mrbomb
-      (x 1728)
-      (y 96)
-    )
-    (mriceblock
-      (x 2592)
-      (y 1536)
-    )
-    (mriceblock
-      (x 1984)
-      (y 96)
-    )
-    (music
-      (file "music/fortress.music")
     )
     (poisonivy
       (x 1120)

@@ -136,138 +136,31 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 960)
-          (y 2912)
-          (time 4)
-        )
-        (node
-          (x 960)
-          (y 2656)
-          (time 4)
-        )
-      )
+      (path-ref "a5e10d81-d1e1-4205-b01a-3cdd453de154")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 448)
-          (y 2656)
-          (time 4)
-        )
-        (node
-          (x 448)
-          (y 2304)
-          (time 4)
-        )
-      )
+      (path-ref "003ce5f0-a19e-4e94-98a1-bc6b780d6f1a")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 960)
-          (y 2304)
-          (time 4)
-        )
-        (node
-          (x 960)
-          (y 2016)
-          (time 4)
-        )
-      )
+      (path-ref "c19f1981-1e46-400c-80bd-89216ac42cbc")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 448)
-          (y 2016)
-          (time 4)
-        )
-        (node
-          (x 448)
-          (y 1792)
-          (time 5)
-        )
-        (node
-          (x 352)
-          (y 1472)
-          (time 5)
-        )
-        (node
-          (x 448)
-          (y 1792)
-          (time 4)
-        )
-      )
+      (path-ref "402152c7-10d3-4885-97b1-74a13a56d711")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1056)
-          (y 1472)
-          (time 4)
-        )
-        (node
-          (x 1056)
-          (y 1248)
-          (time 5)
-        )
-        (node
-          (x 960)
-          (y 1056)
-          (time 5)
-        )
-        (node
-          (x 1056)
-          (y 1248)
-          (time 4)
-        )
-      )
+      (path-ref "4c5e19e9-d9f7-4fb5-9e78-a280cc764d5d")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 448)
-          (y 1056)
-          (time 4)
-        )
-        (node
-          (x 448)
-          (y 832)
-          (time 5)
-        )
-        (node
-          (x 352)
-          (y 512)
-          (time 5)
-        )
-        (node
-          (x 448)
-          (y 832)
-          (time 4)
-        )
-      )
+      (path-ref "8938cf06-7519-4a42-82d8-48946afc24c6")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1056)
-          (y 512)
-          (time 4)
-        )
-        (node
-          (x 1024)
-          (y 288)
-          (time 4)
-        )
-      )
+      (path-ref "606c34ba-11f8-461f-853f-1045f97bfebc")
     )
     (infoblock
       (message (_ "-Warning!
@@ -289,6 +182,141 @@
     )
     (music
       (file "music/greatgigantic.ogg")
+    )
+    (path
+      (name "a5e10d81-d1e1-4205-b01a-3cdd453de154")
+      (path
+        (node
+          (x 960)
+          (y 2912)
+          (time 4)
+        )
+        (node
+          (x 960)
+          (y 2656)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "003ce5f0-a19e-4e94-98a1-bc6b780d6f1a")
+      (path
+        (node
+          (x 448)
+          (y 2656)
+          (time 4)
+        )
+        (node
+          (x 448)
+          (y 2304)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "c19f1981-1e46-400c-80bd-89216ac42cbc")
+      (path
+        (node
+          (x 960)
+          (y 2304)
+          (time 4)
+        )
+        (node
+          (x 960)
+          (y 2016)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "402152c7-10d3-4885-97b1-74a13a56d711")
+      (path
+        (node
+          (x 448)
+          (y 2016)
+          (time 4)
+        )
+        (node
+          (x 448)
+          (y 1792)
+          (time 5)
+        )
+        (node
+          (x 352)
+          (y 1472)
+          (time 5)
+        )
+        (node
+          (x 448)
+          (y 1792)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "4c5e19e9-d9f7-4fb5-9e78-a280cc764d5d")
+      (path
+        (node
+          (x 1056)
+          (y 1472)
+          (time 4)
+        )
+        (node
+          (x 1056)
+          (y 1248)
+          (time 5)
+        )
+        (node
+          (x 960)
+          (y 1056)
+          (time 5)
+        )
+        (node
+          (x 1056)
+          (y 1248)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "8938cf06-7519-4a42-82d8-48946afc24c6")
+      (path
+        (node
+          (x 448)
+          (y 1056)
+          (time 4)
+        )
+        (node
+          (x 448)
+          (y 832)
+          (time 5)
+        )
+        (node
+          (x 352)
+          (y 512)
+          (time 5)
+        )
+        (node
+          (x 448)
+          (y 832)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "606c34ba-11f8-461f-853f-1045f97bfebc")
+      (path
+        (node
+          (x 1056)
+          (y 512)
+          (time 4)
+        )
+        (node
+          (x 1024)
+          (y 288)
+          (time 4)
+        )
+      )
     )
     (secretarea
       (fade-tilemap "secret1")
@@ -1149,63 +1177,19 @@
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2528)
-          (y 320)
-          (time 4)
-        )
-        (node
-          (x 2528)
-          (y 192)
-          (time 0.5)
-        )
-      )
+      (path-ref "3a77f1a0-9f4b-4331-aa4d-c8416f76f774")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2496)
-          (y 320)
-          (time 4)
-        )
-        (node
-          (x 2496)
-          (y 192)
-          (time 0.5)
-        )
-      )
+      (path-ref "9c626948-895c-4cbf-b6d4-61c6a9b9003c")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2400)
-          (y 320)
-          (time 4)
-        )
-        (node
-          (x 2400)
-          (y 192)
-          (time 0.5)
-        )
-      )
+      (path-ref "9eed7177-267a-47e0-88f2-36e14a7e519f")
     )
     (platform
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2368)
-          (y 320)
-          (time 4)
-        )
-        (node
-          (x 2368)
-          (y 192)
-          (time 0.5)
-        )
-      )
+      (path-ref "a1d08c99-7d57-4df1-9034-187a41c2b669")
     )
     (jumpy
       (x 1511)
@@ -1237,6 +1221,66 @@
     )
     (music
       (file "music/fortress.ogg")
+    )
+    (path
+      (name "3a77f1a0-9f4b-4331-aa4d-c8416f76f774")
+      (path
+        (node
+          (x 2528)
+          (y 320)
+          (time 4)
+        )
+        (node
+          (x 2528)
+          (y 192)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "9c626948-895c-4cbf-b6d4-61c6a9b9003c")
+      (path
+        (node
+          (x 2496)
+          (y 320)
+          (time 4)
+        )
+        (node
+          (x 2496)
+          (y 192)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "9eed7177-267a-47e0-88f2-36e14a7e519f")
+      (path
+        (node
+          (x 2400)
+          (y 320)
+          (time 4)
+        )
+        (node
+          (x 2400)
+          (y 192)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "a1d08c99-7d57-4df1-9034-187a41c2b669")
+      (path
+        (node
+          (x 2368)
+          (y 320)
+          (time 4)
+        )
+        (node
+          (x 2368)
+          (y 192)
+          (time 0.5)
+        )
+      )
     )
     (spawnpoint
       (name "main")
@@ -1431,18 +1475,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 64)
-          (y 512)
-          (time 5)
-        )
-        (node
-          (x 64)
-          (y 256)
-          (time 5)
-        )
-      )
+      (path-ref "79d718e9-7eab-4288-bb76-63841f68deb9")
     )
     (haywire
       (x 2789)
@@ -1510,6 +1543,21 @@
     )
     (music
       (file "music/fortress.ogg")
+    )
+    (path
+      (name "79d718e9-7eab-4288-bb76-63841f68deb9")
+      (path
+        (node
+          (x 64)
+          (y 512)
+          (time 5)
+        )
+        (node
+          (x 64)
+          (y 256)
+          (time 5)
+        )
+      )
     )
     (spawnpoint
       (name "main")
@@ -1971,75 +2019,31 @@ sector.Tux.trigger_sequence(\"fireworks\");")
       (running #f)
       (name "OverSpikes")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 2176)
-          (y 896)
-          (time 3)
-        )
-        (node
-          (x 2176)
-          (y 736)
-        )
-        (node
-          (x 2176)
-          (y 896)
-        )
-      )
+      (path-ref "9aa9a990-cd52-430f-a9b6-bff9737bf3d2")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 608)
-          (y 576)
-        )
-      )
+      (path-ref "ab4bb2f5-85d9-4b3b-97b6-efa46b5782d0")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 576)
-          (y 256)
-        )
-      )
+      (path-ref "40231abe-ea4d-4c6b-94b0-0e2b935b79e1")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1504)
-          (y 352)
-        )
-      )
+      (path-ref "9afdbfea-96d6-447b-a7ab-042b23a505c6")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1696)
-          (y 288)
-        )
-      )
+      (path-ref "a65b4479-70c1-4757-8d97-268372ec9c3e")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1312)
-          (y 352)
-        )
-      )
+      (path-ref "31fb4a17-2911-43bf-910a-41eb070b08fb")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1120)
-          (y 288)
-        )
-      )
+      (path-ref "85253a98-92d6-4b7e-87c3-a42530400279")
     )
     (flyingsnowball
       (x 932)
@@ -2095,6 +2099,78 @@ sector.Tux.trigger_sequence(\"fireworks\");")
     )
     (music
       (file "music/fortress.ogg")
+    )
+    (path
+      (name "9aa9a990-cd52-430f-a9b6-bff9737bf3d2")
+      (path
+        (node
+          (x 2176)
+          (y 896)
+          (time 3)
+        )
+        (node
+          (x 2176)
+          (y 736)
+        )
+        (node
+          (x 2176)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "ab4bb2f5-85d9-4b3b-97b6-efa46b5782d0")
+      (path
+        (node
+          (x 608)
+          (y 576)
+        )
+      )
+    )
+    (path
+      (name "40231abe-ea4d-4c6b-94b0-0e2b935b79e1")
+      (path
+        (node
+          (x 576)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "9afdbfea-96d6-447b-a7ab-042b23a505c6")
+      (path
+        (node
+          (x 1504)
+          (y 352)
+        )
+      )
+    )
+    (path
+      (name "a65b4479-70c1-4757-8d97-268372ec9c3e")
+      (path
+        (node
+          (x 1696)
+          (y 288)
+        )
+      )
+    )
+    (path
+      (name "31fb4a17-2911-43bf-910a-41eb070b08fb")
+      (path
+        (node
+          (x 1312)
+          (y 352)
+        )
+      )
+    )
+    (path
+      (name "85253a98-92d6-4b7e-87c3-a42530400279")
+      (path
+        (node
+          (x 1120)
+          (y 288)
+        )
+      )
     )
     (spawnpoint
       (name "main")

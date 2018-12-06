@@ -68,6 +68,37 @@
       (x 867)
       (y 646)
     )
+    (path
+      (name "578022ab-380f-4c8a-b516-617fff7f48d4")
+      (path
+        (node
+          (x 6400)
+          (y -512)
+        )
+        (node
+          (x 6400)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "ee6485da-8f69-4207-82ce-7d9bbf4f8d9b")
+      (path
+        (node
+          (x 9120)
+          (y 576)
+        )
+      )
+    )
+    (path
+      (name "ab2d939d-aba5-4fbc-8bcf-5ef799d72272")
+      (path
+        (node
+          (x 9120)
+          (y 576)
+        )
+      )
+    )
     (powerup
       (script "EndBlocks.set_alpha(1.0);
 EndCoins.set_alpha(0.0);
@@ -307,16 +338,7 @@ Effect.fade_in(0.5);")
       (solid #f)
       (z-pos 1)
       (name "Ladder")
-      (path
-        (node
-          (x 6400)
-          (y -512)
-        )
-        (node
-          (x 6400)
-          (y 0)
-        )
-      )
+      (path-ref "578022ab-380f-4c8a-b516-617fff7f48d4")
       (width 1)
       (height 16)
       (tiles
@@ -343,12 +365,7 @@ Effect.fade_in(0.5);")
       (alpha 0)
       (z-pos 3)
       (name "EndBlocks")
-      (path
-        (node
-          (x 9120)
-          (y 576)
-        )
-      )
+      (path-ref "ee6485da-8f69-4207-82ce-7d9bbf4f8d9b")
       (width 13)
       (height 4)
       (tiles
@@ -362,12 +379,7 @@ Effect.fade_in(0.5);")
       (solid #t)
       (z-pos 2)
       (name "EndCoins")
-      (path
-        (node
-          (x 9120)
-          (y 576)
-        )
-      )
+      (path-ref "ab2d939d-aba5-4fbc-8bcf-5ef799d72272")
       (width 13)
       (height 4)
       (tiles
@@ -405,6 +417,15 @@ Effect.fade_in(0.5);")
     )
     (camera
       (mode "normal")
+    )
+    (path
+      (name "600775db-18cf-4482-a722-f5416ce59cfb")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
     )
     (rock
       (x 320)
@@ -470,12 +491,7 @@ Effect.fade_in(0.5);")
       (solid #t)
       (z-pos 0)
       (name "Interactive")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "600775db-18cf-4482-a722-f5416ce59cfb")
       (width 32)
       (height 19)
       (tiles

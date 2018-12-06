@@ -59,6 +59,24 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "cb1eb956-e776-4eac-aa61-8436a8210823")
+      (path
+        (node
+          (x 4064)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "bcf164f4-932d-4d22-bd57-5bc38aaceb3c")
+      (path
+        (node
+          (x 4032)
+          (y 512)
+        )
+      )
+    )
     (secretarea
       (fade-tilemap "secret")
       (width 96)
@@ -107,12 +125,7 @@
       (solid #t)
       (z-pos -200)
       (name "PipeBlockA")
-      (path
-        (node
-          (x 4064)
-          (y 512)
-        )
-      )
+      (path-ref "cb1eb956-e776-4eac-aa61-8436a8210823")
       (width 2)
       (height 1)
       (tiles
@@ -189,12 +202,7 @@
       (solid #f)
       (z-pos 100)
       (name "CleanUp")
-      (path
-        (node
-          (x 4032)
-          (y 512)
-        )
-      )
+      (path-ref "bcf164f4-932d-4d22-bd57-5bc38aaceb3c")
       (width 43)
       (height 6)
       (tiles

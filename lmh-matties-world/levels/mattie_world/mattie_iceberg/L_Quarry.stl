@@ -22,18 +22,7 @@
       (running #f)
       (name "left")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 2032)
-          (y 1936)
-          (time 3)
-        )
-        (node
-          (x 2112)
-          (y 1936)
-          (time 3)
-        )
-      )
+      (path-ref "eebf4d3c-1a2c-4308-8a7e-9dffe87570b6")
     )
     (gradient
       (top_color 0.8 0.8 0.8)
@@ -117,6 +106,21 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "eebf4d3c-1a2c-4308-8a7e-9dffe87570b6")
+      (path
+        (node
+          (x 2032)
+          (y 1936)
+          (time 3)
+        )
+        (node
+          (x 2112)
+          (y 1936)
+          (time 3)
+        )
+      )
     )
     (pushbutton
       (script "  left.goto_node(1);  ")

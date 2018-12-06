@@ -256,6 +256,16 @@
     (music
       (file "/music/voc-night.music")
     )
+    (path
+      (name "0e1d9027-06f7-468f-89dd-ef2b211ed661")
+      (path
+        (mode "oneshot")
+        (node
+          (x 10592)
+          (y 576)
+        )
+      )
+    )
     (secretarea
       (fade-tilemap "secret")
       (width 96)
@@ -847,13 +857,7 @@
       (solid #f)
       (z-pos 110)
       (name "secret")
-      (path
-        (mode "oneshot")
-        (node
-          (x 10592)
-          (y 576)
-        )
-      )
+      (path-ref "0e1d9027-06f7-468f-89dd-ef2b211ed661")
       (width 5)
       (height 5)
       (tiles

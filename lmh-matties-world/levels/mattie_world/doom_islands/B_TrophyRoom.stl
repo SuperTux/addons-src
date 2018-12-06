@@ -221,6 +221,104 @@
       (x 1088)
       (y 128)
     )
+    (path
+      (name "f4204355-0888-43a4-9f5a-e5dfd7e3aa5a")
+      (path
+        (node
+          (x 96)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "13a3e135-9966-4d69-88ea-48b0c7734315")
+      (path
+        (node
+          (x 96)
+          (y 768)
+          (time 0.8)
+        )
+        (node
+          (x 96)
+          (y 640)
+          (time 0.1)
+        )
+        (node
+          (x 96)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "994bede2-2d36-4a5f-a608-d6d1ae450181")
+      (path
+        (node
+          (x 96)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "ad2dda9b-4a00-4957-b642-a1c5766193eb")
+      (path
+        (node
+          (x 192)
+          (y 64)
+        )
+      )
+    )
+    (path
+      (name "4b0096ba-73cb-400f-99a3-c0b6860ccd87")
+      (path
+        (node
+          (x 1056)
+          (y 672)
+        )
+        (node
+          (x 1056)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "dff97a01-1f2e-4a85-b2c0-1927c82d35c6")
+      (path
+        (node
+          (x 1056)
+          (y 672)
+        )
+        (node
+          (x 1056)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "c78ccad3-f7a7-4463-a0f9-e0230b4fb921")
+      (path
+        (node
+          (x 32)
+          (y 448)
+        )
+        (node
+          (x 32)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "35b14ec4-1547-4a34-bbca-e310d728afd5")
+      (path
+        (node
+          (x 32)
+          (y 64)
+        )
+        (node
+          (x 32)
+          (y -128)
+        )
+      )
+    )
     (pushbutton
       (script "  delete_progress();
         dune1.set_visible(true);
@@ -575,12 +673,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipetop2")
-      (path
-        (node
-          (x 96)
-          (y 640)
-        )
-      )
+      (path-ref "f4204355-0888-43a4-9f5a-e5dfd7e3aa5a")
       (width 2)
       (height 1)
       (tiles
@@ -591,22 +684,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipelift")
-      (path
-        (node
-          (x 96)
-          (y 768)
-          (time 0.8)
-        )
-        (node
-          (x 96)
-          (y 640)
-          (time 0.1)
-        )
-        (node
-          (x 96)
-          (y 736)
-        )
-      )
+      (path-ref "13a3e135-9966-4d69-88ea-48b0c7734315")
       (width 2)
       (height 1)
       (tiles
@@ -617,12 +695,7 @@
       (solid #f)
       (z-pos 100)
       (name "foreground")
-      (path
-        (node
-          (x 96)
-          (y 640)
-        )
-      )
+      (path-ref "994bede2-2d36-4a5f-a608-d6d1ae450181")
       (width 2)
       (height 4)
       (tiles
@@ -636,12 +709,7 @@
       (solid #f)
       (z-pos -100)
       (name "background")
-      (path
-        (node
-          (x 192)
-          (y 64)
-        )
-      )
+      (path-ref "ad2dda9b-4a00-4957-b642-a1c5766193eb")
       (width 26)
       (height 20)
       (tiles
@@ -671,16 +739,7 @@
       (solid #t)
       (z-pos -100)
       (name "lift1")
-      (path
-        (node
-          (x 1056)
-          (y 672)
-        )
-        (node
-          (x 1056)
-          (y 480)
-        )
-      )
+      (path-ref "4b0096ba-73cb-400f-99a3-c0b6860ccd87")
       (width 4)
       (height 1)
       (tiles
@@ -691,16 +750,7 @@
       (solid #f)
       (z-pos -100)
       (name "liftimage1")
-      (path
-        (node
-          (x 1056)
-          (y 672)
-        )
-        (node
-          (x 1056)
-          (y 480)
-        )
-      )
+      (path-ref "dff97a01-1f2e-4a85-b2c0-1927c82d35c6")
       (width 4)
       (height 7)
       (tiles
@@ -717,16 +767,7 @@
       (solid #t)
       (z-pos -100)
       (name "lift2")
-      (path
-        (node
-          (x 32)
-          (y 448)
-        )
-        (node
-          (x 32)
-          (y 256)
-        )
-      )
+      (path-ref "c78ccad3-f7a7-4463-a0f9-e0230b4fb921")
       (width 4)
       (height 1)
       (tiles
@@ -737,16 +778,7 @@
       (solid #f)
       (z-pos -100)
       (name "liftimage2")
-      (path
-        (node
-          (x 32)
-          (y 64)
-        )
-        (node
-          (x 32)
-          (y -128)
-        )
-      )
+      (path-ref "35b14ec4-1547-4a34-bbca-e310d728afd5")
       (width 4)
       (height 13)
       (tiles

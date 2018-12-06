@@ -35,61 +35,25 @@
       (running #f)
       (name "block0")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 32)
-          (y 320)
-        )
-        (node
-          (x 32)
-          (y 384)
-        )
-      )
+      (path-ref "68bc8d97-a148-434a-b016-378c03b6a5cc")
     )
     (platform
       (running #f)
       (name "block3")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 224)
-          (y 320)
-        )
-        (node
-          (x 224)
-          (y 384)
-        )
-      )
+      (path-ref "9f41043e-3868-4d9a-b165-3cb5afb7d746")
     )
     (platform
       (running #f)
       (name "block2")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 160)
-          (y 320)
-        )
-        (node
-          (x 160)
-          (y 384)
-        )
-      )
+      (path-ref "0c1cb0dd-e311-4cef-a11d-0a2fd3fe205a")
     )
     (platform
       (running #f)
       (name "block1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 96)
-          (y 320)
-        )
-        (node
-          (x 96)
-          (y 384)
-        )
-      )
+      (path-ref "0f1ff763-bf04-4d00-843b-a22988b5f9a6")
     )
     (flyingsnowball
       (x 1188)
@@ -139,6 +103,58 @@ block0.goto_node(1);")
     (mriceblock
       (x 2433)
       (y 1062)
+    )
+    (path
+      (name "68bc8d97-a148-434a-b016-378c03b6a5cc")
+      (path
+        (node
+          (x 32)
+          (y 320)
+        )
+        (node
+          (x 32)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "9f41043e-3868-4d9a-b165-3cb5afb7d746")
+      (path
+        (node
+          (x 224)
+          (y 320)
+        )
+        (node
+          (x 224)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "0c1cb0dd-e311-4cef-a11d-0a2fd3fe205a")
+      (path
+        (node
+          (x 160)
+          (y 320)
+        )
+        (node
+          (x 160)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "0f1ff763-bf04-4d00-843b-a22988b5f9a6")
+      (path
+        (node
+          (x 96)
+          (y 320)
+        )
+        (node
+          (x 96)
+          (y 384)
+        )
+      )
     )
     (scripttrigger
       (script "Text.set_text (\"Congratulations for solving this!\");

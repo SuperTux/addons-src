@@ -56,81 +56,7 @@
     (platform
       (running #f)
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 6368)
-          (y 288)
-        )
-        (node
-          (x 6592)
-          (y 416)
-        )
-        (node
-          (x 6688)
-          (y 256)
-        )
-        (node
-          (x 6784)
-          (y 416)
-        )
-        (node
-          (x 6880)
-          (y 256)
-        )
-        (node
-          (x 6976)
-          (y 416)
-        )
-        (node
-          (x 7072)
-          (y 256)
-        )
-        (node
-          (x 7168)
-          (y 416)
-        )
-        (node
-          (x 7264)
-          (y 256)
-        )
-        (node
-          (x 7264)
-          (y 416)
-        )
-        (node
-          (x 7328)
-          (y 480)
-        )
-        (node
-          (x 7424)
-          (y 544)
-        )
-        (node
-          (x 7488)
-          (y 576)
-        )
-        (node
-          (x 7520)
-          (y 608)
-        )
-        (node
-          (x 7584)
-          (y 672)
-        )
-        (node
-          (x 7648)
-          (y 736)
-        )
-        (node
-          (x 7680)
-          (y 736)
-        )
-        (node
-          (x 7680)
-          (y 736)
-        )
-      )
+      (path-ref "f56bddf2-2290-4489-aa6f-5acb9df0fcb5")
     )
     (flyingsnowball
       (x 7492)
@@ -208,6 +134,93 @@
     (music
       (file "music/voc-daytime.music")
     )
+    (path
+      (name "f56bddf2-2290-4489-aa6f-5acb9df0fcb5")
+      (path
+        (mode "oneshot")
+        (node
+          (x 6368)
+          (y 288)
+        )
+        (node
+          (x 6592)
+          (y 416)
+        )
+        (node
+          (x 6688)
+          (y 256)
+        )
+        (node
+          (x 6784)
+          (y 416)
+        )
+        (node
+          (x 6880)
+          (y 256)
+        )
+        (node
+          (x 6976)
+          (y 416)
+        )
+        (node
+          (x 7072)
+          (y 256)
+        )
+        (node
+          (x 7168)
+          (y 416)
+        )
+        (node
+          (x 7264)
+          (y 256)
+        )
+        (node
+          (x 7264)
+          (y 416)
+        )
+        (node
+          (x 7328)
+          (y 480)
+        )
+        (node
+          (x 7424)
+          (y 544)
+        )
+        (node
+          (x 7488)
+          (y 576)
+        )
+        (node
+          (x 7520)
+          (y 608)
+        )
+        (node
+          (x 7584)
+          (y 672)
+        )
+        (node
+          (x 7648)
+          (y 736)
+        )
+        (node
+          (x 7680)
+          (y 736)
+        )
+        (node
+          (x 7680)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "9ac8f11f-e57c-4403-b6d8-9077164df8ce")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (secretarea
       (fade-tilemap "secret")
       (width 60)
@@ -274,12 +287,7 @@
       (solid #f)
       (z-pos -100)
       (name "Background")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "9ac8f11f-e57c-4403-b6d8-9077164df8ce")
       (width 250)
       (height 35)
       (tiles

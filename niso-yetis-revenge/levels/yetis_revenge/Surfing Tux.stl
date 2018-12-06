@@ -36,17 +36,7 @@
       (running #f)
       (name "surfboard")
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 448)
-          (y 677)
-          (time 100)
-        )
-        (node
-          (x 16448)
-          (y 677)
-        )
-      )
+      (path-ref "0d303116-2017-4ab9-985a-0b6e0487aa59")
     )
     (flyingsnowball
       (x 4612)
@@ -110,6 +100,83 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "0d303116-2017-4ab9-985a-0b6e0487aa59")
+      (path
+        (node
+          (x 448)
+          (y 677)
+          (time 100)
+        )
+        (node
+          (x 16448)
+          (y 677)
+        )
+      )
+    )
+    (path
+      (name "cc3aa9a9-ab9b-4288-9a92-fb48269a6bc0")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "5f17c97b-7ab6-4544-a433-f058b782dc2c")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 704)
+          (time 100)
+        )
+        (node
+          (x 16000)
+          (y 704)
+        )
+        (node
+          (x 16192)
+          (y 704)
+        )
+        (node
+          (x 16416)
+          (y 768)
+        )
+        (node
+          (x 16576)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "1f862e0f-6392-4942-80ef-47951e50831e")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 704)
+          (time 100)
+        )
+        (node
+          (x 16000)
+          (y 704)
+        )
+        (node
+          (x 16192)
+          (y 704)
+        )
+        (node
+          (x 16416)
+          (y 768)
+        )
+        (node
+          (x 16576)
+          (y 960)
+        )
+      )
     )
     (powerup
       (script "this.c1 <- true
@@ -232,12 +299,7 @@ surfboard.start_moving()
       (solid #f)
       (z-pos 500)
       (name "Water")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "cc3aa9a9-ab9b-4288-9a92-fb48269a6bc0")
       (width 500)
       (height 45)
       (tiles
@@ -292,30 +354,7 @@ surfboard.start_moving()
       (solid #f)
       (z-pos 200)
       (name "Wave")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 704)
-          (time 100)
-        )
-        (node
-          (x 16000)
-          (y 704)
-        )
-        (node
-          (x 16192)
-          (y 704)
-        )
-        (node
-          (x 16416)
-          (y 768)
-        )
-        (node
-          (x 16576)
-          (y 960)
-        )
-      )
+      (path-ref "5f17c97b-7ab6-4544-a433-f058b782dc2c")
       (width 100)
       (height 12)
       (tiles
@@ -337,30 +376,7 @@ surfboard.start_moving()
       (solid #t)
       (z-pos 1)
       (name "Spikes")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 704)
-          (time 100)
-        )
-        (node
-          (x 16000)
-          (y 704)
-        )
-        (node
-          (x 16192)
-          (y 704)
-        )
-        (node
-          (x 16416)
-          (y 768)
-        )
-        (node
-          (x 16576)
-          (y 960)
-        )
-      )
+      (path-ref "1f862e0f-6392-4942-80ef-47951e50831e")
       (width 100)
       (height 12)
       (tiles

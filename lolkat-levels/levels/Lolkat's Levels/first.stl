@@ -100,6 +100,15 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "0b9a749f-c8b1-4b3f-8267-6f7402bf1b0b")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (sspiky
       (x 1926)
       (y 170)
@@ -233,12 +242,7 @@
       (solid #t)
       (z-pos 0)
       (name "Interactive")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "0b9a749f-c8b1-4b3f-8267-6f7402bf1b0b")
       (width 300)
       (height 35)
       (tiles

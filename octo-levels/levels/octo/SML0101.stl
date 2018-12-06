@@ -44,6 +44,38 @@ Platform2.start_moving();")
       (x 4101)
       (y 584)
     )
+    (path
+      (name "89622fed-93ef-4755-bd8e-4cd4b5b429ad")
+      (path
+        (mode "pingpong")
+        (node
+          (x 9120)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 9120)
+          (y 352)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "055ef2ad-6fdd-4007-b8f4-1c4743830ff6")
+      (path
+        (mode "pingpong")
+        (node
+          (x 9152)
+          (y 256)
+          (time 1.7)
+        )
+        (node
+          (x 9376)
+          (y 256)
+          (time 1.7)
+        )
+      )
+    )
     (scripttrigger
       (script "if (!(\"Secret1Flag\" in getroottable ()) || !::Secret1Flag)
 {
@@ -251,19 +283,7 @@ Platform2.start_moving();")
       (solid #t)
       (z-pos 1)
       (name "Platform1")
-      (path
-        (mode "pingpong")
-        (node
-          (x 9120)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 9120)
-          (y 352)
-          (time 2)
-        )
-      )
+      (path-ref "89622fed-93ef-4755-bd8e-4cd4b5b429ad")
       (width 3)
       (height 1)
       (tiles
@@ -274,19 +294,7 @@ Platform2.start_moving();")
       (solid #t)
       (z-pos 2)
       (name "Platform2")
-      (path
-        (mode "pingpong")
-        (node
-          (x 9152)
-          (y 256)
-          (time 1.7)
-        )
-        (node
-          (x 9376)
-          (y 256)
-          (time 1.7)
-        )
-      )
+      (path-ref "055ef2ad-6fdd-4007-b8f4-1c4743830ff6")
       (width 3)
       (height 1)
       (tiles

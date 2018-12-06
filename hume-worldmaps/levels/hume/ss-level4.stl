@@ -14,6 +14,43 @@
     (music
       (file "music/treeboss.ogg")
     )
+    (path
+      (name "0beb81e9-9cbe-4b69-ac11-62b102549ef6")
+      (path
+        (node
+          (x 0)
+          (y 352)
+          (time 90)
+        )
+        (node
+          (x 0)
+          (y 6400)
+        )
+      )
+    )
+    (path
+      (name "e3c654f4-b603-4418-bb1f-adf3ce0a6c4a")
+      (path
+        (node
+          (x 0)
+          (y 6368)
+        )
+      )
+    )
+    (path
+      (name "1a9a9640-d28e-4475-a0e1-5be0c7797ca7")
+      (path
+        (node
+          (x 0)
+          (y -6400)
+          (time 90)
+        )
+        (node
+          (x 0)
+          (y -320)
+        )
+      )
+    )
     (pushbutton
       (script "Risinglava.goto_node(1)
 spikes.goto_node(1)")
@@ -461,17 +498,7 @@ spikes.goto_node(1)")
       (solid #t)
       (z-pos 101)
       (name "Risinglava")
-      (path
-        (node
-          (x 0)
-          (y 352)
-          (time 90)
-        )
-        (node
-          (x 0)
-          (y 6400)
-        )
-      )
+      (path-ref "0beb81e9-9cbe-4b69-ac11-62b102549ef6")
       (width 50)
       (height 200)
       (tiles
@@ -681,12 +708,7 @@ spikes.goto_node(1)")
       (solid #t)
       (z-pos 102)
       (name "bottside")
-      (path
-        (node
-          (x 0)
-          (y 6368)
-        )
-      )
+      (path-ref "e3c654f4-b603-4418-bb1f-adf3ce0a6c4a")
       (width 50)
       (height 200)
       (tiles
@@ -896,17 +918,7 @@ spikes.goto_node(1)")
       (solid #t)
       (z-pos -101)
       (name "spikes")
-      (path
-        (node
-          (x 0)
-          (y -6400)
-          (time 90)
-        )
-        (node
-          (x 0)
-          (y -320)
-        )
-      )
+      (path-ref "1a9a9640-d28e-4475-a0e1-5be0c7797ca7")
       (width 50)
       (height 200)
       (tiles

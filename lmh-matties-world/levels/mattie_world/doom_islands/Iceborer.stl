@@ -20,6 +20,364 @@
     (music
       (file "music/airship_remix.ogg")
     )
+    (path
+      (name "0d4b3c19-787b-4498-8bf5-dbaf9e52035a")
+      (path
+        (node
+          (x 144)
+          (y 672)
+          (time 0.1)
+        )
+        (node
+          (x 240)
+          (y 672)
+          (time 0.1)
+        )
+        (node
+          (x 336)
+          (y 672)
+          (time 0.1)
+        )
+        (node
+          (x 432)
+          (y 672)
+          (time 0.1)
+        )
+        (node
+          (x 528)
+          (y 672)
+          (time 0.1)
+        )
+        (node
+          (x 624)
+          (y 672)
+          (time 0.1)
+        )
+        (node
+          (x 720)
+          (y 672)
+          (time 0.1)
+        )
+        (node
+          (x 816)
+          (y 672)
+          (time 0.1)
+        )
+        (node
+          (x 912)
+          (y 672)
+          (time 0.1)
+        )
+        (node
+          (x 1008)
+          (y 672)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "859fd70a-9602-4b15-94c4-9775f05731aa")
+      (path
+        (node
+          (x 144)
+          (y 672)
+        )
+        (node
+          (x 144)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 144)
+          (y 672)
+          (time 3)
+        )
+        (node
+          (x 720)
+          (y 672)
+        )
+        (node
+          (x 720)
+          (y 304)
+          (time 2)
+        )
+        (node
+          (x 720)
+          (y 672)
+          (time 3)
+        )
+        (node
+          (x 432)
+          (y 672)
+        )
+        (node
+          (x 432)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 432)
+          (y 672)
+          (time 3)
+        )
+        (node
+          (x 1008)
+          (y 672)
+        )
+        (node
+          (x 1008)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 1008)
+          (y 672)
+          (time 3)
+        )
+        (node
+          (x 528)
+          (y 672)
+        )
+        (node
+          (x 528)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 528)
+          (y 672)
+          (time 3)
+        )
+        (node
+          (x 240)
+          (y 672)
+        )
+        (node
+          (x 240)
+          (y 256)
+          (time 2)
+        )
+        (node
+          (x 240)
+          (y 672)
+          (time 3)
+        )
+        (node
+          (x 816)
+          (y 672)
+        )
+        (node
+          (x 816)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 816)
+          (y 672)
+          (time 3)
+        )
+        (node
+          (x 336)
+          (y 672)
+        )
+        (node
+          (x 336)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 336)
+          (y 672)
+          (time 3)
+        )
+        (node
+          (x 912)
+          (y 672)
+        )
+        (node
+          (x 912)
+          (y 256)
+          (time 2)
+        )
+        (node
+          (x 912)
+          (y 672)
+          (time 3)
+        )
+        (node
+          (x 624)
+          (y 672)
+        )
+        (node
+          (x 624)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 624)
+          (y 672)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "88c5a980-a1a6-4649-83c7-765e22fc4a3d")
+      (path
+        (node
+          (x 160)
+          (y 640)
+        )
+        (node
+          (x 160)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 160)
+          (y 640)
+          (time 3)
+        )
+        (node
+          (x 736)
+          (y 640)
+        )
+        (node
+          (x 736)
+          (y 304)
+          (time 2)
+        )
+        (node
+          (x 736)
+          (y 640)
+          (time 3)
+        )
+        (node
+          (x 448)
+          (y 640)
+        )
+        (node
+          (x 448)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 448)
+          (y 640)
+          (time 3)
+        )
+        (node
+          (x 1024)
+          (y 640)
+        )
+        (node
+          (x 1024)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 1024)
+          (y 640)
+          (time 3)
+        )
+        (node
+          (x 544)
+          (y 640)
+        )
+        (node
+          (x 544)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 544)
+          (y 640)
+          (time 3)
+        )
+        (node
+          (x 256)
+          (y 640)
+        )
+        (node
+          (x 256)
+          (y 256)
+          (time 2)
+        )
+        (node
+          (x 256)
+          (y 640)
+          (time 3)
+        )
+        (node
+          (x 832)
+          (y 640)
+        )
+        (node
+          (x 832)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 832)
+          (y 640)
+          (time 3)
+        )
+        (node
+          (x 352)
+          (y 640)
+        )
+        (node
+          (x 352)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 352)
+          (y 640)
+          (time 3)
+        )
+        (node
+          (x 928)
+          (y 640)
+        )
+        (node
+          (x 928)
+          (y 256)
+          (time 2)
+        )
+        (node
+          (x 928)
+          (y 640)
+          (time 3)
+        )
+        (node
+          (x 640)
+          (y 640)
+        )
+        (node
+          (x 640)
+          (y 288)
+          (time 2)
+        )
+        (node
+          (x 640)
+          (y 640)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "df93c6c6-39e5-4c84-819a-cf38b0ab96bf")
+      (path
+        (node
+          (x 64)
+          (y 384)
+        )
+        (node
+          (x 64)
+          (y -32)
+        )
+      )
+    )
     (scripttrigger
       (script "  prepare_iceborer();  ")
       (button #f)
@@ -87,58 +445,7 @@
       (solid #t)
       (z-pos 50)
       (name "deliver")
-      (path
-        (node
-          (x 144)
-          (y 672)
-          (time 0.1)
-        )
-        (node
-          (x 240)
-          (y 672)
-          (time 0.1)
-        )
-        (node
-          (x 336)
-          (y 672)
-          (time 0.1)
-        )
-        (node
-          (x 432)
-          (y 672)
-          (time 0.1)
-        )
-        (node
-          (x 528)
-          (y 672)
-          (time 0.1)
-        )
-        (node
-          (x 624)
-          (y 672)
-          (time 0.1)
-        )
-        (node
-          (x 720)
-          (y 672)
-          (time 0.1)
-        )
-        (node
-          (x 816)
-          (y 672)
-          (time 0.1)
-        )
-        (node
-          (x 912)
-          (y 672)
-          (time 0.1)
-        )
-        (node
-          (x 1008)
-          (y 672)
-          (time 0.1)
-        )
-      )
+      (path-ref "0d4b3c19-787b-4498-8bf5-dbaf9e52035a")
       (width 4)
       (height 2)
       (tiles
@@ -151,148 +458,7 @@
       (alpha 0)
       (z-pos 0)
       (name "bounceNbreak")
-      (path
-        (node
-          (x 144)
-          (y 672)
-        )
-        (node
-          (x 144)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 144)
-          (y 672)
-          (time 3)
-        )
-        (node
-          (x 720)
-          (y 672)
-        )
-        (node
-          (x 720)
-          (y 304)
-          (time 2)
-        )
-        (node
-          (x 720)
-          (y 672)
-          (time 3)
-        )
-        (node
-          (x 432)
-          (y 672)
-        )
-        (node
-          (x 432)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 432)
-          (y 672)
-          (time 3)
-        )
-        (node
-          (x 1008)
-          (y 672)
-        )
-        (node
-          (x 1008)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 1008)
-          (y 672)
-          (time 3)
-        )
-        (node
-          (x 528)
-          (y 672)
-        )
-        (node
-          (x 528)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 528)
-          (y 672)
-          (time 3)
-        )
-        (node
-          (x 240)
-          (y 672)
-        )
-        (node
-          (x 240)
-          (y 256)
-          (time 2)
-        )
-        (node
-          (x 240)
-          (y 672)
-          (time 3)
-        )
-        (node
-          (x 816)
-          (y 672)
-        )
-        (node
-          (x 816)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 816)
-          (y 672)
-          (time 3)
-        )
-        (node
-          (x 336)
-          (y 672)
-        )
-        (node
-          (x 336)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 336)
-          (y 672)
-          (time 3)
-        )
-        (node
-          (x 912)
-          (y 672)
-        )
-        (node
-          (x 912)
-          (y 256)
-          (time 2)
-        )
-        (node
-          (x 912)
-          (y 672)
-          (time 3)
-        )
-        (node
-          (x 624)
-          (y 672)
-        )
-        (node
-          (x 624)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 624)
-          (y 672)
-          (time 3)
-        )
-      )
+      (path-ref "859fd70a-9602-4b15-94c4-9775f05731aa")
       (width 4)
       (height 4)
       (tiles
@@ -307,148 +473,7 @@
       (alpha 0)
       (z-pos -10)
       (name "pain")
-      (path
-        (node
-          (x 160)
-          (y 640)
-        )
-        (node
-          (x 160)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 160)
-          (y 640)
-          (time 3)
-        )
-        (node
-          (x 736)
-          (y 640)
-        )
-        (node
-          (x 736)
-          (y 304)
-          (time 2)
-        )
-        (node
-          (x 736)
-          (y 640)
-          (time 3)
-        )
-        (node
-          (x 448)
-          (y 640)
-        )
-        (node
-          (x 448)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 448)
-          (y 640)
-          (time 3)
-        )
-        (node
-          (x 1024)
-          (y 640)
-        )
-        (node
-          (x 1024)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 1024)
-          (y 640)
-          (time 3)
-        )
-        (node
-          (x 544)
-          (y 640)
-        )
-        (node
-          (x 544)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 544)
-          (y 640)
-          (time 3)
-        )
-        (node
-          (x 256)
-          (y 640)
-        )
-        (node
-          (x 256)
-          (y 256)
-          (time 2)
-        )
-        (node
-          (x 256)
-          (y 640)
-          (time 3)
-        )
-        (node
-          (x 832)
-          (y 640)
-        )
-        (node
-          (x 832)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 832)
-          (y 640)
-          (time 3)
-        )
-        (node
-          (x 352)
-          (y 640)
-        )
-        (node
-          (x 352)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 352)
-          (y 640)
-          (time 3)
-        )
-        (node
-          (x 928)
-          (y 640)
-        )
-        (node
-          (x 928)
-          (y 256)
-          (time 2)
-        )
-        (node
-          (x 928)
-          (y 640)
-          (time 3)
-        )
-        (node
-          (x 640)
-          (y 640)
-        )
-        (node
-          (x 640)
-          (y 288)
-          (time 2)
-        )
-        (node
-          (x 640)
-          (y 640)
-          (time 3)
-        )
-      )
+      (path-ref "88c5a980-a1a6-4649-83c7-765e22fc4a3d")
       (width 3)
       (height 5)
       (tiles
@@ -463,16 +488,7 @@
       (solid #t)
       (z-pos -10)
       (name "walls")
-      (path
-        (node
-          (x 64)
-          (y 384)
-        )
-        (node
-          (x 64)
-          (y -32)
-        )
-      )
+      (path-ref "df93c6c6-39e5-4c84-819a-cf38b0ab96bf")
       (width 36)
       (height 13)
       (tiles

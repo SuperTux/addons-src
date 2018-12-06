@@ -303,132 +303,13 @@ unlock_archivement(\"m\")")
     )
     (platform
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 1280)
-          (y 2624)
-        )
-        (node
-          (x 1920)
-          (y 2624)
-          (time 2)
-        )
-        (node
-          (x 1952)
-          (y 2496)
-          (time 2)
-        )
-        (node
-          (x 1792)
-          (y 2400)
-          (time 2)
-        )
-        (node
-          (x 1760)
-          (y 2112)
-          (time 2)
-        )
-        (node
-          (x 1664)
-          (y 2304)
-          (time 2)
-        )
-        (node
-          (x 1600)
-          (y 2432)
-          (time 2)
-        )
-        (node
-          (x 1440)
-          (y 2368)
-          (time 2)
-        )
-        (node
-          (x 1536)
-          (y 2080)
-          (time 2)
-        )
-        (node
-          (x 1600)
-          (y 1888)
-          (time 2)
-        )
-        (node
-          (x 1792)
-          (y 2016)
-          (time 2)
-        )
-        (node
-          (x 1792)
-          (y 1728)
-          (time 2)
-        )
-        (node
-          (x 1952)
-          (y 1824)
-          (time 2)
-        )
-        (node
-          (x 1920)
-          (y 2048)
-          (time 2)
-        )
-        (node
-          (x 2208)
-          (y 2080)
-          (time 2)
-        )
-        (node
-          (x 2080)
-          (y 1760)
-          (time 2)
-        )
-        (node
-          (x 2240)
-          (y 1664)
-          (time 5)
-        )
-        (node
-          (x 2176)
-          (y 1408)
-        )
-        (node
-          (x 1632)
-          (y 1376)
-        )
-        (node
-          (x 1408)
-          (y 1440)
-        )
-        (node
-          (x 1312)
-          (y 1568)
-        )
-        (node
-          (x 1280)
-          (y 1760)
-        )
-        (node
-          (x 1280)
-          (y 2624)
-          (time 5)
-        )
-      )
+      (path-ref "e3c18b85-145e-4ff1-9d46-b71369aef3ba")
     )
     (platform
       (running #f)
       (name "plat1")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1789.123)
-          (y 1181.775)
-        )
-        (node
-          (x 2849.783)
-          (y 1085.608)
-        )
-      )
+      (path-ref "c0a7109c-8086-49ce-9e33-5060601f879f")
     )
     (gradient
       (top_color 0.5019608 1 1)
@@ -731,6 +612,227 @@ unlock_archivement(\"m\")")
     )
     (music
       (file "music/fortress.ogg")
+    )
+    (path
+      (name "e3c18b85-145e-4ff1-9d46-b71369aef3ba")
+      (path
+        (node
+          (x 1280)
+          (y 2624)
+        )
+        (node
+          (x 1920)
+          (y 2624)
+          (time 2)
+        )
+        (node
+          (x 1952)
+          (y 2496)
+          (time 2)
+        )
+        (node
+          (x 1792)
+          (y 2400)
+          (time 2)
+        )
+        (node
+          (x 1760)
+          (y 2112)
+          (time 2)
+        )
+        (node
+          (x 1664)
+          (y 2304)
+          (time 2)
+        )
+        (node
+          (x 1600)
+          (y 2432)
+          (time 2)
+        )
+        (node
+          (x 1440)
+          (y 2368)
+          (time 2)
+        )
+        (node
+          (x 1536)
+          (y 2080)
+          (time 2)
+        )
+        (node
+          (x 1600)
+          (y 1888)
+          (time 2)
+        )
+        (node
+          (x 1792)
+          (y 2016)
+          (time 2)
+        )
+        (node
+          (x 1792)
+          (y 1728)
+          (time 2)
+        )
+        (node
+          (x 1952)
+          (y 1824)
+          (time 2)
+        )
+        (node
+          (x 1920)
+          (y 2048)
+          (time 2)
+        )
+        (node
+          (x 2208)
+          (y 2080)
+          (time 2)
+        )
+        (node
+          (x 2080)
+          (y 1760)
+          (time 2)
+        )
+        (node
+          (x 2240)
+          (y 1664)
+          (time 5)
+        )
+        (node
+          (x 2176)
+          (y 1408)
+        )
+        (node
+          (x 1632)
+          (y 1376)
+        )
+        (node
+          (x 1408)
+          (y 1440)
+        )
+        (node
+          (x 1312)
+          (y 1568)
+        )
+        (node
+          (x 1280)
+          (y 1760)
+        )
+        (node
+          (x 1280)
+          (y 2624)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "c0a7109c-8086-49ce-9e33-5060601f879f")
+      (path
+        (node
+          (x 1789.123)
+          (y 1181.775)
+        )
+        (node
+          (x 2849.783)
+          (y 1085.608)
+        )
+      )
+    )
+    (path
+      (name "07c19824-b5ad-4774-bb48-1944ae141e79")
+      (path
+        (node
+          (x 1184)
+          (y 1312)
+        )
+        (node
+          (x 1600)
+          (y 1312)
+        )
+      )
+    )
+    (path
+      (name "d6c26c6e-bf4f-4fd8-9cf4-83072d610031")
+      (path
+        (node
+          (x 2432)
+          (y 2592)
+        )
+        (node
+          (x 2432)
+          (y 2208)
+        )
+      )
+    )
+    (path
+      (name "0ab69213-ecff-4ea2-8dc0-b4234b868fbb")
+      (path
+        (node
+          (x 2720)
+          (y 1216)
+          (time 30)
+        )
+        (node
+          (x 2720)
+          (y 2752)
+          (time 30)
+        )
+      )
+    )
+    (path
+      (name "86049939-cad4-4d1d-b036-1ed9f31bf175")
+      (path
+        (node
+          (x 2624)
+          (y 2592)
+        )
+        (node
+          (x 2624)
+          (y 2208)
+        )
+      )
+    )
+    (path
+      (name "1a136970-94f7-4418-a9a6-90806e9252a6")
+      (path
+        (node
+          (x 0)
+          (y 2752)
+          (time 50)
+        )
+        (node
+          (x 0)
+          (y 480)
+          (time 60)
+        )
+        (node
+          (x 0)
+          (y 3008)
+        )
+        (node
+          (x -1472)
+          (y 3008)
+        )
+      )
+    )
+    (path
+      (name "8f11fa41-3401-4fca-a465-063ac1652224")
+      (path
+        (node
+          (x 896)
+          (y 2752)
+        )
+        (node
+          (x 896)
+          (y 2624)
+        )
+        (node
+          (x 896)
+          (y 2976)
+        )
+      )
     )
     (scripttrigger
       (script "if(! (\"can5\" in this)){
@@ -1395,16 +1497,7 @@ Level.spawn(\"secret\",\"main\");}")
       (solid #t)
       (z-pos -50)
       (name "cr1")
-      (path
-        (node
-          (x 1184)
-          (y 1312)
-        )
-        (node
-          (x 1600)
-          (y 1312)
-        )
-      )
+      (path-ref "07c19824-b5ad-4774-bb48-1944ae141e79")
       (width 12)
       (height 5)
       (tiles
@@ -1419,16 +1512,7 @@ Level.spawn(\"secret\",\"main\");}")
       (solid #t)
       (z-pos -50)
       (name "cr2")
-      (path
-        (node
-          (x 2432)
-          (y 2592)
-        )
-        (node
-          (x 2432)
-          (y 2208)
-        )
-      )
+      (path-ref "d6c26c6e-bf4f-4fd8-9cf4-83072d610031")
       (width 4)
       (height 8)
       (tiles
@@ -1446,18 +1530,7 @@ Level.spawn(\"secret\",\"main\");}")
       (solid #t)
       (z-pos -50)
       (name "cr3")
-      (path
-        (node
-          (x 2720)
-          (y 1216)
-          (time 30)
-        )
-        (node
-          (x 2720)
-          (y 2752)
-          (time 30)
-        )
-      )
+      (path-ref "0ab69213-ecff-4ea2-8dc0-b4234b868fbb")
       (width 13)
       (height 4)
       (tiles
@@ -1471,16 +1544,7 @@ Level.spawn(\"secret\",\"main\");}")
       (solid #t)
       (z-pos -50)
       (name "cr4a")
-      (path
-        (node
-          (x 2624)
-          (y 2592)
-        )
-        (node
-          (x 2624)
-          (y 2208)
-        )
-      )
+      (path-ref "86049939-cad4-4d1d-b036-1ed9f31bf175")
       (width 4)
       (height 8)
       (tiles
@@ -1498,26 +1562,7 @@ Level.spawn(\"secret\",\"main\");}")
       (solid #t)
       (z-pos -50)
       (name "cr4b")
-      (path
-        (node
-          (x 0)
-          (y 2752)
-          (time 50)
-        )
-        (node
-          (x 0)
-          (y 480)
-          (time 60)
-        )
-        (node
-          (x 0)
-          (y 3008)
-        )
-        (node
-          (x -1472)
-          (y 3008)
-        )
-      )
+      (path-ref "1a136970-94f7-4418-a9a6-90806e9252a6")
       (width 29)
       (height 4)
       (tiles
@@ -1531,20 +1576,7 @@ Level.spawn(\"secret\",\"main\");}")
       (solid #t)
       (z-pos -50)
       (name "cr6")
-      (path
-        (node
-          (x 896)
-          (y 2752)
-        )
-        (node
-          (x 896)
-          (y 2624)
-        )
-        (node
-          (x 896)
-          (y 2976)
-        )
-      )
+      (path-ref "8f11fa41-3401-4fca-a465-063ac1652224")
       (width 4)
       (height 6)
       (tiles

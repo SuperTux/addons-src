@@ -109,6 +109,46 @@
     (music
       (file "music/fortress.ogg")
     )
+    (path
+      (name "89aaf19c-bc05-42a6-b2bc-f6912a3981d9")
+      (path
+        (node
+          (x 0)
+          (y -32)
+          (time 5)
+        )
+        (node
+          (x 0)
+          (y 448)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "1e4c2f9c-4dce-4213-b4f3-43062a40064b")
+      (path
+        (node
+          (x 0)
+          (y -1000)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "9d357b9f-c68d-4685-b1ac-c966caa88d7a")
+      (path
+        (node
+          (x 0)
+          (y -360)
+          (time 0.1)
+        )
+        (node
+          (x 2400)
+          (y -360)
+          (time 5)
+        )
+      )
+    )
     (pushbutton
       (script "chain.goto_node(1);")
       (x 2256)
@@ -157,18 +197,7 @@
       (solid #t)
       (z-pos 0)
       (name "chain")
-      (path
-        (node
-          (x 0)
-          (y -32)
-          (time 5)
-        )
-        (node
-          (x 0)
-          (y 448)
-          (time 5)
-        )
-      )
+      (path-ref "89aaf19c-bc05-42a6-b2bc-f6912a3981d9")
       (width 75)
       (height 1)
       (tiles
@@ -178,13 +207,7 @@
     (tilemap
       (solid #t)
       (z-pos 0)
-      (path
-        (node
-          (x 0)
-          (y -1000)
-          (time 5)
-        )
-      )
+      (path-ref "1e4c2f9c-4dce-4213-b4f3-43062a40064b")
       (width 75)
       (height 20)
       (tiles
@@ -214,18 +237,7 @@
       (solid #t)
       (z-pos 0)
       (name "cag")
-      (path
-        (node
-          (x 0)
-          (y -360)
-          (time 0.1)
-        )
-        (node
-          (x 2400)
-          (y -360)
-          (time 5)
-        )
-      )
+      (path-ref "9d357b9f-c68d-4685-b1ac-c966caa88d7a")
       (width 75)
       (height 1)
       (tiles

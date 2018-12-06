@@ -16,30 +16,7 @@
       (running #f)
       (name "krypl")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1952)
-          (y 352)
-        )
-        (node
-          (x 2496)
-          (y 352)
-          (time 6)
-        )
-        (node
-          (x 3264)
-          (y 224)
-        )
-        (node
-          (x 3264)
-          (y 1120)
-        )
-        (node
-          (x 1952)
-          (y 1120)
-          (time 8)
-        )
-      )
+      (path-ref "5d5a9184-6ef2-44b7-bc99-be88273e18dc")
     )
     (flyingsnowball
       (x 7040)
@@ -95,6 +72,33 @@
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "5d5a9184-6ef2-44b7-bc99-be88273e18dc")
+      (path
+        (node
+          (x 1952)
+          (y 352)
+        )
+        (node
+          (x 2496)
+          (y 352)
+          (time 6)
+        )
+        (node
+          (x 3264)
+          (y 224)
+        )
+        (node
+          (x 3264)
+          (y 1120)
+        )
+        (node
+          (x 1952)
+          (y 1120)
+          (time 8)
+        )
+      )
     )
     (scripttrigger
       (script "secret_area(\"sa5\")")

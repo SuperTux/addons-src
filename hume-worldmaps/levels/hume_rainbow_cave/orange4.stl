@@ -21,6 +21,17 @@
       (running #f)
       (name "pitomec")
       (sprite "images/objects/platforms/small.sprite")
+      (path-ref "3d98717b-d800-41fd-9570-6082985bacd5")
+    )
+    (gradient
+      (top_color 1 0.6666667 0)
+      (bottom_color 1 0.6666667 0)
+    )
+    (music
+      (file "music/cave.ogg")
+    )
+    (path
+      (name "3d98717b-d800-41fd-9570-6082985bacd5")
       (path
         (node
           (x 736)
@@ -32,12 +43,37 @@
         )
       )
     )
-    (gradient
-      (top_color 1 0.6666667 0)
-      (bottom_color 1 0.6666667 0)
+    (path
+      (name "2c0e6bf2-0f65-409f-ad64-e161a90a7b57")
+      (path
+        (node
+          (x 0)
+          (y 6368)
+          (time 40)
+        )
+        (node
+          (x 0)
+          (y 2592)
+        )
+      )
     )
-    (music
-      (file "music/cave.ogg")
+    (path
+      (name "a0043fee-672c-4219-85f2-c1712483503e")
+      (path
+        (node
+          (x 0)
+          (y 6400)
+        )
+      )
+    )
+    (path
+      (name "2b975620-4f31-4883-8157-66527849a849")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
     )
     (pushbutton
       (script "pitomec.goto_node(1)
@@ -712,17 +748,7 @@ Level.spawn(\"secret\",\"main\")")
       (solid #t)
       (z-pos 1)
       (name "risinglava")
-      (path
-        (node
-          (x 0)
-          (y 6368)
-          (time 40)
-        )
-        (node
-          (x 0)
-          (y 2592)
-        )
-      )
+      (path-ref "2c0e6bf2-0f65-409f-ad64-e161a90a7b57")
       (width 50)
       (height 200)
       (tiles
@@ -931,12 +957,7 @@ Level.spawn(\"secret\",\"main\")")
     (tilemap
       (solid #t)
       (z-pos 2)
-      (path
-        (node
-          (x 0)
-          (y 6400)
-        )
-      )
+      (path-ref "a0043fee-672c-4219-85f2-c1712483503e")
       (width 50)
       (height 200)
       (tiles
@@ -1145,12 +1166,7 @@ Level.spawn(\"secret\",\"main\")")
     (tilemap
       (solid #t)
       (z-pos 2)
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "2b975620-4f31-4883-8157-66527849a849")
       (width 50)
       (height 200)
       (tiles

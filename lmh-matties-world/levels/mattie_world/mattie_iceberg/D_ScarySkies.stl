@@ -52,121 +52,13 @@
       (running #f)
       (name "first")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 3376)
-          (y 448)
-        )
-        (node
-          (x 3376)
-          (y 640)
-          (time 1.75)
-        )
-        (node
-          (x 3600)
-          (y 640)
-          (time 2)
-        )
-        (node
-          (x 3600)
-          (y 448)
-          (time 3)
-        )
-        (node
-          (x 3792)
-          (y 448)
-        )
-        (node
-          (x 3792)
-          (y 640)
-          (time 5.5)
-        )
-        (node
-          (x 4512)
-          (y 640)
-        )
-      )
+      (path-ref "1fa8474d-9513-4fb3-bb84-0eb673245e0a")
     )
     (platform
       (running #f)
       (name "second")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 6784)
-          (y 448)
-          (time 0.44)
-        )
-        (node
-          (x 6896)
-          (y 448)
-          (time 1.5)
-        )
-        (node
-          (x 6896)
-          (y 256)
-          (time 0.75)
-        )
-        (node
-          (x 6992)
-          (y 256)
-          (time 0.75)
-        )
-        (node
-          (x 6992)
-          (y 640)
-          (time 0.315)
-        )
-        (node
-          (x 7152)
-          (y 640)
-          (time 0.75)
-        )
-        (node
-          (x 7152)
-          (y 448)
-          (time 0.625)
-        )
-        (node
-          (x 7312)
-          (y 448)
-          (time 0.375)
-        )
-        (node
-          (x 7312)
-          (y 640)
-          (time 0.25)
-        )
-        (node
-          (x 7440)
-          (y 640)
-          (time 3)
-        )
-        (node
-          (x 7440)
-          (y 256)
-          (time 2.5)
-        )
-        (node
-          (x 7760)
-          (y 256)
-          (time 0.75)
-        )
-        (node
-          (x 7760)
-          (y 640)
-          (time 0.315)
-        )
-        (node
-          (x 7920)
-          (y 640)
-          (time 0.75)
-        )
-        (node
-          (x 7920)
-          (y 1024)
-        )
-      )
+      (path-ref "69f66c20-433b-46b9-afec-2c853fac4563")
     )
     (flyingsnowball
       (x 1376)
@@ -250,6 +142,140 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "1fa8474d-9513-4fb3-bb84-0eb673245e0a")
+      (path
+        (node
+          (x 3376)
+          (y 448)
+        )
+        (node
+          (x 3376)
+          (y 640)
+          (time 1.75)
+        )
+        (node
+          (x 3600)
+          (y 640)
+          (time 2)
+        )
+        (node
+          (x 3600)
+          (y 448)
+          (time 3)
+        )
+        (node
+          (x 3792)
+          (y 448)
+        )
+        (node
+          (x 3792)
+          (y 640)
+          (time 5.5)
+        )
+        (node
+          (x 4512)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "69f66c20-433b-46b9-afec-2c853fac4563")
+      (path
+        (node
+          (x 6784)
+          (y 448)
+          (time 0.44)
+        )
+        (node
+          (x 6896)
+          (y 448)
+          (time 1.5)
+        )
+        (node
+          (x 6896)
+          (y 256)
+          (time 0.75)
+        )
+        (node
+          (x 6992)
+          (y 256)
+          (time 0.75)
+        )
+        (node
+          (x 6992)
+          (y 640)
+          (time 0.315)
+        )
+        (node
+          (x 7152)
+          (y 640)
+          (time 0.75)
+        )
+        (node
+          (x 7152)
+          (y 448)
+          (time 0.625)
+        )
+        (node
+          (x 7312)
+          (y 448)
+          (time 0.375)
+        )
+        (node
+          (x 7312)
+          (y 640)
+          (time 0.25)
+        )
+        (node
+          (x 7440)
+          (y 640)
+          (time 3)
+        )
+        (node
+          (x 7440)
+          (y 256)
+          (time 2.5)
+        )
+        (node
+          (x 7760)
+          (y 256)
+          (time 0.75)
+        )
+        (node
+          (x 7760)
+          (y 640)
+          (time 0.315)
+        )
+        (node
+          (x 7920)
+          (y 640)
+          (time 0.75)
+        )
+        (node
+          (x 7920)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "901ab313-48b2-4161-98aa-088eb2746ce9")
+      (path
+        (node
+          (x 7552)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "70e5da42-1505-474c-bddc-9de6b7abf91a")
+      (path
+        (node
+          (x 8064)
+          (y 480)
+        )
+      )
     )
     (powerup
       (script "find_coin(\"coin1\");")
@@ -371,12 +397,7 @@
       (solid #f)
       (z-pos 100)
       (name "secret")
-      (path
-        (node
-          (x 7552)
-          (y 480)
-        )
-      )
+      (path-ref "901ab313-48b2-4161-98aa-088eb2746ce9")
       (width 7)
       (height 10)
       (tiles
@@ -396,12 +417,7 @@
       (solid #f)
       (z-pos 100)
       (name "Foreground")
-      (path
-        (node
-          (x 8064)
-          (y 480)
-        )
-      )
+      (path-ref "70e5da42-1505-474c-bddc-9de6b7abf91a")
       (width 48)
       (height 8)
       (tiles

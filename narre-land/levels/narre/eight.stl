@@ -30,6 +30,15 @@
       (x 224.8873)
       (y 128)
     )
+    (path
+      (name "990ade25-4518-4c8d-b50f-c3d3da83b1a8")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (scripttrigger
       (script "Level.spawn(\"gorila\",\"main\")")
       (button #f)
@@ -228,12 +237,7 @@
       (solid #t)
       (z-pos 0)
       (name "pemda")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "990ade25-4518-4c8d-b50f-c3d3da83b1a8")
       (width 100)
       (height 35)
       (tiles
@@ -373,6 +377,10 @@
       (running #f)
       (name "ocot")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "cef77992-ef44-425c-8270-1ab9cd3f974d")
+    )
+    (path
+      (name "cef77992-ef44-425c-8270-1ab9cd3f974d")
       (path
         (node
           (x 3040)

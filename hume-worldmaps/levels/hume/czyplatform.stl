@@ -78,6 +78,135 @@
       (running #f)
       (name "platform")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "da72d90c-2a30-49fe-916c-9753736e1ea4")
+    )
+    (platform
+      (running #f)
+      (name "p2")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5399c27d-fd04-4117-91f6-be2683350f94")
+    )
+    (flyingsnowball
+      (x 3552)
+      (y 640)
+    )
+    (gradient
+      (top_color 0.4209812 0.2419623 0.6)
+      (bottom_color 0.4200046 0.2399939 0.6)
+    )
+    (jumpy
+      (x 1760)
+      (y 800)
+    )
+    (jumpy
+      (x 1248)
+      (y 192)
+    )
+    (jumpy
+      (x 4512)
+      (y 640)
+    )
+    (jumpy
+      (x 4160)
+      (y 352)
+    )
+    (jumpy
+      (x 5120)
+      (y 768)
+    )
+    (jumpy
+      (x 5856)
+      (y 480)
+    )
+    (jumpy
+      (x 5696)
+      (y 416)
+    )
+    (jumpy
+      (x 6464)
+      (y 32)
+    )
+    (jumpy
+      (x 9056)
+      (y 864)
+    )
+    (mole
+      (x 4640)
+      (y 288)
+    )
+    (mrbomb
+      (x 1152)
+      (y 896)
+    )
+    (mrbomb
+      (x 2336)
+      (y 864)
+    )
+    (mrbomb
+      (x 992)
+      (y 512)
+    )
+    (mrbomb
+      (x 480)
+      (y 512)
+    )
+    (mrbomb
+      (x 3104)
+      (y 160)
+    )
+    (mrbomb
+      (x 5536)
+      (y 832)
+    )
+    (mrbomb
+      (x 6016)
+      (y 128)
+    )
+    (mrbomb
+      (x 7264)
+      (y 544)
+    )
+    (mrbomb
+      (x 7744)
+      (y 864)
+    )
+    (mrbomb
+      (x 8704)
+      (y 928)
+    )
+    (mrbomb
+      (x 9184)
+      (y 928)
+    )
+    (mrbomb
+      (x 9504)
+      (y 928)
+    )
+    (mrbomb
+      (x 8544)
+      (y 608)
+    )
+    (mrbomb
+      (x 9312)
+      (y 576)
+    )
+    (mrbomb
+      (x 7936)
+      (y 416)
+    )
+    (mrbomb
+      (x 7744)
+      (y 352)
+    )
+    (mrbomb
+      (x 3872)
+      (y 352)
+    )
+    (music
+      (file "music/ghostforest.ogg")
+    )
+    (path
+      (name "da72d90c-2a30-49fe-916c-9753736e1ea4")
       (path
         (node
           (x 448)
@@ -226,10 +355,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "p2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "5399c27d-fd04-4117-91f6-be2683350f94")
       (path
         (node
           (x 4032)
@@ -397,125 +524,6 @@
           (time 3)
         )
       )
-    )
-    (flyingsnowball
-      (x 3552)
-      (y 640)
-    )
-    (gradient
-      (top_color 0.4209812 0.2419623 0.6)
-      (bottom_color 0.4200046 0.2399939 0.6)
-    )
-    (jumpy
-      (x 1760)
-      (y 800)
-    )
-    (jumpy
-      (x 1248)
-      (y 192)
-    )
-    (jumpy
-      (x 4512)
-      (y 640)
-    )
-    (jumpy
-      (x 4160)
-      (y 352)
-    )
-    (jumpy
-      (x 5120)
-      (y 768)
-    )
-    (jumpy
-      (x 5856)
-      (y 480)
-    )
-    (jumpy
-      (x 5696)
-      (y 416)
-    )
-    (jumpy
-      (x 6464)
-      (y 32)
-    )
-    (jumpy
-      (x 9056)
-      (y 864)
-    )
-    (mole
-      (x 4640)
-      (y 288)
-    )
-    (mrbomb
-      (x 1152)
-      (y 896)
-    )
-    (mrbomb
-      (x 2336)
-      (y 864)
-    )
-    (mrbomb
-      (x 992)
-      (y 512)
-    )
-    (mrbomb
-      (x 480)
-      (y 512)
-    )
-    (mrbomb
-      (x 3104)
-      (y 160)
-    )
-    (mrbomb
-      (x 5536)
-      (y 832)
-    )
-    (mrbomb
-      (x 6016)
-      (y 128)
-    )
-    (mrbomb
-      (x 7264)
-      (y 544)
-    )
-    (mrbomb
-      (x 7744)
-      (y 864)
-    )
-    (mrbomb
-      (x 8704)
-      (y 928)
-    )
-    (mrbomb
-      (x 9184)
-      (y 928)
-    )
-    (mrbomb
-      (x 9504)
-      (y 928)
-    )
-    (mrbomb
-      (x 8544)
-      (y 608)
-    )
-    (mrbomb
-      (x 9312)
-      (y 576)
-    )
-    (mrbomb
-      (x 7936)
-      (y 416)
-    )
-    (mrbomb
-      (x 7744)
-      (y 352)
-    )
-    (mrbomb
-      (x 3872)
-      (y 352)
-    )
-    (music
-      (file "music/ghostforest.ogg")
     )
     (sequencetrigger
       (sequence "endsequence")

@@ -28,12 +28,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 2496)
-          (y 800)
-        )
-      )
+      (path-ref "e1139c67-5e2c-4164-b99d-d22a70fb2057")
     )
     (icecrusher
       (x 715)
@@ -61,6 +56,15 @@
     )
     (music
       (file "music/wisphunt.ogg")
+    )
+    (path
+      (name "e1139c67-5e2c-4164-b99d-d22a70fb2057")
+      (path
+        (node
+          (x 2496)
+          (y 800)
+        )
+      )
     )
     (poisonivy
       (x 5506)

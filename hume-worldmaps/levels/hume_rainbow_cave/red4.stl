@@ -16,18 +16,7 @@
       (running #f)
       (name "debil")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 384)
-          (y 1376)
-          (time 20)
-        )
-        (node
-          (x 384)
-          (y 2944)
-          (time 20)
-        )
-      )
+      (path-ref "e5f662f5-ce64-4690-bd27-a786f6d4e02b")
     )
     (gradient
       (top_color 1 0 0)
@@ -113,6 +102,21 @@
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "e5f662f5-ce64-4690-bd27-a786f6d4e02b")
+      (path
+        (node
+          (x 384)
+          (y 1376)
+          (time 20)
+        )
+        (node
+          (x 384)
+          (y 2944)
+          (time 20)
+        )
+      )
     )
     (pushbutton
       (script "debil.goto_node(0)")

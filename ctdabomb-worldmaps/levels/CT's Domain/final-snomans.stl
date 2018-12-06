@@ -96,6 +96,56 @@
     (music
       (file "music/worldmap_tux.ogg")
     )
+    (path
+      (name "f163a175-5d71-4c1d-8cb5-5a0752513f90")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y -160)
+        )
+        (node
+          (x 0)
+          (y -288)
+        )
+        (node
+          (x 0)
+          (y -320)
+        )
+      )
+    )
+    (path
+      (name "80095fba-e337-428c-a247-5f1eb67ba955")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y 64)
+        )
+        (node
+          (x 0)
+          (y 192)
+        )
+        (node
+          (x 0)
+          (y 256)
+        )
+        (node
+          (x 0)
+          (y 288)
+        )
+        (node
+          (x 0)
+          (y 416)
+        )
+      )
+    )
     (scripttrigger
       (script "down.goto_node(120)
 up.goto_node(120)")
@@ -417,24 +467,7 @@ up.goto_node(120)")
       (solid #t)
       (z-pos 0)
       (name "up")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 0)
-          (y -160)
-        )
-        (node
-          (x 0)
-          (y -288)
-        )
-        (node
-          (x 0)
-          (y -320)
-        )
-      )
+      (path-ref "f163a175-5d71-4c1d-8cb5-5a0752513f90")
       (width 150)
       (height 60)
       (tiles
@@ -504,32 +537,7 @@ up.goto_node(120)")
       (solid #t)
       (z-pos 10)
       (name "down")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 0)
-          (y 64)
-        )
-        (node
-          (x 0)
-          (y 192)
-        )
-        (node
-          (x 0)
-          (y 256)
-        )
-        (node
-          (x 0)
-          (y 288)
-        )
-        (node
-          (x 0)
-          (y 416)
-        )
-      )
+      (path-ref "80095fba-e337-428c-a247-5f1eb67ba955")
       (width 150)
       (height 60)
       (tiles

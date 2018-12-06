@@ -97,6 +97,15 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "804119a4-370a-49c1-80ea-4ffd0e073dff")
+      (path
+        (node
+          (x 3072)
+          (y 512)
+        )
+      )
+    )
     (powerup
       (script "find_coin(\"coin1\");")
       (sprite "levels/mattie_world/images/objects/coin/coinblue.sprite")
@@ -230,12 +239,7 @@
       (solid #f)
       (z-pos 100)
       (name "CleanUp")
-      (path
-        (node
-          (x 3072)
-          (y 512)
-        )
-      )
+      (path-ref "804119a4-370a-49c1-80ea-4ffd0e073dff")
       (width 73)
       (height 6)
       (tiles

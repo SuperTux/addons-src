@@ -518,6 +518,733 @@
     (music
       (file "music/bossattack.ogg")
     )
+    (path
+      (name "4701d19a-a361-4a7f-a4d3-49b24b6c9bbd")
+      (path
+        (node
+          (x 64)
+          (y 0)
+        )
+        (node
+          (x 64)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 64)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "fe8eff42-4fd9-44a0-9ddb-d8d12037ae8f")
+      (path
+        (node
+          (x 96)
+          (y 0)
+        )
+        (node
+          (x 96)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 96)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "cb4ffe94-7474-4189-95f9-cd0cb23d7000")
+      (path
+        (node
+          (x 128)
+          (y 0)
+        )
+        (node
+          (x 128)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 128)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "c21efacb-ce12-42dc-80d4-05a22d64ec2c")
+      (path
+        (node
+          (x 160)
+          (y 0)
+        )
+        (node
+          (x 160)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 160)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "0028f234-9c1f-4cf2-bed1-a469d02d75e9")
+      (path
+        (node
+          (x 192)
+          (y 0)
+        )
+        (node
+          (x 192)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 192)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "8f7b949f-1c31-4df8-9de7-52a54a6e4e3c")
+      (path
+        (node
+          (x 224)
+          (y 0)
+        )
+        (node
+          (x 224)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 224)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "9c394cb5-8eff-4427-8b6e-c04eb4198a9a")
+      (path
+        (node
+          (x 256)
+          (y 0)
+        )
+        (node
+          (x 256)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 256)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "1675e5ee-c49b-4bb3-8ce2-e508bb1ce72b")
+      (path
+        (node
+          (x 288)
+          (y 0)
+        )
+        (node
+          (x 288)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 288)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "193307cc-0bf7-4ad1-a4af-79ea1f4ddb5b")
+      (path
+        (node
+          (x 320)
+          (y 0)
+        )
+        (node
+          (x 320)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 320)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "772d2965-bb4b-4747-95e3-e7e2902e5909")
+      (path
+        (node
+          (x 352)
+          (y 0)
+        )
+        (node
+          (x 352)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 352)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "452a4510-05a1-463c-a278-c766094b0ead")
+      (path
+        (node
+          (x 384)
+          (y 0)
+        )
+        (node
+          (x 384)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 384)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "5e4a1c4c-08cf-4737-bf24-4919200d50bb")
+      (path
+        (node
+          (x 416)
+          (y 0)
+        )
+        (node
+          (x 416)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 416)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "ace544e3-807b-4a35-a7f3-3930ab308f86")
+      (path
+        (node
+          (x 448)
+          (y 0)
+        )
+        (node
+          (x 448)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 448)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "a649bc94-25dd-4517-94c2-565e3a5d03ab")
+      (path
+        (node
+          (x 480)
+          (y 0)
+        )
+        (node
+          (x 480)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 480)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "97b2ae8a-2460-4551-bc80-81f7422a79c2")
+      (path
+        (node
+          (x 512)
+          (y 0)
+        )
+        (node
+          (x 512)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 512)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "84792295-cd6d-4740-845c-4dff9c5f9d20")
+      (path
+        (node
+          (x 544)
+          (y 0)
+        )
+        (node
+          (x 544)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 544)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "3499d4be-d74f-44e0-9e82-e697d1a9bca0")
+      (path
+        (node
+          (x 576)
+          (y 0)
+        )
+        (node
+          (x 576)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 576)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "f9d79896-becc-4707-8732-d1432a9ca15a")
+      (path
+        (node
+          (x 608)
+          (y 0)
+        )
+        (node
+          (x 608)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 608)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "c75ca68b-b197-4585-8d0d-3015cd262f2d")
+      (path
+        (node
+          (x 640)
+          (y 0)
+        )
+        (node
+          (x 640)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 640)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "92f62008-6d1e-4210-b0b4-3fd605cbada1")
+      (path
+        (node
+          (x 672)
+          (y 0)
+        )
+        (node
+          (x 672)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 672)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "f3fa7d4d-6775-4b3b-b186-b9b6a3a4c29e")
+      (path
+        (node
+          (x 704)
+          (y 0)
+        )
+        (node
+          (x 704)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 704)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "edf999af-7c74-4352-953c-accdb4ff2c93")
+      (path
+        (node
+          (x 736)
+          (y 0)
+        )
+        (node
+          (x 736)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 736)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "c0c7a2e7-2881-446e-b720-08977536dd2f")
+      (path
+        (node
+          (x 768)
+          (y 0)
+        )
+        (node
+          (x 768)
+          (y 32)
+          (time 1.5)
+        )
+        (node
+          (x 768)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 800)
+          (time 0.01)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 0.01)
+        )
+      )
+    )
+    (path
+      (name "47179cd3-5e47-404c-aeef-bf2284d847f4")
+      (path
+        (node
+          (x 0)
+          (y 512)
+          (time 5)
+        )
+        (node
+          (x 648)
+          (y 512)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "d3b80928-4a39-4602-a3b2-be72c215bc13")
+      (path
+        (node
+          (x 0)
+          (y 640)
+          (time 5)
+        )
+        (node
+          (x 648)
+          (y 640)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "70d33df2-6e86-4951-b409-0f7a4483f265")
+      (path
+        (node
+          (x 800)
+          (y 512)
+          (time 5)
+        )
+        (node
+          (x 216)
+          (y 512)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "93cf27eb-c0f9-47d3-9701-d699b99bfc80")
+      (path
+        (node
+          (x 800)
+          (y 640)
+          (time 5)
+        )
+        (node
+          (x 216)
+          (y 640)
+          (time 5)
+        )
+      )
+    )
     (spawnpoint
       (name "main")
       (x 432)
@@ -561,32 +1288,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch1")
-      (path
-        (node
-          (x 64)
-          (y 0)
-        )
-        (node
-          (x 64)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 64)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "4701d19a-a361-4a7f-a4d3-49b24b6c9bbd")
       (width 1)
       (height 1)
       (tiles
@@ -597,32 +1299,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch2")
-      (path
-        (node
-          (x 96)
-          (y 0)
-        )
-        (node
-          (x 96)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 96)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "fe8eff42-4fd9-44a0-9ddb-d8d12037ae8f")
       (width 1)
       (height 1)
       (tiles
@@ -633,32 +1310,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch3")
-      (path
-        (node
-          (x 128)
-          (y 0)
-        )
-        (node
-          (x 128)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 128)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "cb4ffe94-7474-4189-95f9-cd0cb23d7000")
       (width 1)
       (height 1)
       (tiles
@@ -669,32 +1321,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch4")
-      (path
-        (node
-          (x 160)
-          (y 0)
-        )
-        (node
-          (x 160)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 160)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "c21efacb-ce12-42dc-80d4-05a22d64ec2c")
       (width 1)
       (height 1)
       (tiles
@@ -705,32 +1332,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch5")
-      (path
-        (node
-          (x 192)
-          (y 0)
-        )
-        (node
-          (x 192)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 192)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "0028f234-9c1f-4cf2-bed1-a469d02d75e9")
       (width 1)
       (height 1)
       (tiles
@@ -741,32 +1343,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch6")
-      (path
-        (node
-          (x 224)
-          (y 0)
-        )
-        (node
-          (x 224)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 224)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "8f7b949f-1c31-4df8-9de7-52a54a6e4e3c")
       (width 1)
       (height 1)
       (tiles
@@ -777,32 +1354,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch7")
-      (path
-        (node
-          (x 256)
-          (y 0)
-        )
-        (node
-          (x 256)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 256)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "9c394cb5-8eff-4427-8b6e-c04eb4198a9a")
       (width 1)
       (height 1)
       (tiles
@@ -813,32 +1365,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch8")
-      (path
-        (node
-          (x 288)
-          (y 0)
-        )
-        (node
-          (x 288)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 288)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "1675e5ee-c49b-4bb3-8ce2-e508bb1ce72b")
       (width 1)
       (height 1)
       (tiles
@@ -849,32 +1376,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch9")
-      (path
-        (node
-          (x 320)
-          (y 0)
-        )
-        (node
-          (x 320)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 320)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "193307cc-0bf7-4ad1-a4af-79ea1f4ddb5b")
       (width 1)
       (height 1)
       (tiles
@@ -885,32 +1387,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch10")
-      (path
-        (node
-          (x 352)
-          (y 0)
-        )
-        (node
-          (x 352)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 352)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "772d2965-bb4b-4747-95e3-e7e2902e5909")
       (width 1)
       (height 1)
       (tiles
@@ -921,32 +1398,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch11")
-      (path
-        (node
-          (x 384)
-          (y 0)
-        )
-        (node
-          (x 384)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 384)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "452a4510-05a1-463c-a278-c766094b0ead")
       (width 1)
       (height 1)
       (tiles
@@ -957,32 +1409,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch12")
-      (path
-        (node
-          (x 416)
-          (y 0)
-        )
-        (node
-          (x 416)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 416)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "5e4a1c4c-08cf-4737-bf24-4919200d50bb")
       (width 1)
       (height 1)
       (tiles
@@ -993,32 +1420,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch13")
-      (path
-        (node
-          (x 448)
-          (y 0)
-        )
-        (node
-          (x 448)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 448)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "ace544e3-807b-4a35-a7f3-3930ab308f86")
       (width 1)
       (height 1)
       (tiles
@@ -1029,32 +1431,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch14")
-      (path
-        (node
-          (x 480)
-          (y 0)
-        )
-        (node
-          (x 480)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 480)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "a649bc94-25dd-4517-94c2-565e3a5d03ab")
       (width 1)
       (height 1)
       (tiles
@@ -1065,32 +1442,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch15")
-      (path
-        (node
-          (x 512)
-          (y 0)
-        )
-        (node
-          (x 512)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 512)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "97b2ae8a-2460-4551-bc80-81f7422a79c2")
       (width 1)
       (height 1)
       (tiles
@@ -1101,32 +1453,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch16")
-      (path
-        (node
-          (x 544)
-          (y 0)
-        )
-        (node
-          (x 544)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 544)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "84792295-cd6d-4740-845c-4dff9c5f9d20")
       (width 1)
       (height 1)
       (tiles
@@ -1137,32 +1464,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch17")
-      (path
-        (node
-          (x 576)
-          (y 0)
-        )
-        (node
-          (x 576)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 576)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "3499d4be-d74f-44e0-9e82-e697d1a9bca0")
       (width 1)
       (height 1)
       (tiles
@@ -1173,32 +1475,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch18")
-      (path
-        (node
-          (x 608)
-          (y 0)
-        )
-        (node
-          (x 608)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 608)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "f9d79896-becc-4707-8732-d1432a9ca15a")
       (width 1)
       (height 1)
       (tiles
@@ -1209,32 +1486,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch19")
-      (path
-        (node
-          (x 640)
-          (y 0)
-        )
-        (node
-          (x 640)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 640)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "c75ca68b-b197-4585-8d0d-3015cd262f2d")
       (width 1)
       (height 1)
       (tiles
@@ -1245,32 +1497,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch20")
-      (path
-        (node
-          (x 672)
-          (y 0)
-        )
-        (node
-          (x 672)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 672)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "92f62008-6d1e-4210-b0b4-3fd605cbada1")
       (width 1)
       (height 1)
       (tiles
@@ -1281,32 +1508,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch21")
-      (path
-        (node
-          (x 704)
-          (y 0)
-        )
-        (node
-          (x 704)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 704)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "f3fa7d4d-6775-4b3b-b186-b9b6a3a4c29e")
       (width 1)
       (height 1)
       (tiles
@@ -1317,32 +1519,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch22")
-      (path
-        (node
-          (x 736)
-          (y 0)
-        )
-        (node
-          (x 736)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 736)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "edf999af-7c74-4352-953c-accdb4ff2c93")
       (width 1)
       (height 1)
       (tiles
@@ -1353,32 +1530,7 @@
       (solid #t)
       (z-pos 0)
       (name "rampouch23")
-      (path
-        (node
-          (x 768)
-          (y 0)
-        )
-        (node
-          (x 768)
-          (y 32)
-          (time 1.5)
-        )
-        (node
-          (x 768)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 800)
-          (time 0.01)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 0.01)
-        )
-      )
+      (path-ref "c0c7a2e7-2881-446e-b720-08977536dd2f")
       (width 1)
       (height 1)
       (tiles
@@ -1389,18 +1541,7 @@
       (solid #t)
       (z-pos 0)
       (name "spikes_lu")
-      (path
-        (node
-          (x 0)
-          (y 512)
-          (time 5)
-        )
-        (node
-          (x 648)
-          (y 512)
-          (time 5)
-        )
-      )
+      (path-ref "47179cd3-5e47-404c-aeef-bf2284d847f4")
       (width 2)
       (height 4)
       (tiles
@@ -1414,18 +1555,7 @@
       (solid #t)
       (z-pos 0)
       (name "spikes_ld")
-      (path
-        (node
-          (x 0)
-          (y 640)
-          (time 5)
-        )
-        (node
-          (x 648)
-          (y 640)
-          (time 5)
-        )
-      )
+      (path-ref "d3b80928-4a39-4602-a3b2-be72c215bc13")
       (width 2)
       (height 4)
       (tiles
@@ -1439,18 +1569,7 @@
       (solid #t)
       (z-pos 0)
       (name "spikes_ru")
-      (path
-        (node
-          (x 800)
-          (y 512)
-          (time 5)
-        )
-        (node
-          (x 216)
-          (y 512)
-          (time 5)
-        )
-      )
+      (path-ref "70d33df2-6e86-4951-b409-0f7a4483f265")
       (width 2)
       (height 4)
       (tiles
@@ -1464,18 +1583,7 @@
       (solid #t)
       (z-pos 0)
       (name "spikes_rd")
-      (path
-        (node
-          (x 800)
-          (y 640)
-          (time 5)
-        )
-        (node
-          (x 216)
-          (y 640)
-          (time 5)
-        )
-      )
+      (path-ref "93cf27eb-c0f9-47d3-9701-d699b99bfc80")
       (width 2)
       (height 4)
       (tiles

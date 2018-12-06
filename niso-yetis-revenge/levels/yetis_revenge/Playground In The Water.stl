@@ -107,40 +107,13 @@ bonus1.set_alpha(0);
       (running #f)
       (name "trans1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 2257)
-          (y 256)
-          (time 2)
-        )
-        (node
-          (x 2801)
-          (y 800)
-        )
-      )
+      (path-ref "f713be3e-cc72-4512-b550-9dba8d877864")
     )
     (platform
       (running #f)
       (name "trans2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 5425)
-          (y 256)
-          (time 2)
-        )
-        (node
-          (x 6129)
-          (y 960)
-          (time 2.5)
-        )
-        (node
-          (x 7281)
-          (y 960)
-        )
-      )
+      (path-ref "37af9044-0f16-4c2e-83e1-5d604f8c4779")
     )
     (flyingsnowball
       (x 1796)
@@ -200,6 +173,76 @@ bonus1.set_alpha(0);
     )
     (music
       (file "music/salcon.ogg")
+    )
+    (path
+      (name "f713be3e-cc72-4512-b550-9dba8d877864")
+      (path
+        (mode "oneshot")
+        (node
+          (x 2257)
+          (y 256)
+          (time 2)
+        )
+        (node
+          (x 2801)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "37af9044-0f16-4c2e-83e1-5d604f8c4779")
+      (path
+        (mode "oneshot")
+        (node
+          (x 5425)
+          (y 256)
+          (time 2)
+        )
+        (node
+          (x 6129)
+          (y 960)
+          (time 2.5)
+        )
+        (node
+          (x 7281)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "82683bb4-f4b3-4c50-bbe4-67eaf857a3ef")
+      (path
+        (mode "oneshot")
+        (node
+          (x 2240)
+          (y 64)
+          (time 2)
+        )
+        (node
+          (x 2784)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "f280f974-b495-43f5-ab62-5029dcc49c68")
+      (path
+        (mode "oneshot")
+        (node
+          (x 5408)
+          (y 64)
+          (time 2)
+        )
+        (node
+          (x 6112)
+          (y 768)
+          (time 2.5)
+        )
+        (node
+          (x 7264)
+          (y 768)
+        )
+      )
     )
     (powerup
       (script "this.c1 <- true
@@ -567,18 +610,7 @@ chain2.goto_node(2);")
       (solid #f)
       (z-pos 0)
       (name "chain1")
-      (path
-        (mode "oneshot")
-        (node
-          (x 2240)
-          (y 64)
-          (time 2)
-        )
-        (node
-          (x 2784)
-          (y 608)
-        )
-      )
+      (path-ref "82683bb4-f4b3-4c50-bbe4-67eaf857a3ef")
       (width 5)
       (height 7)
       (tiles
@@ -595,23 +627,7 @@ chain2.goto_node(2);")
       (solid #f)
       (z-pos 0)
       (name "chain2")
-      (path
-        (mode "oneshot")
-        (node
-          (x 5408)
-          (y 64)
-          (time 2)
-        )
-        (node
-          (x 6112)
-          (y 768)
-          (time 2.5)
-        )
-        (node
-          (x 7264)
-          (y 768)
-        )
-      )
+      (path-ref "f280f974-b495-43f5-ab62-5029dcc49c68")
       (width 5)
       (height 7)
       (tiles

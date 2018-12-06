@@ -65,33 +65,13 @@
       (running #f)
       (name "pica")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 4608)
-          (y 2368)
-          (time 3)
-        )
-        (node
-          (x 4608)
-          (y 1536)
-          (time 3)
-        )
-      )
+      (path-ref "c0c2a6e7-3c99-4f24-8cd4-81e18972c30c")
     )
     (platform
       (running #f)
       (name "pizza")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 3008)
-          (y 256)
-        )
-        (node
-          (x 3008)
-          (y -128)
-        )
-      )
+      (path-ref "29e06da2-649a-492e-b687-ae624fdd56a7")
     )
     (flyingsnowball
       (x 1600)
@@ -327,6 +307,34 @@
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "c0c2a6e7-3c99-4f24-8cd4-81e18972c30c")
+      (path
+        (node
+          (x 4608)
+          (y 2368)
+          (time 3)
+        )
+        (node
+          (x 4608)
+          (y 1536)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "29e06da2-649a-492e-b687-ae624fdd56a7")
+      (path
+        (node
+          (x 3008)
+          (y 256)
+        )
+        (node
+          (x 3008)
+          (y -128)
+        )
+      )
     )
     (scripttrigger
       (script "pica.goto_node(1);

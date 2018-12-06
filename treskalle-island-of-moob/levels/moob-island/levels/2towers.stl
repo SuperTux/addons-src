@@ -90,134 +90,53 @@
       (running #f)
       (name "Elevator")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1088)
-        )
-        (node
-          (x 1440)
-          (y 384)
-        )
-      )
+      (path-ref "fa2cc54c-840e-48d6-9c19-6064026a4127")
     )
     (platform
       (running #f)
       (name "NoWayBack")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2592)
-          (y 384)
-        )
-        (node
-          (x 2592)
-          (y 512)
-        )
-      )
+      (path-ref "75c108c5-7da1-4978-a33f-4532607e5aa1")
     )
     (platform
       (running #f)
       (name "IspyBlock")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 2432)
-          (y 480)
-        )
-        (node
-          (x 2464)
-          (y 480)
-        )
-      )
+      (path-ref "f5244112-53c0-485d-808d-be54dbcd9c62")
     )
     (platform
       (running #f)
       (name "AngryStoneBlock")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1824)
-          (y 608)
-        )
-        (node
-          (x 1728)
-          (y 608)
-        )
-      )
+      (path-ref "47665be3-3445-403e-9578-faac32baba74")
     )
     (platform
       (running #f)
       (name "ToMiddle")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 3136)
-          (y 384)
-          (time 5)
-        )
-        (node
-          (x 3840)
-          (y 384)
-          (time 5)
-        )
-      )
+      (path-ref "b6ff6b11-c66e-4c49-aca1-1d0efb4eb362")
     )
     (platform
       (running #f)
       (name "FromMiddle")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 4544)
-          (y 384)
-          (time 5)
-        )
-        (node
-          (x 5376)
-          (y 384)
-          (time 5)
-        )
-      )
+      (path-ref "d209a635-bef9-470f-8d05-bc14dbad8c27")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 4192)
-          (y 544)
-        )
-      )
+      (path-ref "0cf8421a-4911-4a7a-b5cd-5f8a23660d86")
     )
     (platform
       (running #f)
       (name "Elevator2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 7072)
-          (y 384)
-        )
-        (node
-          (x 7072)
-          (y 960)
-        )
-      )
+      (path-ref "738f665a-b7de-43c7-828e-344238d9c6ea")
     )
     (platform
       (running #f)
       (name "Elevator3")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 5568)
-          (y 640)
-        )
-        (node
-          (x 5568)
-          (y 1152)
-        )
-      )
+      (path-ref "79745313-216e-4ad5-95eb-02334fea7564")
     )
     (haywire
       (x 2757)
@@ -320,6 +239,123 @@ NoWayBack.goto_node(1)")
     )
     (music
       (file "music/greatgigantic.ogg")
+    )
+    (path
+      (name "fa2cc54c-840e-48d6-9c19-6064026a4127")
+      (path
+        (node
+          (x 1440)
+          (y 1088)
+        )
+        (node
+          (x 1440)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "75c108c5-7da1-4978-a33f-4532607e5aa1")
+      (path
+        (node
+          (x 2592)
+          (y 384)
+        )
+        (node
+          (x 2592)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "f5244112-53c0-485d-808d-be54dbcd9c62")
+      (path
+        (node
+          (x 2432)
+          (y 480)
+        )
+        (node
+          (x 2464)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "47665be3-3445-403e-9578-faac32baba74")
+      (path
+        (node
+          (x 1824)
+          (y 608)
+        )
+        (node
+          (x 1728)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "b6ff6b11-c66e-4c49-aca1-1d0efb4eb362")
+      (path
+        (node
+          (x 3136)
+          (y 384)
+          (time 5)
+        )
+        (node
+          (x 3840)
+          (y 384)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "d209a635-bef9-470f-8d05-bc14dbad8c27")
+      (path
+        (node
+          (x 4544)
+          (y 384)
+          (time 5)
+        )
+        (node
+          (x 5376)
+          (y 384)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "0cf8421a-4911-4a7a-b5cd-5f8a23660d86")
+      (path
+        (node
+          (x 4192)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "738f665a-b7de-43c7-828e-344238d9c6ea")
+      (path
+        (node
+          (x 7072)
+          (y 384)
+        )
+        (node
+          (x 7072)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "79745313-216e-4ad5-95eb-02334fea7564")
+      (path
+        (node
+          (x 5568)
+          (y 640)
+        )
+        (node
+          (x 5568)
+          (y 1152)
+        )
+      )
     )
     (scripttrigger
       (script "Elevator.goto_node(1)

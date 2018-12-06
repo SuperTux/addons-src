@@ -89,6 +89,110 @@ lifts.set_alpha(0);
     (music
       (file "music/darkforestkeep.ogg")
     )
+    (path
+      (name "a148c5da-e395-413a-8263-b0b8593debe0")
+      (path
+        (node
+          (x 2816)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "267049b3-9dab-4420-b155-d5356c0ccfb1")
+      (path
+        (node
+          (x 2816)
+          (y 832)
+          (time 2)
+        )
+        (node
+          (x 2816)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "c489dddc-33a3-43ce-b9ac-de8f25702d07")
+      (path
+        (node
+          (x 2912)
+          (y 736)
+          (time 0.1)
+        )
+        (node
+          (x 2911)
+          (y 735)
+          (time 0.1)
+        )
+        (node
+          (x 2913)
+          (y 734)
+          (time 0.1)
+        )
+        (node
+          (x 2911)
+          (y 733)
+        )
+        (node
+          (x 2912)
+          (y 732)
+        )
+        (node
+          (x 2912)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "2ac10e0e-b953-4b97-86b6-8e8acb072cac")
+      (path
+        (node
+          (x 2496)
+          (y 0)
+          (time 2)
+        )
+        (node
+          (x 2496)
+          (y 160)
+          (time 2)
+        )
+        (node
+          (x 2496)
+          (y 160)
+          (time 2)
+        )
+        (node
+          (x 2496)
+          (y 320)
+          (time 2)
+        )
+        (node
+          (x 2496)
+          (y 320)
+          (time 2)
+        )
+        (node
+          (x 2496)
+          (y 384)
+          (time 2)
+        )
+        (node
+          (x 2496)
+          (y 384)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "e2aab95e-8534-4499-b349-82106e91210e")
+      (path
+        (node
+          (x 2784)
+          (y 896)
+        )
+      )
+    )
     (powerup
       (script "play_sound(\"sounds/darthit.wav\");
 crush.goto_node(5);
@@ -235,12 +339,7 @@ drop.goto_node(5);")
       (solid #t)
       (z-pos 0)
       (name "tops")
-      (path
-        (node
-          (x 2816)
-          (y 768)
-        )
-      )
+      (path-ref "a148c5da-e395-413a-8263-b0b8593debe0")
       (width 8)
       (height 1)
       (tiles
@@ -251,17 +350,7 @@ drop.goto_node(5);")
       (solid #t)
       (z-pos 0)
       (name "lifts")
-      (path
-        (node
-          (x 2816)
-          (y 832)
-          (time 2)
-        )
-        (node
-          (x 2816)
-          (y 768)
-        )
-      )
+      (path-ref "267049b3-9dab-4420-b155-d5356c0ccfb1")
       (width 8)
       (height 1)
       (tiles
@@ -316,35 +405,7 @@ drop.goto_node(5);")
       (solid #t)
       (z-pos 0)
       (name "drop")
-      (path
-        (node
-          (x 2912)
-          (y 736)
-          (time 0.1)
-        )
-        (node
-          (x 2911)
-          (y 735)
-          (time 0.1)
-        )
-        (node
-          (x 2913)
-          (y 734)
-          (time 0.1)
-        )
-        (node
-          (x 2911)
-          (y 733)
-        )
-        (node
-          (x 2912)
-          (y 732)
-        )
-        (node
-          (x 2912)
-          (y 1024)
-        )
-      )
+      (path-ref "c489dddc-33a3-43ce-b9ac-de8f25702d07")
       (width 2)
       (height 3)
       (tiles
@@ -357,43 +418,7 @@ drop.goto_node(5);")
       (solid #t)
       (z-pos -1)
       (name "crush")
-      (path
-        (node
-          (x 2496)
-          (y 0)
-          (time 2)
-        )
-        (node
-          (x 2496)
-          (y 160)
-          (time 2)
-        )
-        (node
-          (x 2496)
-          (y 160)
-          (time 2)
-        )
-        (node
-          (x 2496)
-          (y 320)
-          (time 2)
-        )
-        (node
-          (x 2496)
-          (y 320)
-          (time 2)
-        )
-        (node
-          (x 2496)
-          (y 384)
-          (time 2)
-        )
-        (node
-          (x 2496)
-          (y 384)
-          (time 6)
-        )
-      )
+      (path-ref "2ac10e0e-b953-4b97-86b6-8e8acb072cac")
       (width 19)
       (height 13)
       (tiles
@@ -416,12 +441,7 @@ drop.goto_node(5);")
       (solid #f)
       (z-pos 100)
       (name "secret")
-      (path
-        (node
-          (x 2784)
-          (y 896)
-        )
-      )
+      (path-ref "e2aab95e-8534-4499-b349-82106e91210e")
       (width 4)
       (height 5)
       (tiles
@@ -1187,6 +1207,66 @@ drop.goto_node(5);")
     (music
       (file "music/darkforestkeep.ogg")
     )
+    (path
+      (name "b7abb7b4-e42f-48cc-aaba-56c640f4ddf2")
+      (path
+        (node
+          (x 256)
+          (y 6336)
+          (time 40)
+        )
+        (node
+          (x 256)
+          (y 320)
+          (time 40)
+        )
+      )
+    )
+    (path
+      (name "142d8c11-c3d5-427e-a7f4-0b6da6a08f4d")
+      (path
+        (node
+          (x 288)
+          (y 0)
+          (time 40)
+        )
+        (node
+          (x 288)
+          (y -6016)
+          (time 40)
+        )
+      )
+    )
+    (path
+      (name "23c524b6-be88-4213-a7e9-4faba4bf7694")
+      (path
+        (node
+          (x 736)
+          (y -6400)
+          (time 40)
+        )
+        (node
+          (x 736)
+          (y 0)
+          (time 40)
+        )
+      )
+    )
+    (path
+      (name "25d77f81-a5b9-4366-ab15-85ae269c9725")
+      (path
+        (node
+          (x 448)
+          (y -6400)
+          (time 40)
+        )
+        (node
+          (x 448)
+          (y 0)
+          (time 40)
+        )
+      )
+    )
     (scripttrigger
       (script "lift.goto_node(1);
 up_chains.goto_node(1);
@@ -1781,18 +1861,7 @@ floaters.set_alpha(0);")
       (solid #t)
       (z-pos 0)
       (name "lift")
-      (path
-        (node
-          (x 256)
-          (y 6336)
-          (time 40)
-        )
-        (node
-          (x 256)
-          (y 320)
-          (time 40)
-        )
-      )
+      (path-ref "b7abb7b4-e42f-48cc-aaba-56c640f4ddf2")
       (width 23)
       (height 1)
       (tiles
@@ -1942,18 +2011,7 @@ floaters.set_alpha(0);")
       (solid #f)
       (z-pos 0)
       (name "up_chains")
-      (path
-        (node
-          (x 288)
-          (y 0)
-          (time 40)
-        )
-        (node
-          (x 288)
-          (y -6016)
-          (time 40)
-        )
-      )
+      (path-ref "142d8c11-c3d5-427e-a7f4-0b6da6a08f4d")
       (width 21)
       (height 200)
       (tiles
@@ -2163,18 +2221,7 @@ floaters.set_alpha(0);")
       (solid #f)
       (z-pos -50)
       (name "down_chain_back")
-      (path
-        (node
-          (x 736)
-          (y -6400)
-          (time 40)
-        )
-        (node
-          (x 736)
-          (y 0)
-          (time 40)
-        )
-      )
+      (path-ref "23c524b6-be88-4213-a7e9-4faba4bf7694")
       (width 1)
       (height 400)
       (tiles
@@ -2584,18 +2631,7 @@ floaters.set_alpha(0);")
       (solid #f)
       (z-pos 150)
       (name "down_chain_fore")
-      (path
-        (node
-          (x 448)
-          (y -6400)
-          (time 40)
-        )
-        (node
-          (x 448)
-          (y 0)
-          (time 40)
-        )
-      )
+      (path-ref "25d77f81-a5b9-4366-ab15-85ae269c9725")
       (width 1)
       (height 400)
       (tiles
@@ -3387,6 +3423,29 @@ floaters.set_alpha(0);")
     (music
       (file "music/darkforestkeep.ogg")
     )
+    (path
+      (name "abf88086-2ef8-443b-8203-3bb3e554a7c1")
+      (path
+        (node
+          (x 2064)
+          (y 288)
+        )
+      )
+    )
+    (path
+      (name "1f0e41a7-ad51-4b85-8415-2bd23a36c1c4")
+      (path
+        (node
+          (x 5536)
+          (y 480)
+          (time 2)
+        )
+        (node
+          (x 5536)
+          (y 608)
+        )
+      )
+    )
     (pneumatic-platform
       (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (x 1920)
@@ -3647,12 +3706,7 @@ play_music(\"music/bossattack.ogg\");")
       (solid #f)
       (z-pos -50)
       (name "barrier")
-      (path
-        (node
-          (x 2064)
-          (y 288)
-        )
-      )
+      (path-ref "abf88086-2ef8-443b-8203-3bb3e554a7c1")
       (width 1)
       (height 20)
       (tiles
@@ -3682,17 +3736,7 @@ play_music(\"music/bossattack.ogg\");")
       (solid #t)
       (z-pos -50)
       (name "end")
-      (path
-        (node
-          (x 5536)
-          (y 480)
-          (time 2)
-        )
-        (node
-          (x 5536)
-          (y 608)
-        )
-      )
+      (path-ref "1f0e41a7-ad51-4b85-8415-2bd23a36c1c4")
       (width 8)
       (height 11)
       (tiles

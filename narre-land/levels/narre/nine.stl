@@ -29,16 +29,7 @@
       (running #f)
       (name "kokotak")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 544)
-          (y 1120)
-        )
-        (node
-          (x 480)
-          (y 256)
-        )
-      )
+      (path-ref "c1ef289e-7789-4c1d-a73d-9c944f529a37")
     )
     (mrbomb
       (x 3040)
@@ -206,6 +197,19 @@
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "c1ef289e-7789-4c1d-a73d-9c944f529a37")
+      (path
+        (node
+          (x 544)
+          (y 1120)
+        )
+        (node
+          (x 480)
+          (y 256)
+        )
+      )
     )
     (scripttrigger
       (script "kokotak.goto_node(1)

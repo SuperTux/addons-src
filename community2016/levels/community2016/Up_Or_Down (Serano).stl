@@ -31,16 +31,7 @@
       (running #f)
       (name "plat")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 5056)
-          (y 704)
-        )
-        (node
-          (x 5056)
-          (y 544)
-        )
-      )
+      (path-ref "7ba93817-f6fa-42d6-be06-1706b677b01e")
     )
     (goldbomb
       (x 9605)
@@ -107,6 +98,19 @@
     )
     (music
       (file "music/forest.ogg")
+    )
+    (path
+      (name "7ba93817-f6fa-42d6-be06-1706b677b01e")
+      (path
+        (node
+          (x 5056)
+          (y 704)
+        )
+        (node
+          (x 5056)
+          (y 544)
+        )
+      )
     )
     (poisonivy
       (x 2530)

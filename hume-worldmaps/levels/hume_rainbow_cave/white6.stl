@@ -37,103 +37,19 @@ finish_level_group(\"white\",\"w6\")")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 320)
-          (y 1056)
-        )
-        (node
-          (x 320)
-          (y 576)
-        )
-        (node
-          (x 448)
-          (y 576)
-        )
-        (node
-          (x 448)
-          (y 704)
-        )
-        (node
-          (x 320)
-          (y 704)
-        )
-      )
+      (path-ref "26009553-d465-40da-8496-58f8b34ab8e6")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 640)
-          (y 1056)
-        )
-        (node
-          (x 640)
-          (y 576)
-        )
-        (node
-          (x 768)
-          (y 576)
-        )
-        (node
-          (x 768)
-          (y 704)
-        )
-        (node
-          (x 640)
-          (y 704)
-        )
-      )
+      (path-ref "1ef42651-4885-4554-87bd-57f8036cbc43")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 960)
-          (y 1056)
-        )
-        (node
-          (x 960)
-          (y 576)
-        )
-        (node
-          (x 832)
-          (y 576)
-        )
-        (node
-          (x 832)
-          (y 704)
-        )
-        (node
-          (x 960)
-          (y 704)
-        )
-      )
+      (path-ref "bed1102e-44d8-4324-ac13-e0e916d53d2c")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1280)
-          (y 1056)
-        )
-        (node
-          (x 1280)
-          (y 576)
-        )
-        (node
-          (x 1152)
-          (y 576)
-        )
-        (node
-          (x 1152)
-          (y 704)
-        )
-        (node
-          (x 1280)
-          (y 704)
-        )
-      )
+      (path-ref "8f02da06-969b-4397-87bb-f6f0fbadd751")
     )
     (gradient
       (top_color 1 1 1)
@@ -141,6 +57,106 @@ finish_level_group(\"white\",\"w6\")")
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "26009553-d465-40da-8496-58f8b34ab8e6")
+      (path
+        (node
+          (x 320)
+          (y 1056)
+        )
+        (node
+          (x 320)
+          (y 576)
+        )
+        (node
+          (x 448)
+          (y 576)
+        )
+        (node
+          (x 448)
+          (y 704)
+        )
+        (node
+          (x 320)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "1ef42651-4885-4554-87bd-57f8036cbc43")
+      (path
+        (node
+          (x 640)
+          (y 1056)
+        )
+        (node
+          (x 640)
+          (y 576)
+        )
+        (node
+          (x 768)
+          (y 576)
+        )
+        (node
+          (x 768)
+          (y 704)
+        )
+        (node
+          (x 640)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "bed1102e-44d8-4324-ac13-e0e916d53d2c")
+      (path
+        (node
+          (x 960)
+          (y 1056)
+        )
+        (node
+          (x 960)
+          (y 576)
+        )
+        (node
+          (x 832)
+          (y 576)
+        )
+        (node
+          (x 832)
+          (y 704)
+        )
+        (node
+          (x 960)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "8f02da06-969b-4397-87bb-f6f0fbadd751")
+      (path
+        (node
+          (x 1280)
+          (y 1056)
+        )
+        (node
+          (x 1280)
+          (y 576)
+        )
+        (node
+          (x 1152)
+          (y 576)
+        )
+        (node
+          (x 1152)
+          (y 704)
+        )
+        (node
+          (x 1280)
+          (y 704)
+        )
+      )
     )
     (spawnpoint
       (name "main")

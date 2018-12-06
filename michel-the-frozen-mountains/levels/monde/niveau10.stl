@@ -33,16 +33,7 @@
       (running #f)
       (name "porte1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 4032)
-          (y 64)
-        )
-        (node
-          (x 4032)
-          (y 192)
-        )
-      )
+      (path-ref "2ead4528-d4d1-416f-9476-065bb08e140d")
     )
     (lantern
       (x 1072)
@@ -308,6 +299,28 @@
     (music
       (file "music/cave.music")
     )
+    (path
+      (name "2ead4528-d4d1-416f-9476-065bb08e140d")
+      (path
+        (node
+          (x 4032)
+          (y 64)
+        )
+        (node
+          (x 4032)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "268861d6-4ef3-4e4e-88dd-daa4e16ad6a7")
+      (path
+        (node
+          (x 5152)
+          (y 0)
+        )
+      )
+    )
     (rock
       (x 2016)
       (y 608)
@@ -569,12 +582,7 @@ porte1.stop_moving();")
       (solid #t)
       (z-pos 120)
       (name "cache1")
-      (path
-        (node
-          (x 5152)
-          (y 0)
-        )
-      )
+      (path-ref "268861d6-4ef3-4e4e-88dd-daa4e16ad6a7")
       (width 35)
       (height 25)
       (tiles
@@ -661,162 +669,52 @@ or2.start_moving();")
     (platform
       (name "plateforme1")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1088)
-          (y 352)
-          (time 5)
-        )
-        (node
-          (x 256)
-          (y 1024)
-          (time 5)
-        )
-      )
+      (path-ref "97ac967b-a809-4927-8aba-3ba09f482df7")
     )
     (platform
       (name "plateforme2")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 3520)
-          (y 352)
-          (time 5)
-        )
-        (node
-          (x 3040)
-          (y 512)
-          (time 5)
-        )
-      )
+      (path-ref "a38fffb0-2982-45d3-86c8-ccf2104b26eb")
     )
     (platform
       (name "plateforme3")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 10784)
-          (y 1024)
-          (time 5)
-        )
-        (node
-          (x 10784)
-          (y 512)
-          (time 5)
-        )
-      )
+      (path-ref "191ae0a0-9cb4-45cd-884d-3b6588787ae2")
     )
     (platform
       (name "plateforme4")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 10944)
-          (y 160)
-          (time 5)
-        )
-        (node
-          (x 10944)
-          (y 672)
-          (time 5)
-        )
-      )
+      (path-ref "a5e6c3b4-6824-4d04-82b8-84a65991bb14")
     )
     (platform
       (name "plateforme6")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 13440)
-          (y 416)
-          (time 10)
-        )
-        (node
-          (x 14432)
-          (y 416)
-          (time 10)
-        )
-      )
+      (path-ref "be807580-566c-4a1c-b1cf-b45cdf7c047d")
     )
     (platform
       (name "plateforme5")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 13152)
-          (y 416)
-          (time 10)
-        )
-        (node
-          (x 14144)
-          (y 416)
-          (time 10)
-        )
-      )
+      (path-ref "35aee54c-33b5-4fb4-a774-96d298bbca28")
     )
     (platform
       (name "plateforme7")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 14848)
-          (y 576)
-          (time 10)
-        )
-        (node
-          (x 15840)
-          (y 576)
-          (time 10)
-        )
-      )
+      (path-ref "153c000d-f755-45b9-acea-bd4efbc1de05")
     )
     (platform
       (name "plateforme8")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 16928)
-          (y 576)
-          (time 10)
-        )
-        (node
-          (x 16032)
-          (y 576)
-          (time 10)
-        )
-      )
+      (path-ref "61f89edf-ade2-4bc9-a6f4-3e77370a00c9")
     )
     (platform
       (name "plateforme9")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 20000)
-          (y 928)
-          (time 8)
-        )
-        (node
-          (x 21056)
-          (y 928)
-          (time 8)
-        )
-      )
+      (path-ref "339ee504-2d26-4969-a2a3-ff955bf318f8")
     )
     (platform
       (name "plateforme10")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 21280)
-          (y 224)
-          (time 8)
-        )
-        (node
-          (x 21280)
-          (y 1024)
-          (time 8)
-        )
-      )
+      (path-ref "92e227f5-2a3e-4321-bf6f-f4327e7e54fa")
     )
     (mrbomb
       (x 2725)
@@ -880,6 +778,156 @@ or2.start_moving();")
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "97ac967b-a809-4927-8aba-3ba09f482df7")
+      (path
+        (node
+          (x 1088)
+          (y 352)
+          (time 5)
+        )
+        (node
+          (x 256)
+          (y 1024)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "a38fffb0-2982-45d3-86c8-ccf2104b26eb")
+      (path
+        (node
+          (x 3520)
+          (y 352)
+          (time 5)
+        )
+        (node
+          (x 3040)
+          (y 512)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "191ae0a0-9cb4-45cd-884d-3b6588787ae2")
+      (path
+        (node
+          (x 10784)
+          (y 1024)
+          (time 5)
+        )
+        (node
+          (x 10784)
+          (y 512)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "a5e6c3b4-6824-4d04-82b8-84a65991bb14")
+      (path
+        (node
+          (x 10944)
+          (y 160)
+          (time 5)
+        )
+        (node
+          (x 10944)
+          (y 672)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "be807580-566c-4a1c-b1cf-b45cdf7c047d")
+      (path
+        (node
+          (x 13440)
+          (y 416)
+          (time 10)
+        )
+        (node
+          (x 14432)
+          (y 416)
+          (time 10)
+        )
+      )
+    )
+    (path
+      (name "35aee54c-33b5-4fb4-a774-96d298bbca28")
+      (path
+        (node
+          (x 13152)
+          (y 416)
+          (time 10)
+        )
+        (node
+          (x 14144)
+          (y 416)
+          (time 10)
+        )
+      )
+    )
+    (path
+      (name "153c000d-f755-45b9-acea-bd4efbc1de05")
+      (path
+        (node
+          (x 14848)
+          (y 576)
+          (time 10)
+        )
+        (node
+          (x 15840)
+          (y 576)
+          (time 10)
+        )
+      )
+    )
+    (path
+      (name "61f89edf-ade2-4bc9-a6f4-3e77370a00c9")
+      (path
+        (node
+          (x 16928)
+          (y 576)
+          (time 10)
+        )
+        (node
+          (x 16032)
+          (y 576)
+          (time 10)
+        )
+      )
+    )
+    (path
+      (name "339ee504-2d26-4969-a2a3-ff955bf318f8")
+      (path
+        (node
+          (x 20000)
+          (y 928)
+          (time 8)
+        )
+        (node
+          (x 21056)
+          (y 928)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "92e227f5-2a3e-4321-bf6f-f4327e7e54fa")
+      (path
+        (node
+          (x 21280)
+          (y 224)
+          (time 8)
+        )
+        (node
+          (x 21280)
+          (y 1024)
+          (time 8)
+        )
+      )
     )
     (sequencetrigger
       (sequence "endsequence")

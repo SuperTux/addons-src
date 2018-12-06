@@ -50,83 +50,25 @@ tooslow2.goto_node(3);
       (running #f)
       (name "s1")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 6048)
-          (y 576)
-        )
-        (node
-          (x 5952)
-          (y 576)
-        )
-      )
+      (path-ref "7561fbe0-40cc-47e8-b525-d488e85993ad")
     )
     (platform
       (running #f)
       (name "s2")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 6112)
-          (y 576)
-        )
-        (node
-          (x 6176)
-          (y 576)
-        )
-      )
+      (path-ref "a2b94eff-8fd0-4fef-9d17-8abd81defec1")
     )
     (platform
       (running #f)
       (name "tooslow1")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 5952)
-          (y 608)
-        )
-        (node
-          (x 6048)
-          (y 608)
-          (time 5)
-        )
-        (node
-          (x 6048)
-          (y 896)
-          (time 5)
-        )
-        (node
-          (x 6048)
-          (y 608)
-          (time 5)
-        )
-      )
+      (path-ref "113ef8ae-4fe4-47d3-9ed5-1ca58dbf6283")
     )
     (platform
       (running #f)
       (name "tooslow2")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 6176)
-          (y 608)
-        )
-        (node
-          (x 6112)
-          (y 608)
-          (time 5)
-        )
-        (node
-          (x 6112)
-          (y 896)
-          (time 5)
-        )
-        (node
-          (x 6112)
-          (y 608)
-          (time 5)
-        )
-      )
+      (path-ref "2c8f47ed-7fdf-4a9d-8eb4-b47df174609c")
     )
     (flyingsnowball
       (x 4580)
@@ -166,6 +108,80 @@ tooslow2.goto_node(3);
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "7561fbe0-40cc-47e8-b525-d488e85993ad")
+      (path
+        (node
+          (x 6048)
+          (y 576)
+        )
+        (node
+          (x 5952)
+          (y 576)
+        )
+      )
+    )
+    (path
+      (name "a2b94eff-8fd0-4fef-9d17-8abd81defec1")
+      (path
+        (node
+          (x 6112)
+          (y 576)
+        )
+        (node
+          (x 6176)
+          (y 576)
+        )
+      )
+    )
+    (path
+      (name "113ef8ae-4fe4-47d3-9ed5-1ca58dbf6283")
+      (path
+        (node
+          (x 5952)
+          (y 608)
+        )
+        (node
+          (x 6048)
+          (y 608)
+          (time 5)
+        )
+        (node
+          (x 6048)
+          (y 896)
+          (time 5)
+        )
+        (node
+          (x 6048)
+          (y 608)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "2c8f47ed-7fdf-4a9d-8eb4-b47df174609c")
+      (path
+        (node
+          (x 6176)
+          (y 608)
+        )
+        (node
+          (x 6112)
+          (y 608)
+          (time 5)
+        )
+        (node
+          (x 6112)
+          (y 896)
+          (time 5)
+        )
+        (node
+          (x 6112)
+          (y 608)
+          (time 5)
+        )
+      )
     )
     (powerup
       (script "find_fish(\"carry\");")

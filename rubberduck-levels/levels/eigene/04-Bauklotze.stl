@@ -26,65 +26,25 @@
       (running #f)
       (name "plat1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 6016)
-          (y 352)
-        )
-        (node
-          (x 6144)
-          (y 352)
-        )
-      )
+      (path-ref "0f26504f-20f8-449f-9bd0-435e949ff756")
     )
     (platform
       (running #f)
       (name "plat2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 6944)
-          (y 352)
-        )
-        (node
-          (x 7072)
-          (y 352)
-        )
-      )
+      (path-ref "c847f7c6-cfa8-49fe-a2e7-709a3d468cd7")
     )
     (platform
       (running #f)
       (name "plat3")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 6368)
-          (y 352)
-        )
-        (node
-          (x 6496)
-          (y 352)
-        )
-      )
+      (path-ref "be7330c8-7bb7-4398-a941-ad32f4c229fb")
     )
     (platform
       (running #f)
       (name "plat4")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 6656)
-          (y 352)
-        )
-        (node
-          (x 6784)
-          (y 352)
-        )
-        (node
-          (x 6656)
-          (y 352)
-        )
-      )
+      (path-ref "56b15a22-5754-461e-9e1a-fd4885924a81")
     )
     (igel
       (x 11360)
@@ -104,6 +64,76 @@
     )
     (music
       (file "music/forest2.ogg")
+    )
+    (path
+      (name "0f26504f-20f8-449f-9bd0-435e949ff756")
+      (path
+        (node
+          (x 6016)
+          (y 352)
+        )
+        (node
+          (x 6144)
+          (y 352)
+        )
+      )
+    )
+    (path
+      (name "c847f7c6-cfa8-49fe-a2e7-709a3d468cd7")
+      (path
+        (node
+          (x 6944)
+          (y 352)
+        )
+        (node
+          (x 7072)
+          (y 352)
+        )
+      )
+    )
+    (path
+      (name "be7330c8-7bb7-4398-a941-ad32f4c229fb")
+      (path
+        (node
+          (x 6368)
+          (y 352)
+        )
+        (node
+          (x 6496)
+          (y 352)
+        )
+      )
+    )
+    (path
+      (name "56b15a22-5754-461e-9e1a-fd4885924a81")
+      (path
+        (node
+          (x 6656)
+          (y 352)
+        )
+        (node
+          (x 6784)
+          (y 352)
+        )
+        (node
+          (x 6656)
+          (y 352)
+        )
+      )
+    )
+    (path
+      (name "57e0ebbe-890d-4140-bdcc-a031c4c17cbf")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 0.8)
+        )
+        (node
+          (x 416)
+          (y 0)
+        )
+      )
     )
     (poisonivy
       (x 608)
@@ -565,17 +595,7 @@ falle.goto_node(1)")
       (solid #t)
       (z-pos 0)
       (name "falle")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 0.8)
-        )
-        (node
-          (x 416)
-          (y 0)
-        )
-      )
+      (path-ref "57e0ebbe-890d-4140-bdcc-a031c4c17cbf")
       (width 500)
       (height 60)
       (tiles

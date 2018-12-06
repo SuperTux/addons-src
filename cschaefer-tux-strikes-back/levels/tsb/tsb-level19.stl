@@ -22,6 +22,15 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "e58a30d0-474a-4c6d-8bc0-4da00a73e2bb")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")
       (x 0)
@@ -70,12 +79,7 @@
       (solid #t)
       (z-pos 0)
       (name "Interactive")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "e58a30d0-474a-4c6d-8bc0-4da00a73e2bb")
       (width 198)
       (height 25)
       (tiles

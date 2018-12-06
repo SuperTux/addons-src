@@ -115,6 +115,34 @@
       (x 1678)
       (y 575)
     )
+    (path
+      (name "ea5901a5-59b0-43a8-85f2-0cdc2b99b5d8")
+      (path
+        (node
+          (x 1664)
+          (y 1472)
+          (time 3)
+        )
+        (node
+          (x 1664)
+          (y 1952)
+        )
+      )
+    )
+    (path
+      (name "0e312358-32c4-44cc-a15d-e6d965f51489")
+      (path
+        (node
+          (x 1632)
+          (y 1056)
+          (time 2.8)
+        )
+        (node
+          (x 1632)
+          (y 1536)
+        )
+      )
+    )
     (powerup
       (disable-physics #t)
       (sprite "images/powerups/star/star.sprite")
@@ -509,17 +537,7 @@ running <- false;
       (alpha 0)
       (z-pos 0)
       (name "wash")
-      (path
-        (node
-          (x 1664)
-          (y 1472)
-          (time 3)
-        )
-        (node
-          (x 1664)
-          (y 1952)
-        )
-      )
+      (path-ref "ea5901a5-59b0-43a8-85f2-0cdc2b99b5d8")
       (width 4)
       (height 2)
       (tiles
@@ -532,17 +550,7 @@ running <- false;
       (alpha 0)
       (z-pos 100)
       (name "splash")
-      (path
-        (node
-          (x 1632)
-          (y 1056)
-          (time 2.8)
-        )
-        (node
-          (x 1632)
-          (y 1536)
-        )
-      )
+      (path-ref "0e312358-32c4-44cc-a15d-e6d965f51489")
       (width 6)
       (height 16)
       (tiles

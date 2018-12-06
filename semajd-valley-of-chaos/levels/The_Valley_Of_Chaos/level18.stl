@@ -33,33 +33,7 @@
       (running #f)
       (name "platform")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 5856)
-          (y 640)
-        )
-        (node
-          (x 5856)
-          (y 768)
-        )
-        (node
-          (x 5856)
-          (y 896)
-        )
-        (node
-          (x 5856)
-          (y 1024)
-        )
-        (node
-          (x 5856)
-          (y 1152)
-        )
-        (node
-          (x 5856)
-          (y 1248)
-        )
-      )
+      (path-ref "52d77bef-b1f5-466a-ab91-3266eeda5680")
     )
     (gradient
       (top_color 0.1137255 0.1137255 0.1137255)
@@ -195,6 +169,36 @@
     )
     (music
       (file "music/voc-dark.music")
+    )
+    (path
+      (name "52d77bef-b1f5-466a-ab91-3266eeda5680")
+      (path
+        (mode "oneshot")
+        (node
+          (x 5856)
+          (y 640)
+        )
+        (node
+          (x 5856)
+          (y 768)
+        )
+        (node
+          (x 5856)
+          (y 896)
+        )
+        (node
+          (x 5856)
+          (y 1024)
+        )
+        (node
+          (x 5856)
+          (y 1152)
+        )
+        (node
+          (x 5856)
+          (y 1248)
+        )
+      )
     )
     (scripttrigger
       (script "platform.start_moving();")

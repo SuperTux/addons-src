@@ -844,6 +844,15 @@ Spikes.set_alpha(1);
     (music
       (file "music/bonuscave.ogg")
     )
+    (path
+      (name "8f22ff0a-a8d8-4c10-9d8c-0428693e5dae")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (powerup
       (script "this.c5 <- true
 Tux.add_coins(1);
@@ -995,12 +1004,7 @@ play_sound(\"sounds/lifeup.wav\");
       (solid #t)
       (z-pos 0)
       (name "Interactive")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "8f22ff0a-a8d8-4c10-9d8c-0428693e5dae")
       (width 50)
       (height 30)
       (tiles

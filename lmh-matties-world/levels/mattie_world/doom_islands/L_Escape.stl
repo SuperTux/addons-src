@@ -43,6 +43,33 @@
       (running #f)
       (name "AngryHold")
       (sprite "images/objects/platforms/small.sprite")
+      (path-ref "7c50766b-8f67-4b14-af3c-1be45496b29a")
+    )
+    (platform
+      (running #f)
+      (name "Gate")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "75041c4f-9e9d-45d1-88e8-463eb8ca1472")
+    )
+    (platform
+      (running #f)
+      (name "InnerGate")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "b6221fbe-48bd-4452-bbb8-7696cb8c7dfe")
+    )
+    (jumpy
+      (x 320)
+      (y 576)
+    )
+    (jumpy
+      (x 1312)
+      (y 1504)
+    )
+    (music
+      (file "music/forest3.ogg")
+    )
+    (path
+      (name "7c50766b-8f67-4b14-af3c-1be45496b29a")
       (path
         (node
           (x 114)
@@ -56,10 +83,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "Gate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "75041c4f-9e9d-45d1-88e8-463eb8ca1472")
       (path
         (node
           (x 1874)
@@ -73,10 +98,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "InnerGate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "b6221fbe-48bd-4452-bbb8-7696cb8c7dfe")
       (path
         (node
           (x 1490)
@@ -90,16 +113,66 @@
         )
       )
     )
-    (jumpy
-      (x 320)
-      (y 576)
+    (path
+      (name "93817d2a-1789-4e05-a3d4-865ed29be734")
+      (path
+        (node
+          (x 1472)
+          (y 1312)
+        )
+        (node
+          (x 1504)
+          (y 1312)
+          (time 8)
+        )
+        (node
+          (x 1504)
+          (y 1440)
+        )
+      )
     )
-    (jumpy
-      (x 1312)
-      (y 1504)
+    (path
+      (name "d319be9c-7a21-4ba5-8e50-c1ff226f48b9")
+      (path
+        (node
+          (x 1728)
+          (y 1312)
+        )
+        (node
+          (x 1696)
+          (y 1312)
+          (time 8)
+        )
+        (node
+          (x 1696)
+          (y 1440)
+        )
+      )
     )
-    (music
-      (file "music/forest3.ogg")
+    (path
+      (name "1e38395e-7c84-4ab6-a939-188617212619")
+      (path
+        (node
+          (x 0)
+          (y 1600)
+          (time 24)
+        )
+      )
+    )
+    (path
+      (name "b773a4e0-54b8-4c9d-b951-65d8d678e124")
+      (path
+        (node
+          (x 0)
+          (y 1570)
+          (time 28)
+        )
+        (node
+          (x 0)
+          (y 160)
+          (time 28)
+        )
+      )
     )
     (scripttrigger
       (script "  Lava.goto_node(1); snached <- false; hidden <- true;  ")
@@ -224,21 +297,7 @@
       (solid #t)
       (z-pos -100)
       (name "Squish1")
-      (path
-        (node
-          (x 1472)
-          (y 1312)
-        )
-        (node
-          (x 1504)
-          (y 1312)
-          (time 8)
-        )
-        (node
-          (x 1504)
-          (y 1440)
-        )
-      )
+      (path-ref "93817d2a-1789-4e05-a3d4-865ed29be734")
       (width 6)
       (height 2)
       (tiles
@@ -250,21 +309,7 @@
       (solid #t)
       (z-pos -100)
       (name "Squish2")
-      (path
-        (node
-          (x 1728)
-          (y 1312)
-        )
-        (node
-          (x 1696)
-          (y 1312)
-          (time 8)
-        )
-        (node
-          (x 1696)
-          (y 1440)
-        )
-      )
+      (path-ref "d319be9c-7a21-4ba5-8e50-c1ff226f48b9")
       (width 6)
       (height 2)
       (tiles
@@ -394,13 +439,7 @@
       (solid #f)
       (z-pos 200)
       (name "EdgeCover")
-      (path
-        (node
-          (x 0)
-          (y 1600)
-          (time 24)
-        )
-      )
+      (path-ref "1e38395e-7c84-4ab6-a939-188617212619")
       (width 70)
       (height 44)
       (tiles
@@ -454,18 +493,7 @@
       (solid #t)
       (z-pos -100)
       (name "Lava")
-      (path
-        (node
-          (x 0)
-          (y 1570)
-          (time 28)
-        )
-        (node
-          (x 0)
-          (y 160)
-          (time 28)
-        )
-      )
+      (path-ref "b773a4e0-54b8-4c9d-b951-65d8d678e124")
       (width 28)
       (height 44)
       (tiles

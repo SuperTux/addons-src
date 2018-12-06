@@ -16,16 +16,20 @@
       (x 320)
       (y 1152)
     )
-    (tilemap
-      (solid #t)
-      (z-pos 0)
-      (name "Interactive")
+    (path
+      (name "a8e618ae-8686-40f3-8664-de2646ca8674")
       (path
         (node
           (x 0)
           (y 0)
         )
       )
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "Interactive")
+      (path-ref "a8e618ae-8686-40f3-8664-de2646ca8674")
       (width 60)
       (height 40)
       (tiles

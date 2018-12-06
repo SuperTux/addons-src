@@ -57,972 +57,136 @@
       (y 869)
     )
     (coin
-      (path
-        (node
-          (x 960)
-          (y 608)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 960)
-          (y 608)
-          (time 21)
-        )
-      )
+      (path-ref "129fd162-46e3-403c-8a60-c5567ed86d40")
     )
     (coin
-      (path
-        (node
-          (x 960)
-          (y 576)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 960)
-          (y 576)
-          (time 21)
-        )
-      )
+      (path-ref "f18e0640-7ca4-4c45-b205-e39a80616e7c")
     )
     (coin
-      (path
-        (node
-          (x 960)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 960)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "bbb51f45-da46-4e19-bd8d-7015a640600c")
     )
     (coin
-      (path
-        (node
-          (x 992)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 992)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "e80934bc-68ad-4daf-b809-9f501ab43dfc")
     )
     (coin
-      (path
-        (node
-          (x 960)
-          (y 512)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 960)
-          (y 512)
-          (time 21)
-        )
-      )
+      (path-ref "27ef910c-fbce-4b19-9e1d-29a83d6f3e6e")
     )
     (coin
-      (path
-        (node
-          (x 960)
-          (y 480)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 960)
-          (y 480)
-          (time 21)
-        )
-      )
+      (path-ref "e0dd8563-fd50-405e-b44d-63a10c59c837")
     )
     (coin
-      (path
-        (node
-          (x 992)
-          (y 480)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 992)
-          (y 480)
-          (time 21)
-        )
-      )
+      (path-ref "06c48d02-82b2-4c85-981b-61037472d59e")
     )
     (coin
-      (path
-        (node
-          (x 1024)
-          (y 480)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1024)
-          (y 480)
-          (time 21)
-        )
-      )
+      (path-ref "2f95dc0a-e70e-4990-977e-8fae9c653e5c")
     )
     (coin
-      (path
-        (node
-          (x 1088)
-          (y 480)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1088)
-          (y 480)
-          (time 21)
-        )
-      )
+      (path-ref "93f2a95e-e85b-4bc5-a754-c7bc12d721af")
     )
     (coin
-      (path
-        (node
-          (x 1088)
-          (y 608)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1088)
-          (y 608)
-          (time 21)
-        )
-      )
+      (path-ref "3f38673b-2387-4222-a0a0-3141a893d949")
     )
     (coin
-      (path
-        (node
-          (x 1088)
-          (y 576)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1088)
-          (y 576)
-          (time 21)
-        )
-      )
+      (path-ref "e5b79ccb-ab3f-43a6-8da3-abdd51d8bd06")
     )
     (coin
-      (path
-        (node
-          (x 1088)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1088)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "0e671ca6-2632-4b47-9bbf-ebf2f71f2965")
     )
     (coin
-      (path
-        (node
-          (x 1088)
-          (y 512)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1088)
-          (y 512)
-          (time 21)
-        )
-      )
+      (path-ref "ade3e797-3796-4018-ae70-3439fe87c638")
     )
     (coin
-      (path
-        (node
-          (x 1152)
-          (y 576)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1152)
-          (y 576)
-          (time 21)
-        )
-      )
+      (path-ref "ccdf8f71-6e95-46ce-8210-44b082e8ec30")
     )
     (coin
-      (path
-        (node
-          (x 1152)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1152)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "91302014-fab8-45b9-99f4-e1455069b03f")
     )
     (coin
-      (path
-        (node
-          (x 1152)
-          (y 512)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1152)
-          (y 512)
-          (time 21)
-        )
-      )
+      (path-ref "8f719572-431b-46ad-83ac-428710d2b4ea")
     )
     (coin
-      (path
-        (node
-          (x 1184)
-          (y 480)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1184)
-          (y 480)
-          (time 21)
-        )
-      )
+      (path-ref "bb169d1d-6483-4075-99ad-a106cda7b546")
     )
     (coin
-      (path
-        (node
-          (x 1216)
-          (y 512)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1216)
-          (y 512)
-          (time 21)
-        )
-      )
+      (path-ref "37dc165c-642b-4a2d-b0d7-d65b7874135f")
     )
     (coin
-      (path
-        (node
-          (x 1216)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1216)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "618d509b-c5d4-4585-90a3-9594acbe6ea7")
     )
     (coin
-      (path
-        (node
-          (x 1216)
-          (y 576)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1216)
-          (y 576)
-          (time 21)
-        )
-      )
+      (path-ref "5429f361-2605-4aea-a46b-7939561745da")
     )
     (coin
-      (path
-        (node
-          (x 1184)
-          (y 608)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1184)
-          (y 608)
-          (time 21)
-        )
-      )
+      (path-ref "c2548d3c-b723-426a-ae75-9cbe808c6fc5")
     )
     (coin
-      (path
-        (node
-          (x 1280)
-          (y 608)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1280)
-          (y 608)
-          (time 21)
-        )
-      )
+      (path-ref "1532d92c-dcf9-4ce2-a32b-304054481835")
     )
     (coin
-      (path
-        (node
-          (x 1280)
-          (y 576)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1280)
-          (y 576)
-          (time 21)
-        )
-      )
+      (path-ref "18c8da7f-8b9e-4209-b5d5-08661b1e52d1")
     )
     (coin
-      (path
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1280)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "277b9452-eb16-4b09-9568-e42cb5e29e3e")
     )
     (coin
-      (path
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1280)
-          (y 512)
-          (time 21)
-        )
-      )
+      (path-ref "46e9313c-ee94-4565-9a2e-a8014603dbda")
     )
     (coin
-      (path
-        (node
-          (x 1280)
-          (y 480)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1280)
-          (y 480)
-          (time 21)
-        )
-      )
+      (path-ref "b844a1dd-dc09-4d4f-8c52-aa0e5e3843b5")
     )
     (coin
-      (path
-        (node
-          (x 1312)
-          (y 512)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1312)
-          (y 512)
-          (time 21)
-        )
-      )
+      (path-ref "29b9c8af-3995-4f84-b764-4e9b351cb2d5")
     )
     (coin
-      (path
-        (node
-          (x 1344)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1344)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "0ccd230f-b96b-40d3-8ca9-fda473a7850c")
     )
     (coin
-      (path
-        (node
-          (x 1376)
-          (y 576)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1376)
-          (y 576)
-          (time 21)
-        )
-      )
+      (path-ref "cf543a84-bfd5-40f8-981b-52523721d252")
     )
     (coin
-      (path
-        (node
-          (x 1408)
-          (y 608)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1408)
-          (y 608)
-          (time 21)
-        )
-      )
+      (path-ref "034661de-f735-4741-bf8c-76fc86ab43db")
     )
     (coin
-      (path
-        (node
-          (x 1408)
-          (y 576)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1408)
-          (y 576)
-          (time 21)
-        )
-      )
+      (path-ref "62f1419c-c711-4fde-bd59-956d3f4614c4")
     )
     (coin
-      (path
-        (node
-          (x 1408)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1408)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "3200715b-1ade-476d-9f4a-01f77230b746")
     )
     (coin
-      (path
-        (node
-          (x 1408)
-          (y 512)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1408)
-          (y 512)
-          (time 21)
-        )
-      )
+      (path-ref "f80a0b33-df07-4188-8ba2-8c26ca705215")
     )
     (coin
-      (path
-        (node
-          (x 1408)
-          (y 480)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1408)
-          (y 480)
-          (time 21)
-        )
-      )
+      (path-ref "2c649003-013f-4d78-b303-4dea6ba43bdf")
     )
     (coin
-      (path
-        (node
-          (x 1472)
-          (y 608)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1472)
-          (y 608)
-          (time 21)
-        )
-      )
+      (path-ref "04e78bdf-ddb3-47a8-8442-75a1908b4686")
     )
     (coin
-      (path
-        (node
-          (x 1472)
-          (y 576)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1472)
-          (y 576)
-          (time 21)
-        )
-      )
+      (path-ref "7d9d75ae-0ac4-4c0f-b567-298abbf5c045")
     )
     (coin
-      (path
-        (node
-          (x 1472)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1472)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "6a3880a6-1209-47c3-a8f3-30240855b293")
     )
     (coin
-      (path
-        (node
-          (x 1472)
-          (y 512)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1472)
-          (y 512)
-          (time 21)
-        )
-      )
+      (path-ref "e985cda0-d2eb-41ad-9ea2-5dd6d9596302")
     )
     (coin
-      (path
-        (node
-          (x 1504)
-          (y 480)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1504)
-          (y 480)
-          (time 21)
-        )
-      )
+      (path-ref "de1e016a-40e0-43ec-aa92-9b6740f1d876")
     )
     (coin
-      (path
-        (node
-          (x 1536)
-          (y 512)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1536)
-          (y 512)
-          (time 21)
-        )
-      )
+      (path-ref "9bf3cfed-f7a9-4d5f-a267-3469bf20b8cc")
     )
     (coin
-      (path
-        (node
-          (x 1536)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1536)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "21254d1a-e864-4696-93ff-ce32ce74d521")
     )
     (coin
-      (path
-        (node
-          (x 1536)
-          (y 576)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1536)
-          (y 576)
-          (time 21)
-        )
-      )
+      (path-ref "6d0e61bd-8b38-4419-a8b1-e49c0ed22fde")
     )
     (coin
-      (path
-        (node
-          (x 1536)
-          (y 608)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1536)
-          (y 608)
-          (time 21)
-        )
-      )
+      (path-ref "9a10e8b3-dd58-4ef1-8906-17c2e62507fc")
     )
     (coin
-      (path
-        (node
-          (x 1504)
-          (y 544)
-        )
-        (node
-          (x 1184)
-          (y 320)
-          (time 11)
-        )
-        (node
-          (x 1184)
-          (y 320)
-        )
-        (node
-          (x 1504)
-          (y 544)
-          (time 21)
-        )
-      )
+      (path-ref "8a4e7acb-b040-4553-847e-bff4bc4deb53")
     )
     (decal
       (z-pos -100)
@@ -1060,6 +224,1018 @@
     )
     (music
       (file "music/wisphunt.ogg")
+    )
+    (path
+      (name "129fd162-46e3-403c-8a60-c5567ed86d40")
+      (path
+        (node
+          (x 960)
+          (y 608)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 960)
+          (y 608)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "f18e0640-7ca4-4c45-b205-e39a80616e7c")
+      (path
+        (node
+          (x 960)
+          (y 576)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 960)
+          (y 576)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "bbb51f45-da46-4e19-bd8d-7015a640600c")
+      (path
+        (node
+          (x 960)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 960)
+          (y 544)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "e80934bc-68ad-4daf-b809-9f501ab43dfc")
+      (path
+        (node
+          (x 992)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 992)
+          (y 544)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "27ef910c-fbce-4b19-9e1d-29a83d6f3e6e")
+      (path
+        (node
+          (x 960)
+          (y 512)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 960)
+          (y 512)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "e0dd8563-fd50-405e-b44d-63a10c59c837")
+      (path
+        (node
+          (x 960)
+          (y 480)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 960)
+          (y 480)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "06c48d02-82b2-4c85-981b-61037472d59e")
+      (path
+        (node
+          (x 992)
+          (y 480)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 992)
+          (y 480)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "2f95dc0a-e70e-4990-977e-8fae9c653e5c")
+      (path
+        (node
+          (x 1024)
+          (y 480)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1024)
+          (y 480)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "93f2a95e-e85b-4bc5-a754-c7bc12d721af")
+      (path
+        (node
+          (x 1088)
+          (y 480)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1088)
+          (y 480)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "3f38673b-2387-4222-a0a0-3141a893d949")
+      (path
+        (node
+          (x 1088)
+          (y 608)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1088)
+          (y 608)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "e5b79ccb-ab3f-43a6-8da3-abdd51d8bd06")
+      (path
+        (node
+          (x 1088)
+          (y 576)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1088)
+          (y 576)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "0e671ca6-2632-4b47-9bbf-ebf2f71f2965")
+      (path
+        (node
+          (x 1088)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1088)
+          (y 544)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "ade3e797-3796-4018-ae70-3439fe87c638")
+      (path
+        (node
+          (x 1088)
+          (y 512)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1088)
+          (y 512)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "ccdf8f71-6e95-46ce-8210-44b082e8ec30")
+      (path
+        (node
+          (x 1152)
+          (y 576)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1152)
+          (y 576)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "91302014-fab8-45b9-99f4-e1455069b03f")
+      (path
+        (node
+          (x 1152)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1152)
+          (y 544)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "8f719572-431b-46ad-83ac-428710d2b4ea")
+      (path
+        (node
+          (x 1152)
+          (y 512)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1152)
+          (y 512)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "bb169d1d-6483-4075-99ad-a106cda7b546")
+      (path
+        (node
+          (x 1184)
+          (y 480)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1184)
+          (y 480)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "37dc165c-642b-4a2d-b0d7-d65b7874135f")
+      (path
+        (node
+          (x 1216)
+          (y 512)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1216)
+          (y 512)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "618d509b-c5d4-4585-90a3-9594acbe6ea7")
+      (path
+        (node
+          (x 1216)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1216)
+          (y 544)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "5429f361-2605-4aea-a46b-7939561745da")
+      (path
+        (node
+          (x 1216)
+          (y 576)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1216)
+          (y 576)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "c2548d3c-b723-426a-ae75-9cbe808c6fc5")
+      (path
+        (node
+          (x 1184)
+          (y 608)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1184)
+          (y 608)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "1532d92c-dcf9-4ce2-a32b-304054481835")
+      (path
+        (node
+          (x 1280)
+          (y 608)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1280)
+          (y 608)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "18c8da7f-8b9e-4209-b5d5-08661b1e52d1")
+      (path
+        (node
+          (x 1280)
+          (y 576)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1280)
+          (y 576)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "277b9452-eb16-4b09-9568-e42cb5e29e3e")
+      (path
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1280)
+          (y 544)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "46e9313c-ee94-4565-9a2e-a8014603dbda")
+      (path
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1280)
+          (y 512)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "b844a1dd-dc09-4d4f-8c52-aa0e5e3843b5")
+      (path
+        (node
+          (x 1280)
+          (y 480)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1280)
+          (y 480)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "29b9c8af-3995-4f84-b764-4e9b351cb2d5")
+      (path
+        (node
+          (x 1312)
+          (y 512)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1312)
+          (y 512)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "0ccd230f-b96b-40d3-8ca9-fda473a7850c")
+      (path
+        (node
+          (x 1344)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1344)
+          (y 544)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "cf543a84-bfd5-40f8-981b-52523721d252")
+      (path
+        (node
+          (x 1376)
+          (y 576)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1376)
+          (y 576)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "034661de-f735-4741-bf8c-76fc86ab43db")
+      (path
+        (node
+          (x 1408)
+          (y 608)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1408)
+          (y 608)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "62f1419c-c711-4fde-bd59-956d3f4614c4")
+      (path
+        (node
+          (x 1408)
+          (y 576)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1408)
+          (y 576)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "3200715b-1ade-476d-9f4a-01f77230b746")
+      (path
+        (node
+          (x 1408)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1408)
+          (y 544)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "f80a0b33-df07-4188-8ba2-8c26ca705215")
+      (path
+        (node
+          (x 1408)
+          (y 512)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1408)
+          (y 512)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "2c649003-013f-4d78-b303-4dea6ba43bdf")
+      (path
+        (node
+          (x 1408)
+          (y 480)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1408)
+          (y 480)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "04e78bdf-ddb3-47a8-8442-75a1908b4686")
+      (path
+        (node
+          (x 1472)
+          (y 608)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1472)
+          (y 608)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "7d9d75ae-0ac4-4c0f-b567-298abbf5c045")
+      (path
+        (node
+          (x 1472)
+          (y 576)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1472)
+          (y 576)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "6a3880a6-1209-47c3-a8f3-30240855b293")
+      (path
+        (node
+          (x 1472)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1472)
+          (y 544)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "e985cda0-d2eb-41ad-9ea2-5dd6d9596302")
+      (path
+        (node
+          (x 1472)
+          (y 512)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1472)
+          (y 512)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "de1e016a-40e0-43ec-aa92-9b6740f1d876")
+      (path
+        (node
+          (x 1504)
+          (y 480)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1504)
+          (y 480)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "9bf3cfed-f7a9-4d5f-a267-3469bf20b8cc")
+      (path
+        (node
+          (x 1536)
+          (y 512)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1536)
+          (y 512)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "21254d1a-e864-4696-93ff-ce32ce74d521")
+      (path
+        (node
+          (x 1536)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1536)
+          (y 544)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "6d0e61bd-8b38-4419-a8b1-e49c0ed22fde")
+      (path
+        (node
+          (x 1536)
+          (y 576)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1536)
+          (y 576)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "9a10e8b3-dd58-4ef1-8906-17c2e62507fc")
+      (path
+        (node
+          (x 1536)
+          (y 608)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1536)
+          (y 608)
+          (time 21)
+        )
+      )
+    )
+    (path
+      (name "8a4e7acb-b040-4553-847e-bff4bc4deb53")
+      (path
+        (node
+          (x 1504)
+          (y 544)
+        )
+        (node
+          (x 1184)
+          (y 320)
+          (time 11)
+        )
+        (node
+          (x 1184)
+          (y 320)
+        )
+        (node
+          (x 1504)
+          (y 544)
+          (time 21)
+        )
+      )
     )
     (powerup
       (disable-physics #t)

@@ -40,6 +40,30 @@
       (x 2657)
       (y 902)
     )
+    (path
+      (name "790dd27c-a70f-4540-b1d4-9b35db7291f2")
+      (path
+        (node
+          (x 96)
+          (y 1056)
+          (time 3)
+        )
+        (node
+          (x 96)
+          (y 672)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "731b140e-9a39-46fe-bbe5-6c120892644b")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (snowball
       (x 2147)
       (y 964)
@@ -213,18 +237,7 @@ BackgroundIce.fade (0.0, 1);")
       (alpha 0)
       (z-pos 10)
       (name "Escalator")
-      (path
-        (node
-          (x 96)
-          (y 1056)
-          (time 3)
-        )
-        (node
-          (x 96)
-          (y 672)
-          (time 3)
-        )
-      )
+      (path-ref "790dd27c-a70f-4540-b1d4-9b35db7291f2")
       (width 4)
       (height 1)
       (tiles
@@ -415,12 +428,7 @@ BackgroundIce.fade (0.0, 1);")
       (alpha 0)
       (z-pos 11)
       (name "Lava")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "731b140e-9a39-46fe-bbe5-6c120892644b")
       (width 100)
       (height 35)
       (tiles

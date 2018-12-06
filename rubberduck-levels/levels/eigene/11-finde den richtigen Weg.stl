@@ -282,6 +282,19 @@
     (music
       (file "music/treeboss.music")
     )
+    (path
+      (name "bcbbd0d4-030a-4972-80db-1830173716f0")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y 128)
+        )
+      )
+    )
     (scripttrigger
       (script "wand.goto_node(0);")
       (button #f)
@@ -597,16 +610,7 @@
       (solid #t)
       (z-pos 0)
       (name "wand")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 0)
-          (y 128)
-        )
-      )
+      (path-ref "bcbbd0d4-030a-4972-80db-1830173716f0")
       (width 120)
       (height 60)
       (tiles

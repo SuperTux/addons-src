@@ -69,54 +69,83 @@
       (running #f)
       (name "krava0")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 544)
-          (y 544)
-        )
-        (node
-          (x 544)
-          (y 416)
-          (time 0.2)
-        )
-      )
+      (path-ref "b45ec4fc-1d4b-499b-98bb-1ee567257d15")
     )
     (platform
       (running #f)
       (name "krava1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 576)
-          (y 544)
-        )
-        (node
-          (x 576)
-          (y 416)
-          (time 0.2)
-        )
-      )
+      (path-ref "0eee521b-29a2-4f72-90d8-650bd83ff796")
     )
     (platform
       (running #f)
       (name "krava2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 608)
-          (y 544)
-        )
-        (node
-          (x 608)
-          (y 416)
-          (time 0.2)
-        )
-      )
+      (path-ref "c4392573-b739-489a-9410-ca3435bfab7c")
     )
     (platform
       (running #f)
       (name "krava3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "17f3a55b-9e49-4172-bc7f-97454cf70417")
+    )
+    (platform
+      (running #f)
+      (name "krava4")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "e949f73b-47dd-40b4-a25c-a5f3f1b6c869")
+    )
+    (gradient
+      (top_color 0 0 1)
+      (bottom_color 0 0 1)
+    )
+    (music
+      (file "music/cave.ogg")
+    )
+    (path
+      (name "b45ec4fc-1d4b-499b-98bb-1ee567257d15")
+      (path
+        (node
+          (x 544)
+          (y 544)
+        )
+        (node
+          (x 544)
+          (y 416)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "0eee521b-29a2-4f72-90d8-650bd83ff796")
+      (path
+        (node
+          (x 576)
+          (y 544)
+        )
+        (node
+          (x 576)
+          (y 416)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "c4392573-b739-489a-9410-ca3435bfab7c")
+      (path
+        (node
+          (x 608)
+          (y 544)
+        )
+        (node
+          (x 608)
+          (y 416)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "17f3a55b-9e49-4172-bc7f-97454cf70417")
       (path
         (node
           (x 640)
@@ -129,10 +158,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "krava4")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "e949f73b-47dd-40b4-a25c-a5f3f1b6c869")
       (path
         (node
           (x 7584)
@@ -143,13 +170,6 @@
           (y 704)
         )
       )
-    )
-    (gradient
-      (top_color 0 0 1)
-      (bottom_color 0 0 1)
-    )
-    (music
-      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "krava0.goto_node(0)

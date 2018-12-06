@@ -26,23 +26,1163 @@
       (running #f)
       (name "stand1")
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 1920)
-          (y 826)
-          (time 2)
-        )
-        (node
-          (x 1920)
-          (y 840)
-          (time 2)
-        )
-      )
+      (path-ref "d7e22a37-872b-4efb-973d-cbaa1a0a988a")
     )
     (platform
       (running #f)
       (name "stand2")
       (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "21de3eec-8372-48a7-9c6d-c91668a4c2b3")
+    )
+    (platform
+      (running #f)
+      (name "plat")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "e58d38be-b6ec-4b29-81ad-70c29a9a93a6")
+    )
+    (platform
+      (running #f)
+      (name "penny")
+      (sprite "images/creatures/penny/penny.sprite")
+      (path-ref "8b31e980-4e52-40b7-b950-444a6950e3e2")
+    )
+    (platform
+      (running #f)
+      (name "bomb")
+      (sprite "images/creatures/mr_bomb/bomb.sprite")
+      (path-ref "e44cd3fd-c992-49a6-b481-1e49e508f01a")
+    )
+    (platform
+      (running #f)
+      (name "flyer1")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "95ed91f9-7968-4aad-9a71-78615083e180")
+    )
+    (platform
+      (running #f)
+      (name "flyerbonus3")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "fcc21714-0f3c-4e62-9017-5e0e6fef3876")
+    )
+    (platform
+      (running #f)
+      (name "flyer6")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "28516436-7552-4d18-b2d1-e4448cd7b9a9")
+    )
+    (platform
+      (running #f)
+      (name "flyer2")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "c0aa88ca-76dd-44dd-a2ab-41db1cfdbfab")
+    )
+    (platform
+      (running #f)
+      (name "flyer3")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "1a259026-3a9c-4fb0-a354-b1c2f0b2eb38")
+    )
+    (platform
+      (running #f)
+      (name "flyer4")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "7f82cc92-c1c1-416a-8aef-255ed6e3d4fb")
+    )
+    (platform
+      (running #f)
+      (name "flyer5")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "435c6e91-ab8f-4b37-ab98-b0941a0ee6a7")
+    )
+    (platform
+      (running #f)
+      (name "flyerbonus")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "1e9c9c6c-7164-45bd-a527-3697a4039a46")
+    )
+    (platform
+      (running #f)
+      (name "Krosh")
+      (sprite "images/creatures/icecrusher/krosh.sprite")
+      (path-ref "c2bd842d-1cc3-47d4-82c5-8be0d6b189de")
+    )
+    (platform
+      (running #f)
+      (name "flyerkrosh1")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "3f96f8aa-4cc7-49c0-97b4-591be313c081")
+    )
+    (platform
+      (running #f)
+      (name "flyerkrosh2")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "4acca7fc-93f8-4f6b-a752-5770193792a3")
+    )
+    (platform
+      (running #f)
+      (name "flyerbonus2")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (path-ref "fd424108-a718-4038-bc2a-4873109a1f4f")
+    )
+    (gradient
+      (top_color 0.05360495 0.05198749 0.195285)
+      (bottom_color 0.04792859 0.1054551 0.3462119)
+    )
+    (hurting_platform
+      (running #f)
+      (name "f8b")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "a5b7ad98-8b74-4f69-9757-4b94e7cc9fcb")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f9h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "07591465-c991-42c7-a528-f30bef12b3d1")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f11h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "02ef4608-1faf-4b14-bb15-67157b0c4b49")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f13h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "2d0fc8d7-c5a2-44f9-badb-9259c5bf5676")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f7h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "9dd008b2-65e5-4bb8-be9b-d1bac58ed063")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f14h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "66c964fd-4e53-4220-83b0-016d4bc1f3bf")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f3h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "15f49346-4f53-425b-9dac-7634c4ae2ae5")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f5h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "b8ed1c17-9374-4288-a6ab-aceac1c07f24")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f15h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "bedafa63-cf94-4426-91c6-1d4f0894a887")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f5")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "c84314a1-9891-4ade-ae85-1f5d9f4117b7")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f6")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "adeea3ca-fe3a-4659-afd3-a5500485f1af")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f7")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "bb59f27b-0c96-4214-be79-0903ac51ddf3")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f4")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "ef40558e-5709-413f-8821-0d8a3d8a21c7")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f1")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "5ef76620-e3e1-4001-a499-e90b0e3cf99d")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f2")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "d50cea70-7392-4708-a1f1-0d3ea5a0c45b")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f3")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "98a5c1a3-0385-4fd0-8c94-4daca01728df")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f8")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "37bb9a72-7e3a-4cb0-8f3f-3baacf43ef4f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f7b")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "ce074f30-58cd-4bcb-823a-3dc878e9e063")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f6b")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "83fa0fd6-cf98-46c6-b196-8f1d8a3d85e4")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f5b")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "1bb777b0-631b-4c09-bf23-ffb174875e3b")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f4b")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "8774e8a6-cb11-495d-98f4-8043d4a97768")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f3b")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "aeae9acb-b43f-4d45-99bf-4c59f75e2061")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f2b")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "08bfab07-d76f-459a-b648-1d19d59f616c")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f1b")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "f6f5ec56-b024-4778-8356-fc6fab7ed269")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1b")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "9fd8f56c-9cd5-4cf7-ad7d-bcd818ed7146")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3xe")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "6c372e26-6d5d-46b1-a755-5caf4f7c44d4")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xl")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "e674b039-8175-4b78-a3d0-4c0722636abf")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1d")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "a4325286-01ec-43aa-9ebf-bad7c38ec543")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2ag")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "8453bd2b-96bf-41e6-8201-957882797bfc")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2xh")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "6506c946-eec8-4052-a245-f3b7333d5fb8")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2c")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "d65e532c-dafa-4336-9367-f35218eedbb3")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1e")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "d22e5848-4569-4453-ad87-c21ce9516277")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1g")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "db94603e-59f0-4764-8bdd-c120bb0783ba")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f1h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "f535de90-1cb4-4758-9c1d-f69bbea8a90c")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f2h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "95af3fbe-108b-45c8-aded-90862d5d4d2c")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f4h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "99c7fca5-de8e-4b12-a9fe-ad26ad980ab5")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f6h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "85f05e4a-eef7-490b-8aaa-d75adb012c7d")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f8h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "66fc766c-5c29-44d9-8b89-9fc624c4ca6f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f10h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "4feb9a7a-ffd5-4344-9b64-2073bc262ecb")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f12h")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "18f6fe67-cf29-4851-972f-f22e51330f69")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f9c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "cddfca66-217a-45bc-a106-219ff6095a2c")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f11c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "e1af945b-d230-4543-9772-aeca93059c93")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f13c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "cb267498-73c2-4cfd-9db3-7095202e35fe")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f7c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "f4703d9d-ca27-4d2d-aa42-02b5be581727")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f14c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "53c2129f-7e62-4a86-9f77-d6e996426257")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f3c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "d2eff1a1-dbde-4247-96cb-6aeb5da65525")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f5c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "0810e01f-9405-4a5f-abb6-67fbca725fa1")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f15c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "df2534cc-7f2a-48a1-852a-519c3dce42cc")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f1c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "7e48e1e1-1317-4cf9-bc9e-e6cca68d2480")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f2c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "b10b81ae-cd55-4d45-bcc4-6d00b66b693a")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f4c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "529e0cc6-1673-4a1e-9ad5-1fc57ccccd1f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f6c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "a51ae5a4-6349-46a6-a08f-4e9f818f416f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f10c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "0d10b4df-7a4c-4ab4-b23b-d2c932eb55a6")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f12c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "2a3402ac-b4f0-40eb-9b58-2fa14e4ee1d6")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f8c")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "91d39b8e-9ec0-47e6-98bf-ee46ef56fdcf")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f9d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "1deb2492-54f9-4cc4-be86-1e8a7d1a517b")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f11d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "7aa29359-e69e-4dc8-ae3c-8b99af495be9")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f13d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "0d156d2a-067c-4428-87ee-b33bbfc1cabb")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f7d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "ffc8c904-7be5-481d-b657-6b35b337940f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f14d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "e911b65b-a17e-494e-8da0-f5f046037234")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f3d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "252531d8-27e2-4e83-9729-0427b800d25d")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f5d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "75a173c7-201d-456a-b1a1-555cfa8f08b7")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f15d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "bc95ab9f-a388-4ed2-8685-c69a01a72729")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f1d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "6ad33c82-34ab-47e3-b6f1-72447b9582ed")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f2d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "bfe45f74-cd55-4246-b26c-044cdf161e0c")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f4d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "fd4c3fb8-07b9-40ae-a8fd-87b72cc033ee")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f6d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "54904843-1def-4918-b7fd-f203e8a14fdd")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f8d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "3d494578-7964-40a9-be8d-76a5ec30c450")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f10d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "a2804406-0f8b-4cf5-9849-e0aec39385a7")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f12d")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "6e4681a1-e64b-4e33-ae44-f2c67c7de41c")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f9g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "d0b3e3b4-2d19-4122-8439-3d689794a143")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f11g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "7b15e646-7d2b-45b1-9c03-d2df1fa347f7")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f13g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "d09bb767-97d1-4cbb-bf26-76b9e819b775")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f7g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "0da87993-f1d8-4371-b458-53fa1e338200")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f14g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "67d4b636-5187-46ab-8331-7d7ad5bc4201")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f3g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "c87dce60-c870-4b6a-a9c9-2bc00473ebd0")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f5g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "789a0fc1-856f-4aeb-ada3-67bb9a56470a")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f15g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "14aee314-7f34-4162-ac83-cf5d6b3908fb")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f1g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "b72eae8a-cea2-4d5d-a678-c962611a6dc6")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f2g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "9b94779c-c353-4860-88cf-8db29221b859")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f4g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "16e6d7f6-e9f5-41ee-9ff0-48b48e7aebee")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f6g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "0b2848ae-2cd9-4625-8317-f4ba622ec732")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f8g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "28d1bcf5-57cd-4dfc-9340-5e40b4809635")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f10g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "8e8741e8-ba67-49d5-9dac-73219eac1542")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f12g")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "4e468bd9-3e83-4ea2-88f2-f045f563869e")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2d")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "28a147b8-66c1-486c-a8a0-45e915b68720")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1h")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "085ddf80-3cfe-4892-8ce9-2ab299ef93d6")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1f")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "615b2789-d40d-46f1-af86-4afee628ec74")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1c")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "fa31fbd2-7240-42a3-a931-55801cbd4e5e")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1i")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "7ee9cc3d-0e7f-4a47-b979-6513eeeb9aac")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1j")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "26437481-a624-43b8-b65e-82438da50952")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2a")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "ea569468-3296-4c13-bfa7-1334b095f19f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2e")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "5d195e81-2d89-4dec-9ff2-56dc466f7337")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3ab")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "e19ffd89-9059-4e90-a16d-1b30a7d60aee")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3b")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "94708ff5-bcd9-454f-b086-ecca7471e9cc")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3a")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "5b40a1b5-af6a-4b77-badb-f54458241d9c")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3c")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "ef5a5909-b58f-49f7-a15d-1d98a5f1fa3f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1k")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "66fbbf0e-2d29-45f7-a345-42218915cdda")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2f")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "a838c45c-b7ed-40ee-854a-706f1c4d03bc")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1aa")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "b772abc3-fb29-48d8-a83c-c3214d98703c")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1ab")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "5173ed1f-938d-483a-b044-236382ade0af")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1ac")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "6c9f2a9d-8fb8-4770-958d-9b113af0cf68")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2aa")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "0d34b7e6-e371-476d-bdc1-2b951cd9b3ce")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2ab")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "ff6a54f6-18eb-46d8-ac1d-03746545520e")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2ac")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "5a2d7c0a-38d2-4f22-a562-74deed843b17")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1ag")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "1af4253f-acd0-4ba3-af67-38e8c0bbe952")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2ad")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "19d2a737-94ed-4f9c-be0d-0afdc9c917c6")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3aa")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "7deec1ea-a7c4-4b5e-963a-f41d65964d85")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1ad")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "d6e12649-c504-4307-8fde-8f55a8e51092")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1af")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "bb92b5dd-6506-4c5f-9212-cebf0462df15")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2ae")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "cac1d712-a46e-4e85-ae53-10788039ac91")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2af")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "791d713c-778e-4994-98eb-2d01634df82d")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f9f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "baf3cad7-f673-4de5-b944-c516cce77d0d")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f11f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "02003d22-5389-4c7e-8fd2-4c024c8b62ed")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f13f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "fe895a9d-95c3-4644-bc6a-94808da78f2b")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f7f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "c8df7b76-0210-4c96-bda5-252de0f28ba1")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f14f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "3248f20f-de38-443e-8260-e95dce025983")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f3f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "61b7e57c-dc4e-462f-8eb6-b4d4ab4dcfbf")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f5f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "a35f586a-d50c-4268-9cae-f1aac4f3b859")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f15f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "7384a815-22f3-4f48-aef9-86055ea70430")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f1f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "aeedee0b-7556-475c-b3d1-b4b5360ceaf8")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f2f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "f584aeee-e8d0-497e-a834-55f390b1b88b")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f4f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "454b8f3d-0fef-4a5f-a8d6-020e1637f6c0")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f6f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "e5175166-7bdd-47b2-8cd6-67252af81aff")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f8f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "6501df6b-a769-4c7c-b7ce-d0915907b990")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f10f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "6a798574-af54-4764-861a-4c4618e48498")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f12f")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "b8a6e65f-fdaa-4eb9-bdb7-cd37a8634504")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f9e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "5ebd32b1-3170-4830-a1f6-d57e98de619b")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f11e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "bd3ddfcb-59fe-434d-9601-8d4871d44234")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f13e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "2cc7765a-7c54-427a-9d8f-33d5893b3c10")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f7e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "c531b927-3ec5-4e56-9993-02c96a9d3a48")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f14e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "71cf50fb-625e-42b9-b3b1-e9e20b262622")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f3e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "e0757e10-3f72-44f9-9591-06c57942f2ea")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f5e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "f275be7a-06a0-42f5-92db-78b3336ab93a")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f15e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "1a554dae-953b-4c03-98ce-2eb6b7868e3f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f1e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "68466204-ffef-47ae-bde0-166a1d8069e2")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f2e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "d4eb91b0-2d0e-4f41-8d57-c5e8087a0423")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f4e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "c7f8dbf0-05e8-45c4-baf4-9fa0ad5dbe45")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f6e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "ec449bbc-861f-4887-8e44-ba0adf51409f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f8e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "f59ac711-01bf-49eb-8d1d-3af961b1c606")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f10e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "9084223d-841c-467c-9128-564f03a5c791")
+    )
+    (hurting_platform
+      (running #f)
+      (name "f12e")
+      (sprite "images/creatures/fish/fish.sprite")
+      (path-ref "c4f0adb8-2c19-43d0-a1d7-ca8cf1cbf1bf")
+    )
+    (hurting_platform
+      (running #f)
+      (name "POWER3")
+      (sprite "images/objects/particles/flameshotbig.sprite")
+      (path-ref "40a37722-e7c8-46e9-92f0-5fcf0ca13aa8")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1ae")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "db6bcecf-c33e-4cb5-91a3-77f5a8b6083f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3ab")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "acd3f056-ae07-4940-9056-72849f3cab0e")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1a")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "7a3733c0-a8db-4a24-b1f4-09d64b767113")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2b")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "92f7693d-63cd-4c52-b8f4-ad3a174b761f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "POWER2")
+      (sprite "images/objects/particles/flameshotbig.sprite")
+      (path-ref "8f04645f-6333-42eb-a325-183b5a0c602f")
+    )
+    (hurting_platform
+      (running #f)
+      (name "POWER4")
+      (sprite "images/objects/particles/flameshotbig.sprite")
+      (path-ref "fa2cd78b-2c24-4327-9a95-81c50aa80942")
+    )
+    (hurting_platform
+      (running #f)
+      (name "POWER1")
+      (sprite "images/objects/particles/flameshotbig.sprite")
+      (path-ref "9c9cbf96-8fd9-472d-841f-6a1882b28a3a")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3xa")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "6f94bc03-7c79-44b4-93d8-fef72be3384e")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xj")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "a03c9cd9-d461-4fb7-8375-a2f761198c82")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2xd")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "2fa358e2-bc88-4cf3-848b-ff1f97c4caea")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3xb")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "189051f8-707e-4d02-bead-89a467f22c6b")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xk")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "1960aebc-0488-4a67-a9c4-2f1088d70a04")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2xg")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "b7515d1d-a03a-4dba-8b33-b62cd8a6a770")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xi")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "a81f7165-437b-43fa-a75d-51826512cb74")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2xc")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "01338821-e4a0-4f24-a3dd-985f842cddd0")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xg")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "2a1d050a-c454-4b13-8bb2-7a3c680098d7")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2xa")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "9e833da9-d224-4670-aa03-9ed9c5985704")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xh")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "b48eef3f-5dbc-45a0-aef2-9eaa359a33bc")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2xb")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "28bc7cc3-3dc8-4761-ba33-f38802b53aa1")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xf")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "b7d6abb6-db45-40d0-b763-88f962084eff")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xd")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "8b9cab0e-9b58-4517-957c-5b451b3c4137")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xe")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "08a0ae4c-10a7-44ce-9a46-f92e21be0cec")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xc")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "a5e736cf-0545-4c74-8e28-b4bdf569c895")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xa")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "2d48711c-801a-44ae-a38f-b08bb74367f6")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power1xb")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "3fa8bfd3-4047-4306-98b1-8b84bee058b4")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2xf")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "dfb3229c-de5c-4a0f-bb19-90f51fb9dfd2")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power2xe")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "26606b10-5d78-49bb-aee1-01d1e2f762e4")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3xc")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "f2497ef8-6e43-4290-a7ac-efddfe2fb22b")
+    )
+    (hurting_platform
+      (running #f)
+      (name "power3xd")
+      (sprite "images/objects/particles/flameshot.sprite")
+      (path-ref "f3f3a9f4-979d-4d60-9458-d3f0f6debca5")
+    )
+    (invisible_wall
+      (width 32)
+      (height 712)
+      (x 1472)
+      (y 500)
+    )
+    (path
+      (name "d7e22a37-872b-4efb-973d-cbaa1a0a988a")
+      (path
+        (node
+          (x 1920)
+          (y 826)
+          (time 2)
+        )
+        (node
+          (x 1920)
+          (y 840)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "21de3eec-8372-48a7-9c6d-c91668a4c2b3")
       (path
         (node
           (x 2176)
@@ -56,10 +1196,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "plat")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "e58d38be-b6ec-4b29-81ad-70c29a9a93a6")
       (path
         (node
           (x 1792)
@@ -73,10 +1211,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "penny")
-      (sprite "images/creatures/penny/penny.sprite")
+    (path
+      (name "8b31e980-4e52-40b7-b950-444a6950e3e2")
       (path
         (node
           (x 1856)
@@ -105,10 +1241,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "bomb")
-      (sprite "images/creatures/mr_bomb/bomb.sprite")
+    (path
+      (name "e44cd3fd-c992-49a6-b481-1e49e508f01a")
       (path
         (node
           (x 1824.657)
@@ -151,10 +1285,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyer1")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "95ed91f9-7968-4aad-9a71-78615083e180")
       (path
         (mode "pingpong")
         (node
@@ -186,10 +1318,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyerbonus3")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "fcc21714-0f3c-4e62-9017-5e0e6fef3876")
       (path
         (mode "oneshot")
         (node
@@ -217,10 +1347,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyer6")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "28516436-7552-4d18-b2d1-e4448cd7b9a9")
       (path
         (node
           (x 3388)
@@ -251,10 +1379,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyer2")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "c0aa88ca-76dd-44dd-a2ab-41db1cfdbfab")
       (path
         (node
           (x 3388)
@@ -285,10 +1411,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyer3")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "1a259026-3a9c-4fb0-a354-b1c2f0b2eb38")
       (path
         (node
           (x 3388)
@@ -319,10 +1443,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyer4")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "7f82cc92-c1c1-416a-8aef-255ed6e3d4fb")
       (path
         (node
           (x 3388)
@@ -353,10 +1475,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyer5")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "435c6e91-ab8f-4b37-ab98-b0941a0ee6a7")
       (path
         (node
           (x 3388)
@@ -387,10 +1507,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyerbonus")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "1e9c9c6c-7164-45bd-a527-3697a4039a46")
       (path
         (mode "oneshot")
         (node
@@ -418,10 +1536,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "Krosh")
-      (sprite "images/creatures/icecrusher/krosh.sprite")
+    (path
+      (name "c2bd842d-1cc3-47d4-82c5-8be0d6b189de")
       (path
         (node
           (x 3232)
@@ -448,10 +1564,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyerkrosh1")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "3f96f8aa-4cc7-49c0-97b4-591be313c081")
       (path
         (node
           (x 3232)
@@ -469,10 +1583,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyerkrosh2")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "4acca7fc-93f8-4f6b-a752-5770193792a3")
       (path
         (node
           (x 3328)
@@ -490,10 +1602,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "flyerbonus2")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+    (path
+      (name "fd424108-a718-4038-bc2a-4873109a1f4f")
       (path
         (mode "oneshot")
         (node
@@ -521,14 +1631,8 @@
         )
       )
     )
-    (gradient
-      (top_color 0.05360495 0.05198749 0.195285)
-      (bottom_color 0.04792859 0.1054551 0.3462119)
-    )
-    (hurting_platform
-      (running #f)
-      (name "f8b")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "a5b7ad98-8b74-4f69-9757-4b94e7cc9fcb")
       (path
         (mode "oneshot")
         (node
@@ -543,10 +1647,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f9h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "07591465-c991-42c7-a528-f30bef12b3d1")
       (path
         (mode "oneshot")
         (node
@@ -561,10 +1663,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f11h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "02ef4608-1faf-4b14-bb15-67157b0c4b49")
       (path
         (mode "oneshot")
         (node
@@ -579,10 +1679,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f13h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "2d0fc8d7-c5a2-44f9-badb-9259c5bf5676")
       (path
         (mode "oneshot")
         (node
@@ -597,10 +1695,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f7h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "9dd008b2-65e5-4bb8-be9b-d1bac58ed063")
       (path
         (mode "oneshot")
         (node
@@ -615,10 +1711,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f14h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "66c964fd-4e53-4220-83b0-016d4bc1f3bf")
       (path
         (mode "oneshot")
         (node
@@ -633,10 +1727,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f3h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "15f49346-4f53-425b-9dac-7634c4ae2ae5")
       (path
         (mode "oneshot")
         (node
@@ -651,10 +1743,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f5h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "b8ed1c17-9374-4288-a6ab-aceac1c07f24")
       (path
         (mode "oneshot")
         (node
@@ -669,10 +1759,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f15h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "bedafa63-cf94-4426-91c6-1d4f0894a887")
       (path
         (mode "oneshot")
         (node
@@ -687,10 +1775,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f5")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "c84314a1-9891-4ade-ae85-1f5d9f4117b7")
       (path
         (mode "oneshot")
         (node
@@ -705,10 +1791,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f6")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "adeea3ca-fe3a-4659-afd3-a5500485f1af")
       (path
         (mode "oneshot")
         (node
@@ -723,10 +1807,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f7")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "bb59f27b-0c96-4214-be79-0903ac51ddf3")
       (path
         (mode "oneshot")
         (node
@@ -741,10 +1823,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f4")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "ef40558e-5709-413f-8821-0d8a3d8a21c7")
       (path
         (mode "oneshot")
         (node
@@ -759,10 +1839,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f1")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "5ef76620-e3e1-4001-a499-e90b0e3cf99d")
       (path
         (mode "oneshot")
         (node
@@ -777,10 +1855,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f2")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "d50cea70-7392-4708-a1f1-0d3ea5a0c45b")
       (path
         (mode "oneshot")
         (node
@@ -795,10 +1871,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f3")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "98a5c1a3-0385-4fd0-8c94-4daca01728df")
       (path
         (mode "oneshot")
         (node
@@ -813,10 +1887,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f8")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "37bb9a72-7e3a-4cb0-8f3f-3baacf43ef4f")
       (path
         (mode "oneshot")
         (node
@@ -831,10 +1903,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f7b")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "ce074f30-58cd-4bcb-823a-3dc878e9e063")
       (path
         (mode "oneshot")
         (node
@@ -849,10 +1919,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f6b")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "83fa0fd6-cf98-46c6-b196-8f1d8a3d85e4")
       (path
         (mode "oneshot")
         (node
@@ -867,10 +1935,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f5b")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "1bb777b0-631b-4c09-bf23-ffb174875e3b")
       (path
         (mode "oneshot")
         (node
@@ -885,10 +1951,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f4b")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "8774e8a6-cb11-495d-98f4-8043d4a97768")
       (path
         (mode "oneshot")
         (node
@@ -903,10 +1967,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f3b")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "aeae9acb-b43f-4d45-99bf-4c59f75e2061")
       (path
         (mode "oneshot")
         (node
@@ -921,10 +1983,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f2b")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "08bfab07-d76f-459a-b648-1d19d59f616c")
       (path
         (mode "oneshot")
         (node
@@ -939,10 +1999,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f1b")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "f6f5ec56-b024-4778-8356-fc6fab7ed269")
       (path
         (mode "oneshot")
         (node
@@ -957,10 +2015,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1b")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "9fd8f56c-9cd5-4cf7-ad7d-bcd818ed7146")
       (path
         (node
           (x 1504)
@@ -1014,10 +2070,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3xe")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "6c372e26-6d5d-46b1-a755-5caf4f7c44d4")
       (path
         (node
           (x 1504)
@@ -1071,10 +2125,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xl")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "e674b039-8175-4b78-a3d0-4c0722636abf")
       (path
         (node
           (x 1504)
@@ -1128,10 +2180,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1d")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "a4325286-01ec-43aa-9ebf-bad7c38ec543")
       (path
         (node
           (x 1504)
@@ -1185,10 +2235,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2ag")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "8453bd2b-96bf-41e6-8201-957882797bfc")
       (path
         (node
           (x 1504)
@@ -1242,10 +2290,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2xh")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "6506c946-eec8-4052-a245-f3b7333d5fb8")
       (path
         (node
           (x 1504)
@@ -1299,10 +2345,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2c")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "d65e532c-dafa-4336-9367-f35218eedbb3")
       (path
         (node
           (x 1504)
@@ -1356,10 +2400,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1e")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "d22e5848-4569-4453-ad87-c21ce9516277")
       (path
         (node
           (x 1504)
@@ -1413,10 +2455,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1g")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "db94603e-59f0-4764-8bdd-c120bb0783ba")
       (path
         (node
           (x 1504)
@@ -1470,10 +2510,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f1h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "f535de90-1cb4-4758-9c1d-f69bbea8a90c")
       (path
         (mode "oneshot")
         (node
@@ -1488,10 +2526,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f2h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "95af3fbe-108b-45c8-aded-90862d5d4d2c")
       (path
         (mode "oneshot")
         (node
@@ -1506,10 +2542,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f4h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "99c7fca5-de8e-4b12-a9fe-ad26ad980ab5")
       (path
         (mode "oneshot")
         (node
@@ -1524,10 +2558,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f6h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "85f05e4a-eef7-490b-8aaa-d75adb012c7d")
       (path
         (mode "oneshot")
         (node
@@ -1542,10 +2574,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f8h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "66fc766c-5c29-44d9-8b89-9fc624c4ca6f")
       (path
         (mode "oneshot")
         (node
@@ -1560,10 +2590,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f10h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "4feb9a7a-ffd5-4344-9b64-2073bc262ecb")
       (path
         (mode "oneshot")
         (node
@@ -1578,10 +2606,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f12h")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "18f6fe67-cf29-4851-972f-f22e51330f69")
       (path
         (mode "oneshot")
         (node
@@ -1596,10 +2622,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f9c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "cddfca66-217a-45bc-a106-219ff6095a2c")
       (path
         (mode "oneshot")
         (node
@@ -1614,10 +2638,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f11c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "e1af945b-d230-4543-9772-aeca93059c93")
       (path
         (mode "oneshot")
         (node
@@ -1632,10 +2654,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f13c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "cb267498-73c2-4cfd-9db3-7095202e35fe")
       (path
         (mode "oneshot")
         (node
@@ -1650,10 +2670,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f7c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "f4703d9d-ca27-4d2d-aa42-02b5be581727")
       (path
         (mode "oneshot")
         (node
@@ -1668,10 +2686,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f14c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "53c2129f-7e62-4a86-9f77-d6e996426257")
       (path
         (mode "oneshot")
         (node
@@ -1686,10 +2702,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f3c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "d2eff1a1-dbde-4247-96cb-6aeb5da65525")
       (path
         (mode "oneshot")
         (node
@@ -1704,10 +2718,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f5c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "0810e01f-9405-4a5f-abb6-67fbca725fa1")
       (path
         (mode "oneshot")
         (node
@@ -1722,10 +2734,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f15c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "df2534cc-7f2a-48a1-852a-519c3dce42cc")
       (path
         (mode "oneshot")
         (node
@@ -1740,10 +2750,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f1c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "7e48e1e1-1317-4cf9-bc9e-e6cca68d2480")
       (path
         (mode "oneshot")
         (node
@@ -1758,10 +2766,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f2c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "b10b81ae-cd55-4d45-bcc4-6d00b66b693a")
       (path
         (mode "oneshot")
         (node
@@ -1776,10 +2782,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f4c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "529e0cc6-1673-4a1e-9ad5-1fc57ccccd1f")
       (path
         (mode "oneshot")
         (node
@@ -1794,10 +2798,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f6c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "a51ae5a4-6349-46a6-a08f-4e9f818f416f")
       (path
         (mode "oneshot")
         (node
@@ -1812,10 +2814,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f10c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "0d10b4df-7a4c-4ab4-b23b-d2c932eb55a6")
       (path
         (mode "oneshot")
         (node
@@ -1830,10 +2830,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f12c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "2a3402ac-b4f0-40eb-9b58-2fa14e4ee1d6")
       (path
         (mode "oneshot")
         (node
@@ -1848,10 +2846,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f8c")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "91d39b8e-9ec0-47e6-98bf-ee46ef56fdcf")
       (path
         (mode "oneshot")
         (node
@@ -1866,10 +2862,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f9d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "1deb2492-54f9-4cc4-be86-1e8a7d1a517b")
       (path
         (mode "oneshot")
         (node
@@ -1884,10 +2878,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f11d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "7aa29359-e69e-4dc8-ae3c-8b99af495be9")
       (path
         (mode "oneshot")
         (node
@@ -1902,10 +2894,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f13d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "0d156d2a-067c-4428-87ee-b33bbfc1cabb")
       (path
         (mode "oneshot")
         (node
@@ -1920,10 +2910,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f7d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "ffc8c904-7be5-481d-b657-6b35b337940f")
       (path
         (mode "oneshot")
         (node
@@ -1938,10 +2926,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f14d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "e911b65b-a17e-494e-8da0-f5f046037234")
       (path
         (mode "oneshot")
         (node
@@ -1956,10 +2942,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f3d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "252531d8-27e2-4e83-9729-0427b800d25d")
       (path
         (mode "oneshot")
         (node
@@ -1974,10 +2958,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f5d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "75a173c7-201d-456a-b1a1-555cfa8f08b7")
       (path
         (mode "oneshot")
         (node
@@ -1992,10 +2974,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f15d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "bc95ab9f-a388-4ed2-8685-c69a01a72729")
       (path
         (mode "oneshot")
         (node
@@ -2010,10 +2990,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f1d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "6ad33c82-34ab-47e3-b6f1-72447b9582ed")
       (path
         (mode "oneshot")
         (node
@@ -2028,10 +3006,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f2d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "bfe45f74-cd55-4246-b26c-044cdf161e0c")
       (path
         (mode "oneshot")
         (node
@@ -2046,10 +3022,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f4d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "fd4c3fb8-07b9-40ae-a8fd-87b72cc033ee")
       (path
         (mode "oneshot")
         (node
@@ -2064,10 +3038,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f6d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "54904843-1def-4918-b7fd-f203e8a14fdd")
       (path
         (mode "oneshot")
         (node
@@ -2082,10 +3054,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f8d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "3d494578-7964-40a9-be8d-76a5ec30c450")
       (path
         (mode "oneshot")
         (node
@@ -2100,10 +3070,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f10d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "a2804406-0f8b-4cf5-9849-e0aec39385a7")
       (path
         (mode "oneshot")
         (node
@@ -2118,10 +3086,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f12d")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "6e4681a1-e64b-4e33-ae44-f2c67c7de41c")
       (path
         (mode "oneshot")
         (node
@@ -2136,10 +3102,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f9g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "d0b3e3b4-2d19-4122-8439-3d689794a143")
       (path
         (node
           (x 2176)
@@ -2153,10 +3117,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f11g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "7b15e646-7d2b-45b1-9c03-d2df1fa347f7")
       (path
         (node
           (x 2240)
@@ -2170,10 +3132,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f13g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "d09bb767-97d1-4cbb-bf26-76b9e819b775")
       (path
         (node
           (x 2304)
@@ -2187,10 +3147,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f7g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "0da87993-f1d8-4371-b458-53fa1e338200")
       (path
         (node
           (x 2112)
@@ -2204,10 +3162,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f14g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "67d4b636-5187-46ab-8331-7d7ad5bc4201")
       (path
         (node
           (x 2336)
@@ -2221,10 +3177,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f3g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "c87dce60-c870-4b6a-a9c9-2bc00473ebd0")
       (path
         (node
           (x 1984)
@@ -2238,10 +3192,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f5g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "789a0fc1-856f-4aeb-ada3-67bb9a56470a")
       (path
         (node
           (x 2048)
@@ -2255,10 +3207,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f15g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "14aee314-7f34-4162-ac83-cf5d6b3908fb")
       (path
         (node
           (x 2368)
@@ -2272,10 +3222,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f1g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "b72eae8a-cea2-4d5d-a678-c962611a6dc6")
       (path
         (mode "oneshot")
         (node
@@ -2290,10 +3238,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f2g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "9b94779c-c353-4860-88cf-8db29221b859")
       (path
         (mode "oneshot")
         (node
@@ -2308,10 +3254,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f4g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "16e6d7f6-e9f5-41ee-9ff0-48b48e7aebee")
       (path
         (node
           (x 2016)
@@ -2325,10 +3269,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f6g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "0b2848ae-2cd9-4625-8317-f4ba622ec732")
       (path
         (node
           (x 2080)
@@ -2342,10 +3284,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f8g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "28d1bcf5-57cd-4dfc-9340-5e40b4809635")
       (path
         (node
           (x 2144)
@@ -2359,10 +3299,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f10g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "8e8741e8-ba67-49d5-9dac-73219eac1542")
       (path
         (node
           (x 2208)
@@ -2376,10 +3314,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f12g")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "4e468bd9-3e83-4ea2-88f2-f045f563869e")
       (path
         (node
           (x 2272)
@@ -2393,10 +3329,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2d")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "28a147b8-66c1-486c-a8a0-45e915b68720")
       (path
         (node
           (x 1504)
@@ -2450,10 +3384,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1h")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "085ddf80-3cfe-4892-8ce9-2ab299ef93d6")
       (path
         (node
           (x 1504)
@@ -2507,10 +3439,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1f")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "615b2789-d40d-46f1-af86-4afee628ec74")
       (path
         (node
           (x 1504)
@@ -2564,10 +3494,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1c")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "fa31fbd2-7240-42a3-a931-55801cbd4e5e")
       (path
         (node
           (x 1504)
@@ -2621,10 +3549,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1i")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "7ee9cc3d-0e7f-4a47-b979-6513eeeb9aac")
       (path
         (node
           (x 1504)
@@ -2678,10 +3604,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1j")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "26437481-a624-43b8-b65e-82438da50952")
       (path
         (node
           (x 1504)
@@ -2735,10 +3659,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2a")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "ea569468-3296-4c13-bfa7-1334b095f19f")
       (path
         (node
           (x 1504)
@@ -2792,10 +3714,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2e")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "5d195e81-2d89-4dec-9ff2-56dc466f7337")
       (path
         (node
           (x 1504)
@@ -2849,10 +3769,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3ab")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "e19ffd89-9059-4e90-a16d-1b30a7d60aee")
       (path
         (node
           (x 1504)
@@ -2906,10 +3824,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3b")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "94708ff5-bcd9-454f-b086-ecca7471e9cc")
       (path
         (node
           (x 1504)
@@ -2963,10 +3879,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3a")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "5b40a1b5-af6a-4b77-badb-f54458241d9c")
       (path
         (node
           (x 1504)
@@ -3020,10 +3934,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3c")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "ef5a5909-b58f-49f7-a15d-1d98a5f1fa3f")
       (path
         (node
           (x 1504)
@@ -3077,10 +3989,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1k")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "66fbbf0e-2d29-45f7-a345-42218915cdda")
       (path
         (node
           (x 1504)
@@ -3134,10 +4044,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2f")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "a838c45c-b7ed-40ee-854a-706f1c4d03bc")
       (path
         (node
           (x 1504)
@@ -3191,10 +4099,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1aa")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "b772abc3-fb29-48d8-a83c-c3214d98703c")
       (path
         (node
           (x 1504)
@@ -3248,10 +4154,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1ab")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "5173ed1f-938d-483a-b044-236382ade0af")
       (path
         (node
           (x 1504)
@@ -3305,10 +4209,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1ac")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "6c9f2a9d-8fb8-4770-958d-9b113af0cf68")
       (path
         (node
           (x 1504)
@@ -3362,10 +4264,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2aa")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "0d34b7e6-e371-476d-bdc1-2b951cd9b3ce")
       (path
         (node
           (x 1504)
@@ -3419,10 +4319,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2ab")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "ff6a54f6-18eb-46d8-ac1d-03746545520e")
       (path
         (node
           (x 1504)
@@ -3476,10 +4374,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2ac")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "5a2d7c0a-38d2-4f22-a562-74deed843b17")
       (path
         (node
           (x 1504)
@@ -3533,10 +4429,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1ag")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "1af4253f-acd0-4ba3-af67-38e8c0bbe952")
       (path
         (node
           (x 1504)
@@ -3590,10 +4484,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2ad")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "19d2a737-94ed-4f9c-be0d-0afdc9c917c6")
       (path
         (node
           (x 1504)
@@ -3647,10 +4539,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3aa")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "7deec1ea-a7c4-4b5e-963a-f41d65964d85")
       (path
         (node
           (x 1504)
@@ -3704,10 +4594,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1ad")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "d6e12649-c504-4307-8fde-8f55a8e51092")
       (path
         (node
           (x 1504)
@@ -3761,10 +4649,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1af")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "bb92b5dd-6506-4c5f-9212-cebf0462df15")
       (path
         (node
           (x 1504)
@@ -3818,10 +4704,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2ae")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "cac1d712-a46e-4e85-ae53-10788039ac91")
       (path
         (node
           (x 1504)
@@ -3875,10 +4759,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2af")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "791d713c-778e-4994-98eb-2d01634df82d")
       (path
         (node
           (x 1504)
@@ -3932,10 +4814,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f9f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "baf3cad7-f673-4de5-b944-c516cce77d0d")
       (path
         (node
           (x 2176)
@@ -3949,10 +4829,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f11f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "02003d22-5389-4c7e-8fd2-4c024c8b62ed")
       (path
         (node
           (x 2240)
@@ -3966,10 +4844,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f13f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "fe895a9d-95c3-4644-bc6a-94808da78f2b")
       (path
         (node
           (x 2304)
@@ -3983,10 +4859,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f7f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "c8df7b76-0210-4c96-bda5-252de0f28ba1")
       (path
         (node
           (x 2112)
@@ -4000,10 +4874,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f14f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "3248f20f-de38-443e-8260-e95dce025983")
       (path
         (node
           (x 2336)
@@ -4017,10 +4889,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f3f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "61b7e57c-dc4e-462f-8eb6-b4d4ab4dcfbf")
       (path
         (node
           (x 1984)
@@ -4034,10 +4904,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f5f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "a35f586a-d50c-4268-9cae-f1aac4f3b859")
       (path
         (node
           (x 2048)
@@ -4051,10 +4919,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f15f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "7384a815-22f3-4f48-aef9-86055ea70430")
       (path
         (node
           (x 2368)
@@ -4068,10 +4934,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f1f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "aeedee0b-7556-475c-b3d1-b4b5360ceaf8")
       (path
         (node
           (x 1920)
@@ -4085,10 +4949,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f2f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "f584aeee-e8d0-497e-a834-55f390b1b88b")
       (path
         (node
           (x 1952)
@@ -4102,10 +4964,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f4f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "454b8f3d-0fef-4a5f-a8d6-020e1637f6c0")
       (path
         (node
           (x 2016)
@@ -4119,10 +4979,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f6f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "e5175166-7bdd-47b2-8cd6-67252af81aff")
       (path
         (node
           (x 2080)
@@ -4136,10 +4994,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f8f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "6501df6b-a769-4c7c-b7ce-d0915907b990")
       (path
         (node
           (x 2144)
@@ -4153,10 +5009,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f10f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "6a798574-af54-4764-861a-4c4618e48498")
       (path
         (node
           (x 2208)
@@ -4170,10 +5024,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f12f")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "b8a6e65f-fdaa-4eb9-bdb7-cd37a8634504")
       (path
         (node
           (x 2272)
@@ -4187,10 +5039,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f9e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "5ebd32b1-3170-4830-a1f6-d57e98de619b")
       (path
         (node
           (x 2176)
@@ -4204,10 +5054,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f11e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "bd3ddfcb-59fe-434d-9601-8d4871d44234")
       (path
         (node
           (x 2240)
@@ -4221,10 +5069,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f13e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "2cc7765a-7c54-427a-9d8f-33d5893b3c10")
       (path
         (node
           (x 2304)
@@ -4238,10 +5084,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f7e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "c531b927-3ec5-4e56-9993-02c96a9d3a48")
       (path
         (node
           (x 2112)
@@ -4255,10 +5099,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f14e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "71cf50fb-625e-42b9-b3b1-e9e20b262622")
       (path
         (node
           (x 2336)
@@ -4272,10 +5114,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f3e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "e0757e10-3f72-44f9-9591-06c57942f2ea")
       (path
         (node
           (x 1984)
@@ -4289,10 +5129,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f5e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "f275be7a-06a0-42f5-92db-78b3336ab93a")
       (path
         (node
           (x 2048)
@@ -4306,10 +5144,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f15e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "1a554dae-953b-4c03-98ce-2eb6b7868e3f")
       (path
         (node
           (x 2368)
@@ -4323,10 +5159,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f1e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "68466204-ffef-47ae-bde0-166a1d8069e2")
       (path
         (node
           (x 1920)
@@ -4340,10 +5174,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f2e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "d4eb91b0-2d0e-4f41-8d57-c5e8087a0423")
       (path
         (node
           (x 1952)
@@ -4357,10 +5189,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f4e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "c7f8dbf0-05e8-45c4-baf4-9fa0ad5dbe45")
       (path
         (node
           (x 2016)
@@ -4374,10 +5204,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f6e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "ec449bbc-861f-4887-8e44-ba0adf51409f")
       (path
         (node
           (x 2080)
@@ -4391,10 +5219,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f8e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "f59ac711-01bf-49eb-8d1d-3af961b1c606")
       (path
         (node
           (x 2144)
@@ -4408,10 +5234,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f10e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "9084223d-841c-467c-9128-564f03a5c791")
       (path
         (node
           (x 2208)
@@ -4425,10 +5249,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "f12e")
-      (sprite "images/creatures/fish/fish.sprite")
+    (path
+      (name "c4f0adb8-2c19-43d0-a1d7-ca8cf1cbf1bf")
       (path
         (node
           (x 2272)
@@ -4442,10 +5264,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "POWER3")
-      (sprite "images/objects/particles/flameshotbig.sprite")
+    (path
+      (name "40a37722-e7c8-46e9-92f0-5fcf0ca13aa8")
       (path
         (node
           (x 1504)
@@ -4513,10 +5333,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1ae")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "db6bcecf-c33e-4cb5-91a3-77f5a8b6083f")
       (path
         (node
           (x 1504)
@@ -4570,10 +5388,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3ab")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "acd3f056-ae07-4940-9056-72849f3cab0e")
       (path
         (node
           (x 1504)
@@ -4627,10 +5443,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1a")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "7a3733c0-a8db-4a24-b1f4-09d64b767113")
       (path
         (node
           (x 1504)
@@ -4684,10 +5498,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2b")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "92f7693d-63cd-4c52-b8f4-ad3a174b761f")
       (path
         (node
           (x 1504)
@@ -4741,10 +5553,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "POWER2")
-      (sprite "images/objects/particles/flameshotbig.sprite")
+    (path
+      (name "8f04645f-6333-42eb-a325-183b5a0c602f")
       (path
         (node
           (x 1504)
@@ -4812,10 +5622,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "POWER4")
-      (sprite "images/objects/particles/flameshotbig.sprite")
+    (path
+      (name "fa2cd78b-2c24-4327-9a95-81c50aa80942")
       (path
         (node
           (x 1504)
@@ -4883,10 +5691,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "POWER1")
-      (sprite "images/objects/particles/flameshotbig.sprite")
+    (path
+      (name "9c9cbf96-8fd9-472d-841f-6a1882b28a3a")
       (path
         (node
           (x 1504)
@@ -4954,10 +5760,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3xa")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "6f94bc03-7c79-44b4-93d8-fef72be3384e")
       (path
         (node
           (x 1504)
@@ -5011,10 +5815,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xj")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "a03c9cd9-d461-4fb7-8375-a2f761198c82")
       (path
         (node
           (x 1504)
@@ -5068,10 +5870,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2xd")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "2fa358e2-bc88-4cf3-848b-ff1f97c4caea")
       (path
         (node
           (x 1504)
@@ -5125,10 +5925,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3xb")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "189051f8-707e-4d02-bead-89a467f22c6b")
       (path
         (node
           (x 1504)
@@ -5182,10 +5980,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xk")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "1960aebc-0488-4a67-a9c4-2f1088d70a04")
       (path
         (node
           (x 1504)
@@ -5239,10 +6035,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2xg")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "b7515d1d-a03a-4dba-8b33-b62cd8a6a770")
       (path
         (node
           (x 1504)
@@ -5296,10 +6090,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xi")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "a81f7165-437b-43fa-a75d-51826512cb74")
       (path
         (node
           (x 1504)
@@ -5353,10 +6145,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2xc")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "01338821-e4a0-4f24-a3dd-985f842cddd0")
       (path
         (node
           (x 1504)
@@ -5410,10 +6200,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xg")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "2a1d050a-c454-4b13-8bb2-7a3c680098d7")
       (path
         (node
           (x 1504)
@@ -5467,10 +6255,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2xa")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "9e833da9-d224-4670-aa03-9ed9c5985704")
       (path
         (node
           (x 1504)
@@ -5524,10 +6310,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xh")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "b48eef3f-5dbc-45a0-aef2-9eaa359a33bc")
       (path
         (node
           (x 1504)
@@ -5581,10 +6365,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2xb")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "28bc7cc3-3dc8-4761-ba33-f38802b53aa1")
       (path
         (node
           (x 1504)
@@ -5638,10 +6420,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xf")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "b7d6abb6-db45-40d0-b763-88f962084eff")
       (path
         (node
           (x 1504)
@@ -5695,10 +6475,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xd")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "8b9cab0e-9b58-4517-957c-5b451b3c4137")
       (path
         (node
           (x 1504)
@@ -5752,10 +6530,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xe")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "08a0ae4c-10a7-44ce-9a46-f92e21be0cec")
       (path
         (node
           (x 1504)
@@ -5809,10 +6585,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xc")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "a5e736cf-0545-4c74-8e28-b4bdf569c895")
       (path
         (node
           (x 1504)
@@ -5866,10 +6640,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xa")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "2d48711c-801a-44ae-a38f-b08bb74367f6")
       (path
         (node
           (x 1504)
@@ -5923,10 +6695,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power1xb")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "3fa8bfd3-4047-4306-98b1-8b84bee058b4")
       (path
         (node
           (x 1504)
@@ -5980,10 +6750,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2xf")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "dfb3229c-de5c-4a0f-bb19-90f51fb9dfd2")
       (path
         (node
           (x 1504)
@@ -6037,10 +6805,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power2xe")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "26606b10-5d78-49bb-aee1-01d1e2f762e4")
       (path
         (node
           (x 1504)
@@ -6094,10 +6860,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3xc")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "f2497ef8-6e43-4290-a7ac-efddfe2fb22b")
       (path
         (node
           (x 1504)
@@ -6151,10 +6915,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "power3xd")
-      (sprite "images/objects/particles/flameshot.sprite")
+    (path
+      (name "f3f3a9f4-979d-4d60-9458-d3f0f6debca5")
       (path
         (node
           (x 1504)
@@ -6208,11 +6970,183 @@
         )
       )
     )
-    (invisible_wall
-      (width 32)
-      (height 712)
-      (x 1472)
-      (y 500)
+    (path
+      (name "e714549c-14f1-45c8-b576-c91599c265a3")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "bc653f7e-3f4d-4a55-98b7-bb5b1f912b93")
+      (path
+        (node
+          (x 96)
+          (y 512)
+          (time 8)
+        )
+        (node
+          (x 96)
+          (y 0)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "02467e66-e4ec-43a9-bc08-6e7cc8152997")
+      (path
+        (node
+          (x 1920)
+          (y 1120)
+          (time 2.5)
+        )
+        (node
+          (x 1920)
+          (y 480)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "93d5d1b8-b7ac-4d7c-b1ae-f3b3309731f9")
+      (path
+        (node
+          (x 2208)
+          (y 1120)
+          (time 2.5)
+        )
+        (node
+          (x 2208)
+          (y 480)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "4452d460-00b4-4e65-8a1d-1e3a035864f6")
+      (path
+        (mode "oneshot")
+        (node
+          (x 288)
+          (y 704)
+        )
+        (node
+          (x 448)
+          (y 640)
+        )
+        (node
+          (x 608)
+          (y 608)
+        )
+        (node
+          (x 800)
+          (y 576)
+        )
+        (node
+          (x 1024)
+          (y 512)
+        )
+        (node
+          (x 1120)
+          (y 448)
+        )
+        (node
+          (x 1280)
+          (y 416)
+        )
+        (node
+          (x 1440)
+          (y 384)
+        )
+        (node
+          (x 1600)
+          (y 352)
+        )
+        (node
+          (x 1792)
+          (y 320)
+        )
+        (node
+          (x 1984)
+          (y 288)
+          (time 0.1)
+        )
+        (node
+          (x 1984)
+          (y 416)
+          (time 0.01)
+        )
+        (node
+          (x -928)
+          (y 416)
+        )
+      )
+    )
+    (path
+      (name "dee3d190-77aa-42b4-84a0-cf6d42fb503c")
+      (path
+        (node
+          (x 1920)
+          (y 1120)
+          (time 2.5)
+        )
+        (node
+          (x 1920)
+          (y 480)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "804ea242-83b1-42ea-b1ef-ab2053a7a081")
+      (path
+        (node
+          (x 2208)
+          (y 1120)
+          (time 2.5)
+        )
+        (node
+          (x 2208)
+          (y 480)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "1fe22f03-0507-4222-b2f8-7b3d394c6751")
+      (path
+        (node
+          (x 1632)
+          (y 1120)
+          (time 2)
+        )
+        (node
+          (x 1632)
+          (y 480)
+          (time 1.5)
+        )
+      )
+    )
+    (path
+      (name "99104354-6dbb-491a-aadc-f2f5782c7372")
+      (path
+        (node
+          (x 3200)
+          (y 640)
+          (time 7)
+        )
+        (node
+          (x 1632)
+          (y 160)
+          (time 3)
+        )
+        (node
+          (x 1632)
+          (y -160)
+        )
+      )
     )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")
@@ -6867,12 +7801,7 @@ Tux.activate ();")
       (solid #t)
       (z-pos 500)
       (name "Water")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "e714549c-14f1-45c8-b576-c91599c265a3")
       (width 100)
       (height 35)
       (tiles
@@ -6917,18 +7846,7 @@ Tux.activate ();")
       (solid #f)
       (z-pos 200)
       (name "head")
-      (path
-        (node
-          (x 96)
-          (y 512)
-          (time 8)
-        )
-        (node
-          (x 96)
-          (y 0)
-          (time 4)
-        )
-      )
+      (path-ref "bc653f7e-3f4d-4a55-98b7-bb5b1f912b93")
       (width 100)
       (height 35)
       (tiles
@@ -6973,18 +7891,7 @@ Tux.activate ();")
       (solid #f)
       (z-pos 1)
       (name "attack1")
-      (path
-        (node
-          (x 1920)
-          (y 1120)
-          (time 2.5)
-        )
-        (node
-          (x 1920)
-          (y 480)
-          (time 2)
-        )
-      )
+      (path-ref "02467e66-e4ec-43a9-bc08-6e7cc8152997")
       (width 7)
       (height 20)
       (tiles
@@ -7014,18 +7921,7 @@ Tux.activate ();")
       (solid #f)
       (z-pos 1)
       (name "attack2")
-      (path
-        (node
-          (x 2208)
-          (y 1120)
-          (time 2.5)
-        )
-        (node
-          (x 2208)
-          (y 480)
-          (time 2)
-        )
-      )
+      (path-ref "93d5d1b8-b7ac-4d7c-b1ae-f3b3309731f9")
       (width 7)
       (height 20)
       (tiles
@@ -7055,63 +7951,7 @@ Tux.activate ();")
       (solid #t)
       (z-pos 0)
       (name "transport")
-      (path
-        (mode "oneshot")
-        (node
-          (x 288)
-          (y 704)
-        )
-        (node
-          (x 448)
-          (y 640)
-        )
-        (node
-          (x 608)
-          (y 608)
-        )
-        (node
-          (x 800)
-          (y 576)
-        )
-        (node
-          (x 1024)
-          (y 512)
-        )
-        (node
-          (x 1120)
-          (y 448)
-        )
-        (node
-          (x 1280)
-          (y 416)
-        )
-        (node
-          (x 1440)
-          (y 384)
-        )
-        (node
-          (x 1600)
-          (y 352)
-        )
-        (node
-          (x 1792)
-          (y 320)
-        )
-        (node
-          (x 1984)
-          (y 288)
-          (time 0.1)
-        )
-        (node
-          (x 1984)
-          (y 416)
-          (time 0.01)
-        )
-        (node
-          (x -928)
-          (y 416)
-        )
-      )
+      (path-ref "4452d460-00b4-4e65-8a1d-1e3a035864f6")
       (width 3)
       (height 1)
       (tiles
@@ -7122,18 +7962,7 @@ Tux.activate ();")
       (solid #t)
       (z-pos -1)
       (name "a1spikes")
-      (path
-        (node
-          (x 1920)
-          (y 1120)
-          (time 2.5)
-        )
-        (node
-          (x 1920)
-          (y 480)
-          (time 2)
-        )
-      )
+      (path-ref "dee3d190-77aa-42b4-84a0-cf6d42fb503c")
       (width 7)
       (height 20)
       (tiles
@@ -7163,18 +7992,7 @@ Tux.activate ();")
       (solid #t)
       (z-pos -1)
       (name "a2spikes")
-      (path
-        (node
-          (x 2208)
-          (y 1120)
-          (time 2.5)
-        )
-        (node
-          (x 2208)
-          (y 480)
-          (time 2)
-        )
-      )
+      (path-ref "804ea242-83b1-42ea-b1ef-ab2053a7a081")
       (width 7)
       (height 20)
       (tiles
@@ -7204,18 +8022,7 @@ Tux.activate ();")
       (solid #t)
       (z-pos 210)
       (name "boomeffect")
-      (path
-        (node
-          (x 1632)
-          (y 1120)
-          (time 2)
-        )
-        (node
-          (x 1632)
-          (y 480)
-          (time 1.5)
-        )
-      )
+      (path-ref "1fe22f03-0507-4222-b2f8-7b3d394c6751")
       (width 7)
       (height 20)
       (tiles
@@ -7527,22 +8334,7 @@ Tux.activate ();")
       (solid #f)
       (z-pos 0)
       (name "kroshtransport")
-      (path
-        (node
-          (x 3200)
-          (y 640)
-          (time 7)
-        )
-        (node
-          (x 1632)
-          (y 160)
-          (time 3)
-        )
-        (node
-          (x 1632)
-          (y -160)
-        )
-      )
+      (path-ref "99104354-6dbb-491a-aadc-f2f5782c7372")
       (width 6)
       (height 8)
       (tiles

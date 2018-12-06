@@ -48,6 +48,215 @@
     (music
       (file "music/ghostforest.ogg")
     )
+    (path
+      (name "af458d84-0076-4dfb-ba6e-4ccb0b21e665")
+      (path
+        (node
+          (x 1920)
+          (y 992)
+          (time 0.1)
+        )
+        (node
+          (x 1923)
+          (y 992)
+          (time 0.1)
+        )
+        (node
+          (x 1917)
+          (y 992)
+          (time 0.1)
+        )
+        (node
+          (x 1926)
+          (y 992)
+          (time 0.1)
+        )
+        (node
+          (x 1918)
+          (y 996)
+          (time 0.1)
+        )
+        (node
+          (x 1924)
+          (y 996)
+          (time 0.1)
+        )
+        (node
+          (x 1914)
+          (y 996)
+          (time 0.1)
+        )
+        (node
+          (x 1922)
+          (y 996)
+          (time 0.6)
+        )
+        (node
+          (x 1920)
+          (y 1184)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "7f7864b3-bdc0-43c7-995d-c8306104fa90")
+      (path
+        (node
+          (x 2080)
+          (y 992)
+          (time 0.1)
+        )
+        (node
+          (x 2078)
+          (y 992)
+          (time 0.1)
+        )
+        (node
+          (x 2082)
+          (y 992)
+          (time 0.1)
+        )
+        (node
+          (x 2074)
+          (y 992)
+          (time 0.1)
+        )
+        (node
+          (x 2084)
+          (y 994)
+          (time 0.1)
+        )
+        (node
+          (x 2076)
+          (y 994)
+          (time 0.1)
+        )
+        (node
+          (x 2086)
+          (y 994)
+          (time 0.1)
+        )
+        (node
+          (x 2080)
+          (y 994)
+          (time 0.8)
+        )
+        (node
+          (x 2080)
+          (y 1344)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "7ffb370f-6235-4320-8ae9-f0a57c471c64")
+      (path
+        (node
+          (x 1440)
+          (y 1152)
+          (time 0.1)
+        )
+        (node
+          (x 1444)
+          (y 1152)
+          (time 0.1)
+        )
+        (node
+          (x 1436)
+          (y 1153)
+          (time 0.1)
+        )
+        (node
+          (x 1446)
+          (y 1153)
+          (time 0.1)
+        )
+        (node
+          (x 1434)
+          (y 1154)
+          (time 0.1)
+        )
+        (node
+          (x 1444)
+          (y 1154)
+          (time 0.1)
+        )
+        (node
+          (x 1436)
+          (y 1155)
+          (time 0.1)
+        )
+        (node
+          (x 1442)
+          (y 1155)
+          (time 0.1)
+        )
+        (node
+          (x 1434)
+          (y 1156)
+          (time 0.7)
+        )
+        (node
+          (x 1440)
+          (y 1408)
+          (time 0.7)
+        )
+      )
+    )
+    (path
+      (name "46efa2e7-61ff-49cf-bfdb-596f3e89d857")
+      (path
+        (node
+          (x 1792)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "d500d82b-c5aa-4af2-8f91-1531d483d280")
+      (path
+        (node
+          (x 1856)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "97a77e15-df98-4d1c-a15d-b741aee16b73")
+      (path
+        (node
+          (x 1920)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "0c291e38-7b40-4d39-9932-33b0f0760ad3")
+      (path
+        (node
+          (x 1984)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "f74b39f6-dc0b-43c3-8cbe-d80ad2a86332")
+      (path
+        (node
+          (x 2048)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "1415def6-2e06-42e9-99ea-27b5ef7e0d3c")
+      (path
+        (node
+          (x 2112)
+          (y 192)
+        )
+      )
+    )
     (rock
       (x 1484)
       (y 1152)
@@ -495,53 +704,7 @@
       (solid #t)
       (z-pos 10)
       (name "floorbreak_l")
-      (path
-        (node
-          (x 1920)
-          (y 992)
-          (time 0.1)
-        )
-        (node
-          (x 1923)
-          (y 992)
-          (time 0.1)
-        )
-        (node
-          (x 1917)
-          (y 992)
-          (time 0.1)
-        )
-        (node
-          (x 1926)
-          (y 992)
-          (time 0.1)
-        )
-        (node
-          (x 1918)
-          (y 996)
-          (time 0.1)
-        )
-        (node
-          (x 1924)
-          (y 996)
-          (time 0.1)
-        )
-        (node
-          (x 1914)
-          (y 996)
-          (time 0.1)
-        )
-        (node
-          (x 1922)
-          (y 996)
-          (time 0.6)
-        )
-        (node
-          (x 1920)
-          (y 1184)
-          (time 0.1)
-        )
-      )
+      (path-ref "af458d84-0076-4dfb-ba6e-4ccb0b21e665")
       (width 5)
       (height 2)
       (tiles
@@ -553,53 +716,7 @@
       (solid #t)
       (z-pos 10)
       (name "floorbreak_r")
-      (path
-        (node
-          (x 2080)
-          (y 992)
-          (time 0.1)
-        )
-        (node
-          (x 2078)
-          (y 992)
-          (time 0.1)
-        )
-        (node
-          (x 2082)
-          (y 992)
-          (time 0.1)
-        )
-        (node
-          (x 2074)
-          (y 992)
-          (time 0.1)
-        )
-        (node
-          (x 2084)
-          (y 994)
-          (time 0.1)
-        )
-        (node
-          (x 2076)
-          (y 994)
-          (time 0.1)
-        )
-        (node
-          (x 2086)
-          (y 994)
-          (time 0.1)
-        )
-        (node
-          (x 2080)
-          (y 994)
-          (time 0.8)
-        )
-        (node
-          (x 2080)
-          (y 1344)
-          (time 0.1)
-        )
-      )
+      (path-ref "7f7864b3-bdc0-43c7-995d-c8306104fa90")
       (width 3)
       (height 2)
       (tiles
@@ -611,58 +728,7 @@
       (solid #t)
       (z-pos 10)
       (name "collapse")
-      (path
-        (node
-          (x 1440)
-          (y 1152)
-          (time 0.1)
-        )
-        (node
-          (x 1444)
-          (y 1152)
-          (time 0.1)
-        )
-        (node
-          (x 1436)
-          (y 1153)
-          (time 0.1)
-        )
-        (node
-          (x 1446)
-          (y 1153)
-          (time 0.1)
-        )
-        (node
-          (x 1434)
-          (y 1154)
-          (time 0.1)
-        )
-        (node
-          (x 1444)
-          (y 1154)
-          (time 0.1)
-        )
-        (node
-          (x 1436)
-          (y 1155)
-          (time 0.1)
-        )
-        (node
-          (x 1442)
-          (y 1155)
-          (time 0.1)
-        )
-        (node
-          (x 1434)
-          (y 1156)
-          (time 0.7)
-        )
-        (node
-          (x 1440)
-          (y 1408)
-          (time 0.7)
-        )
-      )
+      (path-ref "7ffb370f-6235-4320-8ae9-f0a57c471c64")
       (width 7)
       (height 3)
       (tiles
@@ -675,12 +741,7 @@
       (solid #t)
       (z-pos 20)
       (name "final1")
-      (path
-        (node
-          (x 1792)
-          (y 192)
-        )
-      )
+      (path-ref "46efa2e7-61ff-49cf-bfdb-596f3e89d857")
       (width 2)
       (height 1)
       (tiles
@@ -691,12 +752,7 @@
       (solid #t)
       (z-pos 20)
       (name "final2")
-      (path
-        (node
-          (x 1856)
-          (y 192)
-        )
-      )
+      (path-ref "d500d82b-c5aa-4af2-8f91-1531d483d280")
       (width 2)
       (height 1)
       (tiles
@@ -707,12 +763,7 @@
       (solid #t)
       (z-pos 20)
       (name "final3")
-      (path
-        (node
-          (x 1920)
-          (y 192)
-        )
-      )
+      (path-ref "97a77e15-df98-4d1c-a15d-b741aee16b73")
       (width 2)
       (height 1)
       (tiles
@@ -723,12 +774,7 @@
       (solid #t)
       (z-pos 20)
       (name "final4")
-      (path
-        (node
-          (x 1984)
-          (y 192)
-        )
-      )
+      (path-ref "0c291e38-7b40-4d39-9932-33b0f0760ad3")
       (width 2)
       (height 1)
       (tiles
@@ -739,12 +785,7 @@
       (solid #t)
       (z-pos 20)
       (name "final5")
-      (path
-        (node
-          (x 2048)
-          (y 192)
-        )
-      )
+      (path-ref "f74b39f6-dc0b-43c3-8cbe-d80ad2a86332")
       (width 2)
       (height 1)
       (tiles
@@ -755,12 +796,7 @@
       (solid #t)
       (z-pos 20)
       (name "final6")
-      (path
-        (node
-          (x 2112)
-          (y 192)
-        )
-      )
+      (path-ref "1415def6-2e06-42e9-99ea-27b5ef7e0d3c")
       (width 2)
       (height 1)
       (tiles
@@ -1129,6 +1165,24 @@
     (music
       (file "music/ghostforest.ogg")
     )
+    (path
+      (name "7013d003-1972-4477-a1d7-f2553f25534b")
+      (path
+        (node
+          (x 0)
+          (y -160)
+        )
+      )
+    )
+    (path
+      (name "bde3f797-93e6-4956-a250-ae1972c94e9a")
+      (path
+        (node
+          (x 0)
+          (y 480)
+        )
+      )
+    )
     (scripttrigger
       (script "  if(!burning){candle1.set_burning(true);candle2.set_burning(false);}  ")
       (button #f)
@@ -1310,12 +1364,7 @@
       (solid #f)
       (z-pos 200)
       (name "Mask_top")
-      (path
-        (node
-          (x 0)
-          (y -160)
-        )
-      )
+      (path-ref "7013d003-1972-4477-a1d7-f2553f25534b")
       (width 160)
       (height 5)
       (tiles
@@ -1330,12 +1379,7 @@
       (solid #f)
       (z-pos 200)
       (name "Mask_bottom")
-      (path
-        (node
-          (x 0)
-          (y 480)
-        )
-      )
+      (path-ref "bde3f797-93e6-4956-a250-ae1972c94e9a")
       (width 160)
       (height 5)
       (tiles
@@ -1452,6 +1496,141 @@
     )
     (music
       (file "music/ghostforest.ogg")
+    )
+    (path
+      (name "d68c134c-0937-409e-8a08-2ee9e9f0ef63")
+      (path
+        (node
+          (x 512)
+          (y 992)
+        )
+      )
+    )
+    (path
+      (name "efe848e2-ddd8-4fbd-aff5-f75b75761c16")
+      (path
+        (node
+          (x 1248)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "00770a19-0e68-4686-8cb4-e7ab097905e8")
+      (path
+        (node
+          (x 1312)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "e1944c07-d039-4759-b8db-7b4fe495451a")
+      (path
+        (node
+          (x 32)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "845e2349-eba5-4cb3-b62a-a5cc0e43b3ff")
+      (path
+        (node
+          (x 544)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "e25801a6-79bd-4670-80b9-43f470eba19e")
+      (path
+        (node
+          (x 736)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "0cba3b48-6ae6-4cb6-b8eb-998042895fa4")
+      (path
+        (node
+          (x 928)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "2dcd9f03-b68a-4ee6-9191-ba1e0a07cc89")
+      (path
+        (node
+          (x 1248)
+          (y 960)
+          (time 0.56)
+        )
+        (node
+          (x 1248)
+          (y 1120)
+          (time 0.25)
+        )
+        (node
+          (x 1248)
+          (y 1152)
+          (time 0.43)
+        )
+        (node
+          (x 1248)
+          (y 1248)
+        )
+      )
+    )
+    (path
+      (name "b26b51a0-d951-43fe-b833-a807548456bd")
+      (path
+        (node
+          (x 1440)
+          (y 1024)
+          (time 0.56)
+        )
+        (node
+          (x 1440)
+          (y 1184)
+        )
+      )
+    )
+    (path
+      (name "b136c9b3-ffef-4b60-85d7-380fcb132256")
+      (path
+        (node
+          (x 1248)
+          (y 1248)
+          (time 0.25)
+        )
+        (node
+          (x 1248)
+          (y 1280)
+          (time 0.43)
+        )
+        (node
+          (x 1248)
+          (y 1376)
+        )
+      )
+    )
+    (path
+      (name "a73eb0be-15da-47d4-9843-5d78aa362cba")
+      (path
+        (node
+          (x 2200)
+          (y 1232)
+          (time 0.56)
+        )
+        (node
+          (x 2456)
+          (y 1232)
+          (time 0.56)
+        )
+      )
     )
     (rock
       (x 2400)
@@ -1680,12 +1859,7 @@
       (solid #f)
       (z-pos 100)
       (name "Foreground")
-      (path
-        (node
-          (x 512)
-          (y 992)
-        )
-      )
+      (path-ref "d68c134c-0937-409e-8a08-2ee9e9f0ef63")
       (width 64)
       (height 19)
       (tiles
@@ -1886,12 +2060,7 @@
       (alpha 0.8)
       (z-pos 20)
       (name "ghost1")
-      (path
-        (node
-          (x 1248)
-          (y 128)
-        )
-      )
+      (path-ref "efe848e2-ddd8-4fbd-aff5-f75b75761c16")
       (width 6)
       (height 7)
       (tiles
@@ -1909,12 +2078,7 @@
       (alpha 0.8)
       (z-pos 20)
       (name "ghost2")
-      (path
-        (node
-          (x 1312)
-          (y 608)
-        )
-      )
+      (path-ref "00770a19-0e68-4686-8cb4-e7ab097905e8")
       (width 24)
       (height 15)
       (tiles
@@ -1940,12 +2104,7 @@
       (alpha 0.8)
       (z-pos 20)
       (name "ghost3")
-      (path
-        (node
-          (x 32)
-          (y 608)
-        )
-      )
+      (path-ref "e1944c07-d039-4759-b8db-7b4fe495451a")
       (width 11)
       (height 16)
       (tiles
@@ -1971,12 +2130,7 @@
       (solid #t)
       (z-pos 20)
       (name "drop1")
-      (path
-        (node
-          (x 544)
-          (y 1088)
-        )
-      )
+      (path-ref "845e2349-eba5-4cb3-b62a-a5cc0e43b3ff")
       (width 1)
       (height 1)
       (tiles
@@ -1987,12 +2141,7 @@
       (solid #t)
       (z-pos 20)
       (name "drop2")
-      (path
-        (node
-          (x 736)
-          (y 1088)
-        )
-      )
+      (path-ref "e25801a6-79bd-4670-80b9-43f470eba19e")
       (width 1)
       (height 1)
       (tiles
@@ -2003,12 +2152,7 @@
       (solid #t)
       (z-pos 20)
       (name "drop3")
-      (path
-        (node
-          (x 928)
-          (y 1088)
-        )
-      )
+      (path-ref "0cba3b48-6ae6-4cb6-b8eb-998042895fa4")
       (width 1)
       (height 1)
       (tiles
@@ -2019,27 +2163,7 @@
       (solid #t)
       (z-pos 10)
       (name "skull1")
-      (path
-        (node
-          (x 1248)
-          (y 960)
-          (time 0.56)
-        )
-        (node
-          (x 1248)
-          (y 1120)
-          (time 0.25)
-        )
-        (node
-          (x 1248)
-          (y 1152)
-          (time 0.43)
-        )
-        (node
-          (x 1248)
-          (y 1248)
-        )
-      )
+      (path-ref "2dcd9f03-b68a-4ee6-9191-ba1e0a07cc89")
       (width 6)
       (height 4)
       (tiles
@@ -2053,17 +2177,7 @@
       (solid #t)
       (z-pos 10)
       (name "skull2")
-      (path
-        (node
-          (x 1440)
-          (y 1024)
-          (time 0.56)
-        )
-        (node
-          (x 1440)
-          (y 1184)
-        )
-      )
+      (path-ref "b26b51a0-d951-43fe-b833-a807548456bd")
       (width 4)
       (height 2)
       (tiles
@@ -2075,22 +2189,7 @@
       (solid #t)
       (z-pos 10)
       (name "skull3")
-      (path
-        (node
-          (x 1248)
-          (y 1248)
-          (time 0.25)
-        )
-        (node
-          (x 1248)
-          (y 1280)
-          (time 0.43)
-        )
-        (node
-          (x 1248)
-          (y 1376)
-        )
-      )
+      (path-ref "b136c9b3-ffef-4b60-85d7-380fcb132256")
       (width 6)
       (height 7)
       (tiles
@@ -2107,18 +2206,7 @@
       (solid #t)
       (z-pos 0)
       (name "wallsmash")
-      (path
-        (node
-          (x 2200)
-          (y 1232)
-          (time 0.56)
-        )
-        (node
-          (x 2456)
-          (y 1232)
-          (time 0.56)
-        )
-      )
+      (path-ref "a73eb0be-15da-47d4-9843-5d78aa362cba")
       (width 2)
       (height 4)
       (tiles

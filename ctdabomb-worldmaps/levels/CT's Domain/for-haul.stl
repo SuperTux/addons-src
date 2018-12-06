@@ -681,6 +681,21 @@
     (platform
       (name "plate")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "d784f17a-9f48-4bee-aee1-d5ca1eac4b30")
+    )
+    (jumpy
+      (x 1383)
+      (y 904)
+    )
+    (jumpy
+      (x 1575)
+      (y 904)
+    )
+    (music
+      (file "music/forestmap.ogg")
+    )
+    (path
+      (name "d784f17a-9f48-4bee-aee1-d5ca1eac4b30")
       (path
         (node
           (x 2444.178)
@@ -747,17 +762,6 @@
           (y 864)
         )
       )
-    )
-    (jumpy
-      (x 1383)
-      (y 904)
-    )
-    (jumpy
-      (x 1575)
-      (y 904)
-    )
-    (music
-      (file "music/forestmap.ogg")
     )
     (spawnpoint
       (name "dirt")

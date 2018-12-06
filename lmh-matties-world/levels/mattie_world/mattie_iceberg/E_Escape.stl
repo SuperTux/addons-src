@@ -22,35 +22,13 @@
       (running #f)
       (name "Gate")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 1874)
-          (y 1248)
-          (time 4)
-        )
-        (node
-          (x 1874)
-          (y 1376)
-          (time 4)
-        )
-      )
+      (path-ref "0661a456-9d20-4066-909a-114dd391148c")
     )
     (platform
       (running #f)
       (name "InnerGate")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 1490)
-          (y 1248)
-          (time 4)
-        )
-        (node
-          (x 1490)
-          (y 1376)
-          (time 4)
-        )
-      )
+      (path-ref "0bf17b79-4baa-4a45-9b12-cc107b528bee")
     )
     (iceflame
       (speed 0.2)
@@ -64,6 +42,99 @@
     )
     (music
       (file "music/forest3.ogg")
+    )
+    (path
+      (name "0661a456-9d20-4066-909a-114dd391148c")
+      (path
+        (node
+          (x 1874)
+          (y 1248)
+          (time 4)
+        )
+        (node
+          (x 1874)
+          (y 1376)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "0bf17b79-4baa-4a45-9b12-cc107b528bee")
+      (path
+        (node
+          (x 1490)
+          (y 1248)
+          (time 4)
+        )
+        (node
+          (x 1490)
+          (y 1376)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "5cd3ba72-9484-4287-b0fe-1076e8e3a8b5")
+      (path
+        (mode "oneshot")
+        (node
+          (x 1472)
+          (y 1312)
+        )
+        (node
+          (x 1504)
+          (y 1312)
+          (time 8)
+        )
+        (node
+          (x 1504)
+          (y 1440)
+        )
+      )
+    )
+    (path
+      (name "ff3e3342-7e58-4f82-a7be-34a52b68e71f")
+      (path
+        (node
+          (x 1728)
+          (y 1312)
+        )
+        (node
+          (x 1696)
+          (y 1312)
+          (time 8)
+        )
+        (node
+          (x 1696)
+          (y 1440)
+        )
+      )
+    )
+    (path
+      (name "0a9c11f4-0f19-4ec5-b867-d25321730665")
+      (path
+        (node
+          (x 0)
+          (y 1600)
+          (time 24)
+        )
+      )
+    )
+    (path
+      (name "2fe36bbf-f1e3-44a7-8365-c3ba5168abb4")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 1570)
+          (time 60)
+        )
+        (node
+          (x 0)
+          (y 160)
+          (time 28)
+        )
+      )
     )
     (scripttrigger
       (script "  wait(  6  );
@@ -157,22 +228,7 @@
       (solid #t)
       (z-pos -100)
       (name "Squish1")
-      (path
-        (mode "oneshot")
-        (node
-          (x 1472)
-          (y 1312)
-        )
-        (node
-          (x 1504)
-          (y 1312)
-          (time 8)
-        )
-        (node
-          (x 1504)
-          (y 1440)
-        )
-      )
+      (path-ref "5cd3ba72-9484-4287-b0fe-1076e8e3a8b5")
       (width 6)
       (height 2)
       (tiles
@@ -184,21 +240,7 @@
       (solid #t)
       (z-pos -100)
       (name "Squish2")
-      (path
-        (node
-          (x 1728)
-          (y 1312)
-        )
-        (node
-          (x 1696)
-          (y 1312)
-          (time 8)
-        )
-        (node
-          (x 1696)
-          (y 1440)
-        )
-      )
+      (path-ref "ff3e3342-7e58-4f82-a7be-34a52b68e71f")
       (width 6)
       (height 2)
       (tiles
@@ -387,13 +429,7 @@
       (solid #f)
       (z-pos 200)
       (name "EdgeCover")
-      (path
-        (node
-          (x 0)
-          (y 1600)
-          (time 24)
-        )
-      )
+      (path-ref "0a9c11f4-0f19-4ec5-b867-d25321730665")
       (width 70)
       (height 44)
       (tiles
@@ -447,19 +483,7 @@
       (solid #t)
       (z-pos -100)
       (name "Lava")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 1570)
-          (time 60)
-        )
-        (node
-          (x 0)
-          (y 160)
-          (time 28)
-        )
-      )
+      (path-ref "2fe36bbf-f1e3-44a7-8365-c3ba5168abb4")
       (width 28)
       (height 45)
       (tiles

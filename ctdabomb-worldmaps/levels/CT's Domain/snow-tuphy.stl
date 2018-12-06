@@ -221,6 +221,249 @@
     (music
       (file "music/fortress.music")
     )
+    (path
+      (name "00cd463f-365d-4de1-92ae-aa2b8b2176fa")
+      (path
+        (node
+          (x -1600)
+          (y 0)
+        )
+        (node
+          (x -1248)
+          (y 0)
+        )
+        (node
+          (x -928)
+          (y 0)
+        )
+        (node
+          (x -544)
+          (y 0)
+        )
+        (node
+          (x -224)
+          (y 0)
+        )
+        (node
+          (x 32)
+          (y 0)
+        )
+        (node
+          (x 224)
+          (y 0)
+        )
+        (node
+          (x 448)
+          (y 0)
+        )
+        (node
+          (x 640)
+          (y 0)
+        )
+        (node
+          (x 832)
+          (y 0)
+        )
+        (node
+          (x 1024)
+          (y 0)
+        )
+        (node
+          (x 1280)
+          (y 0)
+        )
+        (node
+          (x 1472)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "3c1c37fd-9b8a-4d4d-a557-19936d5bffa6")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 3584)
+        )
+        (node
+          (x 0)
+          (y 3520)
+        )
+        (node
+          (x 0)
+          (y 3424)
+        )
+        (node
+          (x 0)
+          (y 3328)
+        )
+        (node
+          (x 0)
+          (y 3232)
+        )
+        (node
+          (x 0)
+          (y 3136)
+        )
+        (node
+          (x 0)
+          (y 3040)
+        )
+        (node
+          (x 0)
+          (y 2944)
+        )
+        (node
+          (x 0)
+          (y 2848)
+        )
+        (node
+          (x 0)
+          (y 2752)
+        )
+        (node
+          (x 0)
+          (y 2656)
+        )
+        (node
+          (x 0)
+          (y 2560)
+        )
+        (node
+          (x 0)
+          (y 2464)
+        )
+        (node
+          (x 0)
+          (y 2400)
+        )
+        (node
+          (x 0)
+          (y 2304)
+        )
+        (node
+          (x 0)
+          (y 2208)
+        )
+        (node
+          (x 0)
+          (y 2112)
+        )
+        (node
+          (x 0)
+          (y 1952)
+        )
+        (node
+          (x 0)
+          (y 1760)
+        )
+        (node
+          (x 0)
+          (y 1600)
+        )
+        (node
+          (x 0)
+          (y 1440)
+        )
+        (node
+          (x 0)
+          (y 1312)
+        )
+        (node
+          (x 0)
+          (y 1152)
+        )
+        (node
+          (x 0)
+          (y 992)
+        )
+        (node
+          (x 0)
+          (y 832)
+        )
+        (node
+          (x 0)
+          (y 704)
+        )
+        (node
+          (x 0)
+          (y 576)
+        )
+        (node
+          (x 0)
+          (y 480)
+        )
+        (node
+          (x 0)
+          (y 384)
+        )
+        (node
+          (x 0)
+          (y 288)
+        )
+        (node
+          (x 0)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "5dbbb3dd-f749-436b-a630-ebd8c660ab75")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y -384)
+        )
+      )
+    )
+    (path
+      (name "e8782d11-1a71-49dd-ad89-0730dd30a160")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 0)
+        )
+        (node
+          (x -256)
+          (y 0)
+        )
+        (node
+          (x -384)
+          (y 0)
+        )
+        (node
+          (x -384)
+          (y 0)
+        )
+        (node
+          (x -576)
+          (y 0)
+        )
+        (node
+          (x -704)
+          (y 0)
+        )
+        (node
+          (x -768)
+          (y 0)
+        )
+        (node
+          (x -832)
+          (y 0)
+        )
+        (node
+          (x -992)
+          (y 0)
+        )
+      )
+    )
     (pushbutton
       (script "vert.goto_node(300)
 vertblocker.goto_node(10)")
@@ -646,60 +889,7 @@ horizblocker.goto_node(1)")
       (speed 0)
       (z-pos 120)
       (name "horiz")
-      (path
-        (node
-          (x -1600)
-          (y 0)
-        )
-        (node
-          (x -1248)
-          (y 0)
-        )
-        (node
-          (x -928)
-          (y 0)
-        )
-        (node
-          (x -544)
-          (y 0)
-        )
-        (node
-          (x -224)
-          (y 0)
-        )
-        (node
-          (x 32)
-          (y 0)
-        )
-        (node
-          (x 224)
-          (y 0)
-        )
-        (node
-          (x 448)
-          (y 0)
-        )
-        (node
-          (x 640)
-          (y 0)
-        )
-        (node
-          (x 832)
-          (y 0)
-        )
-        (node
-          (x 1024)
-          (y 0)
-        )
-        (node
-          (x 1280)
-          (y 0)
-        )
-        (node
-          (x 1472)
-          (y 0)
-        )
-      )
+      (path-ref "00cd463f-365d-4de1-92ae-aa2b8b2176fa")
       (width 100)
       (height 125)
       (tiles
@@ -834,133 +1024,7 @@ horizblocker.goto_node(1)")
       (solid #t)
       (z-pos 120)
       (name "vert")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 3584)
-        )
-        (node
-          (x 0)
-          (y 3520)
-        )
-        (node
-          (x 0)
-          (y 3424)
-        )
-        (node
-          (x 0)
-          (y 3328)
-        )
-        (node
-          (x 0)
-          (y 3232)
-        )
-        (node
-          (x 0)
-          (y 3136)
-        )
-        (node
-          (x 0)
-          (y 3040)
-        )
-        (node
-          (x 0)
-          (y 2944)
-        )
-        (node
-          (x 0)
-          (y 2848)
-        )
-        (node
-          (x 0)
-          (y 2752)
-        )
-        (node
-          (x 0)
-          (y 2656)
-        )
-        (node
-          (x 0)
-          (y 2560)
-        )
-        (node
-          (x 0)
-          (y 2464)
-        )
-        (node
-          (x 0)
-          (y 2400)
-        )
-        (node
-          (x 0)
-          (y 2304)
-        )
-        (node
-          (x 0)
-          (y 2208)
-        )
-        (node
-          (x 0)
-          (y 2112)
-        )
-        (node
-          (x 0)
-          (y 1952)
-        )
-        (node
-          (x 0)
-          (y 1760)
-        )
-        (node
-          (x 0)
-          (y 1600)
-        )
-        (node
-          (x 0)
-          (y 1440)
-        )
-        (node
-          (x 0)
-          (y 1312)
-        )
-        (node
-          (x 0)
-          (y 1152)
-        )
-        (node
-          (x 0)
-          (y 992)
-        )
-        (node
-          (x 0)
-          (y 832)
-        )
-        (node
-          (x 0)
-          (y 704)
-        )
-        (node
-          (x 0)
-          (y 576)
-        )
-        (node
-          (x 0)
-          (y 480)
-        )
-        (node
-          (x 0)
-          (y 384)
-        )
-        (node
-          (x 0)
-          (y 288)
-        )
-        (node
-          (x 0)
-          (y 192)
-        )
-      )
+      (path-ref "3c1c37fd-9b8a-4d4d-a557-19936d5bffa6")
       (width 100)
       (height 125)
       (tiles
@@ -1095,17 +1159,7 @@ horizblocker.goto_node(1)")
       (solid #t)
       (z-pos 10)
       (name "horizblocker")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x 0)
-          (y -384)
-        )
-      )
+      (path-ref "5dbbb3dd-f749-436b-a630-ebd8c660ab75")
       (width 100)
       (height 125)
       (tiles
@@ -1240,45 +1294,7 @@ horizblocker.goto_node(1)")
       (solid #t)
       (z-pos 0)
       (name "vertblocker")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 0)
-        )
-        (node
-          (x -256)
-          (y 0)
-        )
-        (node
-          (x -384)
-          (y 0)
-        )
-        (node
-          (x -384)
-          (y 0)
-        )
-        (node
-          (x -576)
-          (y 0)
-        )
-        (node
-          (x -704)
-          (y 0)
-        )
-        (node
-          (x -768)
-          (y 0)
-        )
-        (node
-          (x -832)
-          (y 0)
-        )
-        (node
-          (x -992)
-          (y 0)
-        )
-      )
+      (path-ref "e8782d11-1a71-49dd-ad89-0730dd30a160")
       (width 100)
       (height 125)
       (tiles

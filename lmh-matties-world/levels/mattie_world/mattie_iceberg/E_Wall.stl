@@ -106,6 +106,15 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "e5270e0b-be23-4027-a14b-358b610dec1b")
+      (path
+        (node
+          (x 1376)
+          (y 1024)
+        )
+      )
+    )
     (powerup
       (disable-physics #t)
       (sprite "images/powerups/star/star.sprite")
@@ -541,12 +550,7 @@
       (solid #f)
       (z-pos 200)
       (name "secret")
-      (path
-        (node
-          (x 1376)
-          (y 1024)
-        )
-      )
+      (path-ref "e5270e0b-be23-4027-a14b-358b610dec1b")
       (width 8)
       (height 8)
       (tiles

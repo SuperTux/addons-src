@@ -20,18 +20,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 3296)
-          (y 544)
-          (time 5)
-        )
-        (node
-          (x 3968)
-          (y 544)
-          (time 5)
-        )
-      )
+      (path-ref "80f7285d-26d6-49cd-9a8e-ec0ceea41514")
     )
     (flyingsnowball
       (x 4388)
@@ -112,6 +101,21 @@
     )
     (music
       (file "music/intro.ogg")
+    )
+    (path
+      (name "80f7285d-26d6-49cd-9a8e-ec0ceea41514")
+      (path
+        (node
+          (x 3296)
+          (y 544)
+          (time 5)
+        )
+        (node
+          (x 3968)
+          (y 544)
+          (time 5)
+        )
+      )
     )
     (particles-snow
     )

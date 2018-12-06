@@ -15,6 +15,10 @@ Platform1.start_moving();")
     )
     (camera
       (mode "autoscroll")
+      (path-ref "0e610496-5d59-4be0-b735-477e8e063526")
+    )
+    (path
+      (name "0e610496-5d59-4be0-b735-477e8e063526")
       (path
         (mode "oneshot")
         (node
@@ -35,6 +39,66 @@ Platform1.start_moving();")
         (node
           (x 5344)
           (y 160)
+        )
+      )
+    )
+    (path
+      (name "a572b536-0635-453e-bedf-e4f8ce932ede")
+      (path
+        (node
+          (x 0)
+          (y 32)
+          (time 7)
+        )
+        (node
+          (x 0)
+          (y -128)
+          (time 7)
+        )
+      )
+    )
+    (path
+      (name "18b83913-9f82-4eb0-b6ee-4ecb84bd4162")
+      (path
+        (node
+          (x 1024)
+          (y 576)
+          (time 7)
+        )
+        (node
+          (x 1024)
+          (y 416)
+          (time 7)
+        )
+      )
+    )
+    (path
+      (name "1ee5bcc6-bd04-4684-8a9a-8f98904ddd9d")
+      (path
+        (node
+          (x 1696)
+          (y -320)
+          (time 7)
+        )
+        (node
+          (x 1696)
+          (y 0)
+          (time 7)
+        )
+      )
+    )
+    (path
+      (name "e90b766c-d7af-4cb4-84a6-5aa1f62dc15e")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+          (time 7)
+        )
+        (node
+          (x 2112)
+          (y 224)
+          (time 7)
         )
       )
     )
@@ -167,18 +231,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos -2)
       (name "MovingSnow")
-      (path
-        (node
-          (x 0)
-          (y 32)
-          (time 7)
-        )
-        (node
-          (x 0)
-          (y -128)
-          (time 7)
-        )
-      )
+      (path-ref "a572b536-0635-453e-bedf-e4f8ce932ede")
       (width 192)
       (height 27)
       (tiles
@@ -251,18 +304,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos 1)
       (name "Platform0")
-      (path
-        (node
-          (x 1024)
-          (y 576)
-          (time 7)
-        )
-        (node
-          (x 1024)
-          (y 416)
-          (time 7)
-        )
-      )
+      (path-ref "18b83913-9f82-4eb0-b6ee-4ecb84bd4162")
       (width 8)
       (height 15)
       (tiles
@@ -323,18 +365,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos 2)
       (name "Platform1")
-      (path
-        (node
-          (x 1696)
-          (y -320)
-          (time 7)
-        )
-        (node
-          (x 1696)
-          (y 0)
-          (time 7)
-        )
-      )
+      (path-ref "1ee5bcc6-bd04-4684-8a9a-8f98904ddd9d")
       (width 7)
       (height 20)
       (tiles
@@ -364,18 +395,7 @@ Platform1.start_moving();")
       (solid #t)
       (z-pos 3)
       (name "Platform2")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-          (time 7)
-        )
-        (node
-          (x 2112)
-          (y 224)
-          (time 7)
-        )
-      )
+      (path-ref "e90b766c-d7af-4cb4-84a6-5aa1f62dc15e")
       (width 4)
       (height 20)
       (tiles

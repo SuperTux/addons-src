@@ -168,6 +168,21 @@
     (music
       (file "music/wisphunt.ogg")
     )
+    (path
+      (name "9cb35798-ae59-4fd0-ac88-83a6f5de9a92")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 5)
+        )
+        (node
+          (x 0)
+          (y -96)
+          (time 5)
+        )
+      )
+    )
     (powerup
       (script "this.c1 <- true
 Tux.add_coins(1);
@@ -315,18 +330,7 @@ play_sound(\"sounds/lifeup.wav\");
       (solid #t)
       (z-pos 200)
       (name "water")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 5)
-        )
-        (node
-          (x 0)
-          (y -96)
-          (time 5)
-        )
-      )
+      (path-ref "9cb35798-ae59-4fd0-ac88-83a6f5de9a92")
       (width 500)
       (height 30)
       (tiles

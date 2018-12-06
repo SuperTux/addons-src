@@ -79,23 +79,7 @@
       (running #f)
       (name "plat")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 5536)
-          (y 1248)
-          (time 2)
-        )
-        (node
-          (x 5536)
-          (y 960)
-          (time 2)
-        )
-        (node
-          (x 5536)
-          (y 960)
-          (time 2)
-        )
-      )
+      (path-ref "9e553f2c-7884-4fd3-8105-8387293dbe02")
     )
     (haywire
       (x 1765)
@@ -159,6 +143,26 @@
     )
     (music
       (file "music/forest.ogg")
+    )
+    (path
+      (name "9e553f2c-7884-4fd3-8105-8387293dbe02")
+      (path
+        (node
+          (x 5536)
+          (y 1248)
+          (time 2)
+        )
+        (node
+          (x 5536)
+          (y 960)
+          (time 2)
+        )
+        (node
+          (x 5536)
+          (y 960)
+          (time 2)
+        )
+      )
     )
     (poisonivy
       (x 3584)

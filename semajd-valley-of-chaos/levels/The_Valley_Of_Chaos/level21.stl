@@ -63,63 +63,15 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 2176)
-          (y 896)
-          (time 0.5)
-        )
-        (node
-          (x 2176)
-          (y 992)
-          (time 0.5)
-        )
-        (node
-          (x 2176)
-          (y 1088)
-          (time 0.5)
-        )
-      )
+      (path-ref "9d2f5777-0c2f-4fb5-8376-2ca7b315ba36")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 2400)
-          (y 1088)
-          (time 0.5)
-        )
-        (node
-          (x 2400)
-          (y 992)
-          (time 0.5)
-        )
-        (node
-          (x 2400)
-          (y 896)
-          (time 0.5)
-        )
-      )
+      (path-ref "d7cf9776-adbd-42aa-9eaf-867589c9661e")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 2624)
-          (y 896)
-          (time 0.5)
-        )
-        (node
-          (x 2624)
-          (y 992)
-          (time 0.5)
-        )
-        (node
-          (x 2624)
-          (y 1088)
-          (time 0.5)
-        )
-      )
+      (path-ref "a8f79dca-4e9a-40ee-a428-db389c3fcffd")
     )
     (gradient
       (top_color 0.1058824 0.1058824 0.1058824)
@@ -131,6 +83,93 @@
     )
     (hurting_platform
       (sprite "images/objects/sawblade/sawblade.sprite")
+      (path-ref "5f2f2ad5-162f-4769-856b-ce33a28505b3")
+    )
+    (jumpy
+      (x 530)
+      (y 904)
+    )
+    (jumpy
+      (x 823)
+      (y 904)
+    )
+    (jumpy
+      (x 1615)
+      (y 712)
+    )
+    (jumpy
+      (x 3890)
+      (y 584)
+    )
+    (mrbomb
+      (x 1285)
+      (y 840)
+    )
+    (music
+      (file "music/voc-dark.music")
+    )
+    (path
+      (name "9d2f5777-0c2f-4fb5-8376-2ca7b315ba36")
+      (path
+        (node
+          (x 2176)
+          (y 896)
+          (time 0.5)
+        )
+        (node
+          (x 2176)
+          (y 992)
+          (time 0.5)
+        )
+        (node
+          (x 2176)
+          (y 1088)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "d7cf9776-adbd-42aa-9eaf-867589c9661e")
+      (path
+        (node
+          (x 2400)
+          (y 1088)
+          (time 0.5)
+        )
+        (node
+          (x 2400)
+          (y 992)
+          (time 0.5)
+        )
+        (node
+          (x 2400)
+          (y 896)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "a8f79dca-4e9a-40ee-a428-db389c3fcffd")
+      (path
+        (node
+          (x 2624)
+          (y 896)
+          (time 0.5)
+        )
+        (node
+          (x 2624)
+          (y 992)
+          (time 0.5)
+        )
+        (node
+          (x 2624)
+          (y 1088)
+          (time 0.5)
+        )
+      )
+    )
+    (path
+      (name "5f2f2ad5-162f-4769-856b-ce33a28505b3")
       (path
         (node
           (x 3392)
@@ -161,29 +200,6 @@
           (y 960)
         )
       )
-    )
-    (jumpy
-      (x 530)
-      (y 904)
-    )
-    (jumpy
-      (x 823)
-      (y 904)
-    )
-    (jumpy
-      (x 1615)
-      (y 712)
-    )
-    (jumpy
-      (x 3890)
-      (y 584)
-    )
-    (mrbomb
-      (x 1285)
-      (y 840)
-    )
-    (music
-      (file "music/voc-dark.music")
     )
     (skullyhop
       (x 1440)
@@ -520,6 +536,45 @@
     (music
       (file "music/voc-dark.music")
     )
+    (path
+      (name "82b1f75b-1c2d-41d8-b20e-9bd74a7b171e")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y -96)
+          (time 15)
+        )
+        (node
+          (x 0)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "9307936d-c21f-4ae9-a00f-62f0c8341532")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 0)
+          (time 12)
+        )
+        (node
+          (x 0)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "7c82dde3-c234-431b-a2ba-bea09c82d96a")
+      (path
+        (node
+          (x 0)
+          (y 416)
+        )
+      )
+    )
     (secretarea
       (fade-tilemap "secret")
       (width 200)
@@ -818,18 +873,7 @@ lava.start_moving();")
       (solid #t)
       (z-pos 1)
       (name "topdown")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y -96)
-          (time 15)
-        )
-        (node
-          (x 0)
-          (y 768)
-        )
-      )
+      (path-ref "82b1f75b-1c2d-41d8-b20e-9bd74a7b171e")
       (width 100)
       (height 35)
       (tiles
@@ -874,18 +918,7 @@ lava.start_moving();")
       (solid #t)
       (z-pos -1)
       (name "lava")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 0)
-          (time 12)
-        )
-        (node
-          (x 0)
-          (y 832)
-        )
-      )
+      (path-ref "9307936d-c21f-4ae9-a00f-62f0c8341532")
       (width 100)
       (height 35)
       (tiles
@@ -974,12 +1007,7 @@ lava.start_moving();")
       (solid #f)
       (z-pos 0)
       (name "cover")
-      (path
-        (node
-          (x 0)
-          (y 416)
-        )
-      )
+      (path-ref "7c82dde3-c234-431b-a2ba-bea09c82d96a")
       (width 100)
       (height 35)
       (tiles
@@ -1067,43 +1095,11 @@ lava.start_moving();")
       (running #f)
       (name "platform")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 1568)
-          (y 128)
-          (time 7)
-        )
-        (node
-          (x 1568)
-          (y 960)
-          (time 3)
-        )
-        (node
-          (x 1856)
-          (y 960)
-          (time 7)
-        )
-        (node
-          (x 1856)
-          (y 128)
-        )
-      )
+      (path-ref "167e989e-db6a-4d58-9ff7-20ed0def2c82")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (mode "pingpong")
-        (node
-          (x 2304)
-          (y 992)
-        )
-        (node
-          (x 2560)
-          (y 992)
-          (time 2)
-        )
-      )
+      (path-ref "085b84b3-3c66-4d3b-b5b3-8fb715f8570c")
     )
     (haywire
       (x 1605)
@@ -1135,6 +1131,46 @@ lava.start_moving();")
     )
     (music
       (file "music/voc-dark.music")
+    )
+    (path
+      (name "167e989e-db6a-4d58-9ff7-20ed0def2c82")
+      (path
+        (mode "oneshot")
+        (node
+          (x 1568)
+          (y 128)
+          (time 7)
+        )
+        (node
+          (x 1568)
+          (y 960)
+          (time 3)
+        )
+        (node
+          (x 1856)
+          (y 960)
+          (time 7)
+        )
+        (node
+          (x 1856)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "085b84b3-3c66-4d3b-b5b3-8fb715f8570c")
+      (path
+        (mode "pingpong")
+        (node
+          (x 2304)
+          (y 992)
+        )
+        (node
+          (x 2560)
+          (y 992)
+          (time 2)
+        )
+      )
     )
     (secretarea
       (width 508)

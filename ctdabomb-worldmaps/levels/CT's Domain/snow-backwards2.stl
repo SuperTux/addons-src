@@ -55,6 +55,73 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5a6caa5b-3c10-4ff8-bdb3-2f7e048bae62")
+    )
+    (flyingsnowball
+      (x 2436)
+      (y 515)
+    )
+    (infoblock
+      (message (_ "	Oh no! The path is Blocked
+	to go though you must move the
+	blocks, by pressing down the action
+	key and grabing the block!"))
+      (x 5088)
+      (y 544)
+    )
+    (jumpy
+      (x 4391)
+      (y 1000)
+    )
+    (jumpy
+      (x 4263)
+      (y 1000)
+    )
+    (jumpy
+      (x 4487)
+      (y 1000)
+    )
+    (jumpy
+      (x 487)
+      (y 616)
+    )
+    (mriceblock
+      (x 5281)
+      (y 614)
+    )
+    (mriceblock
+      (x 5441)
+      (y 614)
+    )
+    (mriceblock
+      (x 5601)
+      (y 614)
+    )
+    (mriceblock
+      (x 1601)
+      (y 646)
+    )
+    (smartball
+      (x 5123)
+      (y 614)
+    )
+    (smartball
+      (x 5059)
+      (y 614)
+    )
+    (smartball
+      (x 3683)
+      (y 902)
+    )
+    (smartball
+      (x 4035)
+      (y 902)
+    )
+    (music
+      (file "music/intro.ogg")
+    )
+    (path
+      (name "5a6caa5b-3c10-4ff8-bdb3-2f7e048bae62")
       (path
         (node
           (x 3392)
@@ -142,68 +209,14 @@
         )
       )
     )
-    (flyingsnowball
-      (x 2436)
-      (y 515)
-    )
-    (infoblock
-      (message (_ "	Oh no! The path is Blocked
-	to go though you must move the
-	blocks, by pressing down the action
-	key and grabing the block!"))
-      (x 5088)
-      (y 544)
-    )
-    (jumpy
-      (x 4391)
-      (y 1000)
-    )
-    (jumpy
-      (x 4263)
-      (y 1000)
-    )
-    (jumpy
-      (x 4487)
-      (y 1000)
-    )
-    (jumpy
-      (x 487)
-      (y 616)
-    )
-    (mriceblock
-      (x 5281)
-      (y 614)
-    )
-    (mriceblock
-      (x 5441)
-      (y 614)
-    )
-    (mriceblock
-      (x 5601)
-      (y 614)
-    )
-    (mriceblock
-      (x 1601)
-      (y 646)
-    )
-    (smartball
-      (x 5123)
-      (y 614)
-    )
-    (smartball
-      (x 5059)
-      (y 614)
-    )
-    (smartball
-      (x 3683)
-      (y 902)
-    )
-    (smartball
-      (x 4035)
-      (y 902)
-    )
-    (music
-      (file "music/intro.ogg")
+    (path
+      (name "9dab3102-94de-4892-ae4c-071bd62e6f7b")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
     )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")
@@ -335,12 +348,7 @@
       (solid #t)
       (z-pos 0)
       (name "Interactive")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "9dab3102-94de-4892-ae4c-071bd62e6f7b")
       (width 200)
       (height 35)
       (tiles

@@ -25,6 +25,13 @@
       (running #f)
       (name "chair")
       (sprite "images/objects/platforms/big.sprite")
+      (path-ref "f7f52196-9944-4d2b-9805-d4ff8fbde07d")
+    )
+    (music
+      (file "music/battle_theme.music")
+    )
+    (path
+      (name "f7f52196-9944-4d2b-9805-d4ff8fbde07d")
       (path
         (node
           (x 544)
@@ -39,9 +46,6 @@
           (y 832)
         )
       )
-    )
-    (music
-      (file "music/battle_theme.music")
     )
     (scripttrigger
       (script "Tux.deactivate();

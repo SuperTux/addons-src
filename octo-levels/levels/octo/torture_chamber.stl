@@ -54,6 +54,109 @@
       (x 2145)
       (y 294)
     )
+    (path
+      (name "88b375c2-6477-4b1b-9017-660db85ce63c")
+      (path
+        (node
+          (x 1728)
+          (y 864)
+          (time 0.2)
+        )
+        (node
+          (x 1776)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "a59ebd02-9628-40f1-a372-b679ff9d7e7c")
+      (path
+        (node
+          (x 1888)
+          (y 864)
+          (time 0.2)
+        )
+        (node
+          (x 1840)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "44abf695-32d8-49bd-b04b-eab741fb5d99")
+      (path
+        (node
+          (x 1088)
+          (y 960)
+          (time 10)
+        )
+        (node
+          (x 1120)
+          (y 960)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "0544e73e-ed51-4039-8108-1343f9982127")
+      (path
+        (node
+          (x 928)
+          (y 960)
+          (time 10)
+        )
+        (node
+          (x 896)
+          (y 960)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "48fd6abf-30c5-4140-901c-0f4e4635d684")
+      (path
+        (node
+          (x 288)
+          (y -800)
+          (time 30)
+        )
+        (node
+          (x 288)
+          (y -192)
+          (time 30)
+        )
+      )
+    )
+    (path
+      (name "1145e752-69f2-4091-a19c-122606b14396")
+      (path
+        (node
+          (x 288)
+          (y -800)
+          (time 30)
+        )
+        (node
+          (x 288)
+          (y -192)
+          (time 30)
+        )
+      )
+    )
+    (path
+      (name "b52e6e5d-4267-45c1-b062-ce31cf08ccc8")
+      (path
+        (node
+          (x 288)
+          (y 160)
+          (time 30)
+        )
+        (node
+          (x 288)
+          (y 768)
+          (time 30)
+        )
+      )
+    )
     (rock
       (x 2528)
       (y 1056)
@@ -290,17 +393,7 @@ ChainBack.goto_node (::CagePos);")
       (solid #t)
       (z-pos 10)
       (name "IronMaidenLeft")
-      (path
-        (node
-          (x 1728)
-          (y 864)
-          (time 0.2)
-        )
-        (node
-          (x 1776)
-          (y 864)
-        )
-      )
+      (path-ref "88b375c2-6477-4b1b-9017-660db85ce63c")
       (width 2)
       (height 7)
       (tiles
@@ -317,17 +410,7 @@ ChainBack.goto_node (::CagePos);")
       (solid #t)
       (z-pos 11)
       (name "IronMaidenRight")
-      (path
-        (node
-          (x 1888)
-          (y 864)
-          (time 0.2)
-        )
-        (node
-          (x 1840)
-          (y 864)
-        )
-      )
+      (path-ref "a59ebd02-9628-40f1-a372-b679ff9d7e7c")
       (width 2)
       (height 7)
       (tiles
@@ -344,18 +427,7 @@ ChainBack.goto_node (::CagePos);")
       (solid #t)
       (z-pos 21)
       (name "RackRight")
-      (path
-        (node
-          (x 1088)
-          (y 960)
-          (time 10)
-        )
-        (node
-          (x 1120)
-          (y 960)
-          (time 3)
-        )
-      )
+      (path-ref "44abf695-32d8-49bd-b04b-eab741fb5d99")
       (width 5)
       (height 2)
       (tiles
@@ -367,18 +439,7 @@ ChainBack.goto_node (::CagePos);")
       (solid #t)
       (z-pos 20)
       (name "RackLeft")
-      (path
-        (node
-          (x 928)
-          (y 960)
-          (time 10)
-        )
-        (node
-          (x 896)
-          (y 960)
-          (time 3)
-        )
-      )
+      (path-ref "0544e73e-ed51-4039-8108-1343f9982127")
       (width 5)
       (height 2)
       (tiles
@@ -390,18 +451,7 @@ ChainBack.goto_node (::CagePos);")
       (solid #f)
       (z-pos 30)
       (name "ChainBack")
-      (path
-        (node
-          (x 288)
-          (y -800)
-          (time 30)
-        )
-        (node
-          (x 288)
-          (y -192)
-          (time 30)
-        )
-      )
+      (path-ref "48fd6abf-30c5-4140-901c-0f4e4635d684")
       (width 11)
       (height 30)
       (tiles
@@ -441,18 +491,7 @@ ChainBack.goto_node (::CagePos);")
       (solid #f)
       (z-pos 31)
       (name "ChainFront")
-      (path
-        (node
-          (x 288)
-          (y -800)
-          (time 30)
-        )
-        (node
-          (x 288)
-          (y -192)
-          (time 30)
-        )
-      )
+      (path-ref "1145e752-69f2-4091-a19c-122606b14396")
       (width 11)
       (height 30)
       (tiles
@@ -492,18 +531,7 @@ ChainBack.goto_node (::CagePos);")
       (solid #t)
       (z-pos 32)
       (name "Cage")
-      (path
-        (node
-          (x 288)
-          (y 160)
-          (time 30)
-        )
-        (node
-          (x 288)
-          (y 768)
-          (time 30)
-        )
-      )
+      (path-ref "b52e6e5d-4267-45c1-b062-ce31cf08ccc8")
       (width 11)
       (height 9)
       (tiles

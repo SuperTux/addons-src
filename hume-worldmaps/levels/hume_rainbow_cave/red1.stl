@@ -14,63 +14,19 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 3072)
-          (y 896)
-          (time 5)
-        )
-        (node
-          (x 3072)
-          (y 384)
-          (time 5)
-        )
-      )
+      (path-ref "f05653f5-749d-4060-99ed-497da602c506")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 6144)
-          (y 896)
-          (time 5)
-        )
-        (node
-          (x 7040)
-          (y 672)
-          (time 5)
-        )
-      )
+      (path-ref "cc0fa32f-6ece-4fd3-a949-18bfe1b5feda")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 6144)
-          (y 320)
-          (time 5)
-        )
-        (node
-          (x 6848)
-          (y 640)
-          (time 5)
-        )
-      )
+      (path-ref "ca50d954-a38e-4c92-8564-213390c64ab4")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 7104)
-          (y 288)
-          (time 5)
-        )
-        (node
-          (x 6144)
-          (y 320)
-          (time 5)
-        )
-      )
+      (path-ref "e1727bc3-3146-48db-a201-3bebf32c5bf9")
     )
     (gradient
       (top_color 1 0 0)
@@ -187,6 +143,66 @@
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "f05653f5-749d-4060-99ed-497da602c506")
+      (path
+        (node
+          (x 3072)
+          (y 896)
+          (time 5)
+        )
+        (node
+          (x 3072)
+          (y 384)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "cc0fa32f-6ece-4fd3-a949-18bfe1b5feda")
+      (path
+        (node
+          (x 6144)
+          (y 896)
+          (time 5)
+        )
+        (node
+          (x 7040)
+          (y 672)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "ca50d954-a38e-4c92-8564-213390c64ab4")
+      (path
+        (node
+          (x 6144)
+          (y 320)
+          (time 5)
+        )
+        (node
+          (x 6848)
+          (y 640)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "e1727bc3-3146-48db-a201-3bebf32c5bf9")
+      (path
+        (node
+          (x 7104)
+          (y 288)
+          (time 5)
+        )
+        (node
+          (x 6144)
+          (y 320)
+          (time 5)
+        )
+      )
     )
     (scripttrigger
       (script "found_crystal(\"red\")")

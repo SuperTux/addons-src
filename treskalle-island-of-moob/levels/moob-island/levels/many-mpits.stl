@@ -20,51 +20,18 @@
     (platform
       (name "PitPlatform1")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 864)
-          (y 608)
-          (time 5)
-        )
-        (node
-          (x 1408)
-          (y 608)
-          (time 5)
-        )
-      )
+      (path-ref "505c6133-6b9d-4e81-9518-7e71d790c90e")
     )
     (platform
       (name "PitPlatform2")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 4352)
-          (y 672)
-          (time 5)
-        )
-        (node
-          (x 4992)
-          (y 672)
-          (time 5)
-        )
-      )
+      (path-ref "071d0453-674e-4ca2-8e84-b37c4f56d084")
     )
     (platform
       (running #f)
       (name "SecretBlock")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 2592)
-          (y 0)
-          (time 3)
-        )
-        (node
-          (x 2592)
-          (y 608)
-          (time 3)
-        )
-      )
+      (path-ref "204a5550-648f-435b-9670-14b412384f7f")
     )
     (haywire
       (x 2245)
@@ -88,6 +55,51 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "505c6133-6b9d-4e81-9518-7e71d790c90e")
+      (path
+        (node
+          (x 864)
+          (y 608)
+          (time 5)
+        )
+        (node
+          (x 1408)
+          (y 608)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "071d0453-674e-4ca2-8e84-b37c4f56d084")
+      (path
+        (node
+          (x 4352)
+          (y 672)
+          (time 5)
+        )
+        (node
+          (x 4992)
+          (y 672)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "204a5550-648f-435b-9670-14b412384f7f")
+      (path
+        (node
+          (x 2592)
+          (y 0)
+          (time 3)
+        )
+        (node
+          (x 2592)
+          (y 608)
+          (time 3)
+        )
+      )
     )
     (secretarea
       (fade-tilemap "secret1")

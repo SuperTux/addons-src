@@ -91,24 +91,7 @@
     )
     (hurting_platform
       (sprite "images/objects/sawblade/sawblade.sprite")
-      (path
-        (node
-          (x 864)
-          (y 608)
-        )
-        (node
-          (x 704)
-          (y 608)
-        )
-        (node
-          (x 704)
-          (y 672)
-        )
-        (node
-          (x 864)
-          (y 672)
-        )
-      )
+      (path-ref "e0a772d8-fc72-4751-a179-fbb339d14029")
     )
     (jumpy
       (x 96)
@@ -157,6 +140,27 @@
     (mriceblock
       (x 1312)
       (y 512)
+    )
+    (path
+      (name "e0a772d8-fc72-4751-a179-fbb339d14029")
+      (path
+        (node
+          (x 864)
+          (y 608)
+        )
+        (node
+          (x 704)
+          (y 608)
+        )
+        (node
+          (x 704)
+          (y 672)
+        )
+        (node
+          (x 864)
+          (y 672)
+        )
+      )
     )
     (sequencetrigger
       (sequence "stoptux")

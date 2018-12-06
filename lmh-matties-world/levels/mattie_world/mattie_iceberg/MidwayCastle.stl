@@ -980,6 +980,24 @@
     (music
       (file "music/bonuscave.ogg")
     )
+    (path
+      (name "3ab05cc4-ade4-47cf-a835-be62e0c9c576")
+      (path
+        (node
+          (x 592)
+          (y 656)
+        )
+      )
+    )
+    (path
+      (name "a62bd06e-c6cf-4ac0-81c2-8c297b5cb126")
+      (path
+        (node
+          (x 1184)
+          (y 480)
+        )
+      )
+    )
     (powerup
       (script "  Tux.add_bonus(\"iceflower\");  powerup();  ")
       (sprite "images/powerups/iceflower/iceflower.sprite")
@@ -1069,12 +1087,7 @@
       (solid #t)
       (z-pos -10)
       (name "dirt")
-      (path
-        (node
-          (x 592)
-          (y 656)
-        )
-      )
+      (path-ref "3ab05cc4-ade4-47cf-a835-be62e0c9c576")
       (width 11)
       (height 2)
       (tiles
@@ -1086,12 +1099,7 @@
       (solid #t)
       (z-pos 100)
       (name "foreground")
-      (path
-        (node
-          (x 1184)
-          (y 480)
-        )
-      )
+      (path-ref "a62bd06e-c6cf-4ac0-81c2-8c297b5cb126")
       (width 1)
       (height 8)
       (tiles

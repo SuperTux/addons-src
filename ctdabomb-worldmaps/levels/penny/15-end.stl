@@ -285,6 +285,60 @@ Effect.fade_in(1);
     (music
       (file "music/wisphunt.music")
     )
+    (path
+      (name "09417305-655b-42f7-9182-c83aca4ec61e")
+      (path
+        (mode "oneshot")
+        (node
+          (x 1184)
+          (y 1216)
+        )
+        (node
+          (x 1312)
+          (y 1056)
+        )
+        (node
+          (x 1440)
+          (y 928)
+        )
+        (node
+          (x 1600)
+          (y 768)
+        )
+        (node
+          (x 1792)
+          (y 576)
+        )
+        (node
+          (x 2016)
+          (y 576)
+        )
+        (node
+          (x 2304)
+          (y 576)
+        )
+        (node
+          (x 2496)
+          (y 576)
+        )
+        (node
+          (x 2624)
+          (y 448)
+        )
+        (node
+          (x 2784)
+          (y 288)
+        )
+        (node
+          (x 2944)
+          (y 128)
+        )
+        (node
+          (x 3072)
+          (y 0)
+        )
+      )
+    )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")
       (x 1216)
@@ -638,57 +692,7 @@ Level.spawn(\"boss\",\"main\")")
       (solid #t)
       (z-pos 100)
       (name "cart")
-      (path
-        (mode "oneshot")
-        (node
-          (x 1184)
-          (y 1216)
-        )
-        (node
-          (x 1312)
-          (y 1056)
-        )
-        (node
-          (x 1440)
-          (y 928)
-        )
-        (node
-          (x 1600)
-          (y 768)
-        )
-        (node
-          (x 1792)
-          (y 576)
-        )
-        (node
-          (x 2016)
-          (y 576)
-        )
-        (node
-          (x 2304)
-          (y 576)
-        )
-        (node
-          (x 2496)
-          (y 576)
-        )
-        (node
-          (x 2624)
-          (y 448)
-        )
-        (node
-          (x 2784)
-          (y 288)
-        )
-        (node
-          (x 2944)
-          (y 128)
-        )
-        (node
-          (x 3072)
-          (y 0)
-        )
-      )
+      (path-ref "09417305-655b-42f7-9182-c83aca4ec61e")
       (width 5)
       (height 9)
       (tiles

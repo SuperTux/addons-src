@@ -42,17 +42,7 @@
       (running #f)
       (name "flyingcoin")
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 7520)
-          (y 128)
-          (time 0.6)
-        )
-        (node
-          (x 7520)
-          (y -64)
-        )
-      )
+      (path-ref "f3ba2b7f-79d6-410b-bd15-a21a07edf822")
     )
     (jumpy
       (x 1735)
@@ -108,6 +98,34 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "f3ba2b7f-79d6-410b-bd15-a21a07edf822")
+      (path
+        (node
+          (x 7520)
+          (y 128)
+          (time 0.6)
+        )
+        (node
+          (x 7520)
+          (y -64)
+        )
+      )
+    )
+    (path
+      (name "378fc3aa-4535-4f9e-b31e-6962f5913153")
+      (path
+        (node
+          (x 7232)
+          (y -320)
+          (time 0.01)
+        )
+        (node
+          (x 2496)
+          (y -320)
+        )
+      )
     )
     (powerup
       (script "Tux.add_coins(1) ")
@@ -645,17 +663,7 @@ coinsfall.goto_node(1);")
       (solid #t)
       (z-pos 0)
       (name "coinsfall")
-      (path
-        (node
-          (x 7232)
-          (y -320)
-          (time 0.01)
-        )
-        (node
-          (x 2496)
-          (y -320)
-        )
-      )
+      (path-ref "378fc3aa-4535-4f9e-b31e-6962f5913153")
       (width 20)
       (height 10)
       (tiles

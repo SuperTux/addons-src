@@ -53,18 +53,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 10784)
-          (y 1664)
-          (time 5)
-        )
-        (node
-          (x 11360)
-          (y 1184)
-          (time 5)
-        )
-      )
+      (path-ref "72853fc6-eab6-4145-ab37-5ca55ccb335c")
     )
     (lantern
       (color 1 0 0)
@@ -426,6 +415,30 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "72853fc6-eab6-4145-ab37-5ca55ccb335c")
+      (path
+        (node
+          (x 10784)
+          (y 1664)
+          (time 5)
+        )
+        (node
+          (x 11360)
+          (y 1184)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "ee3a0ea9-81b7-4d06-b111-03d3ae41f6a6")
+      (path
+        (node
+          (x 8768)
+          (y 384)
+        )
+      )
+    )
     (scripttrigger
       (script "secret.set_alpha(1);")
       (button #f)
@@ -690,12 +703,7 @@
       (alpha 0)
       (z-pos 10)
       (name "secret")
-      (path
-        (node
-          (x 8768)
-          (y 384)
-        )
-      )
+      (path-ref "ee3a0ea9-81b7-4d06-b111-03d3ae41f6a6")
       (width 40)
       (height 19)
       (tiles

@@ -683,54 +683,12 @@
     (platform
       (name "v1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 256)
-          (y 416)
-          (time 5)
-        )
-        (node
-          (x 256)
-          (y 416)
-          (time 5)
-        )
-        (node
-          (x 256)
-          (y 1088)
-          (time 5)
-        )
-        (node
-          (x 256)
-          (y 1088)
-          (time 5)
-        )
-      )
+      (path-ref "4dcbc2d6-4bd0-4e00-baf7-872ef0fce02f")
     )
     (platform
       (name "v2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 256)
-          (y 256)
-          (time 5)
-        )
-        (node
-          (x 256)
-          (y 256)
-          (time 5)
-        )
-        (node
-          (x 256)
-          (y 928)
-          (time 5)
-        )
-        (node
-          (x 256)
-          (y 928)
-          (time 5)
-        )
-      )
+      (path-ref "075708d4-06fb-44d3-9ccc-7310376b1585")
     )
     (mriceblock
       (x 736)
@@ -742,6 +700,56 @@
     )
     (music
       (file "music/cave.music")
+    )
+    (path
+      (name "4dcbc2d6-4bd0-4e00-baf7-872ef0fce02f")
+      (path
+        (node
+          (x 256)
+          (y 416)
+          (time 5)
+        )
+        (node
+          (x 256)
+          (y 416)
+          (time 5)
+        )
+        (node
+          (x 256)
+          (y 1088)
+          (time 5)
+        )
+        (node
+          (x 256)
+          (y 1088)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "075708d4-06fb-44d3-9ccc-7310376b1585")
+      (path
+        (node
+          (x 256)
+          (y 256)
+          (time 5)
+        )
+        (node
+          (x 256)
+          (y 256)
+          (time 5)
+        )
+        (node
+          (x 256)
+          (y 928)
+          (time 5)
+        )
+        (node
+          (x 256)
+          (y 928)
+          (time 5)
+        )
+      )
     )
     (scripttrigger
       (script "Text.set_text(\"Floor -126\")   
@@ -1663,6 +1671,19 @@ Text.set_text(\"Floor -127\")
       (running #f)
       (name "k1")
       (sprite "images/objects/platforms/big.sprite")
+      (path-ref "ffbd13d6-95d8-47f7-9269-dd9a3ad61f0e")
+    )
+    (platform
+      (running #f)
+      (name "k2")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "32478a91-07f6-423f-ba6d-7ae6a721b6d9")
+    )
+    (music
+      (file "music/cave.music")
+    )
+    (path
+      (name "ffbd13d6-95d8-47f7-9269-dd9a3ad61f0e")
       (path
         (node
           (x 960)
@@ -1676,10 +1697,8 @@ Text.set_text(\"Floor -127\")
         )
       )
     )
-    (platform
-      (running #f)
-      (name "k2")
-      (sprite "images/objects/platforms/big.sprite")
+    (path
+      (name "32478a91-07f6-423f-ba6d-7ae6a721b6d9")
       (path
         (node
           (x 960)
@@ -1692,9 +1711,6 @@ Text.set_text(\"Floor -127\")
           (time 5)
         )
       )
-    )
-    (music
-      (file "music/cave.music")
     )
     (scripttrigger
       (script "Level.spawn(\"end\",\"main\")")
@@ -2008,6 +2024,18 @@ Text.set_text(\"Floor -89\")
     (platform
       (name "fjjfkuzfu")
       (sprite "images/objects/platforms/big.sprite")
+      (path-ref "b56ca8ab-ee1b-4882-868e-151cb5a491b2")
+    )
+    (platform
+      (name "dthzrtjh")
+      (sprite "images/objects/platforms/big.sprite")
+      (path-ref "dcb155ae-3953-4ee2-a070-160cfa3ac3a6")
+    )
+    (music
+      (file "music/cave.music")
+    )
+    (path
+      (name "b56ca8ab-ee1b-4882-868e-151cb5a491b2")
       (path
         (node
           (x 0)
@@ -2015,18 +2043,14 @@ Text.set_text(\"Floor -89\")
         )
       )
     )
-    (platform
-      (name "dthzrtjh")
-      (sprite "images/objects/platforms/big.sprite")
+    (path
+      (name "dcb155ae-3953-4ee2-a070-160cfa3ac3a6")
       (path
         (node
           (x 0)
           (y 928)
         )
       )
-    )
-    (music
-      (file "music/cave.music")
     )
     (scripttrigger
       (script "Text.fade_in(1)

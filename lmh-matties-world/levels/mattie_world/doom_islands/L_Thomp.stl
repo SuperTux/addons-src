@@ -185,6 +185,107 @@
     (music
       (file "music/cave.ogg")
     )
+    (path
+      (name "fa87399e-86bb-4ef0-8b6d-a74fbd8d2ebd")
+      (path
+        (node
+          (x 2400)
+          (y 96)
+        )
+      )
+    )
+    (path
+      (name "7071cd03-d0ff-47fa-a809-90fd2e740561")
+      (path
+        (node
+          (x 4096)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "b8a08abc-fc17-457f-ae13-2280a6ec99a5")
+      (path
+        (node
+          (x 3840)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "6cdedfd1-a2a8-4e37-95b5-19e8c3cc670d")
+      (path
+        (node
+          (x 3904)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "ef8687ad-b63a-4f98-a38e-ab6d0fa7cead")
+      (path
+        (node
+          (x 3904)
+          (y 640)
+          (time 0.1)
+        )
+        (node
+          (x 3904)
+          (y 1024)
+          (time 0.1)
+        )
+        (node
+          (x 3744)
+          (y 1024)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c219b7e7-fb44-4d88-b873-b9b50ac2d3b3")
+      (path
+        (node
+          (x 3200)
+          (y 383)
+          (time 0.1)
+        )
+        (node
+          (x 3200)
+          (y 319)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "d629940b-9e92-44ed-a304-b835ca4c039d")
+      (path
+        (node
+          (x 3392)
+          (y 672)
+          (time 0.1)
+        )
+        (node
+          (x 3392)
+          (y 607)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "9039a3ed-4fea-42d4-8060-f73feb9a9515")
+      (path
+        (node
+          (x 4672)
+          (y 928)
+          (time 0.1)
+        )
+        (node
+          (x 4672)
+          (y 575)
+          (time 0.1)
+        )
+      )
+    )
     (powerup
       (script "find_coin(\"coin1\");	")
       (disable-physics #t)
@@ -332,12 +433,7 @@ Tux.add_bonus(\"iceflower\"); wait(0.1); powerup(); Tux.add_bonus(\"iceflower\")
       (solid #f)
       (z-pos 200)
       (name "secret1")
-      (path
-        (node
-          (x 2400)
-          (y 96)
-        )
-      )
+      (path-ref "fa87399e-86bb-4ef0-8b6d-a74fbd8d2ebd")
       (width 9)
       (height 11)
       (tiles
@@ -358,12 +454,7 @@ Tux.add_bonus(\"iceflower\"); wait(0.1); powerup(); Tux.add_bonus(\"iceflower\")
       (solid #f)
       (z-pos 200)
       (name "secret2")
-      (path
-        (node
-          (x 4096)
-          (y 0)
-        )
-      )
+      (path-ref "7071cd03-d0ff-47fa-a809-90fd2e740561")
       (width 5)
       (height 6)
       (tiles
@@ -379,12 +470,7 @@ Tux.add_bonus(\"iceflower\"); wait(0.1); powerup(); Tux.add_bonus(\"iceflower\")
       (solid #f)
       (z-pos 200)
       (name "secret3")
-      (path
-        (node
-          (x 3840)
-          (y 544)
-        )
-      )
+      (path-ref "b8a08abc-fc17-457f-ae13-2280a6ec99a5")
       (width 25)
       (height 13)
       (tiles
@@ -523,12 +609,7 @@ Tux.add_bonus(\"iceflower\"); wait(0.1); powerup(); Tux.add_bonus(\"iceflower\")
       (solid #t)
       (z-pos 0)
       (name "pipetop")
-      (path
-        (node
-          (x 3904)
-          (y 640)
-        )
-      )
+      (path-ref "6cdedfd1-a2a8-4e37-95b5-19e8c3cc670d")
       (width 2)
       (height 1)
       (tiles
@@ -539,23 +620,7 @@ Tux.add_bonus(\"iceflower\"); wait(0.1); powerup(); Tux.add_bonus(\"iceflower\")
       (solid #t)
       (z-pos 0)
       (name "pipedrop")
-      (path
-        (node
-          (x 3904)
-          (y 640)
-          (time 0.1)
-        )
-        (node
-          (x 3904)
-          (y 1024)
-          (time 0.1)
-        )
-        (node
-          (x 3744)
-          (y 1024)
-          (time 0.1)
-        )
-      )
+      (path-ref "ef8687ad-b63a-4f98-a38e-ab6d0fa7cead")
       (width 2)
       (height 1)
       (tiles
@@ -566,18 +631,7 @@ Tux.add_bonus(\"iceflower\"); wait(0.1); powerup(); Tux.add_bonus(\"iceflower\")
       (solid #t)
       (z-pos 0)
       (name "thomptop1")
-      (path
-        (node
-          (x 3200)
-          (y 383)
-          (time 0.1)
-        )
-        (node
-          (x 3200)
-          (y 319)
-          (time 0.1)
-        )
-      )
+      (path-ref "c219b7e7-fb44-4d88-b873-b9b50ac2d3b3")
       (width 2)
       (height 1)
       (tiles
@@ -588,18 +642,7 @@ Tux.add_bonus(\"iceflower\"); wait(0.1); powerup(); Tux.add_bonus(\"iceflower\")
       (solid #t)
       (z-pos 0)
       (name "thomptop2")
-      (path
-        (node
-          (x 3392)
-          (y 672)
-          (time 0.1)
-        )
-        (node
-          (x 3392)
-          (y 607)
-          (time 0.1)
-        )
-      )
+      (path-ref "d629940b-9e92-44ed-a304-b835ca4c039d")
       (width 10)
       (height 1)
       (tiles
@@ -610,18 +653,7 @@ Tux.add_bonus(\"iceflower\"); wait(0.1); powerup(); Tux.add_bonus(\"iceflower\")
       (solid #t)
       (z-pos 0)
       (name "thomptop3")
-      (path
-        (node
-          (x 4672)
-          (y 928)
-          (time 0.1)
-        )
-        (node
-          (x 4672)
-          (y 575)
-          (time 0.1)
-        )
-      )
+      (path-ref "9039a3ed-4fea-42d4-8060-f73feb9a9515")
       (width 4)
       (height 1)
       (tiles

@@ -25,18 +25,7 @@
     )
     (platform
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 2272)
-          (y 512)
-          (time 3)
-        )
-        (node
-          (x 2272)
-          (y 224)
-          (time 3)
-        )
-      )
+      (path-ref "a76f25bc-1640-41a5-9f50-28c617ef2545")
     )
     (infoblock
       (message (_ "#Attention: 
@@ -620,6 +609,21 @@
     )
     (music
       (file "music/greatgigantic.music")
+    )
+    (path
+      (name "a76f25bc-1640-41a5-9f50-28c617ef2545")
+      (path
+        (node
+          (x 2272)
+          (y 512)
+          (time 3)
+        )
+        (node
+          (x 2272)
+          (y 224)
+          (time 3)
+        )
+      )
     )
     (powerup
       (script "this.c1 <- true

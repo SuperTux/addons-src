@@ -46,159 +46,55 @@ airpipe.fade(1,3);")
       (running #f)
       (name "A")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1568)
-          (y 1024)
-          (time 0.2)
-        )
-        (node
-          (x 1576)
-          (y 1120)
-          (time 0.2)
-        )
-      )
+      (path-ref "8f0ad09b-fe04-4403-b01c-379e9cc6a2e6")
     )
     (platform
       (running #f)
       (name "B1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1572)
-          (y 1056)
-          (time 0.2)
-        )
-        (node
-          (x 1604)
-          (y 1152)
-          (time 0.2)
-        )
-      )
+      (path-ref "8b28a56d-2e5b-4883-b9fa-3bb95fa7d2bc")
     )
     (platform
       (running #f)
       (name "B2")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1604)
-          (y 1056)
-          (time 0.2)
-        )
-        (node
-          (x 1604)
-          (y 1152)
-          (time 1.2)
-        )
-        (node
-          (x 1622)
-          (y 1187)
-          (time 0.2)
-        )
-      )
+      (path-ref "a16d7862-bd04-4643-94dc-9bb108435724")
     )
     (platform
       (running #f)
       (name "C1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1576)
-          (y 1088)
-          (time 0.2)
-        )
-        (node
-          (x 1677)
-          (y 878)
-          (time 0.2)
-        )
-      )
+      (path-ref "40cf16b4-bbea-4bd8-b661-179be8ffe5bf")
     )
     (platform
       (running #f)
       (name "C2")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1608)
-          (y 1088)
-          (time 0.2)
-        )
-        (node
-          (x 1756)
-          (y 988)
-          (time 0.2)
-        )
-      )
+      (path-ref "3d5c1c17-edfb-4d58-9f15-cd56ae0c5ff0")
     )
     (platform
       (running #f)
       (name "D1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1576)
-          (y 1120)
-          (time 0.2)
-        )
-        (node
-          (x 1536)
-          (y 1184)
-          (time 0.2)
-        )
-      )
+      (path-ref "04a2615c-570e-48fe-a34d-a4b80f2fe8d9")
     )
     (platform
       (running #f)
       (name "D2")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1608)
-          (y 1120)
-          (time 0.2)
-        )
-        (node
-          (x 1805)
-          (y 1218)
-          (time 0.2)
-        )
-      )
+      (path-ref "8ae40bbf-bd74-4348-9f24-d474d66a9d8b")
     )
     (platform
       (running #f)
       (name "E")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1604)
-          (y 1152)
-          (time 0.2)
-        )
-        (node
-          (x 1735)
-          (y 1216)
-          (time 0.2)
-        )
-      )
+      (path-ref "efbca234-7787-4219-b3d6-4333a8130da0")
     )
     (platform
       (running #f)
       (name "pau")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 1568)
-          (y 1248)
-          (time 0.1)
-        )
-        (node
-          (x 1568)
-          (y 1216)
-          (time 0.1)
-        )
-      )
+      (path-ref "9961ff8d-f45e-40ed-a552-4361c4d3c579")
     )
     (flyingsnowball
       (x 704)
@@ -376,6 +272,188 @@ airpipe.fade(1,3);")
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "8f0ad09b-fe04-4403-b01c-379e9cc6a2e6")
+      (path
+        (node
+          (x 1568)
+          (y 1024)
+          (time 0.2)
+        )
+        (node
+          (x 1576)
+          (y 1120)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "8b28a56d-2e5b-4883-b9fa-3bb95fa7d2bc")
+      (path
+        (node
+          (x 1572)
+          (y 1056)
+          (time 0.2)
+        )
+        (node
+          (x 1604)
+          (y 1152)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "a16d7862-bd04-4643-94dc-9bb108435724")
+      (path
+        (node
+          (x 1604)
+          (y 1056)
+          (time 0.2)
+        )
+        (node
+          (x 1604)
+          (y 1152)
+          (time 1.2)
+        )
+        (node
+          (x 1622)
+          (y 1187)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "40cf16b4-bbea-4bd8-b661-179be8ffe5bf")
+      (path
+        (node
+          (x 1576)
+          (y 1088)
+          (time 0.2)
+        )
+        (node
+          (x 1677)
+          (y 878)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "3d5c1c17-edfb-4d58-9f15-cd56ae0c5ff0")
+      (path
+        (node
+          (x 1608)
+          (y 1088)
+          (time 0.2)
+        )
+        (node
+          (x 1756)
+          (y 988)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "04a2615c-570e-48fe-a34d-a4b80f2fe8d9")
+      (path
+        (node
+          (x 1576)
+          (y 1120)
+          (time 0.2)
+        )
+        (node
+          (x 1536)
+          (y 1184)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "8ae40bbf-bd74-4348-9f24-d474d66a9d8b")
+      (path
+        (node
+          (x 1608)
+          (y 1120)
+          (time 0.2)
+        )
+        (node
+          (x 1805)
+          (y 1218)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "efbca234-7787-4219-b3d6-4333a8130da0")
+      (path
+        (node
+          (x 1604)
+          (y 1152)
+          (time 0.2)
+        )
+        (node
+          (x 1735)
+          (y 1216)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "9961ff8d-f45e-40ed-a552-4361c4d3c579")
+      (path
+        (node
+          (x 1568)
+          (y 1248)
+          (time 0.1)
+        )
+        (node
+          (x 1568)
+          (y 1216)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "5b4ecc98-8896-40b5-8fe0-06d598df9e97")
+      (path
+        (node
+          (x 1376)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "904ad5d4-48bf-41b8-b36d-049443397d35")
+      (path
+        (node
+          (x 1696)
+          (y 2400)
+        )
+      )
+    )
+    (path
+      (name "53f80d5b-c8f1-42ad-819d-a9112830c19f")
+      (path
+        (node
+          (x 1696)
+          (y 2400)
+          (time 0.8)
+        )
+        (node
+          (x 1696)
+          (y 2528)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "f067a557-7d60-44ab-9523-8176c732a86d")
+      (path
+        (node
+          (x 1696)
+          (y 2400)
+        )
+      )
     )
     (powerup
       (disable-physics #t)
@@ -954,12 +1032,7 @@ airpipe.fade(1,3);")
       (solid #f)
       (z-pos 200)
       (name "secret")
-      (path
-        (node
-          (x 1376)
-          (y 1024)
-        )
-      )
+      (path-ref "5b4ecc98-8896-40b5-8fe0-06d598df9e97")
       (width 8)
       (height 6)
       (tiles
@@ -975,12 +1048,7 @@ airpipe.fade(1,3);")
       (solid #t)
       (z-pos 200)
       (name "pipetop")
-      (path
-        (node
-          (x 1696)
-          (y 2400)
-        )
-      )
+      (path-ref "904ad5d4-48bf-41b8-b36d-049443397d35")
       (width 2)
       (height 3)
       (tiles
@@ -993,18 +1061,7 @@ airpipe.fade(1,3);")
       (solid #t)
       (z-pos 0)
       (name "pipelift")
-      (path
-        (node
-          (x 1696)
-          (y 2400)
-          (time 0.8)
-        )
-        (node
-          (x 1696)
-          (y 2528)
-          (time 0.1)
-        )
-      )
+      (path-ref "53f80d5b-c8f1-42ad-819d-a9112830c19f")
       (width 2)
       (height 1)
       (tiles
@@ -1016,12 +1073,7 @@ airpipe.fade(1,3);")
       (alpha 0)
       (z-pos 110)
       (name "airpipe")
-      (path
-        (node
-          (x 1696)
-          (y 2400)
-        )
-      )
+      (path-ref "f067a557-7d60-44ab-9523-8176c732a86d")
       (width 2)
       (height 3)
       (tiles

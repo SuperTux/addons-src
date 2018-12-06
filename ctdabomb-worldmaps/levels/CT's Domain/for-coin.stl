@@ -57,6 +57,15 @@
     (music
       (file "music/forest.music")
     )
+    (path
+      (name "06809e23-12dd-4ff8-8b5e-ee9defd78689")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (poisonivy
       (x 6242)
       (y 740)
@@ -572,12 +581,7 @@
       (solid #f)
       (z-pos 457)
       (name "coinpit")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "06809e23-12dd-4ff8-8b5e-ee9defd78689")
       (width 250)
       (height 35)
       (tiles

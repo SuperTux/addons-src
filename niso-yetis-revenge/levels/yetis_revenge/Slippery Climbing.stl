@@ -68,6 +68,136 @@
     (music
       (file "music/cave.ogg")
     )
+    (path
+      (name "cd9d68f8-955b-489a-a782-74d3c57cf626")
+      (path
+        (node
+          (x 384)
+          (y 3296)
+          (time 2)
+        )
+        (node
+          (x 1344)
+          (y 3296)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "d28b6ab4-bb01-4fe4-85fb-5bbc4239d4ed")
+      (path
+        (node
+          (x 992)
+          (y 2560)
+        )
+        (node
+          (x 1440)
+          (y 2560)
+        )
+      )
+    )
+    (path
+      (name "991068cb-8ace-48e9-b281-18a43fa81a55")
+      (path
+        (node
+          (x 384)
+          (y 2528)
+        )
+        (node
+          (x 576)
+          (y 2528)
+        )
+      )
+    )
+    (path
+      (name "29efd5b2-d1d3-46d1-bf6f-92119054d92a")
+      (path
+        (node
+          (x 544)
+          (y 1856)
+        )
+        (node
+          (x 1216)
+          (y 1856)
+          (time 0.1)
+        )
+        (node
+          (x 1280)
+          (y 1824)
+          (time 0.2)
+        )
+        (node
+          (x 1344)
+          (y 1728)
+          (time 0.5)
+        )
+        (node
+          (x 1344)
+          (y 1472)
+          (time 0.05)
+        )
+        (node
+          (x 1344)
+          (y 1472)
+          (time 0.5)
+        )
+        (node
+          (x 1344)
+          (y 1728)
+          (time 0.2)
+        )
+        (node
+          (x 1280)
+          (y 1824)
+          (time 0.1)
+        )
+        (node
+          (x 1216)
+          (y 1856)
+        )
+      )
+    )
+    (path
+      (name "de5130bc-b885-40bd-be7e-5a8dd2673e72")
+      (path
+        (node
+          (x 384)
+          (y 1184)
+          (time 2)
+        )
+        (node
+          (x 64)
+          (y 1184)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "34fa81b2-2cff-4c05-aef1-69036f8cbb35")
+      (path
+        (node
+          (x 64)
+          (y 768)
+        )
+        (node
+          (x 320)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "e681edbb-6004-40f3-add3-108239a7d5a6")
+      (path
+        (node
+          (x 608)
+          (y 768)
+        )
+        (node
+          (x 352)
+          (y 768)
+        )
+      )
+    )
     (powerup
       (script "this.c1 <- true
 Tux.add_coins(1);
@@ -1193,18 +1323,7 @@ ib2.start_moving();")
       (solid #t)
       (z-pos 0)
       (name "spikes1")
-      (path
-        (node
-          (x 384)
-          (y 3296)
-          (time 2)
-        )
-        (node
-          (x 1344)
-          (y 3296)
-          (time 2)
-        )
-      )
+      (path-ref "cd9d68f8-955b-489a-a782-74d3c57cf626")
       (width 2)
       (height 1)
       (tiles
@@ -1215,16 +1334,7 @@ ib2.start_moving();")
       (solid #t)
       (z-pos 0)
       (name "spikes2")
-      (path
-        (node
-          (x 992)
-          (y 2560)
-        )
-        (node
-          (x 1440)
-          (y 2560)
-        )
-      )
+      (path-ref "d28b6ab4-bb01-4fe4-85fb-5bbc4239d4ed")
       (width 3)
       (height 1)
       (tiles
@@ -1235,16 +1345,7 @@ ib2.start_moving();")
       (solid #t)
       (z-pos 0)
       (name "ib1")
-      (path
-        (node
-          (x 384)
-          (y 2528)
-        )
-        (node
-          (x 576)
-          (y 2528)
-        )
-      )
+      (path-ref "991068cb-8ace-48e9-b281-18a43fa81a55")
       (width 3)
       (height 3)
       (tiles
@@ -1257,51 +1358,7 @@ ib2.start_moving();")
       (solid #t)
       (z-pos 0)
       (name "spikes3")
-      (path
-        (node
-          (x 544)
-          (y 1856)
-        )
-        (node
-          (x 1216)
-          (y 1856)
-          (time 0.1)
-        )
-        (node
-          (x 1280)
-          (y 1824)
-          (time 0.2)
-        )
-        (node
-          (x 1344)
-          (y 1728)
-          (time 0.5)
-        )
-        (node
-          (x 1344)
-          (y 1472)
-          (time 0.05)
-        )
-        (node
-          (x 1344)
-          (y 1472)
-          (time 0.5)
-        )
-        (node
-          (x 1344)
-          (y 1728)
-          (time 0.2)
-        )
-        (node
-          (x 1280)
-          (y 1824)
-          (time 0.1)
-        )
-        (node
-          (x 1216)
-          (y 1856)
-        )
-      )
+      (path-ref "29efd5b2-d1d3-46d1-bf6f-92119054d92a")
       (width 1)
       (height 1)
       (tiles
@@ -1471,18 +1528,7 @@ ib2.start_moving();")
       (solid #t)
       (z-pos 0)
       (name "ib2")
-      (path
-        (node
-          (x 384)
-          (y 1184)
-          (time 2)
-        )
-        (node
-          (x 64)
-          (y 1184)
-          (time 2)
-        )
-      )
+      (path-ref "de5130bc-b885-40bd-be7e-5a8dd2673e72")
       (width 6)
       (height 8)
       (tiles
@@ -1500,16 +1546,7 @@ ib2.start_moving();")
       (solid #t)
       (z-pos 0)
       (name "spikes4a")
-      (path
-        (node
-          (x 64)
-          (y 768)
-        )
-        (node
-          (x 320)
-          (y 768)
-        )
-      )
+      (path-ref "34fa81b2-2cff-4c05-aef1-69036f8cbb35")
       (width 1)
       (height 1)
       (tiles
@@ -1520,16 +1557,7 @@ ib2.start_moving();")
       (solid #t)
       (z-pos 0)
       (name "spikes4b")
-      (path
-        (node
-          (x 608)
-          (y 768)
-        )
-        (node
-          (x 352)
-          (y 768)
-        )
-      )
+      (path-ref "e681edbb-6004-40f3-add3-108239a7d5a6")
       (width 1)
       (height 1)
       (tiles

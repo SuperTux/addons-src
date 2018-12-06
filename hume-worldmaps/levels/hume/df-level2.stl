@@ -32,16 +32,7 @@
       (running #f)
       (name "plat")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 4768)
-          (y 1536)
-        )
-        (node
-          (x 4768)
-          (y 896)
-        )
-      )
+      (path-ref "611b602f-bbce-4a6b-a9b1-74c04b79d3ae")
     )
     (igel
       (x 544)
@@ -73,6 +64,19 @@
     )
     (music
       (file "music/ghostforest2.ogg")
+    )
+    (path
+      (name "611b602f-bbce-4a6b-a9b1-74c04b79d3ae")
+      (path
+        (node
+          (x 4768)
+          (y 1536)
+        )
+        (node
+          (x 4768)
+          (y 896)
+        )
+      )
     )
     (poisonivy
       (x 5024)

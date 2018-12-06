@@ -21,114 +21,31 @@
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 3296)
-          (y 528.4437)
-          (time 5)
-        )
-        (node
-          (x 3294.586)
-          (y 568.929)
-          (time 5)
-        )
-      )
+      (path-ref "d644bca1-e10a-447c-91fa-3838b30c9dd4")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 4428.208)
-          (y 525.598)
-          (time 5)
-        )
-        (node
-          (x 4426.794)
-          (y 551.0538)
-          (time 5)
-        )
-      )
+      (path-ref "bedde735-b5b9-4be5-996e-8e536d7fc749")
     )
     (platform
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 4864)
-          (y 416)
-        )
-        (node
-          (x 4864)
-          (y 544)
-          (time 5)
-        )
-        (node
-          (x 4864)
-          (y 672)
-        )
-      )
+      (path-ref "753a66b2-6559-42eb-b2a7-ed457746f9bc")
     )
     (platform
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 5344)
-          (y 416)
-        )
-        (node
-          (x 5344)
-          (y 544)
-          (time 5)
-        )
-        (node
-          (x 5344)
-          (y 736)
-        )
-      )
+      (path-ref "4b02a509-fd17-4ef6-972a-880ded667af8")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 5671.071)
-          (y 527.5563)
-          (time 5)
-        )
-        (node
-          (x 5670.875)
-          (y 559.5142)
-          (time 5)
-        )
-      )
+      (path-ref "05d0cf21-026a-470b-a9c8-ebca77ae1a89")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 7596.728)
-          (y 523.3138)
-          (time 5)
-        )
-        (node
-          (x 7596.253)
-          (y 571.5042)
-          (time 5)
-        )
-      )
+      (path-ref "986e1c6a-2470-4b15-9895-b68a3b864fa5")
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 8174.308)
-          (y 525.7053)
-          (time 5)
-        )
-        (node
-          (x 8172.864)
-          (y 563.4799)
-          (time 5)
-        )
-      )
+      (path-ref "f3771e27-cbb8-4b57-9e79-80758a76b818")
     )
     (gradient
       (top_color 0 0 0)
@@ -184,6 +101,117 @@
     )
     (music
       (file "music/wisphunt.ogg")
+    )
+    (path
+      (name "d644bca1-e10a-447c-91fa-3838b30c9dd4")
+      (path
+        (node
+          (x 3296)
+          (y 528.4437)
+          (time 5)
+        )
+        (node
+          (x 3294.586)
+          (y 568.929)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "bedde735-b5b9-4be5-996e-8e536d7fc749")
+      (path
+        (node
+          (x 4428.208)
+          (y 525.598)
+          (time 5)
+        )
+        (node
+          (x 4426.794)
+          (y 551.0538)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "753a66b2-6559-42eb-b2a7-ed457746f9bc")
+      (path
+        (node
+          (x 4864)
+          (y 416)
+        )
+        (node
+          (x 4864)
+          (y 544)
+          (time 5)
+        )
+        (node
+          (x 4864)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "4b02a509-fd17-4ef6-972a-880ded667af8")
+      (path
+        (node
+          (x 5344)
+          (y 416)
+        )
+        (node
+          (x 5344)
+          (y 544)
+          (time 5)
+        )
+        (node
+          (x 5344)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "05d0cf21-026a-470b-a9c8-ebca77ae1a89")
+      (path
+        (node
+          (x 5671.071)
+          (y 527.5563)
+          (time 5)
+        )
+        (node
+          (x 5670.875)
+          (y 559.5142)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "986e1c6a-2470-4b15-9895-b68a3b864fa5")
+      (path
+        (node
+          (x 7596.728)
+          (y 523.3138)
+          (time 5)
+        )
+        (node
+          (x 7596.253)
+          (y 571.5042)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "f3771e27-cbb8-4b57-9e79-80758a76b818")
+      (path
+        (node
+          (x 8174.308)
+          (y 525.7053)
+          (time 5)
+        )
+        (node
+          (x 8172.864)
+          (y 563.4799)
+          (time 5)
+        )
+      )
     )
     (secretarea
       (width 412)

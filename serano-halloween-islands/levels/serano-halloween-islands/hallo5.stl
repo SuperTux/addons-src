@@ -243,16 +243,7 @@
       (running #f)
       (name "bridge1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 8544)
-          (y 800)
-        )
-        (node
-          (x 8544)
-          (y 1088)
-        )
-      )
+      (path-ref "3308a2a5-7ad2-4a81-9e42-e595580ae0df")
     )
     (goldbomb
       (x 10501)
@@ -359,6 +350,19 @@
     )
     (music
       (file "music/ghostforest2.ogg")
+    )
+    (path
+      (name "3308a2a5-7ad2-4a81-9e42-e595580ae0df")
+      (path
+        (node
+          (x 8544)
+          (y 800)
+        )
+        (node
+          (x 8544)
+          (y 1088)
+        )
+      )
     )
     (secretarea
       (width 156)

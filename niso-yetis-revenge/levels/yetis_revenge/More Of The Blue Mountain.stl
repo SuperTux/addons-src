@@ -70,120 +70,35 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 512)
-          (y 3968)
-          (time 3)
-        )
-        (node
-          (x 352)
-          (y 3840)
-          (time 3)
-        )
-      )
+      (path-ref "4248302d-5da3-4841-9ba9-9244e169fd39")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 192)
-          (y 3584)
-          (time 3)
-        )
-        (node
-          (x 192)
-          (y 3776)
-          (time 3)
-        )
-      )
+      (path-ref "8785820f-f079-47b8-b9e6-9339317d2171")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 320)
-          (y 3296)
-        )
-        (node
-          (x 512)
-          (y 3296)
-        )
-      )
+      (path-ref "0f3983d8-917a-42da-b0e0-0183ade1bb69")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 608)
-          (y 2528)
-          (time 3)
-        )
-        (node
-          (x 288)
-          (y 2592)
-          (time 3)
-        )
-      )
+      (path-ref "192aec0e-d4d5-485c-a80a-60d12f60100e")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 352)
-          (y 2208)
-          (time 4)
-        )
-        (node
-          (x 1056)
-          (y 2208)
-          (time 4)
-        )
-      )
+      (path-ref "1c016906-f439-4c35-afbf-2d24f5de28ea")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 32)
-          (y 1600)
-          (time 3)
-        )
-        (node
-          (x 32)
-          (y 1312)
-          (time 3)
-        )
-      )
+      (path-ref "d8314253-ff1f-4d14-92ea-f1312aa3a859")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 384)
-          (y 1344)
-        )
-        (node
-          (x 576)
-          (y 1216)
-        )
-      )
+      (path-ref "86ed607a-c028-4803-a89b-f9ef16b7651a")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (mode "pingpong")
-        (node
-          (x 1472)
-          (y 672)
-          (time 3)
-        )
-        (node
-          (x 1472)
-          (y 320)
-          (time 3)
-        )
-      )
+      (path-ref "af020923-6e07-4790-979f-53da32af4c7d")
     )
     (flyingsnowball
       (x 612)
@@ -215,6 +130,153 @@
     )
     (music
       (file "music/greatgigantic.ogg")
+    )
+    (path
+      (name "4248302d-5da3-4841-9ba9-9244e169fd39")
+      (path
+        (node
+          (x 512)
+          (y 3968)
+          (time 3)
+        )
+        (node
+          (x 352)
+          (y 3840)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "8785820f-f079-47b8-b9e6-9339317d2171")
+      (path
+        (node
+          (x 192)
+          (y 3584)
+          (time 3)
+        )
+        (node
+          (x 192)
+          (y 3776)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "0f3983d8-917a-42da-b0e0-0183ade1bb69")
+      (path
+        (node
+          (x 320)
+          (y 3296)
+        )
+        (node
+          (x 512)
+          (y 3296)
+        )
+      )
+    )
+    (path
+      (name "192aec0e-d4d5-485c-a80a-60d12f60100e")
+      (path
+        (node
+          (x 608)
+          (y 2528)
+          (time 3)
+        )
+        (node
+          (x 288)
+          (y 2592)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "1c016906-f439-4c35-afbf-2d24f5de28ea")
+      (path
+        (node
+          (x 352)
+          (y 2208)
+          (time 4)
+        )
+        (node
+          (x 1056)
+          (y 2208)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "d8314253-ff1f-4d14-92ea-f1312aa3a859")
+      (path
+        (node
+          (x 32)
+          (y 1600)
+          (time 3)
+        )
+        (node
+          (x 32)
+          (y 1312)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "86ed607a-c028-4803-a89b-f9ef16b7651a")
+      (path
+        (node
+          (x 384)
+          (y 1344)
+        )
+        (node
+          (x 576)
+          (y 1216)
+        )
+      )
+    )
+    (path
+      (name "af020923-6e07-4790-979f-53da32af4c7d")
+      (path
+        (mode "pingpong")
+        (node
+          (x 1472)
+          (y 672)
+          (time 3)
+        )
+        (node
+          (x 1472)
+          (y 320)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "0f846b7d-b649-4530-ba27-41d059047ddf")
+      (path
+        (node
+          (x -192)
+          (y 0)
+          (time 5)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "6c1d9d29-19f3-403e-b807-71b478c11f51")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 6)
+        )
+        (node
+          (x -256)
+          (y 0)
+          (time 6)
+        )
+      )
     )
     (powerup
       (script "this.c1 <- true
@@ -2077,18 +2139,7 @@ m2.start_moving()")
       (solid #t)
       (z-pos -1)
       (name "m1")
-      (path
-        (node
-          (x -192)
-          (y 0)
-          (time 5)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 5)
-        )
-      )
+      (path-ref "0f846b7d-b649-4530-ba27-41d059047ddf")
       (width 50)
       (height 200)
       (tiles
@@ -2298,18 +2349,7 @@ m2.start_moving()")
       (solid #t)
       (z-pos -1)
       (name "m2")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 6)
-        )
-        (node
-          (x -256)
-          (y 0)
-          (time 6)
-        )
-      )
+      (path-ref "6c1d9d29-19f3-403e-b807-71b478c11f51")
       (width 50)
       (height 200)
       (tiles

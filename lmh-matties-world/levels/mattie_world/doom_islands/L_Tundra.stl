@@ -174,6 +174,149 @@ Melt7.goto_node(1);")
     (music
       (file "music/credits.ogg")
     )
+    (path
+      (name "39b2dad3-6b73-46a8-a7a1-5c570666ec96")
+      (path
+        (node
+          (x 2880)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "b08c568c-f360-4056-b187-679add4fedb1")
+      (path
+        (node
+          (x 4704)
+          (y 448)
+        )
+      )
+    )
+    (path
+      (name "74df00db-72f2-45e7-a0ad-8b3db47ac03d")
+      (path
+        (node
+          (x 5024)
+          (y 448)
+        )
+      )
+    )
+    (path
+      (name "274e7b49-1ccd-458f-ae6a-bb9a19353c7f")
+      (path
+        (mode "oneshot")
+        (node
+          (x 6464)
+          (y 224)
+          (time 40)
+        )
+        (node
+          (x 6464)
+          (y 448)
+        )
+      )
+    )
+    (path
+      (name "80ccef33-2376-4e08-a460-9c3b6ed9a375")
+      (path
+        (node
+          (x 6464)
+          (y 736)
+          (time 40)
+        )
+        (node
+          (x 6464)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "584d1f2c-2681-48bd-b16b-e48bf08b9cd0")
+      (path
+        (node
+          (x 6496)
+          (y 448)
+        )
+      )
+    )
+    (path
+      (name "adb9a50a-8a8c-4874-a642-8ea5b09f0bf6")
+      (path
+        (node
+          (x 11040)
+          (y 192)
+          (time 300)
+        )
+        (node
+          (x 11040)
+          (y 416)
+        )
+      )
+    )
+    (path
+      (name "af95040c-5777-4cf7-a66d-96dd822ee50e")
+      (path
+        (node
+          (x 8224)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "20effb94-4feb-4e65-92b8-2727e13487ac")
+      (path
+        (node
+          (x 9024)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "1d147d33-e7d6-470f-acb8-01dabdba5cd0")
+      (path
+        (node
+          (x 9056)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "7f1706ce-eaa5-41a7-b6d8-17e8c91f0319")
+      (path
+        (node
+          (x 9248)
+          (y 320)
+        )
+      )
+    )
+    (path
+      (name "76c68d22-24d0-43a0-8071-404651beb9cf")
+      (path
+        (node
+          (x 96)
+          (y 416)
+          (time 120)
+        )
+        (node
+          (x 96)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "7355ed88-38b2-4e4a-b5a1-33cb41ac88b1")
+      (path
+        (node
+          (x 6336)
+          (y 64)
+          (time 90)
+        )
+        (node
+          (x 6336)
+          (y 128)
+        )
+      )
+    )
     (scripttrigger
       (script "Melt1.fade(0,30);")
       (button #f)
@@ -431,12 +574,7 @@ Melt6.fade(0.3,20);")
       (solid #f)
       (z-pos 50)
       (name "Melt1")
-      (path
-        (node
-          (x 2880)
-          (y 736)
-        )
-      )
+      (path-ref "39b2dad3-6b73-46a8-a7a1-5c570666ec96")
       (width 9)
       (height 5)
       (tiles
@@ -451,12 +589,7 @@ Melt6.fade(0.3,20);")
       (solid #f)
       (z-pos 100)
       (name "Melt2")
-      (path
-        (node
-          (x 4704)
-          (y 448)
-        )
-      )
+      (path-ref "b08c568c-f360-4056-b187-679add4fedb1")
       (width 13)
       (height 5)
       (tiles
@@ -471,12 +604,7 @@ Melt6.fade(0.3,20);")
       (solid #t)
       (z-pos 100)
       (name "Secret2")
-      (path
-        (node
-          (x 5024)
-          (y 448)
-        )
-      )
+      (path-ref "74df00db-72f2-45e7-a0ad-8b3db47ac03d")
       (width 13)
       (height 13)
       (tiles
@@ -499,18 +627,7 @@ Melt6.fade(0.3,20);")
       (solid #t)
       (z-pos -150)
       (name "Melt3")
-      (path
-        (mode "oneshot")
-        (node
-          (x 6464)
-          (y 224)
-          (time 40)
-        )
-        (node
-          (x 6464)
-          (y 448)
-        )
-      )
+      (path-ref "274e7b49-1ccd-458f-ae6a-bb9a19353c7f")
       (width 17)
       (height 19)
       (tiles
@@ -539,17 +656,7 @@ Melt6.fade(0.3,20);")
       (solid #f)
       (z-pos 99)
       (name "Runoff")
-      (path
-        (node
-          (x 6464)
-          (y 736)
-          (time 40)
-        )
-        (node
-          (x 6464)
-          (y 640)
-        )
-      )
+      (path-ref "80ccef33-2376-4e08-a460-9c3b6ed9a375")
       (width 17)
       (height 5)
       (tiles
@@ -564,12 +671,7 @@ Melt6.fade(0.3,20);")
       (solid #t)
       (z-pos 0)
       (name "Block")
-      (path
-        (node
-          (x 6496)
-          (y 448)
-        )
-      )
+      (path-ref "584d1f2c-2681-48bd-b16b-e48bf08b9cd0")
       (width 1)
       (height 1)
       (tiles
@@ -580,17 +682,7 @@ Melt6.fade(0.3,20);")
       (solid #t)
       (z-pos -50)
       (name "Secret1")
-      (path
-        (node
-          (x 11040)
-          (y 192)
-          (time 300)
-        )
-        (node
-          (x 11040)
-          (y 416)
-        )
-      )
+      (path-ref "adb9a50a-8a8c-4874-a642-8ea5b09f0bf6")
       (width 13)
       (height 11)
       (tiles
@@ -611,12 +703,7 @@ Melt6.fade(0.3,20);")
       (solid #f)
       (z-pos 100)
       (name "Melt4")
-      (path
-        (node
-          (x 8224)
-          (y 224)
-        )
-      )
+      (path-ref "af95040c-5777-4cf7-a66d-96dd822ee50e")
       (width 9)
       (height 5)
       (tiles
@@ -632,12 +719,7 @@ Melt6.fade(0.3,20);")
       (alpha 0.8)
       (z-pos 100)
       (name "Melt5")
-      (path
-        (node
-          (x 9024)
-          (y 224)
-        )
-      )
+      (path-ref "20effb94-4feb-4e65-92b8-2727e13487ac")
       (width 6)
       (height 5)
       (tiles
@@ -652,12 +734,7 @@ Melt6.fade(0.3,20);")
       (solid #t)
       (z-pos 0)
       (name "Solid")
-      (path
-        (node
-          (x 9056)
-          (y 256)
-        )
-      )
+      (path-ref "1d147d33-e7d6-470f-acb8-01dabdba5cd0")
       (width 4)
       (height 3)
       (tiles
@@ -670,12 +747,7 @@ Melt6.fade(0.3,20);")
       (solid #f)
       (z-pos 100)
       (name "Melt6")
-      (path
-        (node
-          (x 9248)
-          (y 320)
-        )
-      )
+      (path-ref "7f1706ce-eaa5-41a7-b6d8-17e8c91f0319")
       (width 27)
       (height 9)
       (tiles
@@ -786,17 +858,7 @@ Melt6.fade(0.3,20);")
       (solid #f)
       (z-pos -100)
       (name "Melt7")
-      (path
-        (node
-          (x 96)
-          (y 416)
-          (time 120)
-        )
-        (node
-          (x 96)
-          (y 480)
-        )
-      )
+      (path-ref "76c68d22-24d0-43a0-8071-404651beb9cf")
       (width 172)
       (height 21)
       (tiles
@@ -827,17 +889,7 @@ Melt6.fade(0.3,20);")
       (solid #f)
       (z-pos -110)
       (name "Melt8")
-      (path
-        (node
-          (x 6336)
-          (y 64)
-          (time 90)
-        )
-        (node
-          (x 6336)
-          (y 128)
-        )
-      )
+      (path-ref "7355ed88-38b2-4e4a-b5a1-33cb41ac88b1")
       (width 174)
       (height 15)
       (tiles

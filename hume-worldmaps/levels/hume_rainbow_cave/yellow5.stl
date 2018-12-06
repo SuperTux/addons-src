@@ -120,129 +120,49 @@
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "dfac7dbf-9c95-47f4-89ba-bef4dac14807")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "9ee4bfcd-9779-4722-93e2-c826df443075")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "48d1cc0c-e060-43ed-bce9-fbaedc435594")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "8e555c4b-b021-4cf5-99be-c6e65916ec2d")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "55384563-f5af-431b-bfa5-1c02ab65b206")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "a4b4739e-d41b-445b-86ce-55e3f66d18b3")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "5d533edd-132e-44e3-b9f8-67f282b3d255")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "c563bb44-f7c7-4ddc-b948-a6d0f691f205")
     )
     (gradient
       (top_color 1 1 0)
@@ -250,6 +170,118 @@
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "dfac7dbf-9c95-47f4-89ba-bef4dac14807")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "9ee4bfcd-9779-4722-93e2-c826df443075")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "48d1cc0c-e060-43ed-bce9-fbaedc435594")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "8e555c4b-b021-4cf5-99be-c6e65916ec2d")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "55384563-f5af-431b-bfa5-1c02ab65b206")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "a4b4739e-d41b-445b-86ce-55e3f66d18b3")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "5d533edd-132e-44e3-b9f8-67f282b3d255")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c563bb44-f7c7-4ddc-b948-a6d0f691f205")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -584,129 +616,49 @@ Level.spawn(\"side12\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "cf68647e-202c-4c62-9512-4325c18e402d")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "9de9643a-a04d-4807-8f04-57db14324917")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "e922e27f-30f5-4f27-a46b-5b7a01587c8a")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "a74e3fda-0a40-4c89-84de-8086177fec3c")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "75961756-1956-41ea-9eac-759961cf0d34")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "c4e69f48-1dca-40ef-92ab-61c36a3616c4")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "8f16c444-2d44-4b22-be58-a0cc2c5d102f")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "db6fcc4c-24f6-442b-8590-cc186e8a99af")
     )
     (gradient
       (top_color 1 1 0)
@@ -714,6 +666,118 @@ Level.spawn(\"side12\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "cf68647e-202c-4c62-9512-4325c18e402d")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "9de9643a-a04d-4807-8f04-57db14324917")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "e922e27f-30f5-4f27-a46b-5b7a01587c8a")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "a74e3fda-0a40-4c89-84de-8086177fec3c")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "75961756-1956-41ea-9eac-759961cf0d34")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c4e69f48-1dca-40ef-92ab-61c36a3616c4")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "8f16c444-2d44-4b22-be58-a0cc2c5d102f")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "db6fcc4c-24f6-442b-8590-cc186e8a99af")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -1048,129 +1112,49 @@ Level.spawn(\"side08\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "a88c537e-db03-4eef-9046-031c9cc37a12")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "53b58da2-69ce-405a-a4e1-852139aca2bc")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "c62eaa19-ddc2-42f2-956f-a5871b197337")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "d7a294fe-4401-4d75-8105-ab4f547fc356")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "1027b5d7-8d6f-4eab-a31f-b2daf2bc404b")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "79144d9b-3aaa-4b71-8c42-2659ba552771")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "5ed1f6ac-50cf-4fba-9266-a234101f13e8")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "a4f28a2a-0068-4004-a2f1-6da114fe3dc4")
     )
     (gradient
       (top_color 1 1 0)
@@ -1178,6 +1162,118 @@ Level.spawn(\"side08\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "a88c537e-db03-4eef-9046-031c9cc37a12")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "53b58da2-69ce-405a-a4e1-852139aca2bc")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c62eaa19-ddc2-42f2-956f-a5871b197337")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "d7a294fe-4401-4d75-8105-ab4f547fc356")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "1027b5d7-8d6f-4eab-a31f-b2daf2bc404b")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "79144d9b-3aaa-4b71-8c42-2659ba552771")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "5ed1f6ac-50cf-4fba-9266-a234101f13e8")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "a4f28a2a-0068-4004-a2f1-6da114fe3dc4")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -1512,129 +1608,49 @@ Level.spawn(\"side08\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "b02ce668-2e52-4d66-9dae-2b0f99f086c1")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "21fe7638-59c2-43a5-a99c-68e1f46693c7")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "6e318f27-ad39-4ffd-9ca3-4aac938cbec4")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "2f91e98b-e2fc-4a10-a608-9ca143830424")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "bd85dff5-c152-420c-a056-7fb534cd2096")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "7a6f2d06-01f5-4bfa-b5ed-25e69d1f707a")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "77677513-80ca-456b-a3d9-70c1601a36af")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "c758ecdf-b428-4714-af21-d7200cab0dad")
     )
     (gradient
       (top_color 1 1 0)
@@ -1642,6 +1658,118 @@ Level.spawn(\"side08\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "b02ce668-2e52-4d66-9dae-2b0f99f086c1")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "21fe7638-59c2-43a5-a99c-68e1f46693c7")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "6e318f27-ad39-4ffd-9ca3-4aac938cbec4")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "2f91e98b-e2fc-4a10-a608-9ca143830424")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "bd85dff5-c152-420c-a056-7fb534cd2096")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "7a6f2d06-01f5-4bfa-b5ed-25e69d1f707a")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "77677513-80ca-456b-a3d9-70c1601a36af")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c758ecdf-b428-4714-af21-d7200cab0dad")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -1976,129 +2104,49 @@ Level.spawn(\"side14\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "2bc3be48-fcfb-4488-a86e-dc1d780e3297")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "665eb97e-0e51-4560-9d33-6b835c870777")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "e820e899-67b8-43c0-bbdc-13290181a916")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "999ed202-11b6-4cef-baec-8fc1bf14b3ea")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "0e0b4d38-8106-48fe-ae64-b2311acdc5e8")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "d31fabbc-8460-4df1-9522-f31af183982d")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "aedbcd88-81aa-4f95-b5b1-5fe06a331855")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "47000b86-b363-4045-ba36-7a130b149a7d")
     )
     (gradient
       (top_color 1 1 0)
@@ -2106,6 +2154,118 @@ Level.spawn(\"side14\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "2bc3be48-fcfb-4488-a86e-dc1d780e3297")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "665eb97e-0e51-4560-9d33-6b835c870777")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "e820e899-67b8-43c0-bbdc-13290181a916")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "999ed202-11b6-4cef-baec-8fc1bf14b3ea")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "0e0b4d38-8106-48fe-ae64-b2311acdc5e8")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "d31fabbc-8460-4df1-9522-f31af183982d")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "aedbcd88-81aa-4f95-b5b1-5fe06a331855")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "47000b86-b363-4045-ba36-7a130b149a7d")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -2440,129 +2600,49 @@ Level.spawn(\"side15\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "d9be3a9b-c3ed-4554-b037-0b7b3f33395c")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "fde05579-66f7-46c6-88a3-38d5c50d51d8")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "56c3fbe4-1eec-478b-921c-c451ad692e64")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "7d16974a-4ce3-4ed9-a476-698ebf17a42a")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "bd3e736b-754f-4943-8d2c-c1e30f25e437")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "f333b0db-b1b4-43c6-84cb-bebb4cff895a")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "e93c9cb3-a092-453f-8cb7-744841109926")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "b24d3c7c-8883-4cf0-99bb-f0fde54b13a6")
     )
     (gradient
       (top_color 1 1 0)
@@ -2570,6 +2650,118 @@ Level.spawn(\"side15\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "d9be3a9b-c3ed-4554-b037-0b7b3f33395c")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "fde05579-66f7-46c6-88a3-38d5c50d51d8")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "56c3fbe4-1eec-478b-921c-c451ad692e64")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "7d16974a-4ce3-4ed9-a476-698ebf17a42a")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "bd3e736b-754f-4943-8d2c-c1e30f25e437")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "f333b0db-b1b4-43c6-84cb-bebb4cff895a")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "e93c9cb3-a092-453f-8cb7-744841109926")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "b24d3c7c-8883-4cf0-99bb-f0fde54b13a6")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -2904,129 +3096,49 @@ Level.spawn(\"side16\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "529307c5-2793-4ea1-95de-0d1906f9246a")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "58c2081d-4b72-484d-b8a8-3c1fd9be2feb")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "a28fcc28-2c71-4a85-80ef-3515370a2b45")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "3a90dc24-02a1-4f72-80b2-fe37ea51f9cf")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "b149c473-8335-47f5-a241-fb2eae756a81")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "7ff095f7-70e2-4c23-ae6f-b29b9a3993ef")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "67c868cf-8ee2-4729-ac1b-1bc155899035")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "f18325e1-d355-4800-844e-dc769cd14798")
     )
     (gradient
       (top_color 1 1 0)
@@ -3034,6 +3146,118 @@ Level.spawn(\"side16\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "529307c5-2793-4ea1-95de-0d1906f9246a")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "58c2081d-4b72-484d-b8a8-3c1fd9be2feb")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "a28fcc28-2c71-4a85-80ef-3515370a2b45")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "3a90dc24-02a1-4f72-80b2-fe37ea51f9cf")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "b149c473-8335-47f5-a241-fb2eae756a81")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "7ff095f7-70e2-4c23-ae6f-b29b9a3993ef")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "67c868cf-8ee2-4729-ac1b-1bc155899035")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "f18325e1-d355-4800-844e-dc769cd14798")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -3368,129 +3592,49 @@ Level.spawn(\"side20\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "5fcc8c0e-fd9f-4aa1-bd48-8213c4814962")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "6c4a4979-89a1-43f8-b4e4-7e86fc564106")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "3cc0acb8-63a8-4e7c-bde4-fe4958efb053")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "e3b02707-9f11-4b4d-946f-a3d89a655381")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "b6e9e457-4c68-42fd-8b7d-3cfd39eccf9f")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "13ffdceb-9e09-41e4-b44c-78bce9a018c4")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "4f34940e-f6b7-4a03-b147-2a512e9e2c0d")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "7bf8292b-d35b-4419-b063-03f19f4e5406")
     )
     (gradient
       (top_color 1 1 0)
@@ -3498,6 +3642,118 @@ Level.spawn(\"side20\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "5fcc8c0e-fd9f-4aa1-bd48-8213c4814962")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "6c4a4979-89a1-43f8-b4e4-7e86fc564106")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "3cc0acb8-63a8-4e7c-bde4-fe4958efb053")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "e3b02707-9f11-4b4d-946f-a3d89a655381")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "b6e9e457-4c68-42fd-8b7d-3cfd39eccf9f")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "13ffdceb-9e09-41e4-b44c-78bce9a018c4")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "4f34940e-f6b7-4a03-b147-2a512e9e2c0d")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "7bf8292b-d35b-4419-b063-03f19f4e5406")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -3832,129 +4088,49 @@ Level.spawn(\"side21\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "9bfda57b-c24c-494b-a798-7d729972d9ec")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "2e70a1fb-1d86-4ead-b427-7b285c94fda3")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "16b421a9-661d-4caa-bf16-6b89196ed298")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "f6560c9f-c7b2-4859-b8ea-af586ed3c2ab")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "a7b81b5d-bfd1-4ca4-bcf1-a20b5aadd5cb")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "a54e9146-b35b-47ca-ae56-4d38590d4532")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "119a941f-b2db-4131-b4d8-f451d3509e07")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "88eb89f1-604e-4b9c-8cc0-d412809d4288")
     )
     (gradient
       (top_color 1 1 0)
@@ -3962,6 +4138,118 @@ Level.spawn(\"side21\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "9bfda57b-c24c-494b-a798-7d729972d9ec")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "2e70a1fb-1d86-4ead-b427-7b285c94fda3")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "16b421a9-661d-4caa-bf16-6b89196ed298")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "f6560c9f-c7b2-4859-b8ea-af586ed3c2ab")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "a7b81b5d-bfd1-4ca4-bcf1-a20b5aadd5cb")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "a54e9146-b35b-47ca-ae56-4d38590d4532")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "119a941f-b2db-4131-b4d8-f451d3509e07")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "88eb89f1-604e-4b9c-8cc0-d412809d4288")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -4296,129 +4584,49 @@ Level.spawn(\"side19\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "b61cc10f-6c4e-4f71-a82a-731438f08ec7")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "1282d69e-2ee7-4967-be91-4b99431f834a")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "07382ec8-b639-4a0e-9d49-695460805026")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "10f3808e-78dc-4af1-b6d3-996950144295")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "4bf6480c-85ea-4a05-a860-5fa0218eeada")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "0b416696-bc1a-40c4-9afa-dd5200152b80")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "c85da67a-7d85-458d-8367-3578dc8af9cc")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "036e5a12-6143-4046-af11-51b1b0a79e98")
     )
     (gradient
       (top_color 1 1 0)
@@ -4426,6 +4634,118 @@ Level.spawn(\"side19\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "b61cc10f-6c4e-4f71-a82a-731438f08ec7")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "1282d69e-2ee7-4967-be91-4b99431f834a")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "07382ec8-b639-4a0e-9d49-695460805026")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "10f3808e-78dc-4af1-b6d3-996950144295")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "4bf6480c-85ea-4a05-a860-5fa0218eeada")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "0b416696-bc1a-40c4-9afa-dd5200152b80")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c85da67a-7d85-458d-8367-3578dc8af9cc")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "036e5a12-6143-4046-af11-51b1b0a79e98")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -4760,129 +5080,49 @@ Level.spawn(\"side23\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "c31a2f6e-b0b7-4afa-8f00-281d23f9ab16")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "dd1465c2-9f12-49bb-8105-97834a300867")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "df3e4df5-041b-4e9e-a3be-e3505ffcb1ff")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "68f78d81-0967-4d99-8a05-2cb8a324ebdc")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "c1359589-42f5-4588-9a18-00689c509bad")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "4aa6ee0f-a0af-459c-bcb3-b957353731ca")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "4d4582a6-751b-4081-9f1b-cedba0c449d6")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "199c008b-9057-4c1e-9bcf-9c36766d09d8")
     )
     (gradient
       (top_color 1 1 0)
@@ -4890,6 +5130,118 @@ Level.spawn(\"side23\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "c31a2f6e-b0b7-4afa-8f00-281d23f9ab16")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "dd1465c2-9f12-49bb-8105-97834a300867")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "df3e4df5-041b-4e9e-a3be-e3505ffcb1ff")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "68f78d81-0967-4d99-8a05-2cb8a324ebdc")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c1359589-42f5-4588-9a18-00689c509bad")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "4aa6ee0f-a0af-459c-bcb3-b957353731ca")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "4d4582a6-751b-4081-9f1b-cedba0c449d6")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "199c008b-9057-4c1e-9bcf-9c36766d09d8")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -5224,129 +5576,49 @@ Level.spawn(\"side19\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "2c1413ce-4fc3-4393-8e7f-9c66ff7159aa")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "b6616753-83da-40a8-9f41-aa5f9627e6fd")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "394ad974-8e85-46ae-9be9-b33f286a5c51")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "97ee10cf-5ef6-4014-8ad4-790146b63827")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "ad4b5d29-8d5c-4529-af3e-ac49c9d52ec3")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "bb035501-7afc-4e93-854c-b2368fd2d9b1")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "c0ed24f2-d700-41be-bc10-4002e8a4b0f0")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "5c7be426-7e32-4a37-bb47-57decd3155f7")
     )
     (gradient
       (top_color 1 1 0)
@@ -5354,6 +5626,118 @@ Level.spawn(\"side19\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "2c1413ce-4fc3-4393-8e7f-9c66ff7159aa")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "b6616753-83da-40a8-9f41-aa5f9627e6fd")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "394ad974-8e85-46ae-9be9-b33f286a5c51")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "97ee10cf-5ef6-4014-8ad4-790146b63827")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "ad4b5d29-8d5c-4529-af3e-ac49c9d52ec3")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "bb035501-7afc-4e93-854c-b2368fd2d9b1")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c0ed24f2-d700-41be-bc10-4002e8a4b0f0")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "5c7be426-7e32-4a37-bb47-57decd3155f7")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -5688,129 +6072,49 @@ Level.spawn(\"side21\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "e3a9d499-d6a1-4581-a521-55aafe572fb5")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "5c0a4cfb-8aa5-4e17-91da-779cd8b9cb99")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "7a1df03e-c928-4431-9570-e611d9b5b0c0")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "f986370f-8c37-41ab-9ae6-35efe71d99ff")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "ab087a5d-38e2-49fc-9313-3289e8639ba9")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "46b72394-7cc1-494a-857c-fe8d9b928579")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "85f511ee-5254-47ae-8f55-c4bdf6ff4e45")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "1e8cae9a-9e4e-4973-b27e-7162cd2ad901")
     )
     (gradient
       (top_color 1 1 0)
@@ -5818,6 +6122,118 @@ Level.spawn(\"side21\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "e3a9d499-d6a1-4581-a521-55aafe572fb5")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "5c0a4cfb-8aa5-4e17-91da-779cd8b9cb99")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "7a1df03e-c928-4431-9570-e611d9b5b0c0")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "f986370f-8c37-41ab-9ae6-35efe71d99ff")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "ab087a5d-38e2-49fc-9313-3289e8639ba9")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "46b72394-7cc1-494a-857c-fe8d9b928579")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "85f511ee-5254-47ae-8f55-c4bdf6ff4e45")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "1e8cae9a-9e4e-4973-b27e-7162cd2ad901")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -6152,129 +6568,49 @@ Level.spawn(\"side20\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "e87d088a-e61a-4dd4-ac94-9cf17c0aa21c")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "969467af-a387-4c17-b2d7-a2a0ed1eb805")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "294ae20e-211d-422a-adb4-57f5c0a28d32")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "dd75fc32-5860-4f40-8366-ece2e99afc00")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "e823fede-759e-42f8-8f45-fe588d4bde06")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "50966168-4c15-4934-b96d-c1dfacd1db33")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "db3ccf95-9b47-49ac-9832-2db46fdb676a")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "5ad33de6-b936-4238-aa88-ee6e22f18148")
     )
     (gradient
       (top_color 1 1 0)
@@ -6282,6 +6618,118 @@ Level.spawn(\"side20\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "e87d088a-e61a-4dd4-ac94-9cf17c0aa21c")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "969467af-a387-4c17-b2d7-a2a0ed1eb805")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "294ae20e-211d-422a-adb4-57f5c0a28d32")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "dd75fc32-5860-4f40-8366-ece2e99afc00")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "e823fede-759e-42f8-8f45-fe588d4bde06")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "50966168-4c15-4934-b96d-c1dfacd1db33")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "db3ccf95-9b47-49ac-9832-2db46fdb676a")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "5ad33de6-b936-4238-aa88-ee6e22f18148")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -6616,129 +7064,49 @@ Level.spawn(\"side04\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "cec50622-4ef9-49b2-9ec9-53838e59e033")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "8bb7df4b-b321-4892-b9f3-6420055f6598")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "6c39a3cb-1e4d-4278-9c54-199351bba0c0")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "b0871350-9111-46fb-814e-e0249c7c57ea")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "ffd075fc-f785-440a-abcc-995ee40e0681")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "0b97d317-c8ec-4ce6-993a-84860a1af230")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "cad773e7-7749-4136-8a79-af70b565a895")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "d89bb7df-e9b7-4bdb-83b7-b841ce73ca5c")
     )
     (gradient
       (top_color 1 1 0)
@@ -6746,6 +7114,118 @@ Level.spawn(\"side04\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "cec50622-4ef9-49b2-9ec9-53838e59e033")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "8bb7df4b-b321-4892-b9f3-6420055f6598")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "6c39a3cb-1e4d-4278-9c54-199351bba0c0")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "b0871350-9111-46fb-814e-e0249c7c57ea")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "ffd075fc-f785-440a-abcc-995ee40e0681")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "0b97d317-c8ec-4ce6-993a-84860a1af230")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "cad773e7-7749-4136-8a79-af70b565a895")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "d89bb7df-e9b7-4bdb-83b7-b841ce73ca5c")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -7080,129 +7560,49 @@ Level.spawn(\"side23\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "6393171f-e7c3-457c-a603-2a3a85dd6e32")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "921f8006-3fb1-4d75-af2b-b1a66d09a585")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "86fae208-3151-4517-b16e-f2371c16118d")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "95a5d635-31c4-4403-a052-b9cae1392e14")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "58870687-906e-4e68-b5b8-6913571d4f77")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "0d8df46d-2082-46f9-9ecd-7cd01eee207b")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "f989515f-df33-49ae-a16f-dbc61cd2f787")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "9818ea35-5f23-4d0d-be67-73663a5a685d")
     )
     (gradient
       (top_color 1 1 0)
@@ -7210,6 +7610,118 @@ Level.spawn(\"side23\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "6393171f-e7c3-457c-a603-2a3a85dd6e32")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "921f8006-3fb1-4d75-af2b-b1a66d09a585")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "86fae208-3151-4517-b16e-f2371c16118d")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "95a5d635-31c4-4403-a052-b9cae1392e14")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "58870687-906e-4e68-b5b8-6913571d4f77")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "0d8df46d-2082-46f9-9ecd-7cd01eee207b")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "f989515f-df33-49ae-a16f-dbc61cd2f787")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "9818ea35-5f23-4d0d-be67-73663a5a685d")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -7544,129 +8056,49 @@ Level.spawn(\"side20\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "3b1e4fc5-76f6-4f8e-8b78-b10ef775c71c")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "8b67634a-54c2-41f9-b08b-44460cbf2fa1")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "75a6a88d-dd10-40d6-aed4-c757a6407bff")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "859afa6d-ba23-46f8-8105-6a38bb684cb2")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "55289860-a51f-49f8-8349-9b8465742f34")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "eb5a82ec-06cb-40ae-8f8f-5d7621b27897")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "01091def-7d07-427b-a7c7-528a99f488df")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "e4eccbb3-62c2-4950-9576-e263de75f31b")
     )
     (gradient
       (top_color 1 1 0)
@@ -7674,6 +8106,118 @@ Level.spawn(\"side20\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "3b1e4fc5-76f6-4f8e-8b78-b10ef775c71c")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "8b67634a-54c2-41f9-b08b-44460cbf2fa1")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "75a6a88d-dd10-40d6-aed4-c757a6407bff")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "859afa6d-ba23-46f8-8105-6a38bb684cb2")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "55289860-a51f-49f8-8349-9b8465742f34")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "eb5a82ec-06cb-40ae-8f8f-5d7621b27897")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "01091def-7d07-427b-a7c7-528a99f488df")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "e4eccbb3-62c2-4950-9576-e263de75f31b")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -8008,129 +8552,49 @@ Level.spawn(\"side20\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "f9a3f5cd-b25e-4a38-a932-0feed101320d")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "fc3c61e8-f8af-45a0-aa83-2a36316589ac")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "018dfa69-700f-49cc-a9bd-f7e27ca82d7d")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "310fba49-8b3a-4889-844a-9c8160a3f381")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "bb55c7f0-b7fb-4889-a346-e13eba40cd79")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "ac0856aa-e0ee-4bba-8071-0b0cf6b8612a")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "5319178c-c9e2-4d6b-9a7c-8a2505da8735")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "07fa1a88-3512-48cd-a0ce-0ca40edff285")
     )
     (gradient
       (top_color 1 1 0)
@@ -8138,6 +8602,118 @@ Level.spawn(\"side20\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "f9a3f5cd-b25e-4a38-a932-0feed101320d")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "fc3c61e8-f8af-45a0-aa83-2a36316589ac")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "018dfa69-700f-49cc-a9bd-f7e27ca82d7d")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "310fba49-8b3a-4889-844a-9c8160a3f381")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "bb55c7f0-b7fb-4889-a346-e13eba40cd79")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "ac0856aa-e0ee-4bba-8071-0b0cf6b8612a")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "5319178c-c9e2-4d6b-9a7c-8a2505da8735")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "07fa1a88-3512-48cd-a0ce-0ca40edff285")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -8472,129 +9048,49 @@ Level.spawn(\"side19\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "1b7047a8-f561-4f31-9bbe-8b09494edd28")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "034f3e9a-06f7-48c3-bee8-1c601ce1d160")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "daa909ea-6d7a-4942-9001-88cb1cbe60b6")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "e70dbab8-1012-404a-83e3-258b12db98b0")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "fb6f71e0-0f45-4f26-951f-64bf8a41442c")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "9f379d55-916d-4c3b-aa46-6c025e9f2c08")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "75edb018-56a4-47d9-84cd-c77eacd14831")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "9a305248-0168-453a-94f3-604d69473daa")
     )
     (gradient
       (top_color 1 1 0)
@@ -8602,6 +9098,118 @@ Level.spawn(\"side19\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "1b7047a8-f561-4f31-9bbe-8b09494edd28")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "034f3e9a-06f7-48c3-bee8-1c601ce1d160")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "daa909ea-6d7a-4942-9001-88cb1cbe60b6")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "e70dbab8-1012-404a-83e3-258b12db98b0")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "fb6f71e0-0f45-4f26-951f-64bf8a41442c")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "9f379d55-916d-4c3b-aa46-6c025e9f2c08")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "75edb018-56a4-47d9-84cd-c77eacd14831")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "9a305248-0168-453a-94f3-604d69473daa")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -8936,129 +9544,49 @@ Level.spawn(\"side11\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "b2bd18c5-3246-43aa-8df9-ae14f26f80e7")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "f7e92546-94f7-449d-b233-263d3e1198f4")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "00ca2c23-3806-4dad-b3d2-0e0471327abe")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "fdab279d-0ac0-4fe7-9898-4983fcb10e96")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "9359e134-1912-483f-9e66-630a65ae86e8")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "f1a3fcd0-8d1c-478b-bdee-48fce7c5b769")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "05e7fe99-a3a3-4e62-8140-05db0875c9df")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "6ed97636-3a15-4c45-938a-33ea88dfec11")
     )
     (gradient
       (top_color 1 1 0)
@@ -9066,6 +9594,118 @@ Level.spawn(\"side11\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "b2bd18c5-3246-43aa-8df9-ae14f26f80e7")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "f7e92546-94f7-449d-b233-263d3e1198f4")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "00ca2c23-3806-4dad-b3d2-0e0471327abe")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "fdab279d-0ac0-4fe7-9898-4983fcb10e96")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "9359e134-1912-483f-9e66-630a65ae86e8")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "f1a3fcd0-8d1c-478b-bdee-48fce7c5b769")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "05e7fe99-a3a3-4e62-8140-05db0875c9df")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "6ed97636-3a15-4c45-938a-33ea88dfec11")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -9400,129 +10040,49 @@ Level.spawn(\"side07\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "67bee13d-845d-4ad5-b1f1-4eee0863b5f1")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "66a24015-06c6-4c86-a9d1-bbbef764bf77")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "3c3d2abe-c01e-4cca-a8b2-27f938286916")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "a3b33515-e147-4654-81c4-24c4eed475d0")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "b16125ff-e3ca-4d51-b67f-1f9c23a863dd")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "1d5e6119-30f4-4cce-9716-1e6e37f2e6e7")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "6d1cd55e-9b75-4226-af2d-fca22de817e6")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "c22b8d85-3dc7-4228-8d7b-f28b921522be")
     )
     (gradient
       (top_color 1 1 0)
@@ -9530,6 +10090,118 @@ Level.spawn(\"side07\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "67bee13d-845d-4ad5-b1f1-4eee0863b5f1")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "66a24015-06c6-4c86-a9d1-bbbef764bf77")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "3c3d2abe-c01e-4cca-a8b2-27f938286916")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "a3b33515-e147-4654-81c4-24c4eed475d0")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "b16125ff-e3ca-4d51-b67f-1f9c23a863dd")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "1d5e6119-30f4-4cce-9716-1e6e37f2e6e7")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "6d1cd55e-9b75-4226-af2d-fca22de817e6")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c22b8d85-3dc7-4228-8d7b-f28b921522be")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -9864,129 +10536,49 @@ Level.spawn(\"side12\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "f9966bd6-82d5-404e-affb-eab04d252e11")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "3922a68a-1ee1-4020-a181-2156e7717453")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "f34fef98-96fb-410a-88a7-8e4a9ef6d476")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "6b765d20-ba7b-4375-8341-d3859c31ab87")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "bc95dbef-176d-4c6b-a15f-1b5568dbe54f")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "9d2eedae-046a-4ef6-84c8-122fc1ef8a60")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "f06b2e70-2af9-43e1-a1bf-9c75c64896d5")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "60a03a7a-f97b-4943-9e13-227e196ecf89")
     )
     (gradient
       (top_color 1 1 0)
@@ -9994,6 +10586,118 @@ Level.spawn(\"side12\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "f9966bd6-82d5-404e-affb-eab04d252e11")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "3922a68a-1ee1-4020-a181-2156e7717453")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "f34fef98-96fb-410a-88a7-8e4a9ef6d476")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "6b765d20-ba7b-4375-8341-d3859c31ab87")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "bc95dbef-176d-4c6b-a15f-1b5568dbe54f")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "9d2eedae-046a-4ef6-84c8-122fc1ef8a60")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "f06b2e70-2af9-43e1-a1bf-9c75c64896d5")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "60a03a7a-f97b-4943-9e13-227e196ecf89")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -10328,129 +11032,49 @@ Level.spawn(\"side14\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "0c13666d-d24b-4f76-8245-0942147cbff6")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "36885587-ab38-42d5-b289-771a846de50d")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "c8de6698-3edf-4ba3-b719-2e6703c6403b")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "067d859d-08d0-498a-b3d9-1b9708f8426e")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "2d35f92f-4b65-49da-a06b-c6ba265b14d0")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "b2c5243f-143c-4870-9134-1f7a5e0756f4")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "930b0307-18d0-4164-8b8e-8730f73b186e")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "104bbad7-7428-4293-99c5-ebfe446cb41e")
     )
     (gradient
       (top_color 1 1 0)
@@ -10458,6 +11082,118 @@ Level.spawn(\"side14\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "0c13666d-d24b-4f76-8245-0942147cbff6")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "36885587-ab38-42d5-b289-771a846de50d")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c8de6698-3edf-4ba3-b719-2e6703c6403b")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "067d859d-08d0-498a-b3d9-1b9708f8426e")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "2d35f92f-4b65-49da-a06b-c6ba265b14d0")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "b2c5243f-143c-4870-9134-1f7a5e0756f4")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "930b0307-18d0-4164-8b8e-8730f73b186e")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "104bbad7-7428-4293-99c5-ebfe446cb41e")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -10791,129 +11527,49 @@ Level.spawn(\"side10\",\"main\")")
       (running #f)
       (name "door1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 96)
-        )
-        (node
-          (x 896)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "b2229fe8-72ad-4d7c-ae5e-057070f30c12")
     )
     (platform
       (running #f)
       (name "door2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 96)
-        )
-        (node
-          (x 1568)
-          (y 96)
-          (time 0.1)
-        )
-      )
+      (path-ref "e7d1c031-cf58-4349-89bc-67e3f3b8e742")
     )
     (platform
       (running #f)
       (name "door3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 480)
-        )
-        (node
-          (x 2112)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "67c76da9-5bdd-46f4-865d-0950b88fa9bc")
     )
     (platform
       (running #f)
       (name "door4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 2112)
-          (y 992)
-        )
-        (node
-          (x 2112)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "b67012ed-1c93-4795-af24-77e460fac1b8")
     )
     (platform
       (running #f)
       (name "door5")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 1440)
-          (y 1504)
-        )
-        (node
-          (x 1568)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "746bc3d3-bef7-489e-8d1e-58741155edc1")
     )
     (platform
       (running #f)
       (name "door6")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 768)
-          (y 1504)
-        )
-        (node
-          (x 896)
-          (y 1504)
-          (time 0.1)
-        )
-      )
+      (path-ref "6b7a028f-9a00-4402-a448-57c09d54082d")
     )
     (platform
       (running #f)
       (name "door7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 992)
-        )
-        (node
-          (x 128)
-          (y 1120)
-          (time 0.1)
-        )
-      )
+      (path-ref "5253a225-aefc-4ff1-bec3-7d82ba5b6050")
     )
     (platform
       (running #f)
       (name "door8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 128)
-          (y 480)
-        )
-        (node
-          (x 128)
-          (y 608)
-          (time 0.1)
-        )
-      )
+      (path-ref "9605e473-a8c6-46a4-84a3-8511da4708ca")
     )
     (gradient
       (top_color 1 1 0)
@@ -10921,6 +11577,118 @@ Level.spawn(\"side10\",\"main\")")
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "b2229fe8-72ad-4d7c-ae5e-057070f30c12")
+      (path
+        (node
+          (x 768)
+          (y 96)
+        )
+        (node
+          (x 896)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "e7d1c031-cf58-4349-89bc-67e3f3b8e742")
+      (path
+        (node
+          (x 1440)
+          (y 96)
+        )
+        (node
+          (x 1568)
+          (y 96)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "67c76da9-5bdd-46f4-865d-0950b88fa9bc")
+      (path
+        (node
+          (x 2112)
+          (y 480)
+        )
+        (node
+          (x 2112)
+          (y 608)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "b67012ed-1c93-4795-af24-77e460fac1b8")
+      (path
+        (node
+          (x 2112)
+          (y 992)
+        )
+        (node
+          (x 2112)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "746bc3d3-bef7-489e-8d1e-58741155edc1")
+      (path
+        (node
+          (x 1440)
+          (y 1504)
+        )
+        (node
+          (x 1568)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "6b7a028f-9a00-4402-a448-57c09d54082d")
+      (path
+        (node
+          (x 768)
+          (y 1504)
+        )
+        (node
+          (x 896)
+          (y 1504)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "5253a225-aefc-4ff1-bec3-7d82ba5b6050")
+      (path
+        (node
+          (x 128)
+          (y 992)
+        )
+        (node
+          (x 128)
+          (y 1120)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "9605e473-a8c6-46a4-84a3-8511da4708ca")
+      (path
+        (node
+          (x 128)
+          (y 480)
+        )
+        (node
+          (x 128)
+          (y 608)
+          (time 0.1)
+        )
+      )
     )
     (spawnpoint
       (name "main")

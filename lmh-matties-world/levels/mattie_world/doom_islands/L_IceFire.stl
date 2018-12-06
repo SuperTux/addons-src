@@ -59,124 +59,19 @@
       (y 1445)
     )
     (coin
-      (path
-        (node
-          (x 288)
-          (y 64)
-          (time 2)
-        )
-        (node
-          (x 416)
-          (y 64)
-          (time 0.01)
-        )
-        (node
-          (x 416)
-          (y 128)
-          (time 0.99)
-        )
-        (node
-          (x 480)
-          (y 64)
-          (time 0.1)
-        )
-      )
+      (path-ref "5899e2fd-7dde-4099-bc04-861d0bef6386")
     )
     (coin
-      (path
-        (node
-          (x 288)
-          (y 64)
-          (time 2)
-        )
-        (node
-          (x 416)
-          (y 64)
-          (time 0.01)
-        )
-        (node
-          (x 416)
-          (y 64)
-          (time 0.99)
-        )
-        (node
-          (x 480)
-          (y 64)
-          (time 0.1)
-        )
-      )
+      (path-ref "816a9bfb-7311-4d0a-8927-543112d2ec10")
     )
     (coin
-      (path
-        (node
-          (x 288)
-          (y 64)
-          (time 2)
-        )
-        (node
-          (x 416)
-          (y 64)
-          (time 0.01)
-        )
-        (node
-          (x 416)
-          (y 32)
-          (time 0.99)
-        )
-        (node
-          (x 480)
-          (y 64)
-          (time 0.1)
-        )
-      )
+      (path-ref "fec8661a-4335-4e18-9f18-8086d4642465")
     )
     (coin
-      (path
-        (node
-          (x 288)
-          (y 64)
-          (time 2)
-        )
-        (node
-          (x 416)
-          (y 64)
-          (time 0.01)
-        )
-        (node
-          (x 416)
-          (y 0)
-          (time 0.99)
-        )
-        (node
-          (x 480)
-          (y 64)
-          (time 0.1)
-        )
-      )
+      (path-ref "c72a13ce-a5d2-4d39-b910-491b6737e65f")
     )
     (coin
-      (path
-        (node
-          (x 288)
-          (y 64)
-          (time 2)
-        )
-        (node
-          (x 416)
-          (y 64)
-          (time 0.01)
-        )
-        (node
-          (x 416)
-          (y 96)
-          (time 0.99)
-        )
-        (node
-          (x 480)
-          (y 64)
-          (time 0.1)
-        )
-      )
+      (path-ref "4dd13751-88c2-4fcb-9fe5-00bb1be67454")
     )
     (decal
       (z-pos 100)
@@ -450,6 +345,131 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "5899e2fd-7dde-4099-bc04-861d0bef6386")
+      (path
+        (node
+          (x 288)
+          (y 64)
+          (time 2)
+        )
+        (node
+          (x 416)
+          (y 64)
+          (time 0.01)
+        )
+        (node
+          (x 416)
+          (y 128)
+          (time 0.99)
+        )
+        (node
+          (x 480)
+          (y 64)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "816a9bfb-7311-4d0a-8927-543112d2ec10")
+      (path
+        (node
+          (x 288)
+          (y 64)
+          (time 2)
+        )
+        (node
+          (x 416)
+          (y 64)
+          (time 0.01)
+        )
+        (node
+          (x 416)
+          (y 64)
+          (time 0.99)
+        )
+        (node
+          (x 480)
+          (y 64)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "fec8661a-4335-4e18-9f18-8086d4642465")
+      (path
+        (node
+          (x 288)
+          (y 64)
+          (time 2)
+        )
+        (node
+          (x 416)
+          (y 64)
+          (time 0.01)
+        )
+        (node
+          (x 416)
+          (y 32)
+          (time 0.99)
+        )
+        (node
+          (x 480)
+          (y 64)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "c72a13ce-a5d2-4d39-b910-491b6737e65f")
+      (path
+        (node
+          (x 288)
+          (y 64)
+          (time 2)
+        )
+        (node
+          (x 416)
+          (y 64)
+          (time 0.01)
+        )
+        (node
+          (x 416)
+          (y 0)
+          (time 0.99)
+        )
+        (node
+          (x 480)
+          (y 64)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "4dd13751-88c2-4fcb-9fe5-00bb1be67454")
+      (path
+        (node
+          (x 288)
+          (y 64)
+          (time 2)
+        )
+        (node
+          (x 416)
+          (y 64)
+          (time 0.01)
+        )
+        (node
+          (x 416)
+          (y 96)
+          (time 0.99)
+        )
+        (node
+          (x 480)
+          (y 64)
+          (time 0.1)
+        )
+      )
     )
     (powerup
       (script "find_coin(\"coin2\");")
@@ -1330,124 +1350,19 @@
       (y 1568)
     )
     (coin
-      (path
-        (node
-          (x 352)
-          (y 224)
-        )
-        (node
-          (x 416)
-          (y 96)
-        )
-        (node
-          (x 288)
-          (y 0)
-        )
-        (node
-          (x 160)
-          (y 96)
-        )
-        (node
-          (x 224)
-          (y 224)
-        )
-      )
+      (path-ref "537eba4e-5123-41b6-ad05-bf5a82e6174d")
     )
     (coin
-      (path
-        (node
-          (x 160)
-          (y 96)
-        )
-        (node
-          (x 224)
-          (y 224)
-        )
-        (node
-          (x 352)
-          (y 224)
-        )
-        (node
-          (x 416)
-          (y 96)
-        )
-        (node
-          (x 288)
-          (y 0)
-        )
-      )
+      (path-ref "759664ad-a181-49a1-9ac6-4a2f2a50c8a3")
     )
     (coin
-      (path
-        (node
-          (x 416)
-          (y 96)
-        )
-        (node
-          (x 288)
-          (y 0)
-        )
-        (node
-          (x 160)
-          (y 96)
-        )
-        (node
-          (x 224)
-          (y 224)
-        )
-        (node
-          (x 352)
-          (y 224)
-        )
-      )
+      (path-ref "df16ad0c-d9ce-4ed8-b277-e40ece38e844")
     )
     (coin
-      (path
-        (node
-          (x 288)
-          (y 0)
-        )
-        (node
-          (x 160)
-          (y 96)
-        )
-        (node
-          (x 224)
-          (y 224)
-        )
-        (node
-          (x 352)
-          (y 224)
-        )
-        (node
-          (x 416)
-          (y 96)
-        )
-      )
+      (path-ref "b9400631-58e5-445c-8443-202ecfa825d6")
     )
     (coin
-      (path
-        (node
-          (x 224)
-          (y 224)
-        )
-        (node
-          (x 352)
-          (y 224)
-        )
-        (node
-          (x 416)
-          (y 96)
-        )
-        (node
-          (x 288)
-          (y 0)
-        )
-        (node
-          (x 160)
-          (y 96)
-        )
-      )
+      (path-ref "335ada84-98bc-4839-9ad7-6a5aec5f9682")
     )
     (door
       (sector "main")
@@ -1765,6 +1680,131 @@
     )
     (music
       (file "music/clavelian_march.ogg")
+    )
+    (path
+      (name "537eba4e-5123-41b6-ad05-bf5a82e6174d")
+      (path
+        (node
+          (x 352)
+          (y 224)
+        )
+        (node
+          (x 416)
+          (y 96)
+        )
+        (node
+          (x 288)
+          (y 0)
+        )
+        (node
+          (x 160)
+          (y 96)
+        )
+        (node
+          (x 224)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "759664ad-a181-49a1-9ac6-4a2f2a50c8a3")
+      (path
+        (node
+          (x 160)
+          (y 96)
+        )
+        (node
+          (x 224)
+          (y 224)
+        )
+        (node
+          (x 352)
+          (y 224)
+        )
+        (node
+          (x 416)
+          (y 96)
+        )
+        (node
+          (x 288)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "df16ad0c-d9ce-4ed8-b277-e40ece38e844")
+      (path
+        (node
+          (x 416)
+          (y 96)
+        )
+        (node
+          (x 288)
+          (y 0)
+        )
+        (node
+          (x 160)
+          (y 96)
+        )
+        (node
+          (x 224)
+          (y 224)
+        )
+        (node
+          (x 352)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "b9400631-58e5-445c-8443-202ecfa825d6")
+      (path
+        (node
+          (x 288)
+          (y 0)
+        )
+        (node
+          (x 160)
+          (y 96)
+        )
+        (node
+          (x 224)
+          (y 224)
+        )
+        (node
+          (x 352)
+          (y 224)
+        )
+        (node
+          (x 416)
+          (y 96)
+        )
+      )
+    )
+    (path
+      (name "335ada84-98bc-4839-9ad7-6a5aec5f9682")
+      (path
+        (node
+          (x 224)
+          (y 224)
+        )
+        (node
+          (x 352)
+          (y 224)
+        )
+        (node
+          (x 416)
+          (y 96)
+        )
+        (node
+          (x 288)
+          (y 0)
+        )
+        (node
+          (x 160)
+          (y 96)
+        )
+      )
     )
     (powerup
       (script "find_coin(\"coin1\")")

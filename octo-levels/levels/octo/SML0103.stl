@@ -25,6 +25,74 @@
       (x 6053)
       (y 392)
     )
+    (path
+      (name "116f7524-3779-4de6-b985-0bef20389ebf")
+      (path
+        (node
+          (x 64)
+          (y 368)
+          (time 2)
+        )
+        (node
+          (x 64)
+          (y 96)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "84bd4218-cf8e-44ea-8265-8e7d56b9fb05")
+      (path
+        (node
+          (x 4800)
+          (y 368)
+          (time 2)
+        )
+        (node
+          (x 4800)
+          (y 96)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "a4a812b5-49b7-4c1f-bf7b-694325d823cb")
+      (path
+        (node
+          (x 9536)
+          (y 288)
+          (time 3)
+        )
+        (node
+          (x 9536)
+          (y 128)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "1bd78cd7-4dc2-456f-8154-89fc89d3ec42")
+      (path
+        (node
+          (x 16)
+          (y 80)
+        )
+        (node
+          (x 16)
+          (y 0)
+          (time 2)
+        )
+        (node
+          (x 16)
+          (y 0)
+        )
+        (node
+          (x 16)
+          (y 80)
+          (time 2)
+        )
+      )
+    )
     (pushbutton
       (script "Door.goto_node(1);")
       (x 9505)
@@ -235,18 +303,7 @@ Elevator2Flag <- true;")
       (alpha 0)
       (z-pos 1)
       (name "Elevator1")
-      (path
-        (node
-          (x 64)
-          (y 368)
-          (time 2)
-        )
-        (node
-          (x 64)
-          (y 96)
-          (time 2)
-        )
-      )
+      (path-ref "116f7524-3779-4de6-b985-0bef20389ebf")
       (width 1)
       (height 1)
       (tiles
@@ -258,18 +315,7 @@ Elevator2Flag <- true;")
       (alpha 0)
       (z-pos 2)
       (name "Elevator2")
-      (path
-        (node
-          (x 4800)
-          (y 368)
-          (time 2)
-        )
-        (node
-          (x 4800)
-          (y 96)
-          (time 2)
-        )
-      )
+      (path-ref "84bd4218-cf8e-44ea-8265-8e7d56b9fb05")
       (width 1)
       (height 1)
       (tiles
@@ -280,18 +326,7 @@ Elevator2Flag <- true;")
       (solid #t)
       (z-pos -1)
       (name "Door")
-      (path
-        (node
-          (x 9536)
-          (y 288)
-          (time 3)
-        )
-        (node
-          (x 9536)
-          (y 128)
-          (time 3)
-        )
-      )
+      (path-ref "a4a812b5-49b7-4c1f-bf7b-694325d823cb")
       (width 1)
       (height 4)
       (tiles
@@ -305,26 +340,7 @@ Elevator2Flag <- true;")
       (solid #t)
       (z-pos -2)
       (name "Flowers")
-      (path
-        (node
-          (x 16)
-          (y 80)
-        )
-        (node
-          (x 16)
-          (y 0)
-          (time 2)
-        )
-        (node
-          (x 16)
-          (y 0)
-        )
-        (node
-          (x 16)
-          (y 80)
-          (time 2)
-        )
-      )
+      (path-ref "1bd78cd7-4dc2-456f-8154-89fc89d3ec42")
       (width 325)
       (height 16)
       (tiles

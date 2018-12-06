@@ -129,6 +129,114 @@
     (music
       (file "music/cave.ogg")
     )
+    (path
+      (name "91e4338e-4d76-49f9-8b58-0dbd0be2e4cb")
+      (path
+        (node
+          (x 1440)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "a90f3be5-620a-4602-a813-18c2333e59fd")
+      (path
+        (node
+          (x 1440)
+          (y 1088)
+          (time 0.8)
+        )
+        (node
+          (x 1440)
+          (y 1184)
+          (time 0.1)
+        )
+        (node
+          (x 1440)
+          (y 1408)
+          (time 0.1)
+        )
+        (node
+          (x 1536)
+          (y 1408)
+          (time 0.1)
+        )
+        (node
+          (x 1536)
+          (y 1088)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "ce506f28-fb8e-4530-a168-073309be26e2")
+      (path
+        (node
+          (x 128)
+          (y 1376)
+          (time 0.8)
+        )
+        (node
+          (x 128)
+          (y 1472)
+          (time 0.1)
+        )
+        (node
+          (x 128)
+          (y 1696)
+          (time 0.1)
+        )
+        (node
+          (x 32)
+          (y 1696)
+          (time 0.1)
+        )
+        (node
+          (x 32)
+          (y 1376)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "cfbef41c-6772-4e59-8a94-37a664d11c27")
+      (path
+        (node
+          (x 0)
+          (y 384)
+          (time 0.8)
+        )
+        (node
+          (x 0)
+          (y 480)
+          (time 0.8)
+        )
+      )
+    )
+    (path
+      (name "6551badd-60d5-412d-afdd-a36bc31a7ca9")
+      (path
+        (node
+          (x 0)
+          (y 384)
+          (time 0.8)
+        )
+        (node
+          (x 0)
+          (y 448)
+          (time 0.8)
+        )
+      )
+    )
+    (path
+      (name "7e90b4c3-cf4b-4f9e-b851-f64c44d6e8ff")
+      (path
+        (node
+          (x 1376)
+          (y 1088)
+        )
+      )
+    )
     (powerup
       (script "find_coin(\"coin1\");")
       (disable-physics #t)
@@ -852,12 +960,7 @@ Tux.activate();")
       (solid #t)
       (z-pos 0)
       (name "pipetop")
-      (path
-        (node
-          (x 1440)
-          (y 1088)
-        )
-      )
+      (path-ref "91e4338e-4d76-49f9-8b58-0dbd0be2e4cb")
       (width 2)
       (height 1)
       (tiles
@@ -868,33 +971,7 @@ Tux.activate();")
       (solid #t)
       (z-pos 0)
       (name "pipedrop")
-      (path
-        (node
-          (x 1440)
-          (y 1088)
-          (time 0.8)
-        )
-        (node
-          (x 1440)
-          (y 1184)
-          (time 0.1)
-        )
-        (node
-          (x 1440)
-          (y 1408)
-          (time 0.1)
-        )
-        (node
-          (x 1536)
-          (y 1408)
-          (time 0.1)
-        )
-        (node
-          (x 1536)
-          (y 1088)
-          (time 0.1)
-        )
-      )
+      (path-ref "a90f3be5-620a-4602-a813-18c2333e59fd")
       (width 2)
       (height 1)
       (tiles
@@ -905,33 +982,7 @@ Tux.activate();")
       (solid #t)
       (z-pos 0)
       (name "spipedrop")
-      (path
-        (node
-          (x 128)
-          (y 1376)
-          (time 0.8)
-        )
-        (node
-          (x 128)
-          (y 1472)
-          (time 0.1)
-        )
-        (node
-          (x 128)
-          (y 1696)
-          (time 0.1)
-        )
-        (node
-          (x 32)
-          (y 1696)
-          (time 0.1)
-        )
-        (node
-          (x 32)
-          (y 1376)
-          (time 0.1)
-        )
-      )
+      (path-ref "ce506f28-fb8e-4530-a168-073309be26e2")
       (width 2)
       (height 1)
       (tiles
@@ -942,18 +993,7 @@ Tux.activate();")
       (solid #t)
       (z-pos 0)
       (name "bpipelift")
-      (path
-        (node
-          (x 0)
-          (y 384)
-          (time 0.8)
-        )
-        (node
-          (x 0)
-          (y 480)
-          (time 0.8)
-        )
-      )
+      (path-ref "cfbef41c-6772-4e59-8a94-37a664d11c27")
       (width 2)
       (height 1)
       (tiles
@@ -964,18 +1004,7 @@ Tux.activate();")
       (solid #t)
       (z-pos 0)
       (name "bpipedrop")
-      (path
-        (node
-          (x 0)
-          (y 384)
-          (time 0.8)
-        )
-        (node
-          (x 0)
-          (y 448)
-          (time 0.8)
-        )
-      )
+      (path-ref "6551badd-60d5-412d-afdd-a36bc31a7ca9")
       (width 2)
       (height 1)
       (tiles
@@ -986,12 +1015,7 @@ Tux.activate();")
       (solid #t)
       (z-pos 0)
       (name "hold")
-      (path
-        (node
-          (x 1376)
-          (y 1088)
-        )
-      )
+      (path-ref "7e90b4c3-cf4b-4f9e-b851-f64c44d6e8ff")
       (width 1)
       (height 4)
       (tiles

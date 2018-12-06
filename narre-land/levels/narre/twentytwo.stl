@@ -49,113 +49,28 @@
       (running #f)
       (name "kokot1")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 3968)
-          (y 1056)
-          (time 5)
-        )
-        (node
-          (x 3968)
-          (y 128)
-          (time 5)
-        )
-      )
+      (path-ref "ebb1c660-51d6-41e9-bfb8-f1f36bc23b26")
     )
     (platform
       (running #f)
       (name "kokot2")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 3968)
-          (y 896)
-          (time 5)
-        )
-        (node
-          (x 3968)
-          (y -32)
-          (time 5)
-        )
-      )
+      (path-ref "e4eec168-6b8b-4130-9442-43b9ec211cdb")
     )
     (platform
       (name "KOKOT")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 5952)
-          (y 192)
-        )
-      )
+      (path-ref "c15e077c-6842-45e6-87d0-5e93c91e6964")
     )
     (platform
       (name "hdztrd")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 5952)
-          (y 64)
-        )
-      )
+      (path-ref "1c1942ad-5ec2-402f-9640-b0440c47a756")
     )
     (hurting_platform
       (name "hurtspila")
       (sprite "images/objects/sawblade/sawblade.sprite")
-      (path
-        (node
-          (x 3232)
-          (y 160)
-        )
-        (node
-          (x 3168)
-          (y 160)
-        )
-        (node
-          (x 3040)
-          (y 32)
-        )
-        (node
-          (x 2880)
-          (y 32)
-        )
-        (node
-          (x 2880)
-          (y 256)
-        )
-        (node
-          (x 3008)
-          (y 256)
-        )
-        (node
-          (x 3040)
-          (y 384)
-        )
-        (node
-          (x 3328)
-          (y 384)
-        )
-        (node
-          (x 3392)
-          (y 512)
-        )
-        (node
-          (x 3552)
-          (y 512)
-        )
-        (node
-          (x 3552)
-          (y 288)
-        )
-        (node
-          (x 3488)
-          (y 288)
-        )
-        (node
-          (x 3360)
-          (y 160)
-        )
-      )
+      (path-ref "c5e0c4a0-8fc4-4a15-beb1-04d6a0ddcf1d")
     )
     (infoblock
       (message (_ ""))
@@ -212,6 +127,111 @@
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "ebb1c660-51d6-41e9-bfb8-f1f36bc23b26")
+      (path
+        (node
+          (x 3968)
+          (y 1056)
+          (time 5)
+        )
+        (node
+          (x 3968)
+          (y 128)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "e4eec168-6b8b-4130-9442-43b9ec211cdb")
+      (path
+        (node
+          (x 3968)
+          (y 896)
+          (time 5)
+        )
+        (node
+          (x 3968)
+          (y -32)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "c15e077c-6842-45e6-87d0-5e93c91e6964")
+      (path
+        (node
+          (x 5952)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "1c1942ad-5ec2-402f-9640-b0440c47a756")
+      (path
+        (node
+          (x 5952)
+          (y 64)
+        )
+      )
+    )
+    (path
+      (name "c5e0c4a0-8fc4-4a15-beb1-04d6a0ddcf1d")
+      (path
+        (node
+          (x 3232)
+          (y 160)
+        )
+        (node
+          (x 3168)
+          (y 160)
+        )
+        (node
+          (x 3040)
+          (y 32)
+        )
+        (node
+          (x 2880)
+          (y 32)
+        )
+        (node
+          (x 2880)
+          (y 256)
+        )
+        (node
+          (x 3008)
+          (y 256)
+        )
+        (node
+          (x 3040)
+          (y 384)
+        )
+        (node
+          (x 3328)
+          (y 384)
+        )
+        (node
+          (x 3392)
+          (y 512)
+        )
+        (node
+          (x 3552)
+          (y 512)
+        )
+        (node
+          (x 3552)
+          (y 288)
+        )
+        (node
+          (x 3488)
+          (y 288)
+        )
+        (node
+          (x 3360)
+          (y 160)
+        )
+      )
     )
     (scripttrigger
       (script "Text.fade_out(1)")
@@ -615,34 +635,12 @@ kokot2.goto_node(1)")
     (platform
       (name "gfhtft")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 736)
-          (y 960)
-          (time 4)
-        )
-        (node
-          (x 736)
-          (y 544)
-          (time 4)
-        )
-      )
+      (path-ref "0d231b69-d858-4efb-85f7-3f463e2bdcfb")
     )
     (platform
       (name "htfjtfjztf")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 736)
-          (y 832)
-          (time 4)
-        )
-        (node
-          (x 736)
-          (y 416)
-          (time 4)
-        )
-      )
+      (path-ref "8e2b76d6-67b1-4496-b6b1-d07847edc080")
     )
     (infoblock
       (message (_ "jFloor -5"))
@@ -705,6 +703,36 @@ kokot2.goto_node(1)")
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "0d231b69-d858-4efb-85f7-3f463e2bdcfb")
+      (path
+        (node
+          (x 736)
+          (y 960)
+          (time 4)
+        )
+        (node
+          (x 736)
+          (y 544)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "8e2b76d6-67b1-4496-b6b1-d07847edc080")
+      (path
+        (node
+          (x 736)
+          (y 832)
+          (time 4)
+        )
+        (node
+          (x 736)
+          (y 416)
+          (time 4)
+        )
+      )
     )
     (scripttrigger
       (script "Effect.fade_out(1)

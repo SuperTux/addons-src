@@ -104,16 +104,7 @@
       (running #f)
       (name "porte1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 7808)
-          (y 768)
-        )
-        (node
-          (x 7808)
-          (y 896)
-        )
-      )
+      (path-ref "0784d930-e5d0-4eec-9594-426b14e586bb")
     )
     (ispy
       (script "if(Foreground.get_alpha() == 1){
@@ -667,6 +658,55 @@ porte1.goto_node(1);
     )
     (music
       (file "music/cave.music")
+    )
+    (path
+      (name "0784d930-e5d0-4eec-9594-426b14e586bb")
+      (path
+        (node
+          (x 7808)
+          (y 768)
+        )
+        (node
+          (x 7808)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "122fbf23-d948-47f1-83bd-d6cb4662356b")
+      (path
+        (node
+          (x 10048)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "683d234d-7d3b-4a50-8667-3fe7b449fe2a")
+      (path
+        (node
+          (x 13600)
+          (y 1568)
+        )
+      )
+    )
+    (path
+      (name "3b0e7519-a05a-4273-a6c3-67817500ba69")
+      (path
+        (node
+          (x 15104)
+          (y 1056)
+        )
+      )
+    )
+    (path
+      (name "a7c269b7-6de1-4439-92eb-a65f12f0167c")
+      (path
+        (node
+          (x 32)
+          (y 1216)
+        )
+      )
     )
     (scripttrigger
       (script "Foreground.set_alpha(1);
@@ -1260,12 +1300,7 @@ porte1.goto_node(0);
       (solid #t)
       (z-pos 100)
       (name "cache1")
-      (path
-        (node
-          (x 10048)
-          (y 672)
-        )
-      )
+      (path-ref "122fbf23-d948-47f1-83bd-d6cb4662356b")
       (width 64)
       (height 14)
       (tiles
@@ -1289,12 +1324,7 @@ porte1.goto_node(0);
       (solid #t)
       (z-pos 120)
       (name "cache2")
-      (path
-        (node
-          (x 13600)
-          (y 1568)
-        )
-      )
+      (path-ref "683d234d-7d3b-4a50-8667-3fe7b449fe2a")
       (width 46)
       (height 11)
       (tiles
@@ -1315,12 +1345,7 @@ porte1.goto_node(0);
       (solid #t)
       (z-pos 140)
       (name "cache3")
-      (path
-        (node
-          (x 15104)
-          (y 1056)
-        )
-      )
+      (path-ref "3b0e7519-a05a-4273-a6c3-67817500ba69")
       (width 28)
       (height 27)
       (tiles
@@ -1430,12 +1455,7 @@ porte1.goto_node(0);
       (solid #f)
       (z-pos 160)
       (name "cache4")
-      (path
-        (node
-          (x 32)
-          (y 1216)
-        )
-      )
+      (path-ref "a7c269b7-6de1-4439-92eb-a65f12f0167c")
       (width 46)
       (height 25)
       (tiles

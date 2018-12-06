@@ -64,103 +64,23 @@
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 6050)
-          (y 384)
-          (time 3)
-        )
-        (node
-          (x 5790)
-          (y 384)
-          (time 3)
-        )
-      )
+      (path-ref "b63589ef-7042-449d-a042-e3506459419e")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 6224)
-          (y 320)
-          (time 4)
-        )
-        (node
-          (x 6224)
-          (y 704)
-          (time 3)
-        )
-      )
+      (path-ref "8c2984ff-c9d9-4264-8bcd-7634ef4e37f4")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 5472)
-          (y 1824)
-          (time 6)
-        )
-        (node
-          (x 6400)
-          (y 1824)
-          (time 6)
-        )
-      )
+      (path-ref "e121a9c2-2603-4d1a-a93f-4804f7ab67b9")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 6240)
-          (y 1600)
-          (time 4)
-        )
-        (node
-          (x 5774)
-          (y 1600)
-          (time 4)
-        )
-        (node
-          (x 5774)
-          (y 1248)
-          (time 3)
-        )
-        (node
-          (x 5472)
-          (y 1248)
-          (time 3)
-        )
-        (node
-          (x 5774)
-          (y 1248)
-          (time 3)
-        )
-        (node
-          (x 5774)
-          (y 1600)
-          (time 3)
-        )
-      )
+      (path-ref "f2e911a8-fd19-4be6-b8cd-297f8b27ca1c")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 5490)
-          (y 958)
-          (time 8)
-        )
-        (node
-          (x 5490)
-          (y 446)
-          (time 2)
-        )
-        (node
-          (x 5490)
-          (y 446)
-          (time 3)
-        )
-      )
+      (path-ref "771a4972-c038-417c-bb18-fc83fba2be55")
     )
     (flyingsnowball
       (x 1696)
@@ -385,6 +305,136 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "b63589ef-7042-449d-a042-e3506459419e")
+      (path
+        (node
+          (x 6050)
+          (y 384)
+          (time 3)
+        )
+        (node
+          (x 5790)
+          (y 384)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "8c2984ff-c9d9-4264-8bcd-7634ef4e37f4")
+      (path
+        (node
+          (x 6224)
+          (y 320)
+          (time 4)
+        )
+        (node
+          (x 6224)
+          (y 704)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "e121a9c2-2603-4d1a-a93f-4804f7ab67b9")
+      (path
+        (node
+          (x 5472)
+          (y 1824)
+          (time 6)
+        )
+        (node
+          (x 6400)
+          (y 1824)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "f2e911a8-fd19-4be6-b8cd-297f8b27ca1c")
+      (path
+        (node
+          (x 6240)
+          (y 1600)
+          (time 4)
+        )
+        (node
+          (x 5774)
+          (y 1600)
+          (time 4)
+        )
+        (node
+          (x 5774)
+          (y 1248)
+          (time 3)
+        )
+        (node
+          (x 5472)
+          (y 1248)
+          (time 3)
+        )
+        (node
+          (x 5774)
+          (y 1248)
+          (time 3)
+        )
+        (node
+          (x 5774)
+          (y 1600)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "771a4972-c038-417c-bb18-fc83fba2be55")
+      (path
+        (node
+          (x 5490)
+          (y 958)
+          (time 8)
+        )
+        (node
+          (x 5490)
+          (y 446)
+          (time 2)
+        )
+        (node
+          (x 5490)
+          (y 446)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "6ff5d1bd-a59d-40a8-bb6e-42d5c12a3063")
+      (path
+        (node
+          (x 4608)
+          (y 416)
+          (time 0.8)
+        )
+        (node
+          (x 4608)
+          (y 512)
+          (time 0.1)
+        )
+        (node
+          (x 4608)
+          (y 1888)
+          (time 0.1)
+        )
+        (node
+          (x 4544)
+          (y 1888)
+          (time 0.1)
+        )
+        (node
+          (x 4544)
+          (y 416)
+          (time 0.1)
+        )
+      )
+    )
     (scripttrigger
       (script "  Tux.deactivate();
             pipedrop.goto_node(1);
@@ -494,33 +544,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipedrop")
-      (path
-        (node
-          (x 4608)
-          (y 416)
-          (time 0.8)
-        )
-        (node
-          (x 4608)
-          (y 512)
-          (time 0.1)
-        )
-        (node
-          (x 4608)
-          (y 1888)
-          (time 0.1)
-        )
-        (node
-          (x 4544)
-          (y 1888)
-          (time 0.1)
-        )
-        (node
-          (x 4544)
-          (y 416)
-          (time 0.1)
-        )
-      )
+      (path-ref "6ff5d1bd-a59d-40a8-bb6e-42d5c12a3063")
       (width 2)
       (height 1)
       (tiles

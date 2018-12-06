@@ -22,20 +22,7 @@
       (running #f)
       (name "dvere")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 352)
-          (y 64)
-        )
-        (node
-          (x 384)
-          (y 64)
-        )
-        (node
-          (x 384)
-          (y 192)
-        )
-      )
+      (path-ref "083137e0-bf12-45cd-a0e7-c5b0fa14f822")
     )
     (infoblock
       (message (_ "-Castle Door
@@ -57,6 +44,23 @@ II must use the key from CrystalCave..."))
     )
     (music
       (file "music/fortress.ogg")
+    )
+    (path
+      (name "083137e0-bf12-45cd-a0e7-c5b0fa14f822")
+      (path
+        (node
+          (x 352)
+          (y 64)
+        )
+        (node
+          (x 384)
+          (y 64)
+        )
+        (node
+          (x 384)
+          (y 192)
+        )
+      )
     )
     (scriptedobject
       (physic-enabled #f)

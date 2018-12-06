@@ -106,180 +106,70 @@
       (y 800)
     )
     (coin
-      (path
-        (node
-          (x 960)
-          (y 640)
-        )
-      )
+      (path-ref "4c960033-94af-48e4-a041-2e9ae32d0ff2")
     )
     (coin
-      (path
-        (node
-          (x 1120)
-          (y 640)
-        )
-      )
+      (path-ref "8b77b99c-a1b8-414d-b398-e8c16a7224fb")
     )
     (coin
-      (path
-        (node
-          (x 1216)
-          (y 640)
-        )
-      )
+      (path-ref "5dbb8b8a-9109-4971-a447-bff70feb2a23")
     )
     (coin
-      (path
-        (node
-          (x 1472)
-          (y 640)
-        )
-      )
+      (path-ref "724d0bc2-dcce-40fc-a1ad-8bb2e23f20cb")
     )
     (coin
-      (path
-        (node
-          (x 1888)
-          (y 896)
-        )
-      )
+      (path-ref "cc48564b-4b79-49cf-b699-a340c8ab81c0")
     )
     (coin
-      (path
-        (node
-          (x 1920)
-          (y 896)
-        )
-      )
+      (path-ref "90eb00ac-357f-478e-bcac-0adb730a91a7")
     )
     (coin
-      (path
-        (node
-          (x 1952)
-          (y 896)
-        )
-      )
+      (path-ref "62ab02c2-6ba6-4cae-a9d7-fc02f77e6e2b")
     )
     (coin
-      (path
-        (node
-          (x 1984)
-          (y 896)
-        )
-      )
+      (path-ref "8c530444-dd46-446e-96ac-bcc9c924d051")
     )
     (coin
-      (path
-        (node
-          (x 7424)
-          (y 736)
-        )
-      )
+      (path-ref "41eadc44-d702-45b4-91ce-4d2bff141730")
     )
     (coin
-      (path
-        (node
-          (x 7456)
-          (y 736)
-        )
-      )
+      (path-ref "553c586d-f6ab-4e47-9720-97d1d6864c6a")
     )
     (coin
-      (path
-        (node
-          (x 7488)
-          (y 736)
-        )
-      )
+      (path-ref "565e3378-43c7-4ffb-90ce-1652c6cc2133")
     )
     (coin
-      (path
-        (node
-          (x 7456)
-          (y 768)
-        )
-      )
+      (path-ref "4db8d953-b182-4a22-9c3e-57c7cedb16b4")
     )
     (coin
-      (path
-        (node
-          (x 7808)
-          (y 736)
-        )
-      )
+      (path-ref "82e0f104-38e7-4cc9-a378-8f02e45fb359")
     )
     (coin
-      (path
-        (node
-          (x 7872)
-          (y 736)
-        )
-      )
+      (path-ref "df64aacd-db9e-4607-9602-c6acd5a32051")
     )
     (coin
-      (path
-        (node
-          (x 7776)
-          (y 768)
-        )
-      )
+      (path-ref "c308b49f-4461-4f72-be32-26f27efc86f5")
     )
     (coin
-      (path
-        (node
-          (x 7904)
-          (y 768)
-        )
-      )
+      (path-ref "195d60e6-8ab2-4a16-9cab-f83ec17efbfa")
     )
     (coin
-      (path
-        (node
-          (x 7776)
-          (y 800)
-        )
-      )
+      (path-ref "6ee9e154-7aeb-4257-abf1-7f6b771d47da")
     )
     (coin
-      (path
-        (node
-          (x 7904)
-          (y 800)
-        )
-      )
+      (path-ref "1defc976-8a06-4a62-a3aa-f9e81a2bdb85")
     )
     (coin
-      (path
-        (node
-          (x 7808)
-          (y 800)
-        )
-      )
+      (path-ref "374471e5-b0a6-473a-a380-92ad85aa9b8d")
     )
     (coin
-      (path
-        (node
-          (x 7872)
-          (y 800)
-        )
-      )
+      (path-ref "6d293c23-78bc-418a-a65c-4f14972066c4")
     )
     (coin
-      (path
-        (node
-          (x 7840)
-          (y 800)
-        )
-      )
+      (path-ref "e8f6fc95-e931-4894-aae7-d4e13367733b")
     )
     (coin
-      (path
-        (node
-          (x 11232)
-          (y 768)
-        )
-      )
+      (path-ref "125aff5e-7ad2-4c0b-85d8-2baae66fb1eb")
     )
     (crystallo
       (x 1408)
@@ -323,6 +213,204 @@
     )
     (music
       (file "music/forest.ogg")
+    )
+    (path
+      (name "4c960033-94af-48e4-a041-2e9ae32d0ff2")
+      (path
+        (node
+          (x 960)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "8b77b99c-a1b8-414d-b398-e8c16a7224fb")
+      (path
+        (node
+          (x 1120)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "5dbb8b8a-9109-4971-a447-bff70feb2a23")
+      (path
+        (node
+          (x 1216)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "724d0bc2-dcce-40fc-a1ad-8bb2e23f20cb")
+      (path
+        (node
+          (x 1472)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "cc48564b-4b79-49cf-b699-a340c8ab81c0")
+      (path
+        (node
+          (x 1888)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "90eb00ac-357f-478e-bcac-0adb730a91a7")
+      (path
+        (node
+          (x 1920)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "62ab02c2-6ba6-4cae-a9d7-fc02f77e6e2b")
+      (path
+        (node
+          (x 1952)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "8c530444-dd46-446e-96ac-bcc9c924d051")
+      (path
+        (node
+          (x 1984)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "41eadc44-d702-45b4-91ce-4d2bff141730")
+      (path
+        (node
+          (x 7424)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "553c586d-f6ab-4e47-9720-97d1d6864c6a")
+      (path
+        (node
+          (x 7456)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "565e3378-43c7-4ffb-90ce-1652c6cc2133")
+      (path
+        (node
+          (x 7488)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "4db8d953-b182-4a22-9c3e-57c7cedb16b4")
+      (path
+        (node
+          (x 7456)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "82e0f104-38e7-4cc9-a378-8f02e45fb359")
+      (path
+        (node
+          (x 7808)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "df64aacd-db9e-4607-9602-c6acd5a32051")
+      (path
+        (node
+          (x 7872)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "c308b49f-4461-4f72-be32-26f27efc86f5")
+      (path
+        (node
+          (x 7776)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "195d60e6-8ab2-4a16-9cab-f83ec17efbfa")
+      (path
+        (node
+          (x 7904)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "6ee9e154-7aeb-4257-abf1-7f6b771d47da")
+      (path
+        (node
+          (x 7776)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "1defc976-8a06-4a62-a3aa-f9e81a2bdb85")
+      (path
+        (node
+          (x 7904)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "374471e5-b0a6-473a-a380-92ad85aa9b8d")
+      (path
+        (node
+          (x 7808)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "6d293c23-78bc-418a-a65c-4f14972066c4")
+      (path
+        (node
+          (x 7872)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "e8f6fc95-e931-4894-aae7-d4e13367733b")
+      (path
+        (node
+          (x 7840)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "125aff5e-7ad2-4c0b-85d8-2baae66fb1eb")
+      (path
+        (node
+          (x 11232)
+          (y 768)
+        )
+      )
     )
     (poisonivy
       (x 2882)
@@ -707,12 +795,7 @@
       (mode "normal")
     )
     (coin
-      (path
-        (node
-          (x 864)
-          (y 544)
-        )
-      )
+      (path-ref "858a2577-2a40-46f9-ae7c-e47197a5608b")
     )
     (door
       (sector "main")
@@ -722,6 +805,15 @@
     )
     (music
       (file "music/bonuscave.ogg")
+    )
+    (path
+      (name "858a2577-2a40-46f9-ae7c-e47197a5608b")
+      (path
+        (node
+          (x 864)
+          (y 544)
+        )
+      )
     )
     (rock
       (x 960)

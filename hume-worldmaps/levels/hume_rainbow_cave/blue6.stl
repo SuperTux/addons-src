@@ -29,6 +29,17 @@
       (running #f)
       (name "pica")
       (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "1e3a566b-4a12-472d-957e-a8904b442618")
+    )
+    (gradient
+      (top_color 0 0 1)
+      (bottom_color 0 0 1)
+    )
+    (music
+      (file "music/bossattack.ogg")
+    )
+    (path
+      (name "1e3a566b-4a12-472d-957e-a8904b442618")
       (path
         (node
           (x 1056)
@@ -39,13 +50,6 @@
           (y 960)
         )
       )
-    )
-    (gradient
-      (top_color 0 0 1)
-      (bottom_color 0 0 1)
-    )
-    (music
-      (file "music/bossattack.ogg")
     )
     (spawnpoint
       (name "main")
@@ -293,61 +297,25 @@ while(true){
       (running #f)
       (name "nonepi1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 1408)
-          (y 2528)
-        )
-        (node
-          (x 1408)
-          (y 2656)
-        )
-      )
+      (path-ref "0a44d11d-58c7-41ba-9b7e-fd90d00712c7")
     )
     (platform
       (running #f)
       (name "nonepi2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 1248)
-          (y 2656)
-        )
-        (node
-          (x 1248)
-          (y 2528)
-        )
-      )
+      (path-ref "8a1a0618-98f4-4bf8-8ec9-c4b4ea986977")
     )
     (platform
       (running #f)
       (name "epi1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 1824)
-          (y 2528)
-        )
-        (node
-          (x 1824)
-          (y 2656)
-        )
-      )
+      (path-ref "dfff1ed9-247f-4c96-95c8-8c4f4aeeae9d")
     )
     (platform
       (running #f)
       (name "epi2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 1984)
-          (y 2656)
-        )
-        (node
-          (x 1984)
-          (y 2528)
-        )
-      )
+      (path-ref "16189639-b2a0-4101-b5e7-a6d4e6484d91")
     )
     (gradient
       (top_color 1 1 1)
@@ -457,6 +425,58 @@ while(true){
       (color 1 0 1)
       (x 2528)
       (y 2400)
+    )
+    (path
+      (name "0a44d11d-58c7-41ba-9b7e-fd90d00712c7")
+      (path
+        (node
+          (x 1408)
+          (y 2528)
+        )
+        (node
+          (x 1408)
+          (y 2656)
+        )
+      )
+    )
+    (path
+      (name "8a1a0618-98f4-4bf8-8ec9-c4b4ea986977")
+      (path
+        (node
+          (x 1248)
+          (y 2656)
+        )
+        (node
+          (x 1248)
+          (y 2528)
+        )
+      )
+    )
+    (path
+      (name "dfff1ed9-247f-4c96-95c8-8c4f4aeeae9d")
+      (path
+        (node
+          (x 1824)
+          (y 2528)
+        )
+        (node
+          (x 1824)
+          (y 2656)
+        )
+      )
+    )
+    (path
+      (name "16189639-b2a0-4101-b5e7-a6d4e6484d91")
+      (path
+        (node
+          (x 1984)
+          (y 2656)
+        )
+        (node
+          (x 1984)
+          (y 2528)
+        )
+      )
     )
     (scriptedobject
       (physic-enabled #f)

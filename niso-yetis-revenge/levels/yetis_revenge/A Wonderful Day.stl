@@ -53,145 +53,55 @@
       (running #f)
       (name "if9")
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 10368)
-          (y 928)
-          (time 0.1)
-        )
-        (node
-          (x 10368)
-          (y 936)
-        )
-      )
+      (path-ref "7936c78b-2865-43d5-9383-7c134b81977a")
     )
     (platform
       (running #f)
       (name "if1")
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 2784)
-          (y 928)
-          (time 0.1)
-        )
-        (node
-          (x 2784)
-          (y 936)
-        )
-      )
+      (path-ref "238d8cda-e3da-4f59-aa4a-4c8c04d680d3")
     )
     (platform
       (running #f)
       (name "if2")
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 3008)
-          (y 928)
-          (time 0.1)
-        )
-        (node
-          (x 3008)
-          (y 936)
-        )
-      )
+      (path-ref "d579ae9d-1bfe-407d-99a9-466ccf9470a3")
     )
     (platform
       (running #f)
       (name "if3")
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 3232)
-          (y 928)
-          (time 0.1)
-        )
-        (node
-          (x 3232)
-          (y 936)
-        )
-      )
+      (path-ref "fefa7261-a880-4a89-9afb-1cfa674df352")
     )
     (platform
       (running #f)
       (name "if4")
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 3456)
-          (y 928)
-          (time 0.1)
-        )
-        (node
-          (x 3456)
-          (y 936)
-        )
-      )
+      (path-ref "1fce905e-42a0-4ad9-b0ab-c8cc739bbe91")
     )
     (platform
       (running #f)
       (name "if5")
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 3680)
-          (y 928)
-          (time 0.1)
-        )
-        (node
-          (x 3680)
-          (y 936)
-        )
-      )
+      (path-ref "bf2e7114-95e1-46ab-8eab-a6337f7e93cc")
     )
     (platform
       (running #f)
       (name "if6")
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 5856)
-          (y 928)
-          (time 0.1)
-        )
-        (node
-          (x 5856)
-          (y 936)
-        )
-      )
+      (path-ref "85be6747-857c-40ee-bb18-2ec203228e2d")
     )
     (platform
       (running #f)
       (name "if7")
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 6560)
-          (y 928)
-          (time 0.1)
-        )
-        (node
-          (x 6560)
-          (y 936)
-        )
-      )
+      (path-ref "a908c776-a39e-4676-8293-6ca417093a9c")
     )
     (platform
       (running #f)
       (name "if8")
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 6816)
-          (y 928)
-          (time 0.1)
-        )
-        (node
-          (x 6816)
-          (y 936)
-        )
-      )
+      (path-ref "97886f03-d6ad-4a14-b98b-9be762b71208")
     )
     (gradient
       (top_color 0.8761578 0.9752499 0.9901121)
@@ -247,6 +157,132 @@
     )
     (music
       (file "music/salcon.ogg")
+    )
+    (path
+      (name "7936c78b-2865-43d5-9383-7c134b81977a")
+      (path
+        (node
+          (x 10368)
+          (y 928)
+          (time 0.1)
+        )
+        (node
+          (x 10368)
+          (y 936)
+        )
+      )
+    )
+    (path
+      (name "238d8cda-e3da-4f59-aa4a-4c8c04d680d3")
+      (path
+        (node
+          (x 2784)
+          (y 928)
+          (time 0.1)
+        )
+        (node
+          (x 2784)
+          (y 936)
+        )
+      )
+    )
+    (path
+      (name "d579ae9d-1bfe-407d-99a9-466ccf9470a3")
+      (path
+        (node
+          (x 3008)
+          (y 928)
+          (time 0.1)
+        )
+        (node
+          (x 3008)
+          (y 936)
+        )
+      )
+    )
+    (path
+      (name "fefa7261-a880-4a89-9afb-1cfa674df352")
+      (path
+        (node
+          (x 3232)
+          (y 928)
+          (time 0.1)
+        )
+        (node
+          (x 3232)
+          (y 936)
+        )
+      )
+    )
+    (path
+      (name "1fce905e-42a0-4ad9-b0ab-c8cc739bbe91")
+      (path
+        (node
+          (x 3456)
+          (y 928)
+          (time 0.1)
+        )
+        (node
+          (x 3456)
+          (y 936)
+        )
+      )
+    )
+    (path
+      (name "bf2e7114-95e1-46ab-8eab-a6337f7e93cc")
+      (path
+        (node
+          (x 3680)
+          (y 928)
+          (time 0.1)
+        )
+        (node
+          (x 3680)
+          (y 936)
+        )
+      )
+    )
+    (path
+      (name "85be6747-857c-40ee-bb18-2ec203228e2d")
+      (path
+        (node
+          (x 5856)
+          (y 928)
+          (time 0.1)
+        )
+        (node
+          (x 5856)
+          (y 936)
+        )
+      )
+    )
+    (path
+      (name "a908c776-a39e-4676-8293-6ca417093a9c")
+      (path
+        (node
+          (x 6560)
+          (y 928)
+          (time 0.1)
+        )
+        (node
+          (x 6560)
+          (y 936)
+        )
+      )
+    )
+    (path
+      (name "97886f03-d6ad-4a14-b98b-9be762b71208")
+      (path
+        (node
+          (x 6816)
+          (y 928)
+          (time 0.1)
+        )
+        (node
+          (x 6816)
+          (y 936)
+        )
+      )
     )
     (powerup
       (script "this.c1 <- true
@@ -919,6 +955,36 @@ if8.goto_node(0)")
     (music
       (file "music/bonuscave.ogg")
     )
+    (path
+      (name "8d2603ae-7753-475f-ac36-c3faa43c8061")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 0)
+          (time 15)
+        )
+        (node
+          (x -1376)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "aad01966-bc99-4e5a-9493-fabece88fb68")
+      (path
+        (mode "oneshot")
+        (node
+          (x -96)
+          (y 0)
+          (time 10)
+        )
+        (node
+          (x -704)
+          (y 0)
+        )
+      )
+    )
     (scripttrigger
       (script "Level.spawn (\"main\",\"main2\")")
       (button #f)
@@ -1181,18 +1247,7 @@ Fish2.start_moving()")
       (solid #f)
       (z-pos 0)
       (name "Fish1")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 0)
-          (time 15)
-        )
-        (node
-          (x -1376)
-          (y 0)
-        )
-      )
+      (path-ref "8d2603ae-7753-475f-ac36-c3faa43c8061")
       (width 50)
       (height 50)
       (tiles
@@ -1252,18 +1307,7 @@ Fish2.start_moving()")
       (solid #f)
       (z-pos 0)
       (name "Fish2")
-      (path
-        (mode "oneshot")
-        (node
-          (x -96)
-          (y 0)
-          (time 10)
-        )
-        (node
-          (x -704)
-          (y 0)
-        )
-      )
+      (path-ref "aad01966-bc99-4e5a-9493-fabece88fb68")
       (width 50)
       (height 50)
       (tiles

@@ -27,25 +27,7 @@
     )
     (hurting_platform
       (sprite "images/objects/sawblade/sawblade.sprite")
-      (path
-        (node
-          (x 2277)
-          (y 371)
-        )
-        (node
-          (x 2430.256)
-          (y 371.9701)
-        )
-        (node
-          (x 2430.256)
-          (y 411.9701)
-          (time 2)
-        )
-        (node
-          (x 2274.256)
-          (y 410.9701)
-        )
-      )
+      (path-ref "d5ab2e27-b565-41c8-aeaf-c1fe35001fa3")
     )
     (mrbomb
       (x 3525)
@@ -77,6 +59,28 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "d5ab2e27-b565-41c8-aeaf-c1fe35001fa3")
+      (path
+        (node
+          (x 2277)
+          (y 371)
+        )
+        (node
+          (x 2430.256)
+          (y 371.9701)
+        )
+        (node
+          (x 2430.256)
+          (y 411.9701)
+          (time 2)
+        )
+        (node
+          (x 2274.256)
+          (y 410.9701)
+        )
+      )
     )
     (snowball
       (x 6115)

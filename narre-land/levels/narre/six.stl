@@ -26,6 +26,118 @@
     (platform
       (name "kuztd")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "ac4e8037-a55b-4dcd-af57-787e6f77a644")
+    )
+    (platform
+      (name "chetjhsfjsrt")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "614758f7-c7d4-409e-8591-4e65b83c94aa")
+    )
+    (platform
+      (name "izfzdgfxgfchjchdcjhcjhtg")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "bc02667d-0379-418a-bfe6-6a2075695e01")
+    )
+    (platform
+      (name "shjrtjrjrzztututujjgjgjgj")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "7b1533f6-dff7-401b-bf12-3715856392cb")
+    )
+    (platform
+      (name "cjhrtjrjrzkj")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5b9b83e6-4e83-4a2c-a65e-780a5acf2b69")
+    )
+    (platform
+      (name "dghgfxfjxfj")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "4b27de5f-5465-459c-8b21-eb1ad4855de3")
+    )
+    (platform
+      (name "trjrsjtjzsrjfgnfn")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "061f33a8-25b8-4c88-a144-a584f1921e6f")
+    )
+    (platform
+      (name "nrtrhrh")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "0a3e825f-f4ae-44bd-a4c4-c5695098c67d")
+    )
+    (platform
+      (name "lolllllllllllllllllllllllllooooooooooooooo")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "376f2871-4ca7-430b-b37c-076a0622878e")
+    )
+    (platform
+      (name "djrtjrjrzjk")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "61b59633-2355-470b-abb0-26d62dbf32ee")
+    )
+    (platform
+      (name "rxjtrtjtrjtj")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "36c750c8-4ce2-479f-bf35-b95c4cc9d293")
+    )
+    (platform
+      (name "rttrjtrjrj")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "212c7fc0-a8c5-45cc-84db-6aee35e24520")
+    )
+    (platform
+      (name "rtjtrjrjrtjrtjsgrwh")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "21654463-0b44-4725-b8f1-168d4f8f0b4a")
+    )
+    (platform
+      (name "krtjehehrtekrtek")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "b4750a3c-968a-4b56-b42d-53fa2e3fdc4a")
+    )
+    (platform
+      (running #f)
+      (name "hovno")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "bac74368-44bd-40be-bb92-61357f2bdced")
+    )
+    (platform
+      (running #f)
+      (name "hovno2")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "d15eb6ad-5983-429b-9a28-666a6d66e476")
+    )
+    (platform
+      (running #f)
+      (name "idot")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "1a4213c8-c38c-4735-8a5a-637dddeb289a")
+    )
+    (platform
+      (running #f)
+      (name "houbeles")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "8b8c8a2c-9039-413b-a2cb-cd639d77cc7a")
+    )
+    (mole
+      (x 1696)
+      (y 480)
+    )
+    (mole
+      (x 5164)
+      (y 608)
+    )
+    (mole
+      (x 3698)
+      (y 608)
+    )
+    (mrtree
+      (x 2880)
+      (y 640)
+    )
+    (music
+      (file "music/forest.ogg")
+    )
+    (path
+      (name "ac4e8037-a55b-4dcd-af57-787e6f77a644")
       (path
         (node
           (x 3328)
@@ -37,9 +149,8 @@
         )
       )
     )
-    (platform
-      (name "chetjhsfjsrt")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "614758f7-c7d4-409e-8591-4e65b83c94aa")
       (path
         (node
           (x 3648)
@@ -59,9 +170,8 @@
         )
       )
     )
-    (platform
-      (name "izfzdgfxgfchjchdcjhcjhtg")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "bc02667d-0379-418a-bfe6-6a2075695e01")
       (path
         (node
           (x 3977.9)
@@ -81,9 +191,8 @@
         )
       )
     )
-    (platform
-      (name "shjrtjrjrzztututujjgjgjgj")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "7b1533f6-dff7-401b-bf12-3715856392cb")
       (path
         (node
           (x 4320)
@@ -99,9 +208,8 @@
         )
       )
     )
-    (platform
-      (name "cjhrtjrjrzkj")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "5b9b83e6-4e83-4a2c-a65e-780a5acf2b69")
       (path
         (node
           (x 4705.414)
@@ -121,9 +229,8 @@
         )
       )
     )
-    (platform
-      (name "dghgfxfjxfj")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "4b27de5f-5465-459c-8b21-eb1ad4855de3")
       (path
         (node
           (x 5120)
@@ -151,9 +258,8 @@
         )
       )
     )
-    (platform
-      (name "trjrsjtjzsrjfgnfn")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "061f33a8-25b8-4c88-a144-a584f1921e6f")
       (path
         (node
           (x 5472)
@@ -173,9 +279,8 @@
         )
       )
     )
-    (platform
-      (name "nrtrhrh")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "0a3e825f-f4ae-44bd-a4c4-c5695098c67d")
       (path
         (node
           (x 5824)
@@ -191,9 +296,8 @@
         )
       )
     )
-    (platform
-      (name "lolllllllllllllllllllllllllooooooooooooooo")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "376f2871-4ca7-430b-b37c-076a0622878e")
       (path
         (node
           (x 5959.046)
@@ -213,9 +317,8 @@
         )
       )
     )
-    (platform
-      (name "djrtjrjrzjk")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "61b59633-2355-470b-abb0-26d62dbf32ee")
       (path
         (node
           (x 6080)
@@ -231,9 +334,8 @@
         )
       )
     )
-    (platform
-      (name "rxjtrtjtrjtj")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "36c750c8-4ce2-479f-bf35-b95c4cc9d293")
       (path
         (node
           (x 6208)
@@ -253,9 +355,8 @@
         )
       )
     )
-    (platform
-      (name "rttrjtrjrj")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "212c7fc0-a8c5-45cc-84db-6aee35e24520")
       (path
         (node
           (x 6336)
@@ -271,9 +372,8 @@
         )
       )
     )
-    (platform
-      (name "rtjtrjrjrtjrtjsgrwh")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "21654463-0b44-4725-b8f1-168d4f8f0b4a")
       (path
         (node
           (x 6464)
@@ -293,9 +393,8 @@
         )
       )
     )
-    (platform
-      (name "krtjehehrtekrtek")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "b4750a3c-968a-4b56-b42d-53fa2e3fdc4a")
       (path
         (node
           (x 6593.415)
@@ -311,10 +410,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "hovno")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "bac74368-44bd-40be-bb92-61357f2bdced")
       (path
         (node
           (x 5792)
@@ -330,10 +427,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "hovno2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "d15eb6ad-5983-429b-9a28-666a6d66e476")
       (path
         (node
           (x 5792)
@@ -349,10 +444,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "idot")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "1a4213c8-c38c-4735-8a5a-637dddeb289a")
       (path
         (node
           (x 6336)
@@ -364,10 +457,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "houbeles")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "8b8c8a2c-9039-413b-a2cb-cd639d77cc7a")
       (path
         (node
           (x 5824)
@@ -378,25 +469,6 @@
           (y 768)
         )
       )
-    )
-    (mole
-      (x 1696)
-      (y 480)
-    )
-    (mole
-      (x 5164)
-      (y 608)
-    )
-    (mole
-      (x 3698)
-      (y 608)
-    )
-    (mrtree
-      (x 2880)
-      (y 640)
-    )
-    (music
-      (file "music/forest.ogg")
     )
     (scripttrigger
       (script "hovno.goto_node(1)
@@ -691,6 +763,10 @@ houbeles.goto_node(1)")
     (platform
       (name "jezdec")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "25482275-82e7-446a-98dc-e18ea1520d42")
+    )
+    (path
+      (name "25482275-82e7-446a-98dc-e18ea1520d42")
       (path
         (node
           (x 2656)

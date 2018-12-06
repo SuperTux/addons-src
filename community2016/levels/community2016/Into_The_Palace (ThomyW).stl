@@ -19,30 +19,15 @@
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2650.67)
-          (y 338.664)
-        )
-      )
+      (path-ref "85005cd5-2d20-4bf4-881e-00101f5eeff1")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2691.33)
-          (y 341.33)
-        )
-      )
+      (path-ref "c1c879bf-db5c-4182-9b21-a464d4853646")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2732.67)
-          (y 338.664)
-        )
-      )
+      (path-ref "32eeda17-bf79-420d-8b6a-ce1fc398fa0c")
     )
     (crystallo
       (direction "left")
@@ -102,6 +87,33 @@
       (sprite "/images/creatures/flying_snowball/flying_snowball.sprite")
       (x 4257.33)
       (y 933.6635)
+    )
+    (path
+      (name "85005cd5-2d20-4bf4-881e-00101f5eeff1")
+      (path
+        (node
+          (x 2650.67)
+          (y 338.664)
+        )
+      )
+    )
+    (path
+      (name "c1c879bf-db5c-4182-9b21-a464d4853646")
+      (path
+        (node
+          (x 2691.33)
+          (y 341.33)
+        )
+      )
+    )
+    (path
+      (name "32eeda17-bf79-420d-8b6a-ce1fc398fa0c")
+      (path
+        (node
+          (x 2732.67)
+          (y 338.664)
+        )
+      )
     )
     (scripttrigger
       (script "Level.spawn(\"chicken\", \"main\");")
@@ -652,102 +664,47 @@
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2889.33)
-          (y 800)
-        )
-      )
+      (path-ref "da83c396-cb9a-479a-b1f4-3dc7139c4dee")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2958.67)
-          (y 747.333)
-        )
-      )
+      (path-ref "8d8136d1-e67e-45f8-8376-5503dd6678f0")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2986)
-          (y 648.6669)
-        )
-      )
+      (path-ref "5384c198-c49e-481d-83db-fd711379485e")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2882)
-          (y 644)
-        )
-      )
+      (path-ref "0e1bd438-82bb-44d6-96c1-f1c5f98845ec")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2929.33)
-          (y 556)
-        )
-      )
+      (path-ref "0337e57d-e97c-46a1-b938-9e69ec7e563c")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2987.33)
-          (y 498.667)
-        )
-      )
+      (path-ref "923212d0-0d98-4e44-b273-24a0b1dc6153")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2900.67)
-          (y 408.667)
-        )
-      )
+      (path-ref "dbefd3ee-943f-4de6-9868-9a04829f6d9a")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2966)
-          (y 328)
-        )
-      )
+      (path-ref "e4e042c5-c8bf-4afc-993b-60f19b78461a")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2994)
-          (y 244)
-        )
-      )
+      (path-ref "70c96201-57f9-497e-b88b-943d8243fd52")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2935.33)
-          (y 180.667)
-        )
-      )
+      (path-ref "4f96e0e4-c042-4d71-a5dd-e94a1ecccb45")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 2950.67)
-          (y 103.333)
-        )
-      )
+      (path-ref "a5b10929-e5f3-41be-8ac9-b9b75c006f3f")
     )
     (dispenser
       (cycle 4)
@@ -786,19 +743,7 @@
       (running #f)
       (name "ball")
       (sprite "/images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 2112)
-          (y 511.3333)
-          (time 5)
-        )
-        (node
-          (x 2112)
-          (y 1054.667)
-          (time 5)
-        )
-      )
+      (path-ref "ea89d939-45f0-400d-b4d4-e8678e88f9b2")
     )
     (goldbomb
       (direction "left")
@@ -832,6 +777,121 @@
     )
     (music
       (file "/music/voc-night.ogg")
+    )
+    (path
+      (name "ea89d939-45f0-400d-b4d4-e8678e88f9b2")
+      (path
+        (mode "oneshot")
+        (node
+          (x 2112)
+          (y 511.3333)
+          (time 5)
+        )
+        (node
+          (x 2112)
+          (y 1054.667)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "da83c396-cb9a-479a-b1f4-3dc7139c4dee")
+      (path
+        (node
+          (x 2889.33)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "8d8136d1-e67e-45f8-8376-5503dd6678f0")
+      (path
+        (node
+          (x 2958.67)
+          (y 747.333)
+        )
+      )
+    )
+    (path
+      (name "5384c198-c49e-481d-83db-fd711379485e")
+      (path
+        (node
+          (x 2986)
+          (y 648.6669)
+        )
+      )
+    )
+    (path
+      (name "0e1bd438-82bb-44d6-96c1-f1c5f98845ec")
+      (path
+        (node
+          (x 2882)
+          (y 644)
+        )
+      )
+    )
+    (path
+      (name "0337e57d-e97c-46a1-b938-9e69ec7e563c")
+      (path
+        (node
+          (x 2929.33)
+          (y 556)
+        )
+      )
+    )
+    (path
+      (name "923212d0-0d98-4e44-b273-24a0b1dc6153")
+      (path
+        (node
+          (x 2987.33)
+          (y 498.667)
+        )
+      )
+    )
+    (path
+      (name "dbefd3ee-943f-4de6-9868-9a04829f6d9a")
+      (path
+        (node
+          (x 2900.67)
+          (y 408.667)
+        )
+      )
+    )
+    (path
+      (name "e4e042c5-c8bf-4afc-993b-60f19b78461a")
+      (path
+        (node
+          (x 2966)
+          (y 328)
+        )
+      )
+    )
+    (path
+      (name "70c96201-57f9-497e-b88b-943d8243fd52")
+      (path
+        (node
+          (x 2994)
+          (y 244)
+        )
+      )
+    )
+    (path
+      (name "4f96e0e4-c042-4d71-a5dd-e94a1ecccb45")
+      (path
+        (node
+          (x 2935.33)
+          (y 180.667)
+        )
+      )
+    )
+    (path
+      (name "a5b10929-e5f3-41be-8ac9-b9b75c006f3f")
+      (path
+        (node
+          (x 2950.67)
+          (y 103.333)
+        )
+      )
     )
     (rock
       (sprite "images/objects/rock/rock.sprite")

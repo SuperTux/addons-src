@@ -206,6 +206,15 @@
       (x 4078)
       (y 519)
     )
+    (path
+      (name "0ad359dd-0aec-4b02-9c2a-477a5ca339e7")
+      (path
+        (node
+          (x 4896)
+          (y 992)
+        )
+      )
+    )
     (powerup
       (disable-physics #t)
       (sprite "images/powerups/1up/1up.sprite")
@@ -811,12 +820,7 @@
       (alpha 0)
       (z-pos 0)
       (name "out")
-      (path
-        (node
-          (x 4896)
-          (y 992)
-        )
-      )
+      (path-ref "0ad359dd-0aec-4b02-9c2a-477a5ca339e7")
       (width 2)
       (height 1)
       (tiles

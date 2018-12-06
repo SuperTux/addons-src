@@ -11,16 +11,20 @@
     (camera
       (mode "normal")
     )
-    (tilemap
-      (solid #t)
-      (z-pos 0)
-      (name "Interactive")
+    (path
+      (name "e2cbeab1-5b12-4dc3-929e-befe3fa9f76d")
       (path
         (node
           (x 0)
           (y 0)
         )
       )
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "Interactive")
+      (path-ref "e2cbeab1-5b12-4dc3-929e-befe3fa9f76d")
       (width 35)
       (height 35)
       (tiles

@@ -37,19 +37,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (mode "pingpong")
-        (node
-          (x 1632)
-          (y 448)
-          (time 3)
-        )
-        (node
-          (x 1632)
-          (y 704)
-          (time 3)
-        )
-      )
+      (path-ref "a8dfb6b6-d1f7-43b2-a082-3d2714d26d6b")
     )
     (flyingsnowball
       (x 2528)
@@ -134,6 +122,22 @@
       (direction "right")
       (x 3374)
       (y 327)
+    )
+    (path
+      (name "a8dfb6b6-d1f7-43b2-a082-3d2714d26d6b")
+      (path
+        (mode "pingpong")
+        (node
+          (x 1632)
+          (y 448)
+          (time 3)
+        )
+        (node
+          (x 1632)
+          (y 704)
+          (time 3)
+        )
+      )
     )
     (short_fuse
       (direction "right")

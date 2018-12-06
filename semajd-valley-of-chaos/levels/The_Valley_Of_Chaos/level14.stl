@@ -23,40 +23,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 224)
-          (y 3552)
-        )
-        (node
-          (x 448)
-          (y 3456)
-        )
-        (node
-          (x 576)
-          (y 3328)
-        )
-        (node
-          (x 704)
-          (y 3200)
-        )
-        (node
-          (x 832)
-          (y 3136)
-        )
-        (node
-          (x 672)
-          (y 3168)
-        )
-        (node
-          (x 544)
-          (y 3296)
-        )
-        (node
-          (x 416)
-          (y 3424)
-        )
-      )
+      (path-ref "0fa37b67-d772-4e93-a951-978850708ed5")
     )
     (smartball
       (x 1283)
@@ -124,6 +91,43 @@
     )
     (music
       (file "music/voc-night.music")
+    )
+    (path
+      (name "0fa37b67-d772-4e93-a951-978850708ed5")
+      (path
+        (node
+          (x 224)
+          (y 3552)
+        )
+        (node
+          (x 448)
+          (y 3456)
+        )
+        (node
+          (x 576)
+          (y 3328)
+        )
+        (node
+          (x 704)
+          (y 3200)
+        )
+        (node
+          (x 832)
+          (y 3136)
+        )
+        (node
+          (x 672)
+          (y 3168)
+        )
+        (node
+          (x 544)
+          (y 3296)
+        )
+        (node
+          (x 416)
+          (y 3424)
+        )
+      )
     )
     (rock
       (x 512)

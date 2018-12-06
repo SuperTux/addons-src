@@ -48,39 +48,13 @@
       (running #f)
       (name "Krosh")
       (sprite "images/creatures/icecrusher/krosh.sprite")
-      (path
-        (node
-          (x 1860)
-          (y 672)
-          (time 2.5)
-        )
-        (node
-          (x 1758)
-          (y 672)
-        )
-      )
+      (path-ref "7b3292da-be7e-4845-be19-3eee968dd0ec")
     )
     (platform
       (running #f)
       (name "flyer")
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (path
-        (node
-          (x 1949.892)
-          (y 58.28514)
-          (time 5)
-        )
-        (node
-          (x 1216)
-          (y 736)
-          (time 5)
-        )
-        (node
-          (x 352)
-          (y 128)
-          (time 5)
-        )
-      )
+      (path-ref "eee38ea3-7e1a-4b57-b1c6-144dbd5d52c9")
     )
     (flyingsnowball
       (x 1541.338)
@@ -98,6 +72,40 @@
     )
     (music
       (file "music/intro.ogg")
+    )
+    (path
+      (name "7b3292da-be7e-4845-be19-3eee968dd0ec")
+      (path
+        (node
+          (x 1860)
+          (y 672)
+          (time 2.5)
+        )
+        (node
+          (x 1758)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "eee38ea3-7e1a-4b57-b1c6-144dbd5d52c9")
+      (path
+        (node
+          (x 1949.892)
+          (y 58.28514)
+          (time 5)
+        )
+        (node
+          (x 1216)
+          (y 736)
+          (time 5)
+        )
+        (node
+          (x 352)
+          (y 128)
+          (time 5)
+        )
+      )
     )
     (scripttrigger
       (script "if(! (\"SNOWMANisthere\" in this) ){

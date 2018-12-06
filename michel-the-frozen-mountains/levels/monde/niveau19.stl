@@ -1904,16 +1904,7 @@
       (running #f)
       (name "porte")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 1120)
-          (y 96)
-        )
-        (node
-          (x 1120)
-          (y 224)
-        )
-      )
+      (path-ref "cf9a9f85-6f88-4eb0-90e8-953f6e776891")
     )
     (ispy
       (script "if(Foreground.get_alpha() == 1){
@@ -1961,6 +1952,19 @@ porte.goto_node(1);
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "cf9a9f85-6f88-4eb0-90e8-953f6e776891")
+      (path
+        (node
+          (x 1120)
+          (y 96)
+        )
+        (node
+          (x 1120)
+          (y 224)
+        )
+      )
     )
     (snowball
       (x 483)

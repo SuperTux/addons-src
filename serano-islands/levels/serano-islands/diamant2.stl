@@ -26,39 +26,19 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 5664)
-          (y 896)
-        )
-      )
+      (path-ref "00792188-9c5c-4cf7-afcf-e520cf89da8e")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 5888)
-          (y 896)
-        )
-      )
+      (path-ref "24e896b7-759a-4ef3-91c0-37fabde1c296")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 6112)
-          (y 896)
-        )
-      )
+      (path-ref "d32de6d8-880a-4094-852a-e0d2cdff9225")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 6528)
-          (y 704)
-        )
-      )
+      (path-ref "a99a4037-3e65-4c2a-9de2-9fabbcfe017a")
     )
     (jumpy
       (x 32)
@@ -106,6 +86,42 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "00792188-9c5c-4cf7-afcf-e520cf89da8e")
+      (path
+        (node
+          (x 5664)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "24e896b7-759a-4ef3-91c0-37fabde1c296")
+      (path
+        (node
+          (x 5888)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "d32de6d8-880a-4094-852a-e0d2cdff9225")
+      (path
+        (node
+          (x 6112)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "a99a4037-3e65-4c2a-9de2-9fabbcfe017a")
+      (path
+        (node
+          (x 6528)
+          (y 704)
+        )
+      )
     )
     (sspiky
       (x 3456)

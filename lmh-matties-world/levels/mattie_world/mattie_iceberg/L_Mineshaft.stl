@@ -88,6 +88,105 @@
     (music
       (file "music/cave.ogg")
     )
+    (path
+      (name "3b7b2c6f-609c-40b1-b7f9-feda55fe95b6")
+      (path
+        (node
+          (x 1440)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "94c85c4c-3d8c-4c32-8f16-a0de34078c0d")
+      (path
+        (node
+          (x 1440)
+          (y 1088)
+          (time 0.8)
+        )
+        (node
+          (x 1440)
+          (y 1184)
+          (time 0.1)
+        )
+        (node
+          (x 1440)
+          (y 1408)
+          (time 0.1)
+        )
+        (node
+          (x 1536)
+          (y 1408)
+          (time 0.1)
+        )
+        (node
+          (x 1536)
+          (y 1088)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "3f4a5308-9946-45a7-a104-e6407accceaf")
+      (path
+        (node
+          (x 128)
+          (y 1376)
+          (time 0.8)
+        )
+        (node
+          (x 128)
+          (y 1472)
+          (time 0.1)
+        )
+        (node
+          (x 128)
+          (y 1696)
+          (time 0.1)
+        )
+        (node
+          (x 32)
+          (y 1696)
+          (time 0.1)
+        )
+        (node
+          (x 32)
+          (y 1376)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "296448cb-511e-4c93-8b70-82eba9ba5c4e")
+      (path
+        (node
+          (x 0)
+          (y 384)
+          (time 0.8)
+        )
+        (node
+          (x 0)
+          (y 480)
+          (time 0.8)
+        )
+      )
+    )
+    (path
+      (name "097340e4-1132-4766-8897-087a6cc57b7d")
+      (path
+        (node
+          (x 832)
+          (y 4064)
+          (time 0.8)
+        )
+        (node
+          (x 832)
+          (y 4128)
+          (time 0.8)
+        )
+      )
+    )
     (scripttrigger
       (script "  Tux.deactivate();
           pipedrop.goto_node(1);
@@ -899,12 +998,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipetop")
-      (path
-        (node
-          (x 1440)
-          (y 1088)
-        )
-      )
+      (path-ref "3b7b2c6f-609c-40b1-b7f9-feda55fe95b6")
       (width 2)
       (height 1)
       (tiles
@@ -915,33 +1009,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipedrop")
-      (path
-        (node
-          (x 1440)
-          (y 1088)
-          (time 0.8)
-        )
-        (node
-          (x 1440)
-          (y 1184)
-          (time 0.1)
-        )
-        (node
-          (x 1440)
-          (y 1408)
-          (time 0.1)
-        )
-        (node
-          (x 1536)
-          (y 1408)
-          (time 0.1)
-        )
-        (node
-          (x 1536)
-          (y 1088)
-          (time 0.1)
-        )
-      )
+      (path-ref "94c85c4c-3d8c-4c32-8f16-a0de34078c0d")
       (width 2)
       (height 1)
       (tiles
@@ -952,33 +1020,7 @@
       (solid #t)
       (z-pos 0)
       (name "spipedrop")
-      (path
-        (node
-          (x 128)
-          (y 1376)
-          (time 0.8)
-        )
-        (node
-          (x 128)
-          (y 1472)
-          (time 0.1)
-        )
-        (node
-          (x 128)
-          (y 1696)
-          (time 0.1)
-        )
-        (node
-          (x 32)
-          (y 1696)
-          (time 0.1)
-        )
-        (node
-          (x 32)
-          (y 1376)
-          (time 0.1)
-        )
-      )
+      (path-ref "3f4a5308-9946-45a7-a104-e6407accceaf")
       (width 2)
       (height 1)
       (tiles
@@ -989,18 +1031,7 @@
       (solid #t)
       (z-pos 0)
       (name "bpipelift")
-      (path
-        (node
-          (x 0)
-          (y 384)
-          (time 0.8)
-        )
-        (node
-          (x 0)
-          (y 480)
-          (time 0.8)
-        )
-      )
+      (path-ref "296448cb-511e-4c93-8b70-82eba9ba5c4e")
       (width 2)
       (height 1)
       (tiles
@@ -1011,18 +1042,7 @@
       (solid #t)
       (z-pos 0)
       (name "bpipedrop")
-      (path
-        (node
-          (x 832)
-          (y 4064)
-          (time 0.8)
-        )
-        (node
-          (x 832)
-          (y 4128)
-          (time 0.8)
-        )
-      )
+      (path-ref "097340e4-1132-4766-8897-087a6cc57b7d")
       (width 2)
       (height 1)
       (tiles

@@ -26,52 +26,16 @@
       (mode "normal")
     )
     (coin
-      (path
-        (node
-          (x 3360)
-          (y 800)
-        )
-        (node
-          (x 3456)
-          (y 800)
-        )
-      )
+      (path-ref "a9623bc4-83b9-4c79-b831-c16cb8d20d0a")
     )
     (coin
-      (path
-        (node
-          (x 3456)
-          (y 704)
-        )
-        (node
-          (x 3360)
-          (y 704)
-        )
-      )
+      (path-ref "9baa25c0-ed00-4170-920a-89aa5c6d2c45")
     )
     (coin
-      (path
-        (node
-          (x 3360)
-          (y 608)
-        )
-        (node
-          (x 3456)
-          (y 608)
-        )
-      )
+      (path-ref "395c2c21-c0c0-4d3b-95be-67580cfc48c5")
     )
     (coin
-      (path
-        (node
-          (x 3456)
-          (y 512)
-        )
-        (node
-          (x 3360)
-          (y 512)
-        )
-      )
+      (path-ref "63aa3c4f-f6a6-4cc0-8627-495c8772f7f0")
     )
     (crystallo
       (x 1696)
@@ -87,78 +51,15 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1760)
-          (y 768)
-          (time 3)
-        )
-        (node
-          (x 1760)
-          (y 768)
-          (time 3)
-        )
-        (node
-          (x 1984)
-          (y 768)
-          (time 3)
-        )
-        (node
-          (x 1984)
-          (y 768)
-          (time 3)
-        )
-      )
+      (path-ref "afd9bea3-dcc5-47f6-a6c3-916dcee012ea")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 3360)
-          (y 896)
-          (time 3)
-        )
-        (node
-          (x 3360)
-          (y 896)
-          (time 3)
-        )
-        (node
-          (x 3360)
-          (y 416)
-          (time 3)
-        )
-        (node
-          (x 3360)
-          (y 416)
-          (time 3)
-        )
-      )
+      (path-ref "1fc8ea15-5f5b-443f-b939-4fe40958296f")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 5536)
-          (y 544)
-          (time 3)
-        )
-        (node
-          (x 5536)
-          (y 544)
-          (time 5)
-        )
-        (node
-          (x 5536)
-          (y 896)
-          (time 3)
-        )
-        (node
-          (x 5536)
-          (y 896)
-          (time 5)
-        )
-      )
+      (path-ref "341bb554-a4c8-407a-b0f0-5c3f7655ad33")
     )
     (flyingsnowball
       (x 6048)
@@ -229,6 +130,133 @@
     )
     (music
       (file "music/voc-night.ogg")
+    )
+    (path
+      (name "afd9bea3-dcc5-47f6-a6c3-916dcee012ea")
+      (path
+        (node
+          (x 1760)
+          (y 768)
+          (time 3)
+        )
+        (node
+          (x 1760)
+          (y 768)
+          (time 3)
+        )
+        (node
+          (x 1984)
+          (y 768)
+          (time 3)
+        )
+        (node
+          (x 1984)
+          (y 768)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "1fc8ea15-5f5b-443f-b939-4fe40958296f")
+      (path
+        (node
+          (x 3360)
+          (y 896)
+          (time 3)
+        )
+        (node
+          (x 3360)
+          (y 896)
+          (time 3)
+        )
+        (node
+          (x 3360)
+          (y 416)
+          (time 3)
+        )
+        (node
+          (x 3360)
+          (y 416)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "341bb554-a4c8-407a-b0f0-5c3f7655ad33")
+      (path
+        (node
+          (x 5536)
+          (y 544)
+          (time 3)
+        )
+        (node
+          (x 5536)
+          (y 544)
+          (time 5)
+        )
+        (node
+          (x 5536)
+          (y 896)
+          (time 3)
+        )
+        (node
+          (x 5536)
+          (y 896)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "a9623bc4-83b9-4c79-b831-c16cb8d20d0a")
+      (path
+        (node
+          (x 3360)
+          (y 800)
+        )
+        (node
+          (x 3456)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "9baa25c0-ed00-4170-920a-89aa5c6d2c45")
+      (path
+        (node
+          (x 3456)
+          (y 704)
+        )
+        (node
+          (x 3360)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "395c2c21-c0c0-4d3b-95be-67580cfc48c5")
+      (path
+        (node
+          (x 3360)
+          (y 608)
+        )
+        (node
+          (x 3456)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "63aa3c4f-f6a6-4cc0-8627-495c8772f7f0")
+      (path
+        (node
+          (x 3456)
+          (y 512)
+        )
+        (node
+          (x 3360)
+          (y 512)
+        )
+      )
     )
     (powerup
       (sprite "images/powerups/1up/1up.sprite")

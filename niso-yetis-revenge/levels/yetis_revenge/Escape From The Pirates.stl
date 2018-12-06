@@ -43,6 +43,64 @@
       (running #f)
       (name "c1")
       (sprite "images/objects/platforms/canon_ball.sprite")
+      (path-ref "231fafc0-155f-4121-9257-6e087889bbd5")
+    )
+    (hurting_platform
+      (running #f)
+      (name "c2")
+      (sprite "images/objects/platforms/canon_ball.sprite")
+      (path-ref "b198a6e9-66f1-4acb-acd8-5809f6c0cd1d")
+    )
+    (hurting_platform
+      (running #f)
+      (name "c3")
+      (sprite "images/objects/platforms/canon_ball.sprite")
+      (path-ref "e0a97776-84c1-457e-9bea-ce07697fa145")
+    )
+    (hurting_platform
+      (running #f)
+      (name "c4")
+      (sprite "images/objects/platforms/canon_ball.sprite")
+      (path-ref "c6415025-a95d-4a48-a9ee-3afe802c847a")
+    )
+    (hurting_platform
+      (running #f)
+      (name "bc1")
+      (sprite "images/objects/platforms/bigcanon_ball.sprite")
+      (path-ref "dd6d9142-dab2-4bec-87b4-3c1b90ac2702")
+    )
+    (hurting_platform
+      (running #f)
+      (name "c5")
+      (sprite "images/objects/platforms/canon_ball.sprite")
+      (path-ref "b94bfce1-91a9-4484-83d5-ac9c42ee3f78")
+    )
+    (hurting_platform
+      (running #f)
+      (name "c6")
+      (sprite "images/objects/platforms/canon_ball.sprite")
+      (path-ref "f18b70db-ba7c-4eba-8cbc-4e14affe5612")
+    )
+    (hurting_platform
+      (running #f)
+      (name "bc2")
+      (sprite "images/objects/platforms/bigcanon_ball.sprite")
+      (path-ref "d0c919d5-6ada-4fcc-a09f-2daef1fdc89c")
+    )
+    (hurting_platform
+      (running #f)
+      (name "gc")
+      (sprite "images/objects/platforms/giantcanon_ball.sprite")
+      (path-ref "669059e8-a26c-4f0f-b083-1b969112771d")
+    )
+    (invisible_wall
+      (width 32)
+      (height 268)
+      (x 10720)
+      (y 148)
+    )
+    (path
+      (name "231fafc0-155f-4121-9257-6e087889bbd5")
       (path
         (node
           (x 1120)
@@ -60,10 +118,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "c2")
-      (sprite "images/objects/platforms/canon_ball.sprite")
+    (path
+      (name "b198a6e9-66f1-4acb-acd8-5809f6c0cd1d")
       (path
         (node
           (x 1184)
@@ -81,10 +137,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "c3")
-      (sprite "images/objects/platforms/canon_ball.sprite")
+    (path
+      (name "e0a97776-84c1-457e-9bea-ce07697fa145")
       (path
         (node
           (x 1184)
@@ -102,10 +156,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "c4")
-      (sprite "images/objects/platforms/canon_ball.sprite")
+    (path
+      (name "c6415025-a95d-4a48-a9ee-3afe802c847a")
       (path
         (node
           (x 1120)
@@ -123,10 +175,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "bc1")
-      (sprite "images/objects/platforms/bigcanon_ball.sprite")
+    (path
+      (name "dd6d9142-dab2-4bec-87b4-3c1b90ac2702")
       (path
         (node
           (x 1092)
@@ -144,10 +194,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "c5")
-      (sprite "images/objects/platforms/canon_ball.sprite")
+    (path
+      (name "b94bfce1-91a9-4484-83d5-ac9c42ee3f78")
       (path
         (node
           (x 1120)
@@ -165,10 +213,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "c6")
-      (sprite "images/objects/platforms/canon_ball.sprite")
+    (path
+      (name "f18b70db-ba7c-4eba-8cbc-4e14affe5612")
       (path
         (node
           (x 1184)
@@ -186,10 +232,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "bc2")
-      (sprite "images/objects/platforms/bigcanon_ball.sprite")
+    (path
+      (name "d0c919d5-6ada-4fcc-a09f-2daef1fdc89c")
       (path
         (node
           (x 1088)
@@ -207,10 +251,8 @@
         )
       )
     )
-    (hurting_platform
-      (running #f)
-      (name "gc")
-      (sprite "images/objects/platforms/giantcanon_ball.sprite")
+    (path
+      (name "669059e8-a26c-4f0f-b083-1b969112771d")
       (path
         (node
           (x 10304)
@@ -227,11 +269,102 @@
         )
       )
     )
-    (invisible_wall
-      (width 32)
-      (height 268)
-      (x 10720)
-      (y 148)
+    (path
+      (name "da67a485-6f4c-4ac5-a751-02d7590219af")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 0)
+          (time 90)
+        )
+        (node
+          (x 9600)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "cb56e1d9-5c02-4c60-9fee-0b943eb2eb73")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 0)
+          (time 90)
+        )
+        (node
+          (x 9600)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "21ad484b-e8f9-4e95-905a-94375efa38cf")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 0)
+          (time 90)
+        )
+        (node
+          (x 9600)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "ab67e5d1-d816-4f9a-86ff-a52dea0ca950")
+      (path
+        (mode "oneshot")
+        (node
+          (x 0)
+          (y 0)
+          (time 2)
+        )
+        (node
+          (x 64)
+          (y 0)
+          (time 90)
+        )
+        (node
+          (x 9664)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "31f61807-ae1f-40db-8501-89120d0e2f94")
+      (path
+        (node
+          (x 0)
+          (y -2080)
+          (time 250)
+        )
+        (node
+          (x 0)
+          (y 1120)
+        )
+      )
+    )
+    (path
+      (name "650e2034-8f24-48d3-b1bf-675e18cf3586")
+      (path
+        (node
+          (x 10294)
+          (y -608)
+        )
+        (node
+          (x 10294)
+          (y 128)
+          (time 20.2)
+        )
+        (node
+          (x 15990)
+          (y 64)
+        )
+      )
     )
     (powerup
       (script "this.x1 <- true
@@ -677,18 +810,7 @@ play_sound(\"sounds/lifeup.wav\");
       (solid #t)
       (z-pos 1)
       (name "shipInteractive")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 0)
-          (time 90)
-        )
-        (node
-          (x 9600)
-          (y 0)
-        )
-      )
+      (path-ref "da67a485-6f4c-4ac5-a751-02d7590219af")
       (width 350)
       (height 35)
       (tiles
@@ -733,18 +855,7 @@ play_sound(\"sounds/lifeup.wav\");
       (solid #f)
       (z-pos 101)
       (name "shipForeground1")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 0)
-          (time 90)
-        )
-        (node
-          (x 9600)
-          (y 0)
-        )
-      )
+      (path-ref "cb56e1d9-5c02-4c60-9fee-0b943eb2eb73")
       (width 350)
       (height 35)
       (tiles
@@ -789,18 +900,7 @@ play_sound(\"sounds/lifeup.wav\");
       (solid #f)
       (z-pos 102)
       (name "shipForeground2")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 0)
-          (time 90)
-        )
-        (node
-          (x 9600)
-          (y 0)
-        )
-      )
+      (path-ref "21ad484b-e8f9-4e95-905a-94375efa38cf")
       (width 350)
       (height 35)
       (tiles
@@ -845,23 +945,7 @@ play_sound(\"sounds/lifeup.wav\");
       (solid #t)
       (z-pos 0)
       (name "spikes")
-      (path
-        (mode "oneshot")
-        (node
-          (x 0)
-          (y 0)
-          (time 2)
-        )
-        (node
-          (x 64)
-          (y 0)
-          (time 90)
-        )
-        (node
-          (x 9664)
-          (y 0)
-        )
-      )
+      (path-ref "ab67e5d1-d816-4f9a-86ff-a52dea0ca950")
       (width 350)
       (height 35)
       (tiles
@@ -950,17 +1034,7 @@ play_sound(\"sounds/lifeup.wav\");
       (solid #t)
       (z-pos -2)
       (name "wall")
-      (path
-        (node
-          (x 0)
-          (y -2080)
-          (time 250)
-        )
-        (node
-          (x 0)
-          (y 1120)
-        )
-      )
+      (path-ref "31f61807-ae1f-40db-8501-89120d0e2f94")
       (width 350)
       (height 100)
       (tiles
@@ -1070,21 +1144,7 @@ play_sound(\"sounds/lifeup.wav\");
       (solid #t)
       (z-pos -5)
       (name "spikes2")
-      (path
-        (node
-          (x 10294)
-          (y -608)
-        )
-        (node
-          (x 10294)
-          (y 128)
-          (time 20.2)
-        )
-        (node
-          (x 15990)
-          (y 64)
-        )
-      )
+      (path-ref "650e2034-8f24-48d3-b1bf-675e18cf3586")
       (width 19)
       (height 19)
       (tiles

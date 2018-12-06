@@ -16,17 +16,7 @@
       (running #f)
       (name "platformblb")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 704)
-          (y 832)
-          (time 45)
-        )
-        (node
-          (x 7104)
-          (y 832)
-        )
-      )
+      (path-ref "f6994b76-3483-4131-943e-ed96823b10f3")
     )
     (gradient
       (top_color 1 0 0)
@@ -82,6 +72,20 @@
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "f6994b76-3483-4131-943e-ed96823b10f3")
+      (path
+        (node
+          (x 704)
+          (y 832)
+          (time 45)
+        )
+        (node
+          (x 7104)
+          (y 832)
+        )
+      )
     )
     (scripttrigger
       (script "complete_level(\"red\",\"r2\",\"endsequence\")")

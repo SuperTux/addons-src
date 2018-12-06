@@ -122,6 +122,76 @@
     (music
       (file "music/cave.ogg")
     )
+    (path
+      (name "ae69de11-3172-418b-954e-50bea56995e9")
+      (path
+        (mode "oneshot")
+        (node
+          (x 480)
+          (y 448)
+          (time 15)
+        )
+        (node
+          (x 3648)
+          (y 448)
+        )
+      )
+    )
+    (path
+      (name "aff48e9c-0dc6-4ef9-8865-066f8592538f")
+      (path
+        (mode "oneshot")
+        (node
+          (x 3744)
+          (y 1440)
+          (time 10)
+        )
+        (node
+          (x 1792)
+          (y 1440)
+        )
+      )
+    )
+    (path
+      (name "1e60101a-864a-46ca-adb6-a4800c3d2d3e")
+      (path
+        (mode "oneshot")
+        (node
+          (x 864)
+          (y 2656)
+          (time 18)
+        )
+        (node
+          (x 5472)
+          (y 2656)
+          (time 20)
+        )
+        (node
+          (x 5472)
+          (y 736)
+          (time 7)
+        )
+        (node
+          (x 7072)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "d33edd87-8a6e-4c6b-8b71-d23fb0b0fce8")
+      (path
+        (mode "oneshot")
+        (node
+          (x 5440)
+          (y 2816)
+          (time 20)
+        )
+        (node
+          (x 5440)
+          (y 896)
+        )
+      )
+    )
     (powerup
       (script "this.c1 <- true
 Tux.add_coins(1);
@@ -787,18 +857,7 @@ car3.goto_node(3)")
       (solid #t)
       (z-pos 1)
       (name "car")
-      (path
-        (mode "oneshot")
-        (node
-          (x 480)
-          (y 448)
-          (time 15)
-        )
-        (node
-          (x 3648)
-          (y 448)
-        )
-      )
+      (path-ref "ae69de11-3172-418b-954e-50bea56995e9")
       (width 6)
       (height 4)
       (tiles
@@ -1139,18 +1198,7 @@ car3.goto_node(3)")
       (solid #t)
       (z-pos 0)
       (name "car2")
-      (path
-        (mode "oneshot")
-        (node
-          (x 3744)
-          (y 1440)
-          (time 10)
-        )
-        (node
-          (x 1792)
-          (y 1440)
-        )
-      )
+      (path-ref "aff48e9c-0dc6-4ef9-8865-066f8592538f")
       (width 6)
       (height 5)
       (tiles
@@ -1384,28 +1432,7 @@ car3.goto_node(3)")
       (solid #t)
       (z-pos 1)
       (name "car3")
-      (path
-        (mode "oneshot")
-        (node
-          (x 864)
-          (y 2656)
-          (time 18)
-        )
-        (node
-          (x 5472)
-          (y 2656)
-          (time 20)
-        )
-        (node
-          (x 5472)
-          (y 736)
-          (time 7)
-        )
-        (node
-          (x 7072)
-          (y 736)
-        )
-      )
+      (path-ref "1e60101a-864a-46ca-adb6-a4800c3d2d3e")
       (width 6)
       (height 5)
       (tiles
@@ -1420,18 +1447,7 @@ car3.goto_node(3)")
       (solid #t)
       (z-pos 1)
       (name "lift")
-      (path
-        (mode "oneshot")
-        (node
-          (x 5440)
-          (y 2816)
-          (time 20)
-        )
-        (node
-          (x 5440)
-          (y 896)
-        )
-      )
+      (path-ref "d33edd87-8a6e-4c6b-8b71-d23fb0b0fce8")
       (width 8)
       (height 1)
       (tiles

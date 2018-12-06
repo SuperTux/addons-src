@@ -662,40 +662,134 @@ wait(7);
       (running #f)
       (name "l1")
       (sprite "images/objects/platforms/rock_big.sprite")
-      (path
-        (node
-          (x 256)
-          (y 736)
-        )
-        (node
-          (x 256)
-          (y 992)
-        )
-      )
+      (path-ref "2c829338-6887-4463-b91e-da25a85aecf8")
     )
     (platform
       (running #f)
       (name "b4")
       (sprite "images/objects/platforms/rock_tiny.sprite")
-      (path
-        (node
-          (x 224)
-          (y 704)
-        )
-        (node
-          (x 192)
-          (y 704)
-        )
-        (node
-          (x 192)
-          (y 640)
-        )
-      )
+      (path-ref "21c6c250-19c6-4031-b9c0-f652284083f4")
     )
     (platform
       (running #f)
       (name "b1")
       (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "1dc0ca8b-acb4-462d-9d82-56f4c930456c")
+    )
+    (platform
+      (running #f)
+      (name "b2")
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "d963fad0-75d1-444c-a81e-b1b8000e2b07")
+    )
+    (platform
+      (running #f)
+      (name "l6")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "ea47a073-b099-4273-81eb-62565465bbd7")
+    )
+    (platform
+      (running #f)
+      (name "l5")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "6b379f18-68e0-4240-9108-b6b19c3b0871")
+    )
+    (platform
+      (running #f)
+      (name "l4")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "13d1f798-dbc2-4466-8666-1f20156fb12a")
+    )
+    (platform
+      (running #f)
+      (name "l3")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "0ef5c809-9ffc-4e21-bec8-6d07a0bcafa5")
+    )
+    (platform
+      (running #f)
+      (name "l2")
+      (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "bfe3732d-c54c-474b-ab0f-e4831b43923b")
+    )
+    (platform
+      (running #f)
+      (name "b3")
+      (sprite "images/objects/platforms/rock_tiny.sprite")
+      (path-ref "0a864abf-5aba-4799-9eee-6bf48a4f9018")
+    )
+    (platform
+      (running #f)
+      (name "f6")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "26a9e56a-db1a-49a0-b5c4-33808c0698b3")
+    )
+    (platform
+      (running #f)
+      (name "f1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "39bafbd3-1021-445f-8832-d3239e1ab90f")
+    )
+    (platform
+      (running #f)
+      (name "f2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "d837acaa-f320-4fe4-8c79-f3a3789d9c46")
+    )
+    (platform
+      (running #f)
+      (name "f3")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "0bffb0ef-df69-4b81-afd5-802eefc42839")
+    )
+    (platform
+      (running #f)
+      (name "f4")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "3c5cbeb7-5e41-494c-bdc5-db8462a82bc6")
+    )
+    (platform
+      (running #f)
+      (name "f5")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "42e96a02-ab65-479c-be4c-282fc331faa2")
+    )
+    (gradient
+      (top_color 0 0.001495384 0.4433814)
+      (bottom_color 0 0 0)
+    )
+    (path
+      (name "2c829338-6887-4463-b91e-da25a85aecf8")
+      (path
+        (node
+          (x 256)
+          (y 736)
+        )
+        (node
+          (x 256)
+          (y 992)
+        )
+      )
+    )
+    (path
+      (name "21c6c250-19c6-4031-b9c0-f652284083f4")
+      (path
+        (node
+          (x 224)
+          (y 704)
+        )
+        (node
+          (x 192)
+          (y 704)
+        )
+        (node
+          (x 192)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "1dc0ca8b-acb4-462d-9d82-56f4c930456c")
       (path
         (node
           (x 1024)
@@ -711,10 +805,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "b2")
-      (sprite "images/objects/platforms/rock_tiny.sprite")
+    (path
+      (name "d963fad0-75d1-444c-a81e-b1b8000e2b07")
       (path
         (node
           (x 1024)
@@ -730,10 +822,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "l6")
-      (sprite "images/objects/platforms/rock_big.sprite")
+    (path
+      (name "ea47a073-b099-4273-81eb-62565465bbd7")
       (path
         (node
           (x 896)
@@ -745,10 +835,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "l5")
-      (sprite "images/objects/platforms/rock_big.sprite")
+    (path
+      (name "6b379f18-68e0-4240-9108-b6b19c3b0871")
       (path
         (node
           (x 768)
@@ -760,10 +848,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "l4")
-      (sprite "images/objects/platforms/rock_big.sprite")
+    (path
+      (name "13d1f798-dbc2-4466-8666-1f20156fb12a")
       (path
         (node
           (x 640)
@@ -775,10 +861,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "l3")
-      (sprite "images/objects/platforms/rock_big.sprite")
+    (path
+      (name "0ef5c809-9ffc-4e21-bec8-6d07a0bcafa5")
       (path
         (node
           (x 512)
@@ -790,10 +874,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "l2")
-      (sprite "images/objects/platforms/rock_big.sprite")
+    (path
+      (name "bfe3732d-c54c-474b-ab0f-e4831b43923b")
       (path
         (node
           (x 384)
@@ -805,10 +887,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "b3")
-      (sprite "images/objects/platforms/rock_tiny.sprite")
+    (path
+      (name "0a864abf-5aba-4799-9eee-6bf48a4f9018")
       (path
         (node
           (x 224)
@@ -824,10 +904,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "f6")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "26a9e56a-db1a-49a0-b5c4-33808c0698b3")
       (path
         (node
           (x 672)
@@ -839,10 +917,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "f1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "39bafbd3-1021-445f-8832-d3239e1ab90f")
       (path
         (node
           (x 480)
@@ -854,10 +930,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "f2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "d837acaa-f320-4fe4-8c79-f3a3789d9c46")
       (path
         (node
           (x 512)
@@ -869,10 +943,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "f3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "0bffb0ef-df69-4b81-afd5-802eefc42839")
       (path
         (node
           (x 544)
@@ -884,10 +956,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "f4")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "3c5cbeb7-5e41-494c-bdc5-db8462a82bc6")
       (path
         (node
           (x 736)
@@ -899,10 +969,8 @@ wait(7);
         )
       )
     )
-    (platform
-      (running #f)
-      (name "f5")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "42e96a02-ab65-479c-be4c-282fc331faa2")
       (path
         (node
           (x 704)
@@ -914,9 +982,109 @@ wait(7);
         )
       )
     )
-    (gradient
-      (top_color 0 0.001495384 0.4433814)
-      (bottom_color 0 0 0)
+    (path
+      (name "63094e51-e800-4918-a2db-b530da07ed9a")
+      (path
+        (node
+          (x 0)
+          (y -192)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "394c8d38-9b0d-4beb-aa81-5225d2584bf2")
+      (path
+        (node
+          (x 224)
+          (y 992)
+          (time 2)
+        )
+        (node
+          (x 224)
+          (y 608)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "10be95c7-5481-4e33-aaa6-1a991f895673")
+      (path
+        (node
+          (x 352)
+          (y 992)
+          (time 2)
+        )
+        (node
+          (x 352)
+          (y 608)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "72d60f73-61f1-402f-87e1-9347a4b0dccb")
+      (path
+        (node
+          (x 480)
+          (y 992)
+          (time 2)
+        )
+        (node
+          (x 480)
+          (y 608)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "d327c3ac-d0f2-4416-963c-cc6fba756758")
+      (path
+        (node
+          (x 608)
+          (y 992)
+          (time 2)
+        )
+        (node
+          (x 608)
+          (y 608)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "1c5fa7c5-c1b0-41e8-b201-5649406f6032")
+      (path
+        (node
+          (x 736)
+          (y 992)
+          (time 2)
+        )
+        (node
+          (x 736)
+          (y 576)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "e3053f97-8e7a-4cf4-84e7-fa036439c16e")
+      (path
+        (node
+          (x 864)
+          (y 992)
+          (time 2)
+        )
+        (node
+          (x 864)
+          (y 608)
+          (time 3)
+        )
+      )
     )
     (scriptedobject
       (physic-enabled #f)
@@ -1118,17 +1286,7 @@ wait(7);
       (solid #t)
       (z-pos 0)
       (name "Door")
-      (path
-        (node
-          (x 0)
-          (y -192)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 3)
-        )
-      )
+      (path-ref "63094e51-e800-4918-a2db-b530da07ed9a")
       (width 40)
       (height 35)
       (tiles
@@ -1262,18 +1420,7 @@ wait(7);
       (solid #t)
       (z-pos 1)
       (name "lava1")
-      (path
-        (node
-          (x 224)
-          (y 992)
-          (time 2)
-        )
-        (node
-          (x 224)
-          (y 608)
-          (time 3)
-        )
-      )
+      (path-ref "394c8d38-9b0d-4beb-aa81-5225d2584bf2")
       (width 6)
       (height 20)
       (tiles
@@ -1303,18 +1450,7 @@ wait(7);
       (solid #t)
       (z-pos 1)
       (name "lava2")
-      (path
-        (node
-          (x 352)
-          (y 992)
-          (time 2)
-        )
-        (node
-          (x 352)
-          (y 608)
-          (time 3)
-        )
-      )
+      (path-ref "10be95c7-5481-4e33-aaa6-1a991f895673")
       (width 6)
       (height 20)
       (tiles
@@ -1344,18 +1480,7 @@ wait(7);
       (solid #t)
       (z-pos 1)
       (name "lava3")
-      (path
-        (node
-          (x 480)
-          (y 992)
-          (time 2)
-        )
-        (node
-          (x 480)
-          (y 608)
-          (time 3)
-        )
-      )
+      (path-ref "72d60f73-61f1-402f-87e1-9347a4b0dccb")
       (width 6)
       (height 20)
       (tiles
@@ -1385,18 +1510,7 @@ wait(7);
       (solid #t)
       (z-pos 1)
       (name "lava4")
-      (path
-        (node
-          (x 608)
-          (y 992)
-          (time 2)
-        )
-        (node
-          (x 608)
-          (y 608)
-          (time 3)
-        )
-      )
+      (path-ref "d327c3ac-d0f2-4416-963c-cc6fba756758")
       (width 6)
       (height 20)
       (tiles
@@ -1426,18 +1540,7 @@ wait(7);
       (solid #t)
       (z-pos 1)
       (name "lava5")
-      (path
-        (node
-          (x 736)
-          (y 992)
-          (time 2)
-        )
-        (node
-          (x 736)
-          (y 576)
-          (time 3)
-        )
-      )
+      (path-ref "1c5fa7c5-c1b0-41e8-b201-5649406f6032")
       (width 6)
       (height 20)
       (tiles
@@ -1467,18 +1570,7 @@ wait(7);
       (solid #t)
       (z-pos 1)
       (name "lava6")
-      (path
-        (node
-          (x 864)
-          (y 992)
-          (time 2)
-        )
-        (node
-          (x 864)
-          (y 608)
-          (time 3)
-        )
-      )
+      (path-ref "e3053f97-8e7a-4cf4-84e7-fa036439c16e")
       (width 6)
       (height 20)
       (tiles

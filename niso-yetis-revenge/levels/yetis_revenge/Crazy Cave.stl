@@ -28,6 +28,21 @@
       (running #f)
       (name "s1")
       (sprite "images/objects/platforms/rock_big.sprite")
+      (path-ref "e7e48e79-a714-48fc-98fa-4474bd77ccd6")
+    )
+    (mriceblock
+      (x 1313)
+      (y 710)
+    )
+    (mriceblock
+      (x 2881)
+      (y 678)
+    )
+    (music
+      (file "music/cave.ogg")
+    )
+    (path
+      (name "e7e48e79-a714-48fc-98fa-4474bd77ccd6")
       (path
         (node
           (x 5440)
@@ -41,16 +56,135 @@
         )
       )
     )
-    (mriceblock
-      (x 1313)
-      (y 710)
+    (path
+      (name "ae668203-3bf4-456c-9d68-329c9d23e137")
+      (path
+        (node
+          (x 0)
+          (y 32)
+          (time 11)
+        )
+        (node
+          (x 0)
+          (y -192)
+          (time 11)
+        )
+      )
     )
-    (mriceblock
-      (x 2881)
-      (y 678)
+    (path
+      (name "77aecb8d-dd56-4c20-b4cf-26885a0ba018")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 11)
+        )
+        (node
+          (x 0)
+          (y 192)
+          (time 11)
+        )
+      )
     )
-    (music
-      (file "music/cave.ogg")
+    (path
+      (name "bca91a46-01b6-4f05-be05-fa21c7272a4b")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 8)
+        )
+        (node
+          (x 0)
+          (y -192)
+          (time 8)
+        )
+        (node
+          (x 0)
+          (y 0)
+          (time 8)
+        )
+        (node
+          (x 0)
+          (y 192)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "4b7773f3-b6c3-4cee-9948-c2fc3e38f84a")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 8)
+        )
+        (node
+          (x 0)
+          (y 256)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "5efcc4c4-7543-454f-8063-3473e658a383")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 11)
+        )
+        (node
+          (x 0)
+          (y 224)
+          (time 11)
+        )
+      )
+    )
+    (path
+      (name "ed0baf62-155d-442d-a4d2-8ab0f6690d3e")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 4)
+        )
+        (node
+          (x 0)
+          (y -64)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "f3ecebd1-8e1d-4887-b12a-f143e932f691")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 4)
+        )
+        (node
+          (x 0)
+          (y 64)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "793e4772-a181-4196-8375-e0c04689991f")
+      (path
+        (node
+          (x 0)
+          (y 0)
+          (time 11)
+        )
+        (node
+          (x 0)
+          (y -288)
+          (time 11)
+        )
+      )
     )
     (powerup
       (script "play_sound(\"sounds/countdown10s.ogg\");
@@ -438,18 +572,7 @@ Wall8.start_moving()")
       (solid #t)
       (z-pos -1)
       (name "Wall1")
-      (path
-        (node
-          (x 0)
-          (y 32)
-          (time 11)
-        )
-        (node
-          (x 0)
-          (y -192)
-          (time 11)
-        )
-      )
+      (path-ref "ae668203-3bf4-456c-9d68-329c9d23e137")
       (width 330)
       (height 55)
       (tiles
@@ -514,18 +637,7 @@ Wall8.start_moving()")
       (solid #t)
       (z-pos -1)
       (name "Wall2")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 11)
-        )
-        (node
-          (x 0)
-          (y 192)
-          (time 11)
-        )
-      )
+      (path-ref "77aecb8d-dd56-4c20-b4cf-26885a0ba018")
       (width 330)
       (height 55)
       (tiles
@@ -590,28 +702,7 @@ Wall8.start_moving()")
       (solid #t)
       (z-pos -1)
       (name "Wall3")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 8)
-        )
-        (node
-          (x 0)
-          (y -192)
-          (time 8)
-        )
-        (node
-          (x 0)
-          (y 0)
-          (time 8)
-        )
-        (node
-          (x 0)
-          (y 192)
-          (time 8)
-        )
-      )
+      (path-ref "bca91a46-01b6-4f05-be05-fa21c7272a4b")
       (width 330)
       (height 55)
       (tiles
@@ -740,18 +831,7 @@ Wall8.start_moving()")
       (solid #t)
       (z-pos -1)
       (name "Wall4")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 8)
-        )
-        (node
-          (x 0)
-          (y 256)
-          (time 8)
-        )
-      )
+      (path-ref "4b7773f3-b6c3-4cee-9948-c2fc3e38f84a")
       (width 330)
       (height 55)
       (tiles
@@ -816,18 +896,7 @@ Wall8.start_moving()")
       (solid #t)
       (z-pos -1)
       (name "Wall5")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 11)
-        )
-        (node
-          (x 0)
-          (y 224)
-          (time 11)
-        )
-      )
+      (path-ref "5efcc4c4-7543-454f-8063-3473e658a383")
       (width 330)
       (height 55)
       (tiles
@@ -892,18 +961,7 @@ Wall8.start_moving()")
       (solid #t)
       (z-pos -1)
       (name "Wall6")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 4)
-        )
-        (node
-          (x 0)
-          (y -64)
-          (time 4)
-        )
-      )
+      (path-ref "ed0baf62-155d-442d-a4d2-8ab0f6690d3e")
       (width 330)
       (height 55)
       (tiles
@@ -968,18 +1026,7 @@ Wall8.start_moving()")
       (solid #t)
       (z-pos -2)
       (name "Wall7")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 4)
-        )
-        (node
-          (x 0)
-          (y 64)
-          (time 4)
-        )
-      )
+      (path-ref "f3ecebd1-8e1d-4887-b12a-f143e932f691")
       (width 330)
       (height 55)
       (tiles
@@ -1108,18 +1155,7 @@ Wall8.start_moving()")
       (solid #t)
       (z-pos -1)
       (name "Wall8")
-      (path
-        (node
-          (x 0)
-          (y 0)
-          (time 11)
-        )
-        (node
-          (x 0)
-          (y -288)
-          (time 11)
-        )
-      )
+      (path-ref "793e4772-a181-4196-8375-e0c04689991f")
       (width 330)
       (height 55)
       (tiles

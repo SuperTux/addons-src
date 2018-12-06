@@ -113,6 +113,15 @@
     (music
       (file "music/wisphunt.ogg")
     )
+    (path
+      (name "8b4a1fbe-c743-455f-8b88-b3f2d882df84")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (powerup
       (script "this.c1 <- true
 Tux.add_coins(1);
@@ -528,12 +537,7 @@ play_sound(\"sounds/lifeup.wav\");
       (solid #f)
       (z-pos 200)
       (name "Pirates-Background")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "8b4a1fbe-c743-455f-8b88-b3f2d882df84")
       (width 250)
       (height 35)
       (tiles

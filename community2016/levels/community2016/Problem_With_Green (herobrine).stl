@@ -48,18 +48,7 @@
       (running #f)
       (name "p1")
       (sprite "/images/objects/platforms/vertical-wood.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 3039)
-          (y 286.5)
-          (time 2)
-        )
-        (node
-          (x 3038)
-          (y 139)
-        )
-      )
+      (path-ref "f6950aa5-4d2b-45e4-9bd3-c592bd33ad2e")
     )
     (goldbomb
       (direction "left")
@@ -213,6 +202,21 @@
     )
     (music
       (file "/music/forest2.ogg")
+    )
+    (path
+      (name "f6950aa5-4d2b-45e4-9bd3-c592bd33ad2e")
+      (path
+        (mode "oneshot")
+        (node
+          (x 3039)
+          (y 286.5)
+          (time 2)
+        )
+        (node
+          (x 3038)
+          (y 139)
+        )
+      )
     )
     (poisonivy
       (direction "left")

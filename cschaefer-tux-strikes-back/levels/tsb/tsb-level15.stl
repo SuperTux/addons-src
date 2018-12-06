@@ -47,28 +47,7 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 5312)
-          (y 256)
-          (time 2)
-        )
-        (node
-          (x 5088)
-          (y 480)
-          (time 2)
-        )
-        (node
-          (x 5312)
-          (y 704)
-          (time 2)
-        )
-        (node
-          (x 5536)
-          (y 480)
-          (time 2)
-        )
-      )
+      (path-ref "09bfcc2d-4b34-4d32-b3f5-8335b99fd427")
     )
     (flyingsnowball
       (x 416)
@@ -132,6 +111,31 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "09bfcc2d-4b34-4d32-b3f5-8335b99fd427")
+      (path
+        (node
+          (x 5312)
+          (y 256)
+          (time 2)
+        )
+        (node
+          (x 5088)
+          (y 480)
+          (time 2)
+        )
+        (node
+          (x 5312)
+          (y 704)
+          (time 2)
+        )
+        (node
+          (x 5536)
+          (y 480)
+          (time 2)
+        )
+      )
     )
     (smartblock
       (x 4904)

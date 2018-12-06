@@ -108,87 +108,19 @@
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 576)
-          (y 960)
-        )
-        (node
-          (x 640)
-          (y 992)
-        )
-        (node
-          (x 608)
-          (y 1056)
-        )
-        (node
-          (x 544)
-          (y 1024)
-        )
-      )
+      (path-ref "09450e01-3129-47fe-b60d-6ed7ad48a197")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 608)
-          (y 1056)
-        )
-        (node
-          (x 544)
-          (y 1024)
-        )
-        (node
-          (x 576)
-          (y 960)
-        )
-        (node
-          (x 640)
-          (y 992)
-        )
-      )
+      (path-ref "e15d40c4-aaf0-4576-95b3-81777bd3148d")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 544)
-          (y 1024)
-        )
-        (node
-          (x 576)
-          (y 960)
-        )
-        (node
-          (x 640)
-          (y 992)
-        )
-        (node
-          (x 608)
-          (y 1056)
-        )
-      )
+      (path-ref "c5b9a278-a19c-460c-b1b6-76159ba7a537")
     )
     (coin
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 640)
-          (y 992)
-        )
-        (node
-          (x 608)
-          (y 1056)
-        )
-        (node
-          (x 544)
-          (y 1024)
-        )
-        (node
-          (x 576)
-          (y 960)
-        )
-      )
+      (path-ref "8fb10c0b-cb58-44ad-af2f-4df921d35e92")
     )
     (firefly
       (sprite "images/objects/resetpoints/default-resetpoint.sprite")
@@ -199,17 +131,7 @@
       (running #f)
       (name "door")
       (sprite "/images/objects/platforms/vertical-wood.sprite")
-      (path
-        (mode "oneshot")
-        (node
-          (x 4320)
-          (y 1024)
-        )
-        (node
-          (x 4320)
-          (y 896)
-        )
-      )
+      (path-ref "03c5abd8-8704-4989-949f-4872a8ee6aa3")
     )
     (gradient
       (top_color 0.4 0 0.4)
@@ -334,6 +256,124 @@
     )
     (music
       (file "/music/voc-daytime2.music")
+    )
+    (path
+      (name "03c5abd8-8704-4989-949f-4872a8ee6aa3")
+      (path
+        (mode "oneshot")
+        (node
+          (x 4320)
+          (y 1024)
+        )
+        (node
+          (x 4320)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "09450e01-3129-47fe-b60d-6ed7ad48a197")
+      (path
+        (node
+          (x 576)
+          (y 960)
+        )
+        (node
+          (x 640)
+          (y 992)
+        )
+        (node
+          (x 608)
+          (y 1056)
+        )
+        (node
+          (x 544)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "e15d40c4-aaf0-4576-95b3-81777bd3148d")
+      (path
+        (node
+          (x 608)
+          (y 1056)
+        )
+        (node
+          (x 544)
+          (y 1024)
+        )
+        (node
+          (x 576)
+          (y 960)
+        )
+        (node
+          (x 640)
+          (y 992)
+        )
+      )
+    )
+    (path
+      (name "c5b9a278-a19c-460c-b1b6-76159ba7a537")
+      (path
+        (node
+          (x 544)
+          (y 1024)
+        )
+        (node
+          (x 576)
+          (y 960)
+        )
+        (node
+          (x 640)
+          (y 992)
+        )
+        (node
+          (x 608)
+          (y 1056)
+        )
+      )
+    )
+    (path
+      (name "8fb10c0b-cb58-44ad-af2f-4df921d35e92")
+      (path
+        (node
+          (x 640)
+          (y 992)
+        )
+        (node
+          (x 608)
+          (y 1056)
+        )
+        (node
+          (x 544)
+          (y 1024)
+        )
+        (node
+          (x 576)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "72e2a6ee-651c-4d6c-9ebd-7ce72379147a")
+      (path
+        (mode "oneshot")
+        (node
+          (x 1376)
+          (y 1120)
+        )
+      )
+    )
+    (path
+      (name "d3bdcf5a-8217-4797-8195-df512db877d9")
+      (path
+        (mode "oneshot")
+        (node
+          (x 5888)
+          (y 448)
+        )
+      )
     )
     (pushbutton
       (script "door.goto_node(1);")
@@ -838,13 +878,7 @@
       (solid #f)
       (z-pos 110)
       (name "secret1")
-      (path
-        (mode "oneshot")
-        (node
-          (x 1376)
-          (y 1120)
-        )
-      )
+      (path-ref "72e2a6ee-651c-4d6c-9ebd-7ce72379147a")
       (width 24)
       (height 6)
       (tiles
@@ -1080,13 +1114,7 @@
       (solid #f)
       (z-pos 110)
       (name "secret2")
-      (path
-        (mode "oneshot")
-        (node
-          (x 5888)
-          (y 448)
-        )
-      )
+      (path-ref "d3bdcf5a-8217-4797-8195-df512db877d9")
       (width 23)
       (height 9)
       (tiles

@@ -22,12 +22,7 @@
     )
     (platform
       (sprite "images/objects/platforms/icefloe.sprite")
-      (path
-        (node
-          (x 4288)
-          (y 576)
-        )
-      )
+      (path-ref "60136b1a-df21-455a-86b8-a7583994dee0")
     )
     (jumpy
       (x 6624)
@@ -71,6 +66,15 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "60136b1a-df21-455a-86b8-a7583994dee0")
+      (path
+        (node
+          (x 4288)
+          (y 576)
+        )
+      )
     )
     (secretarea
       (width 156)

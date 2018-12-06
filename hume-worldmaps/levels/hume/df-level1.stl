@@ -49,33 +49,11 @@
       (running #f)
       (name "secretplat")
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 4736)
-          (y 1056)
-          (time 3)
-        )
-        (node
-          (x 4736)
-          (y 1408)
-          (time 3)
-        )
-      )
+      (path-ref "e28c86f6-f8ee-4d58-9cec-5d7238764d11")
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
-      (path
-        (node
-          (x 4736)
-          (y 1056)
-          (time 3)
-        )
-        (node
-          (x 4736)
-          (y 576)
-          (time 3)
-        )
-      )
+      (path-ref "80ac8c2c-efc3-4c79-bae5-ebcd3c51b8ef")
     )
     (mole
       (x 4544)
@@ -99,6 +77,36 @@
     )
     (music
       (file "music/ghostforest2.ogg")
+    )
+    (path
+      (name "e28c86f6-f8ee-4d58-9cec-5d7238764d11")
+      (path
+        (node
+          (x 4736)
+          (y 1056)
+          (time 3)
+        )
+        (node
+          (x 4736)
+          (y 1408)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "80ac8c2c-efc3-4c79-bae5-ebcd3c51b8ef")
+      (path
+        (node
+          (x 4736)
+          (y 1056)
+          (time 3)
+        )
+        (node
+          (x 4736)
+          (y 576)
+          (time 3)
+        )
+      )
     )
     (poisonivy
       (x 3328)
@@ -407,15 +415,19 @@
     )
     (platform
       (sprite "images/objects/platforms/big.sprite")
+      (path-ref "077f80c9-74b3-4381-a54c-df39865718b6")
+    )
+    (music
+      (file "music/bonuscave.ogg")
+    )
+    (path
+      (name "077f80c9-74b3-4381-a54c-df39865718b6")
       (path
         (node
           (x 1344)
           (y 672)
         )
       )
-    )
-    (music
-      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"secret\")")

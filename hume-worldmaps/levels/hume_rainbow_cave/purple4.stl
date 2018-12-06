@@ -16,181 +16,73 @@
       (running #f)
       (name "p1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5184)
-          (y 128)
-        )
-        (node
-          (x 5184)
-          (y 256)
-        )
-      )
+      (path-ref "5c4a0009-c0af-4391-b54c-b261eb0ce330")
     )
     (platform
       (running #f)
       (name "p2")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5216)
-          (y 128)
-        )
-        (node
-          (x 5216)
-          (y 256)
-        )
-      )
+      (path-ref "64738a55-3680-4cfa-8c18-ff48d28ce337")
     )
     (platform
       (running #f)
       (name "p3")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5248)
-          (y 128)
-        )
-        (node
-          (x 5248)
-          (y 256)
-        )
-      )
+      (path-ref "9d399419-2c4f-427c-b461-980ff2f9643e")
     )
     (platform
       (running #f)
       (name "p4")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5280)
-          (y 128)
-        )
-        (node
-          (x 5280)
-          (y 256)
-        )
-      )
+      (path-ref "c7508520-d210-4e0a-b141-4a033acf592c")
     )
     (platform
       (running #f)
       (name "p5")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5312)
-          (y 128)
-        )
-        (node
-          (x 5312)
-          (y 256)
-        )
-      )
+      (path-ref "6f3a2a5a-d914-4ef3-adbd-ea8a1762189f")
     )
     (platform
       (running #f)
       (name "p6")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5344)
-          (y 128)
-        )
-        (node
-          (x 5344)
-          (y 256)
-        )
-      )
+      (path-ref "b4b1fb40-ab39-48e1-9407-52abfa4b2476")
     )
     (platform
       (running #f)
       (name "p7")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5376)
-          (y 128)
-        )
-        (node
-          (x 5376)
-          (y 256)
-        )
-      )
+      (path-ref "6ec8df63-8b9d-46fa-b226-aa7cc61a1e01")
     )
     (platform
       (running #f)
       (name "p8")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5408)
-          (y 128)
-        )
-        (node
-          (x 5408)
-          (y 256)
-        )
-      )
+      (path-ref "84dd4099-bded-420c-8ff7-a612b35c33f1")
     )
     (platform
       (running #f)
       (name "p9")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5440)
-          (y 128)
-        )
-        (node
-          (x 5440)
-          (y 256)
-        )
-      )
+      (path-ref "24f9b7f7-d81a-40dc-a59d-538786bf4d04")
     )
     (platform
       (running #f)
       (name "pa")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5472)
-          (y 128)
-        )
-        (node
-          (x 5472)
-          (y 256)
-        )
-      )
+      (path-ref "a456c467-688a-4dd4-84cd-bd8167deefec")
     )
     (platform
       (running #f)
       (name "pb")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5503.293)
-          (y 128)
-        )
-        (node
-          (x 5503.293)
-          (y 256)
-        )
-      )
+      (path-ref "8ce10fcd-bfcf-4fef-ad18-ea280a016393")
     )
     (platform
       (running #f)
       (name "pc")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 5536)
-          (y 128)
-        )
-        (node
-          (x 5536)
-          (y 256)
-        )
-      )
+      (path-ref "7e29f57a-97ca-45c4-9165-c4c0526ec557")
     )
     (gradient
       (top_color 1 0 1)
@@ -205,6 +97,162 @@
     )
     (music
       (file "music/cave.ogg")
+    )
+    (path
+      (name "5c4a0009-c0af-4391-b54c-b261eb0ce330")
+      (path
+        (node
+          (x 5184)
+          (y 128)
+        )
+        (node
+          (x 5184)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "64738a55-3680-4cfa-8c18-ff48d28ce337")
+      (path
+        (node
+          (x 5216)
+          (y 128)
+        )
+        (node
+          (x 5216)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "9d399419-2c4f-427c-b461-980ff2f9643e")
+      (path
+        (node
+          (x 5248)
+          (y 128)
+        )
+        (node
+          (x 5248)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "c7508520-d210-4e0a-b141-4a033acf592c")
+      (path
+        (node
+          (x 5280)
+          (y 128)
+        )
+        (node
+          (x 5280)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "6f3a2a5a-d914-4ef3-adbd-ea8a1762189f")
+      (path
+        (node
+          (x 5312)
+          (y 128)
+        )
+        (node
+          (x 5312)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "b4b1fb40-ab39-48e1-9407-52abfa4b2476")
+      (path
+        (node
+          (x 5344)
+          (y 128)
+        )
+        (node
+          (x 5344)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "6ec8df63-8b9d-46fa-b226-aa7cc61a1e01")
+      (path
+        (node
+          (x 5376)
+          (y 128)
+        )
+        (node
+          (x 5376)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "84dd4099-bded-420c-8ff7-a612b35c33f1")
+      (path
+        (node
+          (x 5408)
+          (y 128)
+        )
+        (node
+          (x 5408)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "24f9b7f7-d81a-40dc-a59d-538786bf4d04")
+      (path
+        (node
+          (x 5440)
+          (y 128)
+        )
+        (node
+          (x 5440)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "a456c467-688a-4dd4-84cd-bd8167deefec")
+      (path
+        (node
+          (x 5472)
+          (y 128)
+        )
+        (node
+          (x 5472)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "8ce10fcd-bfcf-4fef-ad18-ea280a016393")
+      (path
+        (node
+          (x 5503.293)
+          (y 128)
+        )
+        (node
+          (x 5503.293)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "7e29f57a-97ca-45c4-9165-c4c0526ec557")
+      (path
+        (node
+          (x 5536)
+          (y 128)
+        )
+        (node
+          (x 5536)
+          (y 256)
+        )
+      )
     )
     (pushbutton
       (script "pc.goto_node(1)")

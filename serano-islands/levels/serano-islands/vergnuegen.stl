@@ -22,21 +22,11 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 3552)
-          (y 704)
-        )
-      )
+      (path-ref "9e68c0c2-2852-48e9-9416-0e3da079cd9e")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 3744)
-          (y 640)
-        )
-      )
+      (path-ref "5c74e2ca-b858-4b81-8384-0e8a0039c1f1")
     )
     (jumpy
       (x 2720)
@@ -84,6 +74,24 @@
     )
     (music
       (file "music/fortress.ogg")
+    )
+    (path
+      (name "9e68c0c2-2852-48e9-9416-0e3da079cd9e")
+      (path
+        (node
+          (x 3552)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "5c74e2ca-b858-4b81-8384-0e8a0039c1f1")
+      (path
+        (node
+          (x 3744)
+          (y 640)
+        )
+      )
     )
     (secretarea
       (width 124)

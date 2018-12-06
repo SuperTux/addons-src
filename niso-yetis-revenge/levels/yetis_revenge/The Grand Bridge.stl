@@ -61,17 +61,7 @@
       (running #f)
       (name "flyingcoin")
       (sprite "images/objects/coin/coin.sprite")
-      (path
-        (node
-          (x 7520)
-          (y 576)
-          (time 2)
-        )
-        (node
-          (x 7520)
-          (y -64)
-        )
-      )
+      (path-ref "3ad4bade-6a77-4a76-b6b6-9eda3f815549")
     )
     (flyingsnowball
       (x 1284)
@@ -109,6 +99,34 @@
     )
     (music
       (file "music/wisphunt.ogg")
+    )
+    (path
+      (name "3ad4bade-6a77-4a76-b6b6-9eda3f815549")
+      (path
+        (node
+          (x 7520)
+          (y 576)
+          (time 2)
+        )
+        (node
+          (x 7520)
+          (y -64)
+        )
+      )
+    )
+    (path
+      (name "18213154-05e7-485d-9e62-3bfb4e76b34f")
+      (path
+        (node
+          (x 7232)
+          (y -320)
+          (time 0.01)
+        )
+        (node
+          (x 2496)
+          (y -320)
+        )
+      )
     )
     (powerup
       (script "Tux.add_coins(1) ")
@@ -573,17 +591,7 @@ coinsfall.goto_node(1);")
       (solid #t)
       (z-pos 0)
       (name "coinsfall")
-      (path
-        (node
-          (x 7232)
-          (y -320)
-          (time 0.01)
-        )
-        (node
-          (x 2496)
-          (y -320)
-        )
-      )
+      (path-ref "18213154-05e7-485d-9e62-3bfb4e76b34f")
       (width 20)
       (height 10)
       (tiles

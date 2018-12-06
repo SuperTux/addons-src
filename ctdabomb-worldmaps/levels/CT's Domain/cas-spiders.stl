@@ -861,6 +861,13 @@
       (running #f)
       (name "botlift")
       (sprite "images/objects/platforms/small.sprite")
+      (path-ref "7a743c6e-2a35-48c3-8eba-1509cd659a71")
+    )
+    (music
+      (file "music/fortress.ogg")
+    )
+    (path
+      (name "7a743c6e-2a35-48c3-8eba-1509cd659a71")
       (path
         (node
           (x 384)
@@ -873,9 +880,6 @@
           (time 0.6)
         )
       )
-    )
-    (music
-      (file "music/fortress.ogg")
     )
     (spawnpoint
       (name "main")

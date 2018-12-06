@@ -127,6 +127,837 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "2c0d00fc-f72e-4647-839a-a78703547bfc")
+      (path
+        (node
+          (x 8976)
+          (y 448)
+          (time 0.8)
+        )
+        (node
+          (x 8976)
+          (y -32)
+          (time 1.6)
+        )
+      )
+    )
+    (path
+      (name "6192b32b-45f8-4107-a21c-e0a645a68b70")
+      (path
+        (node
+          (x 8752)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "4ab7adc8-e8b2-4820-bbe9-5736f7b66fc7")
+      (path
+        (node
+          (x 8752)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "53b26683-fce6-4120-b37f-0b39511fd25e")
+      (path
+        (node
+          (x 8752)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "d30171f7-27a2-4da2-8f67-c00a9e6545e7")
+      (path
+        (node
+          (x 8752)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "31485062-8f4a-4d76-8344-8d0922c2b9a5")
+      (path
+        (node
+          (x 8752)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "937354ff-6443-4b50-bc50-b28527856b83")
+      (path
+        (node
+          (x 8752)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "5b0c1fd9-2c87-4d30-88d4-bad348ec5c13")
+      (path
+        (node
+          (x 8752)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "218292a2-3928-470e-8d93-a5bbbee12e7b")
+      (path
+        (node
+          (x 8752)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "a60204a2-5938-45c1-84f8-45b5eeb70f80")
+      (path
+        (node
+          (x 9728)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "06fa4048-3d0b-4101-ac3d-a0adbbbe19bf")
+      (path
+        (node
+          (x 5728)
+          (y 352)
+        )
+      )
+    )
+    (path
+      (name "3346df25-0ccb-4a7c-ad7d-3e11a99b120b")
+      (path
+        (node
+          (x 8960)
+          (y 448)
+        )
+      )
+    )
+    (path
+      (name "a2f14e8c-4a53-4b15-b649-54fc5376c9ac")
+      (path
+        (node
+          (x 8928)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "50dad90e-4c2e-4af6-9ef8-5186b5a31445")
+      (path
+        (node
+          (x 8320)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "93de7d08-8ab2-49fe-91cc-49f792b89877")
+      (path
+        (node
+          (x 8320)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "f6376a4c-bd24-441d-9070-7cd280f27f69")
+      (path
+        (node
+          (x 8320)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "983380bc-e9f4-4435-a41e-9a31cb4fa1df")
+      (path
+        (node
+          (x 8320)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "f60f06bf-d608-4302-8db3-f57f95be617e")
+      (path
+        (node
+          (x 8320)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "46669aaa-c81e-4625-a881-4f216ee2c053")
+      (path
+        (node
+          (x 8320)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "b81c4d10-fa51-4655-b1fa-649546d57ba0")
+      (path
+        (node
+          (x 7680)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "2a224b24-f78a-47ba-88b4-03352772e1d4")
+      (path
+        (node
+          (x 7680)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "f19a5499-32a4-4be4-889e-9370bea09cb9")
+      (path
+        (node
+          (x 7680)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "5cde09bb-e7ad-4cfe-8062-40b09b59d38c")
+      (path
+        (node
+          (x 7680)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "6577e283-9bc3-44bc-966b-ba637ecb71e8")
+      (path
+        (node
+          (x 7680)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "81a7d993-b74e-4481-ab74-601e6e1dccb6")
+      (path
+        (node
+          (x 7040)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "d9e42b64-ff55-40ae-88a8-a43162bc8ad8")
+      (path
+        (node
+          (x 7040)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "f9f5f5cf-6dd8-45c2-a7c9-bd5dd855bce5")
+      (path
+        (node
+          (x 7040)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "1a473a87-0b4e-41be-987d-4ce3c591fc68")
+      (path
+        (node
+          (x 7008)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "7e04ef29-2994-41b4-9cfb-0467eaaed189")
+      (path
+        (node
+          (x 7040)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "7f4e21e4-8b47-4629-8567-a880255406b0")
+      (path
+        (node
+          (x 6400)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "9884ff08-1043-49d0-bab9-a89e53c5fcf0")
+      (path
+        (node
+          (x 6400)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "f063ef20-d4fe-451b-bf64-efe80de7a43a")
+      (path
+        (node
+          (x 6400)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "510e912f-bfe1-43e0-8af5-7cfe9a439e8c")
+      (path
+        (node
+          (x 6400)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "3c2885c6-dc03-472b-8054-a7c6f7771b1c")
+      (path
+        (node
+          (x 6400)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "98501656-60bb-4b4e-b5bd-7d47c4496197")
+      (path
+        (node
+          (x 6400)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "df7c0ee4-d458-482b-9dfa-8bd74655e9bf")
+      (path
+        (node
+          (x 6400)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "7edd9df5-3369-4262-8509-3cd683f0dd9c")
+      (path
+        (node
+          (x 5760)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "e029e6d7-928f-4e12-8e9a-c47775bcf16c")
+      (path
+        (node
+          (x 5760)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "79b384a1-b6f8-448d-ad6f-bd840ac522da")
+      (path
+        (node
+          (x 5760)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "46cc176f-2fd5-4e8c-af28-4f4c5c94f02b")
+      (path
+        (node
+          (x 5760)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "64ef9481-22b6-417f-911e-a0da9449ad62")
+      (path
+        (node
+          (x 5760)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "6fde94a0-795c-448d-b56e-de5d782727e1")
+      (path
+        (node
+          (x 5120)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "0e16af18-d068-4666-8beb-dc7308583d4b")
+      (path
+        (node
+          (x 5120)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "48f1e4c8-9c68-4be7-b1a6-d7cf21b04599")
+      (path
+        (node
+          (x 5120)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "f31214b6-c240-40e6-85ca-4de415d1d1cd")
+      (path
+        (node
+          (x 5120)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "af5e9a2f-a275-4116-a500-5bf4cfc241e1")
+      (path
+        (node
+          (x 5120)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "eba2da10-c607-4516-bbf4-9124320ebbf1")
+      (path
+        (node
+          (x 4480)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "9547601d-c432-403d-89b7-534ff5e62cc0")
+      (path
+        (node
+          (x 4480)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "2122f6bc-9f94-40d5-9afe-82f44060e62d")
+      (path
+        (node
+          (x 4480)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "3ec044a2-db76-4ae4-a8eb-e62f5e413f55")
+      (path
+        (node
+          (x 4480)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "3d329aee-5be0-4475-934f-409afed8bd23")
+      (path
+        (node
+          (x 4480)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "7ac8f466-93f5-41f4-96ef-f8403aa02b0e")
+      (path
+        (node
+          (x 3840)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "93b163b9-eedd-49d6-b5af-3a9237c837f7")
+      (path
+        (node
+          (x 3840)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "d18d46de-8464-40c7-b2d4-473fc9fffa4e")
+      (path
+        (node
+          (x 3840)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "3adcc115-9e8c-4f4b-ae2d-cdb52cd23971")
+      (path
+        (node
+          (x 3840)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "11a447b2-a6e3-4a81-98a6-362d4e16e00a")
+      (path
+        (node
+          (x 3840)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "cdc223d1-9b36-4161-a746-66ab2d7ce314")
+      (path
+        (node
+          (x 3200)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "7352fa72-36ef-4fd7-b564-e8f847c6084d")
+      (path
+        (node
+          (x 3200)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "27dc2cf2-f800-4920-a2c6-60cb2991a8f9")
+      (path
+        (node
+          (x 3200)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "4380c94a-1203-4104-87ac-8e3627e24749")
+      (path
+        (node
+          (x 3200)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "0e522578-5b30-4ede-884f-f8697aa463a2")
+      (path
+        (node
+          (x 3200)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "90bb84d9-fd93-41bc-8f78-1058ae92df3b")
+      (path
+        (node
+          (x 2560)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "a1f9540b-0b8d-4996-98ce-9a43ce4f64cc")
+      (path
+        (node
+          (x 2560)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "9032b5b4-6f9a-42a8-99a5-967da4dcf70b")
+      (path
+        (node
+          (x 2560)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "64a60027-8502-47fd-af00-89958b69b9a6")
+      (path
+        (node
+          (x 2560)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "e8e9a103-26dd-493c-a9bb-bcdef8295b14")
+      (path
+        (node
+          (x 2560)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "aa07de14-5790-4cc1-811e-a27257273f47")
+      (path
+        (node
+          (x 1920)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "9c1aced2-b2d7-4f90-9920-5c593d935bfe")
+      (path
+        (node
+          (x 1920)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "732a8286-b3fb-4b44-a46a-bf22d2c67284")
+      (path
+        (node
+          (x 1920)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "286aa8fc-cccc-42bf-81b5-94dfdcae915d")
+      (path
+        (node
+          (x 1920)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "7605f743-78cb-4fca-925b-b121f3bb7cc3")
+      (path
+        (node
+          (x 1920)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "4a17964a-3f0d-4049-b284-e6575612b099")
+      (path
+        (node
+          (x 1280)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "06c7fd03-7dea-4302-b70b-5b4a105a69f2")
+      (path
+        (node
+          (x 1280)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "18785cd6-eb1f-4076-a3ac-73207afc863c")
+      (path
+        (node
+          (x 1280)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "0e6c9cda-7494-4c76-9df2-13f65e26029f")
+      (path
+        (node
+          (x 1280)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "8f38ca84-c540-46d1-962a-441d9af31675")
+      (path
+        (node
+          (x 1280)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "d0d5059d-bb6a-4e0c-8c91-390470062726")
+      (path
+        (node
+          (x 640)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "bab0b582-69be-4e43-a061-e95289daf448")
+      (path
+        (node
+          (x 640)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "24a72831-d67a-4385-97e0-fd6498000460")
+      (path
+        (node
+          (x 640)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "d6c1ed76-fd6e-4a55-b7e5-98cf5751475f")
+      (path
+        (node
+          (x 640)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "fd6e9a71-f635-4142-8314-8e635e11ef68")
+      (path
+        (node
+          (x 640)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "9c04ff8b-1421-4508-ab96-1dbe00435469")
+      (path
+        (node
+          (x 6592)
+          (y 352)
+          (time 0.2)
+        )
+        (node
+          (x 6592)
+          (y 736)
+          (time 0.4)
+        )
+        (node
+          (x 6592)
+          (y 736)
+        )
+        (node
+          (x 6592)
+          (y 352)
+          (time 0.4)
+        )
+      )
+    )
+    (path
+      (name "f1ccedef-0f77-47d8-8054-580ec1b48829")
+      (path
+        (node
+          (x 6592)
+          (y 736)
+          (time 0.4)
+        )
+        (node
+          (x 6592)
+          (y 736)
+        )
+        (node
+          (x 6592)
+          (y 352)
+          (time 0.4)
+        )
+        (node
+          (x 6592)
+          (y 352)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "d33496c7-6381-495b-88b9-82c8d31ae5c1")
+      (path
+        (node
+          (x 6592)
+          (y 736)
+        )
+        (node
+          (x 6592)
+          (y 352)
+          (time 0.4)
+        )
+        (node
+          (x 6592)
+          (y 352)
+          (time 0.2)
+        )
+        (node
+          (x 6592)
+          (y 736)
+          (time 0.4)
+        )
+      )
+    )
+    (path
+      (name "c51a2e79-c8fa-4070-a853-ee941b658e23")
+      (path
+        (node
+          (x 6592)
+          (y 352)
+          (time 0.4)
+        )
+        (node
+          (x 6592)
+          (y 352)
+          (time 0.2)
+        )
+        (node
+          (x 6592)
+          (y 736)
+          (time 0.4)
+        )
+        (node
+          (x 6592)
+          (y 736)
+        )
+      )
+    )
     (powerup
       (sprite "images/powerups/1up/1up.sprite")
       (x 8784)
@@ -312,18 +1143,7 @@
       (solid #f)
       (z-pos 0)
       (name "flyingcoin")
-      (path
-        (node
-          (x 8976)
-          (y 448)
-          (time 0.8)
-        )
-        (node
-          (x 8976)
-          (y -32)
-          (time 1.6)
-        )
-      )
+      (path-ref "2c0d00fc-f72e-4647-839a-a78703547bfc")
       (width 1)
       (height 1)
       (tiles
@@ -334,12 +1154,7 @@
       (solid #t)
       (z-pos 0)
       (name "rain8")
-      (path
-        (node
-          (x 8752)
-          (y 0)
-        )
-      )
+      (path-ref "6192b32b-45f8-4107-a21c-e0a645a68b70")
       (width 15)
       (height 1)
       (tiles
@@ -350,12 +1165,7 @@
       (solid #t)
       (z-pos 0)
       (name "rain7")
-      (path
-        (node
-          (x 8752)
-          (y 0)
-        )
-      )
+      (path-ref "4ab7adc8-e8b2-4820-bbe9-5736f7b66fc7")
       (width 15)
       (height 1)
       (tiles
@@ -366,12 +1176,7 @@
       (solid #t)
       (z-pos 0)
       (name "rain6")
-      (path
-        (node
-          (x 8752)
-          (y 0)
-        )
-      )
+      (path-ref "53b26683-fce6-4120-b37f-0b39511fd25e")
       (width 15)
       (height 1)
       (tiles
@@ -382,12 +1187,7 @@
       (solid #t)
       (z-pos 0)
       (name "rain5")
-      (path
-        (node
-          (x 8752)
-          (y 0)
-        )
-      )
+      (path-ref "d30171f7-27a2-4da2-8f67-c00a9e6545e7")
       (width 15)
       (height 1)
       (tiles
@@ -398,12 +1198,7 @@
       (solid #t)
       (z-pos 0)
       (name "rain4")
-      (path
-        (node
-          (x 8752)
-          (y 0)
-        )
-      )
+      (path-ref "31485062-8f4a-4d76-8344-8d0922c2b9a5")
       (width 15)
       (height 1)
       (tiles
@@ -414,12 +1209,7 @@
       (solid #t)
       (z-pos 0)
       (name "rain3")
-      (path
-        (node
-          (x 8752)
-          (y 0)
-        )
-      )
+      (path-ref "937354ff-6443-4b50-bc50-b28527856b83")
       (width 15)
       (height 1)
       (tiles
@@ -430,12 +1220,7 @@
       (solid #t)
       (z-pos 0)
       (name "rain2")
-      (path
-        (node
-          (x 8752)
-          (y 0)
-        )
-      )
+      (path-ref "5b0c1fd9-2c87-4d30-88d4-bad348ec5c13")
       (width 15)
       (height 1)
       (tiles
@@ -446,12 +1231,7 @@
       (solid #t)
       (z-pos 0)
       (name "rain1")
-      (path
-        (node
-          (x 8752)
-          (y 0)
-        )
-      )
+      (path-ref "218292a2-3928-470e-8d93-a5bbbee12e7b")
       (width 15)
       (height 1)
       (tiles
@@ -462,12 +1242,7 @@
       (solid #f)
       (z-pos 100)
       (name "igloo")
-      (path
-        (node
-          (x 9728)
-          (y 384)
-        )
-      )
+      (path-ref "a60204a2-5938-45c1-84f8-45b5eeb70f80")
       (width 14)
       (height 7)
       (tiles
@@ -484,12 +1259,7 @@
       (solid #f)
       (z-pos 100)
       (name "secret")
-      (path
-        (node
-          (x 5728)
-          (y 352)
-        )
-      )
+      (path-ref "06fa4048-3d0b-4101-ac3d-a0adbbbe19bf")
       (width 7)
       (height 7)
       (tiles
@@ -506,12 +1276,7 @@
       (solid #f)
       (z-pos 120)
       (name "ZodiacTop")
-      (path
-        (node
-          (x 8960)
-          (y 448)
-        )
-      )
+      (path-ref "3346df25-0ccb-4a7c-ad7d-3e11a99b120b")
       (width 2)
       (height 1)
       (tiles
@@ -522,12 +1287,7 @@
       (solid #t)
       (z-pos 20)
       (name "Zodiac")
-      (path
-        (node
-          (x 8928)
-          (y 384)
-        )
-      )
+      (path-ref "a2f14e8c-4a53-4b15-b649-54fc5376c9ac")
       (width 4)
       (height 7)
       (tiles
@@ -545,12 +1305,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Sagittarius1")
-      (path
-        (node
-          (x 8320)
-          (y 0)
-        )
-      )
+      (path-ref "50dad90e-4c2e-4af6-9ef8-5186b5a31445")
       (width 20)
       (height 25)
       (tiles
@@ -586,12 +1341,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Sagittarius2")
-      (path
-        (node
-          (x 8320)
-          (y 0)
-        )
-      )
+      (path-ref "93de7d08-8ab2-49fe-91cc-49f792b89877")
       (width 20)
       (height 25)
       (tiles
@@ -627,12 +1377,7 @@
       (alpha 0)
       (z-pos -110)
       (name "SagittariusBack2")
-      (path
-        (node
-          (x 8320)
-          (y 0)
-        )
-      )
+      (path-ref "f6376a4c-bd24-441d-9070-7cd280f27f69")
       (width 20)
       (height 25)
       (tiles
@@ -668,12 +1413,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Sagittarius3")
-      (path
-        (node
-          (x 8320)
-          (y 0)
-        )
-      )
+      (path-ref "983380bc-e9f4-4435-a41e-9a31cb4fa1df")
       (width 20)
       (height 25)
       (tiles
@@ -709,12 +1449,7 @@
       (alpha 0)
       (z-pos -110)
       (name "SagittariusCave")
-      (path
-        (node
-          (x 8320)
-          (y 0)
-        )
-      )
+      (path-ref "f60f06bf-d608-4302-8db3-f57f95be617e")
       (width 20)
       (height 25)
       (tiles
@@ -750,12 +1485,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Sagittarius4")
-      (path
-        (node
-          (x 8320)
-          (y 0)
-        )
-      )
+      (path-ref "46669aaa-c81e-4625-a881-4f216ee2c053")
       (width 20)
       (height 25)
       (tiles
@@ -791,12 +1521,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Ophiuchus1")
-      (path
-        (node
-          (x 7680)
-          (y 0)
-        )
-      )
+      (path-ref "b81c4d10-fa51-4655-b1fa-649546d57ba0")
       (width 20)
       (height 25)
       (tiles
@@ -832,12 +1557,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Ophiuchus2")
-      (path
-        (node
-          (x 7680)
-          (y 0)
-        )
-      )
+      (path-ref "2a224b24-f78a-47ba-88b4-03352772e1d4")
       (width 20)
       (height 25)
       (tiles
@@ -873,12 +1593,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Ophiuchus3")
-      (path
-        (node
-          (x 7680)
-          (y 0)
-        )
-      )
+      (path-ref "f19a5499-32a4-4be4-889e-9370bea09cb9")
       (width 20)
       (height 25)
       (tiles
@@ -914,12 +1629,7 @@
       (alpha 0)
       (z-pos -110)
       (name "OphiuchusCave")
-      (path
-        (node
-          (x 7680)
-          (y 0)
-        )
-      )
+      (path-ref "5cde09bb-e7ad-4cfe-8062-40b09b59d38c")
       (width 20)
       (height 25)
       (tiles
@@ -955,12 +1665,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Ophiuchus4")
-      (path
-        (node
-          (x 7680)
-          (y 0)
-        )
-      )
+      (path-ref "6577e283-9bc3-44bc-966b-ba637ecb71e8")
       (width 20)
       (height 25)
       (tiles
@@ -996,12 +1701,7 @@
       (alpha 0)
       (z-pos 10)
       (name "Scorpio1")
-      (path
-        (node
-          (x 7040)
-          (y 0)
-        )
-      )
+      (path-ref "81a7d993-b74e-4481-ab74-601e6e1dccb6")
       (width 20)
       (height 25)
       (tiles
@@ -1037,12 +1737,7 @@
       (alpha 0)
       (z-pos 10)
       (name "Scorpio2")
-      (path
-        (node
-          (x 7040)
-          (y 0)
-        )
-      )
+      (path-ref "d9e42b64-ff55-40ae-88a8-a43162bc8ad8")
       (width 20)
       (height 25)
       (tiles
@@ -1078,12 +1773,7 @@
       (alpha 0)
       (z-pos 10)
       (name "Scorpio3")
-      (path
-        (node
-          (x 7040)
-          (y 0)
-        )
-      )
+      (path-ref "f9f5f5cf-6dd8-45c2-a7c9-bd5dd855bce5")
       (width 20)
       (height 25)
       (tiles
@@ -1119,12 +1809,7 @@
       (alpha 0)
       (z-pos -120)
       (name "ScorpioCave")
-      (path
-        (node
-          (x 7008)
-          (y 0)
-        )
-      )
+      (path-ref "1a473a87-0b4e-41be-987d-4ce3c591fc68")
       (width 21)
       (height 25)
       (tiles
@@ -1160,12 +1845,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Scorpio4")
-      (path
-        (node
-          (x 7040)
-          (y 0)
-        )
-      )
+      (path-ref "7e04ef29-2994-41b4-9cfb-0467eaaed189")
       (width 20)
       (height 25)
       (tiles
@@ -1200,12 +1880,7 @@
       (solid #f)
       (z-pos 100)
       (name "LibraCover1")
-      (path
-        (node
-          (x 6400)
-          (y 0)
-        )
-      )
+      (path-ref "7f4e21e4-8b47-4629-8567-a880255406b0")
       (width 20)
       (height 25)
       (tiles
@@ -1241,12 +1916,7 @@
       (alpha 0)
       (z-pos 100)
       (name "LibraCover4")
-      (path
-        (node
-          (x 6400)
-          (y 0)
-        )
-      )
+      (path-ref "9884ff08-1043-49d0-bab9-a89e53c5fcf0")
       (width 20)
       (height 25)
       (tiles
@@ -1282,12 +1952,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Libra1")
-      (path
-        (node
-          (x 6400)
-          (y 0)
-        )
-      )
+      (path-ref "f063ef20-d4fe-451b-bf64-efe80de7a43a")
       (width 20)
       (height 25)
       (tiles
@@ -1323,12 +1988,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Libra2")
-      (path
-        (node
-          (x 6400)
-          (y 0)
-        )
-      )
+      (path-ref "510e912f-bfe1-43e0-8af5-7cfe9a439e8c")
       (width 20)
       (height 25)
       (tiles
@@ -1364,12 +2024,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Libra3")
-      (path
-        (node
-          (x 6400)
-          (y 0)
-        )
-      )
+      (path-ref "3c2885c6-dc03-472b-8054-a7c6f7771b1c")
       (width 20)
       (height 25)
       (tiles
@@ -1405,12 +2060,7 @@
       (alpha 0)
       (z-pos -110)
       (name "LibraCave")
-      (path
-        (node
-          (x 6400)
-          (y 0)
-        )
-      )
+      (path-ref "98501656-60bb-4b4e-b5bd-7d47c4496197")
       (width 21)
       (height 25)
       (tiles
@@ -1446,12 +2096,7 @@
       (alpha 0)
       (z-pos -10)
       (name "Libra4")
-      (path
-        (node
-          (x 6400)
-          (y 0)
-        )
-      )
+      (path-ref "df7c0ee4-d458-482b-9dfa-8bd74655e9bf")
       (width 20)
       (height 25)
       (tiles
@@ -1487,12 +2132,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Virgo1")
-      (path
-        (node
-          (x 5760)
-          (y 0)
-        )
-      )
+      (path-ref "7edd9df5-3369-4262-8509-3cd683f0dd9c")
       (width 20)
       (height 25)
       (tiles
@@ -1528,12 +2168,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Virgo2")
-      (path
-        (node
-          (x 5760)
-          (y 0)
-        )
-      )
+      (path-ref "e029e6d7-928f-4e12-8e9a-c47775bcf16c")
       (width 20)
       (height 25)
       (tiles
@@ -1569,12 +2204,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Virgo3")
-      (path
-        (node
-          (x 5760)
-          (y 0)
-        )
-      )
+      (path-ref "79b384a1-b6f8-448d-ad6f-bd840ac522da")
       (width 20)
       (height 25)
       (tiles
@@ -1610,12 +2240,7 @@
       (alpha 0)
       (z-pos -110)
       (name "VirgoCave")
-      (path
-        (node
-          (x 5760)
-          (y 0)
-        )
-      )
+      (path-ref "46cc176f-2fd5-4e8c-af28-4f4c5c94f02b")
       (width 20)
       (height 25)
       (tiles
@@ -1651,12 +2276,7 @@
       (alpha 0)
       (z-pos -10)
       (name "Virgo4")
-      (path
-        (node
-          (x 5760)
-          (y 0)
-        )
-      )
+      (path-ref "64ef9481-22b6-417f-911e-a0da9449ad62")
       (width 20)
       (height 25)
       (tiles
@@ -1692,12 +2312,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Leo1")
-      (path
-        (node
-          (x 5120)
-          (y 0)
-        )
-      )
+      (path-ref "6fde94a0-795c-448d-b56e-de5d782727e1")
       (width 20)
       (height 25)
       (tiles
@@ -1733,12 +2348,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Leo2")
-      (path
-        (node
-          (x 5120)
-          (y 0)
-        )
-      )
+      (path-ref "0e16af18-d068-4666-8beb-dc7308583d4b")
       (width 20)
       (height 25)
       (tiles
@@ -1774,12 +2384,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Leo3")
-      (path
-        (node
-          (x 5120)
-          (y 0)
-        )
-      )
+      (path-ref "48f1e4c8-9c68-4be7-b1a6-d7cf21b04599")
       (width 20)
       (height 25)
       (tiles
@@ -1815,12 +2420,7 @@
       (alpha 0)
       (z-pos -110)
       (name "LeoCave")
-      (path
-        (node
-          (x 5120)
-          (y 0)
-        )
-      )
+      (path-ref "f31214b6-c240-40e6-85ca-4de415d1d1cd")
       (width 20)
       (height 25)
       (tiles
@@ -1856,12 +2456,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Leo4")
-      (path
-        (node
-          (x 5120)
-          (y 0)
-        )
-      )
+      (path-ref "af5e9a2f-a275-4116-a500-5bf4cfc241e1")
       (width 20)
       (height 25)
       (tiles
@@ -1897,12 +2492,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Cancer1")
-      (path
-        (node
-          (x 4480)
-          (y 0)
-        )
-      )
+      (path-ref "eba2da10-c607-4516-bbf4-9124320ebbf1")
       (width 20)
       (height 25)
       (tiles
@@ -1938,12 +2528,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Cancer2")
-      (path
-        (node
-          (x 4480)
-          (y 0)
-        )
-      )
+      (path-ref "9547601d-c432-403d-89b7-534ff5e62cc0")
       (width 20)
       (height 25)
       (tiles
@@ -1979,12 +2564,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Cancer3")
-      (path
-        (node
-          (x 4480)
-          (y 0)
-        )
-      )
+      (path-ref "2122f6bc-9f94-40d5-9afe-82f44060e62d")
       (width 20)
       (height 25)
       (tiles
@@ -2020,12 +2600,7 @@
       (alpha 0)
       (z-pos -110)
       (name "CancerCave")
-      (path
-        (node
-          (x 4480)
-          (y 0)
-        )
-      )
+      (path-ref "3ec044a2-db76-4ae4-a8eb-e62f5e413f55")
       (width 21)
       (height 25)
       (tiles
@@ -2061,12 +2636,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Cancer4")
-      (path
-        (node
-          (x 4480)
-          (y 0)
-        )
-      )
+      (path-ref "3d329aee-5be0-4475-934f-409afed8bd23")
       (width 20)
       (height 25)
       (tiles
@@ -2102,12 +2672,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Gemini1")
-      (path
-        (node
-          (x 3840)
-          (y 0)
-        )
-      )
+      (path-ref "7ac8f466-93f5-41f4-96ef-f8403aa02b0e")
       (width 20)
       (height 25)
       (tiles
@@ -2143,12 +2708,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Gemini2")
-      (path
-        (node
-          (x 3840)
-          (y 0)
-        )
-      )
+      (path-ref "93b163b9-eedd-49d6-b5af-3a9237c837f7")
       (width 20)
       (height 25)
       (tiles
@@ -2184,12 +2744,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Gemini3")
-      (path
-        (node
-          (x 3840)
-          (y 0)
-        )
-      )
+      (path-ref "d18d46de-8464-40c7-b2d4-473fc9fffa4e")
       (width 20)
       (height 25)
       (tiles
@@ -2225,12 +2780,7 @@
       (alpha 0)
       (z-pos -110)
       (name "GeminiCave")
-      (path
-        (node
-          (x 3840)
-          (y 0)
-        )
-      )
+      (path-ref "3adcc115-9e8c-4f4b-ae2d-cdb52cd23971")
       (width 20)
       (height 25)
       (tiles
@@ -2266,12 +2816,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Gemini4")
-      (path
-        (node
-          (x 3840)
-          (y 0)
-        )
-      )
+      (path-ref "11a447b2-a6e3-4a81-98a6-362d4e16e00a")
       (width 20)
       (height 25)
       (tiles
@@ -2307,12 +2852,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Taurus1")
-      (path
-        (node
-          (x 3200)
-          (y 0)
-        )
-      )
+      (path-ref "cdc223d1-9b36-4161-a746-66ab2d7ce314")
       (width 20)
       (height 25)
       (tiles
@@ -2348,12 +2888,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Taurus2")
-      (path
-        (node
-          (x 3200)
-          (y 0)
-        )
-      )
+      (path-ref "7352fa72-36ef-4fd7-b564-e8f847c6084d")
       (width 20)
       (height 25)
       (tiles
@@ -2389,12 +2924,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Taurus3")
-      (path
-        (node
-          (x 3200)
-          (y 0)
-        )
-      )
+      (path-ref "27dc2cf2-f800-4920-a2c6-60cb2991a8f9")
       (width 20)
       (height 25)
       (tiles
@@ -2430,12 +2960,7 @@
       (alpha 0)
       (z-pos -110)
       (name "TaurusCave")
-      (path
-        (node
-          (x 3200)
-          (y 0)
-        )
-      )
+      (path-ref "4380c94a-1203-4104-87ac-8e3627e24749")
       (width 20)
       (height 25)
       (tiles
@@ -2471,12 +2996,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Taurus4")
-      (path
-        (node
-          (x 3200)
-          (y 0)
-        )
-      )
+      (path-ref "0e522578-5b30-4ede-884f-f8697aa463a2")
       (width 20)
       (height 25)
       (tiles
@@ -2512,12 +3032,7 @@
       (alpha 0)
       (z-pos -10)
       (name "Aries1")
-      (path
-        (node
-          (x 2560)
-          (y 0)
-        )
-      )
+      (path-ref "90bb84d9-fd93-41bc-8f78-1058ae92df3b")
       (width 20)
       (height 25)
       (tiles
@@ -2553,12 +3068,7 @@
       (alpha 0)
       (z-pos -10)
       (name "Aries2")
-      (path
-        (node
-          (x 2560)
-          (y 0)
-        )
-      )
+      (path-ref "a1f9540b-0b8d-4996-98ce-9a43ce4f64cc")
       (width 20)
       (height 25)
       (tiles
@@ -2594,12 +3104,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Aries3")
-      (path
-        (node
-          (x 2560)
-          (y 0)
-        )
-      )
+      (path-ref "9032b5b4-6f9a-42a8-99a5-967da4dcf70b")
       (width 20)
       (height 25)
       (tiles
@@ -2635,12 +3140,7 @@
       (alpha 0)
       (z-pos -90)
       (name "AriesCave")
-      (path
-        (node
-          (x 2560)
-          (y 0)
-        )
-      )
+      (path-ref "64a60027-8502-47fd-af00-89958b69b9a6")
       (width 20)
       (height 25)
       (tiles
@@ -2676,12 +3176,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Aries4")
-      (path
-        (node
-          (x 2560)
-          (y 0)
-        )
-      )
+      (path-ref "e8e9a103-26dd-493c-a9bb-bcdef8295b14")
       (width 20)
       (height 25)
       (tiles
@@ -2717,12 +3212,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Pisces1")
-      (path
-        (node
-          (x 1920)
-          (y 0)
-        )
-      )
+      (path-ref "aa07de14-5790-4cc1-811e-a27257273f47")
       (width 20)
       (height 25)
       (tiles
@@ -2758,12 +3248,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Pisces2")
-      (path
-        (node
-          (x 1920)
-          (y 0)
-        )
-      )
+      (path-ref "9c1aced2-b2d7-4f90-9920-5c593d935bfe")
       (width 20)
       (height 25)
       (tiles
@@ -2799,12 +3284,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Pisces3")
-      (path
-        (node
-          (x 1920)
-          (y 0)
-        )
-      )
+      (path-ref "732a8286-b3fb-4b44-a46a-bf22d2c67284")
       (width 20)
       (height 25)
       (tiles
@@ -2840,12 +3320,7 @@
       (alpha 0)
       (z-pos -90)
       (name "PiscesCave")
-      (path
-        (node
-          (x 1920)
-          (y 0)
-        )
-      )
+      (path-ref "286aa8fc-cccc-42bf-81b5-94dfdcae915d")
       (width 20)
       (height 25)
       (tiles
@@ -2881,12 +3356,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Pisces4")
-      (path
-        (node
-          (x 1920)
-          (y 0)
-        )
-      )
+      (path-ref "7605f743-78cb-4fca-925b-b121f3bb7cc3")
       (width 20)
       (height 25)
       (tiles
@@ -2922,12 +3392,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Aquarius1")
-      (path
-        (node
-          (x 1280)
-          (y 0)
-        )
-      )
+      (path-ref "4a17964a-3f0d-4049-b284-e6575612b099")
       (width 20)
       (height 25)
       (tiles
@@ -2963,12 +3428,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Aquarius2")
-      (path
-        (node
-          (x 1280)
-          (y 0)
-        )
-      )
+      (path-ref "06c7fd03-7dea-4302-b70b-5b4a105a69f2")
       (width 20)
       (height 25)
       (tiles
@@ -3004,12 +3464,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Aquarius3")
-      (path
-        (node
-          (x 1280)
-          (y 0)
-        )
-      )
+      (path-ref "18785cd6-eb1f-4076-a3ac-73207afc863c")
       (width 20)
       (height 25)
       (tiles
@@ -3045,12 +3500,7 @@
       (alpha 0)
       (z-pos -90)
       (name "AquariusCave")
-      (path
-        (node
-          (x 1280)
-          (y 0)
-        )
-      )
+      (path-ref "0e6c9cda-7494-4c76-9df2-13f65e26029f")
       (width 20)
       (height 25)
       (tiles
@@ -3086,12 +3536,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Aquarius4")
-      (path
-        (node
-          (x 1280)
-          (y 0)
-        )
-      )
+      (path-ref "8f38ca84-c540-46d1-962a-441d9af31675")
       (width 20)
       (height 25)
       (tiles
@@ -3127,12 +3572,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Capricorn1")
-      (path
-        (node
-          (x 640)
-          (y 0)
-        )
-      )
+      (path-ref "d0d5059d-bb6a-4e0c-8c91-390470062726")
       (width 20)
       (height 25)
       (tiles
@@ -3168,12 +3608,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Capricorn2")
-      (path
-        (node
-          (x 640)
-          (y 0)
-        )
-      )
+      (path-ref "bab0b582-69be-4e43-a061-e95289daf448")
       (width 20)
       (height 25)
       (tiles
@@ -3209,12 +3644,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Capricorn3")
-      (path
-        (node
-          (x 640)
-          (y 0)
-        )
-      )
+      (path-ref "24a72831-d67a-4385-97e0-fd6498000460")
       (width 20)
       (height 25)
       (tiles
@@ -3250,12 +3680,7 @@
       (alpha 0)
       (z-pos -90)
       (name "CapricornCave")
-      (path
-        (node
-          (x 640)
-          (y 0)
-        )
-      )
+      (path-ref "d6c1ed76-fd6e-4a55-b7e5-98cf5751475f")
       (width 20)
       (height 25)
       (tiles
@@ -3291,12 +3716,7 @@
       (alpha 0)
       (z-pos 0)
       (name "Capricorn4")
-      (path
-        (node
-          (x 640)
-          (y 0)
-        )
-      )
+      (path-ref "fd6e9a71-f635-4142-8314-8e635e11ef68")
       (width 20)
       (height 25)
       (tiles
@@ -3331,27 +3751,7 @@
       (solid #t)
       (z-pos 0)
       (name "Recycle1")
-      (path
-        (node
-          (x 6592)
-          (y 352)
-          (time 0.2)
-        )
-        (node
-          (x 6592)
-          (y 736)
-          (time 0.4)
-        )
-        (node
-          (x 6592)
-          (y 736)
-        )
-        (node
-          (x 6592)
-          (y 352)
-          (time 0.4)
-        )
-      )
+      (path-ref "9c04ff8b-1421-4508-ab96-1dbe00435469")
       (width 2)
       (height 1)
       (tiles
@@ -3362,27 +3762,7 @@
       (solid #t)
       (z-pos 0)
       (name "Recycle2")
-      (path
-        (node
-          (x 6592)
-          (y 736)
-          (time 0.4)
-        )
-        (node
-          (x 6592)
-          (y 736)
-        )
-        (node
-          (x 6592)
-          (y 352)
-          (time 0.4)
-        )
-        (node
-          (x 6592)
-          (y 352)
-          (time 0.2)
-        )
-      )
+      (path-ref "f1ccedef-0f77-47d8-8054-580ec1b48829")
       (width 2)
       (height 1)
       (tiles
@@ -3393,27 +3773,7 @@
       (solid #t)
       (z-pos 0)
       (name "Recycle3")
-      (path
-        (node
-          (x 6592)
-          (y 736)
-        )
-        (node
-          (x 6592)
-          (y 352)
-          (time 0.4)
-        )
-        (node
-          (x 6592)
-          (y 352)
-          (time 0.2)
-        )
-        (node
-          (x 6592)
-          (y 736)
-          (time 0.4)
-        )
-      )
+      (path-ref "d33496c7-6381-495b-88b9-82c8d31ae5c1")
       (width 2)
       (height 1)
       (tiles
@@ -3424,27 +3784,7 @@
       (solid #t)
       (z-pos 0)
       (name "Recycle4")
-      (path
-        (node
-          (x 6592)
-          (y 352)
-          (time 0.4)
-        )
-        (node
-          (x 6592)
-          (y 352)
-          (time 0.2)
-        )
-        (node
-          (x 6592)
-          (y 736)
-          (time 0.4)
-        )
-        (node
-          (x 6592)
-          (y 736)
-        )
-      )
+      (path-ref "c51a2e79-c8fa-4070-a853-ee941b658e23")
       (width 2)
       (height 1)
       (tiles

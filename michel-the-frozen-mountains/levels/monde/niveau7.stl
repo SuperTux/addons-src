@@ -114,6 +114,24 @@
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "30a8c4e1-a677-4e4b-b994-d9771d8b14be")
+      (path
+        (node
+          (x 0)
+          (y 12544)
+        )
+      )
+    )
+    (path
+      (name "276a9f11-09a5-4c45-9572-9db68ec288fd")
+      (path
+        (node
+          (x 0)
+          (y 12544)
+        )
+      )
+    )
     (secretarea
       (fade-tilemap "cache")
       (width 72)
@@ -2213,12 +2231,7 @@
       (solid #t)
       (z-pos 200)
       (name "cache")
-      (path
-        (node
-          (x 0)
-          (y 12544)
-        )
-      )
+      (path-ref "30a8c4e1-a677-4e4b-b994-d9771d8b14be")
       (width 16)
       (height 8)
       (tiles
@@ -2236,12 +2249,7 @@
       (solid #f)
       (z-pos -100)
       (name "pilier")
-      (path
-        (node
-          (x 0)
-          (y 12544)
-        )
-      )
+      (path-ref "276a9f11-09a5-4c45-9572-9db68ec288fd")
       (width 16)
       (height 8)
       (tiles
@@ -2691,16 +2699,7 @@
       (running #f)
       (name "porte1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 672)
-          (y 480)
-        )
-        (node
-          (x 672)
-          (y 352)
-        )
-      )
+      (path-ref "a47b9998-67a2-45c2-8746-9575a91280fd")
     )
     (ispy
       (script "if(Foreground.get_alpha() == 1){
@@ -2753,6 +2752,19 @@ porte1.goto_node(1);
     )
     (music
       (file "music/cave.music")
+    )
+    (path
+      (name "a47b9998-67a2-45c2-8746-9575a91280fd")
+      (path
+        (node
+          (x 672)
+          (y 480)
+        )
+        (node
+          (x 672)
+          (y 352)
+        )
+      )
     )
     (rock
       (x 2112)

@@ -76,81 +76,7 @@
       (running #f)
       (name "plat1")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 864)
-          (y 448)
-        )
-        (node
-          (x 864)
-          (y 288)
-          (time 5)
-        )
-        (node
-          (x 1632)
-          (y 416)
-          (time 3)
-        )
-        (node
-          (x 2176)
-          (y 224)
-        )
-        (node
-          (x 2304)
-          (y 416)
-        )
-        (node
-          (x 2720)
-          (y 416)
-        )
-        (node
-          (x 3264)
-          (y 384)
-        )
-        (node
-          (x 3360)
-          (y 192)
-        )
-        (node
-          (x 3584)
-          (y 320)
-        )
-        (node
-          (x 3680)
-          (y 512)
-          (time 5)
-        )
-        (node
-          (x 3968)
-          (y 736)
-          (time 5)
-        )
-        (node
-          (x 4224)
-          (y 352)
-          (time 7)
-        )
-        (node
-          (x 4512)
-          (y 608)
-          (time 7)
-        )
-        (node
-          (x 4800)
-          (y 800)
-          (time 3)
-        )
-        (node
-          (x 4800)
-          (y 224)
-          (time 5)
-        )
-        (node
-          (x 5280)
-          (y 544)
-          (time 5)
-        )
-      )
+      (path-ref "20cc98da-7999-43a4-8011-8fbf7298c97e")
     )
     (flyingsnowball
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
@@ -238,6 +164,84 @@ Wait!"))
     )
     (music
       (file "music/wisphunt.ogg")
+    )
+    (path
+      (name "20cc98da-7999-43a4-8011-8fbf7298c97e")
+      (path
+        (node
+          (x 864)
+          (y 448)
+        )
+        (node
+          (x 864)
+          (y 288)
+          (time 5)
+        )
+        (node
+          (x 1632)
+          (y 416)
+          (time 3)
+        )
+        (node
+          (x 2176)
+          (y 224)
+        )
+        (node
+          (x 2304)
+          (y 416)
+        )
+        (node
+          (x 2720)
+          (y 416)
+        )
+        (node
+          (x 3264)
+          (y 384)
+        )
+        (node
+          (x 3360)
+          (y 192)
+        )
+        (node
+          (x 3584)
+          (y 320)
+        )
+        (node
+          (x 3680)
+          (y 512)
+          (time 5)
+        )
+        (node
+          (x 3968)
+          (y 736)
+          (time 5)
+        )
+        (node
+          (x 4224)
+          (y 352)
+          (time 7)
+        )
+        (node
+          (x 4512)
+          (y 608)
+          (time 7)
+        )
+        (node
+          (x 4800)
+          (y 800)
+          (time 3)
+        )
+        (node
+          (x 4800)
+          (y 224)
+          (time 5)
+        )
+        (node
+          (x 5280)
+          (y 544)
+          (time 5)
+        )
+      )
     )
     (pushbutton
       (script "plat1.goto_node(6);")
@@ -736,6 +740,47 @@ Wait!"))
       (sprite "images/creatures/owl/owl.sprite")
       (x 206)
       (y 1959)
+    )
+    (path
+      (name "2e7d70b7-3985-44e5-9e8e-89a219c61fe8")
+      (path
+        (node
+          (x 736)
+          (y 2592)
+        )
+        (node
+          (x 736)
+          (y 2560)
+        )
+        (node
+          (x 736)
+          (y 2240)
+        )
+        (node
+          (x 736)
+          (y 1920)
+        )
+        (node
+          (x 736)
+          (y 1536)
+        )
+        (node
+          (x 736)
+          (y 1152)
+        )
+        (node
+          (x 736)
+          (y 800)
+        )
+        (node
+          (x 736)
+          (y 416)
+        )
+        (node
+          (x 736)
+          (y 32)
+        )
+      )
     )
     (short_fuse
       (direction "left")
@@ -1277,44 +1322,7 @@ lamp7.set_burning(true);")
       (solid #t)
       (z-pos 0)
       (name "elevador1")
-      (path
-        (node
-          (x 736)
-          (y 2592)
-        )
-        (node
-          (x 736)
-          (y 2560)
-        )
-        (node
-          (x 736)
-          (y 2240)
-        )
-        (node
-          (x 736)
-          (y 1920)
-        )
-        (node
-          (x 736)
-          (y 1536)
-        )
-        (node
-          (x 736)
-          (y 1152)
-        )
-        (node
-          (x 736)
-          (y 800)
-        )
-        (node
-          (x 736)
-          (y 416)
-        )
-        (node
-          (x 736)
-          (y 32)
-        )
-      )
+      (path-ref "2e7d70b7-3985-44e5-9e8e-89a219c61fe8")
       (width 10)
       (height 10)
       (tiles

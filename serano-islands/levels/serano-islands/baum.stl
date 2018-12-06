@@ -22,30 +22,15 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1760)
-          (y 2624)
-        )
-      )
+      (path-ref "764a3ef5-6dc7-4435-a013-6c2e5bc8dbd7")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1824)
-          (y 1536)
-        )
-      )
+      (path-ref "4324261d-5a88-4fed-a47d-db5cb0b0df38")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 1760)
-          (y 480)
-        )
-      )
+      (path-ref "48948c7e-93e9-4576-9e9a-4c08192f2da3")
     )
     (mrbomb
       (x 2080)
@@ -61,6 +46,33 @@
     )
     (music
       (file "music/forest.ogg")
+    )
+    (path
+      (name "764a3ef5-6dc7-4435-a013-6c2e5bc8dbd7")
+      (path
+        (node
+          (x 1760)
+          (y 2624)
+        )
+      )
+    )
+    (path
+      (name "4324261d-5a88-4fed-a47d-db5cb0b0df38")
+      (path
+        (node
+          (x 1824)
+          (y 1536)
+        )
+      )
+    )
+    (path
+      (name "48948c7e-93e9-4576-9e9a-4c08192f2da3")
+      (path
+        (node
+          (x 1760)
+          (y 480)
+        )
+      )
     )
     (poisonivy
       (x 1920)

@@ -46,26 +46,7 @@
     (hurting_platform
       (name "pila")
       (sprite "images/objects/sawblade/sawblade.sprite")
-      (path
-        (node
-          (x 12416)
-          (y 608)
-          (time 2)
-        )
-        (node
-          (x 11840)
-          (y 608)
-        )
-        (node
-          (x 11840)
-          (y 736)
-          (time 2)
-        )
-        (node
-          (x 12416)
-          (y 736)
-        )
-      )
+      (path-ref "bb1b9f1f-3688-46bc-adfd-f1f199eb93a8")
     )
     (igel
       (x 7392)
@@ -94,6 +75,29 @@
     (mrtree
       (x 13056)
       (y 576)
+    )
+    (path
+      (name "bb1b9f1f-3688-46bc-adfd-f1f199eb93a8")
+      (path
+        (node
+          (x 12416)
+          (y 608)
+          (time 2)
+        )
+        (node
+          (x 11840)
+          (y 608)
+        )
+        (node
+          (x 11840)
+          (y 736)
+          (time 2)
+        )
+        (node
+          (x 12416)
+          (y 736)
+        )
+      )
     )
     (poisonivy
       (x 448)

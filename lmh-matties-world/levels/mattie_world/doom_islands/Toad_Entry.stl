@@ -71,6 +71,15 @@
     (music
       (file "music/darkforestkeep.ogg")
     )
+    (path
+      (name "e1875061-a4a6-4b94-9e35-6e4887b4f015")
+      (path
+        (node
+          (x 3008)
+          (y 576)
+        )
+      )
+    )
     (powerup
       (script "  badflower();  ")
       (sprite "levels/mattie_world/images/powerups/badflower/badflower.sprite")
@@ -203,12 +212,7 @@
       (solid #t)
       (z-pos 100)
       (name "Water")
-      (path
-        (node
-          (x 3008)
-          (y 576)
-        )
-      )
+      (path-ref "e1875061-a4a6-4b94-9e35-6e4887b4f015")
       (width 15)
       (height 3)
       (tiles
@@ -371,6 +375,42 @@
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "2ac247dc-adc8-4619-ae28-a147b8770e36")
+      (path
+        (node
+          (x 1984)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "d5a1ddeb-60cc-4df9-8da6-20cfb7dec03e")
+      (path
+        (node
+          (x 1984)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "cf1d68f7-2350-48a0-88bd-b8bdfb553589")
+      (path
+        (node
+          (x 1888)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "f126b733-5e9b-4253-8e6a-2c1bb3b2c1d8")
+      (path
+        (node
+          (x 1888)
+          (y 224)
+        )
+      )
     )
     (scripttrigger
       (script "  bounce.fade(0,0);  ")
@@ -544,12 +584,7 @@
       (solid #t)
       (z-pos 0)
       (name "bounce")
-      (path
-        (node
-          (x 1984)
-          (y 832)
-        )
-      )
+      (path-ref "2ac247dc-adc8-4619-ae28-a147b8770e36")
       (width 24)
       (height 10)
       (tiles
@@ -569,12 +604,7 @@
       (solid #t)
       (z-pos 0)
       (name "bounce2")
-      (path
-        (node
-          (x 1984)
-          (y 832)
-        )
-      )
+      (path-ref "d5a1ddeb-60cc-4df9-8da6-20cfb7dec03e")
       (width 24)
       (height 10)
       (tiles
@@ -594,12 +624,7 @@
       (solid #t)
       (z-pos 0)
       (name "yeargh")
-      (path
-        (node
-          (x 1888)
-          (y 224)
-        )
-      )
+      (path-ref "cf1d68f7-2350-48a0-88bd-b8bdfb553589")
       (width 23)
       (height 9)
       (tiles
@@ -618,12 +643,7 @@
       (solid #t)
       (z-pos 0)
       (name "yeargh2")
-      (path
-        (node
-          (x 1888)
-          (y 224)
-        )
-      )
+      (path-ref "f126b733-5e9b-4253-8e6a-2c1bb3b2c1d8")
       (width 23)
       (height 9)
       (tiles
@@ -2098,6 +2118,56 @@
     (music
       (file "music/darkforestkeep.ogg")
     )
+    (path
+      (name "942ddec5-7825-4592-b14f-adcac92061cb")
+      (path
+        (node
+          (x 1024)
+          (y 351)
+          (time 21)
+        )
+        (node
+          (x 672)
+          (y 351)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "2971408b-42d6-4ce7-86e9-bb040f5af906")
+      (path
+        (node
+          (x 1024)
+          (y 352)
+          (time 21)
+        )
+        (node
+          (x 672)
+          (y 352)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "985f3dc0-661f-4356-8c48-1163896462af")
+      (path
+        (node
+          (x 896)
+          (y 352)
+          (time 0.01)
+        )
+        (node
+          (x 895)
+          (y 351)
+          (time 21)
+        )
+        (node
+          (x 544)
+          (y 351)
+          (time 2)
+        )
+      )
+    )
     (scriptedobject
       (z-pos 20)
       (name "block1")
@@ -2328,18 +2398,7 @@
       (solid #t)
       (z-pos -20)
       (name "push")
-      (path
-        (node
-          (x 1024)
-          (y 351)
-          (time 21)
-        )
-        (node
-          (x 672)
-          (y 351)
-          (time 2)
-        )
-      )
+      (path-ref "942ddec5-7825-4592-b14f-adcac92061cb")
       (width 2)
       (height 4)
       (tiles
@@ -2353,18 +2412,7 @@
       (solid #f)
       (z-pos -20)
       (name "push_decal")
-      (path
-        (node
-          (x 1024)
-          (y 352)
-          (time 21)
-        )
-        (node
-          (x 672)
-          (y 352)
-          (time 2)
-        )
-      )
+      (path-ref "2971408b-42d6-4ce7-86e9-bb040f5af906")
       (width 11)
       (height 4)
       (tiles
@@ -2378,23 +2426,7 @@
       (solid #t)
       (z-pos -20)
       (name "push_help")
-      (path
-        (node
-          (x 896)
-          (y 352)
-          (time 0.01)
-        )
-        (node
-          (x 895)
-          (y 351)
-          (time 21)
-        )
-        (node
-          (x 544)
-          (y 351)
-          (time 2)
-        )
-      )
+      (path-ref "985f3dc0-661f-4356-8c48-1163896462af")
       (width 4)
       (height 5)
       (tiles
@@ -2474,6 +2506,41 @@
     )
     (music
       (file "music/darkforestkeep.ogg")
+    )
+    (path
+      (name "1be91ef6-9b6d-46a5-a01a-7f9b3bdb4940")
+      (path
+        (node
+          (x 2496)
+          (y 224)
+        )
+        (node
+          (x 2848)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "13c83133-2e02-4da2-9534-d54441cca011")
+      (path
+        (node
+          (x 2496)
+          (y 256)
+        )
+        (node
+          (x 2848)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "6e0d2bc2-bf79-430e-afed-672572e53cb4")
+      (path
+        (node
+          (x 1376)
+          (y 224)
+        )
+      )
     )
     (scriptedobject
       (z-pos -20)
@@ -2605,16 +2672,7 @@
       (solid #t)
       (z-pos 0)
       (name "tower2_top")
-      (path
-        (node
-          (x 2496)
-          (y 224)
-        )
-        (node
-          (x 2848)
-          (y 224)
-        )
-      )
+      (path-ref "1be91ef6-9b6d-46a5-a01a-7f9b3bdb4940")
       (width 10)
       (height 5)
       (tiles
@@ -2629,16 +2687,7 @@
       (solid #t)
       (z-pos 0)
       (name "tower2")
-      (path
-        (node
-          (x 2496)
-          (y 256)
-        )
-        (node
-          (x 2848)
-          (y 256)
-        )
-      )
+      (path-ref "13c83133-2e02-4da2-9534-d54441cca011")
       (width 10)
       (height 5)
       (tiles
@@ -2653,12 +2702,7 @@
       (solid #t)
       (z-pos 0)
       (name "tower1")
-      (path
-        (node
-          (x 1376)
-          (y 224)
-        )
-      )
+      (path-ref "6e0d2bc2-bf79-430e-afed-672572e53cb4")
       (width 6)
       (height 1)
       (tiles

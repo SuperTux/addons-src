@@ -33,6 +33,15 @@
     (music
       (file "music/bonuscave.ogg")
     )
+    (path
+      (name "5eba99c7-ba69-443f-8ec2-5e8adf2f7bea")
+      (path
+        (node
+          (x -416)
+          (y 0)
+        )
+      )
+    )
     (powerup
       (script "find_fish(\"bonus\");")
       (disable-physics #t)
@@ -229,12 +238,7 @@
       (solid #f)
       (z-pos 0)
       (name "black")
-      (path
-        (node
-          (x -416)
-          (y 0)
-        )
-      )
+      (path-ref "5eba99c7-ba69-443f-8ec2-5e8adf2f7bea")
       (width 51)
       (height 30)
       (tiles

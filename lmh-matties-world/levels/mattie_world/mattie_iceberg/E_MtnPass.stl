@@ -86,124 +86,19 @@
     (particles-clouds
     )
     (coin
-      (path
-        (node
-          (x 128)
-          (y 1056)
-        )
-        (node
-          (x 192)
-          (y 896)
-        )
-        (node
-          (x 256)
-          (y 1056)
-        )
-        (node
-          (x 96)
-          (y 960)
-        )
-        (node
-          (x 288)
-          (y 960)
-        )
-      )
+      (path-ref "1cdd95fa-b5ab-48e5-aa69-8844c7e506b3")
     )
     (coin
-      (path
-        (node
-          (x 256)
-          (y 1056)
-        )
-        (node
-          (x 96)
-          (y 960)
-        )
-        (node
-          (x 288)
-          (y 960)
-        )
-        (node
-          (x 128)
-          (y 1056)
-        )
-        (node
-          (x 192)
-          (y 896)
-        )
-      )
+      (path-ref "76bde0a3-b512-489d-b77b-dddd524f9d2b")
     )
     (coin
-      (path
-        (node
-          (x 288)
-          (y 960)
-        )
-        (node
-          (x 128)
-          (y 1056)
-        )
-        (node
-          (x 192)
-          (y 896)
-        )
-        (node
-          (x 256)
-          (y 1056)
-        )
-        (node
-          (x 96)
-          (y 960)
-        )
-      )
+      (path-ref "dab03ee7-02a0-417c-858e-f8043f887998")
     )
     (coin
-      (path
-        (node
-          (x 96)
-          (y 960)
-        )
-        (node
-          (x 288)
-          (y 960)
-        )
-        (node
-          (x 128)
-          (y 1056)
-        )
-        (node
-          (x 192)
-          (y 896)
-        )
-        (node
-          (x 256)
-          (y 1056)
-        )
-      )
+      (path-ref "144433ed-7353-435d-81f0-50aa9335ae2b")
     )
     (coin
-      (path
-        (node
-          (x 192)
-          (y 896)
-        )
-        (node
-          (x 256)
-          (y 1056)
-        )
-        (node
-          (x 96)
-          (y 960)
-        )
-        (node
-          (x 288)
-          (y 960)
-        )
-        (node
-          (x 128)
-          (y 1056)
-        )
-      )
+      (path-ref "d804c6a3-ad92-44db-8f3e-9833c9a2d65c")
     )
     (decal
       (z-pos -100)
@@ -223,119 +118,19 @@
     )
     (platform
       (sprite "images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (node
-          (x 832)
-          (y 800)
-        )
-        (node
-          (x 832)
-          (y 800)
-          (time 6)
-        )
-        (node
-          (x 832)
-          (y 992)
-        )
-        (node
-          (x 832)
-          (y 992)
-          (time 6)
-        )
-      )
+      (path-ref "373ac432-28e0-493a-930c-8795c3100fbd")
     )
     (platform
       (sprite "images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (mode "pingpong")
-        (node
-          (x 4064)
-          (y 960)
-        )
-        (node
-          (x 4064)
-          (y 960)
-          (time 1.5)
-        )
-        (node
-          (x 4288)
-          (y 960)
-          (time 1.5)
-        )
-        (node
-          (x 4416)
-          (y 800)
-        )
-        (node
-          (x 4416)
-          (y 800)
-          (time 1.5)
-        )
-      )
+      (path-ref "7e543223-f839-4802-a0b0-acd8fa0f3a09")
     )
     (platform
       (sprite "images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (mode "pingpong")
-        (node
-          (x 4768)
-          (y 704)
-        )
-        (node
-          (x 4768)
-          (y 704)
-          (time 8)
-        )
-        (node
-          (x 4768)
-          (y 288)
-          (time 4)
-        )
-        (node
-          (x 5152)
-          (y 288)
-        )
-        (node
-          (x 5152)
-          (y 288)
-        )
-      )
+      (path-ref "39e18b41-05c6-4e81-8f58-a74a839f7406")
     )
     (platform
       (sprite "images/objects/platforms/wood-fivetiles.sprite")
-      (path
-        (mode "pingpong")
-        (node
-          (x 5632)
-          (y 288)
-          (time 1.5)
-        )
-        (node
-          (x 5632)
-          (y 416)
-          (time 1.5)
-        )
-        (node
-          (x 5696)
-          (y 512)
-          (time 1.5)
-        )
-        (node
-          (x 5856)
-          (y 512)
-          (time 1.5)
-        )
-        (node
-          (x 5952)
-          (y 608)
-          (time 1.5)
-        )
-        (node
-          (x 5952)
-          (y 736)
-          (time 1.5)
-        )
-      )
+      (path-ref "a604becb-9ab8-43c8-835c-f09402e58577")
     )
     (flyingsnowball
       (x 3712)
@@ -405,6 +200,247 @@
     )
     (music
       (file "music/airship_remix.ogg")
+    )
+    (path
+      (name "373ac432-28e0-493a-930c-8795c3100fbd")
+      (path
+        (node
+          (x 832)
+          (y 800)
+        )
+        (node
+          (x 832)
+          (y 800)
+          (time 6)
+        )
+        (node
+          (x 832)
+          (y 992)
+        )
+        (node
+          (x 832)
+          (y 992)
+          (time 6)
+        )
+      )
+    )
+    (path
+      (name "7e543223-f839-4802-a0b0-acd8fa0f3a09")
+      (path
+        (mode "pingpong")
+        (node
+          (x 4064)
+          (y 960)
+        )
+        (node
+          (x 4064)
+          (y 960)
+          (time 1.5)
+        )
+        (node
+          (x 4288)
+          (y 960)
+          (time 1.5)
+        )
+        (node
+          (x 4416)
+          (y 800)
+        )
+        (node
+          (x 4416)
+          (y 800)
+          (time 1.5)
+        )
+      )
+    )
+    (path
+      (name "39e18b41-05c6-4e81-8f58-a74a839f7406")
+      (path
+        (mode "pingpong")
+        (node
+          (x 4768)
+          (y 704)
+        )
+        (node
+          (x 4768)
+          (y 704)
+          (time 8)
+        )
+        (node
+          (x 4768)
+          (y 288)
+          (time 4)
+        )
+        (node
+          (x 5152)
+          (y 288)
+        )
+        (node
+          (x 5152)
+          (y 288)
+        )
+      )
+    )
+    (path
+      (name "a604becb-9ab8-43c8-835c-f09402e58577")
+      (path
+        (mode "pingpong")
+        (node
+          (x 5632)
+          (y 288)
+          (time 1.5)
+        )
+        (node
+          (x 5632)
+          (y 416)
+          (time 1.5)
+        )
+        (node
+          (x 5696)
+          (y 512)
+          (time 1.5)
+        )
+        (node
+          (x 5856)
+          (y 512)
+          (time 1.5)
+        )
+        (node
+          (x 5952)
+          (y 608)
+          (time 1.5)
+        )
+        (node
+          (x 5952)
+          (y 736)
+          (time 1.5)
+        )
+      )
+    )
+    (path
+      (name "1cdd95fa-b5ab-48e5-aa69-8844c7e506b3")
+      (path
+        (node
+          (x 128)
+          (y 1056)
+        )
+        (node
+          (x 192)
+          (y 896)
+        )
+        (node
+          (x 256)
+          (y 1056)
+        )
+        (node
+          (x 96)
+          (y 960)
+        )
+        (node
+          (x 288)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "76bde0a3-b512-489d-b77b-dddd524f9d2b")
+      (path
+        (node
+          (x 256)
+          (y 1056)
+        )
+        (node
+          (x 96)
+          (y 960)
+        )
+        (node
+          (x 288)
+          (y 960)
+        )
+        (node
+          (x 128)
+          (y 1056)
+        )
+        (node
+          (x 192)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "dab03ee7-02a0-417c-858e-f8043f887998")
+      (path
+        (node
+          (x 288)
+          (y 960)
+        )
+        (node
+          (x 128)
+          (y 1056)
+        )
+        (node
+          (x 192)
+          (y 896)
+        )
+        (node
+          (x 256)
+          (y 1056)
+        )
+        (node
+          (x 96)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "144433ed-7353-435d-81f0-50aa9335ae2b")
+      (path
+        (node
+          (x 96)
+          (y 960)
+        )
+        (node
+          (x 288)
+          (y 960)
+        )
+        (node
+          (x 128)
+          (y 1056)
+        )
+        (node
+          (x 192)
+          (y 896)
+        )
+        (node
+          (x 256)
+          (y 1056)
+        )
+      )
+    )
+    (path
+      (name "d804c6a3-ad92-44db-8f3e-9833c9a2d65c")
+      (path
+        (node
+          (x 192)
+          (y 896)
+        )
+        (node
+          (x 256)
+          (y 1056)
+        )
+        (node
+          (x 96)
+          (y 960)
+        )
+        (node
+          (x 288)
+          (y 960)
+        )
+        (node
+          (x 128)
+          (y 1056)
+        )
+      )
     )
     (secretarea
       (width 192)

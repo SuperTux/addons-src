@@ -52,23 +52,7 @@ finish_level_group(\"red\",\"r6\")")
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 992)
-          (y 576)
-          (time 0.5)
-        )
-        (node
-          (x 992)
-          (y 288)
-          (time 0.5)
-        )
-        (node
-          (x 864)
-          (y 416)
-          (time 0.5)
-        )
-      )
+      (path-ref "ad09aa4e-d26e-48f3-a9a1-d2d345f3f158")
     )
     (gradient
       (top_color 1 0 0)
@@ -181,6 +165,26 @@ finish_level_group(\"red\",\"r6\")")
     )
     (music
       (file "music/bossattack.ogg")
+    )
+    (path
+      (name "ad09aa4e-d26e-48f3-a9a1-d2d345f3f158")
+      (path
+        (node
+          (x 992)
+          (y 576)
+          (time 0.5)
+        )
+        (node
+          (x 992)
+          (y 288)
+          (time 0.5)
+        )
+        (node
+          (x 864)
+          (y 416)
+          (time 0.5)
+        )
+      )
     )
     (scripttrigger
       (script "Tux.kill(true)")

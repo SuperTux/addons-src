@@ -41,18 +41,7 @@
       (running #f)
       (name "left")
       (sprite "images/objects/platforms/small.sprite")
-      (path
-        (node
-          (x 2032)
-          (y 1936)
-          (time 3)
-        )
-        (node
-          (x 2112)
-          (y 1936)
-          (time 3)
-        )
-      )
+      (path-ref "052cfa01-6744-4d8f-91d6-5a001c78bf26")
     )
     (goldbomb
       (x 1408)
@@ -170,6 +159,21 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "052cfa01-6744-4d8f-91d6-5a001c78bf26")
+      (path
+        (node
+          (x 2032)
+          (y 1936)
+          (time 3)
+        )
+        (node
+          (x 2112)
+          (y 1936)
+          (time 3)
+        )
+      )
     )
     (powerup
       (script "find_coin(\"coin1\");")

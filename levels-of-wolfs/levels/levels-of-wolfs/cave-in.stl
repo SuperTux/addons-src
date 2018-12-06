@@ -116,6 +116,46 @@
       (x 3741.85)
       (y 2460.261)
     )
+    (path
+      (name "27345b7f-e88a-4191-a82d-18e024a3a30a")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "49d980a8-4367-4688-903f-749acc79d997")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "152e8637-8e79-428b-861a-d8ad7e06b50a")
+      (path
+        (node
+          (x 0)
+          (y -928)
+          (time 30)
+        )
+        (node
+          (x 0)
+          (y 1600)
+        )
+        (node
+          (x 0)
+          (y 1600)
+        )
+        (node
+          (x 0)
+          (y 1632)
+        )
+      )
+    )
     (scripttrigger
       (script "shaking.set_burning(true);
 cave_in.goto_node(1);
@@ -191,12 +231,7 @@ cave_in.goto_node(2);")
       (solid #f)
       (z-pos -100)
       (name "Background")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "27345b7f-e88a-4191-a82d-18e024a3a30a")
       (width 200)
       (height 100)
       (tiles
@@ -306,12 +341,7 @@ cave_in.goto_node(2);")
       (solid #t)
       (z-pos 0)
       (name "Interactive")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "49d980a8-4367-4688-903f-749acc79d997")
       (width 200)
       (height 100)
       (tiles
@@ -530,25 +560,7 @@ cave_in.goto_node(2);")
       (solid #t)
       (z-pos 1)
       (name "cave_in")
-      (path
-        (node
-          (x 0)
-          (y -928)
-          (time 30)
-        )
-        (node
-          (x 0)
-          (y 1600)
-        )
-        (node
-          (x 0)
-          (y 1600)
-        )
-        (node
-          (x 0)
-          (y 1632)
-        )
-      )
+      (path-ref "152e8637-8e79-428b-861a-d8ad7e06b50a")
       (width 200)
       (height 100)
       (tiles

@@ -151,64 +151,11 @@
       (running #f)
       (name "up")
       (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
-      (path
-        (node
-          (x 2192)
-          (y 2368)
-          (time 0.1)
-        )
-        (node
-          (x 2192)
-          (y 2320)
-          (time 0.4)
-        )
-        (node
-          (x 2192)
-          (y 2320)
-        )
-        (node
-          (x 2192)
-          (y 1984)
-        )
-        (node
-          (x 2192)
-          (y 1600)
-          (time 5)
-        )
-        (node
-          (x 2192)
-          (y 1600)
-        )
-        (node
-          (x 2192)
-          (y 2320)
-        )
-      )
+      (path-ref "42abef04-aff7-4031-8549-9e9eae158d47")
     )
     (platform
       (sprite "images/objects/platforms/icefloe_small.sprite")
-      (path
-        (node
-          (x 4864)
-          (y 2104)
-          (time 2)
-        )
-        (node
-          (x 4864)
-          (y 2104)
-          (time 4)
-        )
-        (node
-          (x 5216)
-          (y 2104)
-          (time 2)
-        )
-        (node
-          (x 5216)
-          (y 2104)
-          (time 4)
-        )
-      )
+      (path-ref "9f3f4e6f-2054-494f-84bf-3e013563275a")
     )
     (gradient
       (top_color 0 0.6 0)
@@ -216,43 +163,11 @@
     )
     (hurting_platform
       (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite")
-      (path
-        (node
-          (x 640)
-          (y 2048)
-          (time 2)
-        )
-        (node
-          (x 704)
-          (y 2048)
-          (time 2)
-        )
-        (node
-          (x 704)
-          (y 2048)
-          (time 2)
-        )
-        (node
-          (x 640)
-          (y 2048)
-          (time 2)
-        )
-      )
+      (path-ref "a5458161-d602-4442-8fbb-9847af0ba596")
     )
     (hurting_platform
       (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite")
-      (path
-        (node
-          (x 2304)
-          (y 2272)
-          (time 2)
-        )
-        (node
-          (x 2912)
-          (y 2272)
-          (time 2)
-        )
-      )
+      (path-ref "412687a0-c186-440b-99a9-5a4ccf9e163e")
     )
     (icecrusher
       (x 6400)
@@ -322,6 +237,239 @@
     )
     (music
       (file "music/greatgigantic.ogg")
+    )
+    (path
+      (name "42abef04-aff7-4031-8549-9e9eae158d47")
+      (path
+        (node
+          (x 2192)
+          (y 2368)
+          (time 0.1)
+        )
+        (node
+          (x 2192)
+          (y 2320)
+          (time 0.4)
+        )
+        (node
+          (x 2192)
+          (y 2320)
+        )
+        (node
+          (x 2192)
+          (y 1984)
+        )
+        (node
+          (x 2192)
+          (y 1600)
+          (time 5)
+        )
+        (node
+          (x 2192)
+          (y 1600)
+        )
+        (node
+          (x 2192)
+          (y 2320)
+        )
+      )
+    )
+    (path
+      (name "9f3f4e6f-2054-494f-84bf-3e013563275a")
+      (path
+        (node
+          (x 4864)
+          (y 2104)
+          (time 2)
+        )
+        (node
+          (x 4864)
+          (y 2104)
+          (time 4)
+        )
+        (node
+          (x 5216)
+          (y 2104)
+          (time 2)
+        )
+        (node
+          (x 5216)
+          (y 2104)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "a5458161-d602-4442-8fbb-9847af0ba596")
+      (path
+        (node
+          (x 640)
+          (y 2048)
+          (time 2)
+        )
+        (node
+          (x 704)
+          (y 2048)
+          (time 2)
+        )
+        (node
+          (x 704)
+          (y 2048)
+          (time 2)
+        )
+        (node
+          (x 640)
+          (y 2048)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "412687a0-c186-440b-99a9-5a4ccf9e163e")
+      (path
+        (node
+          (x 2304)
+          (y 2272)
+          (time 2)
+        )
+        (node
+          (x 2912)
+          (y 2272)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "3e3aade7-3cc0-4270-8cd9-0509f290482b")
+      (path
+        (node
+          (x 6016)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "bd1ea8cb-8054-4bc7-bdab-acf393c8a78d")
+      (path
+        (node
+          (x 6016)
+          (y 1088)
+          (time 0.8)
+        )
+        (node
+          (x 6016)
+          (y 1184)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "6016d672-e3b3-4849-91b6-00aaaca93ac5")
+      (path
+        (node
+          (x 4768)
+          (y 2112)
+        )
+      )
+    )
+    (path
+      (name "83d9d9e9-4dec-474b-a4d2-e148b09b1fba")
+      (path
+        (node
+          (x 1376)
+          (y 2176)
+        )
+      )
+    )
+    (path
+      (name "e93b144c-9636-4eaa-98dc-f6a34c9a821b")
+      (path
+        (node
+          (x 800)
+          (y 384)
+          (time 0.2)
+        )
+        (node
+          (x 802)
+          (y 383)
+          (time 0.2)
+        )
+        (node
+          (x 799)
+          (y 384)
+          (time 0.2)
+        )
+        (node
+          (x 798)
+          (y 381)
+          (time 0.2)
+        )
+        (node
+          (x 802)
+          (y 385)
+          (time 0.2)
+        )
+        (node
+          (x 801)
+          (y 383)
+          (time 0.2)
+        )
+        (node
+          (x 803)
+          (y 384)
+          (time 0.2)
+        )
+        (node
+          (x 799)
+          (y 386)
+          (time 0.2)
+        )
+      )
+    )
+    (path
+      (name "66ff4243-b466-46d0-bb68-32d3bde369c2")
+      (path
+        (node
+          (x 5888)
+          (y 928)
+          (time 0.3)
+        )
+        (node
+          (x 5890)
+          (y 927)
+          (time 0.3)
+        )
+        (node
+          (x 5887)
+          (y 928)
+          (time 0.3)
+        )
+        (node
+          (x 5886)
+          (y 925)
+          (time 0.3)
+        )
+        (node
+          (x 5890)
+          (y 929)
+          (time 0.3)
+        )
+        (node
+          (x 5889)
+          (y 927)
+          (time 0.3)
+        )
+        (node
+          (x 5891)
+          (y 928)
+          (time 0.3)
+        )
+        (node
+          (x 5887)
+          (y 930)
+          (time 0.3)
+        )
+      )
     )
     (scripttrigger
       (script "      Tux.deactivate();
@@ -556,12 +704,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipetop")
-      (path
-        (node
-          (x 6016)
-          (y 1088)
-        )
-      )
+      (path-ref "3e3aade7-3cc0-4270-8cd9-0509f290482b")
       (width 2)
       (height 1)
       (tiles
@@ -572,18 +715,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipelift")
-      (path
-        (node
-          (x 6016)
-          (y 1088)
-          (time 0.8)
-        )
-        (node
-          (x 6016)
-          (y 1184)
-          (time 0.1)
-        )
-      )
+      (path-ref "bd1ea8cb-8054-4bc7-bdab-acf393c8a78d")
       (width 2)
       (height 1)
       (tiles
@@ -847,12 +979,7 @@
       (alpha 0.8)
       (z-pos 90)
       (name "water2")
-      (path
-        (node
-          (x 4768)
-          (y 2112)
-        )
-      )
+      (path-ref "6016d672-e3b3-4849-91b6-00aaaca93ac5")
       (width 22)
       (height 7)
       (tiles
@@ -870,12 +997,7 @@
       (alpha 0.8)
       (z-pos 90)
       (name "water")
-      (path
-        (node
-          (x 1376)
-          (y 2176)
-        )
-      )
+      (path-ref "83d9d9e9-4dec-474b-a4d2-e148b09b1fba")
       (width 86)
       (height 6)
       (tiles
@@ -892,48 +1014,7 @@
       (alpha 0.8)
       (z-pos -150)
       (name "nearback")
-      (path
-        (node
-          (x 800)
-          (y 384)
-          (time 0.2)
-        )
-        (node
-          (x 802)
-          (y 383)
-          (time 0.2)
-        )
-        (node
-          (x 799)
-          (y 384)
-          (time 0.2)
-        )
-        (node
-          (x 798)
-          (y 381)
-          (time 0.2)
-        )
-        (node
-          (x 802)
-          (y 385)
-          (time 0.2)
-        )
-        (node
-          (x 801)
-          (y 383)
-          (time 0.2)
-        )
-        (node
-          (x 803)
-          (y 384)
-          (time 0.2)
-        )
-        (node
-          (x 799)
-          (y 386)
-          (time 0.2)
-        )
-      )
+      (path-ref "e93b144c-9636-4eaa-98dc-f6a34c9a821b")
       (width 170)
       (height 51)
       (tiles
@@ -1168,48 +1249,7 @@
       (solid #t)
       (z-pos 200)
       (name "secret")
-      (path
-        (node
-          (x 5888)
-          (y 928)
-          (time 0.3)
-        )
-        (node
-          (x 5890)
-          (y 927)
-          (time 0.3)
-        )
-        (node
-          (x 5887)
-          (y 928)
-          (time 0.3)
-        )
-        (node
-          (x 5886)
-          (y 925)
-          (time 0.3)
-        )
-        (node
-          (x 5890)
-          (y 929)
-          (time 0.3)
-        )
-        (node
-          (x 5889)
-          (y 927)
-          (time 0.3)
-        )
-        (node
-          (x 5891)
-          (y 928)
-          (time 0.3)
-        )
-        (node
-          (x 5887)
-          (y 930)
-          (time 0.3)
-        )
-      )
+      (path-ref "66ff4243-b466-46d0-bb68-32d3bde369c2")
       (width 9)
       (height 8)
       (tiles

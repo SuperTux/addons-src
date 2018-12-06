@@ -83,18 +83,7 @@
       (running #f)
       (name "svina")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 3296)
-          (y 512)
-          (time 5)
-        )
-        (node
-          (x 3200)
-          (y 512)
-          (time 5)
-        )
-      )
+      (path-ref "2b1e4461-0e82-4ac8-8df3-1b86475da8e0")
     )
     (igel
       (x 1408)
@@ -158,6 +147,21 @@
     (mrbomb
       (x 352)
       (y 512)
+    )
+    (path
+      (name "2b1e4461-0e82-4ac8-8df3-1b86475da8e0")
+      (path
+        (node
+          (x 3296)
+          (y 512)
+          (time 5)
+        )
+        (node
+          (x 3200)
+          (y 512)
+          (time 5)
+        )
+      )
     )
     (sequencetrigger
       (sequence "stoptux")

@@ -91,6 +91,33 @@
       (x 517)
       (y 1000)
     )
+    (path
+      (name "4cf44326-f6b4-43bb-9760-8f14c3d1d6cb")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "c8f746be-7bb3-49df-b01a-e9571157e666")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "5c0dac45-59ab-42dc-bece-4841e0bdc628")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (scripttrigger
       (script "Effect.fade_out(0.5);
 wait(0.5);
@@ -159,12 +186,7 @@ Effect.fade_in(0.5);")
       (solid #f)
       (z-pos -100)
       (name "Background")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "4cf44326-f6b4-43bb-9760-8f14c3d1d6cb")
       (width 183)
       (height 35)
       (tiles
@@ -209,12 +231,7 @@ Effect.fade_in(0.5);")
       (solid #t)
       (z-pos 0)
       (name "Interactive")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "c8f746be-7bb3-49df-b01a-e9571157e666")
       (width 183)
       (height 35)
       (tiles
@@ -259,12 +276,7 @@ Effect.fade_in(0.5);")
       (solid #f)
       (z-pos 100)
       (name "Foreground")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "5c0dac45-59ab-42dc-bece-4841e0bdc628")
       (width 183)
       (height 35)
       (tiles

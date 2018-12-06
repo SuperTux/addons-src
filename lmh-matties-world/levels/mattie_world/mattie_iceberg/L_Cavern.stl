@@ -82,6 +82,45 @@
     (music
       (file "music/greatgigantic.ogg")
     )
+    (path
+      (name "9e757c26-f182-4c1f-a090-035b164c86c1")
+      (path
+        (node
+          (x 3104)
+          (y 672)
+          (time 0.8)
+        )
+        (node
+          (x 3104)
+          (y 768)
+          (time 0.1)
+        )
+      )
+    )
+    (path
+      (name "74b72cad-bc8a-4b36-8a99-9934c8814558")
+      (path
+        (node
+          (x 3488)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "8f0178ea-7669-41de-925a-3502852a17c1")
+      (path
+        (node
+          (x 3488)
+          (y 768)
+          (time 0.8)
+        )
+        (node
+          (x 3488)
+          (y 640)
+          (time 0.1)
+        )
+      )
+    )
     (scripttrigger
       (script "  Tux.deactivate();
           pipedrop.goto_node(1);
@@ -184,18 +223,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipedrop")
-      (path
-        (node
-          (x 3104)
-          (y 672)
-          (time 0.8)
-        )
-        (node
-          (x 3104)
-          (y 768)
-          (time 0.1)
-        )
-      )
+      (path-ref "9e757c26-f182-4c1f-a090-035b164c86c1")
       (width 2)
       (height 1)
       (tiles
@@ -206,12 +234,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipetop")
-      (path
-        (node
-          (x 3488)
-          (y 640)
-        )
-      )
+      (path-ref "74b72cad-bc8a-4b36-8a99-9934c8814558")
       (width 2)
       (height 1)
       (tiles
@@ -222,18 +245,7 @@
       (solid #t)
       (z-pos 0)
       (name "pipelift")
-      (path
-        (node
-          (x 3488)
-          (y 768)
-          (time 0.8)
-        )
-        (node
-          (x 3488)
-          (y 640)
-          (time 0.1)
-        )
-      )
+      (path-ref "8f0178ea-7669-41de-925a-3502852a17c1")
       (width 2)
       (height 1)
       (tiles

@@ -34,18 +34,7 @@
     (platform
       (name "plateforme1")
       (sprite "images/objects/flying_platform/flying_platform.sprite")
-      (path
-        (node
-          (x 896)
-          (y 2560)
-          (time 4)
-        )
-        (node
-          (x 896)
-          (y 1824)
-          (time 4)
-        )
-      )
+      (path-ref "58cf657f-894a-46a0-b5d1-655d4afcac9d")
     )
     (mrbomb
       (x 421)
@@ -301,6 +290,21 @@
     )
     (music
       (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "58cf657f-894a-46a0-b5d1-655d4afcac9d")
+      (path
+        (node
+          (x 896)
+          (y 2560)
+          (time 4)
+        )
+        (node
+          (x 896)
+          (y 1824)
+          (time 4)
+        )
+      )
     )
     (rock
       (x 352)

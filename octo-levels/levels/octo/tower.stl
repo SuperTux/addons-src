@@ -84,6 +84,15 @@
       (x 163)
       (y 422)
     )
+    (path
+      (name "6ed43104-9b35-4778-be43-06d9e8c187ee")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
     (secretarea
       (width 32)
       (height 64)
@@ -233,12 +242,7 @@
       (solid #t)
       (z-pos 0)
       (name "Interactive")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "6ed43104-9b35-4778-be43-06d9e8c187ee")
       (width 35)
       (height 100)
       (tiles

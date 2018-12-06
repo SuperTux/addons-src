@@ -23,72 +23,169 @@
       (running #f)
       (name "dropL1")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 288)
-          (y 352)
-          (time 0.5)
-        )
-        (node
-          (x 288)
-          (y 384)
-          (time 3)
-        )
-        (node
-          (x 256)
-          (y 384)
-          (time 2)
-        )
-      )
+      (path-ref "f6092e40-b202-40dd-a6d1-7f71bc618934")
     )
     (platform
       (running #f)
       (name "dropL2")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 320)
-          (y 352)
-          (time 0.5)
-        )
-        (node
-          (x 320)
-          (y 416)
-          (time 3)
-        )
-        (node
-          (x 256)
-          (y 416)
-          (time 2)
-        )
-      )
+      (path-ref "93338f66-b1da-40c9-b1cd-4d7a1cf19fa7")
     )
     (platform
       (running #f)
       (name "dropL3")
       (sprite "images/objects/platforms/wood-tiny.sprite")
-      (path
-        (node
-          (x 352)
-          (y 352)
-          (time 0.5)
-        )
-        (node
-          (x 352)
-          (y 448)
-          (time 3)
-        )
-        (node
-          (x 256)
-          (y 448)
-          (time 2)
-        )
-      )
+      (path-ref "8131e784-7b25-4fb7-83d5-13748c24f2e1")
     )
     (platform
       (running #f)
       (name "dropL4")
       (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "74866082-f93d-4690-9e86-caa65c7cd8dd")
+    )
+    (platform
+      (running #f)
+      (name "dropR1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "01c30779-1ec8-480a-bd3c-202069e01ec6")
+    )
+    (platform
+      (running #f)
+      (name "dropR2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "92468da5-4e1d-4b53-ae6b-63f8669e3228")
+    )
+    (platform
+      (running #f)
+      (name "dropR3")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "fc8153ae-d89a-4955-8505-6804f0e53dda")
+    )
+    (platform
+      (running #f)
+      (name "dropR4")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
+      (path-ref "ba4c44a7-17c4-48e0-8ba7-2f8e62222a32")
+    )
+    (platform
+      (running #f)
+      (name "holdtop")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "4e2ff57c-d250-4d15-8c8a-bba770ae2d0f")
+    )
+    (platform
+      (running #f)
+      (name "holdmid")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "3fdd55bf-783c-4d77-ba73-5e31a490a647")
+    )
+    (platform
+      (running #f)
+      (name "holdbot")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "fd5ef9d5-8937-4e2c-86db-0c7872193e15")
+    )
+    (platform
+      (running #f)
+      (name "cageA")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "e140fcbf-56bd-4318-942a-3d0b9b083160")
+    )
+    (platform
+      (running #f)
+      (name "cageB1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "65219b96-552e-468c-ad86-d9ea65b6aa6b")
+    )
+    (platform
+      (running #f)
+      (name "cageB2")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "4599be06-7e8f-4d12-87f7-9308c9bcaf4a")
+    )
+    (platform
+      (running #f)
+      (name "cageC1")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "c0314d35-6a2d-4e9f-994c-9458ae002357")
+    )
+    (platform
+      (running #f)
+      (name "cageC2")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "b6d03331-f955-49a9-9342-62a736800e9b")
+    )
+    (platform
+      (running #f)
+      (name "cageC3")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path-ref "e8122dc9-2773-457d-baa8-0d6a21c720b3")
+    )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "f6092e40-b202-40dd-a6d1-7f71bc618934")
+      (path
+        (node
+          (x 288)
+          (y 352)
+          (time 0.5)
+        )
+        (node
+          (x 288)
+          (y 384)
+          (time 3)
+        )
+        (node
+          (x 256)
+          (y 384)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "93338f66-b1da-40c9-b1cd-4d7a1cf19fa7")
+      (path
+        (node
+          (x 320)
+          (y 352)
+          (time 0.5)
+        )
+        (node
+          (x 320)
+          (y 416)
+          (time 3)
+        )
+        (node
+          (x 256)
+          (y 416)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "8131e784-7b25-4fb7-83d5-13748c24f2e1")
+      (path
+        (node
+          (x 352)
+          (y 352)
+          (time 0.5)
+        )
+        (node
+          (x 352)
+          (y 448)
+          (time 3)
+        )
+        (node
+          (x 256)
+          (y 448)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "74866082-f93d-4690-9e86-caa65c7cd8dd")
       (path
         (node
           (x 384)
@@ -107,10 +204,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "dropR1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "01c30779-1ec8-480a-bd3c-202069e01ec6")
       (path
         (node
           (x 512)
@@ -129,10 +224,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "dropR2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "92468da5-4e1d-4b53-ae6b-63f8669e3228")
       (path
         (node
           (x 480)
@@ -151,10 +244,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "dropR3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "fc8153ae-d89a-4955-8505-6804f0e53dda")
       (path
         (node
           (x 448)
@@ -173,10 +264,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "dropR4")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
+    (path
+      (name "ba4c44a7-17c4-48e0-8ba7-2f8e62222a32")
       (path
         (node
           (x 416)
@@ -195,10 +284,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "holdtop")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "4e2ff57c-d250-4d15-8c8a-bba770ae2d0f")
       (path
         (node
           (x 768)
@@ -212,10 +299,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "holdmid")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "3fdd55bf-783c-4d77-ba73-5e31a490a647")
       (path
         (node
           (x 768)
@@ -229,10 +314,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "holdbot")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "fd5ef9d5-8937-4e2c-86db-0c7872193e15")
       (path
         (node
           (x 768)
@@ -246,10 +329,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "cageA")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "e140fcbf-56bd-4318-942a-3d0b9b083160")
       (path
         (node
           (x 192)
@@ -263,10 +344,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "cageB1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "65219b96-552e-468c-ad86-d9ea65b6aa6b")
       (path
         (node
           (x 608)
@@ -280,10 +359,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "cageB2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "4599be06-7e8f-4d12-87f7-9308c9bcaf4a")
       (path
         (node
           (x 192)
@@ -297,10 +374,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "cageC1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "c0314d35-6a2d-4e9f-994c-9458ae002357")
       (path
         (node
           (x 608)
@@ -314,10 +389,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "cageC2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "b6d03331-f955-49a9-9342-62a736800e9b")
       (path
         (node
           (x 160)
@@ -331,10 +404,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "cageC3")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
+    (path
+      (name "e8122dc9-2773-457d-baa8-0d6a21c720b3")
       (path
         (node
           (x 640)
@@ -347,9 +418,6 @@
           (time 2)
         )
       )
-    )
-    (music
-      (file "music/chipdisko.ogg")
     )
     (powerup
       (sprite "images/powerups/1up/1up.sprite")

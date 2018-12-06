@@ -39,6 +39,41 @@
       (x 896)
       (y 544)
     )
+    (path
+      (name "c166c71b-17c5-4d9a-9183-b437dde94ec7")
+      (path
+        (node
+          (x 224)
+          (y 576)
+        )
+      )
+    )
+    (path
+      (name "3554a06e-9ade-421d-b5d0-ed582fbe4ce9")
+      (path
+        (node
+          (x 224)
+          (y 768)
+        )
+        (node
+          (x 224)
+          (y 576)
+        )
+        (node
+          (x 224)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "4aa5c773-3040-4e96-bf8b-94b189b45ad1")
+      (path
+        (node
+          (x 224)
+          (y 576)
+        )
+      )
+    )
     (scripttrigger
       (script "Tux.deactivate();
 if(state.easy){
@@ -120,12 +155,7 @@ Level.finish(false);")
       (solid #t)
       (z-pos 0)
       (name "Funnel")
-      (path
-        (node
-          (x 224)
-          (y 576)
-        )
-      )
+      (path-ref "c166c71b-17c5-4d9a-9183-b437dde94ec7")
       (width 26)
       (height 1)
       (tiles
@@ -238,20 +268,7 @@ Level.finish(false);")
       (solid #t)
       (z-pos 0)
       (name "tops")
-      (path
-        (node
-          (x 224)
-          (y 768)
-        )
-        (node
-          (x 224)
-          (y 576)
-        )
-        (node
-          (x 224)
-          (y 736)
-        )
-      )
+      (path-ref "3554a06e-9ade-421d-b5d0-ed582fbe4ce9")
       (width 26)
       (height 1)
       (tiles
@@ -262,12 +279,7 @@ Level.finish(false);")
       (solid #t)
       (z-pos 0)
       (name "funnel")
-      (path
-        (node
-          (x 224)
-          (y 576)
-        )
-      )
+      (path-ref "4aa5c773-3040-4e96-bf8b-94b189b45ad1")
       (width 26)
       (height 1)
       (tiles

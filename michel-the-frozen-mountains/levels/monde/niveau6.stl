@@ -67,6 +67,15 @@
     (music
       (file "music/cave.music")
     )
+    (path
+      (name "4970bf9f-c766-4957-82f8-d3cf187ad8a6")
+      (path
+        (node
+          (x 4960)
+          (y 0)
+        )
+      )
+    )
     (secretarea
       (fade-tilemap "cache1")
       (width 56)
@@ -283,12 +292,7 @@
       (solid #t)
       (z-pos 220)
       (name "cache1")
-      (path
-        (node
-          (x 4960)
-          (y 0)
-        )
-      )
+      (path-ref "4970bf9f-c766-4957-82f8-d3cf187ad8a6")
       (width 35)
       (height 25)
       (tiles

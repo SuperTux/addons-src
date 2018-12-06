@@ -89,6 +89,197 @@ Tower62.goto_node(1);
       (x 2241.625)
       (y 767.5)
     )
+    (path
+      (name "ae343b30-cf6e-4afb-b219-6d52a5ea3f61")
+      (path
+        (node
+          (x 1024)
+          (y 480)
+        )
+        (node
+          (x 1024)
+          (y 576)
+        )
+      )
+    )
+    (path
+      (name "37c97192-4813-4526-bbc3-cade0e1b3b7f")
+      (path
+        (node
+          (x 1088)
+          (y 672)
+        )
+        (node
+          (x 1120)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "7852cf9f-0d76-4c04-9422-fdc2e1917e63")
+      (path
+        (node
+          (x 1088)
+          (y 608)
+        )
+        (node
+          (x 1152)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "3b13e60a-ba3f-4cb8-9db7-a858b8f88088")
+      (path
+        (node
+          (x 1088)
+          (y 544)
+        )
+        (node
+          (x 1056)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "a550a4de-b3e0-4748-984c-da30e13c17d0")
+      (path
+        (node
+          (x 1088)
+          (y 512)
+        )
+        (node
+          (x 1024)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "0c5517bb-e6db-4cfa-91bc-5192a0171d7f")
+      (path
+        (node
+          (x 1088)
+          (y 480)
+        )
+        (node
+          (x 992)
+          (y 928)
+        )
+      )
+    )
+    (path
+      (name "d672dd8d-2189-47f0-918e-5f095d034321")
+      (path
+        (node
+          (x 1088)
+          (y 448)
+        )
+        (node
+          (x 1024)
+          (y 928)
+        )
+      )
+    )
+    (path
+      (name "3b1d5e96-54da-45a7-9268-2b3a49fdae9d")
+      (path
+        (node
+          (x 1280)
+          (y 672)
+        )
+        (node
+          (x 1248)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "e4737ee7-eca6-4ee6-8522-ce047c7b8531")
+      (path
+        (node
+          (x 1280)
+          (y 608)
+        )
+        (node
+          (x 1216)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "7269c469-2662-4f96-93ae-1c226a276478")
+      (path
+        (node
+          (x 1280)
+          (y 544)
+        )
+        (node
+          (x 1312)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "38704ebb-ce0f-4062-b43d-6fb358eea385")
+      (path
+        (node
+          (x 1280)
+          (y 512)
+        )
+        (node
+          (x 1344)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "c9055c25-1127-4fd7-a736-819670cfa666")
+      (path
+        (node
+          (x 1280)
+          (y 480)
+        )
+        (node
+          (x 1376)
+          (y 928)
+        )
+      )
+    )
+    (path
+      (name "af934b0d-897a-4b46-9ea8-765f2f6f12ab")
+      (path
+        (node
+          (x 1280)
+          (y 448)
+        )
+        (node
+          (x 1344)
+          (y 928)
+        )
+      )
+    )
+    (path
+      (name "b2282c52-98d4-4910-ae93-c2b1dc4f2fda")
+      (path
+        (node
+          (x 1088)
+          (y 480)
+        )
+        (node
+          (x 1088)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "d94eb49a-841c-457c-84f0-f5e65570e785")
+      (path
+        (node
+          (x 992)
+          (y 736)
+        )
+      )
+    )
     (snail
       (x 2)
       (y 867)
@@ -230,16 +421,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 1)
       (name "Tower0")
-      (path
-        (node
-          (x 1024)
-          (y 480)
-        )
-        (node
-          (x 1024)
-          (y 576)
-        )
-      )
+      (path-ref "ae343b30-cf6e-4afb-b219-6d52a5ea3f61")
       (width 11)
       (height 11)
       (tiles
@@ -260,16 +442,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 2)
       (name "Tower11")
-      (path
-        (node
-          (x 1088)
-          (y 672)
-        )
-        (node
-          (x 1120)
-          (y 800)
-        )
-      )
+      (path-ref "37c97192-4813-4526-bbc3-cade0e1b3b7f")
       (width 1)
       (height 2)
       (tiles
@@ -281,16 +454,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 4)
       (name "Tower21")
-      (path
-        (node
-          (x 1088)
-          (y 608)
-        )
-        (node
-          (x 1152)
-          (y 768)
-        )
-      )
+      (path-ref "7852cf9f-0d76-4c04-9422-fdc2e1917e63")
       (width 1)
       (height 2)
       (tiles
@@ -302,16 +466,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 6)
       (name "Tower31")
-      (path
-        (node
-          (x 1088)
-          (y 544)
-        )
-        (node
-          (x 1056)
-          (y 864)
-        )
-      )
+      (path-ref "3b13e60a-ba3f-4cb8-9db7-a858b8f88088")
       (width 1)
       (height 3)
       (tiles
@@ -324,16 +479,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 8)
       (name "Tower41")
-      (path
-        (node
-          (x 1088)
-          (y 512)
-        )
-        (node
-          (x 1024)
-          (y 896)
-        )
-      )
+      (path-ref "a550a4de-b3e0-4748-984c-da30e13c17d0")
       (width 1)
       (height 1)
       (tiles
@@ -344,16 +490,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 10)
       (name "Tower51")
-      (path
-        (node
-          (x 1088)
-          (y 480)
-        )
-        (node
-          (x 992)
-          (y 928)
-        )
-      )
+      (path-ref "0c5517bb-e6db-4cfa-91bc-5192a0171d7f")
       (width 1)
       (height 1)
       (tiles
@@ -364,16 +501,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 12)
       (name "Tower61")
-      (path
-        (node
-          (x 1088)
-          (y 448)
-        )
-        (node
-          (x 1024)
-          (y 928)
-        )
-      )
+      (path-ref "d672dd8d-2189-47f0-918e-5f095d034321")
       (width 1)
       (height 1)
       (tiles
@@ -384,16 +512,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 3)
       (name "Tower12")
-      (path
-        (node
-          (x 1280)
-          (y 672)
-        )
-        (node
-          (x 1248)
-          (y 800)
-        )
-      )
+      (path-ref "3b1d5e96-54da-45a7-9268-2b3a49fdae9d")
       (width 1)
       (height 2)
       (tiles
@@ -405,16 +524,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 5)
       (name "Tower22")
-      (path
-        (node
-          (x 1280)
-          (y 608)
-        )
-        (node
-          (x 1216)
-          (y 768)
-        )
-      )
+      (path-ref "e4737ee7-eca6-4ee6-8522-ce047c7b8531")
       (width 1)
       (height 2)
       (tiles
@@ -426,16 +536,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 7)
       (name "Tower32")
-      (path
-        (node
-          (x 1280)
-          (y 544)
-        )
-        (node
-          (x 1312)
-          (y 864)
-        )
-      )
+      (path-ref "7269c469-2662-4f96-93ae-1c226a276478")
       (width 1)
       (height 3)
       (tiles
@@ -448,16 +549,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 9)
       (name "Tower42")
-      (path
-        (node
-          (x 1280)
-          (y 512)
-        )
-        (node
-          (x 1344)
-          (y 896)
-        )
-      )
+      (path-ref "38704ebb-ce0f-4062-b43d-6fb358eea385")
       (width 1)
       (height 1)
       (tiles
@@ -468,16 +560,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 11)
       (name "Tower52")
-      (path
-        (node
-          (x 1280)
-          (y 480)
-        )
-        (node
-          (x 1376)
-          (y 928)
-        )
-      )
+      (path-ref "c9055c25-1127-4fd7-a736-819670cfa666")
       (width 1)
       (height 1)
       (tiles
@@ -488,16 +571,7 @@ Tower62.goto_node(1);
       (solid #t)
       (z-pos 13)
       (name "Tower62")
-      (path
-        (node
-          (x 1280)
-          (y 448)
-        )
-        (node
-          (x 1344)
-          (y 928)
-        )
-      )
+      (path-ref "af934b0d-897a-4b46-9ea8-765f2f6f12ab")
       (width 1)
       (height 1)
       (tiles
@@ -508,16 +582,7 @@ Tower62.goto_node(1);
       (solid #f)
       (z-pos 150)
       (name "TowerFront")
-      (path
-        (node
-          (x 1088)
-          (y 480)
-        )
-        (node
-          (x 1088)
-          (y 544)
-        )
-      )
+      (path-ref "b2282c52-98d4-4910-ae93-c2b1dc4f2fda")
       (width 7)
       (height 12)
       (tiles
@@ -540,12 +605,7 @@ Tower62.goto_node(1);
       (alpha 0)
       (z-pos 151)
       (name "CollapsedTowerFront")
-      (path
-        (node
-          (x 992)
-          (y 736)
-        )
-      )
+      (path-ref "d94eb49a-841c-457c-84f0-f5e65570e785")
       (width 13)
       (height 7)
       (tiles

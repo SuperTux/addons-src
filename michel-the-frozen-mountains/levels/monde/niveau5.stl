@@ -33,33 +33,13 @@
       (running #f)
       (name "porte1")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 6784)
-          (y 1088)
-          (time 2)
-        )
-        (node
-          (x 6784)
-          (y 992)
-          (time 2)
-        )
-      )
+      (path-ref "00166e04-05c3-4a89-b2bb-03a67afff309")
     )
     (platform
       (running #f)
       (name "porte")
       (sprite "images/objects/platforms/vertical-wood.sprite")
-      (path
-        (node
-          (x 1952)
-          (y 1280)
-        )
-        (node
-          (x 1952)
-          (y 1152)
-        )
-      )
+      (path-ref "11fa764e-50c1-4d7b-b3c2-dcb601fa04eb")
     )
     (ispy
       (script "if(support1.get_alpha() == 0){
@@ -440,6 +420,106 @@ play_sound(\"sounds/door.wav\");
     (music
       (file "music/chipdisko.ogg")
     )
+    (path
+      (name "00166e04-05c3-4a89-b2bb-03a67afff309")
+      (path
+        (node
+          (x 6784)
+          (y 1088)
+          (time 2)
+        )
+        (node
+          (x 6784)
+          (y 992)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "11fa764e-50c1-4d7b-b3c2-dcb601fa04eb")
+      (path
+        (node
+          (x 1952)
+          (y 1280)
+        )
+        (node
+          (x 1952)
+          (y 1152)
+        )
+      )
+    )
+    (path
+      (name "88686cbf-dbf7-4b06-9b34-5a17e251cef6")
+      (path
+        (node
+          (x 3360)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "a7198659-6b63-402c-a5df-747631ad37b1")
+      (path
+        (node
+          (x 672)
+          (y 1184)
+        )
+      )
+    )
+    (path
+      (name "a7712964-6eea-489e-89dd-abb37496c33d")
+      (path
+        (node
+          (x 4320)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "62e33c18-58ff-4a67-bc59-4240ede8666e")
+      (path
+        (node
+          (x 0)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "a72eb4f2-d06a-4af7-b993-aa60a7be9cdf")
+      (path
+        (node
+          (x 640)
+          (y 896)
+        )
+      )
+    )
+    (path
+      (name "fee80d02-b81f-4865-94f6-7c15b901c30c")
+      (path
+        (node
+          (x 896)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "b1fa8c8f-ee9c-482d-ae6b-ab6e97917c1f")
+      (path
+        (node
+          (x 896)
+          (y 1088)
+        )
+      )
+    )
+    (path
+      (name "f9e178d7-4613-4c6b-b922-001cd2ab1491")
+      (path
+        (node
+          (x 0)
+          (y 864)
+        )
+      )
+    )
     (rock
       (x 7520)
       (y 960)
@@ -753,12 +833,7 @@ porte.stop_moving();")
       (solid #t)
       (z-pos 120)
       (name "support1")
-      (path
-        (node
-          (x 3360)
-          (y 256)
-        )
-      )
+      (path-ref "88686cbf-dbf7-4b06-9b34-5a17e251cef6")
       (width 2)
       (height 1)
       (tiles
@@ -769,12 +844,7 @@ porte.stop_moving();")
       (solid #t)
       (z-pos 140)
       (name "support2")
-      (path
-        (node
-          (x 672)
-          (y 1184)
-        )
-      )
+      (path-ref "a7198659-6b63-402c-a5df-747631ad37b1")
       (width 5)
       (height 1)
       (tiles
@@ -972,12 +1042,7 @@ porte.stop_moving();")
       (solid #t)
       (z-pos 110)
       (name "cache1")
-      (path
-        (node
-          (x 4320)
-          (y 640)
-        )
-      )
+      (path-ref "a7712964-6eea-489e-89dd-abb37496c33d")
       (width 59)
       (height 30)
       (tiles
@@ -1017,12 +1082,7 @@ porte.stop_moving();")
       (solid #f)
       (z-pos -90)
       (name "arriere")
-      (path
-        (node
-          (x 0)
-          (y 0)
-        )
-      )
+      (path-ref "62e33c18-58ff-4a67-bc59-4240ede8666e")
       (width 300)
       (height 50)
       (tiles
@@ -1082,12 +1142,7 @@ porte.stop_moving();")
       (solid #t)
       (z-pos 130)
       (name "cache2")
-      (path
-        (node
-          (x 640)
-          (y 896)
-        )
-      )
+      (path-ref "a72eb4f2-d06a-4af7-b993-aa60a7be9cdf")
       (width 33)
       (height 18)
       (tiles
@@ -1115,12 +1170,7 @@ porte.stop_moving();")
       (solid #f)
       (z-pos -110)
       (name "mur")
-      (path
-        (node
-          (x 896)
-          (y 1088)
-        )
-      )
+      (path-ref "fee80d02-b81f-4865-94f6-7c15b901c30c")
       (width 40)
       (height 2)
       (tiles
@@ -1133,12 +1183,7 @@ porte.stop_moving();")
       (alpha 0)
       (z-pos -120)
       (name "barriere")
-      (path
-        (node
-          (x 896)
-          (y 1088)
-        )
-      )
+      (path-ref "b1fa8c8f-ee9c-482d-ae6b-ab6e97917c1f")
       (width 40)
       (height 2)
       (tiles
@@ -1150,12 +1195,7 @@ porte.stop_moving();")
       (solid #f)
       (z-pos 150)
       (name "cache3")
-      (path
-        (node
-          (x 0)
-          (y 864)
-        )
-      )
+      (path-ref "f9e178d7-4613-4c6b-b922-001cd2ab1491")
       (width 30)
       (height 20)
       (tiles

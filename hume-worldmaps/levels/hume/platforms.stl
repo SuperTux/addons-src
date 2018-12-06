@@ -26,6 +26,113 @@
     )
     (platform
       (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "53265aa7-04e8-4d6d-802a-dc199b54c03d")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "5b448ed5-e2f3-4c51-b139-44a93ace957e")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "9c42c178-066d-458d-a249-5b38d9768fd2")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "bdcb146e-8795-4d7e-bd70-2e97eaf4d8c5")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "ec70bd3b-e191-40ae-b3a4-5d41b9fba6a7")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "8ac86d8e-8da0-48da-8483-06f8e7b2238b")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "92c2f90f-b3f0-430c-ba87-0f0c3145dc6b")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "f0b5e5e4-88e9-4288-95d0-c12afbf4b3c7")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "1aa9c6d1-e89a-4acc-8335-1c22edadaa91")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "f0699874-36b3-4159-9145-c5b0e60ed4c1")
+    )
+    (platform
+      (running #f)
+      (name "a")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "f7cfd146-f391-4579-99cf-ca39c8dd701c")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "01a64681-7ae0-4cc4-b389-949c6371a95c")
+    )
+    (platform
+      (running #f)
+      (name "b")
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "3f053651-1029-423a-93ad-64c2c31ab9c8")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "4e535627-be4a-4cb5-a095-21c1581e131b")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "49b4dfd0-7d03-4638-b677-74fe4a55d6bc")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "ade1ef5c-e21d-416b-89b4-fc0b8db5350e")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "21ae2f52-810e-40f9-8e2f-68e167acc93c")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "42256a1f-b867-48ef-ab37-8607edd09322")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "74270d03-6f17-4e70-b36e-4a4228ffcc1f")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "59caf0a2-114e-4459-8166-11297d67da37")
+    )
+    (platform
+      (sprite "images/objects/platforms/icefloe.sprite")
+      (path-ref "79aa78b1-28dd-4abf-bcad-421d3c5c84cd")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "8007af51-45e8-487d-8f2a-256e13882162")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "309fa3af-086f-4f2b-9550-ba8001b289ba")
+    )
+    (platform
+      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "384fde93-a979-4f99-bd03-f046e8367061")
+    )
+    (gradient
+      (top_color 0 1 0)
+      (bottom_color 0 1 0)
+    )
+    (music
+      (file "music/cave.ogg")
+    )
+    (path
+      (name "53265aa7-04e8-4d6d-802a-dc199b54c03d")
       (path
         (node
           (x 1408)
@@ -39,8 +146,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "5b448ed5-e2f3-4c51-b139-44a93ace957e")
       (path
         (node
           (x 2112)
@@ -54,8 +161,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "9c42c178-066d-458d-a249-5b38d9768fd2")
       (path
         (node
           (x 1984)
@@ -69,8 +176,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "bdcb146e-8795-4d7e-bd70-2e97eaf4d8c5")
       (path
         (node
           (x 1888)
@@ -82,8 +189,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "ec70bd3b-e191-40ae-b3a4-5d41b9fba6a7")
       (path
         (node
           (x 1632)
@@ -97,8 +204,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "8ac86d8e-8da0-48da-8483-06f8e7b2238b")
       (path
         (node
           (x 2304)
@@ -110,8 +217,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "92c2f90f-b3f0-430c-ba87-0f0c3145dc6b")
       (path
         (node
           (x 2784)
@@ -123,8 +230,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "f0b5e5e4-88e9-4288-95d0-c12afbf4b3c7")
       (path
         (node
           (x 1405.732)
@@ -159,8 +266,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "1aa9c6d1-e89a-4acc-8335-1c22edadaa91")
       (path
         (node
           (x 2720)
@@ -188,8 +295,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "f0699874-36b3-4159-9145-c5b0e60ed4c1")
       (path
         (node
           (x 2496)
@@ -209,10 +316,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "a")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "f7cfd146-f391-4579-99cf-ca39c8dd701c")
       (path
         (node
           (x 1184)
@@ -244,8 +349,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "01a64681-7ae0-4cc4-b389-949c6371a95c")
       (path
         (node
           (x 768)
@@ -271,10 +376,8 @@
         )
       )
     )
-    (platform
-      (running #f)
-      (name "b")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "3f053651-1029-423a-93ad-64c2c31ab9c8")
       (path
         (node
           (x 128)
@@ -326,8 +429,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "4e535627-be4a-4cb5-a095-21c1581e131b")
       (path
         (node
           (x 832)
@@ -341,8 +444,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "49b4dfd0-7d03-4638-b677-74fe4a55d6bc")
       (path
         (node
           (x 1632)
@@ -350,8 +453,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "ade1ef5c-e21d-416b-89b4-fc0b8db5350e")
       (path
         (node
           (x 2176)
@@ -359,8 +462,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "21ae2f52-810e-40f9-8e2f-68e167acc93c")
       (path
         (node
           (x 1952)
@@ -368,8 +471,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "42256a1f-b867-48ef-ab37-8607edd09322")
       (path
         (node
           (x 1696)
@@ -377,8 +480,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "74270d03-6f17-4e70-b36e-4a4228ffcc1f")
       (path
         (node
           (x 2176)
@@ -386,8 +489,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
+    (path
+      (name "59caf0a2-114e-4459-8166-11297d67da37")
       (path
         (node
           (x 1824)
@@ -395,8 +498,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
+    (path
+      (name "79aa78b1-28dd-4abf-bcad-421d3c5c84cd")
       (path
         (node
           (x 2080)
@@ -404,8 +507,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "8007af51-45e8-487d-8f2a-256e13882162")
       (path
         (node
           (x 1888)
@@ -413,8 +516,8 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "309fa3af-086f-4f2b-9550-ba8001b289ba")
       (path
         (node
           (x 1824)
@@ -422,21 +525,14 @@
         )
       )
     )
-    (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+    (path
+      (name "384fde93-a979-4f99-bd03-f046e8367061")
       (path
         (node
           (x 1920)
           (y 2496)
         )
       )
-    )
-    (gradient
-      (top_color 0 1 0)
-      (bottom_color 0 1 0)
-    )
-    (music
-      (file "music/cave.ogg")
     )
     (secretarea
       (width 604)

@@ -101,6 +101,42 @@
     (music
       (file "music/bonuscave.ogg")
     )
+    (path
+      (name "fa6205d2-7576-4580-8c23-24ece52d5025")
+      (path
+        (node
+          (x 128)
+          (y 224)
+        )
+      )
+    )
+    (path
+      (name "e0f06d3b-ddc1-45cc-8f07-49ef6cbfda39")
+      (path
+        (node
+          (x 608)
+          (y 560)
+        )
+      )
+    )
+    (path
+      (name "4cbfcbed-9b04-4230-9de9-b6b70fa68dd2")
+      (path
+        (node
+          (x 800)
+          (y 560)
+        )
+      )
+    )
+    (path
+      (name "07ea0515-bf56-4c90-b102-a488da6d3192")
+      (path
+        (node
+          (x 992)
+          (y 560)
+        )
+      )
+    )
     (pushbutton
       (script "  delete_progress();
         show_shop_rewards();  ")
@@ -623,12 +659,7 @@
       (solid #t)
       (z-pos 100)
       (name "reset")
-      (path
-        (node
-          (x 128)
-          (y 224)
-        )
-      )
+      (path-ref "fa6205d2-7576-4580-8c23-24ece52d5025")
       (width 6)
       (height 9)
       (tiles
@@ -647,12 +678,7 @@
       (solid #t)
       (z-pos 100)
       (name "ONE")
-      (path
-        (node
-          (x 608)
-          (y 560)
-        )
-      )
+      (path-ref "e0f06d3b-ddc1-45cc-8f07-49ef6cbfda39")
       (width 2)
       (height 2)
       (tiles
@@ -664,12 +690,7 @@
       (solid #t)
       (z-pos 100)
       (name "TWO")
-      (path
-        (node
-          (x 800)
-          (y 560)
-        )
-      )
+      (path-ref "4cbfcbed-9b04-4230-9de9-b6b70fa68dd2")
       (width 2)
       (height 2)
       (tiles
@@ -681,12 +702,7 @@
       (solid #t)
       (z-pos 100)
       (name "THREE")
-      (path
-        (node
-          (x 992)
-          (y 560)
-        )
-      )
+      (path-ref "07ea0515-bf56-4c90-b102-a488da6d3192")
       (width 2)
       (height 2)
       (tiles
