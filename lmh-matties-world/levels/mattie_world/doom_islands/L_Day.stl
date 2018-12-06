@@ -6,14 +6,15 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "  import(\"levels/mattie_world/doom_islands/random.nut\");
     Recycle1.start_moving();
     Recycle2.start_moving();
     Recycle3.start_moving();
     Recycle4.start_moving();
     set_random_level(true); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.3)
       (image "images/background/fog.png")
@@ -122,6 +123,9 @@
     (smartball
       (x 8976)
       (y 384)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (powerup
       (sprite "images/powerups/1up/1up.sprite")

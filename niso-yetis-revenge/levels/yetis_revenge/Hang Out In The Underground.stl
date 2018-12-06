@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script " display_fishbox(\"hang\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 1)
       (image-top "images/background/black_800px.png")
@@ -185,6 +186,9 @@ block.set_alpha(0);
     (mriceblock
       (x 1153)
       (y 710)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (powerup
       (script "this.c1 <- true

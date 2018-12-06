@@ -5,8 +5,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/airship_remix.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "bottom")
       (speed 0.13)
@@ -401,6 +402,9 @@
     (smartball
       (x 7008)
       (y 256)
+    )
+    (music
+      (file "music/airship_remix.ogg")
     )
     (secretarea
       (width 192)

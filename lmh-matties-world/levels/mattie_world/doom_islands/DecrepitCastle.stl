@@ -6,9 +6,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/ghostforest.ogg")
     (init-script "    primed <- false; stable <- true; crash <- true;  ")
-    (ambient-light 0.6 0.6 0.6)
+    (ambient-light
+      (color 0.6 0.6 0.6)
+    )
     (background
       (speed 1.3)
       (image "images/background/fog.png")
@@ -43,6 +44,9 @@
     (icecrusher
       (x 416)
       (y 352)
+    )
+    (music
+      (file "music/ghostforest.ogg")
     )
     (rock
       (x 1484)
@@ -826,9 +830,10 @@
   )
   (sector
     (name "dark")
-    (music "music/ghostforest.ogg")
     (init-script "  burning <- false;    ")
-    (ambient-light 0.05 0.05 0.05)
+    (ambient-light
+      (color 0.05 0.05 0.05)
+    )
     (camera
       (mode "normal")
     )
@@ -1121,6 +1126,9 @@
       (x 4992)
       (y 160)
     )
+    (music
+      (file "music/ghostforest.ogg")
+    )
     (scripttrigger
       (script "  if(!burning){candle1.set_burning(true);candle2.set_burning(false);}  ")
       (button #f)
@@ -1356,9 +1364,10 @@
   )
   (sector
     (name "ghost")
-    (music "music/ghostforest.ogg")
     (init-script "  kill1<-false;kill2<-false;kill3<-false;  yeti.set_action(\"stand-left\");  ")
-    (ambient-light 0.3 0.3 0.3)
+    (ambient-light
+      (color 0.3 0.3 0.3)
+    )
     (bonusblock
       (script "")
       (count 0)
@@ -1440,6 +1449,9 @@
     (gradient
       (top_color 0 0.1 0.05)
       (bottom_color 0 0.1 0.05)
+    )
+    (music
+      (file "music/ghostforest.ogg")
     )
     (rock
       (x 2400)

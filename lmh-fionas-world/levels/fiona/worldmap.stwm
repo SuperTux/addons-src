@@ -6,14 +6,18 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/salcon.ogg")
     (init-script "import(\"levels/fiona/underground.nut\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (decal
       (z-pos 100)
       (sprite "images/worldmap/common/boat/boat_empty.png")
       (x 1024)
       (y 352)
+    )
+    (music
+      (file "music/salcon.ogg")
     )
     (special-tile
       (map-message (_ "Outside"))

@@ -6,9 +6,10 @@
   (target-time 20)
   (sector
     (name "main")
-    (music "music/greatgigantic.ogg")
     (init-script "    ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (script "")
       (contents "firegrow")
@@ -77,6 +78,9 @@
     (mriceblock
       (x 2560)
       (y 640)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (scripttrigger
       (script "  Tux.deactivate();
@@ -509,14 +513,18 @@
   )
   (sector
     (name "pipe")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
     (gradient
       (top_color 0 0 0)
       (bottom_color 0 0 0)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "  Level.spawn(\"main\", \"outpipe\");")

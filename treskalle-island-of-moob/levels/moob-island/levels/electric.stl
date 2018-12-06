@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/greatgigantic.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -57,6 +58,9 @@
     (mriceblock
       (x 9632)
       (y 544)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (secretarea
       (width 72)

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forest3.ogg")
-    (ambient-light 0.5080644 0.5080644 0.5080644)
+    (ambient-light
+      (color 0.5080644 0.5080644 0.5080644)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -58,6 +59,9 @@
       (speed 8)
       (x 5483)
       (y 512)
+    )
+    (music
+      (file "music/forest3.ogg")
     )
     (particles-rain
     )

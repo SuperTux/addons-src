@@ -13,7 +13,9 @@ Platform5.start_moving();
 Platform6.start_moving();
 wait(0.4);
 Platform1.start_moving();")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")

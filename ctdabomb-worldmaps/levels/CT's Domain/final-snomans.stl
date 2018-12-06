@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/worldmap_tux.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -91,6 +92,9 @@
     (smartball
       (x 3811)
       (y 230)
+    )
+    (music
+      (file "music/worldmap_tux.ogg")
     )
     (scripttrigger
       (script "down.goto_node(120)

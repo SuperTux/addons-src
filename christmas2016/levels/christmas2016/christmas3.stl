@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "/music/voc-night.music")
-    (ambient-light 0.6 0.7 0.8)
+    (ambient-light
+      (color 0.6 0.7 0.8)
+    )
     (bonusblock
       (script "")
       (count 5)
@@ -251,6 +252,9 @@
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 15104)
       (y 736)
+    )
+    (music
+      (file "/music/voc-night.music")
     )
     (secretarea
       (fade-tilemap "secret")

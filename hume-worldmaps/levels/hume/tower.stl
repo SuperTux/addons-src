@@ -7,7 +7,9 @@
     (name "main")
     (init-script "import(\"levels/hume/defualt.nut\")
 unlock_archivement(\"a\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -269,7 +271,9 @@ unlock_archivement(\"a\")")
   )
   (sector
     (name "tower")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1312,8 +1316,9 @@ unlock_archivement(\"a\")")
   )
   (sector
     (name "sky")
-    (music "music/wisphunt.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1683,6 +1688,9 @@ unlock_archivement(\"a\")")
     (mriceblock
       (x 6176)
       (y 832)
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (scripttrigger
       (script "platform.goto_node(18)")

@@ -5,8 +5,9 @@
   (license "CC BY-SA 4.0+")
   (sector
     (name "main")
-    (music "music/fortress.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/nightsky_top.png")
@@ -111,6 +112,9 @@
     (mriceblock
       (x 5633)
       (y 518)
+    )
+    (music
+      (file "music/fortress.music")
     )
     (snowball
       (x 3366)

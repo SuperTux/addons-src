@@ -5,8 +5,9 @@
   (license "CC-BY-SA 4.0 International")
   (sector
     (name "main")
-    (music "/music/forest2.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (scroll-speed-x 0)
       (scroll-speed-y 0)
@@ -209,6 +210,9 @@
       (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
       (x 8278.1)
       (y 933.1)
+    )
+    (music
+      (file "/music/forest2.ogg")
     )
     (poisonivy
       (direction "left")

@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/ghostforest.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (sprite "images/creatures/fatbat/fatbat.sprite")
       (x 5446)
@@ -262,6 +263,9 @@
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 9443)
       (y 870)
+    )
+    (music
+      (file "music/ghostforest.ogg")
     )
     (secretarea
       (fade-tilemap "Tilemap")

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -20,6 +21,9 @@
       (message (_ "II'm on south Pole of Earth and this teleport teleporting to north Pole of Earth and in Arctica is the crystalcave. In this crystalcave is a key from Nolok's second castle, I must find it"))
       (x 2400)
       (y 832)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"arcta\",\"main\")")
@@ -174,8 +178,9 @@
   )
   (sector
     (name "arcta")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
@@ -209,6 +214,9 @@
     (jumpy
       (x 1376)
       (y 352)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"iglu\")")
@@ -395,8 +403,9 @@
   )
   (sector
     (name "cave")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/semi_arctic.jpg")
@@ -433,6 +442,9 @@
     (mriceblock
       (x 2016)
       (y 0)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"incave\",\"main\")")
@@ -607,8 +619,9 @@
   )
   (sector
     (name "incave")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -641,6 +654,9 @@
     (crystallo
       (x 2080)
       (y 864)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"cave\",\"mkin\")")

@@ -5,12 +5,13 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/greatgigantic.ogg")
     (init-script "  nearback.start_moving();
                 hidden2 <- true;
                 running <- false;
                         ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (custom-contents
          (powerup           (sprite "levels/mattie_world/images/powerups/badflower/badflower.sprite")
@@ -318,6 +319,9 @@
       (sprite "images/creatures/crystallo/crystallo-smart.sprite")
       (x 1696)
       (y 960)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (scripttrigger
       (script "      Tux.deactivate();
@@ -1311,14 +1315,18 @@
   )
   (sector
     (name "pipe")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
     (gradient
       (top_color 0 0 0)
       (bottom_color 0 0 0)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "       Level.spawn(\"main\", \"outpipe\");     ")

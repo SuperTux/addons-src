@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -32,6 +33,9 @@
 #You can use this tree to warp back."))
       (x 1984)
       (y 2944)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "secret_area(\"sa29\")")
@@ -548,14 +552,18 @@
   )
   (sector
     (name "secret")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
     (gradient
       (top_color 0 1 0)
       (bottom_color 0 1 0)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "import(\"levels/hume_rainbow_cave/defualt.nut\")
@@ -676,9 +684,10 @@ warp_to(\"main\",\"c\")")
   )
   (sector
     (name "inside")
-    (music "music/ghostforest2.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1217,6 +1226,9 @@ warp_to(\"main\",\"c\")")
       (x -608)
       (y 1568)
     )
+    (music
+      (file "music/ghostforest2.ogg")
+    )
     (scripttrigger
       (script "warp_to(\"inside\",\"b\")")
       (button #t)
@@ -1721,9 +1733,10 @@ warp_to(\"main\",\"c\")")
   )
   (sector
     (name "top")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1735,6 +1748,9 @@ warp_to(\"main\",\"c\")")
       (message (_ "#Welcome on the top of tree!"))
       (x 160)
       (y 416)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "warp_to(\"inside\",\"c\")")

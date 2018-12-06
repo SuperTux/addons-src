@@ -5,8 +5,9 @@
   (license "CC BY-SA 4.0+")
   (sector
     (name "main")
-    (music "music/fortress.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
@@ -93,6 +94,9 @@
     (smartball
       (x 5431)
       (y 368)
+    )
+    (music
+      (file "music/fortress.music")
     )
     (sspiky
       (x 4678)

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/snowcastle.png")
@@ -170,6 +171,9 @@
     (mriceblock
       (x 1793)
       (y 1446)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (powerup
       (script "levelflip();")

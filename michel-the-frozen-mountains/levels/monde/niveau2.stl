@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "grotte")
-    (music "music/ghostforest.ogg")
-    (ambient-light 0.7400015 0.7400015 0.7400015)
+    (ambient-light
+      (color 0.7400015 0.7400015 0.7400015)
+    )
     (camera
       (mode "normal")
     )
@@ -505,6 +506,9 @@ Tux.activate();")
     (mrbomb
       (x 15781)
       (y 744)
+    )
+    (music
+      (file "music/ghostforest.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"fin\", \"main\");")
@@ -1233,8 +1237,9 @@ Tux.activate();")
   )
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -1270,6 +1275,9 @@ Tux.activate();")
     (smartball
       (x 3395)
       (y 934)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "if(orinterdit.get_alpha() == 1.0){
@@ -1629,8 +1637,9 @@ Tux.activate();")
   )
   (sector
     (name "fin")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -1936,6 +1945,9 @@ Tux.activate();")
     (smartball
       (x 3395)
       (y 262)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (sequencetrigger
       (sequence "endsequence")

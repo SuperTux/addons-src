@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/ghostforest.music")
-    (ambient-light 0.4354772 0.4354772 0.4354772)
+    (ambient-light
+      (color 0.4354772 0.4354772 0.4354772)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -198,6 +199,9 @@
       (color 1 1 1)
       (x 1568)
       (y 320)
+    )
+    (music
+      (file "music/ghostforest.music")
     )
     (powerup
       (script "levelflip();")
@@ -764,9 +768,10 @@
   )
   (sector
     (name "two")
-    (music "music/greatgigantic.music")
     (gravity 8)
-    (ambient-light 1 0.397467 0.397467)
+    (ambient-light
+      (color 1 0.397467 0.397467)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -779,6 +784,9 @@
     (firefly
       (x 96)
       (y 224)
+    )
+    (music
+      (file "music/greatgigantic.music")
     )
     (scripttrigger
       (script "levelflip();")

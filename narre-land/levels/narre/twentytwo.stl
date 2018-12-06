@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -208,6 +209,9 @@
     (mriceblock
       (x 2496)
       (y 0)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "Text.fade_out(1)")
@@ -559,8 +563,9 @@ kokot2.goto_node(1)")
   )
   (sector
     (name "jiji")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -697,6 +702,9 @@ kokot2.goto_node(1)")
     (mole
       (x 768)
       (y 928)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "Effect.fade_out(1)

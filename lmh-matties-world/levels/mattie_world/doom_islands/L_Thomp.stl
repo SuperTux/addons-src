@@ -5,9 +5,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/mattie_world/scripts/blue_coins_three.nut\");")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.25)
       (image "images/background/nightsky_top.png")
@@ -180,6 +181,9 @@
 !levels/mattie_world/images/decal/explanations/info_bluecoin_3.png"))
       (x 224)
       (y 384)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (powerup
       (script "find_coin(\"coin1\");	")

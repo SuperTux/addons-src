@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-dark.music")
-    (ambient-light 0.4901961 0.4901961 0.4901961)
+    (ambient-light
+      (color 0.4901961 0.4901961 0.4901961)
+    )
     (camera
       (mode "normal")
     )
@@ -191,6 +192,9 @@
     (mrbomb
       (x 7461)
       (y 904)
+    )
+    (music
+      (file "music/voc-dark.music")
     )
     (scripttrigger
       (script "platform.start_moving();")

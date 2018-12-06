@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/ghostforest2.ogg")
-    (ambient-light 0.3467765 0.3467765 0.3467765)
+    (ambient-light
+      (color 0.3467765 0.3467765 0.3467765)
+    )
     (camera
       (mode "normal")
     )
@@ -451,6 +452,9 @@
     (mrbomb
       (x 5376)
       (y 544)
+    )
+    (music
+      (file "music/ghostforest2.ogg")
     )
     (skullyhop
       (x 10816)

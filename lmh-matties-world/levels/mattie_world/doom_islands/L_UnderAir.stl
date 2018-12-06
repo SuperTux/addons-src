@@ -5,9 +5,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "    ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "bottom")
       (speed 0.25)
@@ -221,6 +222,9 @@
     (smartball
       (x 4064)
       (y 704)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "  wait(  1.5  );
@@ -545,9 +549,10 @@
   )
   (sector
     (name "inside")
-    (music "music/bonuscave.ogg")
     (init-script "  piston.start_moving();  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -819,6 +824,9 @@
         )
       )
     )
+    (music
+      (file "music/bonuscave.ogg")
+    )
     (secretarea
       (width 192)
       (height 192)
@@ -927,7 +935,9 @@
   )
   (sector
     (name "cannondeck")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -2285,8 +2295,9 @@
   )
   (sector
     (name "clouds")
-    (music "music/salcon.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -2295,6 +2306,9 @@
     (gradient
       (top_color 1 1 0)
       (bottom_color 0 1 1)
+    )
+    (music
+      (file "music/salcon.ogg")
     )
     (scripttrigger
       (script "  wait(  0.1  );

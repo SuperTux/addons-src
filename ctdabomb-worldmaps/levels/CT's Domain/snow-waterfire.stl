@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -238,6 +239,9 @@
     (smartball
       (x 4803)
       (y 486)
+    )
+    (music
+      (file "music/fortress.music")
     )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")

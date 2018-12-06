@@ -5,8 +5,9 @@
   (license "CC-BY-SA")
   (sector
     (name "main")
-    (music "/music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (scroll-speed-x 0)
       (scroll-speed-y 0)
@@ -169,6 +170,9 @@
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 6395)
       (y 561)
+    )
+    (music
+      (file "/music/chipdisko.ogg")
     )
     (secretarea
       (fade-tilemap "s1")

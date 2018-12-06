@@ -6,8 +6,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forest3.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (angrystone
       (x 110)
       (y -32)
@@ -93,6 +94,9 @@
     (jumpy
       (x 1312)
       (y 1504)
+    )
+    (music
+      (file "music/forest3.ogg")
     )
     (scripttrigger
       (script "  wait(  6  );

@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.music")
     (init-script " display_fishbox(\"end\");")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/black_800px.png")
@@ -2814,6 +2815,9 @@
       (x 2625)
       (y 614)
     )
+    (music
+      (file "music/fortress.music")
+    )
     (powerup
       (script "bigpress.stop_moving();
 play_sound(\"sounds/countdown5s.ogg\");
@@ -4792,9 +4796,10 @@ lava1.start_moving()")
   )
   (sector
     (name "press")
-    (music "music/wisphunt.ogg")
     (init-script " display_fishbox(\"end\"); ")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/black_800px.png")
@@ -4818,6 +4823,9 @@ lava1.start_moving()")
     (gradient
       (top_color 0.01568628 0.09411765 0.1098039)
       (bottom_color 0 0 0 0)
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (scripttrigger
       (script "Interactive.start_moving();
@@ -5151,9 +5159,10 @@ spikes1.start_moving();")
   )
   (sector
     (name "Refridgerator")
-    (music "music/wisphunt.ogg")
     (init-script " display_fishbox(\"end\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/black_800px.png")
@@ -5375,6 +5384,9 @@ spikes1.start_moving();")
     (smartball
       (x 419)
       (y 646)
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (scripttrigger
       (script "sp1.start_moving();
@@ -6019,7 +6031,9 @@ sp3.start_moving();")
   (sector
     (name "Questionmark")
     (init-script " display_fishbox(\"end\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -7037,9 +7051,10 @@ Level_spawn(\"Spooky\",\"main\");")
   )
   (sector
     (name "Spooky")
-    (music "music/wisphunt.ogg")
     (init-script " display_fishbox(\"end\"); ")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/black_800px.png")
@@ -7157,6 +7172,9 @@ Level_spawn(\"Spooky\",\"main\");")
     (lantern
       (x 656.5649)
       (y 1299.435)
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (scripttrigger
       (script "f5.set_alpha(0)")

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-night.music")
-    (ambient-light 0.4699321 0.2619364 0.2669108)
+    (ambient-light
+      (color 0.4699321 0.2619364 0.2669108)
+    )
     (camera
       (mode "normal")
     )
@@ -431,6 +432,9 @@
     (smartball
       (x 579)
       (y 422)
+    )
+    (music
+      (file "music/voc-night.music")
     )
     (rock
       (x 1824)

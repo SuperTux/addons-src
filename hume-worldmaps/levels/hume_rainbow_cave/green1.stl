@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 1984)
       (y 608)
@@ -130,6 +131,9 @@
     (mriceblock
       (x 2240)
       (y 736)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"to_sa_24\")")

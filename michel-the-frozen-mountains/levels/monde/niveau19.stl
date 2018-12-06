@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-bottom.png")
@@ -164,6 +165,9 @@
     (smartball
       (x 1283)
       (y 1190)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (secretarea
       (fade-tilemap "cache")
@@ -1863,8 +1867,9 @@
   )
   (sector
     (name "grotte")
-    (music "music/cave.ogg")
-    (ambient-light 0.7400015 0.7400015 0.7400015)
+    (ambient-light
+      (color 0.7400015 0.7400015 0.7400015)
+    )
     (background
       (speed 0.4)
       (image-top "images/background/arctis_bottom.jpg")
@@ -1953,6 +1958,9 @@ porte.goto_node(1);
     (mrbomb
       (x 741)
       (y 328)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (snowball
       (x 483)

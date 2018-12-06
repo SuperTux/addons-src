@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/salcon.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.2)
       (image "images/background/arctis2.png")
@@ -85,6 +86,9 @@
     (mriceblock
       (x 6881)
       (y 902)
+    )
+    (music
+      (file "music/salcon.ogg")
     )
     (sequencetrigger
       (sequence "endsequence")

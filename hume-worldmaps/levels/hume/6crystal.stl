@@ -5,10 +5,11 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
     (init-script "import(\"levels/hume/defualt.nut\")
 unlock_archivement(\"m\")")
-    (ambient-light 0.2509804 0.5019608 0.5019608)
+    (ambient-light
+      (color 0.2509804 0.5019608 0.5019608)
+    )
     (camera
       (mode "normal")
     )
@@ -727,6 +728,9 @@ unlock_archivement(\"m\")")
       (color 1 1 1)
       (x 1056)
       (y 768)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (scripttrigger
       (script "if(! (\"can5\" in this)){
@@ -1565,8 +1569,9 @@ Level.spawn(\"secret\",\"main\");}")
   )
   (sector
     (name "secret")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1645,6 +1650,9 @@ Level.spawn(\"secret\",\"main\");}")
     (gradient
       (top_color 0.5019608 1 1)
       (bottom_color 0.5019608 1 1)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (secretarea
       (width 60)

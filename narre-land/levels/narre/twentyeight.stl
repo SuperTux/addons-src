@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/ghostforest2.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/rolling-bottom.jpg")
@@ -54,6 +55,9 @@
     (mrtree
       (x 768)
       (y 736)
+    )
+    (music
+      (file "music/ghostforest2.ogg")
     )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")
@@ -528,8 +532,9 @@ koukot.fade(0,1)")
   )
   (sector
     (name "zpatky")
-    (music "music/ghostforest2.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -568,6 +573,9 @@ koukot.fade(0,1)")
     (mrtree
       (x 2560)
       (y 800)
+    )
+    (music
+      (file "music/ghostforest2.ogg")
     )
     (particles-rain
       (z-pos 200)

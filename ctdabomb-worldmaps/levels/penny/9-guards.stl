@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/black_800px.png")
@@ -167,6 +168,9 @@
     (mrbomb
       (x 6117)
       (y 872)
+    )
+    (music
+      (file "music/fortress.music")
     )
     (sspiky
       (x 4070)

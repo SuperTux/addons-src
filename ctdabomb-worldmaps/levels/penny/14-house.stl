@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "comp")
-    (music "music/battle_theme.music")
-    (ambient-light 0.3306477 0.3306477 0.3306477)
+    (ambient-light
+      (color 0.3306477 0.3306477 0.3306477)
+    )
     (background
       (speed 0.5)
       (image "images/background/black_800px.png")
@@ -38,6 +39,9 @@
           (y 832)
         )
       )
+    )
+    (music
+      (file "music/battle_theme.music")
     )
     (scripttrigger
       (script "Tux.deactivate();
@@ -247,8 +251,9 @@ Level.finish(true);")
   )
   (sector
     (name "main")
-    (music "music/battle_theme.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -263,6 +268,9 @@ Level.finish(true);")
       (spawnpoint "main")
       (x 1216)
       (y 960)
+    )
+    (music
+      (file "music/battle_theme.music")
     )
     (secretarea
       (width 32)
@@ -415,8 +423,9 @@ Level.finish(true);")
   )
   (sector
     (name "inside")
-    (music "music/battle_theme.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -533,6 +542,9 @@ Level.finish(true);")
     (mrbomb
       (x 3781)
       (y 936)
+    )
+    (music
+      (file "music/battle_theme.music")
     )
     (short_fuse
       (x 361)

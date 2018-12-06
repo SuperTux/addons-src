@@ -6,8 +6,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-daytime.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -50,6 +51,9 @@
     (livefire_dormant
       (x 1668.1)
       (y 580.1)
+    )
+    (music
+      (file "music/voc-daytime.ogg")
     )
     (poisonivy
       (x 930)

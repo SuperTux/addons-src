@@ -5,7 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -247,8 +249,9 @@ now.goto_node(1)")
   )
   (sector
     (name "idot")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -272,6 +275,9 @@ now.goto_node(1)")
           (y 160)
         )
       )
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"main\")")
@@ -441,8 +447,9 @@ pizza.goto_node(0)")
   )
   (sector
     (name "ichtyl")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -451,6 +458,9 @@ pizza.goto_node(0)")
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (powerup
       (script "Level.spawn(\"NewSector\",\"end\")")
@@ -628,8 +638,9 @@ pizza.goto_node(0)")
   )
   (sector
     (name "idotik")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -638,6 +649,9 @@ pizza.goto_node(0)")
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"main\")")
@@ -1223,7 +1237,9 @@ pizza.goto_node(0)")
   )
   (sector
     (name "conti")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1478,8 +1494,9 @@ kokot.goto_node(1)")
   )
   (sector
     (name "les")
-    (music "music/forest2.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -2055,6 +2072,9 @@ kokot.goto_node(1)")
     (mole
       (x 2784)
       (y 192)
+    )
+    (music
+      (file "music/forest2.ogg")
     )
     (rock
       (x 3040)

@@ -7,9 +7,10 @@
   (target-time 40)
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "import(\"levels/mattie_world/scripts/blue_coins_three.nut\");")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (script "drop4.set_alpha(0);")
       (contents "firegrow")
@@ -181,6 +182,9 @@
     (smartball
       (x 1632)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (powerup
       (script "drop1.set_alpha(0);

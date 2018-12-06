@@ -5,10 +5,11 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
     (init-script "dungeon <- false;
       skulltrap <- true;")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis_dark.jpg")
@@ -200,6 +201,9 @@
     (mriceblock
       (x 2016)
       (y 512)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (scripttrigger
       (script "if(skulltrap){
@@ -401,9 +405,10 @@
   )
   (sector
     (name "lava")
-    (music "music/fortress.ogg")
     (init-script "  bridge <- true;  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1552,6 +1557,9 @@
       (x 2656)
       (y 160)
     )
+    (music
+      (file "music/fortress.ogg")
+    )
     (pushbutton
       (script "  P.goto_node(1);
         wait(  0.1  );
@@ -2035,11 +2043,12 @@
   )
   (sector
     (name "elevator")
-    (music "music/fortress.ogg")
     (init-script "dungeon <- false;
       hidden <- true;
       down <- true;")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
@@ -2145,6 +2154,9 @@
           (time 3)
         )
       )
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (scripttrigger
       (script "if(dungeon){
@@ -2941,9 +2953,10 @@
   )
   (sector
     (name "dungeon")
-    (music "music/fortress.ogg")
     (init-script "  KillMachine.goto_node(1);  find(\"tcdungeon\");  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -5418,6 +5431,9 @@
     (mrbomb
       (x 3200)
       (y 288)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"lava\", \"dungeon\");  ")

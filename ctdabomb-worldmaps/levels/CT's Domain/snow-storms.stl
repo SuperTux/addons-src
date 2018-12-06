@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/wisphunt.ogg")
-    (ambient-light 0.2177462 0.2177462 0.2177462)
+    (ambient-light
+      (color 0.2177462 0.2177462 0.2177462)
+    )
     (ambient_sound
       (sample "sounds/thunder.wav")
       (distance_factor 0)
@@ -100,6 +101,9 @@
     (smartball
       (x 8739)
       (y 582)
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (particles-rain
     )

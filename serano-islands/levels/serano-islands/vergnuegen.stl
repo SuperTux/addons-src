@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0)
       (image-top "images/background/arcticskies1.png")
@@ -80,6 +81,9 @@
     (mriceblock
       (x 7456)
       (y 448)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (secretarea
       (width 124)

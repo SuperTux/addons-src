@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 0.6248722 0.8215915 0.1575189)
+    (ambient-light
+      (color 0.6248722 0.8215915 0.1575189)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -50,6 +51,9 @@
       (message (_ "vAnd where to go now?"))
       (x 2016)
       (y 96)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"hills\",\"main\")")
@@ -224,8 +228,9 @@
   )
   (sector
     (name "hills")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -294,6 +299,9 @@
     (mriceblock
       (x 3136)
       (y 1472)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (sequencetrigger
       (sequence "endsequence")

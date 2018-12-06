@@ -7,9 +7,10 @@
   (target-time 60)
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "import(\"levels/mattie_world/scripts/blue_coins_five.nut\");")
-    (ambient-light 0.7686275 1 1)
+    (ambient-light
+      (color 0.7686275 1 1)
+    )
     (bonusblock
       (script "")
       (count 3)
@@ -446,6 +447,9 @@
     (smartball
       (x 5699)
       (y 518)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (powerup
       (script "find_coin(\"coin2\");")
@@ -923,9 +927,10 @@
   )
   (sector
     (name "flipside")
-    (music "music/clavelian_march.ogg")
     (init-script "import(\"levels/mattie_world/scripts/blue_coins_five.nut\");")
-    (ambient-light 1 0.5019608 0.5019608)
+    (ambient-light
+      (color 1 0.5019608 0.5019608)
+    )
     (background
       (speed 2)
       (image "images/background/fog.png")
@@ -1757,6 +1762,9 @@
     (livefire_dormant
       (x 5568)
       (y 512)
+    )
+    (music
+      (file "music/clavelian_march.ogg")
     )
     (powerup
       (script "find_coin(\"coin1\")")

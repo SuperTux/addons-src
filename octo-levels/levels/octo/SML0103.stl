@@ -6,7 +6,9 @@
   (sector
     (name "main")
     (init-script "Flowers.start_moving();")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
@@ -367,7 +369,9 @@ Elevator2Flag <- true;")
   )
   (sector
     (name "Secret1")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
@@ -479,7 +483,9 @@ Elevator2Flag <- true;")
   )
   (sector
     (name "Secret2")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")

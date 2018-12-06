@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
@@ -250,6 +251,9 @@
       (x 4547)
       (y 230)
     )
+    (music
+      (file "music/cave.ogg")
+    )
     (scripttrigger
       (script "Level.spawn (\"bonus\", \"main\");")
       (button #f)
@@ -486,14 +490,18 @@
   )
   (sector
     (name "bonus")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "Level.spawn (\"main\", \"bout\");")

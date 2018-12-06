@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/wisphunt.ogg")
     (init-script " display_fishbox(\"lotus\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.2)
       (image-top "/images/background/nightsky_top.png")
@@ -1158,6 +1159,9 @@
     (jumpy
       (x 5919.739)
       (y 958.1407)
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (powerup
       (script "this.c5 <- true

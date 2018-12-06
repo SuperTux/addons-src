@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/greatgigantic.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (angrystone
       (x 1856)
       (y 512)
@@ -316,6 +317,9 @@ NoWayBack.goto_node(1)")
     (smartball
       (x 6947)
       (y 1606)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (scripttrigger
       (script "Elevator.goto_node(1)

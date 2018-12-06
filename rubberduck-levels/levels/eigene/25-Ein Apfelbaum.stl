@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/airship_remix.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (angrystone
       (x 2944)
       (y 1856)
@@ -187,6 +188,9 @@
     (mrtree
       (x 3168)
       (y 3486)
+    )
+    (music
+      (file "music/airship_remix.ogg")
     )
     (poisonivy
       (x 1230.716)
@@ -1178,8 +1182,9 @@
   )
   (sector
     (name "Apfel1")
-    (music "music/treeboss.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1232,6 +1237,9 @@
       (speed 1.75)
       (x 2208)
       (y 640)
+    )
+    (music
+      (file "music/treeboss.ogg")
     )
     (spawnpoint
       (name "main")

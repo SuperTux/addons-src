@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/voc-night.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0)
       (image-top "images/background/nightsky_top.png")
@@ -46,6 +47,9 @@
     (mriceblock
       (x 10016)
       (y 224)
+    )
+    (music
+      (file "music/voc-night.ogg")
     )
     (secretarea
       (width 360)

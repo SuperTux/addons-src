@@ -5,7 +5,6 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script " display_fishbox(\"reaching\");
     for(;;)
 { 
@@ -58,7 +57,9 @@ away1.set_alpha(1);
 away2.set_alpha(0);
 wait(0.6);
 }; ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (direction "right")
       (x 1153)
@@ -859,6 +860,9 @@ wait(0.6);
     (jumpy
       (x 1223)
       (y 1928)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (powerup
       (script "find_fish(\"reaching\")")

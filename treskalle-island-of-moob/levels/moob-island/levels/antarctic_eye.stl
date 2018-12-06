@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 0.6187228 0.5909514 0.5909514)
+    (ambient-light
+      (color 0.6187228 0.5909514 0.5909514)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -92,6 +93,9 @@
     (smartball
       (x 3715)
       (y 294)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (particles-rain
     )
@@ -549,8 +553,9 @@
   )
   (sector
     (name "HiddenChamber")
-    (music "music/greatgigantic.ogg")
-    (ambient-light 0.233875 0.233875 0.233875)
+    (ambient-light
+      (color 0.233875 0.233875 0.233875)
+    )
     (background
       (speed 0.1)
       (image "images/background/snowcastle.png")
@@ -579,6 +584,9 @@
       (spawnpoint "AfterChamber")
       (x 776)
       (y 572)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (spawnpoint
       (name "main")

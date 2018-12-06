@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forest.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -394,6 +395,9 @@
       (x 2880)
       (y 640)
     )
+    (music
+      (file "music/forest.ogg")
+    )
     (scripttrigger
       (script "hovno.goto_node(1)
 hovno2.goto_node(1)")
@@ -666,7 +670,9 @@ houbeles.goto_node(1)")
   )
   (sector
     (name "level")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")

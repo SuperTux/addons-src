@@ -6,9 +6,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "  import(\"levels/mattie_world/doom_islands/sky.nut\");  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.3)
       (image "images/background/fog.png")
@@ -223,6 +224,9 @@
     (smartball
       (x 512)
       (y 0)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scriptedobject
       (z-pos 0)

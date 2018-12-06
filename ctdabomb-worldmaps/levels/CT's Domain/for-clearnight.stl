@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (gravity 9)
-    (ambient-light 0.6429237 0.6151369 0.6151369)
+    (ambient-light
+      (color 0.6429237 0.6151369 0.6151369)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/nightsky_top.png")
@@ -101,6 +102,9 @@
     (mole
       (x 243)
       (y 1056)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (poisonivy
       (x 4098)

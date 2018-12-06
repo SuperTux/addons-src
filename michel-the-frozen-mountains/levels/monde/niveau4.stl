@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "caverne")
-    (music "music/cave.music")
-    (ambient-light 0.7400015 0.7400015 0.7400015)
+    (ambient-light
+      (color 0.7400015 0.7400015 0.7400015)
+    )
     (background
       (speed 0.4)
       (image-top "images/background/arctis_bottom.jpg")
@@ -663,6 +664,9 @@ porte1.goto_node(1);
     (smartball
       (x 6723)
       (y 966)
+    )
+    (music
+      (file "music/cave.music")
     )
     (scripttrigger
       (script "Foreground.set_alpha(1);
@@ -1465,8 +1469,9 @@ porte1.goto_node(0);
   )
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -1499,6 +1504,9 @@ porte1.goto_node(0);
     (smartball
       (x 1507)
       (y 806)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (sequencetrigger
       (sequence "endsequence")

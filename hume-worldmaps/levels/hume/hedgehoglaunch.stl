@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 0.05 0.05 0.05)
+    (ambient-light
+      (color 0.05 0.05 0.05)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -15,6 +16,9 @@
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"secoundhalf\", \"main\");")
@@ -411,13 +415,14 @@
   )
   (sector
     (name "secoundhalf")
-    (music "music/chipdisko.ogg")
     (init-script "levelflip();
               wait(0.5);
               dokudseneotoci.stop()
               azseotoci.start()
               settings.set_ambient_light(1,1,1)")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -426,6 +431,9 @@
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"boss\", \"main\");")
@@ -718,8 +726,9 @@
   )
   (sector
     (name "boss")
-    (music "music/treeboss.music")
-    (ambient-light 0.05333334 0.05333334 0.05333334)
+    (ambient-light
+      (color 0.05333334 0.05333334 0.05333334)
+    )
     (background
       (speed 0.5)
       (image "images/background/nightsky_top.png")
@@ -768,6 +777,9 @@
       (color 0 0 0)
       (x 1040)
       (y 148)
+    )
+    (music
+      (file "music/treeboss.music")
     )
     (scripttrigger
       (script "platform1.goto_node(1);")

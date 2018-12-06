@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -74,6 +75,9 @@
     (lantern
       (x 176)
       (y 104)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (poisonivy
       (x 3810)

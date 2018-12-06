@@ -5,7 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -400,8 +402,9 @@ Level.spawn(\"boom\",\"main\")")
   )
   (sector
     (name "boom")
-    (music "sounds/explosion.wav")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -409,6 +412,9 @@ Level.spawn(\"boom\",\"main\")")
       (top_color 1 0.1457694 0)
       (bottom_color 1 0.145098 0)
       (z-pos 500)
+    )
+    (music
+      (file "sounds/explosion.wav")
     )
     (scripttrigger
       (script "Tux.kill(true)")
@@ -558,7 +564,9 @@ Level.spawn(\"boom\",\"main\")")
   )
   (sector
     (name "next")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")

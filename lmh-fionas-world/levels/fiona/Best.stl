@@ -6,8 +6,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forest.ogg")
-    (ambient-light 0.9000076 0.9000076 0.9000076)
+    (ambient-light
+      (color 0.9000076 0.9000076 0.9000076)
+    )
     (bonusblock
       (script "")
       (x 11328)
@@ -319,6 +320,9 @@
       (color 1 0 0)
       (x 4224)
       (y 832)
+    )
+    (music
+      (file "music/forest.ogg")
     )
     (poisonivy
       (x 2882)
@@ -696,8 +700,9 @@
   )
   (sector
     (name "secret")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -714,6 +719,9 @@
       (spawnpoint "secret")
       (x 512)
       (y 416)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (rock
       (x 960)

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/greatgigantic.music")
-    (ambient-light 0.3467765 0.3467765 0.3467765)
+    (ambient-light
+      (color 0.3467765 0.3467765 0.3467765)
+    )
     (background
       (speed 0.5)
       (image "images/background/BlueRock_Forest/blue-top.jpg")
@@ -61,6 +62,9 @@
     (mrtree
       (x 1376)
       (y 798)
+    )
+    (music
+      (file "music/greatgigantic.music")
     )
     (poisonivy
       (x 7618)

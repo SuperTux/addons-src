@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/ghostforest2.ogg")
     (init-script "import(\"levels/hume/defualt.nut\");unlock_archivement(\"s\")")
-    (ambient-light 0.5019608 0.5019608 0.5019608)
+    (ambient-light
+      (color 0.5019608 0.5019608 0.5019608)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/ghostforest.jpg")
@@ -95,6 +96,9 @@
     (mrtree
       (x 4608)
       (y 960)
+    )
+    (music
+      (file "music/ghostforest2.ogg")
     )
     (poisonivy
       (x 3328)
@@ -389,8 +393,9 @@
   )
   (sector
     (name "secret")
-    (music "music/bonuscave.ogg")
-    (ambient-light 0.2509804 0.2509804 0.2509804)
+    (ambient-light
+      (color 0.2509804 0.2509804 0.2509804)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -408,6 +413,9 @@
           (y 672)
         )
       )
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"secret\")")

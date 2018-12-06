@@ -5,9 +5,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "  woodready <- false;  ")
-    (ambient-light 0.53 0.53 0.53)
+    (ambient-light
+      (color 0.53 0.53 0.53)
+    )
     (bonusblock
       (script "")
       (count 3)
@@ -195,6 +196,9 @@
     (smartball
       (x 4768)
       (y 1088)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"clouds\", \"main\");")
@@ -609,9 +613,10 @@ uppipe2.start();")
   )
   (sector
     (name "clouds")
-    (music "music/salcon.ogg")
     (init-script "  find(\"secrets\");  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -620,6 +625,9 @@ uppipe2.start();")
     (gradient
       (top_color 0 1 1)
       (bottom_color 0 0 1)
+    )
+    (music
+      (file "music/salcon.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\", \"sky\");")

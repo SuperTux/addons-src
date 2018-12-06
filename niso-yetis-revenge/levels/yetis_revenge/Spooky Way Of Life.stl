@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/ghostforest.ogg")
     (init-script " display_fishbox(\"spooky\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 1)
       (image-top "images/background/snowcastle.png")
@@ -175,6 +176,9 @@
       (height 408)
       (x 4256)
       (y -364)
+    )
+    (music
+      (file "music/ghostforest.ogg")
     )
     (powerup
       (script "find_fish(\"spooky\");")
@@ -583,9 +587,10 @@
   )
   (sector
     (name "main2")
-    (music "music/ghostforest.ogg")
     (init-script " display_fishbox(\"spooky\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 1)
       (image-top "images/background/snowcastle.png")
@@ -2776,6 +2781,9 @@
       (x 3424)
       (y -32)
     )
+    (music
+      (file "music/ghostforest.ogg")
+    )
     (scripttrigger
       (script "someblocks.set_alpha(1);")
       (button #f)
@@ -3421,9 +3429,10 @@ exitblock.set_alpha(0);")
   )
   (sector
     (name "bonus1")
-    (music "music/bonuscave.ogg")
     (init-script " display_fishbox(\"spooky\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 1)
       (image-top "images/background/snowcastle.png")
@@ -3457,6 +3466,9 @@ exitblock.set_alpha(0);")
     )
     (particles-ghosts
       (z-pos 401)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (powerup
       (script "this.c1 <- true
@@ -3738,9 +3750,10 @@ play_sound(\"sounds/lifeup.wav\");
   )
   (sector
     (name "main3")
-    (music "music/ghostforest.ogg")
     (init-script " display_fishbox(\"spooky\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 1)
       (image-top "images/background/snowcastle.png")
@@ -3774,6 +3787,9 @@ play_sound(\"sounds/lifeup.wav\");
     )
     (particles-ghosts
       (z-pos 401)
+    )
+    (music
+      (file "music/ghostforest.ogg")
     )
     (skullyhop
       (x 768)

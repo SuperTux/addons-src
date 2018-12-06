@@ -6,8 +6,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -377,6 +378,9 @@
       (x 4643)
       (y 422)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
     (powerup
       (script "Tux.add_bonus(\"fireflower\");
 play_sound(\"sounds/fire-flower.wav\");
@@ -610,8 +614,9 @@ out.stop();")
   )
   (sector
     (name "secret")
-    (music "music/bonuscave.ogg")
-    (ambient-light 0.05098039 0.05098039 0.05098039)
+    (ambient-light
+      (color 0.05098039 0.05098039 0.05098039)
+    )
     (camera
       (mode "normal")
     )
@@ -632,6 +637,9 @@ out.stop();")
     (gradient
       (top_color 1 0 0)
       (bottom_color 0.01960784 0.01960784 0.01960784)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (powerup
       (sprite "images/powerups/1up/1up.sprite")

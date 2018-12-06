@@ -5,7 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -173,8 +175,9 @@
   )
   (sector
     (name "cave")
-    (music "music/cave.ogg")
-    (ambient-light 0.1545434 0.1545434 0.1545434)
+    (ambient-light
+      (color 0.1545434 0.1545434 0.1545434)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -454,6 +457,9 @@
     (mriceblock
       (x 10745.76)
       (y 501.7336)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"hovno\")")

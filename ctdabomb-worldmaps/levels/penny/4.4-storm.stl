@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 0.4032196 0.4032196 0.4032196)
+    (ambient-light
+      (color 0.4032196 0.4032196 0.4032196)
+    )
     (background
       (speed 0.5)
       (image "images/background/semi_arctic.jpg")
@@ -179,6 +180,9 @@
     (smartball
       (x 4931)
       (y 326)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (particles-rain
     )

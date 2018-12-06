@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main2")
-    (music "music/fortress.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -216,6 +217,9 @@
     (mrbomb
       (x 12096)
       (y 416)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (secretarea
       (width 92)
@@ -535,8 +539,9 @@
   )
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -571,6 +576,9 @@
     (mrbomb
       (x 384)
       (y 224)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (secretarea
       (fade-tilemap "versteck")

@@ -5,13 +5,14 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forest2.ogg")
     (init-script "  background.start_moving();
     foreground.start_moving();
     sinage.start_moving();
     floaters.start_moving();
     float2.start_moving();  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 13)
       (image "images/background/nightsky_top.png")
@@ -31,6 +32,9 @@
     (mrtree
       (x 8928)
       (y 256)
+    )
+    (music
+      (file "music/forest2.ogg")
     )
     (poisonivy
       (x 1276)

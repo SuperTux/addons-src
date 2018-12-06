@@ -5,8 +5,9 @@
   (license "CC-BY-SA 4.0 International")
   (sector
     (name "main")
-    (music "music/forest.ogg")
-    (ambient-light 0.6941177 0.6392157 0.6392157)
+    (ambient-light
+      (color 0.6941177 0.6392157 0.6392157)
+    )
     (background
       (alignment "top")
       (speed 0.5)
@@ -103,6 +104,9 @@
     (mrtree
       (x 7040)
       (y 798)
+    )
+    (music
+      (file "music/forest.ogg")
     )
     (poisonivy
       (x 2530)

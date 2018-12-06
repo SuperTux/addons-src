@@ -4,8 +4,9 @@
   (author "UnNamed")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis.jpg")
@@ -109,6 +110,9 @@
     (mriceblock
       (x 570)
       (y 110)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (snowball
       (x 5967)

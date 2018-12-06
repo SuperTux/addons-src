@@ -5,8 +5,9 @@
   (license "CC-BY-SA 4.0 International")
   (sector
     (name "main")
-    (music "/music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (scroll-speed-x 0)
       (scroll-speed-y 0)
@@ -158,6 +159,9 @@
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 610)
       (y 620)
+    )
+    (music
+      (file "/music/chipdisko.ogg")
     )
     (sequencetrigger
       (sequence "endsequence")

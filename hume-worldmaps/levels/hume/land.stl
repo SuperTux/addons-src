@@ -5,13 +5,14 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forest2.ogg")
     (init-script "import(\"levels/hume/defualt.nut\")
 unlock_archivement(\"ae\")
 unlock_archivement(\"af\")
 bottles <- 0
 ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -20,6 +21,9 @@ bottles <- 0
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/forest2.ogg")
     )
     (powerup
       (script "bottles <- bottles+1

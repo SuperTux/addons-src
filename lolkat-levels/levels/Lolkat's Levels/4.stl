@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -136,6 +137,9 @@
       (color 1 0 0)
       (x 2736)
       (y 392)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (sspiky
       (x 1318)

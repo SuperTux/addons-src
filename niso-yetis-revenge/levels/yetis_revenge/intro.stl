@@ -5,10 +5,11 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/intro.ogg")
     (init-script "  Tux.add_bonus(\"grow\");
 ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -40,6 +41,9 @@
     (gradient
       (top_color 0.5285572 0.9293813 0.8984207)
       (bottom_color 1 1 1)
+    )
+    (music
+      (file "music/intro.ogg")
     )
     (scripttrigger
       (script "Tux.deactivate();

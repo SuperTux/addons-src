@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/voc-daytime2.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis2.png")
@@ -68,6 +69,9 @@
     (mriceblock
       (x 1600)
       (y 384)
+    )
+    (music
+      (file "music/voc-daytime2.ogg")
     )
     (sspiky
       (x 1376)

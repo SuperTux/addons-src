@@ -6,8 +6,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 0.6 0.6 0.6)
+    (ambient-light
+      (color 0.6 0.6 0.6)
+    )
     (bonusblock
       (script "count_one.fade(0,3);")
       (count 0)
@@ -197,6 +198,9 @@
     (smartball
       (x 2659)
       (y 70)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (owl
       (x 4078)

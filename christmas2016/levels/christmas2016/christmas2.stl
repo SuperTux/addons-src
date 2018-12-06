@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "/music/voc-daytime2.music")
-    (ambient-light 1 0.87 0.8999999)
+    (ambient-light
+      (color 1 0.87 0.8999999)
+    )
     (bonusblock
       (script "")
       (count 5)
@@ -330,6 +331,9 @@
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 7712)
       (y 960)
+    )
+    (music
+      (file "/music/voc-daytime2.music")
     )
     (pushbutton
       (script "door.goto_node(1);")

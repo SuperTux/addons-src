@@ -5,7 +5,6 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script "wood.fade(0,1)
 wait(2)
 wood.fade(1,1)
@@ -5847,7 +5846,9 @@ wait(2)
 wood.fade(1,1)
 wait(2)
 ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -5861,6 +5862,9 @@ wait(2)
       (message (_ "TThese are spikes that after pressing the button always disappear for a while, in this case it is 10 seconds."))
       (x 544)
       (y 96)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "hovno.fade(0,1)
@@ -60874,8 +60878,9 @@ spike.fade(1,2)")
   )
   (sector
     (name "NewSector")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -60923,6 +60928,9 @@ spike.fade(1,2)")
       (message (_ ""))
       (x 2240)
       (y -192)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"up\",\"main\")")
@@ -61129,8 +61137,9 @@ spike.fade(1,1)")
   )
   (sector
     (name "up")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -61143,6 +61152,9 @@ spike.fade(1,1)")
     (firefly
       (x 384)
       (y 896)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"up\",\"up\")")

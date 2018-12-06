@@ -5,9 +5,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
     (init-script "artready <- true;  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis_dark.jpg")
@@ -43,6 +44,9 @@
     (mrbomb
       (x 1280)
       (y 512)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (scriptedobject
       (z-pos 0)
@@ -379,8 +383,9 @@ gallery.fade(0,3);")
   )
   (sector
     (name "dungeon")
-    (music "music/fortress.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 4161)
       (y 480)
@@ -2831,6 +2836,9 @@ gallery.fade(0,3);")
     (mrbomb
       (x 2661)
       (y 392)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"elevator\");")

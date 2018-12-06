@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -57,6 +58,9 @@
     (jumpy
       (x 704)
       (y 896)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (powerup
       (sprite "images/powerups/star/star.sprite")
@@ -282,8 +286,9 @@
   )
   (sector
     (name "darkc")
-    (music "music/cave.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -351,6 +356,9 @@
     (jumpy
       (x 768)
       (y 544)
+    )
+    (music
+      (file "music/cave.music")
     )
     (spawnpoint
       (name "main")
@@ -564,8 +572,9 @@
   )
   (sector
     (name "spatky")
-    (music "music/cave.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -594,6 +603,9 @@
     (crystallo
       (x 928)
       (y 1056)
+    )
+    (music
+      (file "music/cave.music")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"idot\")")

@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/voc-dark.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
@@ -125,6 +126,9 @@
     (mriceblock
       (x 7936)
       (y 608)
+    )
+    (music
+      (file "music/voc-dark.ogg")
     )
     (secretarea
       (width 168)

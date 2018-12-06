@@ -5,11 +5,12 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/invincible.ogg")
     (init-script "import(\"levels/hume/defualt.nut\")
 unlock_archivement(\"s\")
 unlock_archivement(\"t\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -196,6 +197,9 @@ unlock_archivement(\"t\")")
           (time 0.5)
         )
       )
+    )
+    (music
+      (file "music/invincible.ogg")
     )
     (scripttrigger
       (script "while (true){

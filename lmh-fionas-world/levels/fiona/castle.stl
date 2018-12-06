@@ -6,9 +6,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/darkforestkeep.ogg")
     (init-script "if(false) Level.spawn(\"coop\",\"test\");")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (script "if(lifts.get_alpha()==1){
 lifts.goto_node(1);
@@ -84,6 +85,9 @@ lifts.set_alpha(0);
     (jumpy
       (x 1924)
       (y 520)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (powerup
       (script "play_sound(\"sounds/darthit.wav\");
@@ -431,8 +435,9 @@ drop.goto_node(5);")
   )
   (sector
     (name "dungeon")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 0.3000076 0.3000076 0.3000076)
+    (ambient-light
+      (color 0.3000076 0.3000076 0.3000076)
+    )
     (background
       (speed 1)
       (image "images/background/fog.png")
@@ -757,6 +762,9 @@ drop.goto_node(5);")
       (x 5860.1)
       (y 580.1)
     )
+    (music
+      (file "music/darkforestkeep.ogg")
+    )
     (scriptedobject
       (z-pos -40)
       (physic-enabled #f)
@@ -1051,8 +1059,9 @@ drop.goto_node(5);")
   )
   (sector
     (name "elevator")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1174,6 +1183,9 @@ drop.goto_node(5);")
       (direction "left")
       (x 868.1)
       (y 1348.1)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "lift.goto_node(1);
@@ -3151,8 +3163,9 @@ floaters.set_alpha(0);")
   )
   (sector
     (name "coop")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 0.6 0.6 0.6)
+    (ambient-light
+      (color 0.6 0.6 0.6)
+    )
     (camera
       (mode "normal")
     )
@@ -3370,6 +3383,9 @@ floaters.set_alpha(0);")
       (color 1 1 1)
       (x 4192)
       (y 960)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (pneumatic-platform
       (sprite "images/objects/platforms/wood-fivetiles.sprite")
@@ -3823,8 +3839,9 @@ play_music(\"music/bossattack.ogg\");")
   )
   (sector
     (name "treasure")
-    (music "music/theme.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (script "")
       (count 5)
@@ -3849,6 +3866,9 @@ play_music(\"music/bossattack.ogg\");")
     (gradient
       (top_color 1 0.4 1)
       (bottom_color 1 1 0.4)
+    )
+    (music
+      (file "music/theme.ogg")
     )
     (secretarea
       (width 124)

@@ -5,7 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -344,7 +346,9 @@
   )
   (sector
     (name "game")
-    (ambient-light 0.3563287 0.2081788 0.2081788)
+    (ambient-light
+      (color 0.3563287 0.2081788 0.2081788)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1075,7 +1079,9 @@
   )
   (sector
     (name "hajzl")
-    (ambient-light 0.1532311 0.1532311 0.1532311)
+    (ambient-light
+      (color 0.1532311 0.1532311 0.1532311)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1390,7 +1396,9 @@
   )
   (sector
     (name "idiot")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1561,7 +1569,9 @@
   )
   (sector
     (name "NewSector")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")

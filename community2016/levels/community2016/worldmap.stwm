@@ -5,8 +5,12 @@
   (license "CC-BY-SA 4.0 International")
   (sector
     (name "main")
-    (music "/music/salcon.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
+    (music
+      (file "/music/salcon.ogg")
+    )
     (sprite-change
       (change-on-touch #t)
       (stay-action "")

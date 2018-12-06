@@ -626,7 +626,9 @@ Door.goto_node(1);
 wait(7);
 
 ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )

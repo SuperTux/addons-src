@@ -5,7 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (ambient-light 0.1529412 0.1529412 0.1529412)
+    (ambient-light
+      (color 0.1529412 0.1529412 0.1529412)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -1086,7 +1088,9 @@
   )
   (sector
     (name "mainovec")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1278,8 +1282,9 @@
   )
   (sector
     (name "zima")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -1293,6 +1298,9 @@
       (message (_ "TThis is teleport iggloo, sometimes replaces teleport-tree at Antarctica"))
       (x 1408)
       (y 64)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"mainovec\",\"pitomec\")")

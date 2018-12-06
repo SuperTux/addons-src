@@ -10,7 +10,9 @@ Platform0.start_moving();
 Platform2.start_moving();
 wait(5.0);
 Platform1.start_moving();")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "autoscroll")
       (path

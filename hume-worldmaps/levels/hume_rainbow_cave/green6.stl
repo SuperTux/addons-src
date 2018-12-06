@@ -5,15 +5,19 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/bossattack.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 0 0.5019608 0)
+    (ambient-light
+      (color 0 0.5019608 0)
+    )
     (camera
       (mode "normal")
     )
     (gradient
       (top_color 0 1 0)
       (bottom_color 0 1 0)
+    )
+    (music
+      (file "music/bossattack.ogg")
     )
     (scriptedobject
       (name "wheel1")

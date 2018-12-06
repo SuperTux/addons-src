@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
     (init-script "prazdnokey.set_action(\"outline\")")
-    (ambient-light 1 0.5740749 0.5740749)
+    (ambient-light
+      (color 1 0.5740749 0.5740749)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/snowcastle.png")
@@ -53,6 +54,9 @@ II must use the key from CrystalCave..."))
     (mrbomb
       (x 2848)
       (y 576)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (scriptedobject
       (physic-enabled #f)
@@ -364,8 +368,9 @@ play_sound(\"sounds/locked.ogg\")
   )
   (sector
     (name "castle")
-    (music "music/fortress.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -510,6 +515,9 @@ play_sound(\"sounds/locked.ogg\")
     (smartball
       (x 3552)
       (y 32)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"end\")")

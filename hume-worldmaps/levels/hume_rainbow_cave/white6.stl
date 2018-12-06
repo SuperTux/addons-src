@@ -5,11 +5,12 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")
 wait(60)
 finish_level_group(\"white\",\"w6\")")
-    (ambient-light 0.5019608 0.5019608 0.5019608)
+    (ambient-light
+      (color 0.5019608 0.5019608 0.5019608)
+    )
     (background
       (speed 0.5)
     )
@@ -137,6 +138,9 @@ finish_level_group(\"white\",\"w6\")")
     (gradient
       (top_color 1 1 1)
       (bottom_color 1 1 1)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (spawnpoint
       (name "main")

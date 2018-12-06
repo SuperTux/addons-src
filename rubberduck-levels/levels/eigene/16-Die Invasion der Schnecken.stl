@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
-    (ambient-light 0.6070954 0.3099565 0.1688106)
+    (ambient-light
+      (color 0.6070954 0.3099565 0.1688106)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -419,6 +420,9 @@
     (mrbomb
       (x 3840)
       (y 2336)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (secretarea
       (width 140)

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 0.9750057 0.9750057 0.9750057)
+    (ambient-light
+      (color 0.9750057 0.9750057 0.9750057)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/forest2.jpg")
@@ -159,6 +160,9 @@
     (mrtree
       (x 6912)
       (y 574)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (poisonivy
       (x 7394)

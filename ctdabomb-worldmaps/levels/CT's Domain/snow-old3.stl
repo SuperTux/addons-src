@@ -4,8 +4,9 @@
   (author "")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 9195)
       (y 350)
@@ -193,6 +194,9 @@
     (mriceblock
       (x 2535)
       (y 87)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (snowball
       (x 6669)

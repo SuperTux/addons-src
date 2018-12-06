@@ -5,8 +5,9 @@
   (license "CC BY-SA 4.0+")
   (sector
     (name "main")
-    (music "music/wisphunt.music")
-    (ambient-light 0.3000076 0.3000076 0.3000076)
+    (ambient-light
+      (color 0.3000076 0.3000076 0.3000076)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
@@ -216,6 +217,9 @@
     (smartball
       (x 4899)
       (y 614)
+    )
+    (music
+      (file "music/wisphunt.music")
     )
     (smartblock
       (x 5313)

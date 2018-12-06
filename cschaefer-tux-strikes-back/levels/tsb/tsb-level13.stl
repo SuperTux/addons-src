@@ -5,8 +5,9 @@
   (license "CC BY-SA 4.0+")
   (sector
     (name "main")
-    (music "music/voc-daytime2.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
@@ -121,6 +122,9 @@
     (mriceblock
       (x 1352)
       (y 407)
+    )
+    (music
+      (file "music/voc-daytime2.ogg")
     )
     (owl
       (x 4174)

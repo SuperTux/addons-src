@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/wisphunt.ogg")
-    (ambient-light 0.4112917 0.4112917 0.4112917)
+    (ambient-light
+      (color 0.4112917 0.4112917 0.4112917)
+    )
     (camera
       (mode "normal")
     )
@@ -561,6 +562,9 @@
     (smartball
       (x 11259.85)
       (y 359.6324)
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (rock
       (x 1632)

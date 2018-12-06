@@ -6,8 +6,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-daytime2.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (script "")
       (count 8)
@@ -77,6 +78,9 @@
     (smartball
       (x 3299)
       (y 1286)
+    )
+    (music
+      (file "music/voc-daytime2.music")
     )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")

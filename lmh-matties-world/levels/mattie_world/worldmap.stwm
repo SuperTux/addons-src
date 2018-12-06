@@ -5,7 +5,6 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/salcon.ogg")
     (init-script "map <- true;
 import(\"levels/mattie_world/mattie_iceberg/default.nut\");
 if(!get_mattmap()){ exit_screen();
@@ -20,7 +19,12 @@ if(!get_mattmap()){ exit_screen();
     load_worldmap(\"levels/mattie_world/hardworldmap.stwm\");
   }else{ show_map_rewards(); }
  }    ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
+    (music
+      (file "music/salcon.ogg")
+    )
     (special-tile
       (map-message (_ "You found a secret place!"))
       (invisible-tile #t)

@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/greatgigantic.ogg")
     (init-script " display_fishbox(\"bluetwo\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -211,6 +212,9 @@
     (smartball
       (x 1251)
       (y 2534)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (powerup
       (script "this.c1 <- true
@@ -2728,9 +2732,10 @@ m2.start_moving()")
   )
   (sector
     (name "secret")
-    (music "music/greatgigantic.ogg")
     (init-script " display_fishbox(\"bluetwo\"); ")
-    (ambient-light 0.3629053 0.3629053 0.3629053)
+    (ambient-light
+      (color 0.3629053 0.3629053 0.3629053)
+    )
     (angrystone
       (x 1184)
       (y 672)
@@ -2743,6 +2748,9 @@ m2.start_moving()")
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (powerup
       (script "find_fish(\"bluetwo\");

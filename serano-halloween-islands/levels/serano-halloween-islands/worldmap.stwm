@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/greatgigantic.ogg")
-    (ambient-light 0.7568628 0.7254902 0.7254902)
+    (ambient-light
+      (color 0.7568628 0.7254902 0.7254902)
+    )
     (decal
       (sprite "images/worldmap/halloween/tree1.png")
       (x 896)
@@ -77,6 +78,9 @@
       (sprite "images/worldmap/halloween/home.png")
       (x 352)
       (y 480)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (tilemap
       (solid #t)

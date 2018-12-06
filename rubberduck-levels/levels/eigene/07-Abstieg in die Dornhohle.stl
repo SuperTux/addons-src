@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 0.7077134 0.8035554 0.8624247)
+    (ambient-light
+      (color 0.7077134 0.8035554 0.8624247)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
@@ -187,6 +188,9 @@
     (mriceblock
       (x 1664)
       (y 2304)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (secretarea
       (fade-tilemap "versteck")

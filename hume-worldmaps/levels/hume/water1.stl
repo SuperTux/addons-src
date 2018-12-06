@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "import(\"levels/hume/defualt.nut\");unlock_archivement(\"y\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "top")
       (speed 0.2)
@@ -26,6 +27,9 @@
     (gradient
       (top_color 0 0 0)
       (bottom_color 0.003921569 0.003921569 0.003921569)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (plant
       (x 1696)

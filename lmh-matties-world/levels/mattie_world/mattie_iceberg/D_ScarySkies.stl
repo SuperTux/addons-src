@@ -6,9 +6,10 @@
   (target-time 90)
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "import(\"levels/mattie_world/scripts/blue_coins_three.nut\");")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "bottom")
       (speed 0.25)
@@ -246,6 +247,9 @@
     (mriceblock
       (x 7616)
       (y 384)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (powerup
       (script "find_coin(\"coin1\");")

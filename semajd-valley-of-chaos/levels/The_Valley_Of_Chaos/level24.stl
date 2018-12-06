@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-night.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/nightsky_top.png")
@@ -30,6 +31,9 @@
       (message (_ "#Everyone went back to their former way of life, and all the minions went away"))
       (x 608)
       (y 160)
+    )
+    (music
+      (file "music/voc-night.music")
     )
     (spawnpoint
       (name "main")

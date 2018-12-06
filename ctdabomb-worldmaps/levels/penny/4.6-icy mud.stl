@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/worldmap_tux.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 545)
       (y 672)
@@ -114,6 +115,9 @@
     (smartball
       (x 5283)
       (y 774)
+    )
+    (music
+      (file "music/worldmap_tux.ogg")
     )
     (scripttrigger
       (script "mudplat.goto_node(400)")

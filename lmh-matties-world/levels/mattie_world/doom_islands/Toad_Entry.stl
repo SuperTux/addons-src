@@ -6,9 +6,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/darkforestkeep.ogg")
     (init-script "  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis_dark.jpg")
@@ -66,6 +67,9 @@
     (mrbomb
       (x 2944)
       (y 544)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (powerup
       (script "  badflower();  ")
@@ -250,9 +254,10 @@
   )
   (sector
     (name "stair")
-    (music "music/darkforestkeep.ogg")
     (init-script "    ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 2016)
       (y 1120)
@@ -363,6 +368,9 @@
     (mriceblock
       (x 2560)
       (y 1632)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "  bounce.fade(0,0);  ")
@@ -802,9 +810,10 @@
   )
   (sector
     (name "freezer")
-    (music "music/darkforestkeep.ogg")
     (init-script "    ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 2.1)
       (image "images/background/fog.png")
@@ -834,6 +843,9 @@
     (mrbomb
       (x 1920)
       (y 512)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (secretarea
       (width 96)
@@ -2050,9 +2062,10 @@
   )
   (sector
     (name "armory")
-    (music "music/darkforestkeep.ogg")
     (init-script "    ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -2081,6 +2094,9 @@
     (jumpy
       (x 800)
       (y 496)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scriptedobject
       (z-pos 20)
@@ -2392,8 +2408,9 @@
   )
   (sector
     (name "ramparts")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -2454,6 +2471,9 @@
     (jumpy
       (x 2768)
       (y 288)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scriptedobject
       (z-pos -20)

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/theme.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -69,6 +70,9 @@
     (lantern
       (x 2096)
       (y 232)
+    )
+    (music
+      (file "music/theme.ogg")
     )
     (skullyhop
       (x 2144)

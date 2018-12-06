@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
-    (ambient-light 0.6588235 0.5960785 0.5960785)
+    (ambient-light
+      (color 0.6588235 0.5960785 0.5960785)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/snowcastle.png")
@@ -88,6 +89,9 @@
     (smartball
       (x 8387)
       (y 422)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (skullyhop
       (x 6752)

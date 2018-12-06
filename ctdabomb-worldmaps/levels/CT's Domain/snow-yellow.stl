@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 0.8835279 0)
+    (ambient-light
+      (color 1 0.8835279 0)
+    )
     (background
       (speed 0)
       (image-top "images/background/arctis_top.jpg")
@@ -130,6 +131,9 @@
     (smartball
       (x 5731)
       (y 582)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (snowball
       (x 1283)

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -197,6 +198,9 @@
           (y 0)
         )
       )
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "sector.Tux.kill(true)")
@@ -669,8 +673,9 @@ f.goto_node(1)")
   )
   (sector
     (name "conti")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -750,6 +755,9 @@ f.goto_node(1)")
     (mriceblock
       (x 2912)
       (y 608)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (sequencetrigger
       (sequence "stoptux")

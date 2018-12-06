@@ -6,10 +6,11 @@
   (target-time 50)
   (sector
     (name "main")
-    (music "music/clavelian_march.ogg")
     (init-script "import(\"levels/mattie_world/scripts/blue_coins_three.nut\");
 open <- false;")
-    (ambient-light 0.03 0.03 0.03)
+    (ambient-light
+      (color 0.03 0.03 0.03)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
@@ -590,6 +591,9 @@ open <- false;")
     (smartball
       (x 4864)
       (y 448)
+    )
+    (music
+      (file "music/clavelian_march.ogg")
     )
     (powerup
       (script "find_coin(\"coin1\");")

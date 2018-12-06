@@ -6,8 +6,9 @@
   (target-time 75)
   (sector
     (name "main")
-    (music "music/airship_remix.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "bottom")
       (speed 0.13)
@@ -559,6 +560,9 @@
     (smartball
       (x 7616)
       (y 160)
+    )
+    (music
+      (file "music/airship_remix.ogg")
     )
     (rock
       (x 12448)

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/credits.ogg")
-    (ambient-light 0.4435492 0.4435492 0.4435492)
+    (ambient-light
+      (color 0.4435492 0.4435492 0.4435492)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/nightsky_top.png")
@@ -85,6 +86,9 @@
 #(I mean a few years, maybe shorter...)"))
       (x 3744)
       (y 576)
+    )
+    (music
+      (file "music/credits.ogg")
     )
     (particles-rain
     )

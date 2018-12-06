@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/salcon.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -45,6 +46,9 @@
       (sprite "images/creatures/snowjumpy/left-down.png")
       (x 2368)
       (y 608)
+    )
+    (music
+      (file "music/salcon.ogg")
     )
     (special-tile
       (map-message (_ "Do you feel sick?"))

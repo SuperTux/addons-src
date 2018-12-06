@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -22,6 +23,9 @@
       (spawnpoint "main")
       (x 96)
       (y 256)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "secret_area(\"sa10\")")
@@ -188,8 +192,9 @@
   )
   (sector
     (name "secret")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -208,6 +213,9 @@
     (gradient
       (top_color 1 1 1)
       (bottom_color 1 1 1)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (spawnpoint
       (name "main")
@@ -354,8 +362,9 @@
   )
   (sector
     (name "s1")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -391,6 +400,9 @@
     (gradient
       (top_color 1 1 1)
       (bottom_color 1 1 1)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (spawnpoint
       (name "main")
@@ -547,14 +559,15 @@
   )
   (sector
     (name "s2a")
-    (music "music/cave.ogg")
     (init-script "while(true){
 settings.set_ambient_light(0,0,0);
 wait(2)
 settings.set_ambient_light(1,1,1)
 wait(23)
 }")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -588,6 +601,9 @@ wait(23)
       (color 1 1 1)
       (x 5792)
       (y 544)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (spawnpoint
       (name "main")
@@ -734,9 +750,10 @@ wait(23)
   )
   (sector
     (name "s2b")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -751,6 +768,9 @@ wait(23)
       (spawnpoint "s2b_z5")
       (x 128)
       (y 640)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "complete_level(\"white\",\"w4\",\"endsequence\")")

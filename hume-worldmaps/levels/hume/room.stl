@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -29,6 +30,9 @@
     )
     (leveltime
       (time 300)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -65,10 +69,11 @@
   )
   (sector
     (name "room0")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #0\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -114,6 +119,9 @@
       (x 608)
       (y 480)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -149,10 +157,11 @@
   )
   (sector
     (name "room1")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #1\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -191,6 +200,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -227,10 +239,11 @@
   )
   (sector
     (name "room2")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #2\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -270,6 +283,9 @@
       (x 608)
       (y 480)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -305,10 +321,11 @@
   )
   (sector
     (name "room3")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #3\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -341,6 +358,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -377,10 +397,11 @@
   )
   (sector
     (name "room4")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #4\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -420,6 +441,9 @@
       (x 608)
       (y 480)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -455,10 +479,11 @@
   )
   (sector
     (name "room5")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #5\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -491,6 +516,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -527,10 +555,11 @@
   )
   (sector
     (name "room6")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #6\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -563,6 +592,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -599,10 +631,11 @@
   )
   (sector
     (name "room7")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #7\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -629,6 +662,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -665,10 +701,11 @@
   )
   (sector
     (name "room8")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #8\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -708,6 +745,9 @@
       (x 608)
       (y 480)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -743,10 +783,11 @@
   )
   (sector
     (name "room9")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #9\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -779,6 +820,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -815,10 +859,11 @@
   )
   (sector
     (name "room10")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #10\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -851,6 +896,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -887,10 +935,11 @@
   )
   (sector
     (name "room11")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #11\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -917,6 +966,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -953,10 +1005,11 @@
   )
   (sector
     (name "room12")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #12\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -989,6 +1042,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1025,10 +1081,11 @@
   )
   (sector
     (name "room13")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #13\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1055,6 +1112,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1091,10 +1151,11 @@
   )
   (sector
     (name "room14")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #14\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1121,6 +1182,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1157,10 +1221,11 @@
   )
   (sector
     (name "room15")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #15\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1181,6 +1246,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1217,10 +1285,11 @@
   )
   (sector
     (name "room16")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #16\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1260,6 +1329,9 @@
       (x 608)
       (y 480)
     )
+    (music
+      (file "music/chipdisko.ogg")
+    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -1295,10 +1367,11 @@
   )
   (sector
     (name "room17")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #17\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1331,6 +1404,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1367,10 +1443,11 @@
   )
   (sector
     (name "room18")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #18\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1403,6 +1480,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1439,10 +1519,11 @@
   )
   (sector
     (name "room19")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #19\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1469,6 +1550,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1505,10 +1589,11 @@
   )
   (sector
     (name "room20")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #20\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1541,6 +1626,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1577,10 +1665,11 @@
   )
   (sector
     (name "room21")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #21\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1607,6 +1696,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1643,10 +1735,11 @@
   )
   (sector
     (name "room22")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #22\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1673,6 +1766,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1709,10 +1805,11 @@
   )
   (sector
     (name "room23")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #23\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1733,6 +1830,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1769,10 +1869,11 @@
   )
   (sector
     (name "room24")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #24\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1805,6 +1906,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1841,10 +1945,11 @@
   )
   (sector
     (name "room25")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #25\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1871,6 +1976,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1907,10 +2015,11 @@
   )
   (sector
     (name "room26")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #26\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1937,6 +2046,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -1973,10 +2085,11 @@
   )
   (sector
     (name "room27")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #27\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1997,6 +2110,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -2033,10 +2149,11 @@
   )
   (sector
     (name "room28")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #28\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -2063,6 +2180,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -2099,10 +2219,11 @@
   )
   (sector
     (name "room29")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #29\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -2123,6 +2244,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -2159,10 +2283,11 @@
   )
   (sector
     (name "room30")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #30\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -2183,6 +2308,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")
@@ -2219,10 +2347,11 @@
   )
   (sector
     (name "room31")
-    (music "music/chipdisko.ogg")
     (init-script "Text.set_text(\"Room #31\");
      Text.fade_in(0.2)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -2237,6 +2366,9 @@
       (spawnpoint "main")
       (x 608)
       (y 480)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (spawnpoint
       (name "main")

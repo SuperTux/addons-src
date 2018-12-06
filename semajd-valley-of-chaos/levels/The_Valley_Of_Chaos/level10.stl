@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-daytime2.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -79,6 +80,9 @@
     (icecrusher
       (x 4252)
       (y 296)
+    )
+    (music
+      (file "music/voc-daytime2.music")
     )
     (spawnpoint
       (name "main")

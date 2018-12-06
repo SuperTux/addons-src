@@ -5,8 +5,9 @@
   (license "CC BY-SA 4.0+")
   (sector
     (name "main")
-    (music "music/battle_theme.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "top")
       (speed 0.5)
@@ -179,6 +180,9 @@
     (flame
       (x 4192)
       (y 256)
+    )
+    (music
+      (file "music/battle_theme.music")
     )
     (spawnpoint
       (name "main")

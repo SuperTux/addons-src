@@ -7,9 +7,10 @@
   (target-time 30)
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "import(\"levels/mattie_world/scripts/blue_coins_three.nut\");")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis2.png")
@@ -92,6 +93,9 @@
     (smartball
       (x 3360)
       (y 544)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (powerup
       (script "find_coin(\"coin1\");")

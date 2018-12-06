@@ -6,7 +6,9 @@
   (sector
     (name "main")
     (init-script "display_fishbox(\"escape\");")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/semi_arctic.jpg")

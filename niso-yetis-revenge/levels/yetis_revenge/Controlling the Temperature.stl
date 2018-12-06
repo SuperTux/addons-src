@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script " display_fishbox(\"temperature\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.1)
       (image "images/background/nightsky_top.png")
@@ -127,6 +128,9 @@
     (jumpy
       (x 9796.009)
       (y 277.1725)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (powerup
       (script "this.c1 <- true

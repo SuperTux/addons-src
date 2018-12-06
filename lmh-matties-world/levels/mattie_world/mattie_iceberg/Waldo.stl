@@ -5,8 +5,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/salcon.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (script "hide.fade(0.3,3);
 background.fade(0.8,3);")
@@ -49,6 +50,9 @@ background.fade(0.8,3);")
       (message (_ "!levels/mattie_world/images/LMH/hint-02.png"))
       (x 736)
       (y 576)
+    )
+    (music
+      (file "music/salcon.ogg")
     )
     (secretarea
       (width 64)

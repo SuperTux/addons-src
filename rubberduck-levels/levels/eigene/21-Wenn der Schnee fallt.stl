@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forest.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (y 200)
       (speed 0.5)
@@ -125,6 +126,9 @@
     (mrbomb
       (x 9952)
       (y 512)
+    )
+    (music
+      (file "music/forest.ogg")
     )
     (poisonivy
       (x 2624)
@@ -359,8 +363,9 @@
   )
   (sector
     (name "Hallo")
-    (music "music/forest.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -387,6 +392,9 @@
     (jumpy
       (x 768)
       (y 352)
+    )
+    (music
+      (file "music/forest.music")
     )
     (spawnpoint
       (name "main")
@@ -477,8 +485,9 @@
   )
   (sector
     (name "Hallo2")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -615,6 +624,9 @@
     (mriceblock
       (x 736)
       (y 448)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (snowball
       (x 3200)

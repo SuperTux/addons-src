@@ -5,8 +5,9 @@
   (license "CC-BY-SA 4.0 Intl")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -91,6 +92,9 @@
       (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
       (x 545)
       (y 486)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (short_fuse
       (direction "left")

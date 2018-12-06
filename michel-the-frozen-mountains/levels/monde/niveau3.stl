@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 0.7400015 0.7400015 0.7400015)
+    (ambient-light
+      (color 0.7400015 0.7400015 0.7400015)
+    )
     (background
       (speed 0.4)
       (image-top "images/background/nightsky_top.png")
@@ -421,6 +422,9 @@
     (smartball
       (x 7907)
       (y 1062)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "secret.set_alpha(1);")

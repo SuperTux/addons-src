@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/greatgigantic.ogg")
     (init-script " display_fishbox(\"hail\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
@@ -128,6 +129,9 @@
     (firefly
       (x 4573)
       (y 615)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (powerup
       (script "find_fish(\"hail\");")

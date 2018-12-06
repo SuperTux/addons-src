@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/worldmap_tux.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -19,6 +20,9 @@
     (gradient
       (top_color 1 0.9665827 0)
       (bottom_color 0 1 0.9642023)
+    )
+    (music
+      (file "music/worldmap_tux.ogg")
     )
     (owl
       (x 1134)
@@ -235,8 +239,9 @@
   )
   (sector
     (name "inside")
-    (music "music/greatgigantic.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/black_800px.png")
@@ -247,6 +252,9 @@
     (firefly
       (x 512)
       (y 896)
+    )
+    (music
+      (file "music/greatgigantic.music")
     )
     (owl
       (x 686)
@@ -421,14 +429,18 @@
   )
   (sector
     (name "secret")
-    (music "music/worldmap_tux.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/black_800px.png")
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/worldmap_tux.ogg")
     )
     (owl
       (x 2222)

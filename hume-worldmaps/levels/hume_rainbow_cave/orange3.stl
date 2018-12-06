@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -30,6 +31,9 @@
     (gradient
       (top_color 1 0.6666667 0)
       (bottom_color 1 0.6666667 0)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "secret_area(\"sa13\")")

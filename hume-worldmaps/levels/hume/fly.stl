@@ -5,7 +5,6 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "import(\"levels/hume/defualt.nut\")
 unlock_archivement(\"j\")
                  while(true){
@@ -18,7 +17,9 @@ unlock_archivement(\"j\")
                  }
 
                  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -27,6 +28,9 @@ unlock_archivement(\"j\")
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "

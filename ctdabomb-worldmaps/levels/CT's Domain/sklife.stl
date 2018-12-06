@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/theme.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -21,6 +22,9 @@
     (gradient
       (top_color 0 0 0 0)
       (bottom_color 0.3994965 0.01986725 0.01986725)
+    )
+    (music
+      (file "music/theme.ogg")
     )
     (particles-snow
     )

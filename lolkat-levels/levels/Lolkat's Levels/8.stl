@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
-    (ambient-light 0.4838636 0.4838636 0.4838636)
+    (ambient-light
+      (color 0.4838636 0.4838636 0.4838636)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
@@ -46,6 +47,9 @@
       (message (_ "-Skullyhops: Hehe! You thought we wouldn't empty the bonus boxes before you were coming? Ha! If you manage to pass this castle, try and beat our other seven! Hehe!"))
       (x 288)
       (y 256)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (skullyhop
       (x 864)

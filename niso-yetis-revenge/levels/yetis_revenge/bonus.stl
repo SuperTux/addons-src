@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/bonuscave.ogg")
     (init-script " display_fishbox(\"bonus\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -28,6 +29,9 @@
       (height 684)
       (x 797.5)
       (y -12)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (powerup
       (script "find_fish(\"bonus\");")

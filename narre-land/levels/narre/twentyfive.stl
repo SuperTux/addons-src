@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forest.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -45,6 +46,9 @@
       (message (_ "TTo the Jungle ->"))
       (x 3104)
       (y 96)
+    )
+    (music
+      (file "music/forest.ogg")
     )
     (poisonivy
       (x 320)
@@ -681,8 +685,9 @@
   )
   (sector
     (name "jungle")
-    (music "music/forest2.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -769,6 +774,9 @@
     (mrtree
       (x 1856)
       (y 768)
+    )
+    (music
+      (file "music/forest2.ogg")
     )
     (particles-rain
       (z-pos -100)

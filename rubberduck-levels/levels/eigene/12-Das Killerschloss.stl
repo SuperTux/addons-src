@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -262,6 +263,9 @@
     (mriceblock
       (x 17728)
       (y 448)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (secretarea
       (fade-tilemap "versteck")

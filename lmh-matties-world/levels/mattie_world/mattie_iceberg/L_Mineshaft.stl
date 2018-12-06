@@ -6,8 +6,9 @@
   (target-time 32)
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
@@ -83,6 +84,9 @@
     (smartball
       (x 832)
       (y 3104)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "  Tux.deactivate();

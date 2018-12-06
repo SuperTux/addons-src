@@ -6,8 +6,9 @@
   (target-time 39)
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "bottom")
       (speed 0.25)
@@ -250,6 +251,9 @@
     (mriceblock
       (x 7616)
       (y 384)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "  first.goto_node(6);  ")

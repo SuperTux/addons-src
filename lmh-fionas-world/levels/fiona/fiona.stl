@@ -6,8 +6,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/airship_remix.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (script "")
       (contents "1up")
@@ -65,6 +66,9 @@
     (smartball
       (x 3875)
       (y 486)
+    )
+    (music
+      (file "music/airship_remix.music")
     )
     (secretarea
       (fade-tilemap "secret")

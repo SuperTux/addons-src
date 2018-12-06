@@ -5,9 +5,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "  water.start_moving();  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/nightsky_top.png")
@@ -225,6 +226,9 @@
     (smartball
       (x 10112)
       (y 288)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")

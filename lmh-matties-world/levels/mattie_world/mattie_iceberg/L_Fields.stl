@@ -6,8 +6,9 @@
   (target-time 23)
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis2.png")
@@ -54,6 +55,9 @@
     (smartball
       (x 4672)
       (y 416)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (secretarea
       (fade-tilemap "secret")

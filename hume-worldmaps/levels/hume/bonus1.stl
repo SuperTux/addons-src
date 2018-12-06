@@ -8,7 +8,9 @@
     (init-script "import(\"levels/hume/defualt.nut\")
 unlock_archivement(\"j\")
 unlock_archivement(\"g\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -684,7 +686,9 @@ sector.Tux.trigger_sequence(\"fireworks\");
 wait(5);
 Level.finish(true);
 ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")

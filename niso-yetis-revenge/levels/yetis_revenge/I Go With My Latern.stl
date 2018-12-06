@@ -5,10 +5,11 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/greatgigantic.music")
     (init-script " display_fishbox(\"latern\"); 
 ")
-    (ambient-light 0.3110857 0.3018235 0.3018235)
+    (ambient-light
+      (color 0.3110857 0.3018235 0.3018235)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/nightsky_top.png")
@@ -616,6 +617,9 @@
       (color 0 0 1)
       (x 4736)
       (y 800)
+    )
+    (music
+      (file "music/greatgigantic.music")
     )
     (powerup
       (script "this.c1 <- true

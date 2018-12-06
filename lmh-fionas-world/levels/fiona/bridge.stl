@@ -6,9 +6,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/battle_theme.ogg")
     (init-script "running <- false;")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (script "")
       (count 5)
@@ -106,6 +107,9 @@
     (smartball
       (x 1539)
       (y 902)
+    )
+    (music
+      (file "music/battle_theme.ogg")
     )
     (owl
       (x 1678)

@@ -6,8 +6,9 @@
   (target-time 225)
   (sector
     (name "main")
-    (music "/music/voc-daytime2.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -69,6 +70,9 @@
       (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
       (x 1120)
       (y 512)
+    )
+    (music
+      (file "/music/voc-daytime2.music")
     )
     (scripttrigger
       (script "Level.spawn(\"crystal\", \"start\");")
@@ -430,12 +434,13 @@
   )
   (sector
     (name "crystal")
-    (music "/music/jewels.music")
     (init-script "Moving1.start_moving();
 Moving2.start_moving();
 Moving3.start_moving();
 Moving4.start_moving();")
-    (ambient-light 0.3 0.4 0.5)
+    (ambient-light
+      (color 0.3 0.4 0.5)
+    )
     (bonusblock
       (script "")
       (count 5)
@@ -996,6 +1001,9 @@ Moving4.start_moving();")
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 12768)
       (y 544)
+    )
+    (music
+      (file "/music/jewels.music")
     )
     (pushbutton
       (script "lift2.start_moving();")
@@ -2368,8 +2376,9 @@ ExitLift.goto_node(0);")
   )
   (sector
     (name "exit")
-    (music "/music/voc-daytime2.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -2392,6 +2401,9 @@ ExitLift.goto_node(0);")
     (gradient
       (top_color 0 0.3137259 1)
       (bottom_color 1 1 1)
+    )
+    (music
+      (file "/music/voc-daytime2.music")
     )
     (spawnpoint
       (name "exit")

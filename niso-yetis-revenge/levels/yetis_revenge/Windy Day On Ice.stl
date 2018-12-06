@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/salcon.ogg")
     (init-script " display_fishbox(\"windy\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis2.png")
@@ -82,6 +83,9 @@ block.set_alpha(0);
     (mriceblock
       (x 5825)
       (y 614)
+    )
+    (music
+      (file "music/salcon.ogg")
     )
     (powerup
       (script "this.c2 <- true
@@ -652,9 +656,10 @@ block.set_alpha(0);")
   )
   (sector
     (name "pipe")
-    (music "music/bonuscave.ogg")
     (init-script " display_fishbox(\"windy\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -663,6 +668,9 @@ block.set_alpha(0);")
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"main2\");

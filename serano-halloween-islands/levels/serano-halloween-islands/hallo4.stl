@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 0.4941176 0.454902 0.454902)
+    (ambient-light
+      (color 0.4941176 0.454902 0.454902)
+    )
     (background
       (speed 0)
       (image-top "images/background/halloween/sky.png")
@@ -281,6 +282,9 @@
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 11144)
       (y 876)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (secretarea
       (fade-tilemap "secret")

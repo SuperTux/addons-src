@@ -5,8 +5,9 @@
   (license "CC-BY-SA 4.0 Intl")
   (sector
     (name "main")
-    (music "/music/voc-daytime2.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (name "normal")
       (scroll-speed-x 0)
@@ -233,6 +234,9 @@
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 4031)
       (y 656)
+    )
+    (music
+      (file "/music/voc-daytime2.music")
     )
     (owl
       (carry "skydive")

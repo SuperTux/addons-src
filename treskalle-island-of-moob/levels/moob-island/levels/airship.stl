@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/airship_remix.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -83,6 +84,9 @@
     (smartball
       (x 8419)
       (y 998)
+    )
+    (music
+      (file "music/airship_remix.ogg")
     )
     (spawnpoint
       (name "main")

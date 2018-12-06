@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-dark.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 1345)
       (y 1600)
@@ -67,6 +68,9 @@
     (gradient
       (top_color 0.4173495 0 0.5662165)
       (bottom_color 0 0 0 0)
+    )
+    (music
+      (file "music/voc-dark.music")
     )
     (spawnpoint
       (name "main")

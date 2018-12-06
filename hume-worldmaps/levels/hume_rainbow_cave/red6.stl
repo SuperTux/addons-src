@@ -5,11 +5,12 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/bossattack.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")
 wait(60)
 finish_level_group(\"red\",\"r6\")")
-    (ambient-light 0.6901961 0 0)
+    (ambient-light
+      (color 0.6901961 0 0)
+    )
     (camera
       (mode "normal")
     )
@@ -177,6 +178,9 @@ finish_level_group(\"red\",\"r6\")")
       (color 1 0 0)
       (x 960)
       (y 576)
+    )
+    (music
+      (file "music/bossattack.ogg")
     )
     (scripttrigger
       (script "Tux.kill(true)")

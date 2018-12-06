@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "secret")
-    (music "music/cave.music")
-    (ambient-light 0.7400015 0.7400015 0.7400015)
+    (ambient-light
+      (color 0.7400015 0.7400015 0.7400015)
+    )
     (background
       (speed 0.4)
       (image-top "images/background/arctis_bottom.jpg")
@@ -217,6 +218,9 @@
     (smartball
       (x 1507)
       (y 742)
+    )
+    (music
+      (file "music/cave.music")
     )
     (snowball
       (x 963)
@@ -440,8 +444,9 @@
   )
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.4)
       (image-top "images/background/bluemountain-top.png")
@@ -510,6 +515,9 @@
     (smartball
       (x 11459)
       (y 454)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "secret.set_alpha(1.0)")

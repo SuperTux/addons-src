@@ -6,8 +6,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -48,6 +49,9 @@
     (mriceblock
       (x 2848)
       (y 352)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")
@@ -204,8 +208,9 @@
   )
   (sector
     (name "pipe")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -220,6 +225,9 @@
     (mriceblock
       (x 832)
       (y 320)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "  Level.spawn(\"main\", \"pipein\");  ")
@@ -317,8 +325,9 @@
   )
   (sector
     (name "skullsprime")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis_dark.jpg")
@@ -423,6 +432,9 @@
       (spawnpoint "main")
       (x 1888)
       (y 512)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "  Level.spawn(\"skulls\", \"skulls\");  ")
@@ -533,8 +545,9 @@
   )
   (sector
     (name "skulls")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis_dark.jpg")
@@ -639,6 +652,9 @@
       (spawnpoint "main")
       (x 1888)
       (y 512)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "  Level.spawn(\"skullsprime\", \"skulls\");  ")
@@ -757,8 +773,9 @@
   )
   (sector
     (name "snowmen")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -805,6 +822,9 @@
     (mrbomb
       (x 1440)
       (y 384)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (snowman
       (x 562)
@@ -945,8 +965,9 @@
   )
   (sector
     (name "garden")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -955,6 +976,9 @@
       (spawnpoint "main")
       (x 136)
       (y 480)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (powerup
       (script "  Tux.add_bonus(\"iceflower\");  powerup();  ")
@@ -1123,14 +1147,18 @@
   )
   (sector
     (name "boss")
-    (music "music/bossattack.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/snowcastle.png")
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/bossattack.ogg")
     )
     (spawnpoint
       (name "main")

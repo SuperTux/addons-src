@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script " display_fishbox(\"groundwater\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 961)
       (y 928)
@@ -118,6 +119,9 @@
     (mriceblock
       (x 12577)
       (y 806)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (powerup
       (script "this.c1 <- true
@@ -721,9 +725,10 @@ this.enterbonus <- true;
   )
   (sector
     (name "bonus1")
-    (music "music/bonuscave.ogg")
     (init-script " display_fishbox(\"groundwater\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -740,6 +745,9 @@ this.enterbonus <- true;
       (direction "right")
       (x 769)
       (y 550)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (powerup
       (script "play_sound(\"sounds/countdown10s.ogg\");
@@ -1097,10 +1105,11 @@ Level.spawn (\"main\", \"bonusout\");")
   )
   (sector
     (name "Underwater")
-    (music "music/cave.ogg")
     (gravity 4)
     (init-script " display_fishbox(\"groundwater\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 1505)
       (y 480)
@@ -1188,6 +1197,9 @@ Level.spawn (\"main\", \"bonusout\");")
     (mriceblock
       (x 6273)
       (y 6)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "Level.spawn (\"main\", \"ground\");")

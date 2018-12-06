@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/ghostforest.ogg")
-    (ambient-light 0.8313726 0.5686275 0.5686275)
+    (ambient-light
+      (color 0.8313726 0.5686275 0.5686275)
+    )
     (background
       (speed 0)
       (image-top "images/background/extro.jpg")
@@ -177,6 +178,9 @@
     (mrtree
       (x 8416)
       (y 544)
+    )
+    (music
+      (file "music/ghostforest.ogg")
     )
     (secretarea
       (width 220)

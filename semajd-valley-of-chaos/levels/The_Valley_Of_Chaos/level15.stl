@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-night.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 801)
       (y 256)
@@ -47,6 +48,9 @@
     (smartball
       (x 451)
       (y 198)
+    )
+    (music
+      (file "music/voc-night.music")
     )
     (scripttrigger
       (script "Level.spawn (\"main2\", \"main2a\");")
@@ -251,8 +255,9 @@
   )
   (sector
     (name "main2")
-    (music "music/voc-night.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -271,6 +276,9 @@
     (flyingsnowball
       (x 996)
       (y 419)
+    )
+    (music
+      (file "music/voc-night.music")
     )
     (scripttrigger
       (script "Level.spawn (\"main\", \"main1b\");")
@@ -471,8 +479,9 @@
   )
   (sector
     (name "main3")
-    (music "music/voc-night.music")
-    (ambient-light 0.5564507 0.5564507 0.5564507)
+    (ambient-light
+      (color 0.5564507 0.5564507 0.5564507)
+    )
     (camera
       (mode "normal")
     )
@@ -582,6 +591,9 @@
     (smartball
       (x 2531)
       (y 518)
+    )
+    (music
+      (file "music/voc-night.music")
     )
     (scripttrigger
       (script "Level.spawn (\"main2\", \"main2b\");")
@@ -827,8 +839,9 @@
   )
   (sector
     (name "main4")
-    (music "music/voc-night.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -853,6 +866,9 @@
     (smartball
       (x 451)
       (y 326)
+    )
+    (music
+      (file "music/voc-night.music")
     )
     (scripttrigger
       (script "Level.spawn (\"main3\", \"main3b\");")

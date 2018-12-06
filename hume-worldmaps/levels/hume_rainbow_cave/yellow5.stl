@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -23,6 +24,9 @@
 #Begin winth pressing this button."))
       (x 736)
       (y 480)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (pushbutton
       (script "Level.spawn(\"side01\",\"main\")")
@@ -105,9 +109,10 @@
   )
   (sector
     (name "side01")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -242,6 +247,9 @@
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -565,9 +573,10 @@ Level.spawn(\"side12\",\"main\")")
   )
   (sector
     (name "side02")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -702,6 +711,9 @@ Level.spawn(\"side12\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -1025,9 +1037,10 @@ Level.spawn(\"side08\",\"main\")")
   )
   (sector
     (name "side03")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1162,6 +1175,9 @@ Level.spawn(\"side08\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -1485,9 +1501,10 @@ Level.spawn(\"side08\",\"main\")")
   )
   (sector
     (name "side04")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1622,6 +1639,9 @@ Level.spawn(\"side08\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -1945,9 +1965,10 @@ Level.spawn(\"side14\",\"main\")")
   )
   (sector
     (name "side05")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -2082,6 +2103,9 @@ Level.spawn(\"side14\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -2405,9 +2429,10 @@ Level.spawn(\"side15\",\"main\")")
   )
   (sector
     (name "side06")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -2542,6 +2567,9 @@ Level.spawn(\"side15\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -2865,9 +2893,10 @@ Level.spawn(\"side16\",\"main\")")
   )
   (sector
     (name "side07")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -3002,6 +3031,9 @@ Level.spawn(\"side16\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -3325,9 +3357,10 @@ Level.spawn(\"side20\",\"main\")")
   )
   (sector
     (name "side08")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -3462,6 +3495,9 @@ Level.spawn(\"side20\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -3785,9 +3821,10 @@ Level.spawn(\"side21\",\"main\")")
   )
   (sector
     (name "side09")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -3922,6 +3959,9 @@ Level.spawn(\"side21\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -4245,9 +4285,10 @@ Level.spawn(\"side19\",\"main\")")
   )
   (sector
     (name "side10")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -4382,6 +4423,9 @@ Level.spawn(\"side19\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -4705,9 +4749,10 @@ Level.spawn(\"side23\",\"main\")")
   )
   (sector
     (name "side11")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -4842,6 +4887,9 @@ Level.spawn(\"side23\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -5165,9 +5213,10 @@ Level.spawn(\"side19\",\"main\")")
   )
   (sector
     (name "side12")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -5302,6 +5351,9 @@ Level.spawn(\"side19\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -5625,9 +5677,10 @@ Level.spawn(\"side21\",\"main\")")
   )
   (sector
     (name "side13")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -5762,6 +5815,9 @@ Level.spawn(\"side21\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -6085,9 +6141,10 @@ Level.spawn(\"side20\",\"main\")")
   )
   (sector
     (name "side14")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -6222,6 +6279,9 @@ Level.spawn(\"side20\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -6545,9 +6605,10 @@ Level.spawn(\"side04\",\"main\")")
   )
   (sector
     (name "side15")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -6682,6 +6743,9 @@ Level.spawn(\"side04\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -7005,9 +7069,10 @@ Level.spawn(\"side23\",\"main\")")
   )
   (sector
     (name "side16")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -7142,6 +7207,9 @@ Level.spawn(\"side23\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -7465,9 +7533,10 @@ Level.spawn(\"side20\",\"main\")")
   )
   (sector
     (name "side17")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -7602,6 +7671,9 @@ Level.spawn(\"side20\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -7925,9 +7997,10 @@ Level.spawn(\"side20\",\"main\")")
   )
   (sector
     (name "side18")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -8062,6 +8135,9 @@ Level.spawn(\"side20\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -8385,9 +8461,10 @@ Level.spawn(\"side19\",\"main\")")
   )
   (sector
     (name "side19")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -8522,6 +8599,9 @@ Level.spawn(\"side19\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -8845,9 +8925,10 @@ Level.spawn(\"side11\",\"main\")")
   )
   (sector
     (name "side20")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -8982,6 +9063,9 @@ Level.spawn(\"side11\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -9305,9 +9389,10 @@ Level.spawn(\"side07\",\"main\")")
   )
   (sector
     (name "side21")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -9442,6 +9527,9 @@ Level.spawn(\"side07\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -9765,9 +9853,10 @@ Level.spawn(\"side12\",\"main\")")
   )
   (sector
     (name "side22")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -9902,6 +9991,9 @@ Level.spawn(\"side12\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -10225,9 +10317,10 @@ Level.spawn(\"side14\",\"main\")")
   )
   (sector
     (name "side23")
-    (music "music/darkforestkeep.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/octachoron.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -10362,6 +10455,9 @@ Level.spawn(\"side14\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (scripttrigger
       (script "door1.goto_node(0)
@@ -10685,8 +10781,9 @@ Level.spawn(\"side10\",\"main\")")
   )
   (sector
     (name "side24")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -10821,6 +10918,9 @@ Level.spawn(\"side10\",\"main\")")
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (spawnpoint
       (name "main")
@@ -10960,15 +11060,19 @@ Level.spawn(\"side10\",\"main\")")
   )
   (sector
     (name "exit")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
     (gradient
       (top_color 1 1 0)
       (bottom_color 1 1 0)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "complete_level(\"yellow\",\"y5\",\"endsequence\")")

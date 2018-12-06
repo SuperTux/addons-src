@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/greatgigantic.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (angrystone
       (x 512)
       (y 896)
@@ -98,6 +99,9 @@
     (jumpy
       (x 2599)
       (y 904)
+    )
+    (music
+      (file "music/greatgigantic.music")
     )
     (poisonivy
       (x 1154)

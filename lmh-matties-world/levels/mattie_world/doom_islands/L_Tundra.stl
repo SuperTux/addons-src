@@ -7,11 +7,12 @@
   (target-time 120)
   (sector
     (name "main")
-    (music "music/credits.ogg")
     (init-script "Secret1.goto_node(1);
 Secret2.fade(0,300);
 Melt7.goto_node(1);")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (y -1600)
       (speed 0.05)
@@ -169,6 +170,9 @@ Melt7.goto_node(1);")
     (smartball
       (x 7843)
       (y 198)
+    )
+    (music
+      (file "music/credits.ogg")
     )
     (scripttrigger
       (script "Melt1.fade(0,30);")

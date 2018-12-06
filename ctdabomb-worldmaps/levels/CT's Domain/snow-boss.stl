@@ -5,11 +5,12 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/bossattack.music")
     (init-script "
 Effect.fade_in(1);
 ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -45,6 +46,9 @@ Effect.fade_in(1);
     (mrbomb
       (x 293)
       (y 680)
+    )
+    (music
+      (file "music/bossattack.music")
     )
     (secretarea
       (fade-tilemap "Secret")

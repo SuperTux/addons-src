@@ -5,8 +5,12 @@
   (license "CC BY-SA 4.0+")
   (sector
     (name "Tux Strikes Back")
-    (music "music/salcon.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
+    (music
+      (file "music/salcon.ogg")
+    )
     (teleporter
       (spawnpoint "x6y24")
       (x 35)

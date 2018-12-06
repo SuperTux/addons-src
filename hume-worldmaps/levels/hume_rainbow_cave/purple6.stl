@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/bossattack.music")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 0.5019608 0 0.5019608)
+    (ambient-light
+      (color 0.5019608 0 0.5019608)
+    )
     (camera
       (mode "normal")
     )
@@ -19,6 +20,9 @@
       (message (_ "#This warp tree warps you out of Hume's rainbow cave."))
       (x 864)
       (y 704)
+    )
+    (music
+      (file "music/bossattack.music")
     )
     (scripttrigger
       (script "warp_to(\"islands\",\"main\")")
@@ -174,7 +178,9 @@
   (sector
     (name "islands")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -344,7 +350,9 @@
   )
   (sector
     (name "tower")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1422,9 +1430,10 @@ Effect.fade_in(0)")
   )
   (sector
     (name "mountanin")
-    (music "music/wisphunt.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1576,6 +1585,9 @@ Effect.fade_in(0)")
     (mriceblock
       (x 1312)
       (y 1824)
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"sky\",\"main\")")
@@ -1980,8 +1992,9 @@ Effect.fade_in(0)")
   )
   (sector
     (name "sky")
-    (music "music/wisphunt.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1990,6 +2003,9 @@ Effect.fade_in(0)")
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"tower\",\"sky\")")

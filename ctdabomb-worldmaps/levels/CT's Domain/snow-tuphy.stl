@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 1825)
       (y 448)
@@ -35,6 +36,9 @@
     (jumpy
       (x 1095)
       (y 872)
+    )
+    (music
+      (file "music/fortress.music")
     )
     (sspiky
       (x 1478)
@@ -188,8 +192,9 @@
   )
   (sector
     (name "lava")
-    (music "music/fortress.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -212,6 +217,9 @@
       (height 32)
       (x 1440)
       (y -32)
+    )
+    (music
+      (file "music/fortress.music")
     )
     (pushbutton
       (script "vert.goto_node(300)
@@ -1538,8 +1546,9 @@ horizblocker.goto_node(1)")
   )
   (sector
     (name "mid")
-    (music "music/fortress.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 737)
       (y 448)
@@ -1560,6 +1569,9 @@ horizblocker.goto_node(1)")
     (gradient
       (top_color 0 0 0 0)
       (bottom_color 0 0 0 0)
+    )
+    (music
+      (file "music/fortress.music")
     )
     (spawnpoint
       (name "main")

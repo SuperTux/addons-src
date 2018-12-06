@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script " display_fishbox(\"above\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "bottom")
       (speed 0.25)
@@ -209,6 +210,9 @@
     (smartball
       (x 7971)
       (y 806)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (powerup
       (script "this.c1 <- true

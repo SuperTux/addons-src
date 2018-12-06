@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/wisphunt.music")
     (init-script " display_fishbox(\"foreign\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.1)
       (image-top "images/background/semi_arctic.jpg")
@@ -730,6 +731,9 @@
     (mrbomb
       (x 13509)
       (y 392)
+    )
+    (music
+      (file "music/wisphunt.music")
     )
     (powerup
       (script "this.c1 <- true

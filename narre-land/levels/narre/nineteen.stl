@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -15,6 +16,9 @@
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/cave.music")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"dolepo\")")
@@ -190,8 +194,9 @@
   )
   (sector
     (name "mainpo")
-    (music "music/cave.music")
-    (ambient-light 0.2500038 0.2500038 0.2500038)
+    (ambient-light
+      (color 0.2500038 0.2500038 0.2500038)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -200,6 +205,9 @@
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/cave.music")
     )
     (scripttrigger
       (script "Level.spawn(\"tma\",\"main\")")
@@ -388,8 +396,9 @@
   )
   (sector
     (name "tma")
-    (music "music/cave.music")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -403,6 +412,9 @@
       (top_color 0 0 0 0)
       (bottom_color 0 0 0 0)
       (z-pos 500)
+    )
+    (music
+      (file "music/cave.music")
     )
     (scripttrigger
       (script "Level.spawn(\"hra\",\"main\")")
@@ -552,8 +564,9 @@
   )
   (sector
     (name "hra")
-    (music "music/cave.music")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -726,6 +739,9 @@
     (mriceblock
       (x 1056)
       (y 32)
+    )
+    (music
+      (file "music/cave.music")
     )
     (scripttrigger
       (script "Text.set_text(\"Floor -126\")   
@@ -976,8 +992,9 @@ Text.set_text(\"Floor -127\")
   )
   (sector
     (name "upi")
-    (music "music/cave.music")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -1242,6 +1259,9 @@ Text.set_text(\"Floor -127\")
     (mriceblock
       (x 3072)
       (y 128)
+    )
+    (music
+      (file "music/cave.music")
     )
     (scripttrigger
       (script "Level.spawn(\"NewSector\",\"main\") ")
@@ -1627,8 +1647,9 @@ Text.set_text(\"Floor -127\")
   )
   (sector
     (name "NewSector")
-    (music "music/cave.music")
-    (ambient-light 0.07843138 0.07843138 0.07843138)
+    (ambient-light
+      (color 0.07843138 0.07843138 0.07843138)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -1671,6 +1692,9 @@ Text.set_text(\"Floor -127\")
           (time 5)
         )
       )
+    )
+    (music
+      (file "music/cave.music")
     )
     (scripttrigger
       (script "Level.spawn(\"end\",\"main\")")
@@ -1968,9 +1992,10 @@ Text.set_text(\"Floor -89\")
   )
   (sector
     (name "end")
-    (music "music/cave.music")
     (init-script "sector.Tux.walk(3)")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -1999,6 +2024,9 @@ Text.set_text(\"Floor -89\")
           (y 928)
         )
       )
+    )
+    (music
+      (file "music/cave.music")
     )
     (scripttrigger
       (script "Text.fade_in(1)

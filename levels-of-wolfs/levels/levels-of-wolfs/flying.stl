@@ -7,7 +7,9 @@
   (sector
     (name "main")
     (init-script "platf1.stop_moving();")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")

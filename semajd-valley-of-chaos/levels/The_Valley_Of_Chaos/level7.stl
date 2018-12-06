@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-dark.music")
-    (ambient-light 0.4758068 0.4758068 0.4758068)
+    (ambient-light
+      (color 0.4758068 0.4758068 0.4758068)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -304,6 +305,9 @@
     (smartball
       (x 2179)
       (y 1058)
+    )
+    (music
+      (file "music/voc-dark.music")
     )
     (secretarea
       (fade-tilemap "secret")

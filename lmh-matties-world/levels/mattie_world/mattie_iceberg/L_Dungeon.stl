@@ -6,9 +6,10 @@
   (target-time 27)
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script "  flipflop <- false;  flip <- false;  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
@@ -600,6 +601,9 @@
       (x 5984)
       (y 736)
     )
+    (music
+      (file "music/cave.ogg")
+    )
     (powerup
       (script "  flipflop <- true;
         levelflip();  ")
@@ -1083,8 +1087,9 @@
   )
   (sector
     (name "pipe")
-    (music "music/bonuscave.ogg")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (camera
       (mode "normal")
     )
@@ -1131,6 +1136,9 @@
     (lantern
       (x 0)
       (y 480)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "wait  (  0  );

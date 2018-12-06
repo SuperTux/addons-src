@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 0.4470588 0.3843137 0.3843137)
+    (ambient-light
+      (color 0.4470588 0.3843137 0.3843137)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/snowcastle.png")
@@ -161,6 +162,9 @@
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 9864)
       (y 780)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (pneumatic-platform
       (x 5088)
@@ -495,8 +499,9 @@
   )
   (sector
     (name "balcony")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 0.5960785 0.5647059 0.5647059)
+    (ambient-light
+      (color 0.5960785 0.5647059 0.5647059)
+    )
     (camera
       (mode "normal")
     )
@@ -530,6 +535,9 @@
     (gradient
       (top_color 0 0.1882353 1)
       (bottom_color 0 0 0 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (spawnpoint
       (name "balcony")
@@ -654,8 +662,9 @@
   )
   (sector
     (name "outside")
-    (music "music/darkforestkeep.ogg")
-    (ambient-light 0.5254902 0.5176471 0.5176471)
+    (ambient-light
+      (color 0.5254902 0.5176471 0.5176471)
+    )
     (camera
       (mode "normal")
     )
@@ -678,6 +687,9 @@
     (gradient
       (top_color 1 0.7568628 0)
       (bottom_color 1 0.05882353 0)
+    )
+    (music
+      (file "music/darkforestkeep.ogg")
     )
     (spawnpoint
       (name "o2")

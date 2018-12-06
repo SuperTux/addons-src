@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/greatgigantic.ogg")
     (init-script " display_fishbox(\"blueone\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -28,6 +29,9 @@
     (mriceblock
       (x 2945)
       (y 294)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (scripttrigger
       (script "Level.spawn (\"main2\", \"main2a\");
@@ -412,9 +416,10 @@
   )
   (sector
     (name "main2")
-    (music "music/greatgigantic.ogg")
     (init-script " display_fishbox(\"blueone\"); ")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (camera
       (mode "normal")
     )
@@ -437,6 +442,9 @@
     (lantern
       (x 3024)
       (y 712)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (scripttrigger
       (script "Level.spawn (\"main\", \"main1b\");
@@ -801,9 +809,10 @@
   )
   (sector
     (name "secret1")
-    (music "music/bonuscave.ogg")
     (init-script " display_fishbox(\"blueone\"); ")
-    (ambient-light 0.6532235 0.6532235 0.6532235)
+    (ambient-light
+      (color 0.6532235 0.6532235 0.6532235)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -831,6 +840,9 @@ Spikes.set_alpha(1);
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (powerup
       (script "this.c5 <- true
@@ -1185,9 +1197,10 @@ play_sound(\"sounds/lifeup.wav\");
   )
   (sector
     (name "main3")
-    (music "music/greatgigantic.ogg")
     (init-script " display_fishbox(\"blueone\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1200,6 +1213,9 @@ play_sound(\"sounds/lifeup.wav\");
       (height 236)
       (x 960)
       (y -12)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (scripttrigger
       (script "Level.spawn (\"main2\", \"main2b\");")
@@ -1495,9 +1511,10 @@ play_sound(\"sounds/lifeup.wav\");
   )
   (sector
     (name "main4")
-    (music "music/greatgigantic.ogg")
     (init-script " display_fishbox(\"blueone\"); ")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (camera
       (mode "normal")
     )
@@ -1544,6 +1561,9 @@ play_sound(\"sounds/lifeup.wav\");
     (mriceblock
       (x 5025)
       (y 518)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (powerup
       (script "find_fish(\"blueone\");")
@@ -1870,9 +1890,10 @@ play_sound(\"sounds/lifeup.wav\");
   )
   (sector
     (name "main5")
-    (music "music/greatgigantic.ogg")
     (init-script " display_fishbox(\"blueone\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1883,6 +1904,9 @@ play_sound(\"sounds/lifeup.wav\");
     (mriceblock
       (x 1025)
       (y 550)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (scripttrigger
       (script "Level.spawn (\"main4\", \"main4b\");")

@@ -6,8 +6,9 @@
   (target-time 28)
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "bottom")
       (speed 0.13)
@@ -105,6 +106,9 @@
     (smartball
       (x 4192)
       (y 384)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (rock
       (x 6048)

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forest3.ogg")
-    (ambient-light 0.503624 0.5212939 0.9819486)
+    (ambient-light
+      (color 0.503624 0.5212939 0.9819486)
+    )
     (camera
       (mode "normal")
     )
@@ -1299,6 +1300,9 @@
       (message (_ ".you have to stop eating ice cubes before bed, it gives you nightmares like this one."))
       (x 288)
       (y 128)
+    )
+    (music
+      (file "music/forest3.ogg")
     )
     (spawnpoint
       (name "main")

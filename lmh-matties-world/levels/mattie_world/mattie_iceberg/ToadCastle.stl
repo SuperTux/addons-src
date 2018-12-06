@@ -5,13 +5,14 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
     (init-script "  skulltrap <- true;
       if(query(\"crystalart\")&& !query_reward(\"crystalart\")){CRYSTAL.set_visible(true)}
       if(query(\"moatart\")&& !query_reward(\"moatart\")){MOAT.set_visible(true)}
       if(query(\"oasisart\")&& !query_reward(\"oasisart\")){OASIS.set_visible(true)}
       artready <- true;  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis_dark.jpg")
@@ -111,6 +112,9 @@
     (mrbomb
       (x 4320)
       (y 320)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (scriptedobject
       (z-pos 0)
@@ -503,9 +507,10 @@
   )
   (sector
     (name "lava")
-    (music "music/fortress.ogg")
     (init-script "  bridge <- true;  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1654,6 +1659,9 @@
       (x 2656)
       (y 160)
     )
+    (music
+      (file "music/fortress.ogg")
+    )
     (pushbutton
       (script "  P.goto_node(1);
         wait(  0.1  );
@@ -2093,11 +2101,12 @@
   )
   (sector
     (name "elevator")
-    (music "music/fortress.ogg")
     (init-script "dungeon <- false;
       hidden <- true;
       down <- true;")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
@@ -2196,6 +2205,9 @@
           (y 4926)
         )
       )
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (scripttrigger
       (script "if(dungeon){

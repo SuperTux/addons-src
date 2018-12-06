@@ -5,8 +5,9 @@
   (license "CC BY-SA 4.0+")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -128,6 +129,9 @@
     (mriceblock
       (x 4616)
       (y 348)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (smartblock
       (x 4904)

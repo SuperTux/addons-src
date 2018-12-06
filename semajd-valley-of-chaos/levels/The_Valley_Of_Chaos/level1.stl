@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "two")
-    (music "music/voc-night.music")
-    (ambient-light 0.4117647 0.4117647 0.4117647)
+    (ambient-light
+      (color 0.4117647 0.4117647 0.4117647)
+    )
     (background
       (speed 0.1)
       (image-top "images/background/nightsky_top.png")
@@ -120,6 +121,9 @@
     (smartball
       (x 4355)
       (y 3046)
+    )
+    (music
+      (file "music/voc-night.music")
     )
     (snowball
       (x 2339)
@@ -504,10 +508,11 @@
   )
   (sector
     (name "main")
-    (music "music/voc-night.music")
     (init-script "plane.goto_node(120)
 wall.goto_node(120)")
-    (ambient-light 0.4117647 0.4117647 0.4117647)
+    (ambient-light
+      (color 0.4117647 0.4117647 0.4117647)
+    )
     (background
       (speed 2)
       (image "images/background/nightsky_top.png")
@@ -518,6 +523,9 @@ wall.goto_node(120)")
     (particles-clouds
     )
     (particles-clouds
+    )
+    (music
+      (file "music/voc-night.music")
     )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")

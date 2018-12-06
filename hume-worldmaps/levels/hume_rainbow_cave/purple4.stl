@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\");")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -201,6 +202,9 @@
 #There is one of buttons."))
       (x 2944)
       (y 2784)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (pushbutton
       (script "pc.goto_node(1)")

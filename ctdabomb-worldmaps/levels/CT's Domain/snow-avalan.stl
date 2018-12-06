@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/wisphunt.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -57,6 +58,9 @@
     (smartball
       (x 3939)
       (y 1190)
+    )
+    (music
+      (file "music/wisphunt.music")
     )
     (scripttrigger
       (script "avalan.goto_node(100)")

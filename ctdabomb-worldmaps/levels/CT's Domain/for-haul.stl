@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/airship_remix.ogg")
-    (ambient-light 0.8346838 0.08467231 0.08467231)
+    (ambient-light
+      (color 0.8346838 0.08467231 0.08467231)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -39,6 +40,9 @@
     (smartball
       (x 2083)
       (y 870)
+    )
+    (music
+      (file "music/airship_remix.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"cave\", \"cave\");")
@@ -193,8 +197,9 @@
   )
   (sector
     (name "cave")
-    (music "music/cave.music")
-    (ambient-light 1 0 0)
+    (ambient-light
+      (color 1 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -268,6 +273,9 @@
     (smartball
       (x 643)
       (y 550)
+    )
+    (music
+      (file "music/cave.music")
     )
     (scripttrigger
       (script "Level.spawn(\"under\", \"under\");")
@@ -386,8 +394,9 @@
   )
   (sector
     (name "under")
-    (music "music/forest3.ogg")
-    (ambient-light 1 0 0)
+    (ambient-light
+      (color 1 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -428,6 +437,9 @@
     (mrtree
       (x 1184)
       (y 542)
+    )
+    (music
+      (file "music/forest3.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"dirt\", \"dirt\");")
@@ -646,8 +658,9 @@
   )
   (sector
     (name "dirt")
-    (music "music/forestmap.ogg")
-    (ambient-light 1 0 0)
+    (ambient-light
+      (color 1 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -742,6 +755,9 @@
     (jumpy
       (x 1575)
       (y 904)
+    )
+    (music
+      (file "music/forestmap.ogg")
     )
     (spawnpoint
       (name "dirt")

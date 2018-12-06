@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forest3.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -69,6 +70,9 @@
     (mrtree
       (x 16896)
       (y 0)
+    )
+    (music
+      (file "music/forest3.ogg")
     )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")
@@ -378,8 +382,9 @@
   )
   (sector
     (name "dole")
-    (music "music/cave.ogg")
-    (ambient-light 0.4758068 0.4758068 0.4758068)
+    (ambient-light
+      (color 0.4758068 0.4758068 0.4758068)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/rolling-bottom.jpg")
@@ -393,6 +398,9 @@
       (sprite "images/objects/resetpoints/firefly.sprite")
       (x 1728)
       (y 384)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"kokot\")")

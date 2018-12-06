@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/worldmap_tux.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -14,6 +15,9 @@
       (sprite "images/worldmap/common/boat/boat_empty.png")
       (x 864)
       (y 512)
+    )
+    (music
+      (file "music/worldmap_tux.ogg")
     )
     (tilemap
       (solid #f)

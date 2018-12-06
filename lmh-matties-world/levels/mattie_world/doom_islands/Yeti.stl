@@ -6,9 +6,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/bossattack.ogg")
     (init-script "      ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -31,6 +32,9 @@
     (gradient
       (top_color 0 0 0)
       (bottom_color 0.4 0.4 0.4)
+    )
+    (music
+      (file "music/bossattack.ogg")
     )
     (rock
       (x 777)

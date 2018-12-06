@@ -6,7 +6,9 @@
   (sector
     (name "main")
     (init-script "import(\"levels/hume_rainbow_cave/underground.nut\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (special-tile
       (invisible-tile #t)
       (script "podzemak(true);")

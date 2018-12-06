@@ -50,7 +50,9 @@
       announce(1);
       lift1.goto_node(0);  liftimage1.goto_node(0);  down1 <- true;
       lift2.goto_node(0);  liftimage2.goto_node(0);  down2 <- true;  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )

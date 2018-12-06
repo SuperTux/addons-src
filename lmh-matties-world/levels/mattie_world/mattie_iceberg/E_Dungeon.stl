@@ -5,7 +5,6 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script "lift1.start_moving();
 lift2.start_moving();
 lift3.start_moving();
@@ -14,7 +13,9 @@ lift5.start_moving();
 lift6.start_moving();
 lift7.start_moving();
 lift8.start_moving();")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
@@ -114,6 +115,9 @@ lift8.start_moving();")
     (smartball
       (x 5984)
       (y 736)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")
@@ -924,8 +928,9 @@ Level.spawn(\"pipe\", \"main\");")
   )
   (sector
     (name "pipe")
-    (music "music/bonuscave.ogg")
-    (ambient-light 0.1960784 0.1960784 0.1960784)
+    (ambient-light
+      (color 0.1960784 0.1960784 0.1960784)
+    )
     (camera
       (mode "normal")
     )
@@ -982,6 +987,9 @@ Level.spawn(\"pipe\", \"main\");")
     (gradient
       (top_color 0 0 0)
       (bottom_color 0 0 0)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "wait  (  0  );

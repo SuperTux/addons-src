@@ -6,7 +6,9 @@
   (sector
     (name "main")
     (init-script "wait_for_screenswitch();Level.finish(true);display_text_file(\"levels/tsb/intro-tsb.txt\");")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/oiltux.jpg")

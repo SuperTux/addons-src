@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-daytime2.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 3681)
       (y 128)
@@ -108,6 +109,9 @@
     (smartball
       (x 6403)
       (y 710)
+    )
+    (music
+      (file "music/voc-daytime2.music")
     )
     (snowball
       (x 1603)
@@ -456,8 +460,9 @@
   )
   (sector
     (name "inside")
-    (music "music/voc-dark.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -522,6 +527,9 @@
       (message (_ "#Are you ready to enter the cave?"))
       (x 576)
       (y 1184)
+    )
+    (music
+      (file "music/voc-dark.music")
     )
     (sspiky
       (direction "right")

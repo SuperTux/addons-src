@@ -5,12 +5,13 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "  gate <- true;
       cage <- true;
       hidden <- true;
       discover(\"Arena\");  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/semi_arctic.jpg")
@@ -346,6 +347,9 @@
           (time 2)
         )
       )
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (powerup
       (sprite "images/powerups/1up/1up.sprite")

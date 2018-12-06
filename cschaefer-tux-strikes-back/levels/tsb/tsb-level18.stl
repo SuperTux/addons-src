@@ -5,8 +5,9 @@
   (license "CC BY-SA 4.0+")
   (sector
     (name "main")
-    (music "music/bossattack.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (x 5824)
       (y 288)
@@ -194,6 +195,9 @@
     (mriceblock
       (x 3009)
       (y 166)
+    )
+    (music
+      (file "music/bossattack.music")
     )
     (owl
       (x 6478)

@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 0.354345 0.1840848 0)
+    (ambient-light
+      (color 0.354345 0.1840848 0)
+    )
     (angrystone
       (x 3264)
       (y 320)
@@ -101,6 +102,9 @@
     (mole
       (x 851)
       (y 288)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (skullyhop
       (x 2592)

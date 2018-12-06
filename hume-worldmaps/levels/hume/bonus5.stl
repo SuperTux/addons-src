@@ -5,11 +5,12 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/invincible.ogg")
     (init-script "import(\"levels/hume/defualt.nut\")
           unlock_archivement(\"af\")
 unlock_archivement(\"ag\")")
-    (ambient-light 0.1254902 0.1254902 0.1254902)
+    (ambient-light
+      (color 0.1254902 0.1254902 0.1254902)
+    )
     (background
       (alignment "top")
       (speed 0.2)
@@ -39,6 +40,9 @@ unlock_archivement(\"ag\")")
     (gradient
       (top_color 0 0 0)
       (bottom_color 0.003921569 0.003921569 0.003921569)
+    )
+    (music
+      (file "music/invincible.ogg")
     )
     (scripttrigger
       (script "this.notarch <- true

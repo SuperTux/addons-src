@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script " display_fishbox(\"down\"); ")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (bouncingsnowball
       (x 2049)
       (y 384)
@@ -318,6 +319,9 @@
     (jumpy
       (x 9575)
       (y 5608)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (powerup
       (script "find_fish(\"down\")")

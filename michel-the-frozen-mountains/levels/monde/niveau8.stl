@@ -5,14 +5,15 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "plateforme1.start_moving();
 plateforme2.start_moving();
 plateforme3.start_moving();
 plateforme4.start_moving();
 plateforme5.start_moving();
 plateforme6.start_moving();")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.4)
       (image-top "images/background/nightsky_top.png")
@@ -487,6 +488,9 @@ plateforme6.start_moving();")
     (smartball
       (x 1667)
       (y 102)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (rock
       (x 8352)

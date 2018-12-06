@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/treeboss.music")
-    (ambient-light 0.6048371 0.6048371 0.6048371)
+    (ambient-light
+      (color 0.6048371 0.6048371 0.6048371)
+    )
     (background
       (speed 0.5)
       (image "images/background/semi_arctic.jpg")
@@ -127,6 +128,9 @@
     (smartball
       (x 4291)
       (y 230)
+    )
+    (music
+      (file "music/treeboss.music")
     )
     (sequencetrigger
       (sequence "endsequence")

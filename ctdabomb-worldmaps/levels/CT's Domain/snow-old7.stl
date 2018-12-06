@@ -4,8 +4,9 @@
   (author "UnNamed")
   (sector
     (name "main")
-    (music "music/theme.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (flyingsnowball
       (x 5228)
       (y 254)
@@ -133,6 +134,9 @@
     (mriceblock
       (x 4744)
       (y 377)
+    )
+    (music
+      (file "music/theme.ogg")
     )
     (snowball
       (x 9388)

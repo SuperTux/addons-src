@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-boss.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -48,6 +49,9 @@
       (message (_ "#Once you go into the yeti's cave, there is no coming out until he is dead"))
       (x 2848)
       (y 288)
+    )
+    (music
+      (file "music/voc-boss.music")
     )
     (scripttrigger
       (script "Level.spawn( \"boss\", \"main\")")
@@ -262,14 +266,18 @@
   )
   (sector
     (name "boss")
-    (music "music/voc-boss.music")
-    (ambient-light 0.7177386 0.7177386 0.7177386)
+    (ambient-light
+      (color 0.7177386 0.7177386 0.7177386)
+    )
     (camera
       (mode "normal")
     )
     (firefly
       (x 64)
       (y 672)
+    )
+    (music
+      (file "music/voc-boss.music")
     )
     (scripttrigger
       (script "wall.goto_node(1)")

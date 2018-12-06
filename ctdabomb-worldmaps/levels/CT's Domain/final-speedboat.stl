@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/salcon.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 2)
       (image "images/background/semi_arctic.jpg")
@@ -41,6 +42,9 @@
     (firefly
       (x 10880)
       (y 832)
+    )
+    (music
+      (file "music/salcon.ogg")
     )
     (scripttrigger
       (script "boat.goto_node(120)")

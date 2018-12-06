@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/intro.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -200,6 +201,9 @@
     (smartball
       (x 4035)
       (y 902)
+    )
+    (music
+      (file "music/intro.ogg")
     )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")
@@ -627,8 +631,9 @@
   )
   (sector
     (name "abc")
-    (music "music/wisphunt.music")
-    (ambient-light 0.225803 0.225803 1)
+    (ambient-light
+      (color 0.225803 0.225803 1)
+    )
     (camera
       (mode "normal")
     )
@@ -641,6 +646,9 @@
     (gradient
       (top_color 0 0.6301671 1)
       (bottom_color 0 0 1)
+    )
+    (music
+      (file "music/wisphunt.music")
     )
     (spawnpoint
       (name "abc")

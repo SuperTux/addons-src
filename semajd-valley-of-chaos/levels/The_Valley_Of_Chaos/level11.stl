@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-night.music")
-    (ambient-light 0.6048371 0.6048371 0.6048371)
+    (ambient-light
+      (color 0.6048371 0.6048371 0.6048371)
+    )
     (bouncingsnowball
       (x 1601)
       (y 1248)
@@ -115,6 +116,9 @@
     (smartball
       (x 4003)
       (y 1126)
+    )
+    (music
+      (file "music/voc-night.music")
     )
     (secretarea
       (width 92)

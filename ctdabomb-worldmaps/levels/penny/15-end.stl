@@ -6,11 +6,12 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "boss")
-    (music "music/bossattack.music")
     (init-script "
 Effect.fade_in(1);
 ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -38,6 +39,9 @@ Effect.fade_in(1);
     (gradient
       (top_color 0 0 0 0)
       (bottom_color 1 0 0)
+    )
+    (music
+      (file "music/bossattack.music")
     )
     (particles-snow
     )
@@ -263,8 +267,9 @@ Effect.fade_in(1);
   )
   (sector
     (name "main")
-    (music "music/wisphunt.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/fog.png")
@@ -276,6 +281,9 @@ Effect.fade_in(1);
     (gradient
       (top_color 0.9322042 0.7250477 0.07406729)
       (bottom_color 0.633341 0.9838102 0.9516594)
+    )
+    (music
+      (file "music/wisphunt.music")
     )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")

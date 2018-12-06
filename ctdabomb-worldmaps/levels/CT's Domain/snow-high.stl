@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/worldmap_tux.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "bottom")
       (speed 0.25)
@@ -346,6 +347,9 @@
     (smartball
       (x 3587)
       (y 198)
+    )
+    (music
+      (file "music/worldmap_tux.ogg")
     )
     (secretarea
       (width 220)

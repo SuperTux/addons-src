@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/voc-night.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/nightsky_top.png")
@@ -94,6 +95,9 @@
     (smartball
       (x 7395)
       (y 166)
+    )
+    (music
+      (file "music/voc-night.ogg")
     )
     (snowball
       (x 899)

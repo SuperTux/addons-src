@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-daytime.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis.jpg")
@@ -87,6 +88,9 @@
     (smartball
       (x 4899)
       (y 710)
+    )
+    (music
+      (file "music/voc-daytime.music")
     )
     (secretarea
       (fade-tilemap "secret2")
@@ -755,9 +759,10 @@
   )
   (sector
     (name "secret2")
-    (music "music/bonuscave.ogg")
     (gravity 5)
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -772,6 +777,9 @@
       (spawnpoint "secret2")
       (x 32)
       (y 6272)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (spawnpoint
       (name "main")

@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/worldmap_tux.ogg")
     (gravity 6)
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/nightsky_top.png")
@@ -26,6 +27,9 @@
     (firefly
       (x 5568)
       (y 320)
+    )
+    (music
+      (file "music/worldmap_tux.ogg")
     )
     (spawnpoint
       (name "main")

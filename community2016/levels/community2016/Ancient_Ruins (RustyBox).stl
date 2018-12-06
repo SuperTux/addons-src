@@ -5,8 +5,9 @@
   (license "CC-BY-SA 4.0 International")
   (sector
     (name "main")
-    (music "/music/forest3.ogg")
-    (ambient-light 0.5 0.6 0.7)
+    (ambient-light
+      (color 0.5 0.6 0.7)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/transparent_up.png")
@@ -193,6 +194,9 @@
       (sprite "images/creatures/mr_tree/mr_tree.sprite")
       (x 13277.2)
       (y 663.886)
+    )
+    (music
+      (file "/music/forest3.ogg")
     )
     (poisonivy
       (direction "left")

@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/forest.ogg")
-    (ambient-light 1 0.4627451 0)
+    (ambient-light
+      (color 1 0.4627451 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -199,6 +200,9 @@
     (mrtree
       (x 576)
       (y 928)
+    )
+    (music
+      (file "music/forest.ogg")
     )
     (poisonivy
       (x 8896)

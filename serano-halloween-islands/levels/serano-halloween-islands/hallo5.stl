@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/ghostforest2.ogg")
-    (ambient-light 0.5803922 0.509804 0.509804)
+    (ambient-light
+      (color 0.5803922 0.509804 0.509804)
+    )
     (background
       (speed 0)
       (image-top "images/background/ghostforest.jpg")
@@ -355,6 +356,9 @@
       (sprite "images/creatures/kirby/kirby.sprite")
       (x 13288)
       (y 684)
+    )
+    (music
+      (file "music/ghostforest2.ogg")
     )
     (secretarea
       (width 156)

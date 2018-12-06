@@ -5,8 +5,9 @@
   (license "CC-BY-SA 4.0 International")
   (sector
     (name "main")
-    (music "/music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "/images/background/bluemountain-top.png")
@@ -91,6 +92,9 @@
       (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
       (x 566.6666)
       (y 603.3342)
+    )
+    (music
+      (file "/music/chipdisko.ogg")
     )
     (owl
       (carry "skydive")
@@ -634,8 +638,9 @@
   )
   (sector
     (name "chicken")
-    (music "/music/voc-night.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -824,6 +829,9 @@
       (sprite "/images/creatures/snowball/snowball.sprite")
       (x 3151.33)
       (y 952.6669)
+    )
+    (music
+      (file "/music/voc-night.ogg")
     )
     (rock
       (sprite "images/objects/rock/rock.sprite")

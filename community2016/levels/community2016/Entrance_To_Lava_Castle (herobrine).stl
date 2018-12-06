@@ -6,8 +6,9 @@
   (license "CC-BY-SA 4.0 International")
   (sector
     (name "main")
-    (music "/music/airship_remix.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (scroll-speed-x 0)
       (scroll-speed-y 0)
@@ -200,6 +201,9 @@
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 5943)
       (y 582)
+    )
+    (music
+      (file "/music/airship_remix.ogg")
     )
     (sequencetrigger
       (sequence "endsequence")

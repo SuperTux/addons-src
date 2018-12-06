@@ -5,10 +5,11 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/bossattack.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")
 ")
-    (ambient-light 0 0 0.5019608)
+    (ambient-light
+      (color 0 0 0.5019608)
+    )
     (camera
       (mode "normal")
     )
@@ -42,6 +43,9 @@
     (gradient
       (top_color 0 0 1)
       (bottom_color 0 0 1)
+    )
+    (music
+      (file "music/bossattack.ogg")
     )
     (spawnpoint
       (name "main")
@@ -234,7 +238,9 @@ while(true){
  }
 }
 ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -910,16 +916,20 @@ epibrana.set_visible(true)
   )
   (sector
     (name "exit")
-    (music "music/cave.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")
 finish_level_group(\"blue\",\"b6\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
     (gradient
       (top_color 0 0 1)
       (bottom_color 0 0 1)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (spawnpoint
       (name "main")

@@ -6,8 +6,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/forestmap.ogg")
-    (ambient-light 0.8 0.8 0.8)
+    (ambient-light
+      (color 0.8 0.8 0.8)
+    )
     (bonusblock
       (script "")
       (contents "light")
@@ -24,6 +25,9 @@
     (smartball
       (x 1283)
       (y 838)
+    )
+    (music
+      (file "music/forestmap.ogg")
     )
     (poisonivy
       (x 4290)

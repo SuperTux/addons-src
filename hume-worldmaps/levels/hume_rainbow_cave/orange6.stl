@@ -5,14 +5,15 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/bossattack.ogg")
     (init-script "import(\"levels/hume_rainbow_cave/defualt.nut\")
 wait(5)
 propadak0.goto_node(1)
 propadak1.goto_node(1)
 wait(55)
 finish_level_group(\"orange\",\"o6\")")
-    (ambient-light 1 0.6666667 0)
+    (ambient-light
+      (color 1 0.6666667 0)
+    )
     (camera
       (mode "normal")
     )
@@ -45,6 +46,9 @@ finish_level_group(\"orange\",\"o6\")")
           (y 32)
         )
       )
+    )
+    (music
+      (file "music/bossattack.ogg")
     )
     (spawnpoint
       (name "main")

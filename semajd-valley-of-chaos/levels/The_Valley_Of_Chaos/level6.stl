@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-dark.music")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bouncingsnowball
       (direction "right")
       (x 4929)
@@ -125,6 +126,9 @@
     (smartball
       (x 5347)
       (y 134)
+    )
+    (music
+      (file "music/voc-dark.music")
     )
     (secretarea
       (width 124)

@@ -20,7 +20,9 @@ Platform12.start_moving();
 Platform13.start_moving();
 Platform14.start_moving();
 Platform15.start_moving();")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -562,7 +564,9 @@ Platform15.start_moving();")
   )
   (sector
     (name "Secret1")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -666,7 +670,9 @@ Platform15.start_moving();")
   )
   (sector
     (name "Secret2")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )

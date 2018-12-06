@@ -5,8 +5,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/treeboss.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.8)
       (image-top "images/background/bluemountain-top.png")
@@ -36,6 +37,9 @@
     (mrbomb
       (x 402)
       (y 3881)
+    )
+    (music
+      (file "music/treeboss.ogg")
     )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")
@@ -418,8 +422,9 @@
   )
   (sector
     (name "ship")
-    (music "music/treeboss.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (custom-contents
          (powerup           (sprite "images/powerups/fireflower/fireflower.sprite")
@@ -848,6 +853,9 @@
       (x 3264)
       (y 192)
     )
+    (music
+      (file "music/treeboss.ogg")
+    )
     (scripttrigger
       (script "  board.stop()  ")
       (button #f)
@@ -1264,9 +1272,10 @@
   )
   (sector
     (name "inside")
-    (music "music/treeboss.ogg")
     (init-script "  piston.start_moving();  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1520,6 +1529,9 @@
         )
       )
     )
+    (music
+      (file "music/treeboss.ogg")
+    )
     (spawnpoint
       (name "main")
       (x 210)
@@ -1622,9 +1634,10 @@
   )
   (sector
     (name "boss")
-    (music "music/wisphunt.ogg")
     (init-script "  pau <- false;  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -4967,6 +4980,9 @@
     (mrbomb
       (x 274)
       (y 640)
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (powerup
       (script "  find(\"aircrystal\");Tux.add_bonus(\"grow\");eggup();  ")

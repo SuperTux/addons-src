@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 0.7400015 0.7400015 0.7400015)
+    (ambient-light
+      (color 0.7400015 0.7400015 0.7400015)
+    )
     (background
       (speed 0.4)
       (image-top "images/background/arctis_top.jpg")
@@ -435,6 +436,9 @@ play_sound(\"sounds/door.wav\");
     (smartball
       (x 8003)
       (y 454)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (rock
       (x 7520)
@@ -1180,8 +1184,9 @@ porte.stop_moving();")
   )
   (sector
     (name "grotte")
-    (music "music/cave.music")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_bottom.jpg")
@@ -1293,6 +1298,9 @@ porte.stop_moving();")
     (smartball
       (x 2051)
       (y 806)
+    )
+    (music
+      (file "music/cave.music")
     )
     (snowball
       (x 2467)

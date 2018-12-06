@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/ghostforest2.ogg")
-    (ambient-light 0.5019608 0.5019608 0.5019608)
+    (ambient-light
+      (color 0.5019608 0.5019608 0.5019608)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/ghostforest.jpg")
@@ -64,6 +65,9 @@
     (mrtree
       (x 1600)
       (y 288)
+    )
+    (music
+      (file "music/ghostforest2.ogg")
     )
     (poisonivy
       (x 576)

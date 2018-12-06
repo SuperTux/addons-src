@@ -5,7 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (ambient-light 0.1137255 0.1137255 0.1137255)
+    (ambient-light
+      (color 0.1137255 0.1137255 0.1137255)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")
@@ -234,7 +236,9 @@
   )
   (sector
     (name "NewSector")
-    (ambient-light 0 0 0)
+    (ambient-light
+      (color 0 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/cave2.jpg")

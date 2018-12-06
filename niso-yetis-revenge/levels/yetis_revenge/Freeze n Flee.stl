@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/cave.ogg")
     (init-script " display_fishbox(\"freeze\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -129,6 +130,9 @@
     (jumpy
       (x 3030.543)
       (y 290.4586)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (powerup
       (script "find_fish(\"freeze\");")

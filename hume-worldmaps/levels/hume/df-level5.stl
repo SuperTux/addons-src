@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/greatgigantic.ogg")
-    (ambient-light 0.5019608 0.5019608 0.5019608)
+    (ambient-light
+      (color 0.5019608 0.5019608 0.5019608)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/ghostforest.jpg")
@@ -24,6 +25,9 @@
     )
     (particles-ghosts
       (z-pos -52)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (plant
       (x 4288)

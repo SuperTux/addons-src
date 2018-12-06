@@ -13,7 +13,9 @@ key.set_visible(true);
 key.set_action(\"default\")
   }
 ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (sprite-change
       (change-on-touch #f)
       (initial-stay-action #f)

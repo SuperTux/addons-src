@@ -5,10 +5,11 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/fortress.ogg")
     (init-script "dungeon <- false;																																																																																																																																																													
 			skulltrap <- true;")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/arctis_dark.jpg")
@@ -111,6 +112,9 @@
     (mrbomb
       (x 4677)
       (y 520)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (skullyhop
       (x 5024)
@@ -224,9 +228,10 @@
   )
   (sector
     (name "lava")
-    (music "music/fortress.ogg")
     (init-script "	bridge <- true;	")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -275,6 +280,9 @@
     (mrbomb
       (x 2565)
       (y 520)
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (snail
       (x 66)
@@ -825,10 +833,11 @@
   )
   (sector
     (name "elevator")
-    (music "music/fortress.ogg")
     (init-script "dungeon <- false;																																																																																																																																																													
 			down <- true;")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/nightsky_top.png")
@@ -864,6 +873,9 @@
           (time 0.6)
         )
       )
+    )
+    (music
+      (file "music/fortress.ogg")
     )
     (spawnpoint
       (name "main")

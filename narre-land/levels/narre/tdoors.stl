@@ -4,7 +4,9 @@
   (author "Narre")
   (sector
     (name "main")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -373,7 +375,9 @@
   )
   (sector
     (name "1")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -574,7 +578,9 @@
   )
   (sector
     (name "2")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1165,7 +1171,9 @@
   )
   (sector
     (name "3")
-    (ambient-light 0.7529412 0.7529412 0.7529412)
+    (ambient-light
+      (color 0.7529412 0.7529412 0.7529412)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -1744,7 +1752,9 @@ sector.Tux.add_bonus(\"iceflower\")")
   )
   (sector
     (name "4")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -2043,7 +2053,9 @@ sector.Tux.add_bonus(\"iceflower\")")
   )
   (sector
     (name "5")
-    (ambient-light 0.7529412 0.7529412 0.7529412)
+    (ambient-light
+      (color 0.7529412 0.7529412 0.7529412)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -2372,7 +2384,9 @@ sector.Tux.add_bonus(\"iceflower\")")
   )
   (sector
     (name "n2")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -2580,8 +2594,9 @@ sector.Tux.add_bonus(\"iceflower\")")
   )
   (sector
     (name "secret")
-    (music "bonuscave.ogg")
-    (ambient-light 1 0 0)
+    (ambient-light
+      (color 1 0 0)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -2626,6 +2641,9 @@ sector.Tux.add_bonus(\"iceflower\")")
           (y 736)
         )
       )
+    )
+    (music
+      (file "bonuscave.ogg")
     )
     (scripttrigger
       (script "srac.goto_node(1)")

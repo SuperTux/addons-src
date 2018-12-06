@@ -5,9 +5,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
     (init-script "  press_up <- false;  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -56,6 +57,9 @@
     (smartball
       (x 3235)
       (y 294)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "Level.spawn(\"under\", \"alpha\");")
@@ -586,14 +590,18 @@
   )
   (sector
     (name "transition")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
     (gradient
       (top_color 0 0 0)
       (bottom_color 0 0 1)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "  Level.spawn(\"pipe\", \"main\");  ")
@@ -745,9 +753,10 @@
   )
   (sector
     (name "under")
-    (music "music/chipdisko.ogg")
     (gravity 8)
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (script "")
       (contents "1up")
@@ -801,6 +810,9 @@
     (mriceblock
       (x 4256)
       (y 512)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "  Level.spawn(\"main\", \"underout\");  ")
@@ -1212,14 +1224,18 @@
   )
   (sector
     (name "pipe")
-    (music "music/bonuscave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
     (gradient
       (top_color 0 0 0)
       (bottom_color 0 0 0)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "  Level.spawn(\"under\", \"secretout\");")
@@ -1308,8 +1324,9 @@
   )
   (sector
     (name "drain")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
       (mode "normal")
     )
@@ -1325,6 +1342,9 @@
     (mriceblock
       (x 640)
       (y 128)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "  Level.spawn(\"under\", \"secretout\");  ")

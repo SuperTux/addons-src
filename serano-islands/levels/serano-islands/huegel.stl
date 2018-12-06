@@ -4,8 +4,9 @@
   (author "alex")
   (sector
     (name "main")
-    (music "music/forest2.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0)
       (image-top "images/background/forest2.jpg")
@@ -94,6 +95,9 @@
           (y 2080)
         )
       )
+    )
+    (music
+      (file "music/forest2.ogg")
     )
     (poisonivy
       (x 1280)

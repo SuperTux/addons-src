@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.4)
       (image-top "images/background/nightsky_top.png")
@@ -80,6 +81,9 @@
     (smartball
       (x 11075)
       (y 902)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (scripttrigger
       (script "secret.set_alpha(1.0);
@@ -395,8 +399,9 @@ retour.set_alpha(1.0);")
   )
   (sector
     (name "secret")
-    (music "music/cave.music")
-    (ambient-light 0.7400015 0.7400015 0.7400015)
+    (ambient-light
+      (color 0.7400015 0.7400015 0.7400015)
+    )
     (background
       (speed 0.4)
       (image-top "images/background/arctis_bottom.jpg")
@@ -479,6 +484,9 @@ retour.set_alpha(1.0);")
     (smartball
       (x 2755)
       (y 838)
+    )
+    (music
+      (file "music/cave.music")
     )
     (secretarea
       (fade-tilemap "cache")

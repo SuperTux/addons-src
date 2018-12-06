@@ -5,8 +5,9 @@
   (license "CC-BY-SA 4.0 Intl")
   (sector
     (name "main")
-    (music "music/wisphunt.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (ambient_sound
       (sample "sounds/waterfall.wav")
       (distance_factor 0.1)
@@ -234,6 +235,9 @@ Wait!"))
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 387)
       (y 262)
+    )
+    (music
+      (file "music/wisphunt.ogg")
     )
     (pushbutton
       (script "plat1.goto_node(6);")
@@ -522,8 +526,9 @@ Wait!"))
   )
   (sector
     (name "casa gelada")
-    (music "music/cave.ogg")
-    (ambient-light 0.02949569 0.02444495 0.06675822)
+    (ambient-light
+      (color 0.02949569 0.02444495 0.06675822)
+    )
     (ambient_sound
       (sample "levels/gelada/sounds/discuçao.wav")
       (distance_factor 0.1)
@@ -721,6 +726,9 @@ Wait!"))
       (sprite "images/creatures/snowball/smart-snowball.sprite")
       (x 355)
       (y 2310)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (owl
       (carry "skydive")

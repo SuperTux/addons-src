@@ -5,9 +5,10 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/bonuscave.ogg")
     (init-script "  show_shop_rewards();  ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (bonusblock
       (custom-contents
          (powerup           (sprite "images/powerups/egg/egg.sprite")
@@ -96,6 +97,9 @@
 -DO NOT PUSH"))
       (x 224)
       (y 352)
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (pushbutton
       (script "  delete_progress();

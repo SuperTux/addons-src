@@ -5,8 +5,9 @@
   (license "CC-BY-SA 4.0 International")
   (sector
     (name "main")
-    (music "/music/forest2.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (alignment "bottom")
       (scroll-speed-x 0)
@@ -450,6 +451,9 @@
       (x 10392.6)
       (y 834.252)
     )
+    (music
+      (file "/music/forest2.ogg")
+    )
     (poisonivy
       (direction "left")
       (sprite "images/creatures/poison_ivy/poison_ivy.sprite")
@@ -779,8 +783,9 @@
   )
   (sector
     (name "sector2")
-    (music "/music/forest2.ogg")
-    (ambient-light 0 0 0 0)
+    (ambient-light
+      (color 0 0 0 0)
+    )
     (background
       (scroll-speed-x 0)
       (scroll-speed-y 0)
@@ -797,6 +802,9 @@
       (spawnpoint "back")
       (x 136.1714)
       (y 736.9731)
+    )
+    (music
+      (file "/music/forest2.ogg")
     )
     (powerup
       (sprite "images/powerups/1up/1up.sprite")

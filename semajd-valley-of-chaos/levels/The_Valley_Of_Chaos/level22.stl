@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-daytime.music")
-    (ambient-light 1 0.9859159 0.783154)
+    (ambient-light
+      (color 1 0.9859159 0.783154)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/semi_arctic.jpg")
@@ -133,6 +134,9 @@
     (smartball
       (x 6179)
       (y 294)
+    )
+    (music
+      (file "music/voc-daytime.music")
     )
     (secretarea
       (width 60)

@@ -5,8 +5,9 @@
   (license "CC BY-SA 4.0+")
   (sector
     (name "main")
-    (music "music/cave.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image "images/background/cave2.jpg")
@@ -97,6 +98,9 @@
     (smartball
       (x 1702)
       (y 330)
+    )
+    (music
+      (file "music/cave.ogg")
     )
     (snowball
       (x 3683)

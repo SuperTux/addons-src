@@ -5,11 +5,15 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/airship_remix.ogg")
     (init-script "map <- true;
       state.coin_level_active <- false;
       set_map();")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
+    (music
+      (file "music/airship_remix.ogg")
+    )
     (special-tile
       (invisible-tile #t)
       (script "	toggle_mattmap(); toggle_doommap();	")

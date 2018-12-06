@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-dark.music")
-    (ambient-light 0.4919356 0.4919356 0.4919356)
+    (ambient-light
+      (color 0.4919356 0.4919356 0.4919356)
+    )
     (camera
       (mode "normal")
     )
@@ -120,6 +121,9 @@
     (mrbomb
       (x 9253)
       (y 776)
+    )
+    (music
+      (file "music/voc-dark.music")
     )
     (particles-rain
     )

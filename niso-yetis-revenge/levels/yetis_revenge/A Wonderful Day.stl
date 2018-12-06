@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/salcon.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -243,6 +244,9 @@
     (smartball
       (x 17507)
       (y 838)
+    )
+    (music
+      (file "music/salcon.ogg")
     )
     (powerup
       (script "this.c1 <- true
@@ -899,9 +903,10 @@ if8.goto_node(0)")
   )
   (sector
     (name "Secret1")
-    (music "music/bonuscave.ogg")
     (gravity 1)
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_bottom.jpg")
@@ -910,6 +915,9 @@ if8.goto_node(0)")
     )
     (camera
       (mode "normal")
+    )
+    (music
+      (file "music/bonuscave.ogg")
     )
     (scripttrigger
       (script "Level.spawn (\"main\",\"main2\")")

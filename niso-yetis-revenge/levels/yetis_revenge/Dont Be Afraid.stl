@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/ghostforest.ogg")
     (init-script " display_fishbox(\"afraid\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/snowcastle.png")
@@ -81,6 +82,9 @@
     )
     (particles-ghosts
       (z-pos -1)
+    )
+    (music
+      (file "music/ghostforest.ogg")
     )
     (secretarea
       (fade-tilemap "secret2")
@@ -559,9 +563,10 @@ door.set_alpha(1);")
   )
   (sector
     (name "m2")
-    (music "music/ghostforest.ogg")
     (init-script " display_fishbox(\"afraid\"); ")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/snowcastle.png")
@@ -1385,6 +1390,9 @@ door.set_alpha(1);")
           (y 640)
         )
       )
+    )
+    (music
+      (file "music/ghostforest.ogg")
     )
     (powerup
       (script "this.c1 <- true

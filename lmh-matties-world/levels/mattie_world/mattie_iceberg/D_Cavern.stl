@@ -6,9 +6,10 @@
   (target-time 40)
   (sector
     (name "main")
-    (music "music/greatgigantic.ogg")
     (init-script "import(\"levels/mattie_world/scripts/blue_coins_five.nut\");")
-    (ambient-light 0.01176471 0.01176471 0.01176471)
+    (ambient-light
+      (color 0.01176471 0.01176471 0.01176471)
+    )
     (bonusblock
       (script "")
       (contents "custom")
@@ -586,6 +587,9 @@
     (mriceblock
       (x 2560)
       (y 640)
+    )
+    (music
+      (file "music/greatgigantic.ogg")
     )
     (powerup
       (script "glow5.set_burning(true);

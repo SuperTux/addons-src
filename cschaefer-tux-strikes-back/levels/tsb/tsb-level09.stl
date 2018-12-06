@@ -5,8 +5,9 @@
   (license "CC BY-SA 4.0+")
   (sector
     (name "main")
-    (music "music/voc-daytime.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_top.jpg")
@@ -163,6 +164,9 @@
     (smartball
       (x 2627)
       (y 646)
+    )
+    (music
+      (file "music/voc-daytime.ogg")
     )
     (smartblock
       (x 4993)

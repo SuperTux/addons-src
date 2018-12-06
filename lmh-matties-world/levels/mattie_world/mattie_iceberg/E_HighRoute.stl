@@ -5,8 +5,9 @@
   (license "GPL 2 / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
-    (ambient-light 1 1 0.53)
+    (ambient-light
+      (color 1 1 0.53)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
@@ -169,6 +170,9 @@
     (smartball
       (x 3107)
       (y 966)
+    )
+    (music
+      (file "music/chipdisko.ogg")
     )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")

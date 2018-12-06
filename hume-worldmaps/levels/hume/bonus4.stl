@@ -5,9 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/invincible.ogg")
     (init-script "import(\"levels/hume/defualt.nut\");unlock_archivement(\"y\");unlock_archivement(\"z\")")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")
@@ -40,6 +41,9 @@
       (spawnpoint "main")
       (x 512)
       (y 672)
+    )
+    (music
+      (file "music/invincible.ogg")
     )
     (scripttrigger
       (script "while(true){
@@ -177,7 +181,9 @@ wait(1)
   )
   (sector
     (name "exit")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/BlueRock_Forest/blue-top.jpg")

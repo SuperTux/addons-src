@@ -5,8 +5,9 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (music "music/voc-dark.music")
-    (ambient-light 0.345098 0.345098 0.345098)
+    (ambient-light
+      (color 0.345098 0.345098 0.345098)
+    )
     (camera
       (mode "normal")
     )
@@ -180,6 +181,9 @@
     (mrbomb
       (x 1285)
       (y 840)
+    )
+    (music
+      (file "music/voc-dark.music")
     )
     (skullyhop
       (x 1440)
@@ -445,8 +449,9 @@
   )
   (sector
     (name "2")
-    (music "music/voc-dark.music")
-    (ambient-light 0.345098 0.345098 0.345098)
+    (ambient-light
+      (color 0.345098 0.345098 0.345098)
+    )
     (camera
       (mode "normal")
     )
@@ -511,6 +516,9 @@
     (mrbomb
       (x 1317)
       (y 872)
+    )
+    (music
+      (file "music/voc-dark.music")
     )
     (secretarea
       (fade-tilemap "secret")
@@ -1015,8 +1023,9 @@ lava.start_moving();")
   )
   (sector
     (name "3")
-    (music "music/voc-dark.music")
-    (ambient-light 0.5887083 0.5887083 0.5887083)
+    (ambient-light
+      (color 0.5887083 0.5887083 0.5887083)
+    )
     (background
       (speed 0.5)
       (image-top "images/background/arctis_dark.jpg")
@@ -1123,6 +1132,9 @@ lava.start_moving();")
     (mrbomb
       (x 1093)
       (y 136)
+    )
+    (music
+      (file "music/voc-dark.music")
     )
     (secretarea
       (width 508)
