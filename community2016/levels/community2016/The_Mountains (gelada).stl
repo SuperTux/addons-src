@@ -252,7 +252,7 @@
       (z-pos 500)
     )
     (secretarea
-      (message "area secreta")
+      (message (_ "area secreta"))
       (width 1090)
       (height 160)
       (x 6782)

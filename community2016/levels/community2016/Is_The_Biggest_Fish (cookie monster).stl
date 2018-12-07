@@ -102,7 +102,7 @@
     )
     (secretarea
       (fade-tilemap "secret area")
-      (message "Area secreta")
+      (message (_ "Area secreta"))
       (width 275)
       (height 175)
       (name "secret 1")
