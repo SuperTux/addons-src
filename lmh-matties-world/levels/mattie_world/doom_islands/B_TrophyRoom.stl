@@ -602,7 +602,6 @@
           wait(  1.1  );
           down1 <- true;
         }")
-      (sprite "images/objects/switch/left.sprite")
       (x 1168)
       (y 608)
     )
@@ -611,7 +610,6 @@
         wait(  0.1  );
         down1 <- true;
         announce(1);  ")
-      (sprite "images/objects/switch/left.sprite")
       (x 1168)
       (y 416)
     )

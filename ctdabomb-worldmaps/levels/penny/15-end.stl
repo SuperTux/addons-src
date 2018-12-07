@@ -340,7 +340,6 @@ Effect.fade_in(1);
       )
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 1216)
       (y 1440)
     )

@@ -342,7 +342,6 @@
     )
     (switch
       (script "updraft.start();")
-      (sprite "images/objects/switch/left.sprite")
       (x 3020)
       (y 772)
     )

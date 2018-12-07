@@ -801,7 +801,6 @@ drawup1.set_alpha(drawdown1? 1 : 0);
 drawdown1 <- !drawdown1;
 Effect.fade_in(1);
 Tux.activate();")
-      (sprite "images/objects/switch/left.sprite")
       (x 3628)
       (y 518)
     )

@@ -903,7 +903,6 @@
 				else{botlift.goto_node(0);																																																																																																																																																											
 				toplift.goto_node(1);																																																																																																																																																											
 				down <- true;	}")
-      (sprite "images/objects/switch/left.sprite")
       (x 428)
       (y 4640)
     )

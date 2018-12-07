@@ -2113,7 +2113,6 @@
         wait(  3  );
         bridgeD.goto_node(0);
         bridge <- true;  }")
-      (sprite "images/objects/switch/left.sprite")
       (x 2764)
       (y 1024)
     )
@@ -2560,7 +2559,6 @@
         else{botlift.goto_node(0);
         toplift.goto_node(1);
         down <- true;  }")
-      (sprite "images/objects/switch/left.sprite")
       (x 428)
       (y 4640)
     )

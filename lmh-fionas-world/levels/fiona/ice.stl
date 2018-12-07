@@ -702,7 +702,6 @@ out.stop();")
     )
     (powerup
       (disable-physics #t)
-      (sprite "images/powerups/egg/egg.sprite")
       (x 1008)
       (y -32)
     )

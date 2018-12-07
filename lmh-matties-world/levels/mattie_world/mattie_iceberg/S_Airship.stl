@@ -65,7 +65,6 @@
       (sprite "images/objects/platforms/small.sprite")
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 1248)
       (y 0)
     )

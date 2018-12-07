@@ -23,7 +23,6 @@
       (file "music/intro.ogg")
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 448)
       (y 832)
     )

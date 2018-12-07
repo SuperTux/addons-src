@@ -22,7 +22,6 @@
     )
     (bonusblock
       (contents "icegrow")
-      (sprite "images/objects/bonus_block/bonusblock.sprite")
       (x 1728)
       (y 1760)
     )
@@ -88,7 +87,6 @@
       (y 96)
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 2016)
       (y 1824)
     )

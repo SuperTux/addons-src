@@ -195,7 +195,6 @@
       (sprite "images/objects/platforms/icefloe_small.sprite")
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 160)
       (y 224)
     )

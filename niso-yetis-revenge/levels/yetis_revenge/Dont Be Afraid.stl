@@ -1869,7 +1869,6 @@ play_sound(\"sounds/lifeup.wav\");
 door1.set_alpha(0);
 wait(6);
 door1.set_alpha(1);")
-      (sprite "images/objects/switch/left.sprite")
       (x 2571)
       (y 834)
     )
@@ -1878,7 +1877,6 @@ door1.set_alpha(1);")
 block1.set_alpha(1);
 wait(11);
 block1.set_alpha(0);")
-      (sprite "images/objects/switch/left.sprite")
       (x 6923)
       (y 642)
     )

@@ -1086,7 +1086,6 @@ wall.goto_node(120)")
       )
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 640)
       (y 160)
     )

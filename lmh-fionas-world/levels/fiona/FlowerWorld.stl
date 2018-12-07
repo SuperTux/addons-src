@@ -60,7 +60,6 @@
       (y 420)
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 32)
       (y 576)
     )

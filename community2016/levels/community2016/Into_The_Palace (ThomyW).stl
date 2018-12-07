@@ -896,7 +896,6 @@
     )
     (switch
       (script "ball.goto_node(1);")
-      (sprite "images/objects/switch/left.sprite")
       (x 2414)
       (y 386.0003)
     )

@@ -863,7 +863,6 @@ lamp3.set_burning(true);")
       (script "elevador1.goto_node(1);
 lamp2.set_burning(false);
 lamp1.set_burning(true);")
-      (sprite "images/objects/switch/left.sprite")
       (x 811)
       (y 2434)
     )
@@ -882,7 +881,6 @@ lamp4.set_burning(true);")
       (script "elevador1.goto_node(2);
 lamp3.set_burning(false);
 lamp2.set_burning(true);")
-      (sprite "images/objects/switch/left.sprite")
       (x 811)
       (y 2114)
     )
@@ -897,7 +895,6 @@ lamp5.set_burning(true);")
       (script "elevador1.goto_node(3);
 lamp4.set_burning(false);
 lamp3.set_burning(true);")
-      (sprite "images/objects/switch/left.sprite")
       (x 811)
       (y 1730)
     )
@@ -919,7 +916,6 @@ lamp6.set_burning(true);")
       (script "elevador1.goto_node(4);
 lamp5.set_burning(false);
 lamp4.set_burning(true);")
-      (sprite "images/objects/switch/left.sprite")
       (x 811)
       (y 1346)
     )
@@ -934,7 +930,6 @@ lamp7.set_burning(true);")
       (script "elevador1.goto_node(5);
 lamp6.set_burning(false);
 lamp5.set_burning(true);")
-      (sprite "images/objects/switch/left.sprite")
       (x 811)
       (y 994)
     )
@@ -946,7 +941,6 @@ lamp5.set_burning(true);")
       (script "elevador1.goto_node(6);
 lamp7.set_burning(false);
 lamp6.set_burning(true);")
-      (sprite "images/objects/switch/left.sprite")
       (x 811)
       (y 610)
     )

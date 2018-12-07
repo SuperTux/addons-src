@@ -404,7 +404,6 @@ airpipe.fade(1,3);")
       (y 96)
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 2016)
       (y 1824)
     )

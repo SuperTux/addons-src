@@ -247,7 +247,6 @@
     )
     (powerup
       (script "levelflip();")
-      (sprite "images/powerups/egg/egg.sprite")
       (x 1792)
       (y 1632)
     )

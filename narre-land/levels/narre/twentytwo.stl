@@ -348,7 +348,6 @@ Text.set_text(\"Floor -6\")
     (switch
       (script "kokot1.goto_node(0)
 kokot2.goto_node(0)")
-      (sprite "images/objects/switch/left.sprite")
       (x 4074.607)
       (y 32.70711)
     )

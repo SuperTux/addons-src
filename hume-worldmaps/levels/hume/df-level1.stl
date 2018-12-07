@@ -193,7 +193,6 @@
     )
     (switch
       (script "secretplat.goto_node(1)")
-      (sprite "images/objects/switch/left.sprite")
       (x 5229.615)
       (y 637.8787)
     )

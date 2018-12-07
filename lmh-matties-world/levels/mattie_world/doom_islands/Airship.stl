@@ -66,7 +66,6 @@
     )
     (powerup
       (script "eggup();  Tux.add_bonus(\"grow\");")
-      (sprite "images/powerups/egg/egg.sprite")
       (x 1184)
       (y 0)
     )
@@ -5917,7 +5916,6 @@
       (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 672)
       (y 256)
     )

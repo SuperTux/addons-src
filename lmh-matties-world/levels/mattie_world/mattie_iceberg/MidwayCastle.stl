@@ -54,7 +54,6 @@
       (file "music/darkforestkeep.ogg")
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 2464)
       (y 704)
     )

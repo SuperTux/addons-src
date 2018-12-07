@@ -1025,1057 +1025,846 @@
       )
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 448)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 480)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 512)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 544)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 576)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 608)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 640)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 672)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 704)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 736)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 768)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 800)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 832)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 864)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 896)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 928)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 960)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 992)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1024)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1056)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1088)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 448)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 480)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 512)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 544)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 576)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 608)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 640)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 672)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 704)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 736)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 768)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 800)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 832)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 864)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 896)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 928)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 960)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 992)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1024)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1056)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1088)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1120)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1152)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1184)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1216)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1248)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1280)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1312)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1344)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1376)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1408)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1440)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1472)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1504)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1536)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1568)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1600)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1632)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1664)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1696)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1728)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1760)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1792)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1824)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1856)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1888)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1920)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1952)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1984)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2016)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2048)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2080)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2112)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2144)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2176)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2208)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2240)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2272)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2304)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2336)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2368)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2400)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2432)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 576)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 832)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 864)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 896)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 928)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 960)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 992)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1024)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1056)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1088)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 832)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 864)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1056)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1088)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 832)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1088)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 832)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 864)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1056)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1088)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 832)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 864)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 896)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 928)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 960)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 992)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1024)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1056)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1088)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1056)
       (y 352)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1088)
       (y 352)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1056)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1088)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1120)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1152)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1184)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1216)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1248)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1280)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1312)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1344)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1664)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1696)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1728)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1760)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1664)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1696)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1728)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1760)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1792)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1824)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1664)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1696)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1728)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1760)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1792)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1824)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1856)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1888)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1920)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1952)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1984)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2016)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2048)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2080)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2208)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2240)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2272)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2304)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2336)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2368)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2400)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2432)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 544)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 512)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 352)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 288)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 256)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2464)
       (y 224)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2432)
       (y 224)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2432)
       (y 192)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2400)
       (y 192)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2400)
       (y 160)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2368)
       (y 160)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2336)
       (y 160)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2304)
       (y 160)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2272)
       (y 160)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2240)
       (y 160)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2240)
       (y 192)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2208)
       (y 192)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2208)
       (y 224)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2176)
       (y 224)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2176)
       (y 256)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2176)
       (y 288)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2176)
       (y 320)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2176)
       (y 352)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2176)
       (y 384)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1920)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1952)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1984)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2016)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2048)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2080)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2112)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2144)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2176)
       (y 416)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1984)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2016)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2048)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2080)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2112)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2144)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2176)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2208)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2240)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2016)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2048)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2080)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2112)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2144)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2176)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2208)
       (y 480)
     )

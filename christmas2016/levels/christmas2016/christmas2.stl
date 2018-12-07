@@ -1191,37 +1191,31 @@
     )
     (weak_block
       (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2108)
       (y 1152)
     )
     (weak_block
       (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2108)
       (y 1184)
     )
     (weak_block
       (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 2108)
       (y 1216)
     )
     (weak_block
       (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1380)
       (y 1216)
     )
     (weak_block
       (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1380)
       (y 1184)
     )
     (weak_block
       (linked #f)
-      (sprite "images/objects/weak_block/meltbox.sprite")
       (x 1380)
       (y 1152)
     )

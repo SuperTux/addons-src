@@ -134,7 +134,6 @@
       )
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 848)
       (y 480)
     )

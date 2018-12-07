@@ -612,7 +612,6 @@
     )
     (switch
       (script "platform.goto_node(28)")
-      (sprite "images/objects/switch/left.sprite")
       (x 560)
       (y 912.5)
     )

@@ -255,7 +255,6 @@ RackLeft.goto_node (0);")
 Cage.goto_node (::CagePos);
 ChainFront.goto_node (::CagePos);
 ChainBack.goto_node (::CagePos);")
-      (sprite "images/objects/switch/left.sprite")
       (x 203)
       (y 1026)
     )

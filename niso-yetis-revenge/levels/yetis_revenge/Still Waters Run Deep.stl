@@ -7152,7 +7152,6 @@
       (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 3392)
       (y 512)
     )
@@ -7162,7 +7161,6 @@
       (y 512)
     )
     (powerup
-      (sprite "images/powerups/egg/egg.sprite")
       (x 3520)
       (y 512)
     )

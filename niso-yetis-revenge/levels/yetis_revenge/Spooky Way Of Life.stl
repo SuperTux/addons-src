@@ -3165,7 +3165,6 @@ climbing.goto_node(1);
 wait(11);
 secretdoor1.set_alpha(1);
 secretblock1.set_alpha(0);")
-      (sprite "images/objects/switch/left.sprite")
       (x 4619)
       (y 226)
     )

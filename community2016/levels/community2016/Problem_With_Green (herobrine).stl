@@ -471,7 +471,6 @@
     (switch
       (script "p1.start_moving();")
       (off-script "p1.start_moving();")
-      (sprite "images/objects/switch/left.sprite")
       (x 2027)
       (y 912)
     )
