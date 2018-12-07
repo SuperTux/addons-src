@@ -24,7 +24,6 @@ Platform1.start_moving();")
     )
     (camera
       (mode "normal")
-      (backscrolling #f)
     )
     (firefly
       (x 2720)
