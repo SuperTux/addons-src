@@ -11,19 +11,16 @@
       (color 1 1 1)
     )
     (bonusblock
-      (script "")
       (contents "trampoline")
       (x 1504)
       (y 1924)
     )
     (bonusblock
-      (script "")
       (contents "custom")
       (x 1536)
       (y 1924)
     )
     (bonusblock
-      (script "")
       (contents "icegrow")
       (x 1568)
       (y 1924)

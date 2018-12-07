@@ -31,7 +31,6 @@
       (image "images/background/arcticskies2.png")
     )
     (bonusblock
-      (script "")
       (count 2)
       (contents "firegrow")
       (sprite "images/objects/bonus_block/purpleblock.sprite")
@@ -39,18 +38,15 @@
       (y 96)
     )
     (bonusblock
-      (script "")
       (x 11216)
       (y 528)
     )
     (bonusblock
-      (script "")
       (contents "rain")
       (x 11344)
       (y 528)
     )
     (bonusblock
-      (script "")
       (count 2)
       (contents "firegrow")
       (sprite "images/objects/bonus_block/purpleblock.sprite")

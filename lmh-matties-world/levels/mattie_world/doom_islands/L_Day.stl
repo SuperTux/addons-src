@@ -24,7 +24,6 @@
          (powerup           (sprite "images/worldmap/common/hiddendot.sprite")
 )
       )
-      (script "")
       (contents "custom")
       (x 8976)
       (y 448)

@@ -11,7 +11,6 @@
       (color 1 1 1)
     )
     (bonusblock
-      (script "")
       (contents "firegrow")
       (sprite "images/objects/bonus_block/brick.sprite")
       (x 2240)
@@ -23,7 +22,6 @@
            (script "  findart(\"crystalart\");  ")
 )
       )
-      (script "")
       (contents "custom")
       (x 4400)
       (y 0)

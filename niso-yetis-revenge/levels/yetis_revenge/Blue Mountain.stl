@@ -833,7 +833,6 @@ Spikes.set_alpha(1);
            (y 992)
 )
       )
-      (script "")
       (contents "custom")
       (x 192)
       (y 448)

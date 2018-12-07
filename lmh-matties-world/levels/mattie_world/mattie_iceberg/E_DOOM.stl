@@ -9,7 +9,6 @@
       (color 1 1 1)
     )
     (bonusblock
-      (script "")
       (count 10)
       (sprite "images/objects/bonus_block/brickIce.sprite")
       (x 800)

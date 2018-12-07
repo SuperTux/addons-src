@@ -16,7 +16,6 @@
       (z-pos 200)
     )
     (bonusblock
-      (script "")
       (count 2)
       (contents "firegrow")
       (sprite "images/objects/bonus_block/purpleblock.sprite")

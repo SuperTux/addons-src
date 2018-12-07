@@ -10,7 +10,6 @@
       (color 0.8 0.8 0.8)
     )
     (bonusblock
-      (script "")
       (contents "light")
       (x 1872)
       (y 944)

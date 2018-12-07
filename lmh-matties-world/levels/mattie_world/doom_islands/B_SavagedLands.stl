@@ -21,13 +21,11 @@
            (script "  Tux.add_bonus(\"fireflower\");powerup();  ")
 )
       )
-      (script "")
       (contents "custom")
       (x 32)
       (y 352)
     )
     (bonusblock
-      (script "")
       (contents "rain")
       (x 6176)
       (y 64)

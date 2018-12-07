@@ -9,7 +9,6 @@
       (color 1 0.87 0.8999999)
     )
     (bonusblock
-      (script "")
       (count 5)
       (sprite "/images/objects/bonus_block/purpleblock.sprite")
       (x 1440)

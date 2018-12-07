@@ -16,14 +16,12 @@
       (image "images/background/arctis2.png")
     )
     (bonusblock
-      (script "")
       (contents "firegrow")
       (sprite "images/objects/bonus_block/brick.sprite")
       (x 4608)
       (y 544)
     )
     (bonusblock
-      (script "")
       (contents "rain")
       (sprite "images/objects/bonus_block/brick.sprite")
       (x 4736)

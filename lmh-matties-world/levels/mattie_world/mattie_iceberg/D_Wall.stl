@@ -16,13 +16,11 @@
       (image-bottom "images/background/nightsky_bottom.png")
     )
     (bonusblock
-      (script "")
       (contents "1up")
       (x 1920)
       (y 1824)
     )
     (bonusblock
-      (script "")
       (contents "icegrow")
       (sprite "images/objects/bonus_block/bonusblock.sprite")
       (x 1728)

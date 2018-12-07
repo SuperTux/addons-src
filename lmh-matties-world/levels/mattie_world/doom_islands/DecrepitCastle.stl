@@ -1413,7 +1413,6 @@
       (color 0.3 0.3 0.3)
     )
     (bonusblock
-      (script "")
       (count 0)
       (x 2336)
       (y -32)

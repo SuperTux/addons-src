@@ -16,7 +16,6 @@
       (image-bottom "images/background/bluemountain-bottom.png")
     )
     (bonusblock
-      (script "")
       (count 10)
       (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 5856)

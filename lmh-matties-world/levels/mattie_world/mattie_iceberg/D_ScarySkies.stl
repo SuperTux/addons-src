@@ -33,7 +33,6 @@
       (z-pos 400)
     )
     (bonusblock
-      (script "")
       (count 10)
       (sprite "images/objects/bonus_block/brick.sprite")
       (x 8160)

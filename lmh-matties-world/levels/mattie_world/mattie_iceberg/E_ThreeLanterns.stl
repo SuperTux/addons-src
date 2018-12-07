@@ -10,7 +10,6 @@
       (color 0.53 0.53 0.53)
     )
     (bonusblock
-      (script "")
       (count 3)
       (contents "firegrow")
       (sprite "images/objects/bonus_block/purpleblock.sprite")

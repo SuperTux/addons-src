@@ -22,7 +22,6 @@
            (sprite "levels/mattie_world/images/objects/coin/coinblue.sprite")
 )
       )
-      (script "")
       (contents "custom")
       (x 1216)
       (y 960)

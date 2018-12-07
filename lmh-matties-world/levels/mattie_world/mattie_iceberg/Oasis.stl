@@ -14,7 +14,6 @@
            (script "  findart(\"oasisart\");  ")
 )
       )
-      (script "")
       (contents "custom")
       (x 2336)
       (y 1472)

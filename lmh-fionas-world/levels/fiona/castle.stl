@@ -3887,7 +3887,6 @@ play_music(\"music/bossattack.ogg\");")
       (color 1 1 1)
     )
     (bonusblock
-      (script "")
       (count 5)
       (contents "1up")
       (sprite "images/objects/bonus_block/purpleblock.sprite")

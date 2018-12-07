@@ -10,14 +10,12 @@
       (color 1 1 1)
     )
     (bonusblock
-      (script "")
       (count 8)
       (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 5408)
       (y 1216)
     )
     (bonusblock
-      (script "")
       (count 3)
       (contents "1up")
       (sprite "images/objects/bonus_block/purpleblock.sprite")

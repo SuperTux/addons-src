@@ -445,7 +445,6 @@
            (script "  Tux.add_bonus(\"fireflower\");  powerup();")
 )
       )
-      (script "")
       (contents "custom")
       (x 1600)
       (y 1120)
