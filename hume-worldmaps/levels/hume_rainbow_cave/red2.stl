@@ -36,7 +36,6 @@
     (platform
       (running #f)
       (name "platformblb")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "f6994b76-3483-4131-943e-ed96823b10f3")
     )
     (scripttrigger

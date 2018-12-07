@@ -523,14 +523,14 @@ lift8.start_moving();")
     (platform
       (running #f)
       (name "gate2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "af919bf8-765e-4061-a86a-a5cfed03ca54")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "gate1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "f60cef1c-d4f2-4d31-bb40-f550dd9fd365")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (powerup
       (sprite "images/powerups/fireflower/fireflower.sprite")

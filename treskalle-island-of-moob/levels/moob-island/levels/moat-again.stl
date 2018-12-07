@@ -141,20 +141,20 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "c27ac80d-dd77-4cf4-b4e2-6987ed29e09e")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "4b7b7664-9b9b-4992-9295-b64f6de2491e")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "fe49d40d-849e-40f0-b9cf-8050eebb4fb1")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "f73f3508-2b54-45df-9285-44c566e43f7b")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (secretarea
       (width 284)

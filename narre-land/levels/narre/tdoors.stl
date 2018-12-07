@@ -162,32 +162,32 @@
     (platform
       (running #f)
       (name "a")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "bcd0211e-e5a8-4b3f-bbc1-5716f4e7740e")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "b")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "7a5b1ccc-84e1-4ba4-b842-7175602d00c8")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "c")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "3ae83359-f20d-45ed-b9bd-1e75c003319b")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "d")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "1ca01621-9bb6-4a7c-8e29-c7f1200dde81")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "e")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "ce09e3c3-b5d5-4d06-ae14-b22b925cadb9")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (scripttrigger
       (script "Level.spawn(\"secret\",\"main\")")
@@ -445,7 +445,6 @@
     (platform
       (running #f)
       (name "kurva")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "af5a6e34-8d5a-4e3b-a2cb-8eae6a791f27")
     )
     (spawnpoint
@@ -1558,14 +1557,14 @@
     (platform
       (running #f)
       (name "mamrd")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "61288848-e573-413d-bda7-f05b0e5d42fa")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "willa")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "cfbe36ce-1816-4c01-acd0-e0d26079ebed")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (spawnpoint
       (name "main")
@@ -1903,24 +1902,22 @@ sector.Tux.add_bonus(\"iceflower\")")
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "ca22d221-2c9a-430d-b4ba-db3256df158c")
     )
     (platform
       (running #f)
       (name "jedna")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "0b5adf62-903e-4538-8424-7c00dfa54b63")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "dva")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "e16d1754-902d-4154-997b-7fb9e9839001")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (name "kaca")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "5fcd5748-09f5-48c7-b1f5-841f9739afc2")
     )
     (spawnpoint
@@ -2493,14 +2490,13 @@ sector.Tux.add_bonus(\"iceflower\")")
     (platform
       (running #f)
       (name "ase")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "065236ab-62df-431f-81de-2481ef6a1752")
     )
     (platform
       (running #f)
       (name "kase")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "a59f2426-a349-45a7-a7d7-0871a4f56122")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (spawnpoint
       (name "main")
@@ -2702,13 +2698,12 @@ sector.Tux.add_bonus(\"iceflower\")")
     (platform
       (running #f)
       (name "hovno")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "86630d86-c3bd-4d3c-a235-4560bc14044a")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "srac")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "82b6f68e-373f-40f7-b1f1-0750de6f0e12")
     )
     (scripttrigger

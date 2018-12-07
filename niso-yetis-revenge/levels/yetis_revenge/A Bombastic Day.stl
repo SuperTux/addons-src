@@ -677,7 +677,6 @@ play_sound(\"sounds/lifeup.wav\");
     (platform
       (running #f)
       (name "platform")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "3a5fcb81-dc61-409f-8588-80b0a1a8a376")
     )
     (scripttrigger

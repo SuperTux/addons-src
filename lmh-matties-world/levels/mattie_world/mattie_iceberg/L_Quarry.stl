@@ -113,8 +113,8 @@
     (platform
       (running #f)
       (name "left")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "eebf4d3c-1a2c-4308-8a7e-9dffe87570b6")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (pushbutton
       (script "  left.goto_node(1);  ")

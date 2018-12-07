@@ -136,7 +136,6 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "a8dfb6b6-d1f7-43b2-a082-3d2714d26d6b")
     )
     (short_fuse

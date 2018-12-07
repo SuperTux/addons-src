@@ -44,8 +44,8 @@
     (platform
       (running #f)
       (name "chair")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "f7f52196-9944-4d2b-9805-d4ff8fbde07d")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (scripttrigger
       (script "Tux.deactivate();

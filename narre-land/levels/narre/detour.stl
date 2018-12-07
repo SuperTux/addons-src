@@ -166,13 +166,11 @@
     )
     (platform
       (name "pitomec")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "2d9c44e0-a191-484a-bbdd-e7fcc036b454")
     )
     (platform
       (running #f)
       (name "uhorsrac")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "4044b22b-d7d2-47d3-8d97-82ca28bf04e9")
     )
     (scripttrigger
@@ -638,7 +636,6 @@
     )
     (platform
       (name "pitomec2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "9d3133da-c048-43e9-a25e-74a9750ad4e5")
     )
     (scripttrigger
@@ -1108,11 +1105,10 @@
       (mode "normal")
     )
     (hurting_platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "9604cea3-cd30-43a4-b73f-a4073f2aa524")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (hurting_platform
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "48a1452f-a1f1-4b44-84d6-56c2434ad088")
     )
     (music
@@ -1251,19 +1247,15 @@
     (platform
       (running #f)
       (name "volecek")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "1891d339-057d-4494-b715-2e7707600b6a")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "0a293146-fd3e-45cb-b804-8ddbb6886550")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "7d7eb207-a9b7-4120-9e90-66bdcc8077e0")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "6436fc72-398a-4d9e-a782-9c4df2f5ff02")
     )
     (scripttrigger

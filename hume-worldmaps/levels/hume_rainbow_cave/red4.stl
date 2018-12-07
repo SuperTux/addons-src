@@ -115,7 +115,6 @@
     (platform
       (running #f)
       (name "debil")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "e5f662f5-ce64-4690-bd27-a786f6d4e02b")
     )
     (pushbutton

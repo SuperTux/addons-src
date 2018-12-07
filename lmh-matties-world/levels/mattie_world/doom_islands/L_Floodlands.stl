@@ -397,19 +397,19 @@
     )
     (platform
       (running #f)
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "a0390e25-83a9-4643-b332-f56700c95573")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "ebe56581-4f63-45d6-9bb2-61f51fdf31da")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "lastguy")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "d10bbb42-a051-4f32-a9fe-f361f6fa7c58")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (powerup
       (sprite "images/powerups/egg/egg.sprite")

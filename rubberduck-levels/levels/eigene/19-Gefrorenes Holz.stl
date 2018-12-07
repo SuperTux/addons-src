@@ -107,7 +107,6 @@
     )
     (hurting_platform
       (name "kill")
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "6de511c8-d3af-48de-bdb4-de60280b8c64")
     )
     (icecrusher

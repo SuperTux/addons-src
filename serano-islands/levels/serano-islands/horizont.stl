@@ -76,12 +76,12 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "841efd6f-20f4-4be8-98d0-cda6c21b6d62")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "29696f02-2223-498c-98c2-14fd1fdf34c0")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (snowball
       (x 1728)

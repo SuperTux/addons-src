@@ -1963,8 +1963,8 @@ porte.goto_node(1);
     (platform
       (running #f)
       (name "porte")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "cf9a9f85-6f88-4eb0-90e8-953f6e776891")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (snowball
       (x 483)

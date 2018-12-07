@@ -150,12 +150,12 @@
       (bottom_color 0 0.4 0.8)
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite")
       (path-ref "a5458161-d602-4442-8fbb-9847af0ba596")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite")
       (path-ref "412687a0-c186-440b-99a9-5a4ccf9e163e")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite")
     )
     (icecrusher
       (x 6400)
@@ -457,12 +457,12 @@
     (platform
       (running #f)
       (name "up")
-      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
       (path-ref "42abef04-aff7-4031-8549-9e9eae158d47")
+      (sprite "levels/mattie_world/images/objects/platforms/stone-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe_small.sprite")
       (path-ref "9f3f4e6f-2054-494f-84bf-3e013563275a")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
     )
     (scripttrigger
       (script "      Tux.deactivate();

@@ -232,7 +232,6 @@
     (platform
       (running #f)
       (name "airlift")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "c93b2040-ffa2-4739-ad54-3376dd603cc6")
     )
     (scripttrigger

@@ -399,20 +399,20 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "373ac432-28e0-493a-930c-8795c3100fbd")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "7e543223-f839-4802-a0b0-acd8fa0f3a09")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "39e18b41-05c6-4e81-8f58-a74a839f7406")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "a604becb-9ab8-43c8-835c-f09402e58577")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (secretarea
       (width 192)

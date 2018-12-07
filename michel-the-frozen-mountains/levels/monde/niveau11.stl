@@ -187,7 +187,6 @@
     )
     (platform
       (name "plateforme1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "58cf657f-894a-46a0-b5d1-655d4afcac9d")
     )
     (rock

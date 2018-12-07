@@ -663,12 +663,12 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "40d0d0f4-6adf-44ae-8f93-90ffd6c235dd")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "02ae6de3-aea7-43eb-87c6-435465db0102")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (powerup
       (sprite "images/powerups/iceflower/iceflower.sprite")

@@ -161,8 +161,8 @@
     (platform
       (running #f)
       (name "plat")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "9e553f2c-7884-4fd3-8105-8387293dbe02")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (poisonivy
       (x 3584)

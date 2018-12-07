@@ -26,7 +26,6 @@
       (y 167)
     )
     (hurting_platform
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "d5ab2e27-b565-41c8-aeaf-c1fe35001fa3")
     )
     (mrbomb

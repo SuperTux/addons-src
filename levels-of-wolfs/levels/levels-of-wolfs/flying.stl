@@ -467,33 +467,26 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "cd1d64c6-f4e0-4b82-8699-2782d06b2fc5")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "abfa2377-ec2e-4df4-a35e-ef334e2ac31a")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "1103c0ec-87f9-4ff7-8f86-b65a413ed749")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "4cfaaf06-f9f4-40b7-8fa0-4503c74cf996")
     )
     (platform
       (running #f)
       (name "platf1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "d46de20e-8c07-4bf6-bd58-c72287698f91")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "7e59dec3-ab14-496d-914e-100863b7dd87")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "620cddf0-3140-43ba-9141-b9f5e044281c")
     )
     (scripttrigger

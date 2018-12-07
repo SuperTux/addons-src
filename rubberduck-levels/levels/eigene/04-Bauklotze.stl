@@ -114,26 +114,26 @@
     (platform
       (running #f)
       (name "plat1")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "0f26504f-20f8-449f-9bd0-435e949ff756")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "plat2")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "c847f7c6-cfa8-49fe-a2e7-709a3d468cd7")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "plat3")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "be7330c8-7bb7-4398-a941-ad32f4c229fb")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "plat4")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "56b15a22-5754-461e-9e1a-fd4885924a81")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (poisonivy
       (x 608)

@@ -516,13 +516,11 @@
     (platform
       (running #f)
       (name "platform")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "da72d90c-2a30-49fe-916c-9753736e1ea4")
     )
     (platform
       (running #f)
       (name "p2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "5399c27d-fd04-4117-91f6-be2683350f94")
     )
     (sequencetrigger

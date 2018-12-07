@@ -189,37 +189,30 @@
     (platform
       (running #f)
       (name "deliver")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "783084bb-548b-498d-8c98-d3aac94d8cfa")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "6fdfb42d-cf69-422c-935e-df220927d28e")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "866048a0-52b8-4800-985e-cf07474b4c42")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "6327d0ca-9f1c-4efc-b664-8b4b509b3262")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "cf1e3bd3-e646-4216-99d1-a7780da8b9d0")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "b76f2cc8-2709-4e66-920e-50085ed55310")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "6b51d63c-5ade-4275-a17e-392b73beed46")
     )
     (scripttrigger
@@ -607,19 +600,15 @@
       (bottom_color 0 0 0)
     )
     (hurting_platform
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "f7ad20f4-799b-4860-bea6-94bb2565cf3c")
     )
     (hurting_platform
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "b2545432-cfa1-4101-b269-476bd4b4d4c7")
     )
     (hurting_platform
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "255c02eb-7e8d-445e-88f0-59f9a73c70c5")
     )
     (hurting_platform
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "39ec7af8-1c07-4db4-887a-d4d1d58fc0f0")
     )
     (music
@@ -895,33 +884,31 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "074242df-8128-4670-8cd7-077a4bfb19d6")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "b97c73f1-94d4-4471-94b0-09eaa53e96c6")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "2df8749b-c493-4f90-b75b-8d9aa66502eb")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "540a9f1e-5415-41c8-9ea2-af9240006e23")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "2b1a39ca-f280-4cdb-b877-3f1fb3699160")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "5013157d-5730-482a-83ba-baf63677f318")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "367fa9ad-96b4-4c51-9429-cf9b5a33fe85")
     )
     (secretarea
@@ -1123,22 +1110,19 @@
     (platform
       (running #f)
       (name "launch")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "ae50a5ac-fd2f-4a78-a700-a9909e1b6d0e")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "4403eb0b-35b5-47b5-a4ca-612c855df879")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "33a2b1f7-ea12-4405-8ebe-3518f4a50725")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "63690d14-cf20-49e0-8ba3-8d6802e6a31d")
     )
     (pushbutton

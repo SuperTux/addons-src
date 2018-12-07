@@ -760,7 +760,6 @@
     )
     (platform
       (name "plate")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "d784f17a-9f48-4bee-aee1-d5ca1eac4b30")
     )
     (spawnpoint

@@ -222,14 +222,14 @@ bonus1.set_alpha(0);
     (platform
       (running #f)
       (name "trans1")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "f713be3e-cc72-4512-b550-9dba8d877864")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "trans2")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "37af9044-0f16-4c2e-83e1-5d604f8c4779")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (powerup
       (script "this.c1 <- true

@@ -180,7 +180,6 @@
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "f56bddf2-2290-4489-aa6f-5acb9df0fcb5")
     )
     (secretarea

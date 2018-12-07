@@ -364,24 +364,24 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "b63589ef-7042-449d-a042-e3506459419e")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "8c2984ff-c9d9-4264-8bcd-7634ef4e37f4")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "e121a9c2-2603-4d1a-a93f-4804f7ab67b9")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "f2e911a8-fd19-4be6-b8cd-297f8b27ca1c")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "771a4972-c038-417c-bb18-fc83fba2be55")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (scripttrigger
       (script "  Tux.deactivate();

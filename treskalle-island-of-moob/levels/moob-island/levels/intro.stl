@@ -104,7 +104,6 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "80f7285d-26d6-49cd-9a8e-ec0ceea41514")
     )
     (smartball

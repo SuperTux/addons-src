@@ -241,41 +241,40 @@
     (platform
       (running #f)
       (name "platf1")
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "1914e415-485a-4f08-9542-f639c387b0e9")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
       (running #f)
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "33300e74-6113-4294-b094-ed78733b55ef")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "aed28138-ba55-4719-994a-0f421eae2ab9")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "2688f6f9-452e-4cbf-9dc2-6cd33ea65093")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "84183828-6132-4b8d-a67f-11b547873d8b")
-    )
-    (platform
-      (running #f)
       (sprite "images/objects/platforms/small.sprite")
-      (path-ref "dc27c2c1-9f4c-403b-b200-9873091191cf")
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "dc27c2c1-9f4c-403b-b200-9873091191cf")
+      (sprite "images/objects/platforms/small.sprite")
+    )
+    (platform
+      (running #f)
       (path-ref "5770f1aa-acc6-47d4-8daa-ea081f0de966")
     )
     (platform
       (running #f)
       (name "platf_secr_1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "6e675190-5219-4143-876b-62c5811c13b2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (pushbutton
       (script "platf1.goto_node(1);")

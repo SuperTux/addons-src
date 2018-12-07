@@ -84,30 +84,24 @@
     (platform
       (running #f)
       (name "blow")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "e4c287c7-99fb-47cd-a211-ff0d96fb63d6")
     )
     (platform
       (name "uhotr")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "a3e14758-e683-4ea7-9a43-5f6feac50268")
     )
     (platform
       (running #f)
       (name "now")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "2791ac05-bddd-4713-97eb-2305d5ea52f7")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "9c7b1185-3acd-4055-9594-b0f3fde77e38")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "145e98f7-6494-4027-969c-68fe964b42f9")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "ea279e52-efbf-4188-91fb-b8d0412041d4")
     )
     (scripttrigger
@@ -306,7 +300,6 @@ now.goto_node(1)")
     )
     (platform
       (name "pizza")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "dcf0a96c-623a-434e-a343-e482167ce491")
     )
     (scripttrigger
@@ -1316,13 +1309,11 @@ pizza.goto_node(0)")
     (platform
       (running #f)
       (name "kokota")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "3ef73ab2-be00-48a3-babc-2aaa310a6cbf")
     )
     (platform
       (running #f)
       (name "kokot")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "7f66d549-16b9-4f23-9be2-c1425f356d51")
     )
     (pushbutton
@@ -2091,121 +2082,98 @@ kokot.goto_node(1)")
     (platform
       (running #f)
       (name "hdghrrj")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "205d5628-82d0-4d8c-8e17-f49ee545a0da")
     )
     (platform
       (running #f)
       (name "ethsrfhrttjh")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "a6dc482b-2710-4b54-9206-dd14ffe8408a")
     )
     (platform
       (running #f)
       (name "srujhsrjrsj")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "e3a22d9d-338d-4546-b4f2-52bc20169184")
     )
     (platform
       (running #f)
       (name "fzlzlzflzflzldrjrj")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "e2becc30-153c-49a5-9896-c94c3288bfee")
     )
     (platform
       (running #f)
       (name "fhjnfgjrfjfaaaaa")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "e446a4dd-9ac1-4f91-a691-6972e72f4c4d")
     )
     (platform
       (name "srhtsrjsfmsmnfjnrsjnrts")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "2327e121-953b-4b9e-9551-d69c4b6895f0")
     )
     (platform
       (name "ydtnjdrndngdrgn")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "befd9f33-f128-4a64-ba66-e5a371aea6e5")
     )
     (platform
       (name "dnhnjhrtnranrtantntatngntntntntntn")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "8a32713d-6585-4caa-adb1-197a7ce4201d")
     )
     (platform
       (name "tneannnnnnnnnnnnnnnnnnnnnnnnnnn")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "089863a7-d8c4-431c-b8ad-314d502fd25f")
     )
     (platform
       (name "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "9fc0dec1-7796-4132-8458-edb2e4818e2c")
     )
     (platform
       (name "bbbbbbbbbbbbbbbbbbbbbbbbbbbbb")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "3caf2e3e-4b09-4844-8c37-7532d3d36744")
     )
     (platform
       (name "ccccccccccccccccccccccccccccc")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "d82d66a6-f1ef-4522-8e4c-f1d529deb44c")
     )
     (platform
       (name "dddddddddddddddddddddddddd")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "bfa08020-2f01-4e9a-976f-bdf78c68ead7")
     )
     (platform
       (name "eeeeeeeeeeeeeeeeeeeeeeeeeeeee")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "82a82f13-cb23-499d-9699-d37a748beb92")
     )
     (platform
       (name "ffffffffffffffffffffffffffffffffffffffffff")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "c3ca3c8e-7a3c-4015-b4e3-83acec16fe37")
     )
     (platform
       (name "ggggggggggggggggggggggggggggggggggg")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "628379fc-1a9f-44e4-9596-612f5fab463e")
     )
     (platform
       (name "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "f194dd71-a6d8-48ef-b507-44222bc1839f")
     )
     (platform
       (name "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "9c0d4009-ff4b-4790-b023-3569acf547e0")
     )
     (platform
       (name "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkk")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "98388fb6-8671-4111-aa90-da2a9f1c9b52")
     )
     (platform
       (name "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkk")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "351406cb-232b-4f29-b563-739fd4a32b24")
     )
     (platform
       (name "llllllllllllllllfffffffffffffffffff")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "3361a862-d40a-49fd-af00-1a661b6e3f7c")
     )
     (platform
       (name "mmmmmmmmmmmmmmmmmmmmm")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "3b85dec4-1e2b-4651-a495-907873f534f9")
     )
     (platform
       (name "nnnnnnnnnnnnnnnnnnnn")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "d2525cfd-27ae-42a5-a2a8-e87631d17979")
     )
     (rock

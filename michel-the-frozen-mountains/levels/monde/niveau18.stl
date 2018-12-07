@@ -457,8 +457,8 @@ porte.goto_node(1);
     (platform
       (running #f)
       (name "porte")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "3960d978-8418-47c4-9579-cd756d6cb8d0")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (rock
       (x 288)

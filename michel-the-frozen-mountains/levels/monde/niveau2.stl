@@ -598,8 +598,8 @@ Tux.activate();")
     (platform
       (running #f)
       (name "ascensseur")
-      (sprite "images/objects/invisible/invisible.sprite")
       (path-ref "ced15d1c-8878-4caf-a634-9f75e9290435")
+      (sprite "images/objects/invisible/invisible.sprite")
     )
     (scripttrigger
       (script "Level.spawn(\"fin\", \"main\");")

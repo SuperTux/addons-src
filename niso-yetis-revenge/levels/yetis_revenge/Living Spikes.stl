@@ -2014,131 +2014,131 @@ block.set_alpha(0);
       )
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "b1c8cd8f-855d-49d3-99bf-90984333e36a")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "09264308-57ad-48ea-932c-2338ef8440d3")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "c4a63c82-8362-4e03-a3a9-7cd1b42130a0")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "f74ae03e-e723-460b-8232-363da60ee347")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "pf1")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "b93a7f3b-998c-42e7-a25c-b5a89cacfc7a")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "432584c3-5a23-4539-983d-48f5eff3906e")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "f109b384-474c-4211-8f21-88d08f32dc43")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "6399f8ff-de66-4327-b340-6743b51c527a")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "0fe396a5-59d4-46a7-ade0-046f385af301")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "pf2")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "4cb11a2b-f50d-4880-9da6-56a255f3dc2d")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "pf3")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "7bd8f078-61ed-425b-88f1-1165d51feef3")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "955d5e90-faff-4ac1-89b8-34289951d70b")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "f7241d55-3d53-411c-8358-430a5cb9b186")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "1d96cda7-ef9f-4a5a-a3c6-7b30adf9a796")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "8f54a0fc-642f-40ba-94b3-b3589475a548")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "e0066470-89a4-44eb-8875-ed8dd86f9bd1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "480cbff4-f43a-488c-82e8-38e9f7198fe2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (name "1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "02dcb5d7-779c-40b5-a5d6-234409806070")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (name "2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "f0743b8e-c66d-4d74-aa37-a5f1bafbdac5")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (name "3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "1aaab32b-7d78-4018-9714-7b83838f8cb2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (name "5")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "2892c55f-90c6-4865-84ac-648f23be9597")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (name "4")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "903d3822-73a6-474e-b5ce-a6184d759fde")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "8a7e982b-b09a-46be-8405-397e48c490ba")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "a1e1c776-56ba-4a95-a9fc-c68d0e769a3b")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "dc379025-7d30-49c1-a581-b1b19b1eeeb1")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "269e4b2d-8783-48e1-990f-710bd9e6fba2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "1e6ad6bb-ea14-4aff-82cb-e7371b208fe2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "c60e7b27-1bd3-4cfd-ae0a-0bf52e3de603")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "3e41c89a-4120-43a0-97f7-89e251621c7a")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (powerup
       (script "this.c1 <- true

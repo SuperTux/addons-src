@@ -267,13 +267,11 @@
     (platform
       (running #f)
       (name "first")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "1fa8474d-9513-4fb3-bb84-0eb673245e0a")
     )
     (platform
       (running #f)
       (name "second")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "69f66c20-433b-46b9-afec-2c853fac4563")
     )
     (powerup

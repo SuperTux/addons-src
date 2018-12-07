@@ -208,7 +208,6 @@
     (platform
       (running #f)
       (name "kokotak")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "c1ef289e-7789-4c1d-a73d-9c944f529a37")
     )
     (scripttrigger

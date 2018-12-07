@@ -496,57 +496,48 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "586c4ab6-46b6-4f51-94c3-79c6282e7e56")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "2610ce6f-4bb7-4854-82a9-1e8639f60e31")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "5a6ddb6d-e113-43de-8e32-5329a9348db4")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "c579bae2-0692-4d76-8e74-69f9fe0cb8e4")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "52a3ba32-6fc5-49bc-b519-7847f71c5822")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "c7c29a13-2cf0-426e-bfdd-22cfcf8e1cd5")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "30981b6e-b59f-4eae-8b87-af527594aab8")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "6ab8cfde-862d-47f0-8499-eb5f21b62172")
     )
     (platform
       (running #f)
       (name "gate1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "aef8543f-82bf-450d-81c6-4f886a7ef455")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "gate2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "3f0d048a-7a99-4c18-9268-dc7b37084000")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "gate3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "5736f9d5-5a44-452a-b381-094d4965e75a")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "59154338-b6e7-4560-b98d-504a1a8b1937")
     )
     (scripttrigger
@@ -2453,73 +2444,64 @@
     (platform
       (running #f)
       (name "uppipe")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "225e832a-2371-4117-bb79-08f2bc819330")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
       (running #f)
       (name "topgate")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "d6fb7f40-2d6e-483b-8646-d0d6aa69b351")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "botgate")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "93b9a6ec-d4af-4408-aaa1-0555799eca6f")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "4601a628-41ec-4526-9014-e5fbe0abdf4c")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "d6165db7-fec8-4f3c-9c29-77aeae63f7a3")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "0ec69168-cac7-4c26-bf03-9a518fce6c4d")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "30bba89e-25d0-491e-acb6-18723bf69c4b")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "6042e721-cd52-43ff-be5d-9fb31c42ebc9")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "a316ada7-c443-45b7-8489-f19c92db9c9c")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "1db25bb9-b1d0-471c-b719-eaa37a184aa1")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "06b028e7-8007-46f4-9bfe-dba897f22de8")
     )
     (platform
       (running #f)
       (name "gate1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "bc054de8-6a69-4f3d-be43-ff7ee9fbdcfb")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "gate2")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "dd401de6-67ae-4298-ba45-8d7aa6443d36")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "gate3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "cbd30b2b-aedf-4cbe-8121-331d75c2df7f")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "ac1e06a8-2a1b-4ede-a41f-56b67828685c")
     )
     (scripttrigger

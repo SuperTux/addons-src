@@ -98,14 +98,14 @@
     (platform
       (running #f)
       (name "Krosh")
-      (sprite "images/creatures/icecrusher/krosh.sprite")
       (path-ref "7b3292da-be7e-4845-be19-3eee968dd0ec")
+      (sprite "images/creatures/icecrusher/krosh.sprite")
     )
     (platform
       (running #f)
       (name "flyer")
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (path-ref "eee38ea3-7e1a-4b57-b1c6-144dbd5d52c9")
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
     )
     (scripttrigger
       (script "if(! (\"SNOWMANisthere\" in this) ){

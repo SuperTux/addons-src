@@ -116,11 +116,9 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "19f2544d-995a-4b09-8ff5-ca35ddeb3e65")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "f7e9311d-3879-4465-bf49-e6bf7234bbb8")
     )
     (skullyhop

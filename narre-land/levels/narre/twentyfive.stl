@@ -703,7 +703,6 @@
     )
     (hurting_platform
       (name "hurtpila")
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "d52a4ea5-14c8-4b69-9130-8743ffa02b5b")
     )
     (mrtree

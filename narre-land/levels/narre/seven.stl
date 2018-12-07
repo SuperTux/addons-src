@@ -90,7 +90,6 @@
       (y 64)
     )
     (hurting_platform
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "e0a772d8-fc72-4751-a179-fbb339d14029")
     )
     (jumpy

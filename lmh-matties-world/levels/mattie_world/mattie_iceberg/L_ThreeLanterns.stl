@@ -669,25 +669,23 @@
     (platform
       (running #f)
       (name "tdoor")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "a0a1385f-8815-4c64-97a4-ad9dc960099c")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
       (running #f)
       (name "airlift")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "75c55429-68ae-4e2a-b04a-80eb75c01f3c")
     )
     (platform
       (running #f)
       (name "woodlift")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "c2c85bdc-8c15-4afa-8d63-36ef924dd9f8")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
       (running #f)
       (name "airdrop")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "d94d8b39-5fcf-4a61-bcef-43cb403327f1")
     )
     (rock

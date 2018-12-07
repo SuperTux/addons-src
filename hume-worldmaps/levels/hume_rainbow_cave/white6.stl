@@ -143,19 +143,15 @@ finish_level_group(\"white\",\"w6\")")
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "26009553-d465-40da-8496-58f8b34ab8e6")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "1ef42651-4885-4554-87bd-57f8036cbc43")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "bed1102e-44d8-4324-ac13-e0e916d53d2c")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "8f02da06-969b-4397-87bb-f6f0fbadd751")
     )
     (spawnpoint

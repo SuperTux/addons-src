@@ -796,8 +796,8 @@ tV
     (platform
       (running #f)
       (name "door")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "4ff01e98-2a33-422c-8550-7b7f24ceb647")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (pushbutton
       (script "door.goto_node(1)")

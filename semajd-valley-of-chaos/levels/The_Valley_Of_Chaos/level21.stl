@@ -70,7 +70,6 @@
       (y 584)
     )
     (hurting_platform
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "5f2f2ad5-162f-4769-856b-ce33a28505b3")
     )
     (jumpy
@@ -190,15 +189,12 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "9d2f5777-0c2f-4fb5-8376-2ca7b315ba36")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "d7cf9776-adbd-42aa-9eaf-867589c9661e")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "a8f79dca-4e9a-40ee-a428-db389c3fcffd")
     )
     (skullyhop
@@ -1164,11 +1160,9 @@ lava.start_moving();")
     (platform
       (running #f)
       (name "platform")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "167e989e-db6a-4d58-9ff7-20ed0def2c82")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "085b84b3-3c66-4d3b-b5b3-8fb715f8570c")
     )
     (secretarea

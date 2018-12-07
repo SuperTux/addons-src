@@ -137,7 +137,6 @@
     (platform
       (running #f)
       (name "platf1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "63df0615-98fe-4865-af9f-2706e49563c3")
     )
     (scripttrigger

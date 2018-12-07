@@ -45,7 +45,6 @@
     )
     (hurting_platform
       (name "pila")
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "bb1b9f1f-3688-46bc-adfd-f1f199eb93a8")
     )
     (igel

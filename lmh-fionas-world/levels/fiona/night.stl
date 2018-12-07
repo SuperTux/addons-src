@@ -202,15 +202,12 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "afd9bea3-dcc5-47f6-a6c3-916dcee012ea")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "1fc8ea15-5f5b-443f-b939-4fe40958296f")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "341bb554-a4c8-407a-b0f0-5c3f7655ad33")
     )
     (powerup

@@ -32,19 +32,15 @@
       (mode "normal")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "782922be-334c-4e23-ae26-deec8b6ff510")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "aad1d7e1-9932-47a0-a8b0-699ba94dd138")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "90612211-19ed-4bf3-9989-8ad84eec1cb1")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "37405289-430f-43f8-96d6-beb990607f94")
     )
     (darttrap
@@ -456,47 +452,39 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "ee6a5521-8bda-4c27-98b8-6fcd5dcaa5d8")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "94615375-06d5-46d9-ae54-0a4f01072b1e")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "66034e62-a94b-4f9b-bd21-95f57ec9bda5")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "c4a097be-2a12-443a-8d8e-972ff43c2f5b")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "50af5c5a-7ae1-41ab-8bcd-9e8adf508c7b")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "809a027b-ee82-4b3a-a1a8-774bf159f302")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "0a95c82a-ae58-446a-9a8c-ceab45d43186")
     )
     (platform
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
       (path-ref "5e70b15c-e003-4a84-9c27-07893b27ded9")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
     )
     (platform
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
       (path-ref "cdab00ac-1a2f-4497-a4bd-66cde24b7c3d")
-    )
-    (platform
       (sprite "/images/objects/platforms/vertical-wood.sprite")
-      (path-ref "1e7ca944-03ab-4c87-b25e-d6db15b14f2b")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
+      (path-ref "1e7ca944-03ab-4c87-b25e-d6db15b14f2b")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
+    )
+    (platform
       (path-ref "c7d20901-6391-4ee4-904a-9c4ffb6f9766")
     )
     (poisonivy

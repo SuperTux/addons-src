@@ -48,8 +48,8 @@
     (platform
       (running #f)
       (name "penny")
-      (sprite "images/creatures/penny/penny.sprite")
       (path-ref "4aff2b50-bfcd-4472-b4e1-e5e90f86e919")
+      (sprite "images/creatures/penny/penny.sprite")
     )
     (scripttrigger
       (script "Tux.deactivate();

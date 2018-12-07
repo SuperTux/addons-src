@@ -458,23 +458,23 @@
     )
     (platform
       (name "p1")
-      (sprite "images/objects/castledoor/keyholes.sprite")
       (path-ref "3c0cd11f-a8ef-4e20-8113-23b3a0fcf458")
+      (sprite "images/objects/castledoor/keyholes.sprite")
     )
     (platform
       (name "p2")
-      (sprite "images/objects/castledoor/keyholes.sprite")
       (path-ref "65841b84-3dd6-439d-a522-2bc991e69752")
+      (sprite "images/objects/castledoor/keyholes.sprite")
     )
     (platform
       (name "p3")
-      (sprite "images/objects/castledoor/keyholes.sprite")
       (path-ref "ee2d459a-59f7-4bbb-9182-83d0443c5f66")
+      (sprite "images/objects/castledoor/keyholes.sprite")
     )
     (platform
       (name "p4")
-      (sprite "images/objects/castledoor/keyholes.sprite")
       (path-ref "e3b6a041-e428-483a-8d7c-9639edc145d2")
+      (sprite "images/objects/castledoor/keyholes.sprite")
     )
     (sequencetrigger
       (sequence "fireworks")

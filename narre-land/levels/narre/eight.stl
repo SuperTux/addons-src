@@ -394,7 +394,6 @@
     (platform
       (running #f)
       (name "ocot")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "cef77992-ef44-425c-8270-1ab9cd3f974d")
     )
     (scripttrigger

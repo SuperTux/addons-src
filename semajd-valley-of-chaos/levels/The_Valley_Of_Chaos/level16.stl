@@ -484,7 +484,6 @@
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "208fe23c-80f2-492c-b74b-415da989758f")
     )
     (rock

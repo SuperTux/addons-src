@@ -136,7 +136,6 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "09bfcc2d-4b34-4d32-b3f5-8335b99fd427")
     )
     (smartblock

@@ -144,32 +144,32 @@
     (platform
       (running #f)
       (name "krava0")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "b45ec4fc-1d4b-499b-98bb-1ee567257d15")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "krava1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "0eee521b-29a2-4f72-90d8-650bd83ff796")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "krava2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "c4392573-b739-489a-9410-ca3435bfab7c")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "krava3")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "17f3a55b-9e49-4172-bc7f-97454cf70417")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "krava4")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "e949f73b-47dd-40b4-a25c-a5f3f1b6c869")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (scripttrigger
       (script "krava0.goto_node(0)

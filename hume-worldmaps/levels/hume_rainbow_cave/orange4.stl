@@ -72,8 +72,8 @@
     (platform
       (running #f)
       (name "pitomec")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "3d98717b-d800-41fd-9570-6082985bacd5")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (pushbutton
       (script "pitomec.goto_node(1)

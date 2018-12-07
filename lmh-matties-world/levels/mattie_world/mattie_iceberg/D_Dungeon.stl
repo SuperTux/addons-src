@@ -675,8 +675,8 @@ open <- false;")
     (platform
       (running #f)
       (name "upandout")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "2810d4bc-9191-4464-be3b-ab17a297198e")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (powerup
       (script "find_coin(\"coin1\");")

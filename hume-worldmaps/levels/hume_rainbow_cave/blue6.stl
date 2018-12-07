@@ -48,8 +48,8 @@
     (platform
       (running #f)
       (name "pica")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "1e3a566b-4a12-472d-957e-a8904b442618")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (spawnpoint
       (name "main")
@@ -458,26 +458,26 @@ while(true){
     (platform
       (running #f)
       (name "nonepi1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "0a44d11d-58c7-41ba-9b7e-fd90d00712c7")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "nonepi2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "8a1a0618-98f4-4bf8-8ec9-c4b4ea986977")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "epi1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "dfff1ed9-247f-4c96-95c8-8c4f4aeeae9d")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "epi2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "16189639-b2a0-4101-b5e7-a6d4e6484d91")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (scriptedobject
       (physic-enabled #f)

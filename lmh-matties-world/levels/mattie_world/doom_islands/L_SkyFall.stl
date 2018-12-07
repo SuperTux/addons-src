@@ -981,50 +981,45 @@
     (platform
       (running #f)
       (name "wt_deliver1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "62d8659c-fa12-42cb-8cd3-94406ef14bee")
     )
     (platform
       (running #f)
       (name "wt_deliver2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "0d3606e4-49be-4d80-9716-1721c3135616")
     )
     (platform
       (running #f)
       (name "climb1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "2bbbfe66-9878-41fb-95de-c2474db1cabe")
     )
     (platform
       (running #f)
       (name "climb2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "ebce4e96-4165-41f6-a7b8-994ae654d09b")
     )
     (platform
       (running #f)
       (name "platform_top")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "d71703a9-73bb-4aeb-9e77-be0a116c3f63")
     )
     (platform
       (running #f)
       (name "man1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "d9f0471d-c6eb-452b-aac8-707b53b6d114")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "man2")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "bbb6e3c6-e4ef-415b-96a2-8b205a9d5a01")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "man3")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "e014e4eb-308e-4ca0-8fa6-418d71598dca")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (scriptedobject
       (z-pos 0)

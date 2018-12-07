@@ -61,7 +61,6 @@
     (platform
       (running #f)
       (name "secret_p")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "f7fe2e53-8bff-4b78-80ca-113cde3845da")
     )
     (scripttrigger

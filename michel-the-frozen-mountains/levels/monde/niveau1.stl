@@ -498,8 +498,8 @@ retour.set_alpha(1.0);")
     (platform
       (running #f)
       (name "porte1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "f21d46c4-f6a3-4a92-9ecf-ce7886e778f0")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (secretarea
       (fade-tilemap "cache")

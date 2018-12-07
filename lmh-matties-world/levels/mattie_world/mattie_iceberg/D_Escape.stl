@@ -127,14 +127,14 @@
     (platform
       (running #f)
       (name "Gate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "ad5ca3d0-889e-488a-8cf2-3e367940dfe0")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "InnerGate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "598b108e-64f7-43a1-b68f-9188a2c36e9e")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (scripttrigger
       (script "  wait(  6  );

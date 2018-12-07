@@ -18,15 +18,12 @@
       (mode "normal")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "85005cd5-2d20-4bf4-881e-00101f5eeff1")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "c1c879bf-db5c-4182-9b21-a464d4853646")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "32eeda17-bf79-420d-8b6a-ce1fc398fa0c")
     )
     (crystallo
@@ -648,47 +645,36 @@
       (y 69.9997)
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "da83c396-cb9a-479a-b1f4-3dc7139c4dee")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "8d8136d1-e67e-45f8-8376-5503dd6678f0")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "5384c198-c49e-481d-83db-fd711379485e")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "0e1bd438-82bb-44d6-96c1-f1c5f98845ec")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "0337e57d-e97c-46a1-b938-9e69ec7e563c")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "923212d0-0d98-4e44-b273-24a0b1dc6153")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "dbefd3ee-943f-4de6-9868-9a04829f6d9a")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "e4e042c5-c8bf-4afc-993b-60f19b78461a")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "70c96201-57f9-497e-b88b-943d8243fd52")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "4f96e0e4-c042-4d71-a5dd-e94a1ecccb45")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "a5b10929-e5f3-41be-8ac9-b9b75c006f3f")
     )
     (dispenser
@@ -861,8 +847,8 @@
     (platform
       (running #f)
       (name "ball")
-      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "ea89d939-45f0-400d-b4d4-e8678e88f9b2")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
     )
     (rock
       (x 33.33329)

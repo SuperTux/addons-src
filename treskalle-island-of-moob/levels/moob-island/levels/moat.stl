@@ -529,76 +529,76 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "67573306-6f38-4d76-b91d-36e53addc6c8")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "2a09164f-56a7-4f06-841e-be0dd940be1a")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "9a835a27-13f0-4092-86d5-127f70bf66a6")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "797382bd-ad06-4975-8052-dfcee73fd170")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "2b3cf870-4c45-4355-9544-b6e66a0cc493")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "72ac1249-1808-4392-8cd6-59d8bee52531")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "ee45a2bf-41fa-4ad6-8146-52ec57d6c3e9")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "33a6dd71-2026-47ba-8641-aa83448b670c")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "60a61193-de2b-4dd6-90aa-7008fc7b80da")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "a6131b62-8649-497e-992c-c1423e874338")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "d2d20fb6-9422-4127-9046-0f1bd454127e")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "97c51940-aa2b-4a57-8fe8-0a64b5e055f4")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "cd696707-4ae3-45e1-8650-a18e453808cb")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "93738b89-26c4-4690-9323-5bae2da86f73")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "7428a857-a2f2-455f-a0bc-6717d7dddeef")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "fc31046d-04ce-41b7-bf16-ad2376ac4b71")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "6a4f750a-b76e-4720-b96f-c9ee121057ad")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "f75655b8-03b8-498d-b82c-115d3329be40")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (rock
       (x 1632)

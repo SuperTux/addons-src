@@ -63,7 +63,6 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "e1139c67-5e2c-4164-b99d-d22a70fb2057")
     )
     (poisonivy

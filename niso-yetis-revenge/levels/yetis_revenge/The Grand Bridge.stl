@@ -125,8 +125,8 @@
     (platform
       (running #f)
       (name "flyingcoin")
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "3ad4bade-6a77-4a76-b6b6-9eda3f815549")
+      (sprite "images/objects/coin/coin.sprite")
     )
     (powerup
       (script "Tux.add_coins(1) ")

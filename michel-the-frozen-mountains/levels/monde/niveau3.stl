@@ -408,7 +408,6 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "72853fc6-eab6-4145-ab37-5ca55ccb335c")
     )
     (scripttrigger

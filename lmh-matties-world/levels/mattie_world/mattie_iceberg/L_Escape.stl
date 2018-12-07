@@ -156,20 +156,20 @@
     (platform
       (running #f)
       (name "AngryHold")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "df26dcea-66c7-41fe-857d-42378a2606a5")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
       (running #f)
       (name "Gate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "e106bd95-cc31-4650-ae00-0d6029590b71")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "InnerGate")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "c3f758cb-6b04-4044-a3d6-d8add00ae586")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (scripttrigger
       (script "  wait(  6  );

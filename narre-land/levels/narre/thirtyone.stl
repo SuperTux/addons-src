@@ -59,8 +59,8 @@ II must use the key from CrystalCave..."))
     (platform
       (running #f)
       (name "dvere")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "083137e0-bf12-45cd-a0e7-c5b0fa14f822")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (scriptedobject
       (physic-enabled #f)

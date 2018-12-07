@@ -101,12 +101,12 @@
     (platform
       (running #f)
       (name "secretplat")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "e28c86f6-f8ee-4d58-9cec-5d7238764d11")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "80ac8c2c-efc3-4c79-bae5-ebcd3c51b8ef")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (poisonivy
       (x 3328)
@@ -426,8 +426,8 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "077f80c9-74b3-4381-a54c-df39865718b6")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (scripttrigger
       (script "Level.spawn(\"main\",\"secret\")")

@@ -636,8 +636,8 @@ porte1.goto_node(1);
     (platform
       (running #f)
       (name "porte1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "0784d930-e5d0-4eec-9594-426b14e586bb")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (scripttrigger
       (script "Foreground.set_alpha(1);

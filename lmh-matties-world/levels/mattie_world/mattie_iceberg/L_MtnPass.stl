@@ -545,48 +545,48 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "1b22b1f3-c3de-4f11-b726-70210787a35d")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "978fdfee-f6da-425a-b074-3d2cf03d0c55")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "d8b1ee27-798b-458a-855d-0a182b52142b")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "9654b8fe-213b-4215-be65-395a17ec88f4")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "7d4b7dc0-f524-4d4b-9384-7dc1332753d8")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "06d2db0f-ca81-4577-a596-44f9c523464e")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "14428237-5a88-4b4e-bdef-3416bad7e7b0")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "11bff428-90a5-477d-ac17-3752c9cbe5b3")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "6406cfbf-638a-46ff-8d68-278a8138e169")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "0b117fd4-89d8-4e93-9980-45398fd0ba24")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-fivetiles.sprite")
       (path-ref "7caea167-5f7c-4bc5-be58-9537931f0a35")
+      (sprite "images/objects/platforms/wood-fivetiles.sprite")
     )
     (rock
       (x 12448)

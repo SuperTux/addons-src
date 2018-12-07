@@ -49,14 +49,14 @@ finish_level_group(\"orange\",\"o6\")")
     (platform
       (running #f)
       (name "propadak0")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "81aa2ec9-a3cb-4c0d-aa4f-6304ae140582")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "propadak1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "f4a4ea5c-f1bd-43a2-8d74-3ce99113ad41")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (spawnpoint
       (name "main")

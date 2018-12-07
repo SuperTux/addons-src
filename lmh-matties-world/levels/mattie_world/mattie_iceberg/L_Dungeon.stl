@@ -664,76 +664,76 @@
     (platform
       (running #f)
       (name "gate2")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "48a18172-88c4-47d6-9384-3b6628e65c78")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "gate1")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "dfbe6338-ca6d-4ef2-9b7a-97b2f313691c")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "2bdd7892-41c0-4230-b74c-cf958272852f")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "99e8ecb6-4a29-45af-bef7-3f11eaefde08")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "867d2340-c365-4841-9337-76096c5611a2")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "5511aa07-f1da-4673-bd06-bdb26a6e5f7a")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "93fa27a8-ffcc-4ec1-9090-0c732ce7dc9a")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "d2ab7d46-a270-4b32-8888-c2fa126e4333")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "f70565fa-a172-427d-bf02-c11ffbc8abd3")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "c64668ff-f8f9-4bdf-a5a1-ae0e60688b2d")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "SkyBlockA")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "a522107c-8e56-4860-a7db-76bca00d88b2")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "SkyBlockB")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "bae8aea6-c442-4f9a-8c5c-ef5d549f1b39")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "SkyBlockC")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "a430ff80-e3b7-45d8-a8ad-c0e1ef1f0a08")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "SkyBlockD")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "7ffd5394-c9b1-4895-89e1-546e9cf2a2df")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
       (running #f)
       (name "SkyBlockE")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "74b09933-b31e-4522-a43c-7a563ea82655")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (powerup
       (script "  flipflop <- true;

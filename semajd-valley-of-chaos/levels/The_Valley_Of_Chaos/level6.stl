@@ -91,7 +91,6 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "efa6a768-3a4d-4c45-ab64-e190ceebc995")
     )
     (secretarea

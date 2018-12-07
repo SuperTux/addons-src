@@ -221,7 +221,6 @@ Wait!"))
     (platform
       (running #f)
       (name "plat1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "20cc98da-7999-43a4-8011-8fbf7298c97e")
     )
     (pushbutton

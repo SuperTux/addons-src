@@ -94,8 +94,8 @@
     )
     (platform
       (name "fall2")
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "f3b18e96-3c36-424e-9b06-35509228747e")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (scripttrigger
       (script "lava.goto_node(100)")

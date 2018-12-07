@@ -486,14 +486,14 @@ play_sound(\"sounds/door.wav\");
     (platform
       (running #f)
       (name "porte1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "00166e04-05c3-4a89-b2bb-03a67afff309")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (platform
       (running #f)
       (name "porte")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "11fa764e-50c1-4d7b-b3c2-dcb601fa04eb")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (rock
       (x 7520)

@@ -201,7 +201,6 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "5a6caa5b-3c10-4ff8-bdb3-2f7e048bae62")
     )
     (powerup

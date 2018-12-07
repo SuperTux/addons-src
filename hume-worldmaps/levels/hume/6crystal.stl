@@ -825,13 +825,12 @@ unlock_archivement(\"m\")")
       )
     )
     (platform
-      (sprite "images/objects/platforms/icefloe_small.sprite")
       (path-ref "e3c18b85-145e-4ff1-9d46-b71369aef3ba")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
     )
     (platform
       (running #f)
       (name "plat1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "c0a7109c-8086-49ce-9e33-5060601f879f")
     )
     (scripttrigger

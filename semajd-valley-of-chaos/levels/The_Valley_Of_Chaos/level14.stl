@@ -62,7 +62,6 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "0fa37b67-d772-4e93-a951-978850708ed5")
     )
     (rock

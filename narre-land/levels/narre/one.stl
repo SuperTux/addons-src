@@ -162,7 +162,6 @@
     (platform
       (running #f)
       (name "svina")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "2b1e4461-0e82-4ac8-8df3-1b86475da8e0")
     )
     (sequencetrigger

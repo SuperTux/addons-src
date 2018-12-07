@@ -175,8 +175,8 @@
     (platform
       (running #f)
       (name "surfboard")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
       (path-ref "0d303116-2017-4ab9-985a-0b6e0487aa59")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
     )
     (powerup
       (script "this.c1 <- true

@@ -254,13 +254,11 @@
     )
     (platform
       (running #f)
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "6e76d184-257f-42a6-bc5b-58d4a05abae6")
     )
     (platform
       (running #f)
       (name "platform")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "35444481-8426-44b0-9201-e008915a259c")
     )
     (secretarea

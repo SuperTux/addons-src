@@ -87,20 +87,20 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "6b5b1521-bd1a-4f42-a13e-d9a563f44cfd")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "fc0b0fd1-ca91-4957-a15e-76a3c593d20c")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "e1d1f863-da3a-4a4d-b5d2-5977b2d1c157")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "0f7b4274-e3bd-46ef-a201-48b9fd9704b5")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (smartball
       (x 800)

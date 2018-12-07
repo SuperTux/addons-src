@@ -372,13 +372,11 @@
     (platform
       (running #f)
       (name "EntracePlatform")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "e179f645-cac2-47ff-8c46-a8b82d49dde9")
     )
     (platform
       (running #f)
       (name "HeatEntrace")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "62fe8dea-a0f2-405f-85e8-9536cacdca1a")
     )
     (pushbutton

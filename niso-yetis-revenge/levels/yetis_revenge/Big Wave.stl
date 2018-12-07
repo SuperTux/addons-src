@@ -247,38 +247,38 @@
     (platform
       (running #f)
       (name "if1")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
       (path-ref "2d87e850-f3f9-4bb1-9540-e5e90ffadf96")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
     )
     (platform
       (running #f)
       (name "if2")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
       (path-ref "f0a91ef5-f0f7-461e-a285-364cdad82601")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
     )
     (platform
       (running #f)
       (name "if3")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
       (path-ref "d4ed7f95-8072-40ac-8d80-a02a51a04f5c")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
     )
     (platform
       (running #f)
       (name "if4")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
       (path-ref "f0867023-4420-43a0-93ce-049366ed8899")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
     )
     (platform
       (running #f)
       (name "if5")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
       (path-ref "05113fc9-5d56-43cf-b237-281fc2c07016")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
     )
     (platform
       (running #f)
       (name "if6")
-      (sprite "images/objects/platforms/icefloe_small.sprite")
       (path-ref "e37c6094-6d16-4b5a-a453-049ff33912a2")
+      (sprite "images/objects/platforms/icefloe_small.sprite")
     )
     (powerup
       (script "this.c1 <- true

@@ -171,8 +171,8 @@
     (platform
       (running #f)
       (name "left")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "052cfa01-6744-4d8f-91d6-5a001c78bf26")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (powerup
       (script "find_coin(\"coin1\");")

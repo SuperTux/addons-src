@@ -709,12 +709,10 @@ Text.fade_out(0.5)")
     )
     (hurting_platform
       (name "saw1")
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "470949c7-66cb-488b-91ef-ee4e15720a72")
     )
     (hurting_platform
       (name "saw2")
-      (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "83c32591-d5de-4a2f-8088-d2bbdce3b4d9")
     )
     (infoblock

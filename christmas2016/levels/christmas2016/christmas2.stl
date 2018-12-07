@@ -103,19 +103,15 @@
       (y 256)
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "09450e01-3129-47fe-b60d-6ed7ad48a197")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "e15d40c4-aaf0-4576-95b3-81777bd3148d")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "c5b9a278-a19c-460c-b1b6-76159ba7a537")
     )
     (coin
-      (sprite "images/objects/coin/coin.sprite")
       (path-ref "8fb10c0b-cb58-44ad-af2f-4df921d35e92")
     )
     (firefly
@@ -324,8 +320,8 @@
     (platform
       (running #f)
       (name "door")
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
       (path-ref "03c5abd8-8704-4989-949f-4872a8ee6aa3")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
     )
     (pushbutton
       (script "door.goto_node(1);")

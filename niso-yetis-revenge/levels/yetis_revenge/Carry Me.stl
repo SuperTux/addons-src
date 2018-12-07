@@ -161,26 +161,26 @@ tooslow2.goto_node(3);
     (platform
       (running #f)
       (name "s1")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "7561fbe0-40cc-47e8-b525-d488e85993ad")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
       (running #f)
       (name "s2")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "a2b94eff-8fd0-4fef-9d17-8abd81defec1")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
       (running #f)
       (name "tooslow1")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "113ef8ae-4fe4-47d3-9ed5-1ca58dbf6283")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
       (running #f)
       (name "tooslow2")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "2c8f47ed-7fdf-4a9d-8eb4-b47df174609c")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (powerup
       (script "find_fish(\"carry\");")

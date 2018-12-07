@@ -75,8 +75,8 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/icefloe.sprite")
       (path-ref "60136b1a-df21-455a-86b8-a7583994dee0")
+      (sprite "images/objects/platforms/icefloe.sprite")
     )
     (secretarea
       (width 156)

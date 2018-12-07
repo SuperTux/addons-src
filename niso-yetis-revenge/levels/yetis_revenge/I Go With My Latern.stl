@@ -622,8 +622,8 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "a76f25bc-1640-41a5-9f50-28c617ef2545")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (powerup
       (script "this.c1 <- true

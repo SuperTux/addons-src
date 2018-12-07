@@ -290,8 +290,8 @@
     (platform
       (running #f)
       (name "porte1")
-      (sprite "images/objects/platforms/vertical-wood.sprite")
       (path-ref "2ead4528-d4d1-416f-9476-065bb08e140d")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
     )
     (rock
       (x 2016)
@@ -848,52 +848,42 @@ or2.start_moving();")
     )
     (platform
       (name "plateforme1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "97ac967b-a809-4927-8aba-3ba09f482df7")
     )
     (platform
       (name "plateforme2")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "a38fffb0-2982-45d3-86c8-ccf2104b26eb")
     )
     (platform
       (name "plateforme3")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "191ae0a0-9cb4-45cd-884d-3b6588787ae2")
     )
     (platform
       (name "plateforme4")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "a5e6c3b4-6824-4d04-82b8-84a65991bb14")
     )
     (platform
       (name "plateforme6")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "be807580-566c-4a1c-b1cf-b45cdf7c047d")
     )
     (platform
       (name "plateforme5")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "35aee54c-33b5-4fb4-a774-96d298bbca28")
     )
     (platform
       (name "plateforme7")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "153c000d-f755-45b9-acea-bd4efbc1de05")
     )
     (platform
       (name "plateforme8")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "61f89edf-ade2-4bc9-a6f4-3e77370a00c9")
     )
     (platform
       (name "plateforme9")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "339ee504-2d26-4969-a2a3-ff955bf318f8")
     )
     (platform
       (name "plateforme10")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "92e227f5-2a3e-4321-bf6f-f4327e7e54fa")
     )
     (sequencetrigger

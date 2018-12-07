@@ -516,84 +516,84 @@
       (y 9472)
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite")
       (path-ref "9dcd746d-0df9-41e5-ab1c-a7f5f97aae85")
-    )
-    (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
-      (path-ref "a17549d2-effa-4b25-9ae7-08137c20ea12")
-    )
-    (hurting_platform
       (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite")
+    )
+    (hurting_platform
+      (path-ref "a17549d2-effa-4b25-9ae7-08137c20ea12")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
+    )
+    (hurting_platform
       (path-ref "18d3323c-0f5c-4e5b-9814-a373e544d556")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "f33679e8-4c1c-4208-85d6-fba0784fb54e")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "93158890-e7e7-43d0-b3a6-aa83e69fb156")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "5fe37ab3-b2a2-4611-b69a-2863e4616ebd")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "71e7b292-c3ba-4e71-bee4-10f35ec931aa")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "1fb17719-7bc2-43b3-8610-0b8d5226669b")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "d50b3c30-8c42-4c9e-8253-08daf215516b")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "d21e8d72-0d8f-4c28-9337-a9dc31b989e6")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "966711a0-6ace-4d5e-91d4-d7fd70cf15b7")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "0256187c-6d94-4a0a-a767-e3b3eea0abc2")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "c9874f3c-a69b-4c40-b5f1-398b69fbde2a")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "85287b6e-1637-4138-9179-692f25289cc4")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "9196da97-e372-47bd-ad05-9f2e87b2698e")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "69ecc3a8-eb0c-4c96-8064-d49cae2156c9")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "b2067b24-8996-418b-b7d0-f13bdbe162ab")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "8e6505f0-900b-4518-ad8f-e3b93e2573eb")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "a84aa94c-45f1-4113-8528-bb44e0ebada2")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (hurting_platform
-      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
       (path-ref "86c724f0-5c7a-4e93-b18d-4c68722b5763")
+      (sprite "levels/mattie_world/images/objects/hurting_platform/spike_down.sprite")
     )
     (infoblock
       (message (_ "!levels/mattie_world/images/decal/explanations/helpboard_pipe.png"))

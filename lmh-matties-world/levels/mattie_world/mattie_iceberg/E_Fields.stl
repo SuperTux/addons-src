@@ -71,14 +71,14 @@
     (platform
       (running #f)
       (name "pipe1")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "e916b073-0902-4d66-8964-1de42d953fdd")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (platform
       (running #f)
       (name "pipe2")
-      (sprite "images/objects/platforms/small.sprite")
       (path-ref "e4f359e4-d392-4fd4-8411-8d30adc2d0fb")
+      (sprite "images/objects/platforms/small.sprite")
     )
     (scripttrigger
       (script "pipe1.goto_node(1);")

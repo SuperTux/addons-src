@@ -183,7 +183,6 @@ finish_level_group(\"red\",\"r6\")")
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "ad09aa4e-d26e-48f3-a9a1-d2d345f3f158")
     )
     (scripttrigger

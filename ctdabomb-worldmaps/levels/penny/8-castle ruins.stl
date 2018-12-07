@@ -104,16 +104,16 @@
       )
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "3948f1b5-902a-41f0-b1d7-d82914604b40")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "67b08091-de3a-4e9e-8f53-98f2fe621e52")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (platform
-      (sprite "images/objects/platforms/big.sprite")
       (path-ref "92bf353c-7ec8-43b2-9c3e-6fa92a2d5309")
+      (sprite "images/objects/platforms/big.sprite")
     )
     (poisonivy
       (x 1154)

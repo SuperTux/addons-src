@@ -188,8 +188,8 @@
     (platform
       (running #f)
       (name "p1")
-      (sprite "/images/objects/platforms/vertical-wood.sprite")
       (path-ref "f6950aa5-4d2b-45e4-9bd3-c592bd33ad2e")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
     )
     (poisonivy
       (direction "left")

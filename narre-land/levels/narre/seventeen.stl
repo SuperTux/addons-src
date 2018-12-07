@@ -190,49 +190,47 @@
     )
     (platform
       (name "metro")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "6888422e-f61d-4d7e-a5af-b987572d665d")
     )
     (platform
       (name "metro1")
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "a0b3f32c-d88d-4e51-b8b8-fa4d9025f747")
     )
     (platform
       (running #f)
       (name "d")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "df574e88-fcf8-4fed-b556-292133e84c11")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "e")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "54d8d46f-8c09-4682-8cae-09fa862dafb2")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "c")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "e906d3f9-d34f-4a7f-82f0-081acf9e2c9c")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "b")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "66e14274-cf35-4177-87c1-d8b8c8929063")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "a")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "15a8a7e7-2316-4e6a-8d9f-64801a194d54")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
       (running #f)
       (name "f")
-      (sprite "images/objects/platforms/wood-tiny.sprite")
       (path-ref "d071ce49-767f-4ad7-b940-b375eca452cd")
+      (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (scripttrigger
       (script "sector.Tux.kill(true)")
@@ -791,7 +789,6 @@ f.goto_node(1)")
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "c2ec0ec9-1890-459a-aa0f-65d62a02da88")
     )
     (sequencetrigger

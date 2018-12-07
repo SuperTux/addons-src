@@ -239,35 +239,27 @@
       )
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "4248302d-5da3-4841-9ba9-9244e169fd39")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "8785820f-f079-47b8-b9e6-9339317d2171")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "0f3983d8-917a-42da-b0e0-0183ade1bb69")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "192aec0e-d4d5-485c-a80a-60d12f60100e")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "1c016906-f439-4c35-afbf-2d24f5de28ea")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "d8314253-ff1f-4d14-92ea-f1312aa3a859")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "86ed607a-c028-4803-a89b-f9ef16b7651a")
     )
     (platform
-      (sprite "images/objects/flying_platform/flying_platform.sprite")
       (path-ref "af020923-6e07-4790-979f-53da32af4c7d")
     )
     (powerup
