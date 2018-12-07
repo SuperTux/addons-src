@@ -192,6 +192,8 @@ key.set_action(\"default\")
       (x 115)
       (y 2)
     )
+    (music
+    )
     (sprite-change
       (change-on-touch #f)
       (initial-stay-action #f)

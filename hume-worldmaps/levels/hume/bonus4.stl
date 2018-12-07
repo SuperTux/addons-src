@@ -193,6 +193,8 @@ wait(1)
     (camera
       (mode "normal")
     )
+    (music
+    )
     (sequencetrigger
       (sequence "fireworks")
       (width 1052)

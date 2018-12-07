@@ -177,6 +177,8 @@
       (x 7584)
       (y 128)
     )
+    (music
+    )
     (scripttrigger
       (script "Level.spawn(\"houno\",\"main\")")
       (button #f)
@@ -418,6 +420,8 @@
       (spawnpoint "main")
       (x 272.9706)
       (y 123.7574)
+    )
+    (music
     )
     (secretarea
       (width 316)

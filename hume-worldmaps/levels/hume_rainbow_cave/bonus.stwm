@@ -51,6 +51,8 @@
       (x 17)
       (y 8)
     )
+    (music
+    )
     (special-tile
       (invisible-tile #t)
       (script "podzemak(true)")

@@ -36,6 +36,8 @@
       (x 513)
       (y 742)
     )
+    (music
+    )
     (path
       (name "578022ab-380f-4c8a-b516-617fff7f48d4")
       (path
@@ -417,6 +419,8 @@ Effect.fade_in(0.5);")
     )
     (camera
       (mode "normal")
+    )
+    (music
     )
     (path
       (name "600775db-18cf-4482-a722-f5416ce59cfb")

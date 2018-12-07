@@ -31,6 +31,8 @@ archivinit()")
       (x 160)
       (y 768)
     )
+    (music
+    )
     (scripttrigger
       (script "Text.fade_out(0.2)")
       (button #f)

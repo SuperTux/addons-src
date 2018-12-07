@@ -33,6 +33,8 @@
       (top_color 0 0 0)
       (bottom_color 0.003921569 0.003921569 0.003921569)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -161,6 +163,8 @@
       (x 0)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -260,6 +264,8 @@
       (spawnpoint "main")
       (x 256)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -361,6 +367,8 @@
       (x 768)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -460,6 +468,8 @@
       (spawnpoint "main")
       (x 672)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -561,6 +571,8 @@
       (x 224)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -660,6 +672,8 @@
       (spawnpoint "main")
       (x 224)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -761,6 +775,8 @@
       (x 288)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -860,6 +876,8 @@
       (spawnpoint "main")
       (x 224)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -961,6 +979,8 @@
       (x 224)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -1060,6 +1080,8 @@
       (spawnpoint "main")
       (x 448)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -1161,6 +1183,8 @@
       (x 384)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -1260,6 +1284,8 @@
       (spawnpoint "main")
       (x 608)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -1361,6 +1387,8 @@
       (x 416)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -1454,6 +1482,8 @@
       (spawnpoint "main")
       (x 384)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -1555,6 +1585,8 @@
       (x 640)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -1654,6 +1686,8 @@
       (spawnpoint "main")
       (x 448)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -1755,6 +1789,8 @@
       (x 672)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -1855,6 +1891,8 @@
       (x 608)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -1953,6 +1991,8 @@
       (sector "211")
       (x 832)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -2054,6 +2094,8 @@
       (x 800)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -2153,6 +2195,8 @@
       (spawnpoint "main")
       (x 1056)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -2254,6 +2298,8 @@
       (x 832)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -2353,6 +2399,8 @@
       (spawnpoint "main")
       (x 832)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -2454,6 +2502,8 @@
       (x 1056)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -2553,6 +2603,8 @@
       (spawnpoint "main")
       (x 800)
       (y 672)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -2654,6 +2706,8 @@
       (x 800)
       (y 672)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 32)
@@ -2753,6 +2807,8 @@
       (spawnpoint "main")
       (x 920)
       (y 477)
+    )
+    (music
     )
     (spawnpoint
       (name "main")
@@ -2862,6 +2918,8 @@
     (gradient
       (top_color 0 0 0)
       (bottom_color 0.003921569 0.003921569 0.003921569)
+    )
+    (music
     )
     (scripttrigger
       (script "import(\"levels/hume/defualt.nut\")

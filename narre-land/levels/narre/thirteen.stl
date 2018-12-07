@@ -22,6 +22,8 @@
       (x 672)
       (y 96)
     )
+    (music
+    )
     (scripttrigger
       (script "Level.spawn(\"NewSector\",\"main\")")
       (button #f)
@@ -694,6 +696,8 @@
     (firefly
       (x 7936)
       (y 448)
+    )
+    (music
     )
     (path
       (name "1b9b2f97-0588-4295-b261-5dd22fd54a81")

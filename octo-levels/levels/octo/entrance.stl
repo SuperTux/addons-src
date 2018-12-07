@@ -59,6 +59,8 @@
       (x 257)
       (y 326)
     )
+    (music
+    )
     (secretarea
       (fade-tilemap "SecretWall")
       (width 224)

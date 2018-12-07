@@ -22,6 +22,8 @@
       (x 640)
       (y 96)
     )
+    (music
+    )
     (scripttrigger
       (script "Level.spawn(\"cave\",\"main\")")
       (button #f)

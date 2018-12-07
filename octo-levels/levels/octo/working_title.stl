@@ -52,6 +52,8 @@
       (x 1280)
       (y 864)
     )
+    (music
+    )
     (particles-clouds
       (z-pos -190)
     )

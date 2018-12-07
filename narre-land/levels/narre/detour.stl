@@ -129,6 +129,8 @@
       (x 3168)
       (y -32)
     )
+    (music
+    )
     (path
       (name "2d9c44e0-a191-484a-bbdd-e7fcc036b454")
       (path
@@ -365,6 +367,8 @@
     )
     (camera
       (mode "normal")
+    )
+    (music
     )
     (path
       (name "9d3133da-c048-43e9-a25e-74a9750ad4e5")
@@ -1111,6 +1115,8 @@
       (sprite "images/objects/sawblade/sawblade.sprite")
       (path-ref "48a1452f-a1f1-4b44-84d6-56c2434ad088")
     )
+    (music
+    )
     (path
       (name "1891d339-057d-4494-b715-2e7707600b6a")
       (path
@@ -1444,6 +1450,8 @@
     (camera
       (mode "normal")
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 384)
@@ -1622,6 +1630,8 @@
       (spawnpoint "main")
       (x 128)
       (y 192)
+    )
+    (music
     )
     (secretarea
       (width 444)

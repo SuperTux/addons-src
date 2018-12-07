@@ -208,6 +208,8 @@
     (leveltime
       (time 91)
     )
+    (music
+    )
     (path
       (name "c3943a74-3bd0-46ff-a43f-83b8b594d803")
       (path
@@ -1132,6 +1134,8 @@
       (message (_ "BThe only way leads to the teleport."))
       (x 435.5858)
       (y 118)
+    )
+    (music
     )
     (path
       (name "c77102b5-ffb6-46cc-bf17-74b951680363")

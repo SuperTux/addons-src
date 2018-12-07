@@ -16,6 +16,8 @@
       (top_color 0.7895781 1 0.9973144)
       (bottom_color 0.2058137 0.9821622 1)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 64)

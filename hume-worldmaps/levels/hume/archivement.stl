@@ -313,6 +313,8 @@ tV
       (x 160)
       (y 576)
     )
+    (music
+    )
     (scriptedobject
       (z-pos 500)
       (physic-enabled #f)
@@ -776,6 +778,8 @@ tV
     (camera
       (mode "normal")
     )
+    (music
+    )
     (path
       (name "4ff01e98-2a33-422c-8550-7b7f24ceb647")
       (path
@@ -929,6 +933,8 @@ tV
     )
     (camera
       (mode "normal")
+    )
+    (music
     )
     (scripttrigger
       (script "Level.finish(true);

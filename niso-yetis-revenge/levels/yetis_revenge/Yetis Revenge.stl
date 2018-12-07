@@ -662,6 +662,8 @@ wait(7);
       (top_color 0 0.001495384 0.4433814)
       (bottom_color 0 0 0)
     )
+    (music
+    )
     (path
       (name "2c829338-6887-4463-b91e-da25a85aecf8")
       (path

@@ -27,6 +27,8 @@
       (x 928)
       (y 288)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 704)
@@ -310,6 +312,8 @@
       (x 928)
       (y 352)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 768)
@@ -487,6 +491,8 @@
       (x 928)
       (y 352)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 800)
@@ -629,6 +635,8 @@
       (message (_ "YYeti 4"))
       (x 928)
       (y 384)
+    )
+    (music
     )
     (spawnpoint
       (name "main")

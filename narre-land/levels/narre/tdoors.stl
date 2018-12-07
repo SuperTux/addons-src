@@ -88,6 +88,8 @@
       (x 95.77615)
       (y 58.63101)
     )
+    (music
+    )
     (path
       (name "bcd0211e-e5a8-4b3f-bbc1-5716f4e7740e")
       (path
@@ -427,6 +429,8 @@
       (message (_ "WWelcome to the door 1 opening sector!"))
       (x 32)
       (y 96)
+    )
+    (music
     )
     (path
       (name "af5a6e34-8d5a-4e3b-a2cb-8eae6a791f27")
@@ -1055,6 +1059,8 @@
       (x 0)
       (y 64)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 96)
@@ -1523,6 +1529,8 @@
       (x 1088)
       (y 448)
     )
+    (music
+    )
     (path
       (name "61288848-e573-413d-bda7-f05b0e5d42fa")
       (path
@@ -1841,6 +1849,8 @@ sector.Tux.add_bonus(\"iceflower\")")
       (message (_ "WWelcome to the door 4 open sector!"))
       (x 0)
       (y 96)
+    )
+    (music
     )
     (path
       (name "ca22d221-2c9a-430d-b4ba-db3256df158c")
@@ -2249,6 +2259,8 @@ sector.Tux.add_bonus(\"iceflower\")")
       (x 128)
       (y 512)
     )
+    (music
+    )
     (scripttrigger
       (script "sector.Tux.kill(true)")
       (button #f)
@@ -2458,6 +2470,8 @@ sector.Tux.add_bonus(\"iceflower\")")
       (message (_ "WWelcome to th door 2 open sector!"))
       (x 0)
       (y 64)
+    )
+    (music
     )
     (path
       (name "065236ab-62df-431f-81de-2481ef6a1752")

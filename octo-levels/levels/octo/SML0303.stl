@@ -56,6 +56,8 @@ Platform15.start_moving();")
       (x 2597)
       (y 424)
     )
+    (music
+    )
     (path
       (name "6c882bf0-0dbb-45b4-bf5b-d980046fb716")
       (path
@@ -634,6 +636,8 @@ Platform15.start_moving();")
     (camera
       (mode "normal")
     )
+    (music
+    )
     (scripttrigger
       (script "Level.spawn (\"main\", \"Secret1\");")
       (button #f)
@@ -739,6 +743,8 @@ Platform15.start_moving();")
     )
     (camera
       (mode "normal")
+    )
+    (music
     )
     (scripttrigger
       (script "Level.spawn (\"main\", \"Secret2\");")

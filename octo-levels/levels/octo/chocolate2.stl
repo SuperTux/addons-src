@@ -91,6 +91,8 @@
       (x 517)
       (y 1000)
     )
+    (music
+    )
     (path
       (name "4cf44326-f6b4-43bb-9760-8f14c3d1d6cb")
       (path
@@ -537,6 +539,8 @@ Effect.fade_in(0.5);")
       (x 1029)
       (y 948)
     )
+    (music
+    )
     (rock
       (x 864)
       (y 1024)
@@ -744,6 +748,8 @@ Effect.fade_in(0.5);")
       (x 1413)
       (y 872)
     )
+    (music
+    )
     (scripttrigger
       (script "if (!(\"BushBonus\" in getroottable ()) || !::BushBonus)
 {
@@ -923,6 +929,8 @@ Effect.fade_in(0.5);")
     (camera
       (mode "normal")
     )
+    (music
+    )
     (scripttrigger
       (script "Effect.fade_out(0.5);
 wait(0.5);
@@ -1077,6 +1085,8 @@ Effect.fade_in(0.5);")
     )
     (camera
       (mode "normal")
+    )
+    (music
     )
     (smartball
       (x 931)

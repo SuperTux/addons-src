@@ -43,6 +43,8 @@
       (x 2048)
       (y 928)
     )
+    (music
+    )
     (scriptedobject
       (physic-enabled #f)
       (name "kokotkokot")
@@ -575,6 +577,8 @@ Level.spawn(\"boom\",\"main\")")
     )
     (camera
       (mode "normal")
+    )
+    (music
     )
     (scriptedobject
       (physic-enabled #f)

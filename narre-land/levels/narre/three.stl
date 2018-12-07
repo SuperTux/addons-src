@@ -79,6 +79,8 @@
       (x 1056)
       (y -320)
     )
+    (music
+    )
     (path
       (name "da6de141-f851-4d83-b7df-e7ddc736ef30")
       (path
@@ -675,6 +677,8 @@ vul7.goto_node(1)")
       (x 3136)
       (y 192)
     )
+    (music
+    )
     (secretarea
       (width 3196)
       (height 316)
@@ -935,6 +939,8 @@ vul7.goto_node(1)")
       (x 2720)
       (y 224)
     )
+    (music
+    )
     (scripttrigger
       (script "Level.spawn(\"svine\",\"main\")")
       (button #f)
@@ -1110,6 +1116,8 @@ vul7.goto_node(1)")
       (x 288)
       (y 160)
     )
+    (music
+    )
     (secretarea
       (width 3196)
       (height 1116)
@@ -1267,6 +1275,8 @@ vul7.goto_node(1)")
     )
     (camera
       (mode "normal")
+    )
+    (music
     )
     (path
       (name "cca08bd6-a5e8-4e98-8e1e-faf580057983")

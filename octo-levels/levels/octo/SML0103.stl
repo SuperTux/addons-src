@@ -24,6 +24,8 @@
       (x 6053)
       (y 392)
     )
+    (music
+    )
     (path
       (name "116f7524-3779-4de6-b985-0bef20389ebf")
       (path
@@ -394,6 +396,8 @@ Elevator2Flag <- true;")
     (camera
       (mode "normal")
     )
+    (music
+    )
     (scripttrigger
       (script "Level.spawn (\"main\", \"Secret1\");
 ")
@@ -507,6 +511,8 @@ Elevator2Flag <- true;")
     )
     (camera
       (mode "normal")
+    )
+    (music
     )
     (scripttrigger
       (script "Level.spawn (\"main\", \"Secret2\");")

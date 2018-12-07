@@ -189,6 +189,8 @@
       (x 736)
       (y 736)
     )
+    (music
+    )
     (scripttrigger
       (script "warp_to(\"main\",\"tree\")")
       (button #t)
@@ -371,6 +373,8 @@
       (message (_ "#This door is locked. You can use this door another time."))
       (x 416)
       (y 3136)
+    )
+    (music
     )
     (path
       (name "61b52b6e-8238-4348-af88-dce5753a4de9")

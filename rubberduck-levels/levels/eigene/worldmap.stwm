@@ -131,6 +131,8 @@
       (x 41)
       (y 28)
     )
+    (music
+    )
     (tilemap
       (solid #t)
       (z-pos 0)

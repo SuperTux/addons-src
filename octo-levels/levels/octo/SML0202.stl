@@ -30,6 +30,8 @@
       (x 2725)
       (y 456)
     )
+    (music
+    )
     (scripttrigger
       (script "Tux.add_coins(100);")
       (button #f)
@@ -192,6 +194,8 @@
     (camera
       (mode "normal")
     )
+    (music
+    )
     (scripttrigger
       (script "Tux.deactivate();
 Effect.fade_out(0.5);
@@ -302,6 +306,8 @@ Effect.fade_in(0.5);")
     )
     (camera
       (mode "normal")
+    )
+    (music
     )
     (scripttrigger
       (script "Tux.deactivate();

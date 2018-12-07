@@ -58,6 +58,8 @@
       (x 20)
       (y 27)
     )
+    (music
+    )
     (special-tile
       (invisible-tile #t)
       (script "go_underground(true);")

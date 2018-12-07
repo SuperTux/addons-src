@@ -272,6 +272,8 @@
       (x 3)
       (y 14)
     )
+    (music
+    )
     (special-tile
       (invisible-tile #t)
       (script "podzemak(true);")

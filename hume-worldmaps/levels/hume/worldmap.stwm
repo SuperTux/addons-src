@@ -294,6 +294,8 @@ display_text_file(\"levels/hume/extro3.txt\");
       (x 40)
       (y 8)
     )
+    (music
+    )
     (sprite-change
       (change-on-touch #t)
       (stay-action "")

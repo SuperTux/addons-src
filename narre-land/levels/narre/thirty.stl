@@ -87,6 +87,8 @@ PPress the button to buy item..."))
       (x 3008)
       (y 192)
     )
+    (music
+    )
     (path
       (name "44bcf67c-6d28-4245-8cc6-9b827c14e0a2")
       (path
@@ -597,6 +599,8 @@ PPress button to buy item..."))
     (mrtree
       (x 1376)
       (y 96)
+    )
+    (music
     )
     (path
       (name "15df93a5-0d2c-47c7-9a74-fc3192cfabee")

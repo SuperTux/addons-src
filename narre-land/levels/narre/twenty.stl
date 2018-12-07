@@ -640,6 +640,8 @@ play_sound(\"sounds/invincible_start.ogg\")")
       (x 1696)
       (y 256)
     )
+    (music
+    )
     (spawnpoint
       (name "main")
       (x 96)

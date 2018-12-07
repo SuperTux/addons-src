@@ -98,6 +98,8 @@
       (x 3937)
       (y 870)
     )
+    (music
+    )
     (secretarea
       (fade-tilemap "secret1")
       (width 124)

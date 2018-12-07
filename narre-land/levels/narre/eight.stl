@@ -30,6 +30,8 @@
       (x 224.8873)
       (y 128)
     )
+    (music
+    )
     (path
       (name "990ade25-4518-4c8d-b50f-c3d3da83b1a8")
       (path
@@ -372,6 +374,8 @@
     (fish
       (x 433.3554)
       (y 52.25992)
+    )
+    (music
     )
     (path
       (name "cef77992-ef44-425c-8270-1ab9cd3f974d")

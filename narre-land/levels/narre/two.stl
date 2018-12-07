@@ -17,6 +17,8 @@
     (camera
       (mode "normal")
     )
+    (music
+    )
     (path
       (name "e4c287c7-99fb-47cd-a211-ff0d96fb63d6")
       (path
@@ -1282,6 +1284,8 @@ pizza.goto_node(0)")
  You need smalltux"))
       (x 928)
       (y 192)
+    )
+    (music
     )
     (path
       (name "3ef73ab2-be00-48a3-babc-2aaa310a6cbf")

@@ -55,6 +55,8 @@
       (x 14)
       (y 9)
     )
+    (music
+    )
     (tilemap
       (solid #t)
       (z-pos -100)

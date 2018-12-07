@@ -32,6 +32,8 @@ unlock_archivement(\"a\")")
       (x 352)
       (y 800)
     )
+    (music
+    )
     (secretarea
       (width 28)
       (height 412)
@@ -301,6 +303,8 @@ unlock_archivement(\"a\")")
 #You can use this path another time."))
       (x 800)
       (y 6112)
+    )
+    (music
     )
     (path
       (name "7188c4aa-3b6d-460a-bf73-7c73276ea341")

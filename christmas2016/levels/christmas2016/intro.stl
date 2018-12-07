@@ -15,6 +15,8 @@
       (top_color 0.3 0.4 0.75)
       (bottom_color 1 1 1)
     )
+    (music
+    )
     (scripttrigger
       (script "Level.finish(true);")
       (button #f)

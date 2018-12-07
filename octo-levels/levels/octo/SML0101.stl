@@ -44,6 +44,8 @@ Platform2.start_moving();")
       (x 4101)
       (y 584)
     )
+    (music
+    )
     (path
       (name "89622fed-93ef-4755-bd8e-4cd4b5b429ad")
       (path
@@ -310,6 +312,8 @@ Platform2.start_moving();")
     (camera
       (mode "normal")
     )
+    (music
+    )
     (scripttrigger
       (script "Tux.deactivate();
 Effect.fade_out(0.5);
@@ -420,6 +424,8 @@ Effect.fade_in(0.5);")
     )
     (camera
       (mode "normal")
+    )
+    (music
     )
     (scripttrigger
       (script "Tux.deactivate();

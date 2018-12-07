@@ -1249,6 +1249,8 @@ Text.fade_out(0.2);")
       (x 96)
       (y 128)
     )
+    (music
+    )
     (sequencetrigger
       (sequence "endsequence")
       (width 32)

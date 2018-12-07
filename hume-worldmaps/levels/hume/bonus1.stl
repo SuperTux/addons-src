@@ -61,6 +61,8 @@ unlock_archivement(\"g\")")
       (x 864)
       (y 192)
     )
+    (music
+    )
     (path
       (name "d0542e00-6ecc-432a-b55b-94946641ce97")
       (path
@@ -753,6 +755,8 @@ Level.finish(true);
     )
     (camera
       (mode "manual")
+    )
+    (music
     )
     (spawnpoint
       (name "main")
