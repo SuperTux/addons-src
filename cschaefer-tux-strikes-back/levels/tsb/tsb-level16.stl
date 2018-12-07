@@ -401,8 +401,6 @@
       )
     )
     (willowisp
-      (sector "")
-      (spawnpoint "")
       (x 128)
       (y 416)
     )
