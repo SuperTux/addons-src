@@ -32,13 +32,11 @@
     )
     (bouncingsnowball
       (direction "left")
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (x 2305)
       (y 704)
     )
     (bouncingsnowball
       (direction "left")
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (x 2177)
       (y 800)
     )
@@ -53,43 +51,35 @@
       (y 949)
     )
     (firefly
-      (sprite "images/objects/resetpoints/default-resetpoint.sprite")
       (x 2400)
       (y 704)
     )
     (flyingsnowball
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (x 1372)
       (y 685)
     )
     (flyingsnowball
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
       (x 4832)
       (y 928)
     )
     (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
       (x 615)
       (y 744)
     )
     (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
       (x 743)
       (y 744)
     )
     (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
       (x 871)
       (y 744)
     )
     (jumpy
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
       (x 4647)
       (y 776)
     )
     (mriceblock
       (direction "left")
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
       (x 1281)
       (y 646)
     )
@@ -117,7 +107,6 @@
     )
     (snowman
       (direction "left")
-      (sprite "images/creatures/snowman/snowman.sprite")
       (x 1610)
       (y 963)
     )
@@ -133,13 +122,11 @@
     )
     (spiky
       (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
       (x 1510)
       (y 1002)
     )
     (spiky
       (direction "left")
-      (sprite "images/creatures/spiky/spiky.sprite")
       (x 4742)
       (y 906)
     )

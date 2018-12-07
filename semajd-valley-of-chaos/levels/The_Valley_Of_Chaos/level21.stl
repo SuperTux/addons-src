@@ -599,7 +599,6 @@
     (switch
       (script "topdown.start_moving();
 lava.start_moving();")
-      (sprite "images/objects/switch/switch.sprite")
       (x 2499)
       (y 132)
     )
@@ -1193,7 +1192,6 @@ lava.start_moving();")
     )
     (switch
       (script "platform.start_moving()")
-      (sprite "images/objects/switch/switch.sprite")
       (x 1524)
       (y 210)
     )

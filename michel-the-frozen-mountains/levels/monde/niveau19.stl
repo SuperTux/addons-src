@@ -2017,7 +2017,6 @@ Foreground.set_alpha(1);
 play_sound(\"sounds/door.wav\");
 porte.goto_node(0);
 }")
-      (sprite "images/objects/switch/switch.sprite")
       (x 963)
       (y 708)
     )

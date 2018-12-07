@@ -633,7 +633,6 @@ block3.goto_node(1);")
     (switch
       (script "switch1v.goto_node(2);
 switch2v.goto_node(2);")
-      (sprite "images/objects/switch/switch.sprite")
       (x 707)
       (y 1316)
     )

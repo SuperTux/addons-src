@@ -608,7 +608,6 @@ while ( (loop=1) );")
       (script "Tux.add_coins(250);
 wait(1);
 sector.Tux.trigger_sequence(\"fireworks\");")
-      (sprite "images/objects/switch/switch.sprite")
       (x 1027)
       (y 228)
     )

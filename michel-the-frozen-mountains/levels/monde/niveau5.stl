@@ -816,7 +816,6 @@ support1.set_alpha(0);
 porte1.goto_node(0);
 play_sound(\"sounds/door.wav\");
 }")
-      (sprite "images/objects/switch/switch.sprite")
       (x 6883)
       (y 1412)
     )
@@ -825,7 +824,6 @@ play_sound(\"sounds/door.wav\");
 porte.start_moving();
 wait(0.9);
 porte.stop_moving();")
-      (sprite "images/objects/switch/switch.sprite")
       (x 2211)
       (y 1508)
     )

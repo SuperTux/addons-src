@@ -58,7 +58,6 @@
     )
     (switch
       (script "warp_to(\"epi\",\"main\")")
-      (sprite "images/objects/switch/switch.sprite")
       (x 1152)
       (y 864)
     )
@@ -604,7 +603,6 @@ epibrana.set_visible(true)
     )
     (switch
       (script "warp_to(\"exit\",\"main\")")
-      (sprite "images/objects/switch/switch.sprite")
       (x 64)
       (y 192)
     )

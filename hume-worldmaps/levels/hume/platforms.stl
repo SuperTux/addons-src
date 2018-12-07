@@ -566,13 +566,11 @@
       (script "import(\"levels/hume/defualt.nut\")
 unlock_archivement(\"q\")
 a.goto_node(6)")
-      (sprite "images/objects/switch/switch.sprite")
       (x 1216)
       (y 2944)
     )
     (switch
       (script "b.goto_node(11)")
-      (sprite "images/objects/switch/switch.sprite")
       (x 160)
       (y 896)
     )

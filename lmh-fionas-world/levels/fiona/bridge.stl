@@ -210,7 +210,6 @@ wash.goto_node(0);
 wait(1);
 running <- false;
 }")
-      (sprite "images/objects/switch/switch.sprite")
       (x 1619)
       (y 1796)
     )

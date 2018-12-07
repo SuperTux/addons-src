@@ -570,7 +570,6 @@ retour.set_alpha(1.0);")
 porte1.start_moving();
 wait(0.9);
 porte1.stop_moving();")
-      (sprite "images/objects/switch/switch.sprite")
       (x 1123)
       (y 900)
     )

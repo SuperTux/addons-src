@@ -240,7 +240,6 @@
     )
     (switch
       (script "kurva.start()")
-      (sprite "images/objects/switch/switch.sprite")
       (x 2112)
       (y 992)
     )

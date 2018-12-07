@@ -437,7 +437,6 @@
 play_sound(\"sounds/door.wav\");
 wait(0.9);
 porte1.stop_moving();")
-      (sprite "images/objects/switch/switch.sprite")
       (x 3907)
       (y 324)
     )

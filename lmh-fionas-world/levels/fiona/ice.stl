@@ -727,7 +727,6 @@ out.stop();")
     )
     (switch
       (script "up_and_out.start();")
-      (sprite "images/objects/switch/switch.sprite")
       (x 1010)
       (y 138)
     )

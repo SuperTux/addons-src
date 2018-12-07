@@ -129,7 +129,6 @@
       (script "SecretBlock.goto_node(1)
 wait(5)
 SecretBlock.goto_node(0)")
-      (sprite "images/objects/switch/switch.sprite")
       (x 3040)
       (y 640)
     )

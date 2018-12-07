@@ -259,7 +259,6 @@
     )
     (switch
       (script "someblocks.set_alpha(0);")
-      (sprite "images/objects/switch/switch.sprite")
       (x 3875)
       (y 324)
     )
@@ -3178,7 +3177,6 @@ climbing.goto_node(1);
 wait(11);
 exitblockdoor.set_alpha(1);
 exitblock.set_alpha(0);")
-      (sprite "images/objects/switch/switch.sprite")
       (x 3715)
       (y 68)
     )

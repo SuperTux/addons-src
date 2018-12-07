@@ -2583,7 +2583,6 @@
         down <- false;}
         else{botlift.goto_node(0);
         down <- true;  }")
-      (sprite "images/objects/switch/switch.sprite")
       (x 400)
       (y 2688)
     )
@@ -2595,7 +2594,6 @@
         else{botlift.goto_node(0);
         toplift.goto_node(1);
         down <- true;  }")
-      (sprite "images/objects/switch/switch.sprite")
       (x 384)
       (y 320)
     )
