@@ -15,7 +15,6 @@
       (mode "normal")
     )
     (door
-      (spawnpoint "")
       (x 320)
       (y 832)
     )
