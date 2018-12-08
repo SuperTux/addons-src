@@ -287,42 +287,34 @@
       (y 96)
     )
     (infoblock
-      (message (_ ""))
       (x 384)
       (y -256)
     )
     (infoblock
-      (message (_ ""))
       (x 384)
       (y -32)
     )
     (infoblock
-      (message (_ ""))
       (x 384)
       (y -64)
     )
     (infoblock
-      (message (_ ""))
       (x 384)
       (y -96)
     )
     (infoblock
-      (message (_ ""))
       (x 384)
       (y -128)
     )
     (infoblock
-      (message (_ ""))
       (x 384)
       (y -160)
     )
     (infoblock
-      (message (_ ""))
       (x 384)
       (y -192)
     )
     (infoblock
-      (message (_ ""))
       (x 384)
       (y -224)
     )

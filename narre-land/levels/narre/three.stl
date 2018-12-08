@@ -30,52 +30,42 @@
       (y 0)
     )
     (infoblock
-      (message (_ ""))
       (x 1056)
       (y -32)
     )
     (infoblock
-      (message (_ ""))
       (x 1056)
       (y -64)
     )
     (infoblock
-      (message (_ ""))
       (x 1056)
       (y -96)
     )
     (infoblock
-      (message (_ ""))
       (x 1056)
       (y -128)
     )
     (infoblock
-      (message (_ ""))
       (x 1056)
       (y -160)
     )
     (infoblock
-      (message (_ ""))
       (x 1056)
       (y -192)
     )
     (infoblock
-      (message (_ ""))
       (x 1056)
       (y -224)
     )
     (infoblock
-      (message (_ ""))
       (x 1056)
       (y -256)
     )
     (infoblock
-      (message (_ ""))
       (x 1056)
       (y -288)
     )
     (infoblock
-      (message (_ ""))
       (x 1056)
       (y -320)
     )

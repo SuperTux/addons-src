@@ -108,17 +108,14 @@
       (y 64)
     )
     (infoblock
-      (message (_ ""))
       (x 3264)
       (y 544)
     )
     (infoblock
-      (message (_ ""))
       (x 3200)
       (y 544)
     )
     (infoblock
-      (message (_ ""))
       (x 3232)
       (y 544)
     )

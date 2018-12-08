@@ -60894,37 +60894,30 @@ spike.fade(1,2)")
       (y 96)
     )
     (infoblock
-      (message (_ ""))
       (x 2240)
       (y -224)
     )
     (infoblock
-      (message (_ ""))
       (x 2240)
       (y -32)
     )
     (infoblock
-      (message (_ ""))
       (x 2240)
       (y -64)
     )
     (infoblock
-      (message (_ ""))
       (x 2240)
       (y -96)
     )
     (infoblock
-      (message (_ ""))
       (x 2240)
       (y -128)
     )
     (infoblock
-      (message (_ ""))
       (x 2240)
       (y -160)
     )
     (infoblock
-      (message (_ ""))
       (x 2240)
       (y -192)
     )

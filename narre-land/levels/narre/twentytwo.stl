@@ -50,42 +50,34 @@
       (path-ref "c5e0c4a0-8fc4-4a15-beb1-04d6a0ddcf1d")
     )
     (infoblock
-      (message (_ ""))
       (x 4096)
       (y -256)
     )
     (infoblock
-      (message (_ ""))
       (x 4096)
       (y -32)
     )
     (infoblock
-      (message (_ ""))
       (x 4096)
       (y -64)
     )
     (infoblock
-      (message (_ ""))
       (x 4096)
       (y -96)
     )
     (infoblock
-      (message (_ ""))
       (x 4096)
       (y -128)
     )
     (infoblock
-      (message (_ ""))
       (x 4096)
       (y -160)
     )
     (infoblock
-      (message (_ ""))
       (x 4096)
       (y -192)
     )
     (infoblock
-      (message (_ ""))
       (x 4096)
       (y -224)
     )
@@ -646,42 +638,34 @@ kokot2.goto_node(1)")
       (y 832)
     )
     (infoblock
-      (message (_ ""))
       (x -32)
       (y 704)
     )
     (infoblock
-      (message (_ ""))
       (x -32)
       (y 928)
     )
     (infoblock
-      (message (_ ""))
       (x -32)
       (y 896)
     )
     (infoblock
-      (message (_ ""))
       (x -32)
       (y 864)
     )
     (infoblock
-      (message (_ ""))
       (x -32)
       (y 832)
     )
     (infoblock
-      (message (_ ""))
       (x -32)
       (y 800)
     )
     (infoblock
-      (message (_ ""))
       (x -32)
       (y 768)
     )
     (infoblock
-      (message (_ ""))
       (x -32)
       (y 736)
     )
