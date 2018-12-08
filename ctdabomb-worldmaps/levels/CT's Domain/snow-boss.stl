@@ -15,7 +15,6 @@ Effect.fade_in(1);
       (mode "normal")
     )
     (ghosttree
-      (dead-script "")
       (x 550)
       (y 588)
     )
