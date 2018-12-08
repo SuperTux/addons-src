@@ -464,52 +464,42 @@
       (y 836)
     )
     (weak_block
-      (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3328)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3328)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3360)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3360)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3392)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3392)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3456)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3456)
       (y 480)
     )
     (weak_block
-      (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3488)
       (y 448)
     )
     (weak_block
-      (sprite "images/objects/weak_block/strawbox.sprite")
       (x 3488)
       (y 480)
     )

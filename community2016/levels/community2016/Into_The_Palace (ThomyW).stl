@@ -625,7 +625,6 @@
       )
     )
     (trampoline
-      (sprite "images/objects/trampoline/trampoline.sprite")
       (x 1446.663)
       (y 862.6664)
     )
@@ -1209,12 +1208,10 @@
       )
     )
     (trampoline
-      (sprite "images/objects/trampoline/trampoline.sprite")
       (x 2540)
       (y 180)
     )
     (trampoline
-      (sprite "images/objects/trampoline/trampoline.sprite")
       (x 3454.67)
       (y 230)
     )
