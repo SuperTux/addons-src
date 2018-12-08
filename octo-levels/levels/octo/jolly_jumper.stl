@@ -41,6 +41,7 @@
       (file "music/chipdisko.ogg")
     )
     (owl
+      (carry "skydive")
       (direction "left")
       (x 5216)
       (y 480)

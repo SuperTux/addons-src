@@ -200,22 +200,27 @@
       (file "music/bossattack.music")
     )
     (owl
+      (carry "skydive")
       (x 6478)
       (y 231)
     )
     (owl
+      (carry "skydive")
       (x 6190)
       (y 231)
     )
     (owl
+      (carry "skydive")
       (x 5902)
       (y 231)
     )
     (owl
+      (carry "skydive")
       (x 5614)
       (y 231)
     )
     (owl
+      (carry "skydive")
       (x 5326)
       (y 231)
     )

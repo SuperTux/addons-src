@@ -109,10 +109,12 @@
       (file "music/voc-daytime2.ogg")
     )
     (owl
+      (carry "skydive")
       (x 4174)
       (y 327)
     )
     (owl
+      (carry "skydive")
       (direction "right")
       (x 3374)
       (y 327)

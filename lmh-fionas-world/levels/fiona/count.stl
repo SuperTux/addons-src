@@ -195,6 +195,7 @@
       (file "music/cave.ogg")
     )
     (owl
+      (carry "skydive")
       (x 4078)
       (y 519)
     )

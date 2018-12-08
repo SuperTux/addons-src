@@ -25,18 +25,22 @@
       (file "music/worldmap_tux.ogg")
     )
     (owl
+      (carry "skydive")
       (x 1134)
       (y 423)
     )
     (owl
+      (carry "skydive")
       (x 750)
       (y 647)
     )
     (owl
+      (carry "skydive")
       (x 1966)
       (y 359)
     )
     (owl
+      (carry "skydive")
       (x 1710)
       (y 359)
     )
@@ -257,10 +261,12 @@
       (file "music/greatgigantic.music")
     )
     (owl
+      (carry "skydive")
       (x 686)
       (y 775)
     )
     (owl
+      (carry "skydive")
       (x 1326)
       (y 839)
     )
@@ -443,67 +449,83 @@
       (file "music/worldmap_tux.ogg")
     )
     (owl
+      (carry "skydive")
       (x 2222)
       (y 327)
     )
     (owl
+      (carry "skydive")
       (x 2638)
       (y 327)
     )
     (owl
+      (carry "skydive")
       (x 910)
       (y 359)
     )
     (owl
+      (carry "skydive")
       (x 1326)
       (y 359)
     )
     (owl
+      (carry "skydive")
       (x 2286)
       (y 647)
     )
     (owl
+      (carry "skydive")
       (x 2702)
       (y 647)
     )
     (owl
+      (carry "skydive")
       (x 974)
       (y 743)
     )
     (owl
+      (carry "skydive")
       (x 1390)
       (y 743)
     )
     (owl
+      (carry "skydive")
       (x 1646)
       (y 263)
     )
     (owl
+      (carry "skydive")
       (x 2062)
       (y 263)
     )
     (owl
+      (carry "skydive")
       (x 462)
       (y 295)
     )
     (owl
+      (carry "skydive")
       (direction "left")
       (x 270)
       (y 295)
     )
     (owl
+      (carry "skydive")
       (x 1710)
       (y 647)
     )
     (owl
+      (carry "skydive")
       (x 2126)
       (y 647)
     )
     (owl
+      (carry "skydive")
       (x 398)
       (y 679)
     )
     (owl
+      (carry "skydive")
       (x 814)
       (y 679)
     )
