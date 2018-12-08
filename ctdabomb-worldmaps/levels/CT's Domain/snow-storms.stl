@@ -5,7 +5,10 @@
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
-    (ambient_sound
+    (ambient-light
+      (color 0.2177462 0.2177462 0.2177462)
+    )
+    (ambient-sound
       (sample "sounds/thunder.wav")
       (distance_factor 0)
       (distance_bias 0)
@@ -16,7 +19,7 @@
       (x 576)
       (y 672)
     )
-    (ambient_sound
+    (ambient-sound
       (sample "sounds/rain.wav")
       (distance_factor 0)
       (distance_bias 0)
@@ -26,9 +29,6 @@
       (name "bj")
       (x 480)
       (y 672)
-    )
-    (ambient-light
-      (color 0.2177462 0.2177462 0.2177462)
     )
     (background
       (speed 0.5)

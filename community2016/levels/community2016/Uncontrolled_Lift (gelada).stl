@@ -5,7 +5,10 @@
   (license "CC-BY-SA 4.0 Intl")
   (sector
     (name "main")
-    (ambient_sound
+    (ambient-light
+      (color 1 1 1)
+    )
+    (ambient-sound
       (sample "sounds/waterfall.wav")
       (distance_factor 0.1)
       (distance_bias 200)
@@ -15,9 +18,6 @@
       (name "agua caindo")
       (x 2304)
       (y 0)
-    )
-    (ambient-light
-      (color 1 1 1)
     )
     (background
       (alignment "bottom")
@@ -504,7 +504,10 @@ Wait!"))
   )
   (sector
     (name "casa gelada")
-    (ambient_sound
+    (ambient-light
+      (color 0.02949569 0.02444495 0.06675822)
+    )
+    (ambient-sound
       (sample "levels/gelada/sounds/discuçao.wav")
       (distance_factor 0.1)
       (distance_bias 200)
@@ -515,7 +518,7 @@ Wait!"))
       (x 0)
       (y 1184)
     )
-    (ambient_sound
+    (ambient-sound
       (sample "speech/tux_rap.ogg")
       (distance_factor 0.1)
       (distance_bias 200)
@@ -525,9 +528,6 @@ Wait!"))
       (name "discoteca")
       (x 0)
       (y 2304)
-    )
-    (ambient-light
-      (color 0.02949569 0.02444495 0.06675822)
     )
     (camera
       (mode "normal")
