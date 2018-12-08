@@ -141,7 +141,6 @@
       (y 448)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "COIN")
@@ -150,7 +149,6 @@
       (y 288)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "KILL")
@@ -159,7 +157,6 @@
       (y 288)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "TIME")
@@ -168,7 +165,6 @@
       (y 288)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin1")
@@ -177,7 +173,6 @@
       (y 688)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin2")
@@ -186,7 +181,6 @@
       (y 656)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin3")
@@ -195,7 +189,6 @@
       (y 624)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin4")
@@ -204,7 +197,6 @@
       (y 592)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin5")
@@ -213,7 +205,6 @@
       (y 560)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin6")
@@ -222,7 +213,6 @@
       (y 528)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin7")
@@ -231,7 +221,6 @@
       (y 496)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin8")
@@ -240,7 +229,6 @@
       (y 464)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin9")
@@ -249,7 +237,6 @@
       (y 432)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin10")
@@ -258,7 +245,6 @@
       (y 400)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin11")
@@ -267,7 +253,6 @@
       (y 368)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "coin12")
@@ -276,7 +261,6 @@
       (y 336)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill1")
@@ -285,7 +269,6 @@
       (y 688)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill2")
@@ -294,7 +277,6 @@
       (y 656)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill3")
@@ -303,7 +285,6 @@
       (y 624)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill4")
@@ -312,7 +293,6 @@
       (y 592)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill5")
@@ -321,7 +301,6 @@
       (y 560)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill6")
@@ -330,7 +309,6 @@
       (y 528)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill7")
@@ -339,7 +317,6 @@
       (y 496)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill8")
@@ -348,7 +325,6 @@
       (y 464)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill9")
@@ -357,7 +333,6 @@
       (y 432)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill10")
@@ -366,7 +341,6 @@
       (y 400)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill11")
@@ -375,7 +349,6 @@
       (y 368)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "kill12")
@@ -384,7 +357,6 @@
       (y 336)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time1")
@@ -393,7 +365,6 @@
       (y 688)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time2")
@@ -402,7 +373,6 @@
       (y 656)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time3")
@@ -411,7 +381,6 @@
       (y 624)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time4")
@@ -420,7 +389,6 @@
       (y 592)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time5")
@@ -429,7 +397,6 @@
       (y 560)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time6")
@@ -438,7 +405,6 @@
       (y 528)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time7")
@@ -447,7 +413,6 @@
       (y 496)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time8")
@@ -456,7 +421,6 @@
       (y 464)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time9")
@@ -465,7 +429,6 @@
       (y 432)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time10")
@@ -474,7 +437,6 @@
       (y 400)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time11")
@@ -483,7 +445,6 @@
       (y 368)
     )
     (scriptedobject
-      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
       (name "time12")
@@ -492,7 +453,6 @@
       (y 336)
     )
     (scriptedobject
-      (z-pos 50)
       (visible #f)
       (physic-enabled #f)
       (solid #f)
@@ -502,7 +462,6 @@
       (y 576)
     )
     (scriptedobject
-      (z-pos 50)
       (visible #f)
       (physic-enabled #f)
       (solid #f)
@@ -512,7 +471,6 @@
       (y 563)
     )
     (scriptedobject
-      (z-pos 50)
       (visible #f)
       (physic-enabled #f)
       (solid #f)
@@ -522,7 +480,6 @@
       (y 576)
     )
     (scriptedobject
-      (z-pos 50)
       (visible #f)
       (physic-enabled #f)
       (solid #f)
