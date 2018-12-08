@@ -23,6 +23,10 @@
       (x 5166)
       (y 77)
     )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
     (flame
       (x 2447)
       (y 21)

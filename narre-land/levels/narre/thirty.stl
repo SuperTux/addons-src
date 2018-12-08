@@ -14,6 +14,10 @@
       (image "images/background/BlueRock_Forest/rolling-middle.jpg")
       (image-bottom "images/background/BlueRock_Forest/rolling-bottom.jpg")
     )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
     (hurting_platform
       (name "hdt")
       (path-ref "086e5e2e-d0d3-48e4-8d47-eef6c633442f")
