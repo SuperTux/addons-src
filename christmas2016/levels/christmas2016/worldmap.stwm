@@ -10,7 +10,6 @@
     )
     (decal
       (z-pos 200)
-      (action "")
       (sprite "/images/background/halloween/vignette.png")
       (x 0)
       (y 0)
