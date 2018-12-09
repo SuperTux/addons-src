@@ -5084,7 +5084,6 @@ lava1.start_moving()")
     )
     (camera
       (mode "normal")
-      (path-ref "035558d7-34a9-41b4-a1c6-15ab12df9086")
     )
     (gradient
       (top_color 0.01568628 0.09411765 0.1098039)

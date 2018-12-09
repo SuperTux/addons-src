@@ -735,7 +735,6 @@
     )
     (camera
       (mode "normal")
-      (path-ref "407ae793-296d-4b05-b449-85bb6c3321e3")
     )
     (ghosttree
       (dead-script "sector.Tux.trigger_sequence(\"fireworks\");")

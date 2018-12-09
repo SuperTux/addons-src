@@ -561,7 +561,6 @@ sector.Tux.add_bonus(\"fireflower\") ")
     )
     (camera
       (mode "normal")
-      (path-ref "15df93a5-0d2c-47c7-9a74-fc3192cfabee")
     )
     (dispenser
       (cycle 4)
