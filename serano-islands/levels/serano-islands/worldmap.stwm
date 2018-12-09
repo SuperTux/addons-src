@@ -9,31 +9,26 @@
     )
     (level
       (name "doom.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 14)
       (y 16)
     )
     (level
       (name "horizont.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 18)
       (y 13)
     )
     (level
       (name "schnee1.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 23)
       (y 12)
     )
     (level
       (name "bitte.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 22)
       (y 18)
     )
     (level
       (name "schnee2.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 28)
       (y 15)
     )

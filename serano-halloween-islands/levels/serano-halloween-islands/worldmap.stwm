@@ -81,31 +81,26 @@
     )
     (level
       (name "hallo5.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 13)
       (y 16)
     )
     (level
       (name "hallo3.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 29)
       (y 17)
     )
     (level
       (name "hallo2.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 36)
       (y 17)
     )
     (level
       (name "hallo4.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 20)
       (y 15)
     )
     (level
       (name "hallo1.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 41)
       (y 13)
     )

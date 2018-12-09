@@ -189,7 +189,6 @@ if(!get_mattmap()){ exit_screen();
       (worldmap "levels/mattie_world/doom_islands/worldmap.stwm")
       (spawnpoint "main")
       (message (_ "Preview of DOOM Islands"))
-      (sprite "images/worldmap/common/teleporterdot.sprite")
       (x 6)
       (y 21)
     )

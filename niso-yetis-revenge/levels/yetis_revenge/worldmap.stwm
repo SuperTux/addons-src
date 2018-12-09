@@ -181,7 +181,6 @@
     )
     (level
       (name "intro.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 4)
       (y 5)
     )

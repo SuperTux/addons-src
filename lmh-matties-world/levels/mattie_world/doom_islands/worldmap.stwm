@@ -302,7 +302,6 @@
       (worldmap "levels/mattie_world/worldmap.stwm")
       (spawnpoint "main")
       (message (_ "Go Home"))
-      (sprite "images/worldmap/common/teleporterdot.sprite")
       (x 33)
       (y 0)
     )

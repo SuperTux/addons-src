@@ -105,7 +105,6 @@ if(!state.easy){
       (worldmap "levels/mattie_world/easyworldmap.stwm")
       (spawnpoint "main")
       (message (_ "Go home"))
-      (sprite "images/worldmap/common/teleporterdot.sprite")
       (x 6)
       (y 21)
     )

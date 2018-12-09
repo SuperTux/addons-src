@@ -125,14 +125,12 @@ display_text_file(\"levels/tsb/extro-tsb.txt\");
     (teleporter
       (spawnpoint "x28y13")
       (message (_ "I wonder where I will go next..."))
-      (sprite "images/worldmap/common/teleporterdot.sprite")
       (x 13)
       (y 36)
     )
     (teleporter
       (spawnpoint "x28y13")
       (message (_ "I hope this thing still works..."))
-      (sprite "images/worldmap/common/teleporterdot.sprite")
       (x 13)
       (y 33)
     )

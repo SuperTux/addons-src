@@ -27,21 +27,18 @@
     (level
       (color 1 1 1)
       (name "christmas1.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 14)
       (y 11)
     )
     (level
       (color 1 1 1)
       (name "christmas2.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 18)
       (y 14)
     )
     (level
       (color 1 1 1)
       (name "christmas3.stl")
-      (sprite "images/worldmap/common/leveldot.sprite")
       (x 23)
       (y 12)
     )
