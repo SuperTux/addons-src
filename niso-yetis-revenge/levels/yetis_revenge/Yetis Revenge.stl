@@ -1091,6 +1091,7 @@ wait(7);
     (scriptedobject
       (physic-enabled #f)
       (solid #f)
+      (sprite "images/objects/bonus_block/brick.sprite")
       (x -160)
       (y 736)
     )
