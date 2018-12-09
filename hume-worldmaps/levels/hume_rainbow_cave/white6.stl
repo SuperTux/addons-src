@@ -11,9 +11,6 @@ finish_level_group(\"white\",\"w6\")")
     (ambient-light
       (color 0.5019608 0.5019608 0.5019608)
     )
-    (background
-      (speed 0.5)
-    )
     (camera
       (mode "normal")
     )
