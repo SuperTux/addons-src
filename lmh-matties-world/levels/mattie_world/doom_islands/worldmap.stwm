@@ -188,7 +188,6 @@
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (stay-group "world2-boat")
       (sprite "images/worldmap/common/boat/boat.sprite")
@@ -204,7 +203,6 @@
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (stay-group "world2-boat")
       (sprite "images/worldmap/common/boat/boat.sprite")
@@ -220,7 +218,6 @@
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (stay-group "world2-boat")
       (sprite "images/worldmap/common/boat/boat.sprite")
@@ -236,7 +233,6 @@
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (stay-group "world2-boat")
       (sprite "images/worldmap/common/boat/boat.sprite")
@@ -252,7 +248,6 @@
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (stay-group "world2-boat")
       (sprite "images/worldmap/common/boat/boat.sprite")
@@ -268,7 +263,6 @@
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (stay-group "world2-boat")
       (sprite "images/worldmap/common/boat/boat.sprite")
@@ -284,7 +278,6 @@
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (stay-group "world2-boat")
       (sprite "images/worldmap/common/boat/boat.sprite")

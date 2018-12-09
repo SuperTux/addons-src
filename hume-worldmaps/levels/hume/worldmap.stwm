@@ -298,7 +298,6 @@ display_text_file(\"levels/hume/extro3.txt\");
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (sprite "images/worldmap/common/boat/boat.sprite")
       (x 9)
@@ -313,7 +312,6 @@ display_text_file(\"levels/hume/extro3.txt\");
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (sprite "images/worldmap/common/boat/boat.sprite")
       (x 14)
@@ -321,7 +319,6 @@ display_text_file(\"levels/hume/extro3.txt\");
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (sprite "images/worldmap/common/boat/boat.sprite")
       (x 11)
@@ -329,7 +326,6 @@ display_text_file(\"levels/hume/extro3.txt\");
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (sprite "images/worldmap/common/boat/boat.sprite")
       (x 3)
@@ -337,7 +333,6 @@ display_text_file(\"levels/hume/extro3.txt\");
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (sprite "images/worldmap/common/boat/boat.sprite")
       (x 9)
@@ -345,7 +340,6 @@ display_text_file(\"levels/hume/extro3.txt\");
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (sprite "images/worldmap/common/boat/boat.sprite")
       (x 9)
@@ -353,7 +347,6 @@ display_text_file(\"levels/hume/extro3.txt\");
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (sprite "images/worldmap/common/boat/boat.sprite")
       (x 3)
@@ -361,7 +354,6 @@ display_text_file(\"levels/hume/extro3.txt\");
     )
     (sprite-change
       (change-on-touch #t)
-      (stay-action "")
       (initial-stay-action #f)
       (sprite "images/worldmap/common/boat/boat.sprite")
       (x 7)
