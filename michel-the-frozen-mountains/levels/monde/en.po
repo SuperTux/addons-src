@@ -12,7 +12,7 @@ msgstr ""
 "X-Poedit-Language: English\n"
 "X-Poedit-Country: England\n"
 
-﻿#: levels/monde/info
+#: levels/monde/info
 msgid "The Frozen Mountains"
 msgstr "The Frozen Mountains"
 
