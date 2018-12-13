@@ -66,6 +66,7 @@ wait(0.6);
       (y 3744)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable

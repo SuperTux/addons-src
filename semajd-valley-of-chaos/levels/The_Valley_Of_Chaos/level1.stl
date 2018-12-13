@@ -16,6 +16,7 @@
       (z-pos -400)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball
@@ -518,6 +519,7 @@ wall.goto_node(120)")
       (image "images/background/nightsky_top.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

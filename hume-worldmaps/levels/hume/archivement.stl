@@ -18,6 +18,7 @@ archivinit();
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -776,6 +777,7 @@ tV
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -932,6 +934,7 @@ tV
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

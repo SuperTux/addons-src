@@ -9,6 +9,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -114,6 +115,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -600,6 +602,7 @@ Level.spawn(\"side12\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -1086,6 +1089,7 @@ Level.spawn(\"side08\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -1572,6 +1576,7 @@ Level.spawn(\"side08\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -2058,6 +2063,7 @@ Level.spawn(\"side14\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -2544,6 +2550,7 @@ Level.spawn(\"side15\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -3030,6 +3037,7 @@ Level.spawn(\"side16\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -3516,6 +3524,7 @@ Level.spawn(\"side20\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -4002,6 +4011,7 @@ Level.spawn(\"side21\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -4488,6 +4498,7 @@ Level.spawn(\"side19\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -4974,6 +4985,7 @@ Level.spawn(\"side23\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -5460,6 +5472,7 @@ Level.spawn(\"side19\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -5946,6 +5959,7 @@ Level.spawn(\"side21\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -6432,6 +6446,7 @@ Level.spawn(\"side20\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -6918,6 +6933,7 @@ Level.spawn(\"side04\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -7404,6 +7420,7 @@ Level.spawn(\"side23\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -7890,6 +7907,7 @@ Level.spawn(\"side20\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -8376,6 +8394,7 @@ Level.spawn(\"side20\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -8862,6 +8881,7 @@ Level.spawn(\"side19\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -9348,6 +9368,7 @@ Level.spawn(\"side11\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -9834,6 +9855,7 @@ Level.spawn(\"side07\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -10320,6 +10342,7 @@ Level.spawn(\"side12\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -10806,6 +10829,7 @@ Level.spawn(\"side14\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -11291,6 +11315,7 @@ Level.spawn(\"side10\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -11603,6 +11628,7 @@ Level.spawn(\"side10\",\"main\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

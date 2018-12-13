@@ -27,6 +27,7 @@ plateforme6.start_moving();")
       (z-pos -180)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (mrbomb

@@ -43,6 +43,7 @@ block.set_alpha(0);
       (y 544)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -666,6 +667,7 @@ block.set_alpha(0);")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

@@ -28,6 +28,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable
@@ -1198,6 +1199,7 @@
       (image-bottom "images/background/fog.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

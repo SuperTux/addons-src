@@ -9,6 +9,7 @@
       (color 0.5403219 0.5403219 0.5403219)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable

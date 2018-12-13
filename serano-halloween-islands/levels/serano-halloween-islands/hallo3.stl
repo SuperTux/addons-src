@@ -51,6 +51,7 @@
       (y 839)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -503,6 +504,7 @@
       (color 0.5960785 0.5647059 0.5647059)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (decal
@@ -666,6 +668,7 @@
       (color 0.5254902 0.5176471 0.5176471)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (decal

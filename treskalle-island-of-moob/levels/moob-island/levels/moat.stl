@@ -9,6 +9,7 @@
       (color 0.4112917 0.4112917 0.4112917)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly

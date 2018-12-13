@@ -23,6 +23,7 @@ Platform1.start_moving();")
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly

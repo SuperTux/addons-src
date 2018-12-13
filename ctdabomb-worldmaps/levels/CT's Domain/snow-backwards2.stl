@@ -27,6 +27,7 @@
       (y 224)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball
@@ -642,6 +643,7 @@
       (color 0.225803 0.225803 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

@@ -15,6 +15,7 @@
       (image-bottom "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -204,6 +205,7 @@
       (image-bottom "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -406,6 +408,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -574,6 +577,7 @@
       (image-bottom "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -1010,6 +1014,7 @@ Text.set_text(\"Floor -127\")
       (image-bottom "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -1665,6 +1670,7 @@ Text.set_text(\"Floor -127\")
       (image-bottom "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -2019,6 +2025,7 @@ Text.set_text(\"Floor -89\")
       (image-bottom "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

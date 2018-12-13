@@ -43,6 +43,7 @@
       (y 1440)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball
@@ -956,6 +957,7 @@
       (z-pos 200)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

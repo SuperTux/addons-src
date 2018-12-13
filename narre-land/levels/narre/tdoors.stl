@@ -14,6 +14,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -402,6 +403,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -608,6 +610,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser
@@ -1203,6 +1206,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1792,6 +1796,7 @@ sector.Tux.add_bonus(\"iceflower\")")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -2108,6 +2113,7 @@ sector.Tux.add_bonus(\"iceflower\")")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -2440,6 +2446,7 @@ sector.Tux.add_bonus(\"iceflower\")")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -2658,6 +2665,7 @@ sector.Tux.add_bonus(\"iceflower\")")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

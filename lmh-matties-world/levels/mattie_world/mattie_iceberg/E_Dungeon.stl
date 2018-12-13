@@ -26,6 +26,7 @@ lift8.start_moving();")
       (z-pos 250)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (icecrusher
@@ -992,6 +993,7 @@ Level.spawn(\"pipe\", \"main\");")
       (color 0.1960784 0.1960784 0.1960784)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

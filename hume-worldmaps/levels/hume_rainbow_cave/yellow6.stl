@@ -12,6 +12,7 @@ finish_level_group(\"yellow\",\"y6\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (darttrap

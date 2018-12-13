@@ -9,6 +9,7 @@
       (color 0.345098 0.345098 0.345098)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -465,6 +466,7 @@
       (color 0.345098 0.345098 0.345098)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable
@@ -1056,6 +1058,7 @@ lava.start_moving();")
       (image-bottom "images/background/arctis_dark.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable

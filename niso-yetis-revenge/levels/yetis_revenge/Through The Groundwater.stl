@@ -30,6 +30,7 @@
       (y 448)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo
@@ -730,6 +731,7 @@ this.enterbonus <- true;
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -1135,6 +1137,7 @@ Level.spawn (\"main\", \"bonusout\");")
       (y 576)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo

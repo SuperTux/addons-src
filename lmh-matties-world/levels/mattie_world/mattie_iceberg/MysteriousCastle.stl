@@ -14,6 +14,7 @@
       (image "images/background/arctis_dark.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (mrbomb
@@ -423,6 +424,7 @@ gallery.fade(0,3);")
       (y 480)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly

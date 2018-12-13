@@ -22,6 +22,7 @@
       (z-pos -180)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -424,6 +425,7 @@ retour.set_alpha(1.0);")
       (z-pos -180)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

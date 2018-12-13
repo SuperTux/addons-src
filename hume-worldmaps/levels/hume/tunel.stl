@@ -9,6 +9,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -257,6 +258,7 @@
       (z-pos -195)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -513,6 +515,7 @@
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

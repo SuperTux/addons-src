@@ -33,6 +33,7 @@
       (y 320)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -259,6 +260,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (flyingsnowball
@@ -483,6 +485,7 @@
       (color 0.5564507 0.5564507 0.5564507)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -852,6 +855,7 @@
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

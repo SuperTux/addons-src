@@ -9,6 +9,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -251,6 +252,7 @@
       (image "images/background/black_800px.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -443,6 +445,7 @@
       (image "images/background/black_800px.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

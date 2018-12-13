@@ -34,6 +34,7 @@
       (y 1312)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (flyingsnowball

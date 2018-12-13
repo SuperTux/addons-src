@@ -37,6 +37,7 @@
       (y 512)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (flyingsnowball
@@ -1182,6 +1183,7 @@
       (color 0 0 0)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

@@ -33,6 +33,7 @@
       (y 2144)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo
@@ -1357,6 +1358,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

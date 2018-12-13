@@ -50,6 +50,7 @@
       (y 1056)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

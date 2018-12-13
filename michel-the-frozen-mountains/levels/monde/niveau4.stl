@@ -54,6 +54,7 @@
       (y 1760)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo
@@ -1498,6 +1499,7 @@ porte1.goto_node(0);
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

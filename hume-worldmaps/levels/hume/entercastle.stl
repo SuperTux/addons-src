@@ -38,6 +38,7 @@ Text.fade_out(0.2);")
       (y 1792)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -753,6 +754,7 @@ Text.fade_out(0.2);")
       (y 800)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1076,6 +1078,7 @@ Text.fade_out(0.2);")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1241,6 +1244,7 @@ Text.fade_out(0.2);")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

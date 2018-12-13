@@ -10,6 +10,7 @@
       (color 0.5019608 0 0.5019608)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -182,6 +183,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (infoblock
@@ -362,6 +364,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (infoblock
@@ -1477,6 +1480,7 @@ Effect.fade_in(0)")
       (image-bottom "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -2038,6 +2042,7 @@ Effect.fade_in(0)")
       (image-bottom "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

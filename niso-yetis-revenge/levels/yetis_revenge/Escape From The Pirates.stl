@@ -21,6 +21,7 @@
       (z-pos 301)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball

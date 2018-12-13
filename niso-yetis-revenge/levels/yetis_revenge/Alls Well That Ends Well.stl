@@ -18,6 +18,7 @@
       (y 608)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -5083,6 +5084,7 @@ lava1.start_moving()")
       (image-bottom "images/background/black_800px.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -5465,6 +5467,7 @@ spikes1.start_moving();")
       (image-bottom "images/background/black_800px.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser
@@ -6362,6 +6365,7 @@ sp3.start_moving();")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -7434,6 +7438,7 @@ Level_spawn(\"Spooky\",\"main\");")
       (z-pos 500)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable

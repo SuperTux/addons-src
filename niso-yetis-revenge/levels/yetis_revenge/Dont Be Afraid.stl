@@ -21,6 +21,7 @@
       (z-pos 500)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -578,6 +579,7 @@ door.set_alpha(1);")
       (z-pos 500)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable

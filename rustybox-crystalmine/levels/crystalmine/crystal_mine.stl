@@ -10,6 +10,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -461,6 +462,7 @@ Moving4.start_moving();")
       (y 2016)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo
@@ -2360,6 +2362,7 @@ ExitLift.goto_node(0);")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

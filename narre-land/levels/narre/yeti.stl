@@ -15,6 +15,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -300,6 +301,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -479,6 +481,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -624,6 +627,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly

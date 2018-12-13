@@ -39,6 +39,7 @@ tooslow2.goto_node(3);
       (y 512)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly

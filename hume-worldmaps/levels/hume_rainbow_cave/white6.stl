@@ -12,6 +12,7 @@ finish_level_group(\"white\",\"w6\")")
       (color 0.5019608 0.5019608 0.5019608)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser

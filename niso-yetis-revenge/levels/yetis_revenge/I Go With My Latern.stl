@@ -17,6 +17,7 @@
       (image-bottom "images/background/nightsky_middle.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly

@@ -13,6 +13,7 @@
       (image "images/background/black_800px.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly

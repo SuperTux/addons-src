@@ -47,6 +47,7 @@
       (y 160)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball
@@ -530,6 +531,7 @@ Wait!"))
       (y 2304)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

@@ -24,6 +24,7 @@
       (y 775)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

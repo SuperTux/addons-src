@@ -14,6 +14,7 @@
       (image-bottom "images/background/arcticskies1.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly

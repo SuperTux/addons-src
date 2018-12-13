@@ -21,6 +21,7 @@
       (z-pos -160)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1237,6 +1238,7 @@ porte.stop_moving();")
       (y 512)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

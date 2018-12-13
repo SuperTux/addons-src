@@ -34,6 +34,7 @@ bonus1.set_alpha(0);
       (y 800)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball

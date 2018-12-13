@@ -15,6 +15,7 @@
       (y 160)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -922,6 +923,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -1108,6 +1110,7 @@
       (y 704)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -1673,6 +1676,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -1777,6 +1781,7 @@
       (y 384)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (fish

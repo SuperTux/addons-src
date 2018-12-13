@@ -9,6 +9,7 @@
       (color 0.4758068 0.4758068 0.4758068)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (fish

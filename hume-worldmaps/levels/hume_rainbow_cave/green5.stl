@@ -10,6 +10,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -556,6 +557,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -689,6 +691,7 @@ warp_to(\"main\",\"c\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1830,6 +1833,7 @@ warp_to(\"main\",\"c\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

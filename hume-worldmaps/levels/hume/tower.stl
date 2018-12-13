@@ -17,6 +17,7 @@ unlock_archivement(\"a\")")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -283,6 +284,7 @@ unlock_archivement(\"a\")")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1362,6 +1364,7 @@ unlock_archivement(\"a\")")
       (image-bottom "images/background/BlueRock_Forest/blue-top.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (darttrap

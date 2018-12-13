@@ -16,6 +16,7 @@
       (z-pos -1000)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -770,6 +771,7 @@
       (image-bottom "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

@@ -13,6 +13,7 @@
       (image "images/background/bluemountain-bottom.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (mrbomb

@@ -36,6 +36,7 @@
       (z-pos 202)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (igel

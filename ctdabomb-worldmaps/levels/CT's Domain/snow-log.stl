@@ -33,6 +33,7 @@
       (y 448)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball
@@ -496,6 +497,7 @@
       (y 96)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (invisible_wall

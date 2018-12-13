@@ -19,6 +19,7 @@
       (y 1472)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (fish

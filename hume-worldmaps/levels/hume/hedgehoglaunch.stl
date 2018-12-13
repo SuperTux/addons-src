@@ -15,6 +15,7 @@
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -430,6 +431,7 @@
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -734,6 +736,7 @@
       (image "images/background/nightsky_top.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (ghosttree

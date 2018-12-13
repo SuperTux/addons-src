@@ -9,6 +9,7 @@
       (color 0.7400015 0.7400015 0.7400015)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable
@@ -1279,6 +1280,7 @@ Tux.activate();")
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (infoblock
@@ -1687,6 +1689,7 @@ Tux.activate();")
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable

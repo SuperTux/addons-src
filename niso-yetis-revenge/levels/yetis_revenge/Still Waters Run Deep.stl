@@ -20,6 +20,7 @@
       (z-pos 600)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

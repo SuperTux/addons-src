@@ -16,6 +16,7 @@
       (z-pos -250)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -279,6 +280,7 @@
       (y 928)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball
@@ -840,6 +842,7 @@
       (z-pos 250)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1876,6 +1879,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -2233,6 +2237,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

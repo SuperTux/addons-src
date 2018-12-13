@@ -14,6 +14,7 @@
       (image "images/background/arctis_top.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -727,6 +728,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -895,6 +897,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1122,6 +1125,7 @@
       (image "images/background/black_800px.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1384,6 +1388,7 @@
       (image "images/background/black_800px.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1656,6 +1661,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1833,6 +1839,7 @@
       (image-bottom "images/background/black_800px.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (infoblock
@@ -1977,6 +1984,7 @@ sector.Tux.trigger_sequence(\"fireworks\");")
       (image "images/background/black_800px.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -2279,6 +2287,7 @@ sector.Tux.trigger_sequence(\"fireworks\");")
       (image "images/background/black_800px.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

@@ -9,6 +9,7 @@
       (color 0.503624 0.5212939 0.9819486)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

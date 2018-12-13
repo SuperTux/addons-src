@@ -23,6 +23,7 @@
       (y 192)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo

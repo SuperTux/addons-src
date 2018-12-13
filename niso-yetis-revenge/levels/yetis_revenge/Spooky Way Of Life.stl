@@ -23,6 +23,7 @@
       (z-pos 500)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -604,6 +605,7 @@
       (z-pos 500)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable
@@ -3752,6 +3754,7 @@ exitblock.set_alpha(0);")
       (z-pos 500)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable
@@ -4073,6 +4076,7 @@ play_sound(\"sounds/lifeup.wav\");
       (z-pos 500)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

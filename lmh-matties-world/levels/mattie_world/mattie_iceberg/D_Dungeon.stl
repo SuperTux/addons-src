@@ -52,6 +52,7 @@ open <- false;")
       (y 416)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

@@ -33,6 +33,7 @@ Melt7.goto_node(1);")
       (y 416)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball

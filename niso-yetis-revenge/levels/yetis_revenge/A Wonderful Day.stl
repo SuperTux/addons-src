@@ -23,6 +23,7 @@
       (y 832)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball
@@ -950,6 +951,7 @@ if8.goto_node(0)")
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

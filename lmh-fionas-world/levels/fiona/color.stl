@@ -64,6 +64,7 @@ settings.set_ambient_light(0.5,0.1,0.5);")
       (y 192)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

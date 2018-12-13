@@ -16,6 +16,7 @@ background.fade(0.8,3);")
       (y 896)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (decal

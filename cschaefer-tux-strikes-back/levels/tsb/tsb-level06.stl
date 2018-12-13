@@ -21,6 +21,7 @@
       (z-pos -175)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (fish

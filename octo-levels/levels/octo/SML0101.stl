@@ -33,6 +33,7 @@ Platform2.start_moving();")
       (y 512)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -310,6 +311,7 @@ Platform2.start_moving();")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -423,6 +425,7 @@ Effect.fade_in(0.5);")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

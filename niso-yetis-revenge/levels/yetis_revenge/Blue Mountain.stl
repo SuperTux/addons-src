@@ -10,6 +10,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable
@@ -421,6 +422,7 @@
       (color 0 0 0)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (fish
@@ -838,6 +840,7 @@ Spikes.set_alpha(1);
       (y 448)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -1205,6 +1208,7 @@ play_sound(\"sounds/lifeup.wav\");
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -1519,6 +1523,7 @@ play_sound(\"sounds/lifeup.wav\");
       (color 0 0 0)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (fish
@@ -1898,6 +1903,7 @@ play_sound(\"sounds/lifeup.wav\");
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (jumpy

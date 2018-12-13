@@ -14,6 +14,7 @@
       (image "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -394,6 +395,7 @@ Elevator2Flag <- true;")
       (image "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -510,6 +512,7 @@ Elevator2Flag <- true;")
       (image "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

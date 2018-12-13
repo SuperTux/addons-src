@@ -11,6 +11,7 @@ unlock_archivement(\"m\")")
       (color 0.2509804 0.5019608 0.5019608)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -1604,6 +1605,7 @@ Level.spawn(\"secret\",\"main\");}")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

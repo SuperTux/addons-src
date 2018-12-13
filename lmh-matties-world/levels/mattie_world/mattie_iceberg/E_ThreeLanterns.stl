@@ -17,6 +17,7 @@
       (y 32)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (decal
@@ -632,6 +633,7 @@ uppipe2.start();")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

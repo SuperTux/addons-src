@@ -27,6 +27,7 @@
       (y 1152)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly

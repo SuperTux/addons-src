@@ -10,6 +10,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (coin
@@ -654,6 +655,7 @@ out.stop();")
       (color 0.05098039 0.05098039 0.05098039)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

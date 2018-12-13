@@ -9,6 +9,7 @@
       (color 0.3467765 0.3467765 0.3467765)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

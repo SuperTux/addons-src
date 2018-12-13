@@ -10,6 +10,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -1104,6 +1105,7 @@ secret_area(\"sa27\")")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

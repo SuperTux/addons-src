@@ -15,6 +15,7 @@
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (infoblock
@@ -188,6 +189,7 @@
       (image-bottom "images/background/bluemountain-bottom.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo
@@ -413,6 +415,7 @@
       (image-bottom "images/background/semi_arctic.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo
@@ -629,6 +632,7 @@
       (image-bottom "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo

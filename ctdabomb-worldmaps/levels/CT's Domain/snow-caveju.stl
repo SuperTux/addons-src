@@ -57,6 +57,7 @@
       (y 0)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball
@@ -498,6 +499,7 @@
       (image "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

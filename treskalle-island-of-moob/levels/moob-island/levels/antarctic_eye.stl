@@ -15,6 +15,7 @@
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser
@@ -553,6 +554,7 @@
       (image "images/background/snowcastle.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

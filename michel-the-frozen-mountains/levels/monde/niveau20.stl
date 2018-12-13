@@ -27,6 +27,7 @@
       (z-pos -196)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball

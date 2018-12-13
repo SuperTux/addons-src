@@ -21,6 +21,7 @@
       (z-pos -180)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -657,6 +658,7 @@ or2.start_moving();")
       (z-pos -180)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

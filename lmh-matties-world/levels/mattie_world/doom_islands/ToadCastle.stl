@@ -15,6 +15,7 @@
       (image "images/background/arctis_dark.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -450,6 +451,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser
@@ -2343,6 +2345,7 @@
       (image-bottom "images/background/bluemountain-bottom.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -3274,6 +3277,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser

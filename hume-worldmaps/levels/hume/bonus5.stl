@@ -24,6 +24,7 @@ unlock_archivement(\"ag\")")
       (z-pos -195)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle

@@ -16,6 +16,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable
@@ -418,6 +419,7 @@ Effect.fade_in(0.5);")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

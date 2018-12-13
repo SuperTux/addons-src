@@ -5856,6 +5856,7 @@ wait(2)
       (image-bottom "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (infoblock
@@ -60887,6 +60888,7 @@ spike.fade(1,2)")
       (image-bottom "images/background/cave2.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -61138,6 +61140,7 @@ spike.fade(1,1)")
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly

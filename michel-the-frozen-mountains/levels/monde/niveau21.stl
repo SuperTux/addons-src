@@ -33,6 +33,7 @@
       (y 672)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -464,6 +465,7 @@
       (y 224)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball

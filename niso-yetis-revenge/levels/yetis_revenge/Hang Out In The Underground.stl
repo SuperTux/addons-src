@@ -34,6 +34,7 @@ block.set_alpha(0);
       (y 124)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (climbable

@@ -27,6 +27,7 @@ unlock_archivement(\"j\")
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

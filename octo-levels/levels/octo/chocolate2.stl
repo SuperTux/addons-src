@@ -16,6 +16,7 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (flyingsnowball
@@ -513,6 +514,7 @@ Effect.fade_in(0.5);")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser
@@ -730,6 +732,7 @@ Effect.fade_in(0.5);")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (mrbomb
@@ -927,6 +930,7 @@ Effect.fade_in(0.5);")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -1084,6 +1088,7 @@ Effect.fade_in(0.5);")
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

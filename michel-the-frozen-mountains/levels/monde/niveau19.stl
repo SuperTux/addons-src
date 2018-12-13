@@ -22,6 +22,7 @@
       (z-pos -196)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo
@@ -1884,6 +1885,7 @@
       (z-pos -196)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (crystallo

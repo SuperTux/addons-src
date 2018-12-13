@@ -13,6 +13,7 @@ Effect.fade_in(1);
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser
@@ -276,6 +277,7 @@ Effect.fade_in(1);
       (z-pos 300)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

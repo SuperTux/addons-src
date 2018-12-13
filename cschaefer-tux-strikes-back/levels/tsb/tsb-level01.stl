@@ -13,6 +13,7 @@
       (image "images/background/arctis2.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (jumpy

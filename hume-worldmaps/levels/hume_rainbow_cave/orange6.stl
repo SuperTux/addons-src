@@ -15,6 +15,7 @@ finish_level_group(\"orange\",\"o6\")")
       (color 1 0.6666667 0)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

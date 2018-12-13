@@ -21,6 +21,7 @@
       (z-pos -180)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -354,6 +355,7 @@
       (z-pos -180)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door

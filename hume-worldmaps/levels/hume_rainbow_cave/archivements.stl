@@ -16,6 +16,7 @@ archivinit()")
       (image-bottom "images/background/arctis_bottom.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (infoblock

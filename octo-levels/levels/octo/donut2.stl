@@ -14,6 +14,7 @@ Platform1.start_moving();")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "autoscroll")
       (path-ref "0e610496-5d59-4be0-b735-477e8e063526")
     )

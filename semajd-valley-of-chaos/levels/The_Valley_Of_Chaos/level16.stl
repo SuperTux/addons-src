@@ -9,6 +9,7 @@
       (color 0.4699321 0.2619364 0.2669108)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (captainsnowball

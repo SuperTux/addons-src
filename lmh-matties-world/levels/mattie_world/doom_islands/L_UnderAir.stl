@@ -37,6 +37,7 @@
       (z-pos 400)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser
@@ -575,6 +576,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser
@@ -1002,6 +1004,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -2393,6 +2396,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

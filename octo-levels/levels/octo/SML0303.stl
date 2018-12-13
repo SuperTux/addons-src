@@ -38,6 +38,7 @@ Platform15.start_moving();")
       (y 512)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (firefly
@@ -634,6 +635,7 @@ Platform15.start_moving();")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
@@ -742,6 +744,7 @@ Platform15.start_moving();")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music

@@ -26,6 +26,7 @@
       (z-pos -101)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (dispenser
@@ -651,6 +652,7 @@ play_sound(\"sounds/lifeup.wav\");
       (z-pos 200)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

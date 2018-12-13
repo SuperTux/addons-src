@@ -23,6 +23,7 @@
       (y 192)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -1170,6 +1171,7 @@ Tux.activate();")
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient

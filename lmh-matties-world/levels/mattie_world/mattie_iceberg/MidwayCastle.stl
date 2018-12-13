@@ -10,6 +10,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -211,6 +212,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (gradient
@@ -332,6 +334,7 @@
       (image "images/background/arctis_dark.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -552,6 +555,7 @@
       (image "images/background/arctis_dark.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -776,6 +780,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (candle
@@ -968,6 +973,7 @@
       (color 1 1 1)
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
@@ -1162,6 +1168,7 @@
       (image "images/background/snowcastle.png")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (music
