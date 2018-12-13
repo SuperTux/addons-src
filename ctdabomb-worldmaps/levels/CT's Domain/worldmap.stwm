@@ -8,9 +8,6 @@
     (ambient-light
       (color 1 1 1)
     )
-    (camera
-      (mode "normal")
-    )
     (decal
       (sprite "images/decal/nightcave/lightflower1.png")
       (x 320)
