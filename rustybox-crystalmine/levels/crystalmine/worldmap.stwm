@@ -9,7 +9,7 @@
       (color 1 1 1)
     )
     (level
-      (name "crystal_mine.stl")
+      (level "crystal_mine.stl")
       (x 19)
       (y 38)
     )

@@ -80,27 +80,27 @@
       (y 480)
     )
     (level
-      (name "hallo5.stl")
+      (level "hallo5.stl")
       (x 13)
       (y 16)
     )
     (level
-      (name "hallo3.stl")
+      (level "hallo3.stl")
       (x 29)
       (y 17)
     )
     (level
-      (name "hallo2.stl")
+      (level "hallo2.stl")
       (x 36)
       (y 17)
     )
     (level
-      (name "hallo4.stl")
+      (level "hallo4.stl")
       (x 20)
       (y 15)
     )
     (level
-      (name "hallo1.stl")
+      (level "hallo1.stl")
       (x 41)
       (y 13)
     )
