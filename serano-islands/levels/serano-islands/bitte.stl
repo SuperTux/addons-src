@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Please don't jump into the lava"))
   (author "alex")
   (sector

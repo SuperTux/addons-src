@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "First day at the graveyard"))
   (author "alex")
   (sector

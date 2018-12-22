@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Visit to the cystal mine"))
   (author "CT. da'Bomb")
   (license "GPL 2+ / CC-by-sa 3.0")

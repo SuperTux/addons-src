@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Super Mario Land 2-2"))
   (author "octo")
   (contact "supertux@octo.it")

@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Bonus level 3 - platforms and spikes"))
   (author "hume")
   (license "GPL 2+ / CC-by-sa 3.0")

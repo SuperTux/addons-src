@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Dark and Dangerous"))
   (author "Wolfs")
   (contact "pizzaservice at freenet dot de")

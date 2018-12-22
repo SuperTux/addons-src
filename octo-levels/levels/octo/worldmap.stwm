@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "octo's Island"))
   (author "Florian Forster")
   (contact "octo at verplant.org")

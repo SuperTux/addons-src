@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Level 1: The Quest Begins"))
   (author "Christian Schaefers")
   (license "CC BY-SA 4.0+")

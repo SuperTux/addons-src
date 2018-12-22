@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Welcome To The Icy Island"))
   (author "Cookie Monster")
   (license "CC-BY-SA 4.0 Intl")

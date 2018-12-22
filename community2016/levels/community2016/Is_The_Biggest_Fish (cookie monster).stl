@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Is The Biggest Fish"))
   (author "Cookie Monster")
   (license "CC-BY-SA 4.0 Intl")

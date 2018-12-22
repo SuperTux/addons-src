@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "The Ancient ruins of the Forest"))
   (author "Carsten")
   (license "CC-BY-SA 4.0 International")

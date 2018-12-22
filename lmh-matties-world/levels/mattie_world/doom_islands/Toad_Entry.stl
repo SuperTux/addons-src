@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Entrance to Toad Castle"))
   (author "LMH")
   (contact "lmh.0013@gmail.com")

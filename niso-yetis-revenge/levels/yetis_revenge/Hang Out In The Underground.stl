@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Hang Out In The Underground"))
   (author "niso")
   (license "GPL 2+ / CC-by-sa 3.0")

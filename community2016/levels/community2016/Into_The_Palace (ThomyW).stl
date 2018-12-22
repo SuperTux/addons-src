@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Into The Palace"))
   (author "ThomyW")
   (license "CC-BY-SA 4.0 International")

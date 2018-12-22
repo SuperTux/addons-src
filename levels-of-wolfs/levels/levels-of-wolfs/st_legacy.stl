@@ -1,5 +1,5 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "SuperTux Legacy"))
   (author "Wolfs")
   (contact "pizzaservice at freenet dot de")
