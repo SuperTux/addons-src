@@ -532,7 +532,7 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.5)
+      (speed-x 0.5)
       (speed-y 0.5)
       (alpha 0.2)
       (z-pos -200)
@@ -2007,7 +2007,7 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.5)
+      (speed-x 0.5)
       (speed-y 0.5)
       (alpha 0.2)
       (z-pos -200)

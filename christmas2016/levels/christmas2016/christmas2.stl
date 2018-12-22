@@ -661,7 +661,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.2)
+      (speed-x 0.2)
+      (speed-y 0.2)
       (tint 0.8999998 0.6 0.6)
       (z-pos -270)
       (width 148)
@@ -716,7 +717,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.5)
+      (speed-x 0.5)
+      (speed-y 0.5)
       (tint 0.8999998 0.7 0.7)
       (z-pos -230)
       (width 225)
@@ -1005,7 +1007,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.8)
+      (speed-x 0.8)
+      (speed-y 0.8)
       (tint 1 0.8 0.8999999)
       (z-pos -120)
       (width 355)

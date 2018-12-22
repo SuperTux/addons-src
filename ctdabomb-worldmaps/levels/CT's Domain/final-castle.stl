@@ -896,7 +896,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 2)
+      (speed-x 2)
+      (speed-y 2)
       (draw-target "lightmap")
       (z-pos 100)
       (name "Foreground")

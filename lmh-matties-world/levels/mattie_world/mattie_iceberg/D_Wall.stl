@@ -277,7 +277,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.7)
+      (speed-x 0.7)
+      (speed-y 0.7)
       (z-pos -300)
       (name "landscape background")
       (width 58)

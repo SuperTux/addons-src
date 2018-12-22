@@ -2624,7 +2624,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 2)
+      (speed-x 2)
+      (speed-y 2)
       (alpha 0.7)
       (z-pos 100)
       (name "foreground")
@@ -2685,7 +2686,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 2)
+      (speed-x 2)
+      (speed-y 2)
       (z-pos 90)
       (name "foreground-far")
       (width 200)

@@ -491,7 +491,7 @@ play_sound(\"sounds/lifeup.wav\");
     )
     (tilemap
       (solid #f)
-      (speed 0.4)
+      (speed-x 0.4)
       (speed-y 0.4)
       (alpha 0.2)
       (z-pos -150)

@@ -408,7 +408,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 4)
+      (speed-x 4)
+      (speed-y 4)
       (z-pos 200)
       (name "Dayo'DOOM")
       (width 1013)

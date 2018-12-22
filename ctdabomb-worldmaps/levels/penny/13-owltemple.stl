@@ -628,7 +628,7 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.7)
+      (speed-x 0.7)
       (speed-y 1.3)
       (alpha 0.6)
       (z-pos 100)

@@ -134,7 +134,7 @@ secret_area(\"sa27\")")
     )
     (tilemap
       (solid #f)
-      (speed 0.5)
+      (speed-x 0.5)
       (speed-y 0.5)
       (z-pos -199)
       (name "tilebg")

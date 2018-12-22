@@ -327,7 +327,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 2)
+      (speed-x 2)
+      (speed-y 2)
       (z-pos 300)
       (name "Front Crystals")
       (width 150)

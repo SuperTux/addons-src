@@ -167,7 +167,8 @@
     )
     (tilemap
       (solid #t)
-      (speed 5)
+      (speed-x 5)
+      (speed-y 5)
       (z-pos 0)
       (width 75)
       (height 20)

@@ -408,7 +408,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.8)
+      (speed-x 0.8)
+      (speed-y 0.8)
       (z-pos -200)
       (name "FarBackground")
       (width 80)
@@ -468,7 +469,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.6)
+      (speed-x 0.6)
+      (speed-y 0.6)
       (z-pos -250)
       (name "VeryFarBackground")
       (width 80)
@@ -705,7 +707,7 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.3)
+      (speed-x 0.3)
       (speed-y 0.3)
       (z-pos -260)
       (name "iceberg_para1")
@@ -746,7 +748,7 @@
     )
     (tilemap
       (solid #f)
-      (speed 0)
+      (speed-x 0)
       (speed-y 0)
       (z-pos -270)
       (name "iceberg_para2")

@@ -281,7 +281,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.9)
+      (speed-x 0.9)
+      (speed-y 0.9)
       (z-pos -200)
       (name "Background2")
       (width 225)
@@ -326,7 +327,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.8)
+      (speed-x 0.8)
+      (speed-y 0.8)
       (z-pos -300)
       (name "Background3")
       (width 225)
@@ -371,7 +373,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.7)
+      (speed-x 0.7)
+      (speed-y 0.7)
       (z-pos -400)
       (name "Background4")
       (width 225)

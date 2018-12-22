@@ -579,7 +579,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0)
+      (speed-x 0)
+      (speed-y 0)
       (z-pos -210)
       (name "ship")
       (width 200)

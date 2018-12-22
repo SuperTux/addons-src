@@ -946,7 +946,7 @@ or2.start_moving();")
     )
     (tilemap
       (solid #f)
-      (speed 0.6)
+      (speed-x 0.6)
       (speed-y 0.6)
       (z-pos -150)
       (name "nuages")

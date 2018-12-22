@@ -367,7 +367,7 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.6)
+      (speed-x 0.6)
       (speed-y 0.6)
       (alpha 0.3)
       (z-pos -150)
@@ -414,7 +414,7 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.6)
+      (speed-x 0.6)
       (speed-y 0.6)
       (alpha 0.5)
       (z-pos -125)
@@ -734,7 +734,8 @@ lava.start_moving();")
     )
     (tilemap
       (solid #f)
-      (speed 0.4)
+      (speed-x 0.4)
+      (speed-y 0.4)
       (alpha 0.3)
       (z-pos -175)
       (name "paralax")

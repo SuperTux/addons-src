@@ -1061,7 +1061,8 @@
     )
     (tilemap
       (solid #f)
-      (speed 0.5)
+      (speed-x 0.5)
+      (speed-y 0.5)
       (z-pos -200)
       (name "backship")
       (width 176)
