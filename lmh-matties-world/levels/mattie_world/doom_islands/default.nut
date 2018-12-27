@@ -11,8 +11,8 @@ if(! ("island_bonus" in state) || ! ("island_reveal" in state)){
     state.island_bonus[name] <- false;
     state.island_reveal[name] <- false;
   }
-  state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"] <- {};
-  state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"].levels <- {};
+  state.worlds["/levels/mattie_world/doom_islands/worldmap.stwm"] <- {};
+  state.worlds["/levels/mattie_world/doom_islands/worldmap.stwm"].levels <- {};
   if(debug) print("bonuses for DOOM islands initialized\n");
 }
 else {
@@ -32,8 +32,8 @@ if(! ("doommap" in state)){state.doommap <- true;}
 if(! ("pennmap" in state)){state.pennmap <- false;}
 if(!("worlds" in state)){
   state.worlds <- {};
-  state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"] <- {};
-  state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"].levels <- {};
+  state.worlds["/levels/mattie_world/doom_islands/worldmap.stwm"] <- {};
+  state.worlds["/levels/mattie_world/doom_islands/worldmap.stwm"].levels <- {};
 }
 if(! ("underground" in state)){
   state.underground <- false;

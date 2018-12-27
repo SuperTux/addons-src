@@ -31,13 +31,13 @@ if(! ("easy" in state)){state.easy <- false;}
 if(! ("hard" in state)){state.hard <- false;}
 if(!("worlds" in state)){
   state.worlds <- {};
-  state.worlds["levels/mattie_world/worldmap.stwm"] <- {};
-  state.worlds["levels/mattie_world/worldmap.stwm"].levels <- {};
+  state.worlds["/levels/mattie_world/worldmap.stwm"] <- {};
+  state.worlds["/levels/mattie_world/worldmap.stwm"].levels <- {};
 }
 
 progress <- state.iceberg_bonus;
 reward <- state.iceberg_reveal;
-levelvars <- state.worlds["levels/mattie_world/worldmap.stwm"].levels;
+levelvars <- state.worlds["/levels/mattie_world/worldmap.stwm"].levels;
 
 //SHOP BONUS FUNCTIONS
 function show_shop_rewards(){
