@@ -9,8 +9,6 @@
       (color 1 1 1)
     )
     (background
-      (scroll-speed-x 0)
-      (scroll-speed-y 0)
       (speed 0.5)
       (image-top "/images/background/arctis2.png")
       (image "/images/background/arctis_para2.png")

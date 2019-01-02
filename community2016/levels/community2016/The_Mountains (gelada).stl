@@ -10,8 +10,6 @@
     )
     (background
       (name "normal")
-      (scroll-speed-x 0)
-      (scroll-speed-y 0)
       (speed 0.5)
       (image-top "/images/background/bluemountain-top.png")
       (image "/images/background/bluemountain-middle.png")
