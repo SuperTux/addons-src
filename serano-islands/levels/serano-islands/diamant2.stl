@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Valley of diamonds"))
+  (name (_ "Valley Of Diamonds"))
   (author "alex")
   (sector
     (name "main")
@@ -70,7 +70,7 @@
       (y 832)
     )
     (music
-      (file "music/chipdisko.ogg")
+      (file "music/antarctic/chipdisko.ogg")
     )
     (particles-snow
     )
