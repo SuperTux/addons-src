@@ -101,7 +101,7 @@
       (y 554)
     )
     (music
-      (file "music/fortress.music")
+      (file "music/castle/fortress.music")
     )
     (pneumatic-platform
       (sprite "images/objects/platforms/icefloe.sprite")
