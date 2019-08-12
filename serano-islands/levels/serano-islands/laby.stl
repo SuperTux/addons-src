@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "One hell of a labyrinth"))
+  (name (_ "One Hell Of An Labyrinth"))
   (author "alex")
   (sector
     (name "main")
@@ -88,7 +88,7 @@
       (y 384)
     )
     (music
-      (file "music/darkforestkeep.ogg")
+      (file "music/castle/darkforestkeep.ogg")
     )
     (particles-clouds
     )
