@@ -130,7 +130,7 @@
       (y 392)
     )
     (music
-      (file "music/darkforestkeep.ogg")
+      (file "music/castle/darkforestkeep.ogg")
     )
     (pneumatic-platform
       (x 5088)
