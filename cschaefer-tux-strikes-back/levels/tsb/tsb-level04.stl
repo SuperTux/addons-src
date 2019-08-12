@@ -81,7 +81,7 @@
       (y 394)
     )
     (music
-      (file "music/fortress.music")
+      (file "music/castle/fortress.music")
     )
     (smartball
       (x 3191)
