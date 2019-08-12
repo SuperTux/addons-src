@@ -100,7 +100,7 @@
       (y 45)
     )
     (music
-      (file "music/salcon.ogg")
+      (file "music/antarctic/salcon.ogg")
     )
     (sprite-change
       (change-on-touch #t)
