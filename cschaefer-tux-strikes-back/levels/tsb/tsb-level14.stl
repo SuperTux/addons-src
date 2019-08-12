@@ -183,7 +183,7 @@
       (y 256)
     )
     (music
-      (file "music/battle_theme.music")
+      (file "music/misc/battle_theme.music")
     )
     (spawnpoint
       (name "main")
