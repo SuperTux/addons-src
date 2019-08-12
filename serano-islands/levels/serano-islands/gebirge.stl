@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Eternal mountains"))
+  (name (_ "Eternal Mountains"))
   (author "alex")
   (sector
     (name "main")
@@ -66,7 +66,7 @@
       (y 608)
     )
     (music
-      (file "music/voc-dark.ogg")
+      (file "music/antarctic/voc-dark.ogg")
     )
     (path
       (name "f7f5cc06-5eec-4ac0-b99d-84d59f602c30")
