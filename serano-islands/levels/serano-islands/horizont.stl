@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Behind the horizon"))
+  (name (_ "Behind The Horizon"))
   (author "alex")
   (sector
     (name "main")
@@ -54,7 +54,7 @@
       (y 384)
     )
     (music
-      (file "music/voc-daytime2.ogg")
+      (file "music/antarctic/voc-daytime2.ogg")
     )
     (particles-snow
     )
