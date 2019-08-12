@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Jumping skulls"))
+  (name (_ "Jumping Skulls"))
   (author "alex")
   (sector
     (name "main")
@@ -219,7 +219,7 @@
       (y 1028.1)
     )
     (music
-      (file "music/ghostforest.ogg")
+      (file "music/forest/ghostforest.ogg")
     )
     (particles-clouds
     )
