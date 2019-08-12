@@ -1,7 +1,7 @@
 ;extro
 (supertux-text
   (background "extro.jpg")
-;  (music "music/theme.ogg")
+;  (music "music/misc/theme.ogg")
   (text
 "	...as Tux destroys the ice melting
 	machine, his eyes capture a shadow
