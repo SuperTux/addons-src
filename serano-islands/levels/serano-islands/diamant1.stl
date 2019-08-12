@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Diamond fun"))
+  (name (_ "Diamond Fun"))
   (author "alex")
   (sector
     (name "main")
@@ -50,7 +50,7 @@
       (y 224)
     )
     (music
-      (file "music/voc-night.ogg")
+      (file "music/antarctic/voc-night.ogg")
     )
     (secretarea
       (width 360)
