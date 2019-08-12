@@ -34,7 +34,7 @@
       (y 896)
     )
     (music
-      (file "music/forest.ogg")
+      (file "music/forest/forest.ogg")
     )
     (path
       (name "764a3ef5-6dc7-4435-a013-6c2e5bc8dbd7")
