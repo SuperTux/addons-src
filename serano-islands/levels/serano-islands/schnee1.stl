@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Finally snow!"))
+  (name (_ "Finally Snow!"))
   (author "alex")
   (sector
     (name "main")
@@ -58,7 +58,7 @@
       (y 616)
     )
     (music
-      (file "music/chipdisko.ogg")
+      (file "music/antarctic/chipdisko.ogg")
     )
     (particles-snow
     )
