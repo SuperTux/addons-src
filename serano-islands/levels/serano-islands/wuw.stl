@@ -46,7 +46,7 @@
       (y 2176)
     )
     (music
-      (file "music/forest.ogg")
+      (file "music/forest/forest.ogg")
     )
     (poisonivy
       (x 896)
