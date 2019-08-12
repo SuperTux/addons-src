@@ -115,7 +115,7 @@
       (y 518)
     )
     (music
-      (file "music/fortress.music")
+      (file "music/castle/fortress.music")
     )
     (snowball
       (x 3366)
