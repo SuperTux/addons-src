@@ -208,7 +208,7 @@
       (y 422)
     )
     (music
-      (file "music/wisphunt.music")
+      (file "music/forest/wisphunt.music")
     )
     (smartball
       (x 2627)
