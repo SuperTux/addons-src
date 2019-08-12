@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Wonderful forest world"))
+  (name (_ "Wonderful Forest World"))
   (author "alex")
   (sector
     (name "main")
@@ -58,7 +58,7 @@
       (y 1278)
     )
     (music
-      (file "music/forest.ogg")
+      (file "music/forest/forest.ogg")
     )
     (path
       (name "9d6bbbc8-c8e3-40c8-b47e-8a4d52b18c6c")
