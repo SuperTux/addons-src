@@ -93,7 +93,7 @@
       (y 390)
     )
     (music
-      (file "music/chipdisko.ogg")
+      (file "music/antarctic/chipdisko.ogg")
     )
     (smartball
       (x 3109)
