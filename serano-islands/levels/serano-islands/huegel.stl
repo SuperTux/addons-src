@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Hilly landscape"))
+  (name (_ "Hilly Landscape"))
   (author "alex")
   (sector
     (name "main")
@@ -26,7 +26,7 @@
       (y 2080)
     )
     (music
-      (file "music/forest2.ogg")
+      (file "music/forest/forest2.ogg")
     )
     (path
       (name "b0cf81b5-af89-4710-953c-5a25c6f0a392")
