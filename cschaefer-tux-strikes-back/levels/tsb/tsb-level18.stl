@@ -198,7 +198,7 @@
       (y 166)
     )
     (music
-      (file "music/bossattack.music")
+      (file "music/antarctic/bossattack.music")
     )
     (owl
       (carry "skydive")
