@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "An icy pleasure"))
+  (name (_ "An Icy Pleasure"))
   (author "alex")
   (sector
     (name "main")
@@ -66,7 +66,7 @@
       (y 448)
     )
     (music
-      (file "music/fortress.ogg")
+      (file "music/castle/fortress.ogg")
     )
     (path
       (name "9e68c0c2-2852-48e9-9416-0e3da079cd9e")
