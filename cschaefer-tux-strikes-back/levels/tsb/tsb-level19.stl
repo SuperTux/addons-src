@@ -21,7 +21,7 @@
       (time 20)
     )
     (music
-      (file "music/chipdisko.ogg")
+      (file "music/antarctic/chipdisko.ogg")
     )
     (path
       (name "e58a30d0-474a-4c6d-8bc0-4da00a73e2bb")
