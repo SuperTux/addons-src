@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Forest of dawn"))
+  (name (_ "Forest Of Dawn"))
   (author "alex")
   (sector
     (name "main")
@@ -50,7 +50,7 @@
       (y 928)
     )
     (music
-      (file "music/forest.ogg")
+      (file "music/forest/forest.ogg")
     )
     (path
       (name "d500a7ad-a681-4fc0-a9e6-b8b637f37a4c")
