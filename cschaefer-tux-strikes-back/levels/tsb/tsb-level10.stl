@@ -176,7 +176,7 @@
       (y 518)
     )
     (music
-      (file "music/voc-dark.ogg")
+      (file "music/antarctic/voc-dark.ogg")
     )
     (secretarea
       (fade-tilemap "Secret")
