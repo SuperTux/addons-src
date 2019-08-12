@@ -105,7 +105,7 @@
       (y 13)
     )
     (music
-      (file "music/greatgigantic.ogg")
+      (file "music/forest/greatgigantic.ogg")
     )
     (tilemap
       (solid #t)
