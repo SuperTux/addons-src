@@ -111,7 +111,7 @@
       (y 288)
     )
     (music
-      (file "music/cave.ogg")
+      (file "music/antarctic/cave.ogg")
     )
     (smartball
       (x 2467)
