@@ -115,7 +115,7 @@ display_text_file(\"levels/tsb/extro-tsb.txt\");
       (y 35)
     )
     (music
-      (file "music/salcon.ogg")
+      (file "music/antarctic/salcon.ogg")
     )
     (teleporter
       (spawnpoint "x6y24")
