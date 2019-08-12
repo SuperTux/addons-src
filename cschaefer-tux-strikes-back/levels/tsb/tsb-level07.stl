@@ -41,7 +41,7 @@
       (y 352)
     )
     (music
-      (file "music/forest2.ogg")
+      (file "music/forest/forest2.ogg")
     )
     (short_fuse
       (x 5129)
