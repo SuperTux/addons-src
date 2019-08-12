@@ -76,7 +76,7 @@
       (y 326)
     )
     (music
-      (file "music/fortress.ogg")
+      (file "music/castle/fortress.ogg")
     )
     (skullyhop
       (x 6752)
