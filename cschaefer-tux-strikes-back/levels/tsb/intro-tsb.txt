@@ -1,7 +1,7 @@
 ;intro
 (supertux-text
   (background "oiltux.jpg")
-;  (music "music/theme.ogg")
+;  (music "music/misc/theme.ogg")
   (text
 "#One day, Tux finds a note from his arch-enemy
 #Nolok lying in front of his igloo.
