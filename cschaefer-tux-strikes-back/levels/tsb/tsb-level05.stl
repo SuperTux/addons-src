@@ -85,7 +85,7 @@
       (y 521)
     )
     (music
-      (file "music/cave.ogg")
+      (file "music/antarctic/cave.ogg")
     )
     (secretarea
       (fade-tilemap "Secret")
