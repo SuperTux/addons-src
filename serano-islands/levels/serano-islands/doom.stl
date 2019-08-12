@@ -62,7 +62,7 @@
       (y 544)
     )
     (music
-      (file "music/ghostforest.ogg")
+      (file "music/forest/ghostforest.ogg")
     )
     (particles-ghosts
     )
