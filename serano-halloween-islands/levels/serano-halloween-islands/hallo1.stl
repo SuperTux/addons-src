@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "First day at the graveyard"))
+  (name (_ "First Day At The Graveyard"))
   (author "alex")
   (sector
     (name "main")
@@ -270,7 +270,7 @@
       (y 904)
     )
     (music
-      (file "music/voc-dark.ogg")
+      (file "music/antarctic/voc-dark.ogg")
     )
     (secretarea
       (width 220)
