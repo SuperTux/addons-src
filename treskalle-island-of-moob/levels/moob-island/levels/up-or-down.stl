@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Up or Down - It's Your Choise"))
+  (name (_ "Up or Down - It's Your Choice"))
   (author "treskalle")
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
