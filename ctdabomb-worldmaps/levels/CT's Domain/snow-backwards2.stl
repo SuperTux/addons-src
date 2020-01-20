@@ -60,7 +60,7 @@
       (message (_ "	Oh no! The path is Blocked
 	to go though you must move the
 	blocks, by pressing down the action
-	key and grabing the block!"))
+	key and grabbing the block!"))
       (x 5088)
       (y 544)
     )
