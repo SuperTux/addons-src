@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "I Go With My Latern"))
+  (name (_ "I Go With My Lantern"))
   (author "niso")
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
@@ -26,13 +26,13 @@
     )
     (infoblock
       (message (_ "#Attention: 
-#Don't throw your laterns away! And: Think first before you go forward."))
+#Don't throw your lanterns away! And: Think first before you go forward."))
       (x 224)
       (y 608)
     )
     (infoblock
       (message (_ "#Help:
-#You have to throw one of the red laterns over the ice platform!"))
+#You have to throw one of the red lanterns over the ice platform!"))
       (x 3808)
       (y 714)
     )
