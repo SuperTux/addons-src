@@ -1,0 +1,14 @@
+(tuxjunior-sprite
+ (action
+  (name "default")
+  (images "displayfish_purple.png")
+ )
+ (action
+  (name "display")
+  (images "displayfish_purple.png")
+ )
+ (action
+  (name "outline")
+  (images "displayemptyfish_purple.png")
+ )
+)

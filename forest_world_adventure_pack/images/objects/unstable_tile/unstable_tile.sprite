@@ -1,0 +1,28 @@
+(supertux-sprite
+  (action
+    (name "normal")
+    (images 
+      "glow-skull-1.png"
+    )
+  )
+  (action
+    (name "shake")
+    (fps 30)
+    (images 
+      "glow-skull-2.png"
+      "glow-skull-3.png"
+      "glow-skull-2.png"
+      "glow-skull-3.png"
+      "glow-skull-4.png"
+      "glow-skull-3.png"
+      "glow-skull-4.png"
+    )
+  )
+  (action
+    (name "fall-down")
+    (fps 1)
+    (images 
+      "glow-skull-4.png"
+    )
+  )
+)

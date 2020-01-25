@@ -1,0 +1,14 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (images "dashboard.png")
+ )
+ (action
+  (name "display")
+  (images "dashboard.png")
+ )
+ (action
+  (name "outline")
+  (images "dashboard.png")
+ )
+)
