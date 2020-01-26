@@ -2,13 +2,12 @@
   (version 3)
   (name (_ "The Rooted Forest Adventure Pack"))
   (author "Daniel Ward")
-  (author "S.Groundwater")
+  (author "Stephen Groundwater")
   (license "CC-BY-SA 4.0 International")
   (sector
     (name "main")
-    (init-script "
-          import(\"addons/Forest_Adventure_Land/levels/darkness.nut\");
-        ")
+    (init-script "import(\"levels/Forest_World_Adventure_Pack/super-boots.nut\");
+    ")
     (ambient-light
       (color 1 1 1)
     )
@@ -18,9 +17,9 @@
       (y 1760)
       (alignment "bottom")
       (speed 0.05)
-      (image-top "/addons/Forest_Adventure_Land/images/background/BlueRock_Forest/transparent_up.png")
-      (image "/addons/Forest_Adventure_Land/images/background/BlueRock_Forest/dawn_hill_para_blur.png")
-      (image-bottom "/addons/Forest_Adventure_Land/images/background/BlueRock_Forest/black_800px.png")
+      (image-top "/images/background/BlueRock_Forest/transparent_up.png")
+      (image "/images/background/BlueRock_Forest/dawn_hill_para_blur.png")
+      (image-bottom "/images/background/BlueRock_Forest/black_800px.png")
       (z-pos -299)
     )
     (background
@@ -28,9 +27,9 @@
       (x 512)
       (y 1632)
       (speed 0.5)
-      (image-top "/addons/Forest_Adventure_Land/images/background/BlueRock_Forest/transparent_up.png")
-      (image "/addons/Forest_Adventure_Land/images/background/BlueRock_Forest/forest_para2.png")
-      (image-bottom "/addons/Forest_Adventure_Land/images/background/BlueRock_Forest/blue-bottom.png")
+      (image-top "/images/background/BlueRock_Forest/transparent_up.png")
+      (image "/images/background/BlueRock_Forest/forest_para2.png")
+      (image-bottom "/images/background/BlueRock_Forest/blue-bottom.png")
       (z-pos -298)
     )
     (bonusblock
