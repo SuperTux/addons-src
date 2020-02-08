@@ -1,0 +1,11 @@
+(supertux-sprite
+      (action
+        (name "kombucha-right")
+		(hitbox 0 2 48 28)
+        (images "kombucha.png"))
+	
+	  (action
+		(name "kombucha-left")
+		(hitbox 0 2 48 28)
+		(mirror-action "kombucha-right"))
+)

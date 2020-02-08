@@ -1,0 +1,19 @@
+(supertux-sprite
+      (action
+         (fps 15)
+         (name "normal")
+         (images "surprize.png"
+                 ))
+      (action
+         (name "empty")
+         (surfaces
+          (surface
+           (diffuse-texture (file "empty.png"))
+           (displacement-texture (file "displacement.png")))))
+      (action
+         (name "on")
+         (images "on.png"))
+      (action
+         (name "off")
+         (images "off.png"))
+)

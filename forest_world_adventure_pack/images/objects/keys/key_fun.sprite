@@ -1,0 +1,7 @@
+(supertux-sprite
+  (action
+	(name "fun-right")
+	(hitbox 0 2 48 28)
+	(images "RATEDFUN.png")
+   )
+)
