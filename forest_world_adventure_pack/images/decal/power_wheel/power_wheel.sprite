@@ -1,0 +1,14 @@
+(supertux-sprite
+  (action
+    (name "normal")
+    (images 
+      "power_wheel_1.png"
+"power_wheel_2.png"
+"power_wheel_3.png"
+"power_wheel_4.png"
+"power_wheel_5.png"
+"power_wheel_6.png"
+"power_wheel_7.png"
+    )
+  )
+)
