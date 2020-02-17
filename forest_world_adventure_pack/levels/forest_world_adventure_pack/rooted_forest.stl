@@ -84,12 +84,12 @@
       (y 1632)
     )
     (decal
-      (sprite "/addons/Forest_Adventure_Land/images/creatures/nolok/nolok-front-stance.png")
+      (sprite "/images/creatures/nolok/nolok-front-stance.png")
       (x 2016)
       (y 1984)
     )
     (decal
-      (sprite "/addons/Forest_World_Adventure_Pack/images/decal/power_wheel/power_wheel.sprite")
+      (sprite "/images/decal/power_wheel/power_wheel.sprite")
       (x 736)
       (y 1440)
     )
