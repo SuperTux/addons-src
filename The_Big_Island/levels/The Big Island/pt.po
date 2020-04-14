@@ -1,0 +1,267 @@
+#: data/levels/The Big Island/Enter Cave.stl:3
+msgid "Enter Cave"
+msgstr "Entrada Na Cave"
+
+#: data/levels/The Big Island/Frozen Castle.stl:3
+msgid "Frozen Castle"
+msgstr "Castelo Gelado"
+
+#: data/levels/The Big Island/Middle-Castle.stl:3
+msgid "Middle-Castle"
+msgstr "Castelo Do Meio"
+
+#: data/levels/The Big Island/Yeti-Boss.stl:3
+msgid "Yeti Boss"
+msgstr "O Abominável Homem Das Neves - Chefe"
+
+#: data/levels/The Big Island/Battle On Airship.stl:3
+msgid "Battle On Airship"
+msgstr "Batalha Na Aeronave"
+
+#: data/levels/The Big Island/Bonus Land.stl:3
+msgid "Bonus Land"
+msgstr "Terra Do Bónus"
+
+#: data/levels/The Big Island/Ocean.stl:3
+msgid "Ocean"
+msgstr "Oceano"
+
+#: data/levels/The Big Island/Big Mountains.stl:3
+msgid "Big Mountains"
+msgstr "Montanhas Grandes"
+
+#: data/levels/The Big Island/A Freezing Night.stl:3
+msgid "A Freezing Night"
+msgstr "Uma Noite Gelada"
+
+#: data/levels/The Big Island/Welcome To Big Island.stl:3
+msgid "Welcome To Big Island"
+msgstr "Bem-vindo À Ilha Grande"
+
+#: data/levels/The Big Island/Ice On Water.stl:3
+msgid "Ice On Water"
+msgstr "Gelo Na Água"
+
+#: data/levels/The Big Island/Through The Icy Mountains.stl:3
+msgid "Through The Icy Mountains"
+msgstr "Pelas Montanhas Geladas"
+
+#: data/levels/The Big Island/Like A Small Fridge.stl:3
+msgid "Like A Small Fridge"
+msgstr "Como Um Pequeno Frigorífico"
+
+#: data/levels/The Big Island/Into The Night.stl:3
+msgid "Into The Night"
+msgstr "Pela Noite A Dentro"
+
+#: data/levels/The Big Island/Heavy Snow.stl:3
+msgid "Heavy Snow"
+msgstr "Forte Nevão"
+
+#: data/levels/The Big Island/Walk Through The Clouds.stl:3
+msgid "Walk Through The Clouds"
+msgstr "Andar Pelas Núvens"
+
+#: data/levels/The Big Island/Intro.stl:3
+msgid "Intro"
+msgstr "Introdução"
+
+#: data/levels/The Big Island/Crossing Arctic Rivers.stl:3
+msgid "Crossing Arctic Rivers"
+msgstr "Atravessando Os Rios Do Ártico"
+
+#: data/levels/The Big Island/Crystal Cave.stl:3
+msgid "Crystal Cave"
+msgstr "Caverna De Cristal"
+
+#: data/levels/The Big Island/Icecrusher and Krosh.stl:3
+msgid "Icecrusher and Krosh"
+msgstr "Icecrusher e Krosh"
+
+#: data/levels/The Big Island/Watch Your Heads.stl:3
+msgid "Watch Your Heads"
+msgstr "Cuidado Com As Suas Cabeças"
+
+#: data/levels/The Big Island/forest1/Air Power.stl:3
+msgid "Air Power"
+msgstr "Poder Do Ar"
+
+#: data/levels/The Big Island/forest1/Abandoned castle.stl:3
+msgid "Abandoned castle"
+msgstr "Castelo Abandonado"
+
+#: data/levels/The Big Island/forest1/Cave.stl:3
+msgid "Cave"
+msgstr "Caverna"
+
+#: data/levels/The Big Island/forest1/Contracurrent.stl:3
+msgid "Contracurrent"
+msgstr "Contracorrente"
+
+#: data/levels/The Big Island/forest1/Down Down Down.stl:3
+msgid "Down Down Down"
+msgstr "Baixo Baixo Baixo"
+
+#: data/levels/The Big Island/forest1/Going Down.stl:3
+msgid "Going Down"
+msgstr "Descendo"
+
+#: data/levels/The Big Island/forest1/Fire Up.stl:3
+msgid "Fire Up"
+msgstr "Fogo Acima"
+
+#: data/levels/The Big Island/forest1/Abandoned Forest.stl:3
+msgid "Abandoned Forest"
+msgstr "Floresta Abandonada"
+
+#: data/levels/The Big Island/forest1/A Visit To A Small Castle.stl:3
+msgid "A Visit To A Small Castle"
+msgstr "Uma Visita A Um Pequeno Castelo"
+
+#: data/levels/The Big Island/forest1/Hallucination Forest.stl:3
+msgid "Hallucination Forest"
+msgstr "Floresta Das Alucinações"
+
+#: data/levels/The Big Island/forest1/Forest In The River.stl:3
+msgid "Forest In The River"
+msgstr "Floresta No Rio"
+
+#: data/levels/The Big Island/forest1/The Natural Elements Together And saved.stl:3
+msgid "The Natural Elements Together And Saved"
+msgstr "Os Elementos Naturais Juntos E Salvos"
+
+#: data/levels/The Big Island/forest1/PicNic.stl:3
+msgid "PicNic"
+msgstr "Piquenique"
+
+#: data/levels/The Big Island/forest1/Big Tree.stl:3
+msgid "Big Tree"
+msgstr "Grande Árvore"
+
+#: data/levels/The Big Island/forest1/Underground.stl:3
+msgid "Underground"
+msgstr "Subterrâneo"
+
+#: data/levels/The Big Island/forest1/Cave Exit.stl:3
+msgid "Cave Exit"
+msgstr "Saída Da Cave"
+
+#: data/levels/The Big Island/forest1/What.stl:3
+msgid "What Is Happening?"
+msgstr "O Que Está Acontecendo?"
+
+#: data/levels/The Big Island/forest1/Intro forest.stl:3
+msgid "Intro Forest"
+msgstr "Introdução À Floresta"
+
+#: data/levels/The Big Island/forest1/Up And Down.stl:3
+msgid "Up And Down"
+msgstr "Para Cima E Para Baixo"
+
+#: data/levels/The Big Island/forest1/Spy Eyes.stl:3
+msgid "Spy Eyes"
+msgstr "Olhos Espiões"
+
+#: data/levels/The Big Island/forest1/Walking In The Trees.stl:3
+msgid "Walking In The Trees"
+msgstr "Andando Nas Árvores"
+
+#: data/levels/The Big Island/forest1/Water Key.stl:3
+msgid "Water Key"
+msgstr "Chave Da Água"
+
+#: data/levels/The Big Island/forest1/The Big Towers.stl:3
+msgid "The Big Towers"
+msgstr "As Torres Grandes"
+
+#: data/levels/The Big Island/forest1/The Final.stl:3
+msgid "The Final"
+msgstr "O Final"
+
+#: data/levels/The Big Island/forest1/The End.stl:3
+msgid "The End"
+msgstr "O Fim"
+
+#: data/levels/The Big Island/forest1/credits.stl:3
+msgid "Credits"
+msgstr "Créditos"
+
+#: data/levels/The Big Island/forest1/Plumbing Cave.stl:3
+msgid "Plumbing Cave"
+msgstr "Caverna Das Canalizações"
+
+#: data/levels/The Big Island/forest1/Frog Swamp.stl:3
+msgid "Frog Swamp"
+msgstr "Pântano Dos Sapos"
+
+#: data/levels/The Big Island/forest1/Destroyed path.stl:3
+msgid "Destroyed Path"
+msgstr "Caminho Destruído"
+
+#: data/levels/The Big Island/ghostforest/Feeling The Strength Of Ghosttree's Roots.stl:3
+msgid "Feeling The Strength Of Ghosttree's Roots"
+msgstr "Sentindo A Força Das Raízes Da Ghosttree"
+
+#: data/levels/The Big Island/ghostforest/Castle Of Ghosts.stl:3
+msgid "Castle Of Ghosts"
+msgstr "Castelo Dos Fantásmas"
+
+#: data/levels/The Big Island/ghostforest/Ghostforest.stl:3
+msgid "Ghostforest"
+msgstr "Floresta Fantásma"
+
+#: data/levels/The Big Island/ghostforest/Ghosttree.stl:3
+msgid "Ghosttree"
+msgstr "Árvore Fantásma"
+
+#: data/levels/The Big Island/ghostforest/Light And Magic.stl:3
+msgid "Light And Magic"
+msgstr "Luz E Magia"
+
+#: data/levels/The Big Island/ghostforest/Night Owl.stl:3
+msgid "Night Owl"
+msgstr "Noite Das Corujas"
+
+#: data/levels/The Big Island/ghostforest/Over The Fire.stl:3
+msgid "Over The Fire"
+msgstr "Por Cima Do Fogo"
+
+#: data/levels/The Big Island/ghostforest/Spikes.stl:3
+msgid "Spikes"
+msgstr "Espigões"
+
+#: data/levels/The Big Island/ghostforest/Horror Forest.stl:3
+msgid "Horror Forest"
+msgstr "Floresta De Terror"
+
+#: data/levels/The Big Island/ghostforest/Being Spied On.stl:3
+msgid "Being Spied On"
+msgstr "Sendo Espionado"
+
+#: data/levels/The Big Island/ghostforest/Stuck In The Web Like A Fly.stl:3
+msgid "Stuck In The Web Like A Fly"
+msgstr "Preso Na Teia Como Uma Mosca"
+
+#: data/levels/The Big Island/ghostforest/Walking Through The Strong Storm.stl:3
+msgid "Walking Through The Strong Storm"
+msgstr "Caminhando Pela Forte Tempestade"
+
+#: data/levels/The Big Island/ghostforest/Switch And More Switchs.stl:3
+msgid "Switch And More Switchs"
+msgstr "Interruptor E Mais Interruptores"
+
+#: data/levels/The Big Island/ghostforest/Welcome To Ghostforest.stl:3
+msgid "Welcome To Ghostforest"
+msgstr "Bem-vindo À Floresta Fantásma"
+
+#: data/levels/The Big Island/ghostforest/Dark Forest.stl:3
+msgid "Dark Forest"
+msgstr "Floresta Negra"
+
+#: data/levels/The Big Island/ghostforest/Being Challenged By Ghosttree.stl:3
+msgid "Being Challenged By Ghosttree"
+msgstr "Sendo Desafiado Pela Árvore Fantásma"
+
+#: data/levels/The Big Island/forest1/Welcome To Forest.stl:3
+msgid "Welcome To Forest"
+msgstr "Bem-vindo à floresta"
