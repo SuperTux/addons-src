@@ -1,0 +1,50 @@
+(supertux-text
+  (version 2)
+  (music "music/credits.music")
+  (speed 60)
+  (content
+    (image "levels/The Big Island/thebigisland_logo.png")
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+	(text
+        (type "normal")
+        (string (_"Worldmap and levels built by"))
+    )
+        (text
+        (type "heading")
+        (string (_ "Jojo"))
+    )
+	(blank)
+	(text
+        (type "normal")
+        (string (_"Ideas of some levels and intros based on the 2 official worldmaps"))
+    )
+	(blank)
+        (text
+	(type "normal")
+        (string (_"Thank you for playing my worldmaps"))
+    )
+    (blank)
+	(text
+	(type "normal")
+        (string (_"I hope you had fun and enjoyed playing them!!!"))
+    )
+    (blank)
+	(text
+	(type "normal")
+        (string (_"Wait for more soon !!!"))
+    )
+    (blank)
+	(text
+	(type "heading")
+        (string (_"Jojo"))
+    )
+    (blank)
+    (blank)
+    (blank)
+      (image "images/engine/menu/logo.png")
+       
+  )
+)

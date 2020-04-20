@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "The_Big_Island")
+  (version 3)
+  (type "worldmap")
+  (title "The Big Island")
+  (author "Jojo")
+  (license "CC-BY-SA 4.0 International"))
