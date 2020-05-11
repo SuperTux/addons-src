@@ -1,0 +1,6 @@
+(supertux-level-subset
+  (title (_ "The Grandmaster Journey"))
+  (description (_ "For Experienced Players"))
+  (levelset #f)
+  (hide-from-contribs #f)
+)
