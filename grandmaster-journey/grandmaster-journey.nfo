@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (id "grandmaster-journey")
+  (version 1)
+  (type "world")
+  (title "The Grandmaster Journey")
+  (author "AllyTheOcelot")
+  (license "CC-by-sa 4.0")
+)
