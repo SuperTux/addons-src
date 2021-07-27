@@ -1,0 +1,6 @@
+(supertux-level-subset
+  (title (_ "E200's Islands"))
+  (description (_ "A new world map by E200."))
+  (levelset #f)
+  (hide-from-contribs #f)
+)
