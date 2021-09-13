@@ -53,7 +53,7 @@
     (infoblock
       (message (_ "-Congratulations!
 #You found one secret area.
-#There are fourty two secret areas in this worldmap."))
+#There are forty-two secret areas in this worldmap."))
       (x 1984)
       (y 736)
     )
@@ -109,7 +109,7 @@
       (message (_ "-Level exit
 #There is the last way for get an achievement.
 #You get an archivement when you done all levels.
-#There are fourty two levels in this worldmap.
+#There are forty-two levels in this worldmap.
 #Find a way out of this cave, good luck!"))
       (x 7328)
       (y 160)
