@@ -2,4 +2,5 @@
 (supertux-level-subset
   (title "Hume's rainbow cave")
   (levelset #f)
+  (contrib-type "community")
   )

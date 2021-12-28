@@ -4,5 +4,6 @@
  (description "Levels of Wolfs after move to GIT")
  (hide-from-contribs #f)
  (levelset #f)
+ (contrib-type "community")
 )
 

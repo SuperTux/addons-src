@@ -3,4 +3,5 @@
  (description "SuperTux must cross my Frozen Mountains in order to save Penny")
  (hide-from-contribs #f)
  (levelset #f)
+ (contrib-type "community")
 )

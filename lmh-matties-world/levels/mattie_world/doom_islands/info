@@ -3,5 +3,6 @@
  (description "Levels from the Mind of DOOM")
  (hide-from-contribs #f)
  (levelset #f)
+ (contrib-type "community")
 )
 

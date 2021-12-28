@@ -3,4 +3,5 @@
   (title (_ "Tux Strikes Back"))
   (description "Tux needs to save Antartica from melting.")
   (levelset #f)
+  (contrib-type "community")
 )

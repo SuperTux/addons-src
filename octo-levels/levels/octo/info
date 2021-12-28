@@ -3,4 +3,5 @@
   (description "Levels contributed by octo")
   (hide-from-contribs #f)
   (levelset #f)
+  (contrib-type "community")
 )

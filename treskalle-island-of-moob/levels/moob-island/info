@@ -4,4 +4,5 @@
   (description "Island of Moob")
   (hide-from-contribs #f)
   (levelset #f)
+  (contrib-type "community")
   )
