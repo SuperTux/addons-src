@@ -3,4 +3,5 @@
   (title (_ "Serano's Halloween Island"))
   (description "")
   (levelset #f)
+  (contrib-type "community")
 )

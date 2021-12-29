@@ -3,4 +3,5 @@
   (description "Designed for a three-year-old")
   (hide-from-contribs #f)
   (levelset #f)
+  (contrib-type "community")
   )

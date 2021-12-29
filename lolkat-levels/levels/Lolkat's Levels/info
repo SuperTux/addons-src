@@ -2,4 +2,5 @@
 (supertux-level-subset
   (title "Lolkat's Levels")
  (levelset #f)
+ (contrib-type "community")
  )

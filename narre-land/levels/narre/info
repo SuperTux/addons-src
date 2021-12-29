@@ -3,4 +3,5 @@
   (description "Worldmap")
   (hide-from-contribs #f)
   (levelset #f)
+  (contrib-type "community")
 )

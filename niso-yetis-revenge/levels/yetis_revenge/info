@@ -3,4 +3,5 @@
  (description "Yeti is back and meaner than ever")
  (hide-from-contribs #f)
  (levelset #f)
+ (contrib-type "community")
 )

@@ -3,4 +3,5 @@
   (description (_ ""))
   (levelset #f)
   (hide-from-contribs #f)
+  (contrib-type "community")
 )

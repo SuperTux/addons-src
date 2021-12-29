@@ -3,4 +3,5 @@
   (title (_ "Forest World Adventure Pack"))
   (description "The forest world continues.")
   (levelset #f)
+  (contrib-type "community")
 )

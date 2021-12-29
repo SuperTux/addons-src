@@ -2,4 +2,5 @@
 (supertux-level-subset
   (title "Hume's islands")
  (levelset #f)
+ (contrib-type "community")
  )

@@ -3,4 +3,5 @@
   (title (_ "CT's Domain"))
   (description "Levels from the ctdabomb")
   (levelset #f)
+  (contrib-type "community")
 )
