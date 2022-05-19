@@ -6,13 +6,7 @@
   (sector
     (name "main")
     (ambient-light
-      (color 1 1 1)
-    )
-    (background
-      (speed 0.5)
-      (image-top "images/background/arctis_top.jpg")
-      (image "images/background/arctis.jpg")
-      (image-bottom "images/background/arctis_bottom.jpg")
+      (color 0.9999999 0.9999999 0.9999999)
     )
     (camera
       (name "Camera")
@@ -35,6 +29,10 @@
     (flame
       (x 2848)
       (y 288)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 0.9999998 0.4584488 0.2025735)
     )
     (mrbomb
       (x 1472)
@@ -177,6 +175,7 @@
       (color 1 1 1)
     )
     (background
+      (color 1 1 1)
       (speed 0.5)
       (image "images/background/snowcastle.png")
     )
@@ -447,15 +446,13 @@
     (ambient-light
       (color 1 1 1)
     )
-    (background
-      (speed 0.5)
-      (image-top "images/background/arctis_top.jpg")
-      (image "images/background/arctis.jpg")
-      (image-bottom "images/background/arctis_bottom.jpg")
-    )
     (camera
       (name "Camera")
       (mode "normal")
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 0.9632769 0.3939106 0)
     )
     (music
       (file "music/chipdisko.ogg")

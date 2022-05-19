@@ -27,22 +27,54 @@
       (y 288)
     )
     (decal
-      (z-pos 100)
-      (sprite "images/creatures/snowball/left-0.png")
-      (x 864)
-      (y 416)
+      (sprite "/images/creatures/snowjumpy/down-0.png")
+      (x 2336)
+      (y 576)
     )
     (decal
-      (z-pos 100)
-      (sprite "images/creatures/snowball/sport-left-0.png")
-      (x 992)
-      (y 448)
+      (sprite "/images/creatures/snowball/captain-left-2.png")
+      (x 2048)
+      (y 480)
     )
     (decal
-      (z-pos 100)
-      (sprite "images/creatures/snowjumpy/left-down.png")
-      (x 2368)
-      (y 608)
+      (sprite "/images/creatures/snowball/smartball-2.png")
+      (x 1280)
+      (y 576)
+    )
+    (decal
+      (sprite "/images/creatures/snowball/smartball-2.png")
+      (x 1568)
+      (y 576)
+    )
+    (decal
+      (sprite "/images/creatures/snowball/snowball-2.png")
+      (x 1024)
+      (y 512)
+    )
+    (decal
+      (sprite "/images/creatures/snowball/snowball-2.png")
+      (x 1824)
+      (y 640)
+    )
+    (decal
+      (sprite "/images/creatures/fish/f2.png")
+      (x 1056)
+      (y 832)
+    )
+    (decal
+      (sprite "/images/creatures/fish/f2.png")
+      (x 1760)
+      (y 864)
+    )
+    (decal
+      (sprite "/images/creatures/fish/f2.png")
+      (x 1344)
+      (y 832)
+    )
+    (decal
+      (sprite "/images/creatures/fish/f2.png")
+      (x 2048)
+      (y 896)
     )
     (level
       (level "levels/intro.stl")
@@ -106,13 +138,11 @@
     )
     (level
       (level "levels/up-or-down.stl")
-      (extro-script "exit_worldmap();")
       (x 19)
       (y 12)
     )
     (level
       (level "levels/electric.stl")
-      (extro-script "exit_worldmap();")
       (x 47)
       (y 20)
     )
@@ -133,7 +163,6 @@
     )
     (level
       (level "levels/airship.stl")
-      (extro-script "exit_worldmap();")
       (x 34)
       (y 16)
     )
@@ -150,7 +179,6 @@
     )
     (level
       (level "levels/mount-iceshrub.stl")
-      (extro-script "exit_worldmap();")
       (x 38)
       (y 14)
     )
@@ -171,7 +199,6 @@
     )
     (level
       (level "levels/gg-mountain.stl")
-      (extro-script "exit_worldmap();")
       (x 38)
       (y 16)
     )

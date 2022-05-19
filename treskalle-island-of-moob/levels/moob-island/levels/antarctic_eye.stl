@@ -9,10 +9,11 @@
       (color 0.6187228 0.5909514 0.5909514)
     )
     (background
+      (color 1 1 1)
       (speed 0.5)
-      (image-top "images/background/arctis_top.jpg")
-      (image "images/background/arctis.jpg")
-      (image-bottom "images/background/arctis_bottom.jpg")
+      (image-top "/images/background/icecliffs/icecliffs-top.png")
+      (image "/images/background/icecliffs/icecliffs-middle.png")
+      (image-bottom "/images/background/icecliffs/icecliffs-bottom.png")
     )
     (camera
       (name "Camera")
@@ -528,18 +529,22 @@
       )
     )
     (willowisp
+      (color 0 1 0)
       (x 4672)
       (y 512)
     )
     (willowisp
+      (color 0 1 0)
       (x 4704)
       (y 512)
     )
     (willowisp
+      (color 0 1 0)
       (x 4704)
       (y 544)
     )
     (willowisp
+      (color 0 1 0)
       (x 4672)
       (y 544)
     )
@@ -550,8 +555,11 @@
       (color 0.233875 0.233875 0.233875)
     )
     (background
+      (color 1 1 1)
       (speed 0.1)
-      (image "images/background/snowcastle.png")
+      (image-top "/images/background/castle/snowcastle.png")
+      (image "/images/background/castle/snowcastle.png")
+      (image-bottom "/images/background/castle/snowcastle.png")
     )
     (camera
       (name "Camera")

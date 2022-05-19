@@ -9,7 +9,8 @@
       (color 1 1 1)
     )
     (background
-      (y -200)
+      (scroll-offset-y -200)
+      (color 1 1 1)
       (speed 0.5)
       (image "images/background/arctis2.png")
     )
@@ -23,6 +24,11 @@
       (badguy "kamikazesnowball")
       (x 4963)
       (y 293)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
     )
     (jumpy
       (x 2528)
