@@ -9,10 +9,11 @@
       (color 1 1 1)
     )
     (background
+      (color 1 1 1)
       (speed 0.5)
-      (image-top "images/background/arctis_top.jpg")
-      (image "images/background/arctis.jpg")
-      (image-bottom "images/background/arctis_bottom.jpg")
+      (image-top "/images/background/icecliffs/icecliffs-top.png")
+      (image "/images/background/icecliffs/icecliffs-middle.png")
+      (image-bottom "/images/background/icecliffs/icecliffs-bottom.png")
     )
     (camera
       (name "Camera")
@@ -27,7 +28,7 @@
       (y 167)
     )
     (hurting_platform
-      (path-ref "d5ab2e27-b565-41c8-aeaf-c1fe35001fa3")
+      (path-ref "gen164235461594095784047200")
     )
     (mrbomb
       (x 3525)
@@ -47,8 +48,9 @@
     (particles-snow
     )
     (path
-      (name "d5ab2e27-b565-41c8-aeaf-c1fe35001fa3")
+      (name "gen164235461594095784047200")
       (path
+        (adapt_speed #f)
         (node
           (x 2277)
           (y 371)

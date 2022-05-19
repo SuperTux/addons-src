@@ -9,10 +9,11 @@
       (color 1 1 1)
     )
     (background
+      (color 1 1 1)
       (speed 0.5)
-      (image-top "images/background/arctis_top.jpg")
-      (image "images/background/arctis_top.jpg")
-      (image-bottom "images/background/arctis_top.jpg")
+      (image-top "/images/background/bluemountain/bluemountain-top.png")
+      (image "/images/background/bluemountain/bluemountain-top.png")
+      (image-bottom "/images/background/bluemountain/bluemountain-top.png")
     )
     (camera
       (name "Camera")
@@ -63,7 +64,7 @@
       (y 904)
     )
     (music
-      (file "music/airship_remix.ogg")
+      (file "antarctic/airship_remix.music")
     )
     (smartball
       (x 803)

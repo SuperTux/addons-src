@@ -9,10 +9,11 @@
       (color 1 1 1)
     )
     (background
+      (color 1 1 1)
       (speed 0.5)
-      (image-top "images/background/arctis_top.jpg")
-      (image "images/background/arctis.jpg")
-      (image-bottom "images/background/arctis_bottom.jpg")
+      (image-top "/images/background/icecliffs/icecliffs-top.png")
+      (image "/images/background/icecliffs/icecliffs-middle.png")
+      (image-bottom "/images/background/icecliffs/icecliffs-bottom.png")
     )
     (camera
       (name "Camera")
@@ -44,8 +45,9 @@
     (particles-snow
     )
     (path
-      (name "505c6133-6b9d-4e81-9518-7e71d790c90e")
+      (name "gen164235516894095881462464")
       (path
+        (adapt_speed #f)
         (node
           (x 864)
           (y 608)
@@ -59,8 +61,9 @@
       )
     )
     (path
-      (name "071d0453-674e-4ca2-8e84-b37c4f56d084")
+      (name "gen164235516894095911257328")
       (path
+        (adapt_speed #f)
         (node
           (x 4352)
           (y 672)
@@ -74,8 +77,9 @@
       )
     )
     (path
-      (name "204a5550-648f-435b-9670-14b412384f7f")
+      (name "gen164235516894095917918448")
       (path
+        (adapt_speed #f)
         (node
           (x 2592)
           (y 0)
@@ -90,16 +94,16 @@
     )
     (platform
       (name "PitPlatform1")
-      (path-ref "505c6133-6b9d-4e81-9518-7e71d790c90e")
+      (path-ref "gen164235516894095881462464")
     )
     (platform
       (name "PitPlatform2")
-      (path-ref "071d0453-674e-4ca2-8e84-b37c4f56d084")
+      (path-ref "gen164235516894095911257328")
     )
     (platform
       (running #f)
       (name "SecretBlock")
-      (path-ref "204a5550-648f-435b-9670-14b412384f7f")
+      (path-ref "gen164235516894095917918448")
       (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (secretarea
@@ -128,6 +132,7 @@
       (script "SecretBlock.goto_node(1)
 wait(5)
 SecretBlock.goto_node(0)")
+      (sprite "images/objects/switch/switch.sprite")
       (x 3040)
       (y 640)
     )

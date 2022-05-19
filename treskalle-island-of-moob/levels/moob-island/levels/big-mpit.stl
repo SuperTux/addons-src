@@ -9,10 +9,11 @@
       (color 1 1 1)
     )
     (background
+      (color 1 1 1)
       (speed 0.5)
-      (image-top "images/background/arctis_top.jpg")
-      (image "images/background/arctis.jpg")
-      (image-bottom "images/background/arctis_bottom.jpg")
+      (image-top "/images/background/icecliffs/icecliffs-top.png")
+      (image "/images/background/icecliffs/icecliffs-middle.png")
+      (image-bottom "/images/background/icecliffs/icecliffs-bottom.png")
     )
     (camera
       (name "Camera")
@@ -28,8 +29,9 @@
     (particles-snow
     )
     (path
-      (name "6b5b1521-bd1a-4f42-a13e-d9a563f44cfd")
+      (name "gen164235489694095912554288")
       (path
+        (adapt_speed #f)
         (node
           (x 1472)
           (y 384)
@@ -43,8 +45,9 @@
       )
     )
     (path
-      (name "fc0b0fd1-ca91-4957-a15e-76a3c593d20c")
+      (name "gen164235489694095803442032")
       (path
+        (adapt_speed #f)
         (node
           (x 4384)
           (y 224)
@@ -58,8 +61,9 @@
       )
     )
     (path
-      (name "e1d1f863-da3a-4a4d-b5d2-5977b2d1c157")
+      (name "gen164235489694095913349536")
       (path
+        (adapt_speed #f)
         (node
           (x 5632)
           (y 320)
@@ -73,8 +77,9 @@
       )
     )
     (path
-      (name "0f7b4274-e3bd-46ef-a201-48b9fd9704b5")
+      (name "gen164235489694095917276608")
       (path
+        (adapt_speed #f)
         (node
           (x 5280)
           (y 320)
@@ -88,19 +93,19 @@
       )
     )
     (platform
-      (path-ref "6b5b1521-bd1a-4f42-a13e-d9a563f44cfd")
+      (path-ref "gen164235489694095912554288")
       (sprite "images/objects/platforms/small.sprite")
     )
     (platform
-      (path-ref "fc0b0fd1-ca91-4957-a15e-76a3c593d20c")
+      (path-ref "gen164235489694095803442032")
       (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (path-ref "e1d1f863-da3a-4a4d-b5d2-5977b2d1c157")
+      (path-ref "gen164235489694095913349536")
       (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (platform
-      (path-ref "0f7b4274-e3bd-46ef-a201-48b9fd9704b5")
+      (path-ref "gen164235489694095917276608")
       (sprite "images/objects/platforms/wood-tiny.sprite")
     )
     (smartball
