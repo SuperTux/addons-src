@@ -160,9 +160,9 @@
 (tiles
 	(width 4)(height 4)
 	(images 
-		(region "worldmap/shared/roads.png" 96 128 32 32)
+		(region "worldmap/shared/invisible_paths.png" 0 0 128 128)
 	)
-	(editor-images "worldmap/shared/invisible_paths-editor.png")
+	(editor-images "worldmap/shared/invisible_paths-editor.png" 0 0 128 128)
 	(ids
 		2030 2031 2032 2033
 		2034 2035 2036 2037
@@ -285,7 +285,7 @@
 (tile
   (id 1)
   (images
-    (region "worldmap/shared/roads.png" 64 64 32 32)
+    (region "worldmap/shared/invisible_paths.png" 64 32 32 32)
   )
   (editor-images
     (region "worldmap/shared/invisible_paths-editor.png" 64 32 32 32)
