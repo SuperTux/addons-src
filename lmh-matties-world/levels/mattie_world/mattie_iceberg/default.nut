@@ -266,7 +266,7 @@ function find(egg){
 
 function show_map_rewards(){
   if(reward["secrets"]){
-    wait(1);
+//    wait(1);
     shop.fade(1,3);
     reward["secrets"] <- false;
     save_progress();
@@ -276,7 +276,7 @@ function show_map_rewards(){
   }
 
   if(reward["mineshaft"]){
-    wait(1);
+//    wait(1);
     SSH_MS.fade(0,0);
     SSB_MS.fade(1,3);
     reward["mineshaft"] <- false;
@@ -288,7 +288,7 @@ function show_map_rewards(){
     SSH_MS.fade(0,0);
 
   if(reward["airship"]){
-    wait(1);
+//    wait(1);
     SSH_AS.fade(0,0);
     SSB_AS.fade(1,3);
     reward["airship"] <- false;
@@ -300,7 +300,7 @@ function show_map_rewards(){
     SSH_AS.fade(0,0);
 
   if(reward["castle"]){
-    wait(1);
+//    wait(1);
     SSH_TC.fade(0,0);
     SSB_TC.fade(1,3);
     reward["castle"] <- false;
