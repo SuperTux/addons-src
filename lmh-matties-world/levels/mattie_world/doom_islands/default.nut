@@ -46,7 +46,7 @@ if(!("coin_level_active" in state)){
 
 progress <- state.island_bonus;
 reward <- state.island_reveal;
-levelvars <- state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"].levels;
+levelvars <- state.worlds["/levels/mattie_world/doom_islands/worldmap.stwm"].levels;
 in_cave <- state.underground;
 
 //FOLLOWING USED TO PREVENT ERROR DUE TO MAP SHORTENING
