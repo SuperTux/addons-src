@@ -1,0 +1,106 @@
+name: zip-to-repo
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  zip_to_repo: # This Action will pick the base directories containing the modifications, zip the contents of each one individually, are then added or removed to the directory in the target repository.
+    runs-on: ubuntu-latest # EOL supported.
+    env:
+      EOL: '\n'
+      ZIP_IN_DIR: ${{ github.sha }} # This temporary directory only needs a unique name.
+      TARGET_DIR: repository # Zips will be added/deleted to the directory in the target repository.
+      DEST_GITHUB_USERNAME: SuperTux
+      DEST_REPO_NAME: addons
+      API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }} # Change the name to the Token you hold.
+      USER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com # e.g. ${{ github.actor }}[bot]@users.noreply.github.com
+      USER_NAME: github-actions # e.g. ${{ github.actor }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # - name: Get changed files
+        # id: changed_files
+        # uses: tj-actions/changed-files@v24
+        # with:
+          # tj-actions/changed-files#216 never fixed.
+          # separator: ':'
+          # files_ignore: |
+            # .*
+            # .*/**
+            # *:*
+            # *:*/**
+            # **/*:*
+
+      - name: Run
+        id: run
+        run: |
+          echo "Clone target repository."
+          mkdir "${{ env.ZIP_IN_DIR }}"
+          cd "${{ env.ZIP_IN_DIR }}"
+          git clone "https://user:${{ env.API_TOKEN_GITHUB }}@github.com/${{ env.DEST_GITHUB_USERNAME }}/${{ env.DEST_REPO_NAME }}.git"
+          cd ..
+          ls -al "${{ env.ZIP_IN_DIR }}/${{ env.DEST_REPO_NAME }}"
+          if [ ! -e "${{ env.ZIP_IN_DIR }}/${{ env.DEST_REPO_NAME }}/.git" ]
+            then echo "Clone failed." && exit 1
+          fi
+
+          echo "Get base directories."
+          base_dirs=()
+          # Low quality dependency but thanks anyway.
+          # IFS=$'${{ steps.changed_files.inputs.separator }}' read -a files <<< "${{ steps.changed_files.outputs.all_modified_files }}${{ steps.changed_files.inputs.separator }}${{ steps.changed_files.outputs.all_old_new_renamed_files }}"
+          IFS=$'${{ env.EOL }}'
+          files=($(git diff --name-only HEAD^ HEAD))
+          files+=($(git diff --name-only HEAD HEAD^))
+          declare -p files
+          for file in "${files[@]}"
+          do
+            base_dirs+=("$(echo "$file" | cut -d '/' -f1)")
+          done
+          declare -p base_dirs
+
+          echo "Delete zips or add soon."
+          base_dirs_unique=()
+          while IFS= read -rd '' dir
+          do
+            # Need more conditions to check.
+            if [ -f "$dir/$dir.nfo" ]
+            then base_dirs_unique+=("$dir")
+            else (rm -f "${{ env.ZIP_IN_DIR }}/${{ env.DEST_REPO_NAME }}/${{ env.TARGET_DIR }}/$dir.zip")
+            fi
+          done < <(printf "%s\0" "${base_dirs[@]}" | sort -uz)
+          declare -p base_dirs_unique
+
+          echo "Zip base directories for each."
+          mkdir -p "${{ env.ZIP_IN_DIR }}/${{ env.DEST_REPO_NAME }}/${{ env.TARGET_DIR }}"
+          for dir in "${base_dirs_unique[@]}"
+          do
+            (cd "$dir" && zip -r9FS "../${{ env.ZIP_IN_DIR }}/${{ env.DEST_REPO_NAME }}/${{ env.TARGET_DIR }}/$dir.zip" ".")
+          done
+
+          echo "Push zips."
+          cd "${{ env.ZIP_IN_DIR }}/${{ env.DEST_REPO_NAME }}"
+          git config user.name "${{ env.USER_NAME }}"
+          git config user.email "${{ env.USER_EMAIL }}"
+          git add .
+          git status
+          git commit -m "Update from ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}"
+          git log -3
+          git push
+
+      # - name: Push zips to another repository
+        # uses: cpina/github-action-push-to-another-repository@main
+        # env:
+          # SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          # API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        # with:
+          # source-directory: ${{ env.ZIP_IN_DIR }}
+          # target-directory: ${{ env.TARGET_DIR }}
+          # destination-github-username: ${{ env.DEST_GITHUB_USERNAME }}
+          # destination-repository-name: ${{ env.DEST_REPO_NAME }}
+          # user-email: ${{ env.USER_EMAIL }}
+          # user-name: ${{ env.USER_NAME }}
+          # target-branch: master
